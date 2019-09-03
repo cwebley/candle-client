@@ -1,0 +1,185 @@
+scents for bug repellent:
+peppermint
+eucalyptus
+rosemary
+lemongrass
+lavendar
+garlic
+basil
+bergamot
+thyme
+pine
+vetiver
+
+Experiments:
+  in app? or maybe just better as a separate blog
+
+extinguish by blow out vs wick dip vs lid after full melt pool
+  smoke amount
+  smoothness of top after drying
+
+
+fragrance add temperatures and how it affects cold throw/hot throw
+fragrance load and how it affects hot and cold throw
+
+different size of candles with same fragrance load (and in different rooms!) -- any way to try and test this?
+  maybe i can make test candles and elicit help from others at brunches etc
+
+pour temperatures
+room temperature / jar temperature
+wax mixture amounts
+  glass adhesion/frosting
+  sinkholes
+
+what results can i actually measure?
+  total burn time
+  melt pool depth after a set time
+  cold throw/ hot throw using help from friends
+
+Experiments page
+  At least 2 separate batches
+
+  -What is the variable?
+  -What is being tested?
+
+  control candles
+  experimental candles
+
+  data:
+    given a set of candles (control or experimental), get a subset of results like burn time
+    can be from the candle data or potentially from its own object store or something
+
+  New Experiment
+    description
+    hypothesis
+
+    add candles, mark what series it is (control/something experimental)
+
+    get the data for each candle, group by series
+    multiple things can be tested
+
+
+need
+  -a way to measure jar temperature given the oven on starts at 170
+
+TODO
+inventory screen
+  -update amounts remaining
+    this helps tracks losses to tests/ experiments etc
+
+search page/ candle lookup
+
+add jar form to allow for jars not associated with orders/ recycled jars/ free jars
+this can probably just be the reg order form with a recycled checkbox by the jar
+
+new button in top left of tables like this:
+https://devexpress.github.io/devextreme-reactive/react/grid/demos/featured/data-editing/
+
+get /batches collection and collection page
+get /batches/:id
+get /candles/:hashId
+put /candles/:hashId edit a candle to add labels boxes owner  completeWeight etc
+get /candles collection of candles?
+  might be useful for tracking
+
+Is this still relevant?
+getBatch needs to return colorDescription.
+get Candle needs to remove it.
+
+double check that prices relying on shareOfShippingPercent calculations are programmatically
+calculated.
+
+max-width for the candle display? https://codesandbox.io/s/50l225l964?from-embed
+
+what are aria labels? all over the dialog.
+and htmlFor on InputLabels
+
+display hashIds on components of candle page
+
+fork mokr. and make these changes in the fixture file:
+this.up = m.up.bind(this, this.state, this.dependencies);
+this.down = m.down.bind(this, this.state, this.dependencies);
+
+a way way to "finish" a package/fo/wick pack etc on candle/batch submit
+after submit in all these forms, clear the damn form. and redirect or whatever
+
+new batch-> batchItem dialog isn't a form.
+
+GET candle-burns endpoint
+returns total burn time + array of burns sorted new to old
+
+candle page update-able fields:
+finishedBurning checkbox on candlepage
+recent burns small table display--and highlight a pending entry pink
+
+inventory routes:
+  info about a particular item:
+    get /<resource-type>/:hashId
+  update info for a particular item:
+    put /<resource-type>/:hashId
+
+  get collection of resource-type aka see all wicks
+  (post is handled by the supply-orders concept)
+    get /<resource-type>
+
+batch page update-able fields:
+color--updates all candle layers
+
+handle owners
+update candle autocomplete with people's names or something
+
+DELETE route and PUT routes for orders/candles/batches that is linked in the snackbar returned would be helpful
+
+update-candle response should maybe return a get-candle request and show a snackbar
+
+recent batches route to display on the main screen or something.
+   so subsequent layers can be easily added and current layers can be weighed from the future
+
+server creates candle name based on fragrance oils used
+
+the tables are kind of gross and don't use space very well.
+maybe a custom div list rendered through https://virtuoso.dev/?path=/story/features-overview--auto-resizing would be nice
+
+candle page price of batchItems in layer dialog is for the whole batch.
+doesn't consider the percent of batch for the layer.
+GET candle-layer or get batch-layers should probably handle this and return wax/db/fo at the layer level
+
+batches page / batch endpoint is a little useless.
+needs to be editable for the color field.
+needs to show calculatedPourWeight instead of prepped weight
+batch-layers should return costs of fos/waxes/dbs
+
+Navigation
+  inventory routes
+  recent candles
+  recent batches
+
+Fragrance Load might need another decimal. looks like .75 rounds up to 8%
+
+Add a color picker to the candle + batch pages
+
+but weight of fo/wax on batch page and candle page layer
+rewrite all calculated cost things to always use a float until the very end
+
+better transition from new-candles to giving you the hashIds
+
+go from new-candle to new-batch with some pre-populated fields
+  new-batch?candles=WBZW,ABCD,DEFG
+put the actual amount of each FO on the candle and batch page--more than just name and price
+
+autocomplete components need some sort of lookup by hash_id endpoint
+  sorted by id desc
+  react-autosuggest looks nice
+  endpoints for
+    candles
+    FOs
+    waxes
+    dbs
+    jars
+    lids
+    wicks
+    wick_stickers
+    etc
+
+Duplicate candle button!
+auto add layers on batch page after submitting candles as an option
