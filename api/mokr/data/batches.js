@@ -401,5 +401,52 @@ module.exports = [
     fragranceAddTemperatureFahrenheit: "185",
     notes:
       "Finished off the vetiver small bottle so this is prob more like 9% FO"
+  },
+  {
+    whenCreated: "2019-09-04",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "11.3" },
+      { type: "wax", hashId: "157P", weightOunces: "0.1" },
+      { type: "wax", hashId: "3761", weightOunces: "0.35" },
+      { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.75" },
+      { type: "dye-blocks", hashId: "OLZY", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "ROPE",
+        whenPoured: "2019-09-04T20:12:12",
+        preppedContainerWeightOunces: "8.6",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "150",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Vetiver minimal bee-coco test 1/3/96",
+    dyeAddTemperatureFahrenheit: "185",
+    fragranceAddTemperatureFahrenheit: "185"
+  },
+  {
+    whenCreated: "2019-09-04",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "11.4" },
+      { type: "wax", hashId: "3761", weightOunces: "0.4" },
+      { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.75" },
+      { type: "dye-blocks", hashId: "VQPW", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "38V5",
+        whenPoured: "2019-09-04T20:18:14",
+        preppedContainerWeightOunces: "8.6",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "145",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Vetiver minimal coco test 3/97",
+    dyeAddTemperatureFahrenheit: "185",
+    fragranceAddTemperatureFahrenheit: "185"
   }
 ];

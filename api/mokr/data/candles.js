@@ -185,7 +185,7 @@ module.exports = [
       wickStickerHashId: "3RO3"
     },
     {
-      name: "Green Apple Sage Votive CS",
+      name: "Data filler candle",
       jarHashId: "M93M",
       wickHashId: "N9WN",
       wickCount: "1",
@@ -193,7 +193,55 @@ module.exports = [
       wickStickerHashId: "3RO3"
     },
     {
-      name: "Green Apple Sage Votive CS",
+      name: "Data filler candle",
+      jarHashId: "M93M",
+      wickHashId: "N9WN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "Data filler candle",
+      jarHashId: "M93M",
+      wickHashId: "N9WN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "Data filler candle",
+      jarHashId: "M93M",
+      wickHashId: "N9WN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "Data filler candle",
+      jarHashId: "M93M",
+      wickHashId: "N9WN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "Data filler candle",
+      jarHashId: "M93M",
+      wickHashId: "N9WN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "Data filler candle",
+      jarHashId: "M93M",
+      wickHashId: "N9WN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "Data filler candle",
       jarHashId: "M93M",
       wickHashId: "N9WN",
       wickCount: "1",
@@ -255,6 +303,22 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3RO3"
+    },
+    {
+      name: "94/3/1 bees-coco",
+      jarHashId: "MVN5",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "95/3 coco-soy",
+      jarHashId: "1KXM",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
     }
   ]
 ];

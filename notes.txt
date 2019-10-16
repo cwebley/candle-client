@@ -1,23 +1,5 @@
-scents for bug repellent:
-peppermint
-eucalyptus
-rosemary
-lemongrass
-lavendar
-garlic
-basil
-bergamot
-thyme
-pine
-vetiver
-
 Experiments:
   in app? or maybe just better as a separate blog
-
-extinguish by blow out vs wick dip vs lid after full melt pool
-  smoke amount
-  smoothness of top after drying
-
 
 fragrance add temperatures and how it affects cold throw/hot throw
 fragrance load and how it affects hot and cold throw
@@ -181,5 +163,6 @@ autocomplete components need some sort of lookup by hash_id endpoint
     wick_stickers
     etc
 
-Duplicate candle button!
-auto add layers on batch page after submitting candles as an option
+Duplicate candle button
+
+node canvas to create labels programmatically
