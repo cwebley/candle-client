@@ -54,6 +54,7 @@ module.exports = function getCandle(req, res) {
           const layerToBatchPercentage =
             pourWeightOuncesDecimal /
             (l.batchData.totalWaxWeightOunces +
+              l.batchData.totalAdditiveWeightOunces +
               l.batchData.totalFragranceWeightOunces);
 
           console.log("pourWeightOuncesDecimal: ", pourWeightOuncesDecimal);
@@ -64,6 +65,10 @@ module.exports = function getCandle(req, res) {
           console.log(
             "totalFragranceWeightOunces: ",
             l.batchData.totalFragranceWeightOunces
+          );
+          console.log(
+            "totalAdditiveWeightOunces: ",
+            l.batchData.totalAdditiveWeightOunces
           );
 
           l.batchData.wax.forEach(w => {
@@ -79,6 +84,14 @@ module.exports = function getCandle(req, res) {
               candleResult,
               l,
               fo,
+              layerToBatchPercentage
+            );
+          });
+          l.batchData.additives.forEach(a => {
+            updateLayerCostsFromResource(
+              candleResult,
+              l,
+              a,
               layerToBatchPercentage
             );
           });

@@ -34,6 +34,7 @@ module.exports = function getSupplyOrder(db, orderId, cb) {
       {
         ["fragrance-oil"]: done => getFragranceOils(db, orderId, done),
         ["wax"]: done => getWaxes(db, orderId, done),
+        ["additives"]: done => getAdditives(db, orderId, done),
         ["boxes"]: done => getBoxes(db, orderId, done),
         ["jars"]: done => getJars(db, orderId, done),
         ["dye-blocks"]: done => getDyeBlocks(db, orderId, done),
@@ -92,6 +93,29 @@ function getWaxes(db, orderId, cb) {
       weight_pounds AS "weightPounds", remaining, FORMAT(price, 2) AS "price",
       share_of_shipping_percent AS "shareOfShippingPercent", notes
     FROM waxes
+    WHERE order_id = ?
+  `;
+
+  const params = [orderId];
+
+  db.query(sql, params, (err, result) => {
+    if (err) {
+      console.error(err, {
+        sql,
+        params
+      });
+    }
+    return cb(err, result);
+  });
+}
+
+function getAdditives(db, orderId, cb) {
+  const sql = `
+    SELECT
+      hash_id AS "hashId", name, slug,
+      weight_ounces AS "weightOunces", remaining, FORMAT(price, 2) AS "price",
+      share_of_shipping_percent AS "shareOfShippingPercent", notes
+    FROM additives
     WHERE order_id = ?
   `;
 

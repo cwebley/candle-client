@@ -28,6 +28,7 @@ create table if not exists resource_types (
 insert into resource_types (`name`, `slug`, `scope`)
   values ("wax", "wax", "batch"),
   ("fragrance oil", "fragrance-oil", "batch"),
+  ("additives", "additives", "batch"),
   ("dye blocks", "dye-blocks", "batch"),
   ("jars", "jars", "candle"),
   ("lids", "lids", "candle"),
@@ -58,8 +59,8 @@ create table if not exists fragrance_oils (
   slug varchar(255) not null,
   category_id int,
   order_id int,
-  weight_ounces decimal(6,4),
-  remaining decimal(6,4),
+  weight_ounces decimal(9,4),
+  remaining decimal(9,4),
   price decimal(13,4) default 0,
   share_of_shipping_percent decimal(6,2) default 0,
   notes text,
@@ -74,8 +75,22 @@ create table if not exists waxes (
   slug varchar(255) not null,
   order_id int,
   material varchar(255),
-  weight_pounds decimal(6,4),
-  remaining decimal(6,4),
+  weight_pounds decimal(9,4),
+  remaining decimal(9,4),
+  price decimal(13,4) default 0,
+  share_of_shipping_percent decimal(6,2) default 0,
+  notes text,
+  foreign key (order_id) references supply_orders(id)
+);
+
+create table if not exists additives (
+  id int not null auto_increment primary key,
+  hash_id varchar(255) unique,
+  name varchar(255) not null,
+  slug varchar(255) not null,
+  order_id int,
+  weight_ounces decimal(9,4),
+  remaining decimal(9,4),
   price decimal(13,4) default 0,
   share_of_shipping_percent decimal(6,2) default 0,
   notes text,
@@ -103,8 +118,8 @@ create table if not exists dye_blocks (
   slug varchar(255) not null,
   color varchar(255) not null,
   order_id int,
-  pieces decimal(6,4),
-  remaining decimal(6,4),
+  pieces decimal(9,4),
+  remaining decimal(9,4),
   price decimal(13,4) default 0,
   share_of_shipping_percent decimal(6,2) default 0,
   notes text,
@@ -118,10 +133,10 @@ create table if not exists jars (
   slug varchar(255) not null,
   color varchar(255),
   order_id int,
-  overflow_volume_ounces decimal(6,4),
-  wax_to_fill_line_ounces decimal(6,4),
-  wax_to_overflow_ounces decimal(6,4),
-  diameter_inches decimal(6,4),
+  overflow_volume_ounces decimal(9,4),
+  wax_to_fill_line_ounces decimal(9,4),
+  wax_to_overflow_ounces decimal(9,4),
+  diameter_inches decimal(9,4),
   count int,
   remaining int,
   price decimal(13,4) default 0,
@@ -137,7 +152,7 @@ create table if not exists lids (
   slug varchar(255) not null,
   color varchar(255),
   order_id int,
-  diameter_inches decimal(6,4),
+  diameter_inches decimal(9,4),
   count int,
   remaining int,
   price decimal(13,4) default 0,
@@ -183,7 +198,7 @@ create table if not exists wicks (
   order_id int,
   count int,
   remaining int,
-  length decimal(6,4),
+  length decimal(9,4),
   series varchar(255),
   size varchar(255),
   price decimal(13,4) default 0,
@@ -221,8 +236,9 @@ create table if not exists batches (
   name varchar(255),
   slug varchar(255),
   color_description varchar(255),
-  total_wax_weight_ounces decimal(6,4),
-  total_fragrance_weight_ounces decimal(6,4),
+  total_wax_weight_ounces decimal(9,4),
+  total_fragrance_weight_ounces decimal(9,4),
+  total_additive_weight_ounces decimal(9,4),
   -- percent fragrance by weight
   fragrance_load decimal(5,2),
   fragrance_add_temperature_fahrenheit decimal (6,2),
@@ -298,16 +314,27 @@ create table if not exists batches_waxes (
   id int not null auto_increment primary key,
   batch_id int not null,
   wax_id int not null,
-  weight_ounces decimal(6,4),
+  weight_ounces decimal(9,4),
   foreign key (batch_id) references batches(id),
   foreign key (wax_id) references waxes(id)
+);
+
+create table if not exists batches_additives (
+  id int not null auto_increment primary key,
+  batch_id int not null,
+  additive_id int not null,
+  weight_ounces decimal(9,4),
+    -- percent additive by weight
+  additive_load decimal(5,2),
+  foreign key (batch_id) references batches(id),
+  foreign key (additive_id) references additives(id)
 );
 
 create table if not exists batches_fragrances (
   id int not null auto_increment primary key,
   batch_id int not null,
   fragrance_id int not null,
-  weight_ounces decimal(6,4),
+  weight_ounces decimal(9,4),
   -- percent fragrance by weight
   fragrance_load decimal(5,2),
   foreign key (batch_id) references batches(id),
@@ -318,7 +345,7 @@ create table if not exists batches_dye_blocks (
   id int not null auto_increment primary key,
   batch_id int not null,
   dye_block_id int not null,
-  pieces decimal(6,4),
+  pieces decimal(9,4),
   foreign key (batch_id) references batches(id),
   foreign key (dye_block_id) references dye_blocks(id)
 );

@@ -448,5 +448,247 @@ module.exports = [
     name: "Vetiver minimal coco test 3/97",
     dyeAddTemperatureFahrenheit: "185",
     fragranceAddTemperatureFahrenheit: "185"
+  },
+  {
+    whenCreated: "2019-12-01",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "8.03" },
+      { type: "wax", hashId: "157P", weightOunces: "0.25" },
+      { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
+      { type: "dye-blocks", hashId: "7BQ7", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "W9J4",
+        whenPoured: "2019-12-01T19:55:49",
+        preppedContainerWeightOunces: "10",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "140",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "3/0 Beeswax-Coco Test",
+    dyeAddTemperatureFahrenheit: "185",
+    fragranceAddTemperatureFahrenheit: "185"
+  },
+  {
+    whenCreated: "2019-12-01",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "7.60" },
+      { type: "wax", hashId: "157P", weightOunces: "0.25" },
+      { type: "wax", hashId: "3761", weightOunces: "0.41" },
+      { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
+      { type: "dye-blocks", hashId: "7BQ7", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "3QQJ",
+        whenPoured: "2019-12-01T19:55:58",
+        preppedContainerWeightOunces: "10.1",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "140",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "3/5 Beeswax-Coco Test",
+    dyeAddTemperatureFahrenheit: "185",
+    fragranceAddTemperatureFahrenheit: "185"
+  },
+  {
+    whenCreated: "2019-12-01",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "7.21" },
+      { type: "wax", hashId: "157P", weightOunces: "0.25" },
+      { type: "wax", hashId: "3761", weightOunces: "0.83" },
+      { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
+      { type: "dye-blocks", hashId: "7BQ7", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "3MX6",
+        whenPoured: "2019-12-01T19:56:06",
+        preppedContainerWeightOunces: "9.0",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "140",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "3/10 Beeswax-Coco Test",
+    dyeAddTemperatureFahrenheit: "185",
+    fragranceAddTemperatureFahrenheit: "185"
+  },
+  {
+    whenCreated: "2019-12-02",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "8" },
+      { type: "wax", hashId: "157P", weightOunces: "0.17" },
+      { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
+      { type: "dye-blocks", hashId: "OGX7", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "376G",
+        whenPoured: "2019-12-02T14:56:13",
+        preppedContainerWeightOunces: "8.8",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "140",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "2/0 Beeswax Coco Test",
+    dyeAddTemperatureFahrenheit: "150",
+    fragranceAddTemperatureFahrenheit: "185",
+    notes: "Wax cloudy around 110, solidified around 98"
+  },
+  {
+    whenCreated: "2019-12-02",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "7.6" },
+      { type: "wax", hashId: "157P", weightOunces: "0.17" },
+      { type: "wax", hashId: "3761", weightOunces: "0.41" },
+      { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
+      { type: "dye-blocks", hashId: "OGX7", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "WYPQ",
+        whenPoured: "2019-12-02T14:56:24",
+        preppedContainerWeightOunces: "8.9",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "140",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "2/5 Beeswax Coco test",
+    dyeAddTemperatureFahrenheit: "150",
+    fragranceAddTemperatureFahrenheit: "185",
+    notes: "Wax cloudy around 110 solidified around 96"
+  },
+  {
+    whenCreated: "2019-12-02",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "7.3" },
+      { type: "wax", hashId: "157P", weightOunces: "0.17" },
+      { type: "wax", hashId: "3761", weightOunces: "0.83" },
+      { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
+      { type: "dye-blocks", hashId: "OGX7", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "355B",
+        whenPoured: "2019-12-02T14:56:23",
+        preppedContainerWeightOunces: "8.7",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "140",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "2/10 Beeswax Coco Test",
+    dyeAddTemperatureFahrenheit: "150",
+    fragranceAddTemperatureFahrenheit: "185",
+    notes: "Wax cloudy around 110, solidified around 95"
+  },
+  {
+    whenCreated: "2019-12-02",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "8.17" },
+      { type: "wax", hashId: "157P", weightOunces: "0.08" },
+      { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
+      { type: "dye-blocks", hashId: "O34V", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "R29V",
+        whenPoured: "2019-12-02T16:17:54",
+        preppedContainerWeightOunces: "8.6",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "138",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "1/0 Beeswax Coco Test",
+    dyeAddTemperatureFahrenheit: "150",
+    fragranceAddTemperatureFahrenheit: "185",
+    notes: "Started getting cloudy at about 110"
+  },
+  {
+    whenCreated: "2019-12-02",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "7.79" },
+      { type: "wax", hashId: "157P", weightOunces: "0.08" },
+      { type: "wax", hashId: "3761", weightOunces: "0.41" },
+      { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
+      { type: "dye-blocks", hashId: "O34V", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "WYPQ",
+        whenPoured: "2019-12-02T16:18:01",
+        preppedContainerWeightOunces: "10.0",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "140",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "1/5 Beeswax Coco",
+    dyeAddTemperatureFahrenheit: "150",
+    fragranceAddTemperatureFahrenheit: "185",
+    notes: "First starting to cloud up at 112"
+  },
+  {
+    whenCreated: "2019-12-02",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "7.35" },
+      { type: "wax", hashId: "157P", weightOunces: "0.08" },
+      { type: "wax", hashId: "3761", weightOunces: "0.83" },
+      { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
+      { type: "dye-blocks", hashId: "O34V", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "355B",
+        whenPoured: "2019-12-02T16:18:06",
+        preppedContainerWeightOunces: "8.5",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "134",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "1/10 Beeswax Coco",
+    dyeAddTemperatureFahrenheit: "150",
+    fragranceAddTemperatureFahrenheit: "185",
+    notes: "First starting to cloud up at 110"
+  },
+  {
+    whenCreated: "2019-12-02",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "8.26" },
+      { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
+      { type: "dye-blocks", hashId: "7ZQ7", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "WB2Z",
+        whenPoured: "2019-12-02T18:36:55",
+        preppedContainerWeightOunces: "8.6",
+        containerTemperatureFahrenheit: "72",
+        pourTemperatureFahrenheit: "140",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "0/0 Beeswax Coco",
+    dyeAddTemperatureFahrenheit: "150",
+    fragranceAddTemperatureFahrenheit: "185",
+    notes: "First cloudy at 116"
   }
 ];

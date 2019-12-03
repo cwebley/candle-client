@@ -5,6 +5,7 @@ const async = require("neo-async");
 module.exports.dependsOn = ["candles", "batches"];
 
 module.exports.up = function(state, dependencies, next) {
+  console.log("STATE: ", state)
   console.log("DEPS: ", dependencies.candles.state.candles);
 
   const seriesFuncs = updatesData.map((update, i) => done =>
@@ -12,7 +13,7 @@ module.exports.up = function(state, dependencies, next) {
       {
         method: "PUT",
         url: `http://localhost:5000/candles/${
-          dependencies.candles.state.candles[0][i].hashId
+          dependencies.candles.state.candles.flat()[i].hashId
         }`,
         json: true,
         body: update

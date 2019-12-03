@@ -7,6 +7,7 @@ module.exports = {
   supplyOrders: new hashIds("supply orders", hashMinimumSize, hashCharacters),
   fragranceOils: new hashIds("fragrance oils", hashMinimumSize, hashCharacters),
   waxes: new hashIds("waxes", hashMinimumSize, hashCharacters),
+  additives: new hashIds("additives", hashMinimumSize, hashCharacters),
   boxes: new hashIds("boxes", hashMinimumSize, hashCharacters),
   dyeBlocks: new hashIds("dye blocks", hashMinimumSize, hashCharacters),
   jars: new hashIds("jars", hashMinimumSize, hashCharacters),

@@ -2381,7 +2381,7 @@ module.exports = [
         name: "Natural Soy 464 Wax",
         material: "soy",
         weightPounds: "10",
-        remaining: "0",
+        remaining: "10",
         price: "27.45",
         shareOfShippingPercent: "100"
       }
@@ -2532,7 +2532,7 @@ module.exports = [
       {
         type: "jars",
         name: "Large Ball Mason",
-        waxToFillLineOunces: "24",
+        waxToFillLineOunces: "30",
         waxToOverflowOunces: "",
         overflowVolumeOunces: "42",
         diameterInches: "3",
@@ -2795,5 +2795,778 @@ module.exports = [
     shippingCost: "0",
     taxesAndFees: "0",
     totalCost: "18.99"
+  },
+  {
+    openDate: "2019-05-03",
+    items: [
+      {
+        type: "misc-equipment",
+        name: "Wagner Spraytech Wagner 0503008 HT1000 Heat Gun",
+        count: "1",
+        remaining: "1",
+        price: "27.85",
+        shareOfShippingPercent: "100",
+        notes: "2 Temp Settings 750ᵒF & 1000ᵒF"
+      }
+    ],
+    source: "Amazon",
+    subtotalCost: "27.85",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "27.85"
+  },
+  {
+    openDate: "2019-09-03",
+    items: [
+      {
+        type: "misc-equipment",
+        name:
+          "EricX Light Candle Making Pouring Pot, 4 pounds, Dripless Pouring Spout & Heat-Resisting Handle Designed Wax Melting Pot, Aluminum Construction Candle Making Pitcher",
+        count: "2",
+        remaining: "2",
+        price: "23.90",
+        shareOfShippingPercent: "33"
+      },
+      {
+        type: "misc-equipment",
+        name:
+          "Taylor Precision Products Classic Line Candy/Deep Fry Thermometer Assorted Colors - Set of 3",
+        count: "3",
+        remaining: "3",
+        price: "10.96",
+        shareOfShippingPercent: "15"
+      },
+      {
+        type: "misc-equipment",
+        name:
+          'Escali AHC1 NSF Certified Candy/Deep Fry/Confection Thermometer with Extra Dial, 5.5" Probe, Silver',
+        count: "1",
+        remaining: "1",
+        price: "11.99",
+        shareOfShippingPercent: "15"
+      },
+      {
+        type: "misc-equipment",
+        name:
+          "Etekcity 1022D Dual Laser Digital Infrared Thermometer Temperature Gun Non-contact -58℉~1022℉ (-50℃ ~ 550℃) with Adjustable Emissivity & Max Measure for Meat Refrigerator Pool Oven",
+        count: "1",
+        remaining: "1",
+        price: "21.59",
+        shareOfShippingPercent: "20"
+      },
+      {
+        type: "misc-equipment",
+        name:
+          "Pack of 12pcs Metal Candle Wick Centering Devices - Kare & Kind retail packaging (wick centering device, Silver)",
+        count: "12",
+        remaining: "12",
+        price: "7.99",
+        shareOfShippingPercent: "10"
+      }
+    ],
+    source: "Amazon",
+    subtotalCost: "76.43",
+    shippingCost: "0",
+    taxesAndFees: "3.67",
+    totalCost: "80.10"
+  },
+  {
+    openDate: "2019-09-04",
+    items: [
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Tonka and Oud",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Holly Berry",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Cotton Tree",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Coconut",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Macintosh Apple",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Black Currant Absinthe",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Frosted Juniper",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wax",
+        name: "Golden Brands 464 Soy Wax",
+        material: "Soy",
+        weightPounds: "10",
+        remaining: "10",
+        price: "16.46",
+        shareOfShippingPercent: "33"
+      },
+      {
+        type: "wax",
+        name: "Golden Brands 464 Soy Wax",
+        material: "Soy",
+        weightPounds: "10",
+        remaining: "10",
+        price: "16.46",
+        shareOfShippingPercent: "33"
+      },
+      {
+        type: "wicks",
+        name: 'CD 16 6" Pretabbed Wick',
+        length: "6",
+        count: "12",
+        remaining: "12",
+        series: "CD",
+        size: "16",
+        price: "2.47",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'CD 18 6" Pretabbed Wick',
+        length: "6",
+        count: "12",
+        remaining: "12",
+        series: "CD",
+        size: "18",
+        price: "2.47",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'CD 20 6" Pretabbed Wick',
+        length: "6",
+        count: "12",
+        remaining: "12",
+        series: "CD",
+        size: "20",
+        price: "2.47",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Pumpkin Chai",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Fresh Coffee",
+        weightOunces: "1",
+        remaining: "1",
+        price: "2.47",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Sea Mist",
+        weightOunces: "1",
+        remaining: "1",
+        price: "2.47",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Red Currant",
+        weightOunces: "1",
+        remaining: "1",
+        price: "2.47",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'CD 26 6" Pretabbed Wick',
+        length: "6",
+        count: "12",
+        remaining: "12",
+        series: "CD",
+        size: "26",
+        price: "2.47",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'CD 24 6" Pretabbed Wick',
+        length: "6",
+        count: "12",
+        remaining: "12",
+        series: "CD",
+        size: "24",
+        price: "2.47",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'CD 22 6" Pretabbed Wick',
+        length: "6",
+        count: "12",
+        remaining: "12",
+        series: "CD",
+        size: "22",
+        price: "2.47",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'CD 14 6" Pretabbed Wick',
+        length: "6",
+        count: "12",
+        remaining: "12",
+        series: "CD",
+        size: "14",
+        price: "2.47",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'CD 12 6" Pretabbed Wick',
+        length: "6",
+        count: "12",
+        remaining: "12",
+        series: "CD",
+        size: "12",
+        price: "2.47",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "other",
+        name: "Library",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Apple Harvest",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Peppermint Mocha",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Mull Cider and Chestnuts",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Peppermint and Eucalyptus",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Red Roses",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Caramel Popcorn",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "White Currant",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "spice",
+        name: "Peppercorn Pomander",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "English Garden",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "spice",
+        name: "Very Vanilla",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Candied Apple",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Garden Mint",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Cotton Candy",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "White Tea",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Toasted Pumpkin Spice",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Hot Apple Pie",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Fallen Leaves",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0.99",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'LX 12 3" Pretabbed Wick',
+        length: "3",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "12",
+        price: "1.11",
+        shareOfShippingPercent: "2",
+        notes: "Part of an LX Wick Sample Kit"
+      },
+      {
+        type: "wicks",
+        name: 'LX 14 6" Pretabbed Wick',
+        length: "6",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "14",
+        price: "1.11",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'LX 16 6" Pretabbed Wick',
+        length: "6",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "16",
+        price: "1.11",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'LX 18 6" Pretabbed Wick',
+        length: "6",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "16",
+        price: "1.11",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'LX 20 6" Pretabbed Wick',
+        length: "6",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "20",
+        price: "1.11",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'LX 22 6" Pretabbed Wick',
+        length: "6",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "22",
+        price: "1.11",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'LX 24 6" Pretabbed Wick',
+        length: "6",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "24",
+        price: "1.11",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'LX 26 6" Pretabbed Wick',
+        length: "6",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "26",
+        price: "1.11",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'LX 28 6" Pretabbed Wick',
+        length: "6",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "28",
+        price: "1.11",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'LX 12 3" Pretabbed Wick',
+        length: "3",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "12",
+        price: "1.11",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'LX 14 6" Pretabbed Wick',
+        length: "6",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "14",
+        price: "1.11",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'LX 16 6" Pretabbed Wick',
+        length: "6",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "16",
+        price: "1.11",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'LX 18 6" Pretabbed Wick',
+        length: "6",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "18",
+        price: "1.11",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'LX 20 6" Pretabbed Wick',
+        length: "6",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "20",
+        price: "1.11",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'LX 22 6" Pretabbed Wick',
+        length: "6",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "22",
+        price: "1.11",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'LX 24 6" Pretabbed Wick',
+        length: "6",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "24",
+        price: "1.11",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'LX 26 6" Pretabbed Wick',
+        length: "6",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "26",
+        price: "1.11",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wicks",
+        name: 'LX 28 6" Pretabbed Wick',
+        length: "6",
+        count: "5",
+        remaining: "5",
+        series: "LX",
+        size: "28",
+        price: "1.11",
+        shareOfShippingPercent: "2"
+      }
+    ],
+    source: "Candle Science",
+    subtotalCost: "104.82",
+    shippingCost: "32.36",
+    taxesAndFees: "0",
+    totalCost: "137.18"
+  },
+  {
+    openDate: "2019-12-01",
+    items: [
+      {
+        type: "jars",
+        name: "Ball Mason Wide Mouth",
+        waxToFillLineOunces: "11.84",
+        overflowVolumeOunces: "16",
+        diameterInches: "3",
+        color: "clear",
+        count: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "100",
+        notes: "This is recycled, not sure from what"
+      }
+    ],
+    source: "Recycled",
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0"
+  },
+  {
+    openDate: "2019-12-02",
+    items: [
+      {
+        type: "jars",
+        name: "Mason Thin Screw Lid",
+        diameterInches: "3",
+        waxToFillLineOunces: "11.8",
+        waxToOverflowOunces: "",
+        overflowVolumeOunces: "16",
+        color: "clear",
+        count: "3",
+        remaining: "3",
+        price: "0",
+        shareOfShippingPercent: "100",
+        notes: "Recycled from Clint's salsa"
+      },
+      {
+        type: "jars",
+        name: "Mason no marking",
+        waxToFillLineOunces: "11.8",
+        overflowVolumeOunces: "16",
+        diameterInches: "3",
+        color: "clear",
+        count: "2",
+        remaining: "2",
+        price: "0",
+        shareOfShippingPercent: "100",
+        notes: "Recycled from Mark's salsa"
+      },
+      {
+        type: "jars",
+        name: "Ball Mason Wide Mouth",
+        waxToFillLineOunces: "11.84",
+        overflowVolumeOunces: "16",
+        diameterInches: "3",
+        color: "clear",
+        count: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "100",
+        notes: "Recycled from something"
+      },
+      {
+        type: "jars",
+        name: "Large Ball Mason",
+        waxToFillLineOunces: "30",
+        overflowVolumeOunces: "42",
+        diameterInches: "3",
+        color: "clear",
+        count: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "100",
+        notes: "Recycled from something"
+      }
+    ],
+    source: "Recycled",
+    notes: "These are all recycled",
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0"
+  },
+  {
+    openDate: "2019-12-02",
+    items: [
+      {
+        type: "jars",
+        name: "Mason Thin Screw Lid",
+        waxToFillLineOunces: "11.8",
+        overflowVolumeOunces: "16",
+        diameterInches: "3",
+        color: "clear",
+        count: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "100",
+        notes: "Recycled from Clint's salsa"
+      },
+      {
+        type: "jars",
+        name: "Mason no marking",
+        waxToFillLineOunces: "11.8",
+        overflowVolumeOunces: "16",
+        diameterInches: "3",
+        color: "clear",
+        count: "8",
+        remaining: "8",
+        price: "0",
+        shareOfShippingPercent: "100",
+        notes: "Recycled from Mark's salsa"
+      }
+    ],
+    source: "Recycled Salsas",
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0"
   }
 ];

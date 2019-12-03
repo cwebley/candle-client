@@ -3,12 +3,12 @@ const slug = require("slug");
 const calculateCosts = require("../util/calculate-costs");
 
 module.exports = function getBatch(db, { batchId }, cb) {
-  console.log("TOP OF GET BATCH");
   const sql = `
     SELECT
       b.id, b.hash_id AS "hashId", name, slug,
       b.total_wax_weight_ounces AS "totalWaxWeightOunces",
       b.total_fragrance_weight_ounces AS "totalFragranceWeightOunces",
+      b.total_additive_weight_ounces AS "totalAdditiveWeightOunces",
       b.fragrance_load AS "fragranceLoad",
       b.fragrance_add_temperature_fahrenheit AS "fragranceAddTemperatureFahrenheit",
       b.dye_add_temperature_fahrenheit AS "dyeAddTemperatureFahrenheit",
@@ -39,6 +39,7 @@ module.exports = function getBatch(db, { batchId }, cb) {
     async.parallel(
       {
         ["fragranceOil"]: done => getBatchesFragranceOils(db, batchId, done),
+        ["additives"]: done => getBatchesAdditives(db, batchId, done),
         ["wax"]: done => getBatchesWaxes(db, batchId, done),
         ["dyeBlocks"]: done => getBatchesDyeBlocks(db, batchId, done)
       },
@@ -48,6 +49,7 @@ module.exports = function getBatch(db, { batchId }, cb) {
           return cb(err);
         }
         batch.fragranceOil = results.fragranceOil;
+        batch.additives = results.additives;
         batch.wax = results.wax;
         batch.dyeBlocks = results.dyeBlocks;
 
@@ -99,6 +101,51 @@ function getBatchesFragranceOils(db, batchId, cb) {
       });
 
       item.type = "fragrance-oil";
+    });
+    return cb(err, result);
+  });
+}
+
+function getBatchesAdditives(db, batchId, cb) {
+  const sql = `
+    SELECT
+      ba.weight_ounces AS "weightOunces", ba.additive_load AS "additiveLoad",
+      a.hash_id AS "hashId", a.name, a.slug,
+      a.order_id, a.weight_ounces AS "itemWeightOunces",
+      a.price AS "itemCost", a.share_of_shipping_percent AS "shareOfShippingPercent",
+      a.notes, so.source, so.item_count AS "orderItemCount",
+      so.subtotal_cost AS "orderSubtotalCost", so.taxes_and_fees AS "orderTaxesAndFees",
+      so.shipping_cost AS "orderShippingCost", so.total_cost AS "orderTotalCost"
+    FROM batches_additives ba
+    LEFT JOIN additives a ON a.id = ba.additive_id
+    LEFT JOIN supply_orders so ON so.id = a.order_id
+    WHERE ba.batch_id = ?
+  `;
+
+  const params = [batchId];
+
+  console.log("GET ADDITIVES FOR BATCH");
+  db.query(sql, params, (err, result) => {
+    console.log("DONT GETTING ADDITIVES FOR BATCH");
+    if (err) {
+      console.error(err, {
+        sql,
+        params
+      });
+    }
+
+    result.forEach(item => {
+      item.calculatedCosts = calculateCosts({
+        amountUsed: item.weightOunces,
+        packageAmount: item.itemWeightOunces,
+        resourceCost: item.itemCost,
+        shareOfShippingPercent: item.shareOfShippingPercent,
+        orderSubtotal: item.orderSubtotalCost,
+        orderTaxesAndFees: item.orderTaxesAndFees,
+        orderShippingCost: item.orderShippingCost
+      });
+
+      item.type = "additive";
     });
     return cb(err, result);
   });

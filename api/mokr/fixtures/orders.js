@@ -3,6 +3,7 @@ const request = require("request");
 const async = require("neo-async");
 
 module.exports.up = function(state, dependencies, next) {
+  console.log("TCL: module.exports.up -> state, dependencies, next", state, dependencies, next)
   const seriesFuncs = ordersData.map(o => done =>
     request(
       {

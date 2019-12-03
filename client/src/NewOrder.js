@@ -22,6 +22,7 @@ import LidForm from "./resource-types/LidForm";
 import BoxForm from "./resource-types/BoxForm";
 import DyeBlockForm from "./resource-types/DyeBlockForm";
 import WaxForm from "./resource-types/WaxForm";
+import AdditiveForm from "./resource-types/AdditiveForm";
 import WickForm from "./resource-types/WickForm";
 import WickStickerForm from "./resource-types/WickStickerForm";
 import WarningLabelForm from "./resource-types/WarningLabelForm";
@@ -181,13 +182,10 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
     fetchFragranceOilCategories();
   }, []);
 
-  useEffect(
-    () => {
-      // update the new item form with the defaults fetched from the server
-      setNewItemValues(defaultNewItemValues);
-    },
-    [defaultNewItemValues]
-  );
+  useEffect(() => {
+    // update the new item form with the defaults fetched from the server
+    setNewItemValues(defaultNewItemValues);
+  }, [defaultNewItemValues]);
 
   const handleFormValueChange = e => {
     const name = e.target.name;
@@ -312,6 +310,12 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
             )}
             {newItemValues.type === "wax" && (
               <WaxForm
+                newItemValues={newItemValues}
+                onChange={handleNewItemFormValueChange}
+              />
+            )}
+            {newItemValues.type === "additives" && (
+              <AdditiveForm
                 newItemValues={newItemValues}
                 onChange={handleNewItemFormValueChange}
               />

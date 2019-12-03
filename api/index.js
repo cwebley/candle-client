@@ -11,7 +11,6 @@ const updateCandle = require("./handlers/update-candle");
 const getBatch = require("./handlers/get-batch");
 const getCandle = require("./handlers/get-candle");
 const getCandleWaxToFillSuggestion = require("./handlers/get-candle-wax-to-fill-suggestion");
-const mysqlConnect = require("./util/mysql-connect");
 
 app.use(bodyParser.json());
 app.use(cors());

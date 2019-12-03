@@ -12,12 +12,13 @@
     "dotenv-expand": "^5.1.0",
     "material-ui-pickers": "^2.2.4",
     "moment": "^2.24.0",
+    "node-sass": "^4.13.0",
     "notistack": "^0.7.0",
     "query-string": "^6.5.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.0"
+    "react-scripts": "^3.2.0"
   },
   "scripts": {
     "start": "PORT=3002 react-scripts start",

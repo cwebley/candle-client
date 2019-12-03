@@ -16,8 +16,6 @@ const config = require("./util/config");
 
 // Database Connection for Development
 
-console.log("CONFIG: ", config);
-
 let connection = mysql.createConnection({
   host: config.mysql.host,
   user: config.mysql.user,

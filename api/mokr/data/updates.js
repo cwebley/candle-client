@@ -183,5 +183,78 @@ module.exports = [
   },
   // bee-coco test
   {},
-  {}
+  {},
+  // 3 perecent beeswax series
+  {
+    completedCandleWeightOunces: "18.6",
+    volumeOverflowPercent: "60",
+    colorDescription: "teal",
+    notes:
+      "several passes with a heat gun and still not the smoothest top. but presentable enough. poor glass adhesion",
+    burns: []
+  },
+  {
+    completedCandleWeightOunces: "18.6",
+    volumeOverflowPercent: "60",
+    colorDescription: "teal",
+    notes:
+      "several heatgun passes for sinkhole correction, poor glass adhesion.",
+    burns: []
+  },
+  {
+    completedCandleWeightOunces: "17.6",
+    volumeOverflowPercent: "60",
+    colorDescription: "teal",
+    notes: "several heatgun passes to correct sinkholes. poor glass adhesion.",
+    burns: []
+  },
+
+  // 2 percent beeswax series
+  {
+    completedCandleWeightOunces: "17.1",
+    volumeOverflowPercent: "60",
+    colorDescription: "light blue",
+    notes: "cratered around the wick, fixing with heat gun",
+    burns: []
+  },
+  {
+    completedCandleWeightOunces: "17.2",
+    volumeOverflowPercent: "60",
+    colorDescription: "light blue",
+    notes: "cratered around the wick, fixing with heat gun",
+    burns: []
+  },
+  {
+    completedCandleWeightOunces: "17.4",
+    volumeOverflowPercent: "60",
+    colorDescription: "light blue",
+    notes: "ginormous crater around the wick, fixing with heat gun",
+    burns: []
+  },
+
+  // 1 percent beeswax series
+  {
+    completedCandleWeightOunces: "17.2",
+    volumeOverflowPercent: "60",
+    colorDescription: "bright orange",
+    notes:
+      "pretty darn smooth, great adhesion etc. tiny bubbles on the surface but definitely okay",
+    burns: []
+  },
+  {
+    completedCandleWeightOunces: "18.7",
+    volumeOverflowPercent: "60",
+    colorDescription: "bright orange",
+    notes:
+      "pretty darn smooth, great adhesion etc. tiny bubbles on the surface but definitely okay",
+    burns: []
+  },
+  {
+    completedCandleWeightOunces: "16.3",
+    volumeOverflowPercent: "60",
+    colorDescription: "bright orange",
+    notes:
+      "bigger miniscous with some super shallow craters but probably presentable",
+    burns: []
+  }
 ];

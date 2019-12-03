@@ -319,6 +319,102 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "4D7B"
+    },
+    {
+      name: "3/0 Beeswax Coco Test Series",
+      jarHashId: "123M",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "3/5 Beeswax Coco Test Series",
+      jarHashId: "1KXM",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "3/10 Beeswax Coco Test Series",
+      jarHashId: "MDK5",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "2/0 Beeswax Coco Test Series",
+      jarHashId: "5JQ1",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "2/5 Beeswax Coco Test Series",
+      jarHashId: "5JQ1",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "2/10 Beeswax Coco Test Series",
+      jarHashId: "5JQ1",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "1/0 Beeswax Coco Test",
+      jarHashId: "M6X9",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "1/5 Beeswax Coco Test",
+      jarHashId: "53OO",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "1/10 Beeswax Coco",
+      jarHashId: "M6X9",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "0/0 Beeeswax Coco Test",
+      jarHashId: "MGPX",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "0/5 Beeswax Coco Test",
+      jarHashId: "MGPX",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "0/10 Beeswax Coco Test",
+      jarHashId: "MGPX",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
     }
   ]
 ];

@@ -21,6 +21,7 @@ module.exports = function postSupplyOrder(db, data, cb) {
         item => item.type === "fragrance-oil"
       );
       const waxes = data.items.filter(item => item.type === "wax");
+      const additives = data.items.filter(item => item.type === "additives");
       const boxes = data.items.filter(item => item.type === "boxes");
       const dyeBlocks = data.items.filter(item => item.type === "dye-blocks");
       const jars = data.items.filter(item => item.type === "jars");
@@ -40,6 +41,7 @@ module.exports = function postSupplyOrder(db, data, cb) {
         [
           done => insertFragranceOils(db, fragranceOils, orderId, done),
           done => insertWaxes(db, waxes, orderId, done),
+          done => insertAdditives(db, additives, orderId, done),
           done => insertBoxes(db, boxes, orderId, done),
           done => insertDyeBlocks(db, dyeBlocks, orderId, done),
           done => insertJars(db, jars, orderId, done),
@@ -194,7 +196,6 @@ function insertWaxes(db, data, orderId, cb) {
     return cb();
   }
 
-  const valueMarkers = data.map(d => `(?, ?, ?, ?, ?, ?, ?)`);
   const rowData = data.map(d => [
     d.name,
     slug(d.name, { lower: true }),
@@ -254,12 +255,73 @@ function insertWaxes(db, data, orderId, cb) {
   });
 }
 
+function insertAdditives(db, data, orderId, cb) {
+  if (!data.length) {
+    return cb();
+  }
+
+  const rowData = data.map(d => [
+    d.name,
+    slug(d.name, { lower: true }),
+    d.weightOunces,
+    d.remaining,
+    d.price,
+    d.shareOfShippingPercent,
+    orderId,
+    d.notes
+  ]);
+  params = [rowData];
+
+  const sql = `
+      INSERT INTO additives
+        (name, slug, weight_ounces, remaining, price, share_of_shipping_percent, order_id, notes)
+      VALUES ?
+    `;
+
+  db.query(sql, [rowData], (err, result) => {
+    if (err) {
+      console.error(err, {
+        sql,
+        params
+      });
+      return rollback(db, err, cb);
+    }
+
+    // now insert the hashIds
+    let rowIndices = [];
+    for (let i = 0; i < result.affectedRows; i++) {
+      rowIndices.push(result.insertId + i);
+    }
+
+    const updateFuncs = rowIndices.map(rowIndex => {
+      return done => {
+        const sql = `UPDATE additives SET hash_id = ? WHERE id = ?`;
+        const params = [hashConfig.additives.encode(rowIndex), rowIndex];
+        db.query(sql, params, (err, result) => {
+          if (err) {
+            console.error(err, {
+              sql,
+              params
+            });
+          }
+          done(err, result);
+        });
+      };
+    });
+    async.parallel(updateFuncs, (err, results) => {
+      if (err) {
+        return rollback(db, err, cb);
+      }
+      cb(err, results);
+    });
+  });
+}
+
 function insertBoxes(db, data, orderId, cb) {
   if (!data.length) {
     return cb();
   }
 
-  const valueMarkers = data.map(d => `(?, ?, ?, ?, ?, ?, ?)`);
   const rowData = data.map(d => [
     d.name,
     slug(d.name, { lower: true }),
@@ -322,7 +384,6 @@ function insertDyeBlocks(db, data, orderId, cb) {
     return cb();
   }
 
-  const valueMarkers = data.map(d => `(?, ?, ?, ?, ?, ?, ?, ?)`);
   const rowData = data.map(d => [
     d.name,
     slug(d.name, { lower: true }),
@@ -387,7 +448,6 @@ function insertJars(db, data, orderId, cb) {
     return cb();
   }
 
-  const valueMarkers = data.map(d => `(?, ?, ?, ?, ?, ?, ?, ?, ?)`);
   const rowData = data.map(d => [
     d.name,
     slug(d.name, { lower: true }),
@@ -458,7 +518,6 @@ function insertLids(db, data, orderId, cb) {
     return cb();
   }
 
-  const valueMarkers = data.map(d => `(?, ?, ?, ?, ?, ?, ?, ?, ?)`);
   const rowData = data.map(d => [
     d.name,
     slug(d.name, { lower: true }),
@@ -525,7 +584,6 @@ function insertMiscEquipment(db, data, orderId, cb) {
     return cb();
   }
 
-  const valueMarkers = data.map(d => `(?, ?, ?, ?, ?, ?, ?)`);
   const rowData = data.map(d => [
     d.name,
     slug(d.name, { lower: true }),
@@ -589,7 +647,6 @@ function insertWarningLabels(db, data, orderId, cb) {
     return cb();
   }
 
-  const valueMarkers = data.map(d => `(?, ?, ?, ?, ?, ?, ?, ?, ?)`);
   const rowData = data.map(d => [
     d.name,
     slug(d.name, { lower: true }),
@@ -654,7 +711,6 @@ function insertWicks(db, data, orderId, cb) {
     return cb();
   }
 
-  const valueMarkers = data.map(d => `(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`);
   const rowData = data.map(d => [
     d.name,
     slug(d.name, { lower: true }),
@@ -721,7 +777,6 @@ function insertWickStickers(db, data, orderId, cb) {
     return cb();
   }
 
-  const valueMarkers = data.map(d => `(?, ?, ?, ?, ?, ?, ?)`);
   const rowData = data.map(d => [
     d.name,
     slug(d.name, { lower: true }),
