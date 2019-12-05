@@ -348,13 +348,53 @@ module.exports = [
   },
 
   // 2/8 jar temp tests
-  {},
-  {},
-  {},
-
-
+  {
+    completedCandleWeightOunces: "10.1",
+    volumeOverflowPercent: "40",
+    colorDescription: "cotton candy blue",
+    burns: [],
+    notes:
+      "perfect top, perfect sides. might be too shallow to even allow a sinkhole though."
+  },
+  {
+    completedCandleWeightOunces: "10.0",
+    volumeOverflowPercent: "40",
+    colorDescription: "cotton candy blue",
+    burns: [],
+    notes:
+      "also perfect top, perfect sides. might be too shallow to even allow a sinkhole."
+  },
+  {
+    completedCandleWeightOunces: "24.1",
+    volumeOverflowPercent: "70",
+    colorDescription: "cotton candy blue",
+    burns: [],
+    notes:
+      "perfect sides, circular sinkage on the top. probably easily fixed with heat gun."
+  },
   // 1.5/5 jar temp tests
-  {},
-  {},
-  {}
+  {
+    completedCandleWeightOunces: "10.4",
+    volumeOverflowPercent: "40",
+    colorDescription: "pastel green",
+    burns: [],
+    notes:
+      "perfect top, perfect sides. might be too shallow to even allow a sinkhole though."
+  },
+  {
+    completedCandleWeightOunces: "10.5",
+    volumeOverflowPercent: "40",
+    colorDescription: "pastel green",
+    burns: [],
+    notes:
+      "perfect top, perfect sides. might be too shallow to even allow a sinkhole though."
+  },
+  {
+    completedCandleWeightOunces: "21.7",
+    volumeOverflowPercent: "70",
+    colorDescription: "pastel green",
+    burns: [],
+    notes:
+      "perfect sides, light circular sinkage on the top. probably easily fixed with heat gun."
+  }
 ];
