@@ -416,5 +416,122 @@ module.exports = [
       wickLayout: "center",
       wickStickerHashId: "4D7B"
     }
+  ],
+  [
+    {
+      name: "100% 464 120 pour",
+      jarHashId: "MGPX",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "100% 464 110 Pour",
+      jarHashId: "MGPX",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "2/8/90 120 Pour",
+      jarHashId: "MGPX",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "2/8/90 110 Pour",
+      jarHashId: "MGPX",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "2/15/83 Cold Pour",
+      jarHashId: "ME7B",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "2/20/78 Cold Pour",
+      jarHashId: "MGPX",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "3/15/82 Cold Pour",
+      jarHashId: "5P4M",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "3/20/77 Cold Pour",
+      jarHashId: "5P4M",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+
+    // 12/4/2019
+    {
+      name: "2/8/90 Hot Pour Warm Jar",
+      jarHashId: "1Z7M",
+      wickHashId: "DOLR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "2/8/90 Hot Pour RT Jar",
+      jarHashId: "183M",
+      wickHashId: "N724",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "2/8/90 Cold Pour Warm Jar",
+      jarHashId: "123M",
+      wickHashId: "DOLR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    // 1.5 / 5
+    {
+      name: "1.5/5 hot pour warm jar",
+      jarHashId: "183M",
+      wickHashId: "DOLR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "1.5/5 cold pour RT jar",
+      jarHashId: "MRP2",
+      wickHashId: "N724",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "1.5/5 cold pour warm jar",
+      jarHashId: "123M",
+      wickHashId: "DOLR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    }
   ]
 ];

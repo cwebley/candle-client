@@ -2781,7 +2781,7 @@ module.exports = [
       {
         type: "wax",
         name:
-          "Your Natural Planet (Now Beesworks 1lb White Beeswax Pellets 2 Pack (2-1lb Packages)-Cosmetic Grade All Natural White Beeswax Pellets",
+          "Your Natural Planet Cosmetic Grade All Natural White Beeswax Pellets",
         material: "beeswax",
         weightPounds: "2",
         remaining: "2",
@@ -3564,6 +3564,29 @@ module.exports = [
       }
     ],
     source: "Recycled Salsas",
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0"
+  },
+  {
+    openDate: "2019-12-04",
+    items: [
+      {
+        type: "jars",
+        name: "8 oz. Apothecary Jar",
+        waxToFillLineOunces: "9.9",
+        overflowVolumeOunces: "14.5",
+        diameterInches: "4",
+        color: "clear",
+        count: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "100",
+        notes: "Recycled from a cleaned out candle"
+      }
+    ],
+    source: "Recycled",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",

@@ -23,6 +23,18 @@ export function formatMoment(m) {
   return m.format("yyyy-MM-ddThh:mm:ss");
 }
 
+export function calculateFragranceLoad({
+  fragranceWeightOunces = 0,
+  waxWeightOunces = 0,
+  additiveWeightOunces = 0
+}) {
+  return (
+    (fragranceWeightOunces /
+      (waxWeightOunces + fragranceWeightOunces + additiveWeightOunces)) *
+    100
+  ).toFixed(2);
+}
+
 export default function handleApiError(err, enqueueSnackFunction) {
   const data = err.response && err.response.data;
   if (data && data.reasons) {

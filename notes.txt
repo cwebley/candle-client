@@ -163,6 +163,13 @@ autocomplete components need some sort of lookup by hash_id endpoint
     wick_stickers
     etc
 
-Duplicate candle button
 
 node canvas to create labels programmatically
+
+
+Dye blocks pieces per pound of wax? something like that
+Checkbox for finishing an oil/block/wax/jar/wick/etc
+-- when hit you can make up the remainder with another one somehow
+
+
+Duplicate candle button

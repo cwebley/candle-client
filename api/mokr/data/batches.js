@@ -690,5 +690,309 @@ module.exports = [
     dyeAddTemperatureFahrenheit: "150",
     fragranceAddTemperatureFahrenheit: "185",
     notes: "First cloudy at 116"
+  },
+  {
+    whenCreated: "2019-12-02",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "7.85" },
+      { type: "wax", hashId: "3761", weightOunces: "0.43" },
+      { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
+      { type: "dye-blocks", hashId: "7ZQ7", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "36BB",
+        whenPoured: "2019-12-02T18:37:07",
+        preppedContainerWeightOunces: "8.6",
+        containerTemperatureFahrenheit: "72",
+        pourTemperatureFahrenheit: "140",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "0/5 Beeswax Coco",
+    dyeAddTemperatureFahrenheit: "150",
+    fragranceAddTemperatureFahrenheit: "185",
+    notes: "First cloudy at 113"
+  },
+  {
+    whenCreated: "2019-12-02",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "7.43" },
+      { type: "wax", hashId: "3761", weightOunces: "0.83" },
+      { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
+      { type: "dye-blocks", hashId: "7ZQ7", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "3DEN",
+        whenPoured: "2019-12-02T18:37:17",
+        preppedContainerWeightOunces: "8.6",
+        containerTemperatureFahrenheit: "72",
+        pourTemperatureFahrenheit: "140",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "0/10 Beeswax Coco",
+    dyeAddTemperatureFahrenheit: "150",
+    fragranceAddTemperatureFahrenheit: "185",
+    notes: "First cloudy at 106"
+  },
+  {
+    whenCreated: "2019-12-03",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "16.52" },
+      { type: "fragrance-oil", hashId: "42MJ", weightOunces: "1.05" },
+      { type: "dye-blocks", hashId: "7ZQ7", pieces: "0.2" }
+    ],
+    layers: [
+      {
+        candleHashId: "W9X4",
+        whenPoured: "2019-12-03T17:07:06",
+        preppedContainerWeightOunces: "8.8",
+        containerTemperatureFahrenheit: "72",
+        pourTemperatureFahrenheit: "120",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3QVJ",
+        whenPoured: "2019-12-03T17:07:06",
+        preppedContainerWeightOunces: "8.9",
+        containerTemperatureFahrenheit: "72",
+        pourTemperatureFahrenheit: "110",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "464 Cold Pour Test",
+    dyeAddTemperatureFahrenheit: "170",
+    fragranceAddTemperatureFahrenheit: "140",
+    notes:
+      "Uneven pours. And the 110 pour was already pretty cloudy. Cooled extremely quickly though and the 120 was clear."
+  },
+  {
+    whenCreated: "2019-12-03",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "14.87" },
+      { type: "wax", hashId: "157P", weightOunces: "0.33" },
+      { type: "wax", hashId: "3761", weightOunces: "1.32" },
+      { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.8" },
+      { type: "dye-blocks", hashId: "OGX7", pieces: "0.2" }
+    ],
+    layers: [
+      {
+        candleHashId: "3M76",
+        whenPoured: "2019-12-03T17:07:00",
+        preppedContainerWeightOunces: "8.9",
+        containerTemperatureFahrenheit: "72",
+        pourTemperatureFahrenheit: "120",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "37NG",
+        whenPoured: "2019-12-03T17:07:00",
+        preppedContainerWeightOunces: "8.8",
+        containerTemperatureFahrenheit: "72",
+        pourTemperatureFahrenheit: "110",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "2/8/90 Cold Pour Test",
+    dyeAddTemperatureFahrenheit: "170",
+    fragranceAddTemperatureFahrenheit: "140",
+    notes:
+      "Uneven pours And the 110 pour was almost goopy coming out. Interested to see how it turns out. The 120 was clear though"
+  },
+  {
+    whenCreated: "2019-12-03",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "6.85" },
+      { type: "wax", hashId: "157P", weightOunces: "0.17" },
+      { type: "wax", hashId: "3761", weightOunces: "1.24" },
+      { type: "fragrance-oil", hashId: "4NV8", weightOunces: "0.6" },
+      { type: "dye-blocks", hashId: "OWXV", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "WGYN",
+        whenPoured: "2019-12-03T21:52:05",
+        preppedContainerWeightOunces: "8.9",
+        containerTemperatureFahrenheit: "72",
+        pourTemperatureFahrenheit: "115",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "2/15/83 Cold Pour",
+    dyeAddTemperatureFahrenheit: "160",
+    fragranceAddTemperatureFahrenheit: "135",
+    notes:
+      "First filaments at 110, cloudy by 100. The black die block actually didnt completely dissolve. Cooled sitting on an open cardboard box"
+  },
+  {
+    whenCreated: "2019-12-03",
+    batchItems: [
+      { type: "wax", hashId: "1KVP", weightOunces: "6.36" },
+      { type: "wax", hashId: "157P", weightOunces: "0.17" },
+      { type: "wax", hashId: "3761", weightOunces: "1.65" },
+      { type: "fragrance-oil", hashId: "4NV8", weightOunces: "0.6" },
+      { type: "dye-blocks", hashId: "OWXV", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "3POM",
+        whenPoured: "2019-12-03T21:52:17",
+        preppedContainerWeightOunces: "8.9",
+        containerTemperatureFahrenheit: "72",
+        pourTemperatureFahrenheit: "115",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "2/20/77 Cold Pour",
+    dyeAddTemperatureFahrenheit: "160",
+    fragranceAddTemperatureFahrenheit: "135",
+    notes:
+      "Seemed to have a lower melt point. First filaments at 107, cloudy by 97. Black die block didnt completely dissolve. Maybe need less or a higher temp for longer. Cooled sitting in an open cardboard box."
+  },
+  {
+    whenCreated: "2019-12-03",
+    batchItems: [
+      { type: "wax", hashId: "3XYP", weightOunces: "4.87" },
+      { type: "wax", hashId: "157P", weightOunces: "0.18" },
+      { type: "wax", hashId: "3761", weightOunces: "0.89" },
+      { type: "fragrance-oil", hashId: "4NV8", weightOunces: "0.38" },
+      { type: "dye-blocks", hashId: "VP1O", pieces: "0.05" }
+    ],
+    layers: [
+      {
+        candleHashId: "R2XV",
+        whenPoured: "2019-12-03T22:53:49",
+        preppedContainerWeightOunces: "6.7",
+        containerTemperatureFahrenheit: "72",
+        pourTemperatureFahrenheit: "120",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "3/15/82 Libby Test",
+    dyeAddTemperatureFahrenheit: "170",
+    fragranceAddTemperatureFahrenheit: "140",
+    notes:
+      "First filaments at 114, cloudy at 108. Clear on pour, but seemed a little thick. Cooled sitting on a piece of a cardboard."
+  },
+  {
+    whenCreated: "2019-12-03",
+    batchItems: [
+      { type: "wax", hashId: "3XYP", weightOunces: "4.58" },
+      { type: "wax", hashId: "157P", weightOunces: "0.18" },
+      { type: "wax", hashId: "3761", weightOunces: "1.2" },
+      { type: "fragrance-oil", hashId: "4NV8", weightOunces: "0.38" },
+      { type: "dye-blocks", hashId: "VP1O", pieces: "0.05" }
+    ],
+    layers: [
+      {
+        candleHashId: "WYMQ",
+        whenPoured: "2019-12-03T23:02:59",
+        preppedContainerWeightOunces: "6.8",
+        containerTemperatureFahrenheit: "72",
+        pourTemperatureFahrenheit: "120",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "3/20/77 Libby Test",
+    dyeAddTemperatureFahrenheit: "170",
+    fragranceAddTemperatureFahrenheit: "140",
+    notes:
+      "First filaments at 111, cloudy at 104. Clear on pour but a little thick. Cooled sitting on a piece of cardboard."
+  },
+  {
+    whenCreated: "2019-12-04",
+    batchItems: [
+      { type: "wax", hashId: "157P", weightOunces: "0.32" },
+      { type: "wax", hashId: "3761", weightOunces: "1.27" },
+      { type: "wax", hashId: "3XYP", weightOunces: "14.24" },
+      { type: "fragrance-oil", hashId: "4NV8", weightOunces: "1.01" },
+      { type: "dye-blocks", hashId: "OEWO", pieces: "0.05" }
+    ],
+    layers: [
+      {
+        candleHashId: "35XB",
+        whenPoured: "2019-12-04T18:19:09",
+        preppedContainerWeightOunces: "5.8",
+        coolingRoomTemperatureFahrenheit: "70",
+        coolingRoomHumidityPercent: "50",
+        pourTemperatureFahrenheit: "185",
+        containerTemperatureFahrenheit: "150"
+      },
+      {
+        candleHashId: "WBOZ",
+        whenPoured: "2019-12-04T18:19:09",
+        preppedContainerWeightOunces: "5.8",
+        containerTemperatureFahrenheit: "70",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "70",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "36XB",
+        whenPoured: "2019-12-04T18:19:09",
+        preppedContainerWeightOunces: "14.5",
+        containerTemperatureFahrenheit: "150",
+        pourTemperatureFahrenheit: "120",
+        coolingRoomTemperatureFahrenheit: "70",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "2/8 Beeswax Coco Temp Test",
+    dyeAddTemperatureFahrenheit: "200",
+    fragranceAddTemperatureFahrenheit: "200"
+  },
+  {
+    whenCreated: "2019-12-04",
+    batchItems: [
+      { type: "wax", hashId: "157P", weightOunces: "0.24" },
+      { type: "wax", hashId: "3761", weightOunces: "0.79" },
+      { type: "wax", hashId: "3XYP", weightOunces: "14.79" },
+      { type: "fragrance-oil", hashId: "4NV8", weightOunces: "1.01" },
+      { type: "dye-blocks", hashId: "74ZV", pieces: "0.05" }
+    ],
+    layers: [
+      {
+        candleHashId: "3DNN",
+        whenPoured: "2019-12-04T18:19:29",
+        preppedContainerWeightOunces: "5.8",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50",
+        containerTemperatureFahrenheit: "150"
+      },
+      {
+        candleHashId: "RJ6V",
+        whenPoured: "2019-12-04T18:19:29",
+        preppedContainerWeightOunces: "5.8",
+        containerTemperatureFahrenheit: "70",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "70",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "RXPO",
+        whenPoured: "2019-12-04T18:19:29",
+        preppedContainerWeightOunces: "14.5",
+        pourTemperatureFahrenheit: "120",
+        coolingRoomTemperatureFahrenheit: "70",
+        coolingRoomHumidityPercent: "50",
+        containerTemperatureFahrenheit: "150"
+      }
+    ],
+    name: "1.5/5 Beeswax Coco Temp Test",
+    dyeAddTemperatureFahrenheit: "200",
+    fragranceAddTemperatureFahrenheit: "200"
   }
 ];

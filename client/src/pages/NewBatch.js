@@ -17,10 +17,13 @@ import { Add } from "@material-ui/icons";
 
 import BatchItemDialog from "../BatchItemDialog";
 import BatchItemTable from "../BatchItemTable";
+import DataList from "../display-items/DataList.js";
+import DataLabel from "../display-items/DataLabel.js";
 import LayerTable from "../LayerTable";
 import NewLayerDialog from "../item-forms/NewLayer";
 import handleApiError, { currentDate, currentDateTime } from "../utils";
 import api from "../api";
+import { calculateFragranceLoad } from "../utils";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -76,79 +79,71 @@ function NewBatch({ history, enqueueSnackbar }) {
   const [newLayerValues, setNewLayerValues] = useState({});
   const [editLayerIndex, setLayerEditIndex] = useState(null);
   const [fragranceLoadTarget, setFragranceLoadTarget] = useState(null);
+  const [cumulativeWeights, setCumlativeWeights] = useState({});
 
-  useEffect(
-    () => {
-      const { candle, ...rest } = qs.parse(history.location.search, {
-        arrayFormat: "comma"
-      });
-      if (!candle) {
-        return;
-      }
-      if (typeof candle === "string") {
-        // only one candle in the query string
-        addLayer({ candleHashId: candle, whenPoured: currentDateTime() });
-        setCandleHashIds([...candleHashIds, candle]);
+  useEffect(() => {
+    const { candle, ...rest } = qs.parse(history.location.search, {
+      arrayFormat: "comma"
+    });
+    if (!candle) {
+      return;
+    }
+    if (typeof candle === "string") {
+      // only one candle in the query string
+      addLayer({ candleHashId: candle, whenPoured: currentDateTime() });
+      setCandleHashIds([...candleHashIds, candle]);
 
-        return;
-      }
-      // array of candles in the query string
-      candle.forEach(c => {
-        addLayer({ candleHashId: c, whenPoured: currentDateTime() });
-      });
-      setCandleHashIds([...candleHashIds, ...candle]);
-    },
-    [history.location.search]
-  );
+      return;
+    }
+    // array of candles in the query string
+    candle.forEach(c => {
+      addLayer({ candleHashId: c, whenPoured: currentDateTime() });
+    });
+    setCandleHashIds([...candleHashIds, ...candle]);
+  }, [history.location.search]);
 
   // fetch one time data from the server
-  useEffect(
-    () => {
-      const fetchResourceTypes = async () => {
-        try {
-          const result = await axios(api.resourceTypesUrl);
-          if (result.data) {
-            setResourceTypes(result.data);
-            if (result.data.length) {
-              let batchResources = result.data.filter(r => r.scope === "batch");
-              if (batchResources.length) {
-                setNewBatchItemValues(newBatchItemValues => ({
-                  ...newBatchItemValues,
-                  type: batchResources[0].slug
-                }));
-              }
+  useEffect(() => {
+    const fetchResourceTypes = async () => {
+      try {
+        const result = await axios(api.resourceTypesUrl);
+        if (result.data) {
+          setResourceTypes(result.data);
+          if (result.data.length) {
+            let batchResources = result.data.filter(r => r.scope === "batch");
+            if (batchResources.length) {
+              setNewBatchItemValues(newBatchItemValues => ({
+                ...newBatchItemValues,
+                type: batchResources[0].slug
+              }));
             }
           }
-        } catch (err) {
-          handleApiError(err, enqueueSnackbar);
         }
-      };
-      fetchResourceTypes();
-    },
-    [enqueueSnackbar]
-  );
-
-  useEffect(
-    () => {
-      if (!candleHashIds || !candleHashIds.length) {
-        return;
+      } catch (err) {
+        handleApiError(err, enqueueSnackbar);
       }
-      const fetchWaxToFillSum = async () => {
-        try {
-          const result = await axios(api.waxToFillUrl, {
-            params: { candles: candleHashIds.join(",") }
-          });
-          if (result.data) {
-            setWaxWeightSuggestion(result.data.total.toString());
-          }
-        } catch (err) {
-          handleApiError(err, enqueueSnackbar);
+    };
+    fetchResourceTypes();
+  }, [enqueueSnackbar]);
+
+  useEffect(() => {
+    if (!candleHashIds || !candleHashIds.length) {
+      return;
+    }
+    const fetchWaxToFillSum = async () => {
+      try {
+        const result = await axios(api.waxToFillUrl, {
+          params: { candles: candleHashIds.join(",") }
+        });
+        if (result.data) {
+          setWaxWeightSuggestion(result.data.total.toString());
         }
-      };
-      fetchWaxToFillSum();
-    },
-    [candleHashIds]
-  );
+      } catch (err) {
+        handleApiError(err, enqueueSnackbar);
+      }
+    };
+    fetchWaxToFillSum();
+  }, [candleHashIds]);
 
   const handleBatchItemFormChange = e => {
     const name = e.target.name;
@@ -191,19 +186,33 @@ function NewBatch({ history, enqueueSnackbar }) {
   };
 
   const addBatchItem = e => {
-    e.preventDefault();
+    const newBatchItem = { ...newBatchItemValues };
     setBatchValues(batchValues => {
       return {
         ...batchValues,
-        batchItems: [...batchValues.batchItems, newBatchItemValues]
+        batchItems: [...batchValues.batchItems, newBatchItem]
       };
     });
-    setNewBatchItemValues(newBatchItemValues => {
-      return {
-        type: newBatchItemValues.type
-      };
+
+    updateCumulativeWeights(newBatchItemValues);
+
+    setNewBatchItemValues({
+      type: newBatchItem.type
     });
     setBatchItemDialogOpen(false);
+  };
+
+  const updateCumulativeWeights = newBatchItem => {
+    const previousCumulativeWeights = cumulativeWeights;
+
+    const previousWeightForType =
+      previousCumulativeWeights[newBatchItem.type] || 0;
+
+    setCumlativeWeights({
+      ...previousCumulativeWeights,
+      [newBatchItem.type]:
+        previousWeightForType + parseFloat(newBatchItem.weightOunces) || 0
+    });
   };
 
   const clearBatchItemDialogState = () => {
@@ -216,10 +225,10 @@ function NewBatch({ history, enqueueSnackbar }) {
     setItemEditIndex(null);
   };
 
-  const handleAddLayer = e => {
-    e.preventDefault();
-    addLayer(newLayerValues);
-  };
+  // const handleAddLayer = e => {
+  //   e.preventDefault();
+  //   addLayer(newLayerValues);
+  // };
 
   const addLayer = layerValues => {
     setBatchValues(batchValues => {
@@ -293,8 +302,6 @@ function NewBatch({ history, enqueueSnackbar }) {
   };
 
   const editBatchItem = e => {
-    e.preventDefault();
-
     setBatchValues(batchValues => {
       return {
         ...batchValues,
@@ -348,7 +355,6 @@ function NewBatch({ history, enqueueSnackbar }) {
       (1 - fragranceLoadTargetDecimal)
     ).toFixed(2);
   };
-  console.log("BVS: ", batchValues);
 
   return (
     <div className={classes.root}>
@@ -545,6 +551,45 @@ function NewBatch({ history, enqueueSnackbar }) {
               </IconButton>
             </div>
             {!!batchValues.batchItems.length && (
+              <Paper className={classes.paper}>
+                <DataList>
+                  {cumulativeWeights.wax && (
+                    <DataLabel
+                      label="Total Wax Weight"
+                      value={cumulativeWeights["wax"]}
+                      unit="oz"
+                    />
+                  )}
+                  {cumulativeWeights["fragrance-oil"] && (
+                    <DataLabel
+                      label="Total FO Weight"
+                      value={cumulativeWeights["fragrance-oil"]}
+                      unit="oz"
+                    />
+                  )}
+                  {cumulativeWeights["fragrance-oil"] && cumulativeWeights.wax && (
+                    <DataLabel
+                      label="Fragrance Load"
+                      value={calculateFragranceLoad({
+                        waxWeightOunces: cumulativeWeights.wax,
+                        fragranceWeightOunces:
+                          cumulativeWeights["fragrance-oil"],
+                        additiveWeightOunces: cumulativeWeights["additives"]
+                      })}
+                      unit="%"
+                    />
+                  )}
+                  {cumulativeWeights.additives && (
+                    <DataLabel
+                      label="Total Additive Weight"
+                      value={cumulativeWeights.additives}
+                      unit="oz"
+                    />
+                  )}
+                </DataList>
+              </Paper>
+            )}
+            {!!batchValues.batchItems.length && (
               <div className={classes.tableWrapper}>
                 <BatchItemTable
                   itemData={batchValues.batchItems}
@@ -553,6 +598,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                 />
               </div>
             )}
+
             {!!batchValues.layers.length && (
               <div className={classes.tableWrapper}>
                 <LayerTable

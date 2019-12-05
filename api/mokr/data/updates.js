@@ -256,5 +256,105 @@ module.exports = [
     notes:
       "bigger miniscous with some super shallow craters but probably presentable",
     burns: []
-  }
+  },
+
+  // 0 Percent beewax series
+  {
+    completedCandleWeightOunces: "17.2",
+    volumeOverflowPercent: "60",
+    colorDescription: "pink",
+    burns: []
+  },
+  {
+    completedCandleWeightOunces: "17.3",
+    volumeOverflowPercent: "60",
+    colorDescription: "pink",
+    burns: []
+  },
+  {
+    completedCandleWeightOunces: "17.2",
+    volumeOverflowPercent: "60",
+    colorDescription: "pink",
+    burns: []
+  },
+
+  // 464 cold pour test
+  {
+    completedCandleWeightOunces: "16.4",
+    volumeOverflowPercent: "50",
+    colorDescription: "pink",
+    burns: []
+  },
+  {
+    completedCandleWeightOunces: "18.4",
+    volumeOverflowPercent: "70",
+    colorDescription: "pink",
+    burns: []
+  },
+
+  // 2/8/90 cold pour test
+  {
+    completedCandleWeightOunces: "16.1",
+    volumeOverflowPercent: "50",
+    colorDescription: "sky blue",
+    burns: [],
+    notes:
+      "circular fissure around the wick, but doesnt SEEM to be a huge sinkhole or anything"
+  },
+  {
+    completedCandleWeightOunces: "18.3",
+    volumeOverflowPercent: "70",
+    colorDescription: "sky blue",
+    burns: [],
+    notes:
+      "circular fissure around the wick, but doesnt SEEM to be a huge sinkhole or anything"
+  },
+
+  // 2/15/83 cold pour
+  {
+    completedCandleWeightOunces: "16.5",
+    volumeOverflowPercent: "70",
+    colorDescription: "gray",
+    burns: [],
+    notes:
+      "some sinkage alongside the wick. you can see how the wax slid down the jar a bit as it settled."
+  },
+  // 2/20/78 cold pour
+  {
+    completedCandleWeightOunces: "16.3",
+    volumeOverflowPercent: "70",
+    colorDescription: "gray",
+    burns: [],
+    notes:
+      "some settling in the wick area. couple of cracks. you can see how the wax slid down the jar a bit as it settled. black dye was not totally dissolved so it appears in spots on the edge of the surface"
+  },
+  // 3/15/82
+  {
+    completedCandleWeightOunces: "12.8",
+    volumeOverflowPercent: "60",
+    colorDescription: "beauitiful creamy tan",
+    burns: [],
+    notes:
+      "very minor settling around the wick. actually seems pretty good. wax clearly slid down the sides a bit as it settled but it doesn't look awful"
+  },
+  // 3/20/77
+  {
+    completedCandleWeightOunces: "12.8",
+    volumeOverflowPercent: "60",
+    colorDescription: "beautiful creamy tan",
+    burns: [],
+    notes:
+      "sinkhole around the wick. and you can see how the wax slid down the jar a bit as it settled, but about the same as in the 3/15/82."
+  },
+
+  // 2/8 jar temp tests
+  {},
+  {},
+  {},
+
+
+  // 1.5/5 jar temp tests
+  {},
+  {},
+  {}
 ];
