@@ -1722,7 +1722,7 @@ module.exports = [
       },
       {
         type: "jars",
-        name: "Straight Sided Tumbler (Libbey) ",
+        name: "Straight Sided Tumbler (Libbey)",
         waxToFillLineOunces: "8.5",
         overflowVolumeOunces: "11.16",
         diameterInches: "3.06",
@@ -1791,7 +1791,7 @@ module.exports = [
       },
       {
         type: "jars",
-        name: "Straight Sided Tumbler",
+        name: "Straight Sided Tumbler Black",
         diameterInches: "3.06",
         color: "black",
         count: "12",
@@ -2575,6 +2575,9 @@ module.exports = [
         diameterInches: "2.75",
         color: "light gold",
         count: "3",
+        waxToFillLineOunces: "11.8",
+        waxToOverflowOunces: "",
+        overflowVolumeOunces: "16",
         remaining: "3",
         price: "0",
         shareOfShippingPercent: "0",
@@ -2584,6 +2587,9 @@ module.exports = [
         type: "lids",
         name: "Mason Thin Screw Lid",
         diameterInches: "2.75",
+        waxToFillLineOunces: "11.8",
+        waxToOverflowOunces: "",
+        overflowVolumeOunces: "16",
         color: "gold",
         count: "3",
         remaining: "3",
@@ -3591,5 +3597,1132 @@ module.exports = [
     shippingCost: "0",
     taxesAndFees: "0",
     totalCost: "0"
+  },
+  {
+    openDate: "2019-12-05",
+    items: [
+      {
+        type: "misc-equipment",
+        name: 'Tebery 4 Pack Cooling Racks Baking Rack - 16" x 10"',
+        count: "4",
+        remaining: "4",
+        price: "14.95",
+        shareOfShippingPercent: "33"
+      },
+      {
+        type: "misc-equipment",
+        name: "Digital Kitchen Scale Multifunction Food Scale",
+        count: "1",
+        remaining: "1",
+        price: "11.99",
+        shareOfShippingPercent: "33",
+        notes:
+          "500g/0.01g Small Portable Electronic Precision Scale, Food Scale with Back-Lit LCD Display(Batteries Included)"
+      },
+      {
+        type: "misc-equipment",
+        name: "Low Form Beaker, 20ml",
+        count: "12",
+        remaining: "12",
+        price: "17.09",
+        shareOfShippingPercent: "33",
+        notes: "Borosilicate Glass - Eisco Labs"
+      }
+    ],
+    source: "Amazon",
+    subtotalCost: "44.03",
+    shippingCost: "0",
+    taxesAndFees: "3.63",
+    totalCost: "47.66"
+  },
+  {
+    openDate: "2019-12-05",
+    items: [
+      {
+        type: "jars",
+        name: "8 oz. Apothecary Jar",
+        waxToFillLineOunces: "9.9",
+        waxToOverflowOunces: "",
+        overflowVolumeOunces: "14.5",
+        diameterInches: "4",
+        color: "clear",
+        count: "2",
+        remaining: "2",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "Recycled"
+      },
+      {
+        type: "jars",
+        name: "8 oz Candle Tin",
+        waxToFillLineOunces: "5",
+        overflowVolumeOunces: "8.5",
+        diameterInches: "2.95",
+        color: "silver",
+        count: "4",
+        remaining: "4",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "Recycled"
+      },
+      {
+        type: "jars",
+        name: "8 oz. Jelly Jar",
+        waxToFillLineOunces: "6.2",
+        overflowVolumeOunces: "8.3",
+        diameterInches: "2.5",
+        color: "clear",
+        count: "5",
+        remaining: "5",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "Recycled"
+      },
+      {
+        type: "jars",
+        name: "Libby Cube 14 oz",
+        waxToFillLineOunces: "9.2",
+        waxToOverflowOunces: "11.6",
+        overflowVolumeOunces: "14",
+        diameterInches: "3.5",
+        color: "clear",
+        count: "5",
+        remaining: "5",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "Recycled"
+      },
+      {
+        type: "jars",
+        name: "Straight Sided Tumbler (Libbey)",
+        waxToFillLineOunces: "8.5",
+        waxToOverflowOunces: "",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "clear",
+        count: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "Recycled"
+      },
+      {
+        type: "jars",
+        name: "Mason Thin Screw Lid",
+        waxToFillLineOunces: "11.8",
+        overflowVolumeOunces: "16",
+        diameterInches: "3",
+        color: "clear",
+        count: "4",
+        remaining: "4",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "Recycled"
+      },
+      {
+        type: "jars",
+        name: "Mason No Marking",
+        waxToFillLineOunces: "11.8",
+        waxToOverflowOunces: "",
+        overflowVolumeOunces: "16",
+        diameterInches: "3",
+        color: "clear",
+        count: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "Recycled"
+      },
+      {
+        type: "lids",
+        name: "Mason Screw Top",
+        diameterInches: "3",
+        color: "gold",
+        count: "6",
+        remaining: "6",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "Recycled"
+      }
+    ],
+    source: "Recycled",
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0"
+  },
+  {
+    openDate: "2019-12-08",
+    items: [
+      {
+        type: "jars",
+        name: "Straight Sided Tumbler (Libbey)",
+        waxToFillLineOunces: "8.5",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "clear",
+        count: "4",
+        remaining: "4",
+        price: "0",
+        shareOfShippingPercent: "100",
+        notes: "recycled from previous candles"
+      }
+    ],
+    source: "Recycled",
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0"
+  },
+  {
+    openDate: "2019-12-09",
+    items: [
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Vetiver",
+        weightOunces: "8",
+        remaining: "8",
+        price: "13.90",
+        shareOfShippingPercent: "14"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Garden Mint",
+        weightOunces: "8",
+        remaining: "8",
+        price: "13.90",
+        shareOfShippingPercent: "14"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "White Birch",
+        weightOunces: "8",
+        remaining: "8",
+        price: "13.90",
+        shareOfShippingPercent: "14"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Frosted Juniper",
+        weightOunces: "8",
+        remaining: "8",
+        price: "12.88",
+        shareOfShippingPercent: "14"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Peppercorn Pomander",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.50",
+        shareOfShippingPercent: "9"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Cypress and Bayberry",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.90",
+        shareOfShippingPercent: "9"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Mistletoe",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.98",
+        shareOfShippingPercent: "9"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Dragon's Blood",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.27",
+        shareOfShippingPercent: "9"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Caramel Popcorn",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "5",
+        notes: "This was a free sample"
+      }
+    ],
+    source: "Candle Science",
+    subtotalCost: "89.23",
+    shippingCost: "20",
+    totalCost: "109.23"
+  },
+  {
+    openDate: "2019-12-09",
+    items: [
+      {
+        type: "wicks",
+        name: "HTP 31",
+        length: "6",
+        count: "10",
+        remaining: "10",
+        series: "HTP",
+        size: "31",
+        price: "1.40",
+        shareOfShippingPercent: "2",
+        notes: "part of 2 combined sample kits"
+      },
+      {
+        type: "wicks",
+        name: "HTP 41",
+        length: "6",
+        count: "10",
+        remaining: "10",
+        series: "HTP",
+        size: "41",
+        price: "1.40",
+        shareOfShippingPercent: "2",
+        notes: "part of 2 combined sample kits"
+      },
+      {
+        type: "wicks",
+        name: "HTP 52",
+        length: "6",
+        count: "10",
+        remaining: "10",
+        series: "HTP",
+        size: "52",
+        price: "1.40",
+        shareOfShippingPercent: "2",
+        notes: "part of 2 combined sample kits"
+      },
+      {
+        type: "wicks",
+        name: "HTP 62",
+        length: "6",
+        count: "10",
+        remaining: "10",
+        series: "HTP",
+        size: "62",
+        price: "1.40",
+        shareOfShippingPercent: "2",
+        notes: "part of 2 combined sample kits"
+      },
+      {
+        type: "wicks",
+        name: "HTP 73",
+        length: "6",
+        count: "10",
+        remaining: "10",
+        series: "HTP",
+        size: "73",
+        price: "1.40",
+        shareOfShippingPercent: "2",
+        notes: "part of 2 combined sample kits"
+      },
+      {
+        type: "wicks",
+        name: "HTP 83",
+        length: "6",
+        count: "10",
+        remaining: "10",
+        series: "HTP",
+        size: "83",
+        price: "1.40",
+        shareOfShippingPercent: "2",
+        notes: "part of 2 combined sample kits"
+      },
+      {
+        type: "wicks",
+        name: "HTP 93",
+        length: "6",
+        count: "10",
+        remaining: "10",
+        series: "HTP",
+        size: "93",
+        price: "1.40",
+        shareOfShippingPercent: "2",
+        notes: "part of 2 combined sample kits"
+      },
+      {
+        type: "wicks",
+        name: "HTP 104",
+        length: "6",
+        count: "10",
+        remaining: "10",
+        series: "HTP",
+        size: "104",
+        price: "1.40",
+        shareOfShippingPercent: "2",
+        notes: "part of 2 combined sample kits"
+      },
+      {
+        type: "wicks",
+        name: "HTP 105",
+        length: "6",
+        count: "10",
+        remaining: "10",
+        series: "HTP",
+        size: "105",
+        price: "1.40",
+        shareOfShippingPercent: "2",
+        notes: "part of 2 combined sample kits"
+      },
+      {
+        type: "wicks",
+        name: "HTP 126",
+        length: "6",
+        count: "10",
+        remaining: "10",
+        series: "HTP",
+        size: "126",
+        price: "1.40",
+        shareOfShippingPercent: "2",
+        notes: "part of 2 combined sample kits"
+      },
+      {
+        type: "wicks",
+        name: "HTP 1212",
+        length: "6",
+        count: "10",
+        remaining: "10",
+        series: "HTP",
+        size: "1212",
+        price: "1.40",
+        shareOfShippingPercent: "2",
+        notes: "part of 2 combined sample kits"
+      },
+      {
+        type: "wicks",
+        name: "HTP 1312",
+        length: "6",
+        count: "10",
+        remaining: "10",
+        series: "HTP",
+        size: "1312",
+        price: "1.40",
+        shareOfShippingPercent: "2",
+        notes: "part of 2 combined sample kits"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Fire Roasted Marshmallow",
+        weightOunces: "4",
+        remaining: "4",
+        price: "6.99",
+        shareOfShippingPercent: "20"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Tobacco Caramel",
+        weightOunces: "4",
+        remaining: "4",
+        price: "7.19",
+        shareOfShippingPercent: "20"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Kentucky Bourbon",
+        weightOunces: "4",
+        remaining: "4",
+        price: "7.19",
+        shareOfShippingPercent: "20"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Tobacco and Bay Leaf",
+        weightOunces: "1",
+        remaining: "1",
+        price: "2.49",
+        shareOfShippingPercent: "10"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Mulled Cider",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "10",
+        notes: "this was a free sample"
+      }
+    ],
+    source: "The Flaming Candle",
+    subtotalCost: "39.26",
+    shippingCost: "12.60",
+    totalCost: "51.86"
+  },
+  {
+    openDate: "2019-12-10",
+    items: [
+      {
+        type: "wax",
+        name: "Golden 464 Soy Wax",
+        material: "Soy",
+        weightPounds: "10",
+        remaining: "10",
+        price: "16.46",
+        shareOfShippingPercent: "25"
+      },
+      {
+        type: "wax",
+        name: "Golden 464 Soy Wax",
+        material: "Soy",
+        weightPounds: "10",
+        remaining: "10",
+        price: "16.46",
+        shareOfShippingPercent: "25"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Very Vanilla",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.02",
+        shareOfShippingPercent: "1"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Blue Spruce",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.27",
+        shareOfShippingPercent: "1"
+      },
+      {
+        type: "jars",
+        name: "Small Straight Sided Jar (Threaded)",
+        waxToFillLineOunces: "3.6",
+        waxToOverflowOunces: "",
+        overflowVolumeOunces: "4.6",
+        diameterInches: "2.16",
+        color: "clear",
+        count: "48",
+        remaining: "48",
+        price: "26.40",
+        shareOfShippingPercent: "16",
+        notes: "This is 2-24 packs with the same code for simplicity"
+      },
+      {
+        type: "fragrance-oil",
+        category: "other",
+        name: "Baby Powder",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "0.33",
+        notes: "This is a free sample"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Mistletoe",
+        weightOunces: "1",
+        remaining: "1",
+        price: "2.53",
+        shareOfShippingPercent: "0.33"
+      },
+      {
+        type: "lids",
+        name: "58-400 Black Plastic Threaded Lid",
+        diameterInches: "2.25",
+        color: "black",
+        count: "24",
+        remaining: "24",
+        price: "4.18",
+        shareOfShippingPercent: "2",
+        notes: "This is 2 12 packs combined to one code for simplicity"
+      },
+      {
+        type: "fragrance-oil",
+        category: "other",
+        name: "Library",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.50",
+        shareOfShippingPercent: "1"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Fresh Coffee",
+        weightOunces: "4",
+        remaining: "4",
+        price: "7.81",
+        shareOfShippingPercent: "1"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Banana Nut Bread",
+        weightOunces: "4",
+        remaining: "4",
+        price: "7.44",
+        shareOfShippingPercent: "1"
+      },
+      {
+        type: "wick-stickers",
+        name: "Wick Stickers Pro",
+        count: "120",
+        remaining: "120",
+        price: "5.96",
+        shareOfShippingPercent: "0.33"
+      },
+      {
+        type: "jars",
+        name: "Straight Sided Tumbler (Black)",
+        diameterInches: "3.06",
+        overflowVolumeOunces: "11.16",
+        waxToFillLineOunces: "8.50",
+        color: "black",
+        count: "12",
+        remaining: "12",
+        price: "17.57",
+        shareOfShippingPercent: "8"
+      },
+      {
+        type: "jars",
+        name: "Straight Sided Tumbler (Amber)",
+        waxToFillLineOunces: "8.5",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "amber",
+        count: "12",
+        remaining: "12",
+        price: "17.57",
+        shareOfShippingPercent: "8"
+      },
+      {
+        type: "fragrance-oil",
+        category: "spice",
+        name: "Cardamom and Star Anise",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.50",
+        shareOfShippingPercent: "1"
+      },
+      {
+        type: "jars",
+        name: "Straight Side Tumbler (White)",
+        waxToFillLineOunces: "8.5",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "white",
+        count: "12",
+        remaining: "12",
+        price: "17.57",
+        shareOfShippingPercent: "8"
+      },
+      {
+        type: "fragrance-oil",
+        category: "spice",
+        name: "Red Hot Cinnamon",
+        weightOunces: "1",
+        remaining: "1",
+        price: "2.53",
+        shareOfShippingPercent: "0.33"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "English Garden",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.27",
+        shareOfShippingPercent: "1"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Fireside",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.50",
+        shareOfShippingPercent: "1"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Mulled Cider and Chestnuts",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.50",
+        shareOfShippingPercent: "1"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Egyptian Amber",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.50",
+        shareOfShippingPercent: "1"
+      },
+      {
+        type: "misc-equipment",
+        name: "Fragrance Blotter Strips",
+        count: "100",
+        remaining: "100",
+        price: "4.96",
+        shareOfShippingPercent: "0.33"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Caribbean Teakwood",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.50",
+        shareOfShippingPercent: "1"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Black Sea",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.98",
+        shareOfShippingPercent: "1"
+      },
+      {
+        type: "lids",
+        name: "Bronze Metal Flat Lid",
+        diameterInches: "3.25",
+        color: "bronze",
+        count: "12",
+        remaining: "12",
+        price: "10.13",
+        shareOfShippingPercent: "1"
+      }
+    ],
+    source: "Candle Science",
+    subtotalCost: "242.11",
+    shippingCost: "65.54",
+    taxesAndFees: "0",
+    totalCost: "307.65"
+  },
+  {
+    openDate: "2019-12-11",
+    items: [
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Root Beer",
+        weightOunces: "1",
+        remaining: "1",
+        price: "3.25",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Carrot Cake",
+        weightOunces: "1",
+        remaining: "1",
+        price: "3.25",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Leather",
+        weightOunces: "1",
+        remaining: "1",
+        price: "3.25",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Pa's Tobacco Pipe",
+        weightOunces: "1",
+        remaining: "1",
+        price: "3.25",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "wax",
+        name: "NatureWax Coconut 1",
+        material: "Coconut",
+        weightPounds: "2",
+        remaining: "2",
+        price: "8",
+        shareOfShippingPercent: "40"
+      },
+      {
+        type: "wax",
+        name: "NatureWax Coconut 1",
+        material: "Coconut",
+        weightPounds: "2",
+        remaining: "2",
+        price: "8",
+        shareOfShippingPercent: "40"
+      },
+      {
+        type: "misc-equipment",
+        name: "Wickman Wick Trimmer",
+        count: "1",
+        remaining: "1",
+        price: "8.50",
+        shareOfShippingPercent: "4"
+      }
+    ],
+    source: "Fillmore Container",
+    subtotalCost: "37.50",
+    shippingCost: "16.53",
+    taxesAndFees: "0",
+    totalCost: "54.03"
+  },
+  {
+    openDate: "2019-12-12",
+    items: [
+      {
+        category: "earthy",
+        type: "fragrance-oil",
+        name: "Verbena Bamboo",
+        weightOunces: "4",
+        remaining: "4",
+        price: "6.95",
+        shareOfShippingPercent: "15"
+      },
+      {
+        category: "food-and-drink",
+        type: "fragrance-oil",
+        name: "Bergamot",
+        weightOunces: "8",
+        remaining: "8",
+        price: "12.95",
+        shareOfShippingPercent: "35"
+      },
+      {
+        type: "dye-blocks",
+        name: "Red Dye Block",
+        pieces: "3",
+        remaining: "3",
+        color: "red",
+        price: "0.99",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "warning-labels",
+        name: "Soy LG Warning Label",
+        color: "white",
+        count: "100",
+        remaining: "100",
+        price: "4.50",
+        shareOfShippingPercent: "15"
+      },
+      {
+        type: "warning-labels",
+        name: "Soy SM Warning Label",
+        color: "white",
+        count: "100",
+        remaining: "100",
+        price: "2.75",
+        shareOfShippingPercent: "15"
+      },
+      {
+        type: "wicks",
+        name: 'CD-16 6"',
+        length: "6",
+        count: "100",
+        remaining: "100",
+        series: "CD",
+        size: "16",
+        price: "9.95",
+        shareOfShippingPercent: "15",
+        notes:
+          "These are not nearly as organized as CS. Just kind of stuffed into a bag."
+      }
+    ],
+    source: "Lone Star Candle Supply",
+    subtotalCost: "38.09",
+    taxesAndFees: "3.79",
+    shippingCost: "7.85",
+    totalCost: "49.73"
+  },
+  {
+    openDate: "2019-12-12",
+    items: [
+      {
+        category: "spice",
+        type: "fragrance-oil",
+        name: "Orange Spice",
+        weightOunces: "1",
+        remaining: "1",
+        price: "2",
+        shareOfShippingPercent: "15"
+      },
+      {
+        category: "flowers-and-herbs",
+        type: "fragrance-oil",
+        name: "Eucalyptus Spearmint",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "15",
+        notes: "This was a free sample"
+      },
+      {
+        category: "spice",
+        type: "fragrance-oil",
+        name: "Pumpkin Spice",
+        weightOunces: "1",
+        remaining: "1",
+        price: "2.00",
+        shareOfShippingPercent: "15"
+      },
+      {
+        category: "earthy",
+        type: "fragrance-oil",
+        name: "Tuscan Tobacco",
+        weightOunces: "1",
+        remaining: "1",
+        price: "2.00",
+        shareOfShippingPercent: "15"
+      },
+      {
+        category: "food-and-drink",
+        type: "fragrance-oil",
+        name: "Kumquat",
+        weightOunces: "1",
+        remaining: "1",
+        price: "2.00",
+        shareOfShippingPercent: "15"
+      },
+      {
+        category: "other",
+        type: "fragrance-oil",
+        name: "Night Ice",
+        weightOunces: "1",
+        remaining: "1",
+        price: "2.00",
+        shareOfShippingPercent: "15"
+      },
+      {
+        category: "earthy",
+        type: "fragrance-oil",
+        name: "Patchouli",
+        weightOunces: "1",
+        remaining: "1",
+        price: "2.00",
+        shareOfShippingPercent: "15"
+      },
+      {
+        type: "wicks",
+        name: "CD-18 6-inch Pre-tabbed Wick",
+        length: "6",
+        count: "100",
+        remaining: "100",
+        series: "CD",
+        size: "16",
+        price: "9.95",
+        shareOfShippingPercent: "15"
+      }
+    ],
+    source: "AAA Candle Supply",
+    subtotalCost: "21.95",
+    shippingCost: "7.99",
+    taxesAndFees: "2.47",
+    totalCost: "32.41"
+  },
+  {
+    openDate: "2019-12-12",
+    items: [
+      {
+        type: "jars",
+        name: "Straight Sided Tumbler Clear",
+        waxToFillLineOunces: "8.5",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "clear",
+        count: "2",
+        remaining: "2",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "recycled"
+      }
+    ],
+    source: "Recycled",
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0"
+  },
+  {
+    openDate: "2019-12-15",
+    items: [
+      {
+        type: "wicks",
+        name: 'CD 4 6" Pretabbed Wick',
+        length: "6",
+        count: "100",
+        remaining: "100",
+        series: "CD",
+        size: "4",
+        price: "8.61",
+        shareOfShippingPercent: "25"
+      },
+      {
+        type: "wicks",
+        name: 'CD 3 6" Pretabbed Wick',
+        length: "6",
+        count: "100",
+        remaining: "100",
+        series: "CD",
+        size: "3",
+        price: "8.42",
+        shareOfShippingPercent: "25"
+      },
+      {
+        type: "wicks",
+        name: 'CD 6 6" Pretabbed Wick',
+        length: "6",
+        count: "100",
+        remaining: "100",
+        series: "CD",
+        size: "6",
+        price: "8.85",
+        shareOfShippingPercent: "25"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Patchouli",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "25",
+        notes: "This was a free sample"
+      }
+    ],
+    source: "CandleScience",
+    subtotalCost: "25.88",
+    shippingCost: "10",
+    taxesAndFees: "0",
+    totalCost: "35.88"
+  },
+  {
+    openDate: "2019-12-15",
+    items: [
+      {
+        type: "jars",
+        name: "Amber Straight Tumbler",
+        waxToFillLineOunces: "8.5",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "amber",
+        count: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "100",
+        notes: "this is recycled from a different candle test"
+      }
+    ],
+    source: "Recycled",
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0"
+  },
+  {
+    openDate: "2019-12-17",
+    items: [
+      {
+        type: "wicks",
+        name: 'LX-16 6" Pretabbed Wick',
+        length: "6",
+        count: "100",
+        remaining: "100",
+        series: "LX",
+        size: "16",
+        price: "7.71",
+        shareOfShippingPercent: "14"
+      },
+      {
+        type: "wicks",
+        name: 'LX-18 6" Pretabbed Wick',
+        length: "6",
+        count: "100",
+        remaining: "100",
+        series: "LX",
+        size: "18",
+        price: "7.73",
+        shareOfShippingPercent: "14"
+      },
+      {
+        type: "wicks",
+        name: 'LX-20 6" Pretabbed Wick',
+        length: "6",
+        count: "100",
+        remaining: "100",
+        series: "LX",
+        size: "20",
+        price: "7.31",
+        shareOfShippingPercent: "14"
+      },
+      {
+        type: "wicks",
+        name: 'LX-24 6" Pretabbed Wick',
+        length: "6",
+        count: "100",
+        remaining: "100",
+        series: "LX",
+        size: "20",
+        price: "7.77",
+        shareOfShippingPercent: "14"
+      },
+      {
+        type: "wicks",
+        name: 'LX-26 6" Pretabbed Wick',
+        length: "6",
+        count: "100",
+        remaining: "100",
+        series: "LX",
+        size: "26",
+        price: "7.78",
+        shareOfShippingPercent: "14"
+      },
+      {
+        type: "wicks",
+        name: 'CD-14 6" Pretabbed Wick',
+        length: "6",
+        count: "100",
+        remaining: "100",
+        series: "CD",
+        size: "14",
+        price: "9.24",
+        shareOfShippingPercent: "14"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Plumeria",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "14",
+        notes: "Free sample"
+      }
+    ],
+    source: "CandleScience",
+    subtotalCost: "47.54",
+    shippingCost: "12.60",
+    taxesAndFees: "4.96",
+    totalCost: "65.10"
   }
 ];

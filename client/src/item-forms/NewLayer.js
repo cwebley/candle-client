@@ -33,10 +33,21 @@ function NewLayer({
   onEditLayer,
   classes
 }) {
+  const handleAddLayer = e => {
+    e.preventDefault(); // prevent the form submission and page reload
+    onAddLayer(values);
+  };
+
+  const handleEditLayer = e => {
+    e.preventDefault(); // prevent the form submission and page reload
+    onEditLayer(values);
+  };
   return (
     <Dialog open={isOpen} onClose={onClose}>
       <DialogTitle>New Layer</DialogTitle>
-      <form onSubmit={editLayerIndex === null ? onAddLayer : onEditLayer}>
+      <form
+        onSubmit={editLayerIndex === null ? handleAddLayer : handleEditLayer}
+      >
         <DialogContent className={classes.dialogContent}>
           <TextField
             className={classes.textField}

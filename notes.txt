@@ -168,8 +168,13 @@ node canvas to create labels programmatically
 
 
 Dye blocks pieces per pound of wax? something like that
+or shift all to weight?
 Checkbox for finishing an oil/block/wax/jar/wick/etc
 -- when hit you can make up the remainder with another one somehow
 
 
 Duplicate candle button
+
+add pour temperature to batch.js layers section. somehow its missing.
+also need amounts of each wax/fo and the percentage
+clear order page after submission

@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "prod": "node -r dotenv/config index.js"
+    "prod": "node -r dotenv/config index.js",
+    "clean-dev-db": "docker exec -it mysql1 mysql -uroot -pwhatever -e \"drop database candles; $(cat fixture.sql)\";",
+    "clear-fixtures": "mokr clean",
+    "fixtures": "mokr up updates",
+    "reset-dev-db": "npm run clean-dev-db ; npm run clear-fixtures ; npm run fixtures"
   },
   "author": "",
   "license": "ISC",

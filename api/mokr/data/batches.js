@@ -994,5 +994,978 @@ module.exports = [
     name: "1.5/5 Beeswax Coco Temp Test",
     dyeAddTemperatureFahrenheit: "200",
     fragranceAddTemperatureFahrenheit: "200"
+  },
+  {
+    whenCreated: "2019-12-05",
+    batchItems: [
+      { type: "wax", hashId: "3XYP", weightOunces: "7.95" },
+      { type: "wax", hashId: "157P", weightOunces: "0.13" },
+      { type: "wax", hashId: "3761", weightOunces: "0.43" },
+      { type: "fragrance-oil", hashId: "GQPB", weightOunces: "0.54" },
+      { type: "dye-blocks", hashId: "71KV", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "RVGB",
+        whenPoured: "2019-12-05T17:31:21",
+        preppedContainerWeightOunces: "6.7",
+        containerTemperatureFahrenheit: "150",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3KZ9",
+        whenPoured: "2019-12-05T17:31:21",
+        preppedContainerWeightOunces: "6.7",
+        containerTemperatureFahrenheit: "72",
+        pourTemperatureFahrenheit: "120",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "1.5/5 Hot Pour Jar Temp Test",
+    dyeAddTemperatureFahrenheit: "200",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  {
+    whenCreated: "2019-12-05",
+    batchItems: [
+      { type: "wax", hashId: "3XYP", weightOunces: "7.95" },
+      { type: "wax", hashId: "157P", weightOunces: "0.13" },
+      { type: "wax", hashId: "3761", weightOunces: "0.43" },
+      { type: "fragrance-oil", hashId: "GQPB", weightOunces: "0.54" },
+      { type: "dye-blocks", hashId: "OEWO", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "WNOP",
+        whenPoured: "2019-12-05T17:32:34",
+        preppedContainerWeightOunces: "6.7",
+        containerTemperatureFahrenheit: "150",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3ZYL",
+        whenPoured: "2019-12-05T17:32:34",
+        preppedContainerWeightOunces: "6.7",
+        containerTemperatureFahrenheit: "72",
+        pourTemperatureFahrenheit: "120",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "1.5/5 Cold Pour Jar Temp Test",
+    dyeAddTemperatureFahrenheit: "180",
+    fragranceAddTemperatureFahrenheit: "140",
+    notes: ""
+  },
+  {
+    whenCreated: "2019-12-06",
+    batchItems: [
+      { type: "wax", hashId: "3XYP", weightOunces: "11.03" },
+      { type: "wax", hashId: "157P", weightOunces: "0.18" },
+      { type: "wax", hashId: "3761", weightOunces: "0.59" },
+      { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.75" },
+      { type: "dye-blocks", hashId: "VP1O", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "34JX",
+        whenPoured: "2019-12-06T16:38:40",
+        preppedContainerWeightOunces: "8.7",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50",
+        containerTemperatureFahrenheit: "150"
+      },
+      {
+        candleHashId: "ROVE",
+        whenPoured: "2019-12-06T16:38:40",
+        preppedContainerWeightOunces: "8.7",
+        containerTemperatureFahrenheit: "72",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Hot pour Mason Jar Temp test",
+    dyeAddTemperatureFahrenheit: "200",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  {
+    whenCreated: "2019-12-06",
+    batchItems: [
+      { type: "wax", hashId: "3XYP", weightOunces: "11.03" },
+      { type: "wax", hashId: "157P", weightOunces: "0.18" },
+      { type: "wax", weightOunces: "0.59", hashId: "3761" },
+      { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.75" },
+      { type: "dye-blocks", hashId: "74ZV", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "W9V4",
+        whenPoured: "2019-12-06T16:38:39",
+        preppedContainerWeightOunces: "8.7",
+        pourTemperatureFahrenheit: "120",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50",
+        containerTemperatureFahrenheit: "150"
+      },
+      {
+        candleHashId: "3QGJ",
+        whenPoured: "2019-12-06T16:38:39",
+        preppedContainerWeightOunces: "8.7",
+        containerTemperatureFahrenheit: "72",
+        pourTemperatureFahrenheit: "120",
+        coolingRoomTemperatureFahrenheit: "72",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Cold Pour Mason Jar Temp test",
+    dyeAddTemperatureFahrenheit: "200",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  {
+    whenCreated: "2019-12-08",
+    batchItems: [
+      { type: "wax", hashId: "157P", weightOunces: "0.26" },
+      { type: "wax", hashId: "3761", weightOunces: "0.85" },
+      { type: "wax", hashId: "3XYP", weightOunces: "15.89" },
+      { type: "fragrance-oil", hashId: "49BQ", weightOunces: "0.62" },
+      { type: "fragrance-oil", hashId: "4NV8", weightOunces: "0.62" },
+      { type: "fragrance-oil", hashId: "486E", weightOunces: "0.62" },
+      { type: "dye-blocks", hashId: "VP1O", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "371G",
+        whenPoured: "2019-12-08T23:17:54",
+        preppedContainerWeightOunces: "8.61",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WGGN",
+        whenPoured: "2019-12-08T23:17:54",
+        preppedContainerWeightOunces: "8.61",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3P4M",
+        whenPoured: "2019-12-08T23:17:54",
+        preppedContainerWeightOunces: "8.61",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "R26V",
+        whenPoured: "2019-12-08T23:17:54",
+        preppedContainerWeightOunces: "8.61",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Straight Libby Wick Test",
+    dyeAddTemperatureFahrenheit: "180",
+    fragranceAddTemperatureFahrenheit: "195",
+    notes: ""
+  },
+  {
+    whenCreated: "2019-12-08",
+    notes: "definitely need more honeycomb",
+    batchItems: [
+      { type: "wax", hashId: "157P", weightOunces: "0.26" },
+      { type: "wax", hashId: "3761", weightOunces: "0.85" },
+      { type: "wax", hashId: "3XYP", weightOunces: "15.89" },
+      { type: "fragrance-oil", hashId: "OKVV", weightOunces: "0.62" },
+      { type: "fragrance-oil", hashId: "41ZW", weightOunces: "0.62" },
+      { type: "fragrance-oil", hashId: "GX5V", weightOunces: "0.62" },
+      { type: "dye-blocks", hashId: "71KV", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "36EB",
+        whenPoured: "2019-12-09T23:17:54",
+        preppedContainerWeightOunces: "8.61",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3DBN",
+        whenPoured: "2019-12-09T23:17:54",
+        preppedContainerWeightOunces: "8.61",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3599",
+        whenPoured: "2019-12-09T23:17:54",
+        preppedContainerWeightOunces: "8.61",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WBKV",
+        whenPoured: "2019-12-09T23:17:54",
+        preppedContainerWeightOunces: "8.61",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Fruit punch wick test",
+    dyeAddTemperatureFahrenheit: "180",
+    fragranceAddTemperatureFahrenheit: "195",
+    notes: ""
+  },
+  {
+    whenCreated: "2019-12-09",
+    batchItems: [
+      { type: "wax", hashId: "3XYP", weightOunces: "7.95" },
+      { type: "wax", hashId: "157P", weightOunces: "0.13" },
+      { type: "wax", hashId: "3761", weightOunces: "0.43" },
+      { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.10" },
+      { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.28" },
+      { type: "fragrance-oil", hashId: "411L", weightOunces: "0.28" },
+      { type: "fragrance-oil", hashId: "G7Q8", weightOunces: "0.28" }
+    ],
+    layers: [
+      {
+        candleHashId: "RXK2",
+        whenPoured: "2019-12-09T22:37:50",
+        preppedContainerWeightOunces: "6.67",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "W18Z",
+        whenPoured: "2019-12-09T22:37:50",
+        preppedContainerWeightOunces: "6.49",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Bowsman Scent and Wick Test",
+    dyeAddTemperatureFahrenheit: "",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  {
+    whenCreated: "2019-12-09",
+    batchItems: [
+      { type: "wax", hashId: "3XYP", weightOunces: "7.95" },
+      { type: "wax", hashId: "157P", weightOunces: "0.13" },
+      { type: "wax", hashId: "3761", weightOunces: "0.43" },
+      { type: "fragrance-oil", hashId: "4JYB", weightOunces: "0.10" },
+      { type: "fragrance-oil", hashId: "GVQ8", weightOunces: "0.28" },
+      { type: "fragrance-oil", hashId: "GR1R", weightOunces: "0.28" },
+      { type: "fragrance-oil", hashId: "49DQ", weightOunces: "0.28" },
+      { type: "dye-blocks", hashId: "OWXV", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "RV27",
+        whenPoured: "2019-12-09T22:38:02",
+        preppedContainerWeightOunces: "6.54",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3KME",
+        whenPoured: "2019-12-09T22:38:02",
+        preppedContainerWeightOunces: "6.61",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Krampus Scent and Wick Test",
+    dyeAddTemperatureFahrenheit: "180",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  {
+    whenCreated: "2019-12-10",
+    batchItems: [
+      { type: "wax", hashId: "3XYP", weightOunces: "3.98" },
+      { type: "wax", hashId: "157P", weightOunces: "0.07" },
+      { type: "wax", hashId: "3761", weightOunces: "0.24" },
+      { type: "fragrance-oil", hashId: "4NDL", weightOunces: "0.19" },
+      { type: "fragrance-oil", hashId: "GVXP", weightOunces: "0.19" },
+      { type: "fragrance-oil", hashId: "48DE", weightOunces: "0.19" }
+    ],
+    layers: [
+      {
+        candleHashId: "WLM5",
+        whenPoured: "2019-12-10T23:53:03",
+        preppedContainerWeightOunces: "6.50",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Juniper Rework Amber Tumbler",
+    dyeAddTemperatureFahrenheit: "",
+    fragranceAddTemperatureFahrenheit: "195",
+    notes: "First test of higher than 10% load"
+  },
+  {
+    whenCreated: "2019-12-10",
+    batchItems: [
+      { type: "wax", hashId: "3XYP", weightOunces: "3.98" },
+      { type: "wax", hashId: "157P", weightOunces: "0.07" },
+      { type: "wax", hashId: "3761", weightOunces: "0.24" },
+      { type: "fragrance-oil", hashId: "GR1R", weightOunces: "0.15" },
+      { type: "fragrance-oil", hashId: "49DQ", weightOunces: "0.15" },
+      { type: "fragrance-oil", hashId: "GZ1M", weightOunces: "0.15" },
+      { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.15" }
+    ],
+    layers: [
+      {
+        candleHashId: "34Q2",
+        whenPoured: "2019-12-10T23:53:14",
+        preppedContainerWeightOunces: "6.50",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Krampus Rework Amber Tumbler",
+    dyeAddTemperatureFahrenheit: "",
+    fragranceAddTemperatureFahrenheit: "195",
+    notes: "first test of above 10% load"
+  },
+
+  // juniper mint wick down test
+  {
+    whenCreated: "2019-12-12",
+    batchItems: [
+      { type: "wax", hashId: "3XYP", weightOunces: "7.95" },
+      { type: "wax", hashId: "157P", weightOunces: "0.13" },
+      { type: "wax", hashId: "3761", weightOunces: "0.42" },
+      { type: "fragrance-oil", hashId: "4NDL", weightOunces: "0.41" },
+      { type: "fragrance-oil", hashId: "GVXP", weightOunces: "0.41" },
+      { type: "fragrance-oil", hashId: "48DE", weightOunces: "0.35" }
+    ],
+    layers: [
+      {
+        candleHashId: "38KY",
+        whenPoured: "2019-12-12T00:28:29",
+        preppedContainerWeightOunces: "6.99",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "W9KP",
+        whenPoured: "2019-12-12T00:28:29",
+        preppedContainerWeightOunces: "7.09",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Juniper-Mint-Library Wick Down Test",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  // Krampus 3.0 Wick Down Test
+  {
+    whenCreated: "2019-12-12",
+    batchItems: [
+      { type: "wax", hashId: "3XYP", weightOunces: "7.95" },
+      { type: "wax", hashId: "157P", weightOunces: "0.13" },
+      { type: "wax", hashId: "3761", weightOunces: "0.42" },
+      { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.29" },
+      { type: "fragrance-oil", hashId: "GR1R", weightOunces: "0.29" },
+      { type: "fragrance-oil", hashId: "49DQ", weightOunces: "0.29" },
+      { type: "fragrance-oil", hashId: "GMYR", weightOunces: "0.29" }
+    ],
+    layers: [
+      {
+        candleHashId: "3Q87",
+        whenPoured: "2019-12-12T00:28:41",
+        preppedContainerWeightOunces: "6.99",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3MML",
+        whenPoured: "2019-12-12T00:28:41",
+        preppedContainerWeightOunces: "6.91",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Krampus 3.0 Wick Down Test",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  // Holiday Punch Wick Down Test
+  {
+    whenCreated: "2019-12-12",
+    batchItems: [
+      { type: "wax", hashId: "3XYP", weightOunces: "7.95" },
+      { type: "wax", hashId: "157P", weightOunces: "0.13" },
+      { type: "wax", hashId: "3761", weightOunces: "0.42" },
+      { type: "fragrance-oil", hashId: "OKVV", weightOunces: "0.38" },
+      { type: "fragrance-oil", hashId: "41ZW", weightOunces: "0.38" },
+      { type: "fragrance-oil", hashId: "GX5V", weightOunces: "0.38" }
+    ],
+    layers: [
+      {
+        candleHashId: "378M",
+        whenPoured: "2019-12-12T00:28:59",
+        preppedContainerWeightOunces: "6.87",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WGPM",
+        whenPoured: "2019-12-12T00:28:59",
+        preppedContainerWeightOunces: "7.02",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Holiday Punch Wick Down Test",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  // Tobacco Caramel Wick Down Test
+  {
+    whenCreated: "2019-12-12",
+    batchItems: [
+      { type: "wax", hashId: "3XYP", weightOunces: "3.81" },
+      { type: "wax", hashId: "157P", weightOunces: "0.13" },
+      { type: "wax", hashId: "3761", weightOunces: "0.42" },
+      { type: "fragrance-oil", hashId: "OK3V", weightOunces: "0.38" },
+      { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.38" },
+      { type: "fragrance-oil", hashId: "G7Q8", weightOunces: "0.28" },
+      { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.12" },
+      { type: "wax", hashId: "1KVP", weightOunces: "4.14" }
+    ],
+    layers: [
+      {
+        candleHashId: "3PK1",
+        whenPoured: "2019-12-12T00:29:10",
+        preppedContainerWeightOunces: "6.99",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "R2BX",
+        whenPoured: "2019-12-12T00:29:10",
+        preppedContainerWeightOunces: "6.99",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Tobacco Caramel Bergamot Wick Down Test",
+    fragranceAddTemperatureFahrenheit: "195",
+    notes: "finished a bag of soy wax"
+  },
+  {
+    whenCreated: "2019-12-12",
+    batchItems: [
+      { type: "wax", hashId: "157P", weightOunces: "0.13" },
+      { type: "wax", hashId: "3761", weightOunces: "0.42" },
+      { type: "wax", hashId: "3M41", weightOunces: "7.95" },
+      { type: "fragrance-oil", hashId: "GR1R", weightOunces: "0.32" },
+      { type: "fragrance-oil", hashId: "GW7X", weightOunces: "0.32" },
+      { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.32" },
+      { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.09" },
+      { type: "fragrance-oil", hashId: "4J3Y", weightOunces: "0.09" }
+    ],
+    layers: [
+      {
+        candleHashId: "W15Z",
+        whenPoured: "2019-12-12T20:25:59",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50",
+        preppedContainerWeightOunces: "6.78"
+      },
+      {
+        candleHashId: "RVO7",
+        whenPoured: "2019-12-12T20:25:59",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50",
+        preppedContainerWeightOunces: "6.81"
+      }
+    ],
+    name: "Krampus 4.0 Scent and Wick Test",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  {
+    whenCreated: "2019-12-12",
+    batchItems: [
+      { type: "wax", hashId: "157P", weightOunces: "0.13" },
+      { type: "wax", hashId: "3761", weightOunces: "0.42" },
+      { type: "wax", hashId: "3M41", weightOunces: "7.95" },
+      { type: "fragrance-oil", hashId: "GQPB", weightOunces: "0.38" },
+      { type: "fragrance-oil", hashId: "4NYL", weightOunces: "0.38" },
+      { type: "fragrance-oil", hashId: "GQRB", weightOunces: "0.38" }
+    ],
+    layers: [
+      {
+        candleHashId: "3K2E",
+        whenPoured: "2019-12-12T20:26:10",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50",
+        preppedContainerWeightOunces: "7.09"
+      },
+      {
+        candleHashId: "REO9",
+        whenPoured: "2019-12-12T20:26:10",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50",
+        preppedContainerWeightOunces: "6.72"
+      }
+    ],
+    name: "Birch Teakwood Lav Scent and Wick Test",
+    dyeAddTemperatureFahrenheit: "",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  // krampus 5
+  {
+    whenCreated: "2019-12-13",
+    batchItems: [
+      { type: "wax", hashId: "3M41", weightOunces: "7.95" },
+      { type: "wax", hashId: "157P", weightOunces: "0.13" },
+      { type: "wax", hashId: "3761", weightOunces: "0.42" },
+      { type: "fragrance-oil", hashId: "OERB", weightOunces: "0.12" },
+      { type: "fragrance-oil", hashId: "42J4", weightOunces: "0.12" },
+      { type: "fragrance-oil", hashId: "4JYB", weightOunces: "0.12" },
+      { type: "fragrance-oil", hashId: "G5W7", weightOunces: "0.41" },
+      // TODO cypress bayberry
+      { type: "fragrance-oil", hashId: "G5W7", weightOunces: "0.41" }
+    ],
+    layers: [
+      {
+        candleHashId: "34D2",
+        whenPoured: "2019-12-13T22:46:52",
+        preppedContainerWeightOunces: "6.88",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "150",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "RO8J",
+        whenPoured: "2019-12-13T22:46:52",
+        preppedContainerWeightOunces: "6.93",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "150",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Krampus 5.0 Fireside Cypress",
+    fragranceAddTemperatureFahrenheit: "165"
+  },
+  // krampus 6.0
+  {
+    whenCreated: "2019-12-13",
+    batchItems: [
+      { type: "wax", hashId: "3M41", weightOunces: "7.95" },
+      { type: "wax", hashId: "157P", weightOunces: "0.13" },
+      { type: "wax", hashId: "3761", weightOunces: "0.42" },
+      { type: "fragrance-oil", hashId: "OERB", weightOunces: "0.12" },
+      { type: "fragrance-oil", hashId: "42J4", weightOunces: "0.12" },
+      { type: "fragrance-oil", hashId: "4JYB", weightOunces: "0.12" },
+      { type: "fragrance-oil", hashId: "49DQ", weightOunces: "0.41" },
+      { type: "fragrance-oil", hashId: "4N88", weightOunces: "0.41" }
+    ],
+    layers: [
+      {
+        candleHashId: "389Y",
+        whenPoured: "2019-12-13T22:47:05",
+        preppedContainerWeightOunces: "7.07",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "150",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "W9LP",
+        whenPoured: "2019-12-13T22:47:05",
+        preppedContainerWeightOunces: "6.99",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "150",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Krampus 6.0 Mistletoe Spruce",
+    fragranceAddTemperatureFahrenheit: "165"
+  },
+  {
+    whenCreated: "2019-12-15",
+    batchItems: [
+      { type: "wax", hashId: "3M41", weightOunces: "14.68" },
+      { type: "wax", hashId: "157P", weightOunces: "0.24" },
+      { type: "wax", hashId: "3761", weightOunces: "0.79" },
+      { type: "fragrance-oil", hashId: "4NDL", weightOunces: "0.75" },
+      { type: "fragrance-oil", hashId: "GVXP", weightOunces: "0.75" },
+      { type: "fragrance-oil", hashId: "48DE", weightOunces: "0.64" },
+      { type: "dye-blocks", hashId: "74ZV", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "WG4M",
+        whenPoured: "2019-12-15T16:19:59",
+        preppedContainerWeightOunces: "7.21",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "70",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3P51",
+        whenPoured: "2019-12-15T16:19:59",
+        preppedContainerWeightOunces: "4.21",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "70",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "R2QX",
+        whenPoured: "2019-12-15T16:19:59",
+        preppedContainerWeightOunces: "4.22",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "70",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Juniper Mint Library",
+    dyeAddTemperatureFahrenheit: "180",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  {
+    whenCreated: "2019-12-15",
+    batchItems: [
+      { type: "wax", hashId: "3M41", weightOunces: "14.68" },
+      { type: "wax", hashId: "157P", weightOunces: "0.24" },
+      { type: "wax", hashId: "3761", weightOunces: "0.79" },
+      { type: "fragrance-oil", hashId: "OKVV", weightOunces: "0.71" },
+      { type: "fragrance-oil", hashId: "GYXM", weightOunces: "0.71" },
+      { type: "fragrance-oil", hashId: "41ZW", weightOunces: "0.71" },
+      { type: "dye-blocks", hashId: "71KV", pieces: "0.2" }
+    ],
+    layers: [
+      {
+        candleHashId: "WYYV",
+        whenPoured: "2019-12-15T16:11:55",
+        preppedContainerWeightOunces: "6.89",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "70",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "35Q9",
+        whenPoured: "2019-12-15T16:11:55",
+        preppedContainerWeightOunces: "4.21",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "70",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WBPV",
+        whenPoured: "2019-12-15T16:11:55",
+        preppedContainerWeightOunces: "4.18",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "70",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Holiday Punch Die Test",
+    dyeAddTemperatureFahrenheit: "180",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  {
+    whenCreated: "2019-12-15",
+    batchItems: [
+      { type: "wax", hashId: "3M41", weightOunces: "14.68" },
+      { type: "wax", hashId: "157P", weightOunces: "0.24" },
+      { type: "wax", hashId: "3761", weightOunces: "0.79" },
+      { type: "fragrance-oil", hashId: "OK3V", weightOunces: "0.71" },
+      { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.71" },
+      { type: "fragrance-oil", hashId: "G7Q8", weightOunces: "0.51" },
+      { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.21" },
+      { type: "dye-blocks", hashId: "VP1O", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "36YY",
+        whenPoured: "2019-12-15T16:12:09",
+        preppedContainerWeightOunces: "6.90",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "70",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3DMJ",
+        whenPoured: "2019-12-15T16:12:09",
+        preppedContainerWeightOunces: "4.22",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "70",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "RJ58",
+        whenPoured: "2019-12-15T16:12:09",
+        preppedContainerWeightOunces: "4.21",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "70",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Salty Tobacco Caramel Dye Test",
+    dyeAddTemperatureFahrenheit: "180",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  {
+    whenCreated: "2019-12-15",
+    batchItems: [
+      { type: "wax", hashId: "3M41", weightOunces: "14.68" },
+      { type: "wax", hashId: "157P", weightOunces: "0.24" },
+      { type: "wax", hashId: "3761", weightOunces: "0.79" },
+      { type: "fragrance-oil", hashId: "G5W7", weightOunces: "0.75" },
+      { type: "fragrance-oil", hashId: "GW7X", weightOunces: "0.39" },
+      { type: "fragrance-oil", hashId: "42J4", weightOunces: "0.21" },
+      { type: "fragrance-oil", hashId: "4JYB", weightOunces: "0.21" },
+      { type: "fragrance-oil", hashId: "OERB", weightOunces: "0.21" },
+      { type: "fragrance-oil", hashId: "4N88", weightOunces: "0.39" },
+      { type: "dye-blocks", hashId: "7R6W", pieces: "0.05" }
+    ],
+    layers: [
+      {
+        candleHashId: "RX92",
+        whenPoured: "2019-12-15T16:42:51",
+        preppedContainerWeightOunces: "6.83",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "70",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "W19Z",
+        whenPoured: "2019-12-15T16:42:51",
+        preppedContainerWeightOunces: "4.18",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "70",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "RV97",
+        whenPoured: "2019-12-15T16:42:51",
+        preppedContainerWeightOunces: "4.19",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "70",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Krampus v5 Dye Test",
+    dyeAddTemperatureFahrenheit: "180",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  {
+    whenCreated: "2019-12-16",
+    batchItems: [
+      { type: "wax", hashId: "3M41", weightOunces: "40.39" },
+      { type: "wax", hashId: "157P", weightOunces: "0.65" },
+      { type: "wax", hashId: "3761", weightOunces: "0.64" },
+      { type: "fragrance-oil", hashId: "GZQE", weightOunces: "1.96" },
+      { type: "fragrance-oil", hashId: "GV68", weightOunces: "2.05" },
+      { type: "fragrance-oil", hashId: "GZ1M", weightOunces: "1.94" },
+      { type: "dye-blocks", hashId: "OEWO", pieces: "0.2" },
+      { type: "wax", hashId: "P4J1", weightOunces: "1.77" }
+    ],
+    layers: [
+      {
+        candleHashId: "3ZNJ",
+        whenPoured: "2019-12-16T19:01:57",
+        preppedContainerWeightOunces: "4.22",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WL65",
+        whenPoured: "2019-12-16T19:01:57",
+        preppedContainerWeightOunces: "4.22",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "34V2",
+        whenPoured: "2019-12-16T19:01:57",
+        preppedContainerWeightOunces: "4.22",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "ROXJ",
+        whenPoured: "2019-12-16T19:01:57",
+        preppedContainerWeightOunces: "4.22",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "38ZY",
+        whenPoured: "2019-12-16T19:01:57",
+        preppedContainerWeightOunces: "4.18",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "W97P",
+        whenPoured: "2019-12-16T19:01:57",
+        preppedContainerWeightOunces: "4.18",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3QY7",
+        whenPoured: "2019-12-16T19:01:57",
+        preppedContainerWeightOunces: "4.18",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3MDL",
+        whenPoured: "2019-12-16T19:01:57",
+        preppedContainerWeightOunces: "4.18",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "37VM",
+        whenPoured: "2019-12-16T19:01:57",
+        preppedContainerWeightOunces: "4.18",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "120",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WGKM",
+        whenPoured: "2019-12-16T19:01:57",
+        preppedContainerWeightOunces: "4.18",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "120",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3PY1",
+        whenPoured: "2019-12-16T19:01:57",
+        preppedContainerWeightOunces: "4.18",
+        containerTemperatureFahrenheit: "68",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "R25X",
+        whenPoured: "2019-12-16T19:01:57",
+        preppedContainerWeightOunces: "4.18",
+        containerTemperatureFahrenheit: "68",
+        pourTemperatureFahrenheit: "160",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WYJV",
+        whenPoured: "2019-12-16T19:01:57",
+        preppedContainerWeightOunces: "4.18",
+        containerTemperatureFahrenheit: "68",
+        pourTemperatureFahrenheit: "120",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "35D9",
+        whenPoured: "2019-12-16T19:01:57",
+        preppedContainerWeightOunces: "4.18",
+        containerTemperatureFahrenheit: "68",
+        pourTemperatureFahrenheit: "120",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Small Jar Pour Test Birch Vetiver Lavender",
+    fragranceAddTemperatureFahrenheit: "195",
+    dyeAddTemperatureFahrenheit: "180"
   }
 ];

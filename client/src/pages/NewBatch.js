@@ -88,6 +88,7 @@ function NewBatch({ history, enqueueSnackbar }) {
     if (!candle) {
       return;
     }
+    console.log("RUNNING");
     if (typeof candle === "string") {
       // only one candle in the query string
       addLayer({ candleHashId: candle, whenPoured: currentDateTime() });
@@ -225,12 +226,8 @@ function NewBatch({ history, enqueueSnackbar }) {
     setItemEditIndex(null);
   };
 
-  // const handleAddLayer = e => {
-  //   e.preventDefault();
-  //   addLayer(newLayerValues);
-  // };
-
   const addLayer = layerValues => {
+    console.log("TCL: layerValues", layerValues);
     setBatchValues(batchValues => {
       return {
         ...batchValues,
@@ -319,15 +316,13 @@ function NewBatch({ history, enqueueSnackbar }) {
     setItemEditIndex(null);
   };
 
-  const editLayer = e => {
-    e.preventDefault();
-
+  const editLayer = editedLayerValues => {
     setBatchValues(batchValues => {
       return {
         ...batchValues,
         layers: [
           ...batchValues.layers.slice(0, editLayerIndex),
-          { ...newLayerValues },
+          { ...editedLayerValues },
           ...batchValues.layers.slice(editLayerIndex + 1)
         ]
       };
@@ -563,7 +558,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                   {cumulativeWeights["fragrance-oil"] && (
                     <DataLabel
                       label="Total FO Weight"
-                      value={cumulativeWeights["fragrance-oil"]}
+                      value={cumulativeWeights["fragrance-oil"].toFixed(2)}
                       unit="oz"
                     />
                   )}

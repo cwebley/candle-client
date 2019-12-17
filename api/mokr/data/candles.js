@@ -533,5 +533,572 @@ module.exports = [
       wickLayout: "center",
       wickStickerHashId: "4D7B"
     }
+  ],
+  // 12 / 5 / 2019
+  [
+    {
+      name: "1.5/5 hot pour hot jar",
+      jarHashId: "1741",
+      wickHashId: "N7Z4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "1.5/5 hot pour RT jar",
+      jarHashId: "1741",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    }
+  ],
+  // 12 / 5 / 2019
+  [
+    {
+      name: "1.5/5 cold pour hot jar",
+      jarHashId: "1741",
+      wickHashId: "N7Z4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "1.5/5 cold pour RT jar",
+      jarHashId: "1741",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    }
+  ],
+  // 12/6 mason jar hot pour jar temp test
+  [
+    {
+      name: "Mason 1.5/5 hot pour hot jar",
+      jarHashId: "5P24",
+      wickHashId: "D4VR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Mason 1.5/5 hot pour RT jar",
+      jarHashId: "5P24",
+      wickHashId: "D4RR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    }
+  ],
+  // 12/6 mason jar cold pour jar temp test
+  [
+    {
+      name: "Mason 1.5/5 cold pour hot jar",
+      jarHashId: "5P24",
+      wickHashId: "D4VR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Mason 1.5/5 cold pour RT jar",
+      jarHashId: "5P24",
+      wickHashId: "D4RR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    }
+  ],
+  // 12/8 wick test straight clear libby
+  [
+    {
+      name: "Straight Libby CD-16",
+      jarHashId: "1784",
+      wickHashId: "D4VR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Straight Libby CD-18",
+      jarHashId: "1784",
+      wickHashId: "N7Z4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Straight Libby Eco-14",
+      jarHashId: "1784",
+      wickHashId: "5QMN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Straight Libby LX-26",
+      jarHashId: "1784",
+      wickHashId: "D4RR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    }
+  ],
+
+  // 12/9 holiday punch black tumbler
+  [
+    {
+      name: "Black Tumbler Wick Test CD-16",
+      jarHashId: "1741",
+      wickHashId: "D4VR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Black Tumbler Wick Test CD-18",
+      jarHashId: "1741",
+      wickHashId: "N7Z4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Black Tumbler Wick Test LX-26",
+      jarHashId: "1741",
+      wickHashId: "D4RR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Black Tumbler Wick Test LX-28",
+      jarHashId: "1741",
+      wickHashId: "N724",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    }
+  ],
+
+  // 12/9 black tumbler 2 more wick and scent tests
+  [
+    {
+      name: "Black Tumbler Wick Test CD-16",
+      jarHashId: "1741",
+      wickHashId: "D4VR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Black Tumbler Wick Test CD-18",
+      jarHashId: "1741",
+      wickHashId: "N7Z4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Black Tumbler Wick Test CD-16",
+      jarHashId: "1741",
+      wickHashId: "D4VR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Black Tumbler Wick Test CD-18",
+      jarHashId: "1741",
+      wickHashId: "N7Z4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    }
+  ],
+
+  // 12/10 amber tumbler rework of juniper and krampus scents CD-16
+  [
+    {
+      name: "Amber Tumbler Juniper-Blend Rework",
+      jarHashId: "MVEN",
+      wickHashId: "D4VR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Amber Tumbler Krampus Rework",
+      jarHashId: "MVEN",
+      wickHashId: "D4VR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    }
+  ],
+
+  // 12/12 8 candle holiday fragrance CD-14 vs LX-24 showdown
+  [
+    {
+      name: "Juniper-Mint-Library CD-14",
+      jarHashId: "MVEN",
+      wickHashId: "NGLX",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Juniper-Mint-Library LX-24",
+      jarHashId: "MVEN",
+      wickHashId: "NBG4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Krampus 3.0 CD-14",
+      jarHashId: "MVEN",
+      wickHashId: "NGLX",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Krampus 3.0 LX-24",
+      jarHashId: "MVEN",
+      wickHashId: "NBG4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Holiday Punch CD-14",
+      jarHashId: "MVEN",
+      wickHashId: "NGLX",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Holiday Punch LX-24",
+      jarHashId: "MVEN",
+      wickHashId: "NBG4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Tobacco Caramel Bergamot CD-14",
+      jarHashId: "MVEN",
+      wickHashId: "NGLX",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Tobacco Caramel Bergamot LX-24",
+      jarHashId: "MVEN",
+      wickHashId: "NBG4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    }
+  ],
+  [
+    // Krampus 4.0
+    {
+      name: "Krampus 4.0 CD-14",
+      jarHashId: "MVEN",
+      wickHashId: "NGLX",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Krampus 4.0 LX-24",
+      jarHashId: "12D3",
+      wickHashId: "NBG4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+
+    // Birch Teakwood Lav
+    {
+      name: "Birch Teakwood Lav CD-14",
+      jarHashId: "MVEN",
+      wickHashId: "NGLX",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Birch Teakwood Lav LX-24",
+      jarHashId: "12D3",
+      wickHashId: "N3PV",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    }
+  ],
+  [
+    // Krampus 5.0
+    {
+      name: "Krampus 5.0 CD-14",
+      jarHashId: "MWGZ",
+      wickHashId: "NGLX",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Krampus 5.0 LX-24",
+      jarHashId: "MWGZ",
+      wickHashId: "NBG4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    // Krampus 6.0
+    {
+      name: "Krampus 6.0 CD-14",
+      jarHashId: "MWGZ",
+      wickHashId: "NGLX",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Krampus 6.0 LX-24",
+      jarHashId: "MWGZ",
+      wickHashId: "N3PV",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    }
+  ],
+  [
+    // Small jar wick tests, 4 full size dye tests
+    // juniper mint
+    {
+      name: "Juniper Mint CD-3",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Juniper Mint CD-4",
+      jarHashId: "MODG",
+      wickHashId: "NLR7",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Juniper Mint Full Test",
+      jarHashId: "1KQX",
+      wickHashId: "N3PV",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+
+    // punch
+    {
+      name: "Holiday Punch CD-3",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Holiday Punch CD-4",
+      jarHashId: "MODG",
+      wickHashId: "NLR7",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Holiday Punch Full Test",
+      jarHashId: "MWGZ",
+      wickHashId: "N3PV",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+
+    // tobacco caramel bergamot
+    {
+      name: "Tabacco Salty Caramel CD-3",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Tabacco Salty Caramel CD-4",
+      jarHashId: "MODG",
+      wickHashId: "NLR7",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Tabacco Salty Caramel Full Test",
+      jarHashId: "1L28",
+      wickHashId: "NGLX",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+
+    // Krampus v5
+    {
+      name: "Krampus V5 CD-3",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Krampus V5 CD-4",
+      jarHashId: "MODG",
+      wickHashId: "NLR7",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Krampus V5 Full Test",
+      jarHashId: "MWGZ",
+      wickHashId: "NGLX",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    }
+  ],
+  [
+    // tobacco small jar pour tests
+    {
+      name: "Birch Vetiver Lavender CD-3 No Insulation",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Birch Vetiver Lavender CD-3 No Insulation",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Birch Vetiver Lavender CD-3 Covered with Box",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Birch Vetiver Lavender CD-3 Covered with Box",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "4D7B"
+    },
+    {
+      name: "Birch Vetiver Lavender CD-3 Foil With Box",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Birch Vetiver Lavender CD-3 Foil With Box",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Birch Vetiver Lavender CD-3 Foil With Towel and Box",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Birch Vetiver Lavender CD-3 Foil With Towel and Box",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Birch Vetiver Lavender CD-3 120 Cold Pour in box",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Birch Vetiver Lavender CD-3 120 Cold Pour in box",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Birch Vetiver Lavender CD-3 120 Cold Jar foil + towel in box",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Birch Vetiver Lavender CD-3 120 Cold Jar foil + towel in box",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name:
+        "Birch Vetiver Lavender CD-3 120 Cold Pour Cold Jar foil + towel in box",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name:
+        "Birch Vetiver Lavender CD-3 120 Cold Pour Cold Jar foil + towel in box",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    }
   ]
 ];
