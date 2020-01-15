@@ -140,14 +140,9 @@ Fragrance Load might need another decimal. looks like .75 rounds up to 8%
 
 Add a color picker to the candle + batch pages
 
-but weight of fo/wax on batch page and candle page layer
 rewrite all calculated cost things to always use a float until the very end
 
 better transition from new-candles to giving you the hashIds
-
-go from new-candle to new-batch with some pre-populated fields
-  new-batch?candles=WBZW,ABCD,DEFG
-put the actual amount of each FO on the candle and batch page--more than just name and price
 
 autocomplete components need some sort of lookup by hash_id endpoint
   sorted by id desc
@@ -171,16 +166,15 @@ or shift all to weight?
 Checkbox for finishing an oil/block/wax/jar/wick/etc
 -- when hit you can make up the remainder with another one somehow
 
-also need amounts of each wax/fo and the percentage
 clear order page after submission
 
 deleting a layer doesnt update the wax to fill numbers
 
 candle page layer item prices reflect batch prices and not the cost of the layer
 
-batch page need a total batch cost. for waxes/fos etc too
+batch page needs a total batch cost value
 
-coco83-5% bees wick tests:
+remaining coco83-5% bees wick tests:
 todo: 
 premiers
 cd-8
