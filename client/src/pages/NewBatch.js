@@ -80,6 +80,10 @@ function NewBatch({ history, enqueueSnackbar }) {
   const [editLayerIndex, setLayerEditIndex] = useState(null);
   const [fragranceLoadTarget, setFragranceLoadTarget] = useState(null);
   const [cumulativeWeights, setCumlativeWeights] = useState({});
+  const [defaultJarTemp, setDefaultJarTemp] = useState("");
+  const [defaultPourTemp, setDefaultPourTemp] = useState("");
+  const [defaultRoomTemp, setDefaultRoomTemp] = useState("");
+  const [defaultRoomHumidity, setDefaultRoomHumidity] = useState("");
 
   useEffect(() => {
     const { candle, ...rest } = qs.parse(history.location.search, {
@@ -390,7 +394,7 @@ function NewBatch({ history, enqueueSnackbar }) {
           <form onSubmit={submitBatch} className={classes.form}>
             <Paper className={classes.paper}>
               <Grid container spacing={3} justify="space-around">
-                <Grid item xs={12} sm={6} md={4}>
+                <Grid item xs={12} sm={2}>
                   <TextField
                     label="Date"
                     type="date"
@@ -412,7 +416,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                     }}
                   />
                 </Grid>
-                <Grid item xs={12} sm={6} md={4}>
+                <Grid item xs={12} sm={3}>
                   <TextField
                     className={classes.textField}
                     label="Name"
@@ -432,7 +436,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                     }}
                   />
                 </Grid>
-                <Grid item xs={12} sm={6} md={4}>
+                <Grid item xs={12} sm={2}>
                   <TextField
                     className={classes.textField}
                     label="FO Target"
@@ -454,7 +458,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                     }}
                   />
                 </Grid>
-                <Grid item xs={12} sm={6} md={4}>
+                <Grid item xs={12} sm={2}>
                   <TextField
                     className={classes.textField}
                     label="Dye Temp"
@@ -479,7 +483,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                     }}
                   />
                 </Grid>
-                <Grid item xs={12} sm={6} md={4}>
+                <Grid item xs={12} sm={2}>
                   <TextField
                     className={classes.textField}
                     label="FO Temp"
@@ -504,7 +508,87 @@ function NewBatch({ history, enqueueSnackbar }) {
                     }}
                   />
                 </Grid>
-                <Grid item xs={12} sm={6} md={4}>
+                <Grid item xs={12} sm={2}>
+                  <TextField
+                    label="Default Jar Temp"
+                    value={defaultJarTemp}
+                    type="number"
+                    onChange={e => {
+                      const value = e.target.value;
+                      setDefaultJarTemp(value);
+                    }}
+                    InputProps={{
+                      endAdornment: (
+                        <InputAdornment position="end">°F</InputAdornment>
+                      ),
+                      inputProps: {
+                        name: "defaultJarTemp",
+                        step: "1"
+                      }
+                    }}
+                  />
+                </Grid>
+                <Grid item xs={12} sm={2}>
+                  <TextField
+                    label="Default Pour Temp"
+                    value={defaultPourTemp}
+                    type="number"
+                    onChange={e => {
+                      const value = e.target.value;
+                      setDefaultPourTemp(value);
+                    }}
+                    InputProps={{
+                      endAdornment: (
+                        <InputAdornment position="end">°F</InputAdornment>
+                      ),
+                      inputProps: {
+                        name: "defaultPourTemp",
+                        step: "1"
+                      }
+                    }}
+                  />
+                </Grid>
+                <Grid item xs={12} sm={2}>
+                  <TextField
+                    label="Default Room Temp"
+                    value={defaultRoomTemp}
+                    type="number"
+                    onChange={e => {
+                      const value = e.target.value;
+                      setDefaultRoomTemp(value);
+                    }}
+                    InputProps={{
+                      endAdornment: (
+                        <InputAdornment position="end">°F</InputAdornment>
+                      ),
+                      inputProps: {
+                        name: "defaultRoomTemp",
+                        step: "1"
+                      }
+                    }}
+                  />
+                </Grid>
+                <Grid item xs={12} sm={2}>
+                  <TextField
+                    label="Default Humidity"
+                    value={defaultRoomHumidity}
+                    type="number"
+                    onChange={e => {
+                      const value = e.target.value;
+                      setDefaultRoomHumidity(value);
+                    }}
+                    InputProps={{
+                      endAdornment: (
+                        <InputAdornment position="end">%</InputAdornment>
+                      ),
+                      inputProps: {
+                        name: "defaultRoomHumidity",
+                        step: "1"
+                      }
+                    }}
+                  />
+                </Grid>
+                <Grid item xs={12} sm={3}>
                   <TextField
                     label="Notes"
                     multiline
@@ -598,6 +682,10 @@ function NewBatch({ history, enqueueSnackbar }) {
               <div className={classes.tableWrapper}>
                 <LayerTable
                   layerData={batchValues.layers}
+                  defaultJarTemp={defaultJarTemp}
+                  defaultPourTemp={defaultPourTemp}
+                  defaultRoomTemp={defaultRoomTemp}
+                  defaultRoomHumidity={defaultRoomHumidity}
                   onDeleteClick={deleteLayer}
                   onEditClick={showEditLayers}
                 />
