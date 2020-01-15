@@ -61,6 +61,11 @@ function CandleLayer({ data, isTopLayer, classes }) {
       value: moment(data.whenPoured).format("MMMM DD YYYY")
     },
     {
+      label: "Percent of Batch",
+      value: data.layerToBatchPercentage,
+      unit: "%"
+    },
+    {
       label: "Pour Temp",
       value: data.pourTemperatureFahrenheit,
       unit: "°F"
@@ -101,18 +106,17 @@ function CandleLayer({ data, isTopLayer, classes }) {
         </Typography>
         <Typography className={classes.headingName}>
           {`Layer from `}
-          <Link to={`/batches/${data.batchData.id}`}>{`Batch ${
-            data.batchData.id
-          }`}</Link>
+          <Link
+            to={`/batches/${data.batchData.id}`}
+          >{`Batch ${data.batchData.id}`}</Link>
         </Typography>
+        {` ${data.layerToBatchPercentage}% of batch`}
         <Typography
           className={classes.subHeading}
           color="textSecondary"
           align="right"
         >
-          {`$${data.calculatedCosts.productCost} / $${
-            data.calculatedCosts.shippingCost
-          } / $${data.calculatedCosts.totalCost}`}
+          {`$${data.calculatedCosts.productCost} / $${data.calculatedCosts.shippingCost} / $${data.calculatedCosts.totalCost}`}
         </Typography>
       </ExpansionPanelSummary>
       <ExpansionPanelDetails className={classes.expansionPanelDetails}>
@@ -134,7 +138,14 @@ function CandleLayer({ data, isTopLayer, classes }) {
                   itemType="Wax"
                   name={w.name}
                   source={w.source}
-                  price={w.calculatedCosts.totalCost}
+                  percentOfType={`${Math.round(
+                    (1000 * w.weightOunces) /
+                      data.batchData.totalWaxWeightOunces
+                  ) / 10}%`}
+                  amount={`${w.layerWeightOunces} oz`}
+                  shippingCost={w.layerCosts.shippingCost}
+                  productCost={w.layerCosts.productCost}
+                  totalCost={w.layerCosts.totalCost}
                 />
               </Grid>
             ))}
@@ -145,7 +156,14 @@ function CandleLayer({ data, isTopLayer, classes }) {
                   itemType="Fragrance Oil"
                   name={fo.name}
                   source={fo.source}
-                  price={fo.calculatedCosts.totalCost}
+                  percentOfType={`${Math.round(
+                    (1000 * fo.weightOunces) /
+                      data.batchData.totalFragranceWeightOunces
+                  ) / 10}%`}
+                  amount={`${fo.layerWeightOunces} oz`}
+                  shippingCost={fo.layerCosts.shippingCost}
+                  productCost={fo.layerCosts.productCost}
+                  totalCost={fo.layerCosts.totalCost}
                 />
               </Grid>
             ))}
@@ -156,7 +174,13 @@ function CandleLayer({ data, isTopLayer, classes }) {
                   itemType="Dye Block"
                   name={db.name}
                   source={db.source}
-                  price={db.calculatedCosts.totalCost}
+                  percentOfType={`${Math.round(
+                    (1000 * db.pieces) / data.batchData.totalWaxpieces
+                  ) / 10}%`}
+                  amount={`${db.layerPieces} pieces`}
+                  shippingCost={db.layer.shippingCost}
+                  productCost={db.layer.productCost}
+                  totalCost={db.layer.totalCost}
                 />
               </Grid>
             ))}

@@ -1723,7 +1723,7 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler (Libbey)",
-        waxToFillLineOunces: "8.5",
+        waxToFillLineOunces: "10.0",
         overflowVolumeOunces: "11.16",
         diameterInches: "3.06",
         color: "clear",
@@ -1796,7 +1796,7 @@ module.exports = [
         color: "black",
         count: "12",
         remaining: "12",
-        waxToFillLineOunces: "8.5",
+        waxToFillLineOunces: "10.0",
         overflowVolumeOunces: "11.16",
         price: "16.51",
         shareOfShippingPercent: "30"
@@ -3695,7 +3695,7 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler (Libbey)",
-        waxToFillLineOunces: "8.5",
+        waxToFillLineOunces: "10.0",
         waxToOverflowOunces: "",
         overflowVolumeOunces: "11.16",
         diameterInches: "3.06",
@@ -3757,7 +3757,7 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler (Libbey)",
-        waxToFillLineOunces: "8.5",
+        waxToFillLineOunces: "10.0",
         overflowVolumeOunces: "11.16",
         diameterInches: "3.06",
         color: "clear",
@@ -4106,7 +4106,7 @@ module.exports = [
       {
         type: "jars",
         name: "Small Straight Sided Jar (Threaded)",
-        waxToFillLineOunces: "3.6",
+        waxToFillLineOunces: "3.40",
         waxToOverflowOunces: "",
         overflowVolumeOunces: "4.6",
         diameterInches: "2.16",
@@ -4187,7 +4187,7 @@ module.exports = [
         name: "Straight Sided Tumbler (Black)",
         diameterInches: "3.06",
         overflowVolumeOunces: "11.16",
-        waxToFillLineOunces: "8.50",
+        waxToFillLineOunces: "10.0",
         color: "black",
         count: "12",
         remaining: "12",
@@ -4197,7 +4197,7 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler (Amber)",
-        waxToFillLineOunces: "8.5",
+        waxToFillLineOunces: "10.0",
         overflowVolumeOunces: "11.16",
         diameterInches: "3.06",
         color: "amber",
@@ -4218,7 +4218,7 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Side Tumbler (White)",
-        waxToFillLineOunces: "8.5",
+        waxToFillLineOunces: "10.0",
         overflowVolumeOunces: "11.16",
         diameterInches: "3.06",
         color: "white",
@@ -4546,7 +4546,7 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler Clear",
-        waxToFillLineOunces: "8.5",
+        waxToFillLineOunces: "10.0",
         overflowVolumeOunces: "11.16",
         diameterInches: "3.06",
         color: "clear",
@@ -4622,7 +4622,7 @@ module.exports = [
       {
         type: "jars",
         name: "Amber Straight Tumbler",
-        waxToFillLineOunces: "8.5",
+        waxToFillLineOunces: "10.0",
         overflowVolumeOunces: "11.16",
         diameterInches: "3.06",
         color: "amber",
@@ -4724,5 +4724,264 @@ module.exports = [
     shippingCost: "12.60",
     taxesAndFees: "4.96",
     totalCost: "65.10"
+  },
+  {
+    openDate: "2019-12-17",
+    items: [
+      {
+        type: "jars",
+        name: "Amber Straight Tumbler",
+        waxToFillLineOunces: "10.0",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "amber",
+        count: "7",
+        remaining: "7",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "Recycled from test candles. slightly chipped."
+      },
+      {
+        type: "jars",
+        name: "Black Straight Tumbler",
+        waxToFillLineOunces: "10.0",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "black",
+        count: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "Recycled from test candle"
+      },
+      {
+        type: "jars",
+        name: "Clear Straight Tumbler",
+        waxToFillLineOunces: "10.0",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "clear",
+        count: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "Recycled from a test candle"
+      },
+      {
+        type: "jars",
+        name: "Apothecary Jar 8 oz",
+        waxToFillLineOunces: "9.9",
+        overflowVolumeOunces: "14.5",
+        diameterInches: "4",
+        color: "clear",
+        count: "4",
+        remaining: "4",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "Recycled from old candles"
+      }
+    ],
+    source: "Recycled",
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0"
+  },
+  {
+    openDate: "2020-01-09",
+    items: [
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Fig Tree",
+        weightOunces: "8",
+        remaining: "8",
+        price: "12.72",
+        shareOfShippingPercent: "6.25"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Blood Orange",
+        weightOunces: "8",
+        remaining: "8",
+        price: "13.90",
+        shareOfShippingPercent: "6.25"
+      },
+      {
+        type: "fragrance-oil",
+        category: "spice",
+        name: "Red Hot Cinnamon",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.27",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Chocolate Fudge",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "2",
+        notes: "Free Sample"
+      },
+      {
+        type: "jars",
+        name: "Straight Sided Tumbler (Libbey)",
+        waxToFillLineOunces: "10",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "clear",
+        count: "36",
+        remaining: "36",
+        price: "36.81",
+        shareOfShippingPercent: "75",
+        notes: "this is 3 boxes of 12 combined into one set"
+      }
+    ],
+    source: "CandleScience",
+    subtotalCost: "71.70",
+    shippingCost: "26.37",
+    taxesAndFees: "8.10",
+    totalCost: "106.17"
+  },
+  {
+    openDate: "2020-01-11",
+    items: [
+      {
+        type: "wax",
+        name: "Coco-83",
+        material: "Coconut",
+        weightPounds: "12",
+        remaining: "12",
+        price: "23.52",
+        shareOfShippingPercent: "100",
+        notes: ""
+      }
+    ],
+    source: "California Candle Supply",
+    subtotalCost: "23.52",
+    shippingCost: "15.30",
+    taxesAndFees: "0",
+    totalCost: "38.82"
+  },
+  {
+    openDate: "2020-01-11",
+    items: [
+      {
+        type: "jars",
+        name: "Straight Sided Tumbler Black",
+        waxToFillLineOunces: "10.0",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "black",
+        count: "11",
+        remaining: "11",
+        price: "0",
+        shareOfShippingPercent: "100",
+        notes:
+          "recycled from test candles. some are double recycled and are slightly chipped from dishwasher or double boiler"
+      },
+      {
+        type: "jars",
+        name: "Amber Straight Sided Tumbler",
+        waxToFillLineOunces: "10.0",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "amber",
+        count: "3",
+        remaining: "3",
+        price: "0",
+        shareOfShippingPercent: "100",
+        notes: "some chipped on bottom from dishwasher"
+      },
+      {
+        type: "jars",
+        name: "Clear Straight Sided Tumbler",
+        waxToFillLineOunces: "10.0",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "clear",
+        count: "3",
+        remaining: "3",
+        price: "0",
+        shareOfShippingPercent: "100"
+      }
+    ],
+    source: "Recycled",
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0"
+  },
+  {
+    openDate: "2020-01-13",
+    items: [
+      {
+        type: "wicks",
+        name: 'CD-2 6" Pretabbed Wick',
+        length: "6",
+        count: "100",
+        remaining: "100",
+        series: "CD",
+        size: "2",
+        price: "9.49",
+        shareOfShippingPercent: "100"
+      }
+    ],
+    source: "Bitter Creek Candle Supply",
+    subtotalCost: "9.49",
+    shippingCost: "5.56",
+    taxesAndFees: "0",
+    totalCost: "15.05"
+  },
+  {
+    openDate: "2020-01-14",
+    items: [
+      {
+        type: "wax",
+        name: "Golden 464 Soy Wax",
+        material: "Soy",
+        weightPounds: "20",
+        remaining: "20",
+        price: "37.90",
+        shareOfShippingPercent: "80",
+        notes: "This is 2 10-lb bags "
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Tuscan Tobacco",
+        weightOunces: "8",
+        remaining: "8",
+        price: "9.95",
+        shareOfShippingPercent: "7"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Kumquat",
+        weightOunces: "8",
+        remaining: "8",
+        price: "9.95",
+        shareOfShippingPercent: "7"
+      },
+      {
+        type: "fragrance-oil",
+        category: "spice",
+        name: "Orange Spice",
+        weightOunces: "8",
+        remaining: "8",
+        price: "9.95",
+        shareOfShippingPercent: "7"
+      }
+    ],
+    source: "AAA Candle Supplies",
+    subtotalCost: "67.75",
+    shippingCost: "17.91",
+    totalCost: "92.72",
+    taxesAndFees: "7.06"
   }
 ];

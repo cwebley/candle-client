@@ -746,12 +746,15 @@ module.exports = [
     notes: "1/2 inch after 4 hrs. 2 hrs later-4 hr burn 1/4 inch weirdly."
   },
 
+  // WG4M
   // juniper white tumbler
   {
     completedCandleWeightOunces: "17.37",
     volumeOverflowPercent: "45",
     colorDescription: "mint green",
     burns: [],
+    lidHashId: "WXZ8",
+    warningLabelHashId: "1XWB",
     notes: ""
   },
 
@@ -773,15 +776,6 @@ module.exports = [
     notes: "sinkhole, fixed with heat gun. frosting after that."
   },
 
-  // punch black tumbler
-  {
-    completedCandleWeightOunces: "16.46",
-    volumeOverflowPercent: "90",
-    colorDescription: "merlot",
-    burns: [],
-    notes: ""
-  },
-
   // punch small glass cd-3
   {
     completedCandleWeightOunces: "7.51",
@@ -798,6 +792,17 @@ module.exports = [
     colorDescription: "",
     burns: [],
     notes: "sinkhole, fixed with heat gun. frosting after that."
+  },
+  // punch black tumbler
+  // wyyv
+  {
+    completedCandleWeightOunces: "16.46",
+    volumeOverflowPercent: "90",
+    colorDescription: "merlot",
+    burns: [],
+    lidHashId: "WXZ8",
+    warningLabelHashId: "1XWB",
+    notes: ""
   },
 
   // tobacco amber tumbler
@@ -828,11 +833,14 @@ module.exports = [
   },
 
   // krampus black tumbler
+  // RX92
   {
     completedCandleWeightOunces: "17.20",
     volumeOverflowPercent: "95",
     colorDescription: "grey",
     burns: [],
+    lidHashId: "8O48",
+    warningLabelHashId: "1XWB",
     notes: "very small circle crack. fixed with heatgun"
   },
 
@@ -867,15 +875,20 @@ module.exports = [
     volumeOverflowPercent: "95",
     colorDescription: "sky blue",
     burns: [],
+    lidHashId: "WXZ8",
+    warningLabelHashId: "1XWB",
     notes: "perfect pour and adhesion."
   },
 
   // hot pour hot jar in a box
+  // 34V2
   {
     completedCandleWeightOunces: "7.41",
     volumeOverflowPercent: "90",
     colorDescription: "sky blue",
     burns: [],
+    lidHashId: "WXZ8",
+    warningLabelHashId: "1XWB",
     notes:
       "good pour. little hite around the wick. good adhesion with tiny spot of frosting."
   },
@@ -884,6 +897,8 @@ module.exports = [
     volumeOverflowPercent: "95",
     colorDescription: "sky blue",
     burns: [],
+    lidHashId: "WXZ8",
+    warningLabelHashId: "1XWB",
     notes:
       "pretty close to perfect pour. good adhesion with quarter sized spot of frosting."
   },
@@ -910,6 +925,8 @@ module.exports = [
     volumeOverflowPercent: "95",
     colorDescription: "sky blue",
     burns: [],
+    lidHashId: "WXZ8",
+    warningLabelHashId: "1XWB",
     notes: "good pour. very small imperfections. good adhesion."
   },
   {
@@ -926,13 +943,18 @@ module.exports = [
     volumeOverflowPercent: "95",
     colorDescription: "sky blue",
     burns: [],
+    lidHashId: "WXZ8",
+    warningLabelHashId: "1XWB",
     notes: "very good pour. but very small imperfections. good adhesion."
   },
+  // WGKM
   {
     completedCandleWeightOunces: "7.82",
     volumeOverflowPercent: "95",
     colorDescription: "sky blue",
     burns: [],
+    lidHashId: "WXZ8",
+    warningLabelHashId: "1XWB",
     notes:
       "good pour, tiny imperfections around wick. good adhesion with a single dime sized spot of frosting."
   },
@@ -968,5 +990,662 @@ module.exports = [
     burns: [],
     notes:
       "white imperfections all around surface but not horrible. some frosting around the sides."
-  }
+  },
+  // gift candles
+  // juniper mint batch 1
+  // 36JY
+  {
+    completedCandleWeightOunces: "16.94",
+    volumeOverflowPercent: "95",
+    colorDescription: "mint green",
+    burns: [],
+    lidHashId: "W3ZW",
+    warningLabelHashId: "1XWB",
+    notes: "pretty perfect"
+  },
+  // 3DJJ
+  {
+    completedCandleWeightOunces: "17.17",
+    volumeOverflowPercent: "95",
+    colorDescription: "mint green",
+    burns: [],
+    lidHashId: "WXZ8",
+    warningLabelHashId: "1XWB",
+    notes: "tiny sink an inch from the wick"
+  },
+  // RJY8
+  {
+    completedCandleWeightOunces: "8.08",
+    volumeOverflowPercent: "95",
+    colorDescription: "mint green",
+    burns: [],
+    notes: "small crack extending from the wick"
+  },
+  // RXD2
+  {
+    completedCandleWeightOunces: "7.65",
+    volumeOverflowPercent: "90",
+    colorDescription: "mint green",
+    burns: [],
+    lidHashId: "WV48",
+    warningLabelHashId: "B2N1",
+    notes: "TINY crack extending from the wick"
+  },
+  // Juniper Batch 2
+  // REX9
+  {
+    completedCandleWeightOunces: "16.64",
+    volumeOverflowPercent: "90",
+    colorDescription: "mint green",
+    burns: [],
+    notes: "pretty perfect"
+  },
+  // WNEK
+  {
+    completedCandleWeightOunces: "16.31",
+    volumeOverflowPercent: "90",
+    colorDescription: "mint green",
+    burns: [],
+    lidHashId: "W3ZW",
+    warningLabelHashId: "1XWB",
+    notes: "pretty perfect. gifted to stephanie"
+  },
+  // 3ZXJ
+  {
+    completedCandleWeightOunces: "7.72",
+    volumeOverflowPercent: "90",
+    colorDescription: "mint green",
+    burns: [],
+    notes: "small cracks"
+  },
+  // WL25
+  {
+    completedCandleWeightOunces: "7.59",
+    volumeOverflowPercent: "90",
+    colorDescription: "mint green",
+    burns: [],
+    notes: "perfect"
+  },
+
+  // W9ZP
+  {
+    completedCandleWeightOunces: "16.750",
+    volumeOverflowPercent: "85",
+    colorDescription: "bright red",
+    burns: [],
+    lidHashId: "WXZ8",
+    warningLabelHashId: "1XWB",
+    notes:
+      "pretty perfect. tiny crack around circumference of sinkhole. fixed with heatgun. rough top, worn wick."
+  },
+  // 3QEZ
+  {
+    completedCandleWeightOunces: "16.05",
+    volumeOverflowPercent: "85",
+    colorDescription: "bright red",
+    burns: [],
+    lidHashId: "WXZ8",
+    warningLabelHashId: "1XWB",
+    notes: "perfect"
+  },
+  // 3M2L
+  {
+    completedCandleWeightOunces: "7.92",
+    volumeOverflowPercent: "85",
+    colorDescription: "bright red",
+    burns: [],
+    lidHashId: "WV48",
+    warningLabelHashId: "B2N1",
+    notes:
+      "some cracks around the circumference of a sinkhole. heatgunned. bad top and frosting"
+  },
+  // 37XM
+  {
+    completedCandleWeightOunces: "7.81",
+    volumeOverflowPercent: "85",
+    colorDescription: "bright red",
+    burns: [],
+    lidHashId: "WV48",
+    warningLabelHashId: "B2N1",
+    notes: "some cracks around the circumference of a sinkhole. not heatgunned"
+  },
+
+  // punch batch 2
+  // WYEV
+  {
+    completedCandleWeightOunces: "16.77",
+    volumeOverflowPercent: "90",
+    colorDescription: "bright red",
+    burns: [],
+    lidHashId: "WXZ8",
+    warningLabelHashId: "1XWB",
+    notes: "small circular fractional crack around sinkhole inch from wick"
+  },
+  // 3549
+  {
+    completedCandleWeightOunces: "16.50",
+    volumeOverflowPercent: "85",
+    colorDescription: "bright red",
+    burns: [],
+    notes: "sinkhole crack around inch from the wick"
+  },
+  // WBDV
+  {
+    completedCandleWeightOunces: "7.97",
+    volumeOverflowPercent: "90",
+    colorDescription: "bright red",
+    burns: [],
+    lidHashId: "WV48",
+    warningLabelHashId: "B2N1",
+    notes:
+      "circular sinkhole crack half inch from wick. gifted to sean and brad"
+  },
+  // salty tobacco caramel
+  // 36MQ
+  {
+    completedCandleWeightOunces: "16.52",
+    volumeOverflowPercent: "85",
+    colorDescription: "light tan",
+    burns: [],
+    lidHashId: "WXZ8",
+    warningLabelHashId: "1XWB",
+    notes:
+      "faint circular sinkhole crack half inch from wick. jar in rough shape with chipped dye on bottom prob from dish washing"
+  },
+  // 3DX5
+  {
+    completedCandleWeightOunces: "16.51",
+    volumeOverflowPercent: "85",
+    colorDescription: "light tan",
+    burns: [],
+    lidHashId: "WXZ8",
+    warningLabelHashId: "1XWB",
+    notes:
+      "faint circular sinkhole crack half inch from wick. jar paint chipped on bottom from dishwasher prob"
+  },
+  // RJ8K
+  {
+    completedCandleWeightOunces: "7.73",
+    volumeOverflowPercent: "85",
+    colorDescription: "light tan",
+    burns: [],
+    lidHashId: "WXZ8",
+    warningLabelHashId: "1XWB",
+    notes: "pretty perfect. not heatgunned. no frosting."
+  },
+  // RXQY
+  {
+    completedCandleWeightOunces: "7.75",
+    volumeOverflowPercent: "85",
+    colorDescription: "light tan",
+    burns: [],
+    lidHashId: "WV48",
+    warningLabelHashId: "B2N1",
+    notes: "pretty perfect. not heatgunned. some frosting."
+  },
+  // Tobacco caramel batch 2
+  // RE17
+  {
+    completedCandleWeightOunces: "16.31",
+    volumeOverflowPercent: "85",
+    colorDescription: "light reddish tan.",
+    burns: [],
+    lidHashId: "WXZ8",
+    warningLabelHashId: "1XWB",
+    notes: "super faint circular crack an inch from the wick"
+  },
+  // WN8D
+  {
+    completedCandleWeightOunces: "16.62",
+    volumeOverflowPercent: "85",
+    colorDescription: "light reddish tan.",
+    burns: [],
+    lidHashId: "WXZ8",
+    warningLabelHashId: "1XWB",
+    notes: "half circle sinkhole crack inch from wick"
+  },
+  // 3ZGZ
+  {
+    completedCandleWeightOunces: "7.64",
+    volumeOverflowPercent: "85",
+    colorDescription: "light reddish tan.",
+    burns: [],
+    lidHashId: "WV48",
+    warningLabelHashId: "B2N1",
+    notes:
+      "half circle sinkhole crack inch from wick. heatgunned. ugly top and frosting."
+  },
+  // WLG8
+  {
+    completedCandleWeightOunces: "7.78",
+    volumeOverflowPercent: "85",
+    colorDescription: "light reddish tan.",
+    burns: [],
+    lidHashId: "WV48",
+    warningLabelHashId: "B2N1",
+    notes: "faint circular crack an inch from the wick. gifted to sean and brad"
+  },
+  // krampus batch 1
+  // W91E
+  {
+    completedCandleWeightOunces: "16.70",
+    volumeOverflowPercent: "85",
+    colorDescription: "light gray",
+    burns: [],
+    lidHashId: "8O48",
+    warningLabelHashId: "1XWB",
+    notes:
+      "faint circular crack inch from wick. bit of a rough top after heat gun. gifted to diana."
+  },
+  // 3QLQ
+  {
+    completedCandleWeightOunces: "16.36",
+    volumeOverflowPercent: "85",
+    colorDescription: "light gray",
+    burns: [],
+    lidHashId: "8O48",
+    warningLabelHashId: "1XWB",
+    notes: "circular crack inch from wick"
+  },
+  // 3MKZ
+  {
+    completedCandleWeightOunces: "7.88",
+    volumeOverflowPercent: "85",
+    colorDescription: "light gray",
+    burns: [],
+    notes: "circular crack inch from wick"
+  },
+  // 37J1
+  {
+    completedCandleWeightOunces: "7.75",
+    volumeOverflowPercent: "85",
+    colorDescription: "light gray",
+    burns: [],
+    notes: "circular crack inch from wick"
+  },
+
+  // Krampus batch 2
+  // WY2J
+  {
+    completedCandleWeightOunces: "16.53",
+    volumeOverflowPercent: "85",
+    colorDescription: "light gray",
+    burns: [],
+    lidHashId: "8O48",
+    warningLabelHashId: "1XWB",
+    notes: "circular crack inch from wick"
+  },
+  // 3564
+  {
+    completedCandleWeightOunces: "16.37",
+    volumeOverflowPercent: "85",
+    colorDescription: "light gray",
+    burns: [],
+    notes: "circular crack inch from wick"
+  },
+  // WB44
+  {
+    completedCandleWeightOunces: "7.75",
+    volumeOverflowPercent: "85",
+    colorDescription: "light gray",
+    burns: [],
+    lidHashId: "WV48",
+    warningLabelHashId: "B2N1",
+    notes: "faint circular crack inch from wick"
+  },
+  // 36DQ
+  {
+    completedCandleWeightOunces: "7.66",
+    volumeOverflowPercent: "85",
+    colorDescription: "light gray",
+    burns: [],
+    notes: "complete circular crack inch from wick"
+  },
+
+  // EXTRAA
+  // W1LV extra juniper mint batch 1
+  {
+    completedCandleWeightOunces: "7.15",
+    volumeOverflowPercent: "85",
+    colorDescription: "mint green",
+    burns: [],
+    warningLabelHashId: "B2N1",
+    notes:
+      "TINY sink lines but not bad at all. some failed glass adhesion in one spot."
+  },
+  // juniper mint extra batch 2
+  // WL25
+  {
+    completedCandleWeightOunces: "7.59",
+    volumeOverflowPercent: "90",
+    colorDescription: "mint green",
+    burns: [],
+    lidHashId: "WV48",
+    warningLabelHashId: "B2N1",
+    notes: "perfect"
+  },
+  // RVL5
+  {
+    completedCandleWeightOunces: "7.41",
+    volumeOverflowPercent: "85",
+    colorDescription: "mint green",
+    burns: [],
+    lidHashId: "WV48",
+    warningLabelHashId: "B2N1",
+    notes: "pretty perfect. tiny crack from wick."
+  },
+  // 3K1Q
+  {
+    completedCandleWeightOunces: "0.16",
+    volumeOverflowPercent: "95",
+    colorDescription: "mint green",
+    burns: [],
+    notes: "totally fine"
+  },
+  // REY7
+  {
+    completedCandleWeightOunces: "0.16",
+    volumeOverflowPercent: "95",
+    colorDescription: "mint green",
+    burns: [],
+    notes: "totally fine"
+  },
+  // punch batch 1 extra
+  // WNLD
+  {
+    completedCandleWeightOunces: "7.92",
+    volumeOverflowPercent: "90",
+    colorDescription: "bright red",
+    burns: [],
+    lidHashId: "WV48",
+    warningLabelHashId: "B2N1",
+    notes:
+      "tight circular sinkhole around wick. heatgunned. bad top and frosting."
+  },
+  // punch batch 2 extra
+  // 3Z2Z
+  {
+    completedCandleWeightOunces: "0.71",
+    volumeOverflowPercent: "95",
+    colorDescription: "bright red",
+    burns: [],
+    notes: "perf"
+  },
+  // WLV8
+  {
+    completedCandleWeightOunces: "0.700",
+    volumeOverflowPercent: "95",
+    colorDescription: "bright red",
+    burns: [],
+    notes: "some sinks around the edges"
+  },
+  // 34BZ
+  {
+    completedCandleWeightOunces: "0.72",
+    volumeOverflowPercent: "95",
+    colorDescription: "bright red",
+    burns: [],
+    notes: "some sinks around the edges"
+  },
+  // ROLO
+  {
+    completedCandleWeightOunces: "0.71",
+    volumeOverflowPercent: "95",
+    colorDescription: "bright red",
+    burns: [],
+    notes: "some sinks around the edges"
+  },
+  // 38XG
+  {
+    completedCandleWeightOunces: "0.71",
+    volumeOverflowPercent: "95",
+    colorDescription: "bright red",
+    burns: [],
+    notes: "some sinks around the edges"
+  },
+  // tobacco caramel batch 1 extras
+  // W9QE
+  {
+    completedCandleWeightOunces: "7.76",
+    volumeOverflowPercent: "85",
+    colorDescription: "light tan",
+    burns: [],
+    lidHashId: "WV48",
+    warningLabelHashId: "B2N1",
+    notes:
+      "SUPER faint circular crack but pretty perfect. not heatgunned. some frosting."
+  },
+
+  // 3Q2Q
+  {
+    completedCandleWeightOunces: "0.73",
+    volumeOverflowPercent: "90",
+    colorDescription: "light tan",
+    burns: [],
+    notes: "rough top for a tealight"
+  },
+  // Salty Tobacco Caramel Batch 2 Extras
+  // W9QE
+  {
+    completedCandleWeightOunces: "16.62",
+    volumeOverflowPercent: "85",
+    colorDescription: "light reddish tan.",
+    burns: [],
+    notes: "obvious circular crack an inch from the wick"
+  },
+  // Krampus 1 Extras
+  // 37Y1
+  {
+    completedCandleWeightOunces: "7.74",
+    volumeOverflowPercent: "85",
+    colorDescription: "light gray",
+    burns: [],
+    lidHashId: "WV48",
+    warningLabelHashId: "B2N1",
+    notes:
+      "circular crack inch from wick. heatgunned. top real ugly now and lots of frosting"
+  },
+  // Krampus 2 extra
+  // WGLV
+  {
+    completedCandleWeightOunces: "7.81",
+    volumeOverflowPercent: "85",
+    colorDescription: "light gray",
+    burns: [],
+    notes: "complete circular crack inch from wick"
+  },
+
+  // heat lamp first batch of 4
+  // 3P9K
+  {
+    completedCandleWeightOunces: "17.7",
+    volumeOverflowPercent: "98",
+    colorDescription: "white",
+    burns: [],
+    notes:
+      "250w heat lamp was likely too close and the top was hideous. A repour of leftover wax the next day created a perfect top."
+  },
+  // R2MQ
+  {
+    completedCandleWeightOunces: "18.1",
+    volumeOverflowPercent: "98",
+    colorDescription: "white",
+    burns: [],
+    notes:
+      "2 popped bubbles on the final surface. happened after heatgunning. too much fo? 250w heat lamp was likely too close and the top was hideous. A repour of leftover wax the next day created a perfect top."
+  },
+  // WY9J
+  {
+    completedCandleWeightOunces: "8.2",
+    volumeOverflowPercent: "98",
+    colorDescription: "white",
+    burns: [],
+    notes:
+      "250w heat lamp was likely too close and the top was hideous. A repour of leftover wax the next day created a perfect top."
+  },
+  // 3584
+  {
+    completedCandleWeightOunces: "8.1",
+    volumeOverflowPercent: "98",
+    colorDescription: "white",
+    burns: [],
+    notes:
+      "250w heat lamp was likely too close and the top was hideous. A repour of leftover wax the next day created a perfect top."
+  },
+
+  // high heat lamp batch of 2
+  // RJPK
+  {
+    completedCandleWeightOunces: "17.7",
+    volumeOverflowPercent: "98",
+    colorDescription: "white",
+    burns: [],
+    notes:
+      "popped bubble right next to wick. surface was rough and needed a second pour. heat gun air currents? idk."
+  },
+  // RXMY
+  {
+    completedCandleWeightOunces: "8.14",
+    volumeOverflowPercent: "98",
+    colorDescription: "white",
+    burns: [],
+    notes:
+      "popped bubble right next to wick. surface was rough and needed a second pour. heat gun air currents? idk."
+  },
+
+  // RT no A/C batch of 2
+  // W1ZV
+  {
+    completedCandleWeightOunces: "15.9",
+    volumeOverflowPercent: "85",
+    colorDescription: "white",
+    burns: [],
+    notes: "pour seems fine. slightly dipped to center but thats okay"
+  },
+  // RV45
+  {
+    completedCandleWeightOunces: "7.7",
+    volumeOverflowPercent: "90",
+    colorDescription: "white",
+    burns: [],
+    notes: ""
+  },
+
+  // RT no A/C again orange vanilla Batch of 2
+  // 3ZQZ
+  {
+    completedCandleWeightOunces: "17.11",
+    volumeOverflowPercent: "95",
+    colorDescription: "white",
+    burns: [],
+    notes: "micro cracks between the two wicks, but really not bad of a top"
+  },
+  // WLQ8
+  {
+    completedCandleWeightOunces: "16.76",
+    volumeOverflowPercent: "95",
+    colorDescription: "white",
+    burns: [],
+    notes: "micro cracks between the two wicks, but really not bad of a top"
+  },
+
+  // First Coco-83 batch 5% bees orange vanilla
+  // RO9O
+  {
+    completedCandleWeightOunces: "16.61",
+    volumeOverflowPercent: "90",
+    colorDescription: "white",
+    burns: [],
+    notes: "Right after lighting 4-5inch smoking flame. Eco-14 probably WAY too big"
+  },
+  // 38OG
+  {
+    completedCandleWeightOunces: "16.9",
+    volumeOverflowPercent: "90",
+    colorDescription: "white",
+    burns: [],
+    notes: ""
+  },
+
+  // 83/Bees 95/5 wick test batch english garden + cucumber
+  // 3QPQ Double HTP-31
+  {
+    completedCandleWeightOunces: "12.46",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 3ME7 Double CD-2
+  {
+    completedCandleWeightOunces: "12.37",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 37E1 LX-14
+  {
+    completedCandleWeightOunces: "12.7",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // WGDV LX-16
+  {
+    completedCandleWeightOunces: "12.66",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 3PGK CD-6
+  {
+    completedCandleWeightOunces: "12.56",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // R2JQ Eco-6
+  {
+    completedCandleWeightOunces: "13.00",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // WY7J HTP-52
+  {
+    completedCandleWeightOunces: "13.09",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 35V4 HTP-62
+  {
+    completedCandleWeightOunces: "12.45",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // WBM4 Double CD-3
+  {
+    completedCandleWeightOunces: "12.87",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // Eco-8
+  {
+    completedCandleWeightOunces: "13.09",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
 ];

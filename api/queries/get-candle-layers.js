@@ -1,5 +1,4 @@
 const async = require("neo-async");
-const slug = require("slug");
 const getBatchQuery = require("./get-batch");
 
 module.exports = function getCandleLayers(db, candleId, cb) {

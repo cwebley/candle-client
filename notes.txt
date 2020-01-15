@@ -166,15 +166,22 @@ autocomplete components need some sort of lookup by hash_id endpoint
 
 node canvas to create labels programmatically
 
-
 Dye blocks pieces per pound of wax? something like that
 or shift all to weight?
 Checkbox for finishing an oil/block/wax/jar/wick/etc
 -- when hit you can make up the remainder with another one somehow
 
-
-Duplicate candle button
-
-add pour temperature to batch.js layers section. somehow its missing.
 also need amounts of each wax/fo and the percentage
 clear order page after submission
+
+deleting a layer doesnt update the wax to fill numbers
+
+candle page layer item prices reflect batch prices and not the cost of the layer
+
+batch page need a total batch cost. for waxes/fos etc too
+
+coco83-5% bees wick tests:
+todo: 
+premiers
+cd-8
+double eco-1

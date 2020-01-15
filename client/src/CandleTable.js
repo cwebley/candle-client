@@ -9,6 +9,7 @@ import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
 import DeleteIcon from "@material-ui/icons/Delete";
 import EditIcon from "@material-ui/icons/Edit";
+import CopyIcon from "@material-ui/icons/FileCopy";
 import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
@@ -22,7 +23,13 @@ const styles = theme => ({
   table: {}
 });
 
-function CandleTable({ candleData, onDeleteClick, onEditClick, classes }) {
+function CandleTable({
+  candleData,
+  onDeleteClick,
+  onEditClick,
+  onCopyClick,
+  classes
+}) {
   return (
     <Paper className={classes.root}>
       <Table className={classes.table}>
@@ -30,9 +37,7 @@ function CandleTable({ candleData, onDeleteClick, onEditClick, classes }) {
           <TableRow>
             {(onDeleteClick || onEditClick) && (
               <TableCell>
-                <Typography variant="h6">{`Candles (${
-                  candleData.length
-                })`}</Typography>
+                <Typography variant="h6">{`Candles (${candleData.length})`}</Typography>
               </TableCell>
             )}
             <TableCell>Name</TableCell>
@@ -44,7 +49,7 @@ function CandleTable({ candleData, onDeleteClick, onEditClick, classes }) {
         <TableBody>
           {candleData.map((candle, i) => (
             <TableRow key={i}>
-              {(onDeleteClick || onEditClick) && (
+              {(onDeleteClick || onEditClick || onCopyClick) && (
                 <TableCell padding="none">
                   {onDeleteClick && (
                     <IconButton onClick={() => onDeleteClick(i)}>
@@ -54,6 +59,11 @@ function CandleTable({ candleData, onDeleteClick, onEditClick, classes }) {
                   {onEditClick && (
                     <IconButton onClick={() => onEditClick(i)}>
                       <EditIcon />
+                    </IconButton>
+                  )}
+                  {onCopyClick && (
+                    <IconButton onClick={() => onCopyClick(i)}>
+                      <CopyIcon />
                     </IconButton>
                   )}
                 </TableCell>

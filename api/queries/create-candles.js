@@ -57,7 +57,7 @@ function insertCandles(db, data, cb) {
     sql += internalSelect;
     params.push(
       d.name,
-      slug(d.name, { lower: true }),
+      slug(d.name || "", { lower: true }),
       d.wickCount,
       d.wickLayout,
       0,

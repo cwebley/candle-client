@@ -125,7 +125,7 @@ function updateCandle(db, candleHashId, data, cb) {
   let joinWarningLabels = "";
   let setWarningLabels = "";
   if (data.warningLabelHashId) {
-    joinBoxes = `INNER JOIN (
+    joinWarningLabels = `INNER JOIN (
       SELECT id FROM warning_labels
       WHERE hash_id = ?
     ) AS wl`;

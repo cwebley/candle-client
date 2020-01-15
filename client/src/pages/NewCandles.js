@@ -68,6 +68,14 @@ function NewCandles({ enqueueSnackbar }) {
     setCandleDialogOpen(true);
   };
 
+  const copyCandle = index => {
+    setCandleEditIndex(null);
+    setNewCandleValues({
+      ...candles[index]
+    });
+    setCandleDialogOpen(true);
+  };
+
   const editCandle = e => {
     e.preventDefault();
 
@@ -165,6 +173,7 @@ function NewCandles({ enqueueSnackbar }) {
             candleData={candles}
             onDeleteClick={deleteCandle}
             onEditClick={showEditCandle}
+            onCopyClick={copyCandle}
           />
           <div className={classes.formActions}>
             <Button

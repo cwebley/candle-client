@@ -16,7 +16,7 @@ module.exports.up = function(state, dependencies, next) {
       (err, resp, body) => {
         if (!err && resp.statusCode >= 300) {
           err = new Error(
-            `Non 200 response: ${resp.statusCode}. body: ${body}`
+            `Non 200 response: ${resp.statusCode}. req.body: ${JSON.stringify(candleGroup, null, 4)}`
           );
         }
         console.log("SAVING BODY TO STATE ", this, body);

@@ -35,21 +35,18 @@ function Batch({ match, classes }) {
   const [batch, setBatch] = useState();
 
   // fetch one time data from the server
-  useEffect(
-    () => {
-      const fetchBatch = async () => {
-        const result = await axios(
-          `http://localhost:5000/batches/${match.params.id}`
-        );
-        console.log("RESULTS: ", result && result.data);
-        if (result && result.data) {
-          setBatch(result.data);
-        }
-      };
-      fetchBatch();
-    },
-    [match.params.id]
-  );
+  useEffect(() => {
+    const fetchBatch = async () => {
+      const result = await axios(
+        `http://localhost:5000/batches/${match.params.id}`
+      );
+      console.log("RESULTS: ", result && result.data);
+      if (result && result.data) {
+        setBatch(result.data);
+      }
+    };
+    fetchBatch();
+  }, [match.params.id]);
 
   return (
     <div className={classes.root}>
@@ -87,11 +84,13 @@ function Batch({ match, classes }) {
                   value={batch.fragranceAddTemperatureFahrenheit}
                   unit="°F"
                 />
-                <DataLabel
-                  label="Dye Add Temperature"
-                  value={batch.dyeAddTemperatureFahrenheit}
-                  unit="°F"
-                />
+                {batch.dyeAddTemperatureFahrenheit && (
+                  <DataLabel
+                    label="Dye Add Temperature"
+                    value={batch.dyeAddTemperatureFahrenheit}
+                    unit="°F"
+                  />
+                )}
               </ul>
             </Paper>
             <Typography className={classes.resourceTypeTitle} variant="h5">
@@ -102,7 +101,13 @@ function Batch({ match, classes }) {
                 key={w.hashId}
                 name={w.name}
                 source={w.source}
-                price={w.calculatedCosts.totalCost}
+                percentOfType={`${Math.round(
+                  (1000 * w.weightOunces) / batch.totalWaxWeightOunces
+                ) / 10}%`}
+                amount={`${w.weightOunces} oz`}
+                productCost={w.calculatedCosts.productCost}
+                shippingCost={w.calculatedCosts.shippingCost}
+                totalCost={w.calculatedCosts.totalCost}
               />
             ))}
             <Typography className={classes.resourceTypeTitle} variant="h5">
@@ -113,7 +118,13 @@ function Batch({ match, classes }) {
                 key={fo.hashId}
                 name={fo.name}
                 source={fo.source}
-                price={fo.calculatedCosts.totalCost}
+                percentOfType={`${Math.round(
+                  (1000 * fo.weightOunces) / batch.totalFragranceWeightOunces
+                ) / 10}%`}
+                amount={`${fo.weightOunces} oz`}
+                productCost={fo.calculatedCosts.productCost}
+                shippingCost={fo.calculatedCosts.shippingCost}
+                totalCost={fo.calculatedCosts.totalCost}
               />
             ))}
             <Typography className={classes.resourceTypeTitle} variant="h5">

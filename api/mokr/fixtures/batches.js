@@ -16,7 +16,7 @@ module.exports.up = function(state, dependencies, next) {
       (err, resp, body) => {
         if (!err && resp.statusCode >= 300) {
           err = new Error(
-            `Non 200 response: ${resp.statusCode}. body: ${body}`
+            `Non 200 response: ${resp.statusCode}. req.body: ${JSON.stringify(batchData, null, 4)}`
           );
           console.log("BATCH DATA: ", batchData);
         }

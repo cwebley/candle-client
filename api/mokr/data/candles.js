@@ -1100,5 +1100,591 @@ module.exports = [
       wickLayout: "center",
       wickStickerHashId: "BPJB"
     }
+  ],
+  // Juniper Mint Library Gift Batch
+  [
+    {
+      name: "Juniper Mint Library Gift Batch 1",
+      jarHashId: "1KQX",
+      wickHashId: "NRPM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Juniper Mint Library Gift Batch 1",
+      jarHashId: "1KQX",
+      wickHashId: "NRPM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Juniper Mint Library Gift Batch 1",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Juniper Mint Library Gift Batch 1",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    }
+  ],
+  [
+    {
+      name: "Juniper Mint Library Gift Batch 2",
+      jarHashId: "1KQX",
+      wickHashId: "NRPM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Juniper Mint Library Gift Batch 2",
+      jarHashId: "1KQX",
+      wickHashId: "NRPM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Juniper Mint Library Gift Batch 2",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Juniper Mint Library Gift Batch 2",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    }
+  ],
+  [
+    {
+      name: "Holiday Punch Gift Batch 1",
+      jarHashId: "18Z3",
+      wickHashId: "NRPM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Holiday Punch Gift Batch 1",
+      jarHashId: "MWGZ",
+      wickHashId: "NRPM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Holiday Punch Gift Batch 1",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Holiday Punch Gift Batch 1",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    }
+  ],
+  [
+    {
+      name: "Holiday Punch Gift Batch 2",
+      jarHashId: "MWGZ",
+      wickHashId: "NRPM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Holiday Punch Gift Batch 2",
+      jarHashId: "MWGZ",
+      wickHashId: "NRPM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Holiday Punch Gift Batch 2",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Something extra, never made prob",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    }
+  ],
+  [
+    {
+      name: "Salty Tobacco Caramel Gift Batch 1",
+      jarHashId: "M4PX",
+      wickHashId: "D4WR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Salty Tobacco Caramel Gift Batch 1",
+      jarHashId: "M4PX",
+      wickHashId: "D4WR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Salty Tobacco Caramel Gift Batch 1",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Salty Tobacco Caramel Gift Batch 1",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    }
+  ],
+  [
+    {
+      name: "Salty Tobacco Caramel Gift Batch 2",
+      jarHashId: "MWGZ",
+      wickHashId: "D4WR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Salty Tobacco Caramel Gift Batch 2",
+      jarHashId: "MWGZ",
+      wickHashId: "D4WR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Salty Tobacco Caramel Gift Batch 2",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Salty Tobacco Caramel Gift Batch 2",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    }
+  ],
+  [
+    {
+      name: "Krampus Gift Batch 1",
+      jarHashId: "MWGZ",
+      wickHashId: "NRPM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Krampus Gift Batch 1",
+      jarHashId: "MWGZ",
+      wickHashId: "NRPM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Krampus Gift Batch 1",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Krampus Gift Batch 1",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    }
+  ],
+  [
+    {
+      name: "Krampus Gift Batch 2",
+      jarHashId: "MWGZ",
+      wickHashId: "NRPM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Krampus Gift Batch 2",
+      jarHashId: "1KQX",
+      wickHashId: "NRPM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Krampus Gift Batch 2",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Krampus Gift Batch 2",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    }
+  ],
+  // overflow from gift batches
+  [
+    {
+      name: "Juniper Mint Extra Batch 1",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Juniper Mint Extra Batch 2",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Juniper Mint Tealight Extra",
+      jarHashId: "M93M",
+      wickHashId: "N9WN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Juniper Mint Tealight Extra",
+      jarHashId: "M93M",
+      wickHashId: "N9WN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Punch Extra Batch 1",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Punch Extra Tealight Batch 2",
+      jarHashId: "M93M",
+      wickHashId: "N9WN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Punch Extra Tealight Batch 2",
+      jarHashId: "M93M",
+      wickHashId: "N9WN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Punch Extra Tealight Batch 2",
+      jarHashId: "M93M",
+      wickHashId: "N9WN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Punch Extra Tealight Batch 2",
+      jarHashId: "M93M",
+      wickHashId: "N9WN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Punch Extra Tealight Batch 2",
+      jarHashId: "M93M",
+      wickHashId: "N9WN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Salty Tobacco Caramel Extra Batch 1",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Salty Tobacco Extra Tealight Batch 1",
+      jarHashId: "M93M",
+      wickHashId: "N9WN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Salty Tobacco Caramel Extra Batch 2",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Krampus Extra Batch 1",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Krampus Extra Batch 2",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    }
+  ],
+  [
+    {
+      name: "Heat Lamp Tumbler RT jar",
+      jarHashId: "M6D9",
+      wickHashId: "NRPM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      jarHashId: "M6D9",
+      wickHashId: "NRPM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB",
+      name: "Heat Lamp Tumbler Hot Jar"
+    },
+    {
+      name: "Heat Lamp Small Jar RT",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB",
+      notes: ""
+    },
+    {
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB",
+      name: "Heat Lamp Small Jar Hot Jar"
+    }
+  ],
+  [
+    {
+      name: "Higher Heat Lamp Tumbler RT jar",
+      jarHashId: "M6D9",
+      wickHashId: "NRPM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Higher Heat Lamp Small RT jar",
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      jarHashId: "M6D9",
+      wickHashId: "NRPM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB",
+      name: "No Heat Lamp But Warmer Apartment RT Jar"
+    },
+    {
+      jarHashId: "MODG",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB",
+      name: "No Heat Lamp But Warmer Apartment RT Jar"
+    }
+  ],
+  // double wick tests cd-3/cd-4
+  [
+    {
+      name: "Straight Tumbler Double CD-3",
+      jarHashId: "M6D9",
+      wickHashId: "N9OW",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Straight Tumbler Double CD-4",
+      jarHashId: "M6D9",
+      wickHashId: "NLR7",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BPJB"
+    }
+  ],
+  // first coco-83 candles with 5% bees
+  [
+    {
+      name: "Straight Tumbler ECO-14",
+      jarHashId: "M6D9",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Straight Tumbler Double CD-4",
+      jarHashId: "M6D9",
+      wickHashId: "NLR7",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BPJB"
+    }
+  ],
+  // 95/5 83/Bees wick tests half pours
+  [
+    {
+      name: "95/5 83/Bees Double HTP-31",
+      jarHashId: "M6D9",
+      wickHashId: "N6ZP",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "95/5 83/Bees Double CD-2",
+      jarHashId: "M6D9",
+      wickHashId: "N744",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "95/5 83/Bees LX-14",
+      jarHashId: "M6D9",
+      wickHashId: "5Z4G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "95/5 83/Bees LX-16",
+      jarHashId: "M6D9",
+      wickHashId: "5P4X",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "95/5 83/Bees CD-6",
+      jarHashId: "M6D9",
+      wickHashId: "5Q7M",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "95/5 83/Bees Eco-6",
+      jarHashId: "M6D9",
+      wickHashId: "D26N",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "95/5 83/Bees HTP-52",
+      jarHashId: "M6D9",
+      wickHashId: "5M3X",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "95/5 83/Bees HTP-62",
+      jarHashId: "M6D9",
+      wickHashId: "DVVE",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "95/5 83/Bees Double CD-3",
+      jarHashId: "M6D9",
+      wickHashId: "N9OW",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "95/5 83/Bees Eco-8",
+      jarHashId: "M6D9",
+      wickHashId: "5EGN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    }
   ]
 ];

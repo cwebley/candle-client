@@ -11,7 +11,6 @@ import Typography from "@material-ui/core/Typography";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import Grid from "@material-ui/core/Grid";
 
-import DataLabel from "../display-items/DataLabel";
 import CandleLayer from "../display-items/CandleLayer";
 import Candle from "../display-items/Candle";
 import handleApiError from "../utils";

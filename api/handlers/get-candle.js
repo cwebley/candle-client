@@ -78,6 +78,8 @@ module.exports = function getCandle(req, res) {
               w,
               layerToBatchPercentage
             );
+            w.layerWeightOunces =
+              Math.round(100 * w.weightOunces * layerToBatchPercentage) / 100;
           });
           l.batchData.fragranceOil.forEach(fo => {
             updateLayerCostsFromResource(
@@ -86,6 +88,8 @@ module.exports = function getCandle(req, res) {
               fo,
               layerToBatchPercentage
             );
+            fo.layerWeightOunces =
+              Math.round(100 * fo.weightOunces * layerToBatchPercentage) / 100;
           });
           l.batchData.additives.forEach(a => {
             updateLayerCostsFromResource(
@@ -94,6 +98,8 @@ module.exports = function getCandle(req, res) {
               a,
               layerToBatchPercentage
             );
+            a.layerWeightOunces =
+              Math.round(100 * a.weightOunces * layerToBatchPercentage) / 100;
           });
           l.batchData.dyeBlocks.forEach(db => {
             updateLayerCostsFromResource(
@@ -102,6 +108,8 @@ module.exports = function getCandle(req, res) {
               db,
               layerToBatchPercentage
             );
+            db.layerPieces =
+              Math.round(100 * db.pieces * layerToBatchPercentage) / 100;
           });
 
           l.calculatedCosts = {
@@ -169,6 +177,14 @@ const updateLayerCostsFromResource = (
       parseFloat(resourceData.calculatedCosts.totalCost)
   };
 
+  const layerCosts = {};
+
+  Object.keys(resourceCalculatedFloatCosts).forEach(k => {
+    layerCosts[k] = resourceCalculatedFloatCosts[k].toFixed(2);
+  });
+
+  resourceData.layerCosts = layerCosts;
+
   if (!layerData.calculatedFloatCosts) {
     layerData.calculatedFloatCosts = resourceCalculatedFloatCosts;
   } else {
@@ -187,6 +203,9 @@ const updateLayerCostsFromResource = (
         resourceCalculatedFloatCosts.totalCost
     };
   }
+
+  layerData.layerToBatchPercentage =
+    Math.round(10000 * layerToBatchPercentage) / 100; // 2 decimal places on the percentage
 
   console.log(
     "CALCULATED FLOAT COSTS: ",

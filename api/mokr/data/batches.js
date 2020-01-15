@@ -1728,7 +1728,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50"
       }
     ],
-    name: "Holiday Punch Die Test",
+    name: "Holiday Punch Dye Test",
     dyeAddTemperatureFahrenheit: "180",
     fragranceAddTemperatureFahrenheit: "195"
   },
@@ -1967,5 +1967,803 @@ module.exports = [
     name: "Small Jar Pour Test Birch Vetiver Lavender",
     fragranceAddTemperatureFahrenheit: "195",
     dyeAddTemperatureFahrenheit: "180"
+  },
+  {
+    whenCreated: "2019-12-17",
+    batchItems: [
+      { type: "wax", hashId: "3M41", weightOunces: "25.06" },
+      { type: "wax", hashId: "157P", weightOunces: "0.40" },
+      { type: "wax", hashId: "P4J1", weightOunces: "1.34" },
+      { type: "fragrance-oil", hashId: "GVXP", weightOunces: "1.28" },
+      { type: "fragrance-oil", hashId: "48DE", weightOunces: "1.28" },
+      { type: "fragrance-oil", hashId: "4NDL", weightOunces: "1.09" },
+      { type: "dye-blocks", hashId: "74ZV", pieces: "0.2" }
+    ],
+    layers: [
+      {
+        candleHashId: "36JY",
+        whenPoured: "2019-12-17T18:31:03",
+        preppedContainerWeightOunces: "6.99",
+        containerTemperatureFahrenheit: "68",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3DJJ",
+        whenPoured: "2019-12-17T18:31:03",
+        preppedContainerWeightOunces: "7.07",
+        containerTemperatureFahrenheit: "68",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "RJY8",
+        whenPoured: "2019-12-17T18:31:03",
+        preppedContainerWeightOunces: "4.19",
+        containerTemperatureFahrenheit: "68",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "RXD2",
+        whenPoured: "2019-12-17T18:31:03",
+        preppedContainerWeightOunces: "4.22",
+        containerTemperatureFahrenheit: "68",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "W1LV",
+        whenPoured: "2019-12-17T18:40:40",
+        preppedContainerWeightOunces: "4.19",
+        containerTemperatureFahrenheit: "68",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Juniper Mint Library Gift Batch 1",
+    fragranceAddTemperatureFahrenheit: "165",
+    dyeAddTemperatureFahrenheit: "180"
+  },
+  {
+    whenCreated: "2019-12-17",
+    batchItems: [
+      { type: "wax", hashId: "3M41", weightOunces: "6.00" },
+      { type: "wax", hashId: "P4J1", weightOunces: "1.34" },
+      { type: "wax", hashId: "157P", weightOunces: "0.40" },
+      { type: "fragrance-oil", hashId: "GVXP", weightOunces: "1.28" },
+      { type: "fragrance-oil", hashId: "48DE", weightOunces: "1.28" },
+      { type: "fragrance-oil", hashId: "4NDL", weightOunces: "1.09" },
+      { type: "dye-blocks", hashId: "74ZV", pieces: "0.2" },
+      { type: "wax", hashId: "3NRP", weightOunces: "19.06" }
+    ],
+    layers: [
+      {
+        candleHashId: "REX9",
+        whenPoured: "2019-12-17T18:40:40",
+        preppedContainerWeightOunces: "6.89",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WNEK",
+        whenPoured: "2019-12-17T18:40:40",
+        preppedContainerWeightOunces: "7.07",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3ZXJ",
+        whenPoured: "2019-12-17T18:40:40",
+        preppedContainerWeightOunces: "4.23",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WL25",
+        whenPoured: "2019-12-17T18:40:40",
+        preppedContainerWeightOunces: "4.19",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "RVL5",
+        whenPoured: "2019-12-17T18:40:40",
+        preppedContainerWeightOunces: "4.19",
+        containerTemperatureFahrenheit: "68",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3K1Q",
+        whenPoured: "2019-12-17T18:40:40",
+        preppedContainerWeightOunces: "0.163",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "REY7",
+        whenPoured: "2019-12-17T18:40:40",
+        preppedContainerWeightOunces: "0.163",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Juniper Mint Library Gift Batch 2",
+    dyeAddTemperatureFahrenheit: "180",
+    fragranceAddTemperatureFahrenheit: "165"
+  },
+  {
+    whenCreated: "2019-12-17",
+    batchItems: [
+      { type: "wax", hashId: "3NRP", weightOunces: "25.06" },
+      { type: "wax", hashId: "P4J1", weightOunces: "1.34" },
+      { type: "wax", hashId: "157P", weightOunces: "0.40" },
+      { type: "fragrance-oil", hashId: "OKVV", weightOunces: "1.20" },
+      { type: "fragrance-oil", hashId: "GYXM", weightOunces: "1.20" },
+      { type: "fragrance-oil", hashId: "41ZW", weightOunces: "1.20" },
+      { type: "dye-blocks", hashId: "V29B", pieces: "0.2" }
+    ],
+    layers: [
+      {
+        candleHashId: "W9ZP",
+        whenPoured: "2019-12-17T19:42:59",
+        preppedContainerWeightOunces: "7.11",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3QE7",
+        whenPoured: "2019-12-17T19:42:59",
+        preppedContainerWeightOunces: "6.69",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3M2L",
+        whenPoured: "2019-12-17T19:42:59",
+        preppedContainerWeightOunces: "4.22",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "37XM",
+        whenPoured: "2019-12-17T19:42:59",
+        preppedContainerWeightOunces: "4.18",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WNLD",
+        whenPoured: "2019-12-17T19:42:59",
+        preppedContainerWeightOunces: "4.18",
+        containerTemperatureFahrenheit: "68",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Holiday Punch Gift Batch 1",
+    dyeAddTemperatureFahrenheit: "180",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  {
+    whenCreated: "2019-12-17",
+    batchItems: [
+      { type: "wax", hashId: "3NRP", weightOunces: "21.88" },
+      { type: "wax", hashId: "157P", weightOunces: "0.35" },
+      { type: "wax", hashId: "P4J1", weightOunces: "1.17" },
+      { type: "fragrance-oil", hashId: "41ZW", weightOunces: "1.05" },
+      { type: "fragrance-oil", hashId: "OKVV", weightOunces: "1.05" },
+      { type: "fragrance-oil", hashId: "GYXM", weightOunces: "1.05" },
+      { type: "dye-blocks", hashId: "74ZV", pieces: "0.2" }
+    ],
+    layers: [
+      {
+        candleHashId: "WYEV",
+        whenPoured: "2019-12-17T19:57:54",
+        preppedContainerWeightOunces: "6.96",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3549",
+        whenPoured: "2019-12-17T19:57:54",
+        preppedContainerWeightOunces: "7.08",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WBDV",
+        whenPoured: "2019-12-17T19:57:54",
+        preppedContainerWeightOunces: "4.22",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Holiday Punch Gift Batch 2",
+    dyeAddTemperatureFahrenheit: "180",
+    fragranceAddTemperatureFahrenheit: "165"
+  },
+  {
+    whenCreated: "2019-12-17",
+    batchItems: [
+      { type: "wax", hashId: "157P", weightOunces: "0.40" },
+      { type: "wax", hashId: "P4J1", weightOunces: "1.34" },
+      { type: "wax", hashId: "3NRP", weightOunces: "25.06" },
+      { type: "fragrance-oil", hashId: "OK3V", weightOunces: "1.20" },
+      { type: "fragrance-oil", hashId: "GV68", weightOunces: "1.20" },
+      { type: "fragrance-oil", hashId: "G7Q8", weightOunces: "0.88" },
+      { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.36" },
+      { type: "dye-blocks", hashId: "VP1O", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "36MQ",
+        whenPoured: "2019-12-17T20:48:37",
+        preppedContainerWeightOunces: "6.95",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3DX5",
+        whenPoured: "2019-12-17T20:48:37",
+        preppedContainerWeightOunces: "7.06",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "RJ8K",
+        whenPoured: "2019-12-17T20:48:37",
+        preppedContainerWeightOunces: "4.22",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "RXQY",
+        whenPoured: "2019-12-17T20:48:37",
+        preppedContainerWeightOunces: "4.22",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "W9QE",
+        whenPoured: "2019-12-17T20:48:37",
+        preppedContainerWeightOunces: "4.22",
+        containerTemperatureFahrenheit: "68",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3Q2Q",
+        whenPoured: "2019-12-17T20:48:37",
+        preppedContainerWeightOunces: "0.16",
+        containerTemperatureFahrenheit: "68",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Salty Tobacco Caramel Gift Batch 1",
+    dyeAddTemperatureFahrenheit: "180",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  {
+    whenCreated: "2019-12-17",
+    batchItems: [
+      { type: "wax", hashId: "157P", weightOunces: "0.40" },
+      { type: "wax", hashId: "P4J1", weightOunces: "1.34" },
+      { type: "wax", hashId: "3NRP", weightOunces: "25.06" },
+      { type: "fragrance-oil", hashId: "OK3V", weightOunces: "1.20" },
+      { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.45" },
+      { type: "fragrance-oil", hashId: "G597", weightOunces: "0.75" },
+      { type: "fragrance-oil", hashId: "G7Q8", weightOunces: "0.88" },
+      { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.36" },
+      { type: "dye-blocks", hashId: "VP1O", pieces: "0.1" }
+    ],
+    layers: [
+      {
+        candleHashId: "RE17",
+        whenPoured: "2019-12-17T20:48:55",
+        preppedContainerWeightOunces: "6.78",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WN8D",
+        whenPoured: "2019-12-17T20:48:55",
+        preppedContainerWeightOunces: "6.96",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3ZGZ",
+        whenPoured: "2019-12-17T20:48:55",
+        preppedContainerWeightOunces: "4.23",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "65",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WLG8",
+        whenPoured: "2019-12-17T20:48:55",
+        preppedContainerWeightOunces: "4.23",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3MG7",
+        whenPoured: "2019-12-17T20:48:55",
+        preppedContainerWeightOunces: "4.23",
+        containerTemperatureFahrenheit: "68",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Salty Tobacco Caramel Gift Batch 2",
+    dyeAddTemperatureFahrenheit: "180",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  {
+    whenCreated: "2019-12-17",
+    batchItems: [
+      { type: "wax", hashId: "157P", weightOunces: "0.40" },
+      { type: "wax", hashId: "P4J1", weightOunces: "1.34" },
+      { type: "wax", hashId: "3NRP", weightOunces: "25.06" },
+      { type: "fragrance-oil", hashId: "OERB", weightOunces: "0.36" },
+      { type: "fragrance-oil", hashId: "4JYB", weightOunces: "0.36" },
+      { type: "fragrance-oil", hashId: "G5W7", weightOunces: "1.28" },
+      { type: "fragrance-oil", hashId: "42J4", weightOunces: "0.36" },
+      { type: "fragrance-oil", hashId: "GW7X", weightOunces: "1.28" },
+      { type: "dye-blocks", hashId: "OWXV", pieces: "0.2" }
+    ],
+    layers: [
+      {
+        candleHashId: "W91E",
+        whenPoured: "2019-12-17T21:36:20",
+        preppedContainerWeightOunces: "6.88",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3QLQ",
+        whenPoured: "2019-12-17T21:36:20",
+        preppedContainerWeightOunces: "7.10",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3MK7",
+        whenPoured: "2019-12-17T21:36:20",
+        preppedContainerWeightOunces: "4.22",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "37J1",
+        whenPoured: "2019-12-17T21:36:20",
+        preppedContainerWeightOunces: "4.22",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "37Y1",
+        whenPoured: "2019-12-17T21:36:20",
+        preppedContainerWeightOunces: "4.22",
+        containerTemperatureFahrenheit: "68",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Krampus Gift Batch 1",
+    dyeAddTemperatureFahrenheit: "180",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  {
+    whenCreated: "2019-12-17",
+    batchItems: [
+      { type: "wax", hashId: "157P", weightOunces: "0.40" },
+      { type: "wax", hashId: "P4J1", weightOunces: "1.34" },
+      { type: "wax", hashId: "3NRP", weightOunces: "19.23" },
+      { type: "wax", hashId: "38J3", weightOunces: "5.83" },
+      { type: "fragrance-oil", hashId: "OERB", weightOunces: "0.36" },
+      { type: "fragrance-oil", hashId: "4JYB", weightOunces: "0.36" },
+      { type: "fragrance-oil", hashId: "G5W7", weightOunces: "1.28" },
+      { type: "fragrance-oil", hashId: "42J4", weightOunces: "0.36" },
+      { type: "fragrance-oil", hashId: "GW7X", weightOunces: "1.28" },
+      { type: "dye-blocks", hashId: "OWXV", pieces: "0.2" }
+    ],
+    layers: [
+      {
+        candleHashId: "WY2J",
+        whenPoured: "2019-12-17T21:36:33",
+        preppedContainerWeightOunces: "7.03",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3564",
+        whenPoured: "2019-12-17T21:36:33",
+        preppedContainerWeightOunces: "7.05",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WB44",
+        whenPoured: "2019-12-17T21:36:33",
+        preppedContainerWeightOunces: "4.22",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "36DQ",
+        whenPoured: "2019-12-17T21:36:33",
+        preppedContainerWeightOunces: "4.19",
+        containerTemperatureFahrenheit: "130",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WGLV",
+        whenPoured: "2019-12-17T21:36:33",
+        preppedContainerWeightOunces: "4.19",
+        containerTemperatureFahrenheit: "68",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "68",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Krampus Gift Batch 2",
+    dyeAddTemperatureFahrenheit: "180",
+    fragranceAddTemperatureFahrenheit: "195",
+    notes: "not 100% accurate soy data"
+  },
+  {
+    whenCreated: "2020-01-09",
+    batchItems: [
+      { type: "wax", hashId: "38J3", weightOunces: "25.06" },
+      { type: "wax", hashId: "P4J1", weightOunces: "1.36" },
+      { type: "wax", hashId: "157P", weightOunces: "0.40" },
+      { type: "fragrance-oil", hashId: "OE78", weightOunces: "2.48" },
+      { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.83" }
+    ],
+    layers: [
+      {
+        candleHashId: "3P9K",
+        whenPoured: "2020-01-09T21:40:54",
+        preppedContainerWeightOunces: "7.19",
+        containerTemperatureFahrenheit: "77",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "77",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "R2MQ",
+        whenPoured: "2020-01-09T21:40:54",
+        preppedContainerWeightOunces: "7.19",
+        containerTemperatureFahrenheit: "77",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "77",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WY9J",
+        whenPoured: "2020-01-09T21:40:54",
+        preppedContainerWeightOunces: "4.23",
+        containerTemperatureFahrenheit: "77",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "77",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3584",
+        whenPoured: "2020-01-09T21:40:54",
+        preppedContainerWeightOunces: "4.23",
+        containerTemperatureFahrenheit: "77",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "77",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Fig Tree Bergamot Heat Lamp Test",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  {
+    whenCreated: "2020-01-10",
+    batchItems: [
+      { type: "wax", hashId: "38J3", weightOunces: "12.53" },
+      { type: "wax", hashId: "157P", weightOunces: "0.20" },
+      { type: "wax", hashId: "P4J1", weightOunces: "0.67" },
+      { type: "fragrance-oil", hashId: "OE78", weightOunces: "1.12" },
+      { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.37" }
+    ],
+    layers: [
+      {
+        candleHashId: "RJPK",
+        whenPoured: "2020-01-10T15:52:42",
+        preppedContainerWeightOunces: "7.08",
+        containerTemperatureFahrenheit: "76",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "76",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "RXMY",
+        whenPoured: "2020-01-10T15:52:42",
+        preppedContainerWeightOunces: "4.22",
+        containerTemperatureFahrenheit: "76",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "76",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Higher Heat Lamp Lower FO Fig Bergamot Test",
+    fragranceAddTemperatureFahrenheit: "195",
+    notes: "250w heat lamp but higher up on the counter light"
+  },
+  {
+    whenCreated: "2020-01-10",
+    batchItems: [
+      { type: "wax", hashId: "38J3", weightOunces: "12.53" },
+      { type: "wax", hashId: "157P", weightOunces: "0.20" },
+      { type: "wax", hashId: "P4J1", weightOunces: "0.71" },
+      { type: "fragrance-oil", hashId: "OE78", weightOunces: "1.12" },
+      { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.37" }
+    ],
+    layers: [
+      {
+        candleHashId: "W1ZV",
+        whenPoured: "2020-01-10T15:53:01",
+        preppedContainerWeightOunces: "7.12",
+        containerTemperatureFahrenheit: "76",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "76",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "RV45",
+        whenPoured: "2020-01-10T15:53:01",
+        preppedContainerWeightOunces: "4.17",
+        containerTemperatureFahrenheit: "76",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "76",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "No A/C Test ~76 degrees",
+    fragranceAddTemperatureFahrenheit: "195",
+    notes: ""
+  },
+  {
+    whenCreated: "2020-01-11",
+    batchItems: [
+      { type: "wax", hashId: "38J3", weightOunces: "18.7" },
+      { type: "wax", hashId: "157P", weightOunces: "0.30" },
+      { type: "wax", hashId: "P4J1", weightOunces: "1.00" },
+      { type: "fragrance-oil", hashId: "OD3Q", weightOunces: "1.11" },
+      { type: "fragrance-oil", hashId: "GQQK", weightOunces: "1.11" }
+    ],
+    layers: [
+      {
+        candleHashId: "3ZQZ",
+        whenPoured: "2020-01-11T17:19:21",
+        preppedContainerWeightOunces: "6.95",
+        containerTemperatureFahrenheit: "74",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "74",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WLQ8",
+        whenPoured: "2020-01-11T17:19:21",
+        preppedContainerWeightOunces: "7.09",
+        containerTemperatureFahrenheit: "74",
+        pourTemperatureFahrenheit: "165",
+        coolingRoomTemperatureFahrenheit: "74",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Orange Vanilla Soy blend warm apartment take 2",
+    fragranceAddTemperatureFahrenheit: "195"
+  },
+  {
+    whenCreated: "2020-01-11",
+    batchItems: [
+      { type: "wax", hashId: "3GEP", weightOunces: "19.00" },
+      { type: "wax", hashId: "157P", weightOunces: "1.00" },
+      { type: "fragrance-oil", hashId: "OD3Q", weightOunces: "1.36" },
+      { type: "fragrance-oil", hashId: "GQQK", weightOunces: "1.36" }
+    ],
+    layers: [
+      {
+        candleHashId: "RO9O",
+        whenPoured: "2020-01-11T18:48:29",
+        preppedContainerWeightOunces: "7.11",
+        containerTemperatureFahrenheit: "74",
+        pourTemperatureFahrenheit: "180",
+        coolingRoomTemperatureFahrenheit: "74",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "38OG",
+        whenPoured: "2020-01-11T18:48:29",
+        preppedContainerWeightOunces: "7.29",
+        containerTemperatureFahrenheit: "74",
+        pourTemperatureFahrenheit: "180",
+        coolingRoomTemperatureFahrenheit: "74",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "Coco-83 5% Beeswax First Try",
+    fragranceAddTemperatureFahrenheit: "205",
+    notes: ""
+  },
+  {
+    whenCreated: "2020-01-13",
+    batchItems: [
+      { type: "wax", hashId: "3GEP", weightOunces: "47.5" },
+      { type: "wax", hashId: "157P", weightOunces: "2.5" },
+      { type: "fragrance-oil", hashId: "4L32", weightOunces: "3.41" },
+      { type: "fragrance-oil", hashId: "46M9", weightOunces: "3.41" }
+    ],
+    layers: [
+      {
+        candleHashId: "3QPQ",
+        whenPoured: "2020-01-13T20:05:15",
+        preppedContainerWeightOunces: "6.97",
+        containerTemperatureFahrenheit: "75",
+        pourTemperatureFahrenheit: "180",
+        coolingRoomTemperatureFahrenheit: "75",
+        coolingRoomHumidityPercent: "59"
+      },
+      {
+        candleHashId: "3ME7",
+        whenPoured: "2020-01-13T20:05:15",
+        preppedContainerWeightOunces: "7.25",
+        containerTemperatureFahrenheit: "75",
+        pourTemperatureFahrenheit: "180",
+        coolingRoomTemperatureFahrenheit: "75",
+        coolingRoomHumidityPercent: "59"
+      },
+      {
+        candleHashId: "37E1",
+        whenPoured: "2020-01-13T20:05:15",
+        preppedContainerWeightOunces: "7.11",
+        containerTemperatureFahrenheit: "75",
+        pourTemperatureFahrenheit: "180",
+        coolingRoomTemperatureFahrenheit: "75",
+        coolingRoomHumidityPercent: "59"
+      },
+      {
+        candleHashId: "WGDV",
+        whenPoured: "2020-01-13T20:05:15",
+        preppedContainerWeightOunces: "7.17",
+        containerTemperatureFahrenheit: "75",
+        pourTemperatureFahrenheit: "180",
+        coolingRoomTemperatureFahrenheit: "75",
+        coolingRoomHumidityPercent: "59"
+      },
+      {
+        candleHashId: "3PGK",
+        whenPoured: "2020-01-13T20:05:15",
+        preppedContainerWeightOunces: "6.87",
+        containerTemperatureFahrenheit: "75",
+        pourTemperatureFahrenheit: "180",
+        coolingRoomTemperatureFahrenheit: "75",
+        coolingRoomHumidityPercent: "59"
+      },
+      {
+        candleHashId: "R2JQ",
+        whenPoured: "2020-01-13T20:05:15",
+        preppedContainerWeightOunces: "7.18",
+        containerTemperatureFahrenheit: "75",
+        pourTemperatureFahrenheit: "180",
+        coolingRoomTemperatureFahrenheit: "75",
+        coolingRoomHumidityPercent: "59"
+      },
+      {
+        candleHashId: "WY7J",
+        whenPoured: "2020-01-13T20:05:15",
+        preppedContainerWeightOunces: "6.92",
+        containerTemperatureFahrenheit: "75",
+        pourTemperatureFahrenheit: "180",
+        coolingRoomTemperatureFahrenheit: "75",
+        coolingRoomHumidityPercent: "59"
+      },
+      {
+        candleHashId: "35V4",
+        whenPoured: "2020-01-13T20:05:15",
+        preppedContainerWeightOunces: "7.10",
+        containerTemperatureFahrenheit: "75",
+        pourTemperatureFahrenheit: "180",
+        coolingRoomTemperatureFahrenheit: "75",
+        coolingRoomHumidityPercent: "59"
+      },
+      {
+        candleHashId: "WBM4",
+        whenPoured: "2020-01-13T20:05:15",
+        preppedContainerWeightOunces: "7.23",
+        containerTemperatureFahrenheit: "75",
+        pourTemperatureFahrenheit: "180",
+        coolingRoomTemperatureFahrenheit: "75",
+        coolingRoomHumidityPercent: "59"
+      },
+      {
+        whenPoured: "2020-01-13T20:16:54",
+        candleHashId: "36KQ",
+        preppedContainerWeightOunces: "7.13",
+        containerTemperatureFahrenheit: "75",
+        pourTemperatureFahrenheit: "180",
+        coolingRoomTemperatureFahrenheit: "75",
+        coolingRoomHumidityPercent: "59"
+      }
+    ],
+    name: "83/Bees 95/5 Wick Test",
+    fragranceAddTemperatureFahrenheit: "205"
   }
 ];
