@@ -1556,7 +1556,8 @@ module.exports = [
     volumeOverflowPercent: "90",
     colorDescription: "white",
     burns: [],
-    notes: "Right after lighting 4-5inch smoking flame. Eco-14 probably WAY too big"
+    notes:
+      "Right after lighting 4-5inch smoking flame. Eco-14 probably WAY too big"
   },
   // 38OG
   {
@@ -1648,4 +1649,53 @@ module.exports = [
     burns: [],
     notes: ""
   },
+  // 83/Bees 95/5 wick test batch fig tree + bergamot more wicks
+  // double P-725 3KVQ
+  {
+    completedCandleWeightOunces: "12.52",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // double eco-1 REB7
+  {
+    completedCandleWeightOunces: "12.34",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // htp-73 WNND
+  {
+    completedCandleWeightOunces: "13.01",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // lx-18 3ZLZ
+  {
+    completedCandleWeightOunces: "12.93",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // P-765 WLK8
+  {
+    completedCandleWeightOunces: "12.92",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // P-775 341Z
+  {
+    completedCandleWeightOunces: "12.54",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  }
 ];

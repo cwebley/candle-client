@@ -51,9 +51,6 @@ inventory screen
 
 search page/ candle lookup
 
-add jar form to allow for jars not associated with orders/ recycled jars/ free jars
-this can probably just be the reg order form with a recycled checkbox by the jar
-
 new button in top left of tables like this:
 https://devexpress.github.io/devextreme-reactive/react/grid/demos/featured/data-editing/
 
@@ -73,8 +70,7 @@ calculated.
 
 max-width for the candle display? https://codesandbox.io/s/50l225l964?from-embed
 
-what are aria labels? all over the dialog.
-and htmlFor on InputLabels
+a11y
 
 display hashIds on components of candle page
 
@@ -122,8 +118,6 @@ server creates candle name based on fragrance oils used
 the tables are kind of gross and don't use space very well.
 maybe a custom div list rendered through https://virtuoso.dev/?path=/story/features-overview--auto-resizing would be nice
 
-candle page price of batchItems in layer dialog is for the whole batch.
-doesn't consider the percent of batch for the layer.
 GET candle-layer or get batch-layers should probably handle this and return wax/db/fo at the layer level
 
 batches page / batch endpoint is a little useless.
@@ -176,6 +170,11 @@ batch page needs a total batch cost value
 
 remaining coco83-5% bees wick tests:
 todo: 
-premiers
-cd-8
-double eco-1
+
+double premier 710 and 720 (ordered)
+cd-7 (ordered)
+
+HTP-31 and CD-2 are kind of great.
+update: CD-2 self extinguished.
+
+coco83-3% tests?

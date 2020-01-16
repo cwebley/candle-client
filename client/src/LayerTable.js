@@ -22,16 +22,7 @@ const styles = theme => ({
   table: {}
 });
 
-function LayerTable({
-  layerData,
-  defaultRoomTemp,
-  defaultPourTemp,
-  defaultJarTemp,
-  defaultRoomHumidity,
-  onDeleteClick,
-  onEditClick,
-  classes
-}) {
+function LayerTable({ layerData, onDeleteClick, onEditClick, classes }) {
   return (
     <Paper className={classes.root}>
       <Table className={classes.table}>
@@ -39,7 +30,9 @@ function LayerTable({
           <TableRow>
             {(onDeleteClick || onEditClick) && (
               <TableCell>
-                <Typography variant="h6">{`Layers (${layerData.length})`}</Typography>
+                <Typography variant="h6">{`Layers (${
+                  layerData.length
+                })`}</Typography>
               </TableCell>
             )}
             <TableCell>Candle Hash Id</TableCell>
@@ -72,16 +65,16 @@ function LayerTable({
                 {layer.preppedContainerWeightOunces}
               </TableCell>
               <TableCell align="right">
-                {layer.containerTemperatureFahrenheit || defaultJarTemp}
+                {layer.containerTemperatureFahrenheit}
               </TableCell>
               <TableCell align="right">
-                {layer.pourTemperatureFahrenheit || defaultPourTemp}
+                {layer.pourTemperatureFahrenheit}
               </TableCell>
               <TableCell align="right">
-                {layer.coolingRoomTemperatureFahrenheit || defaultRoomTemp}
+                {layer.coolingRoomTemperatureFahrenheit}
               </TableCell>
               <TableCell align="right">
-                {layer.coolingRoomHumidityPercent || defaultRoomHumidity}
+                {layer.coolingRoomHumidityPercent}
               </TableCell>
             </TableRow>
           ))}

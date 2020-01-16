@@ -92,7 +92,6 @@ function NewBatch({ history, enqueueSnackbar }) {
     if (!candle) {
       return;
     }
-    console.log("RUNNING");
     if (typeof candle === "string") {
       // only one candle in the query string
       addLayer({ candleHashId: candle, whenPoured: currentDateTime() });
@@ -241,7 +240,12 @@ function NewBatch({ history, enqueueSnackbar }) {
     if (newLayerValues.candleHashId) {
       setCandleHashIds([...candleHashIds, layerValues.candleHashId]);
     }
-    setNewLayerValues({});
+    setNewLayerValues({
+      containerTemperatureFahrenheit: defaultJarTemp,
+      pourTemperatureFahrenheit: defaultPourTemp,
+      coolingRoomTemperatureFahrenheit: defaultRoomTemp,
+      coolingRoomHumidityPercent: defaultRoomHumidity
+    });
     setLayerDialogOpen(false);
   };
 
@@ -331,7 +335,12 @@ function NewBatch({ history, enqueueSnackbar }) {
         ]
       };
     });
-    setNewLayerValues({});
+    setNewLayerValues({
+      containerTemperatureFahrenheit: defaultJarTemp,
+      pourTemperatureFahrenheit: defaultPourTemp,
+      coolingRoomTemperatureFahrenheit: defaultRoomTemp,
+      coolingRoomHumidityPercent: defaultRoomHumidity
+    });
     setLayerDialogOpen(false);
     setLayerEditIndex(null);
   };
@@ -353,6 +362,83 @@ function NewBatch({ history, enqueueSnackbar }) {
       (fragranceLoadTargetDecimal * totalWaxWeightOunces) /
       (1 - fragranceLoadTargetDecimal)
     ).toFixed(2);
+  };
+
+  const updateDefaultJarTemp = value => {
+    const previousVal = defaultJarTemp;
+    setDefaultJarTemp(value);
+    setBatchValues({
+      ...batchValues,
+      layers: batchValues.layers.map(l => {
+        if (
+          l.containerTemperatureFahrenheit &&
+          l.containerTemperatureFahrenheit !== previousVal
+        ) {
+          return l;
+        }
+        return {
+          ...l,
+          containerTemperatureFahrenheit: value
+        };
+      })
+    });
+  };
+  const updateDefaultPourTemp = value => {
+    const previousVal = defaultPourTemp;
+    setDefaultPourTemp(value);
+    setBatchValues({
+      ...batchValues,
+      layers: batchValues.layers.map(l => {
+        if (
+          l.pourTemperatureFahrenheit &&
+          l.pourTemperatureFahrenheit !== previousVal
+        ) {
+          return l;
+        }
+        return {
+          ...l,
+          pourTemperatureFahrenheit: value
+        };
+      })
+    });
+  };
+  const updateDefaultRoomTemp = value => {
+    const previousVal = defaultRoomTemp;
+    setDefaultRoomTemp(value);
+    setBatchValues({
+      ...batchValues,
+      layers: batchValues.layers.map(l => {
+        if (
+          l.coolingRoomTemperatureFahrenheit &&
+          l.coolingRoomTemperatureFahrenheit !== previousVal
+        ) {
+          return l;
+        }
+        return {
+          ...l,
+          coolingRoomTemperatureFahrenheit: value
+        };
+      })
+    });
+  };
+  const updateDefaultRoomHumidity = value => {
+    const previousVal = defaultRoomHumidity;
+    setDefaultRoomHumidity(value);
+    setBatchValues({
+      ...batchValues,
+      layers: batchValues.layers.map(l => {
+        if (
+          l.coolingRoomHumidityPercent &&
+          l.coolingRoomHumidityPercent !== previousVal
+        ) {
+          return l;
+        }
+        return {
+          ...l,
+          coolingRoomHumidityPercent: value
+        };
+      })
+    });
   };
 
   return (
@@ -394,7 +480,7 @@ function NewBatch({ history, enqueueSnackbar }) {
           <form onSubmit={submitBatch} className={classes.form}>
             <Paper className={classes.paper}>
               <Grid container spacing={3} justify="space-around">
-                <Grid item xs={12} sm={2}>
+                <Grid item xs={6} sm={4}>
                   <TextField
                     label="Date"
                     type="date"
@@ -416,7 +502,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                     }}
                   />
                 </Grid>
-                <Grid item xs={12} sm={3}>
+                <Grid item xs={6} sm={4}>
                   <TextField
                     className={classes.textField}
                     label="Name"
@@ -436,7 +522,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                     }}
                   />
                 </Grid>
-                <Grid item xs={12} sm={2}>
+                <Grid item xs={6} sm={4}>
                   <TextField
                     className={classes.textField}
                     label="FO Target"
@@ -458,7 +544,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                     }}
                   />
                 </Grid>
-                <Grid item xs={12} sm={2}>
+                <Grid item xs={6} sm={4}>
                   <TextField
                     className={classes.textField}
                     label="Dye Temp"
@@ -483,7 +569,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                     }}
                   />
                 </Grid>
-                <Grid item xs={12} sm={2}>
+                <Grid item xs={6} sm={4}>
                   <TextField
                     className={classes.textField}
                     label="FO Temp"
@@ -508,14 +594,15 @@ function NewBatch({ history, enqueueSnackbar }) {
                     }}
                   />
                 </Grid>
-                <Grid item xs={12} sm={2}>
+                <Grid item xs={6} sm={4}>
                   <TextField
                     label="Default Jar Temp"
+                    className={classes.textField}
                     value={defaultJarTemp}
                     type="number"
                     onChange={e => {
                       const value = e.target.value;
-                      setDefaultJarTemp(value);
+                      updateDefaultJarTemp(value);
                     }}
                     InputProps={{
                       endAdornment: (
@@ -528,14 +615,15 @@ function NewBatch({ history, enqueueSnackbar }) {
                     }}
                   />
                 </Grid>
-                <Grid item xs={12} sm={2}>
+                <Grid item xs={6} sm={4}>
                   <TextField
                     label="Default Pour Temp"
+                    className={classes.textField}
                     value={defaultPourTemp}
                     type="number"
                     onChange={e => {
                       const value = e.target.value;
-                      setDefaultPourTemp(value);
+                      updateDefaultPourTemp(value);
                     }}
                     InputProps={{
                       endAdornment: (
@@ -548,14 +636,15 @@ function NewBatch({ history, enqueueSnackbar }) {
                     }}
                   />
                 </Grid>
-                <Grid item xs={12} sm={2}>
+                <Grid item xs={6} sm={4}>
                   <TextField
                     label="Default Room Temp"
+                    className={classes.textField}
                     value={defaultRoomTemp}
                     type="number"
                     onChange={e => {
                       const value = e.target.value;
-                      setDefaultRoomTemp(value);
+                      updateDefaultRoomTemp(value);
                     }}
                     InputProps={{
                       endAdornment: (
@@ -568,14 +657,15 @@ function NewBatch({ history, enqueueSnackbar }) {
                     }}
                   />
                 </Grid>
-                <Grid item xs={12} sm={2}>
+                <Grid item xs={6} sm={4}>
                   <TextField
                     label="Default Humidity"
+                    className={classes.textField}
                     value={defaultRoomHumidity}
                     type="number"
                     onChange={e => {
                       const value = e.target.value;
-                      setDefaultRoomHumidity(value);
+                      updateDefaultRoomHumidity(value);
                     }}
                     InputProps={{
                       endAdornment: (
@@ -588,7 +678,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                     }}
                   />
                 </Grid>
-                <Grid item xs={12} sm={3}>
+                <Grid item xs={6} sm={6}>
                   <TextField
                     label="Notes"
                     multiline
@@ -621,7 +711,13 @@ function NewBatch({ history, enqueueSnackbar }) {
               <IconButton
                 className={classes.iconButton}
                 onClick={() => {
-                  setNewLayerValues({ whenPoured: currentDateTime() });
+                  setNewLayerValues({
+                    whenPoured: currentDateTime(),
+                    containerTemperatureFahrenheit: defaultJarTemp,
+                    pourTemperatureFahrenheit: defaultPourTemp,
+                    coolingRoomTemperatureFahrenheit: defaultRoomTemp,
+                    coolingRoomHumidityPercent: defaultRoomHumidity
+                  });
                   setLayerDialogOpen(true);
                 }}
               >
@@ -682,10 +778,6 @@ function NewBatch({ history, enqueueSnackbar }) {
               <div className={classes.tableWrapper}>
                 <LayerTable
                   layerData={batchValues.layers}
-                  defaultJarTemp={defaultJarTemp}
-                  defaultPourTemp={defaultPourTemp}
-                  defaultRoomTemp={defaultRoomTemp}
-                  defaultRoomHumidity={defaultRoomHumidity}
                   onDeleteClick={deleteLayer}
                   onEditClick={showEditLayers}
                 />

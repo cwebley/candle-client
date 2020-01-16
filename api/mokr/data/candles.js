@@ -1686,5 +1686,55 @@ module.exports = [
       wickLayout: "center",
       wickStickerHashId: "BPJB"
     }
+  ],
+  [
+    {
+      name: "95/5 83/Bees Double P-725",
+      jarHashId: "M6D9",
+      wickHashId: "N63P",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "95/5 83/Bees Double Eco-1",
+      jarHashId: "M6D9",
+      wickHashId: "DWY5",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "95/5 83/Bees HTP-73",
+      jarHashId: "M6D9",
+      wickHashId: "NGEX",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "95/5 83/Bees LX-18",
+      jarHashId: "M6D9",
+      wickHashId: "NKJM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "95/5 83/Bees P-765",
+      jarHashId: "M6D9",
+      wickHashId: "511W",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "95/5 83/Bees P-775",
+      jarHashId: "M6D9",
+      wickHashId: "5Z2G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    }
   ]
 ];

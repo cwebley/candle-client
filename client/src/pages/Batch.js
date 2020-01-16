@@ -3,6 +3,7 @@ import moment from "moment";
 import axios from "axios";
 
 import { withStyles } from "@material-ui/core/styles";
+import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import CircularProgress from "@material-ui/core/CircularProgress";
@@ -63,35 +64,48 @@ function Batch({ match, classes }) {
           </header>
           <main>
             <Paper className={classes.paper}>
-              <ul className={classes.batchSummary}>
-                <DataLabel
-                  label="Wax weight"
-                  value={batch.totalWaxWeightOunces}
-                  unit="oz"
-                />
-                <DataLabel
-                  label="Fragrance Weight"
-                  value={batch.totalFragranceWeightOunces}
-                  unit="oz"
-                />
-                <DataLabel
-                  label="Fragrance Load"
-                  value={batch.fragranceLoad * 100}
-                  unit="%"
-                />
-                <DataLabel
-                  label="Fragrance Add Temperature"
-                  value={batch.fragranceAddTemperatureFahrenheit}
-                  unit="°F"
-                />
-                {batch.dyeAddTemperatureFahrenheit && (
-                  <DataLabel
-                    label="Dye Add Temperature"
-                    value={batch.dyeAddTemperatureFahrenheit}
-                    unit="°F"
-                  />
-                )}
-              </ul>
+              <Grid container>
+                <Grid item xs={12} md={8}>
+                  <ul className={classes.batchSummary}>
+                    <DataLabel
+                      label="Wax weight"
+                      value={batch.totalWaxWeightOunces}
+                      unit="oz"
+                    />
+                    <DataLabel
+                      label="Fragrance Weight"
+                      value={batch.totalFragranceWeightOunces}
+                      unit="oz"
+                    />
+                    <DataLabel
+                      label="Fragrance Load"
+                      value={batch.fragranceLoad * 100}
+                      unit="%"
+                    />
+                    <DataLabel
+                      label="Fragrance Temp"
+                      value={batch.fragranceAddTemperatureFahrenheit}
+                      unit="°F"
+                    />
+                    {batch.dyeAddTemperatureFahrenheit && (
+                      <DataLabel
+                        label="Dye Add Temperature"
+                        value={batch.dyeAddTemperatureFahrenheit}
+                        unit="°F"
+                      />
+                    )}
+                  </ul>
+                </Grid>
+                <Grid item>
+                  <Typography
+                    className={classes.itemPrice}
+                    variant="subtitle1"
+                    align="right"
+                  >
+                    {`$${batch.calculatedCosts.productCost} | $${batch.calculatedCosts.shippingCost} | $${batch.calculatedCosts.totalCost}`}
+                  </Typography>
+                </Grid>
+              </Grid>
             </Paper>
             <Typography className={classes.resourceTypeTitle} variant="h5">
               {`Waxes (${batch.wax.length})`}

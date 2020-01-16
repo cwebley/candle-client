@@ -2765,5 +2765,72 @@ module.exports = [
     ],
     name: "83/Bees 95/5 Wick Test",
     fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-01-15",
+    batchItems: [
+      { type: "wax", hashId: "3GEP", weightOunces: "28.5" },
+      { type: "wax", hashId: "157P", weightOunces: "1.50" },
+      { type: "fragrance-oil", hashId: "OE78", weightOunces: "3.07" },
+      { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.34" },
+      { type: "fragrance-oil", hashId: "498N", weightOunces: "0.68" }
+    ],
+    layers: [
+      {
+        candleHashId: "3KVQ",
+        whenPoured: "2020-01-15T16:31:29",
+        containerTemperatureFahrenheit: "76",
+        pourTemperatureFahrenheit: "185",
+        preppedContainerWeightOunces: "7.13",
+        coolingRoomTemperatureFahrenheit: "76",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "REB7",
+        whenPoured: "2020-01-15T16:31:29",
+        containerTemperatureFahrenheit: "76",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "76",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WNND",
+        whenPoured: "2020-01-15T16:31:29",
+        containerTemperatureFahrenheit: "76",
+        preppedContainerWeightOunces: "7.13",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "76",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3ZLZ",
+        whenPoured: "2020-01-15T16:31:29",
+        containerTemperatureFahrenheit: "76",
+        pourTemperatureFahrenheit: "185",
+        preppedContainerWeightOunces: "7.13",
+        coolingRoomTemperatureFahrenheit: "76",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WLK8",
+        whenPoured: "2020-01-15T16:31:29",
+        containerTemperatureFahrenheit: "76",
+        pourTemperatureFahrenheit: "185",
+        preppedContainerWeightOunces: "7.13",
+        coolingRoomTemperatureFahrenheit: "76",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "341Z",
+        whenPoured: "2020-01-15T16:31:29",
+        containerTemperatureFahrenheit: "76",
+        preppedContainerWeightOunces: "7.13",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "76",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "95/5 83/Bees Fig Bergamot Wick Series",
+    fragranceAddTemperatureFahrenheit: "205"
   }
 ];

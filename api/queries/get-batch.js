@@ -20,7 +20,6 @@ module.exports = function getBatch(db, { batchId }, cb) {
   const params = [batchId];
 
   db.query(sql, params, (err, batchRows) => {
-    console.log("DONE GETTING TOP LEVEL BATCH");
     if (err) {
       console.error(err, {
         sql,
@@ -35,7 +34,6 @@ module.exports = function getBatch(db, { batchId }, cb) {
     }
     let batch = batchRows[0];
 
-    console.log("ABOUT TO || GET RESOURCES FOR BATCH");
     async.parallel(
       {
         ["fragranceOil"]: done => getBatchesFragranceOils(db, batchId, done),
@@ -44,10 +42,43 @@ module.exports = function getBatch(db, { batchId }, cb) {
         ["dyeBlocks"]: done => getBatchesDyeBlocks(db, batchId, done)
       },
       (err, results) => {
-        console.log("DONE GETTING RESOURCES FOR A BATCH");
         if (err) {
           return cb(err);
         }
+
+        // total the cost for the entire batch
+        const batchCosts = {};
+
+        batchCosts.productCost = Object.keys(results)
+          .map(key =>
+            results[key].map(
+              singleItem => singleItem.calculatedCosts.productCost
+            )
+          )
+          .flat()
+          .reduce((acc, v) => acc + Number(v), 0);
+        batchCosts.shippingCost = Object.keys(results)
+          .map(key =>
+            results[key].map(
+              singleItem => singleItem.calculatedCosts.shippingCost
+            )
+          )
+          .flat()
+          .reduce((acc, v) => acc + Number(v), 0);
+        batchCosts.totalCost = Object.keys(results)
+          .map(key =>
+            results[key].map(singleItem => singleItem.calculatedCosts.totalCost)
+          )
+          .flat()
+          .reduce((acc, v) => acc + Number(v), 0);
+
+        // round the values
+        Object.keys(batchCosts).forEach(
+          k => (batchCosts[k] = Math.round(100 * batchCosts[k]) / 100)
+        );
+
+        batch.calculatedCosts = batchCosts;
+
         batch.fragranceOil = results.fragranceOil;
         batch.additives = results.additives;
         batch.wax = results.wax;

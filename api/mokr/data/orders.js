@@ -4983,5 +4983,233 @@ module.exports = [
     shippingCost: "17.91",
     totalCost: "92.72",
     taxesAndFees: "7.06"
+  },
+  {
+    openDate: "2020-01-15",
+    items: [
+      {
+        type: "wicks",
+        name: 'Premier 725 6" Pretabbed Wick',
+        length: "6",
+        count: "20",
+        remaining: "20",
+        series: "Premier",
+        size: "725",
+        price: "2.56",
+        shareOfShippingPercent: "1.50",
+        notes: "this is from 4 sample packs"
+      },
+      {
+        type: "wicks",
+        name: 'Premier 735 6" Pretabbed Wick',
+        length: "6",
+        count: "20",
+        remaining: "20",
+        series: "Premier",
+        size: "735",
+        price: "2.56",
+        shareOfShippingPercent: "1.50",
+        notes: "From 4 sample packs"
+      },
+      {
+        type: "wicks",
+        name: 'Premier 745 6" Pretabbed Wick',
+        length: "6",
+        count: "20",
+        remaining: "20",
+        series: "Premier",
+        size: "20",
+        price: "2.56",
+        shareOfShippingPercent: "1.50",
+        notes: "From 4 sample packs"
+      },
+      {
+        type: "wicks",
+        name: 'Premier 750 6" Pretabbed Wick',
+        length: "6",
+        count: "20",
+        remaining: "20",
+        series: "Premier",
+        size: "750",
+        price: "2.56",
+        shareOfShippingPercent: "1.50",
+        notes: "from 4 sample packs"
+      },
+      {
+        type: "wicks",
+        name: 'Premier 760 6" Pretabbed Wick',
+        length: "6",
+        count: "20",
+        remaining: "20",
+        series: "Premier",
+        size: "760",
+        price: "2.56",
+        shareOfShippingPercent: "1.50"
+      },
+      {
+        type: "wicks",
+        name: 'Premier 755 6" Pretabbed Wick',
+        length: "6",
+        count: "20",
+        remaining: "20",
+        series: "Premier",
+        size: "755",
+        price: "2.56",
+        shareOfShippingPercent: "1.50",
+        notes: "from 4 sample packs"
+      },
+      {
+        type: "wicks",
+        name: 'Premier 765 6" Pretabbed Wick',
+        length: "6",
+        count: "20",
+        remaining: "20",
+        series: "Premier",
+        size: "765",
+        price: "2.56",
+        shareOfShippingPercent: "1.50",
+        notes: "from 4 sample packs"
+      },
+      {
+        type: "wicks",
+        name: 'Premier 775 6" Pretabbed Wick',
+        length: "6",
+        count: "20",
+        remaining: "20",
+        series: "Premier",
+        size: "775",
+        price: "2.56",
+        shareOfShippingPercent: "1.50",
+        notes: "from 4 sample packs"
+      },
+      {
+        type: "wicks",
+        name: 'Premier 780 6" Pretabbed Wick',
+        length: "6",
+        count: "20",
+        remaining: "20",
+        series: "Premier",
+        size: "780",
+        price: "2.56",
+        shareOfShippingPercent: "1.50",
+        notes: "from 4 sample packs"
+      },
+      {
+        type: "wicks",
+        name: 'Premier 785 6" Pretabbed Wick',
+        length: "6",
+        count: "20",
+        remaining: "20",
+        series: "Premier",
+        size: "785",
+        price: "2.56",
+        shareOfShippingPercent: "1.50",
+        notes: "from 4 sample packs"
+      },
+      {
+        type: "wicks",
+        name: 'Premier 795 6" Pretabbed Wick',
+        length: "6",
+        count: "20",
+        remaining: "20",
+        series: "Premier",
+        size: "795",
+        price: "2.56",
+        shareOfShippingPercent: "1.50",
+        notes: "from 4 sample packs"
+      },
+      {
+        type: "wicks",
+        name: 'Premier 799 6" Pretabbed Wick',
+        length: "6",
+        count: "20",
+        remaining: "20",
+        series: "Premier",
+        size: "799",
+        price: "2.56",
+        shareOfShippingPercent: "1.50",
+        notes: "from 4 sample packs"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Bacon",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "1.50",
+        notes: "free sample"
+      },
+      {
+        type: "fragrance-oil",
+        category: "other",
+        name: "Flannel",
+        weightOunces: "8",
+        remaining: "8",
+        price: "11.19",
+        shareOfShippingPercent: "16"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Thyme",
+        weightOunces: "8",
+        remaining: "8",
+        price: "9.69",
+        shareOfShippingPercent: "16"
+      },
+      {
+        type: "fragrance-oil",
+        category: "other",
+        name: "Cuban Cigar",
+        weightOunces: "8",
+        remaining: "8",
+        price: "11.19",
+        shareOfShippingPercent: "16"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Pipe Tobacco",
+        weightOunces: "8",
+        remaining: "8",
+        price: "9.79",
+        shareOfShippingPercent: "16"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Pineapple",
+        weightOunces: "8",
+        remaining: "8",
+        price: "10.59",
+        shareOfShippingPercent: "16"
+      }
+    ],
+    source: "The Flaming Candle",
+    subtotalCost: "83.21",
+    shippingCost: "15.60",
+    taxesAndFees: "0",
+    totalCost: "98.81"
+  },
+  {
+    openDate: "2020-01-15",
+    items: [
+      {
+        type: "wax",
+        name: "Beesworks white beeswax pellets",
+        material: "Beeswax",
+        weightPounds: "2",
+        remaining: "2",
+        price: "19.29",
+        shareOfShippingPercent: "100",
+        notes: "sold as 2 1-lb packages"
+      }
+    ],
+    source: "Amazon",
+    subtotalCost: "19.29",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "19.29"
   }
 ];
