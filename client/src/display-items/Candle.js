@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from "react";
+import React, { useState } from "react";
 import Typography from "@material-ui/core/Typography";
 import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
@@ -79,8 +79,7 @@ const styles = theme => ({
   },
   formControl: {
     paddingRight: theme.spacing(2)
-  },
-  textField: {}
+  }
 });
 
 const defaultComponentDailogValues = {
@@ -341,9 +340,7 @@ function Candle({
             color="textSecondary"
             align="right"
           >
-            {`$${data.calculatedCosts.productCost} / $${
-              data.calculatedCosts.shippingCost
-            } / $${data.calculatedCosts.totalCost}`}
+            {`$${data.calculatedCosts.productCost} / $${data.calculatedCosts.shippingCost} / $${data.calculatedCosts.totalCost}`}
           </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className={classes.expansionPanelDetails}>

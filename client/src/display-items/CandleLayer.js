@@ -178,9 +178,9 @@ function CandleLayer({ data, isTopLayer, classes }) {
                     (1000 * db.pieces) / data.batchData.totalWaxpieces
                   ) / 10}%`}
                   amount={`${db.layerPieces} pieces`}
-                  shippingCost={db.layer.shippingCost}
-                  productCost={db.layer.productCost}
-                  totalCost={db.layer.totalCost}
+                  shippingCost={db.layerCosts.shippingCost}
+                  productCost={db.layerCosts.productCost}
+                  totalCost={db.layerCosts.totalCost}
                 />
               </Grid>
             ))}

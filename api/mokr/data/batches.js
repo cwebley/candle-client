@@ -2832,5 +2832,237 @@ module.exports = [
     ],
     name: "95/5 83/Bees Fig Bergamot Wick Series",
     fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-01-16",
+    batchItems: [
+      { type: "wax", hashId: "3GEP", weightOunces: "38.8" },
+      { type: "wax", hashId: "157P", weightOunces: "1.20" },
+      { type: "fragrance-oil", hashId: "G597", weightOunces: "3.60" },
+      { type: "fragrance-oil", hashId: "498N", weightOunces: "1.20" }
+    ],
+    layers: [
+      {
+        candleHashId: "38NG",
+        whenPoured: "2020-01-16T17:58:40",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        preppedContainerWeightOunces: "7.13",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3QDQ",
+        whenPoured: "2020-01-16T17:58:40",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        preppedContainerWeightOunces: "7.13",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3MZ7",
+        whenPoured: "2020-01-16T17:58:40",
+        containerTemperatureFahrenheit: "73",
+        preppedContainerWeightOunces: "7.13",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "37B1",
+        whenPoured: "2020-01-16T17:58:40",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        preppedContainerWeightOunces: "7.13",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "WGXV",
+        whenPoured: "2020-01-16T17:58:40",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        preppedContainerWeightOunces: "7.13",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "3P6K",
+        whenPoured: "2020-01-16T17:58:40",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        preppedContainerWeightOunces: "7.13",
+
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      },
+      {
+        candleHashId: "R2OQ",
+        whenPoured: "2020-01-16T17:58:40",
+        containerTemperatureFahrenheit: "73",
+        preppedContainerWeightOunces: "7.13",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "50"
+      }
+    ],
+    name: "97/3 98/Bees Test",
+    fragranceAddTemperatureFahrenheit: "185"
+  },
+  {
+    whenCreated: "2020-01-17",
+    batchItems: [
+      { type: "wax", hashId: "3GEP", weightOunces: "8.7" },
+      { type: "wax", hashId: "157P", weightOunces: "0.30" },
+      { type: "fragrance-oil", hashId: "GWW9", weightOunces: "0.50" },
+      { type: "fragrance-oil", hashId: "GZXE", weightOunces: "0.50" }
+    ],
+    layers: [
+      {
+        whenPoured: "2020-01-24T21:22:01",
+        containerTemperatureFahrenheit: "74",
+        pourTemperatureFahrenheit: "205",
+        coolingRoomTemperatureFahrenheit: "74",
+        coolingRoomHumidityPercent: "50",
+        candleHashId: "365L",
+        preppedContainerWeightOunces: "7.10"
+      }
+    ],
+    name: "Candle Party Rita",
+    dyeAddTemperatureFahrenheit: "",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-01-17",
+    batchItems: [
+      { type: "wax", hashId: "3GEP", weightOunces: "8.7" },
+      { type: "wax", hashId: "157P", weightOunces: "0.30" },
+      { type: "fragrance-oil", hashId: "OEW8", weightOunces: "0.50" },
+      { type: "fragrance-oil", hashId: "4NDL", weightOunces: "0.25" },
+      { type: "fragrance-oil", hashId: "OPQX", weightOunces: "0.25" }
+    ],
+    layers: [
+      {
+        whenPoured: "2020-01-24T21:22:01",
+        containerTemperatureFahrenheit: "74",
+        pourTemperatureFahrenheit: "205",
+        coolingRoomTemperatureFahrenheit: "74",
+        coolingRoomHumidityPercent: "50",
+        candleHashId: "3D6L",
+        preppedContainerWeightOunces: "7.10"
+      }
+    ],
+    name: "Candle Party Sameera",
+    dyeAddTemperatureFahrenheit: "",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-01-17",
+    batchItems: [
+      { type: "wax", hashId: "3GEP", weightOunces: "8.7" },
+      { type: "wax", hashId: "157P", weightOunces: "0.30" },
+      { type: "fragrance-oil", hashId: "GBZW", weightOunces: "0.25" },
+      { type: "fragrance-oil", hashId: "G5E9", weightOunces: "0.25" },
+      { type: "fragrance-oil", hashId: "GWV9", weightOunces: "0.25" },
+      { type: "fragrance-oil", hashId: "OEW8", weightOunces: "0.25" }
+    ],
+    layers: [
+      {
+        whenPoured: "2020-01-24T21:22:01",
+        containerTemperatureFahrenheit: "74",
+        pourTemperatureFahrenheit: "205",
+        coolingRoomTemperatureFahrenheit: "74",
+        coolingRoomHumidityPercent: "50",
+        candleHashId: "RJKM",
+        preppedContainerWeightOunces: "7.10"
+      }
+    ],
+    name: "Candle Party Vijay",
+    dyeAddTemperatureFahrenheit: "",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-01-17",
+    batchItems: [
+      { type: "wax", hashId: "3GEP", weightOunces: "8.7" },
+      { type: "wax", hashId: "157P", weightOunces: "0.30" },
+      { type: "fragrance-oil", hashId: "OPWX", weightOunces: "0.25" },
+      { type: "fragrance-oil", hashId: "GXX6", weightOunces: "0.25" },
+      { type: "fragrance-oil", hashId: "GZQE", weightOunces: "0.25" },
+      { type: "fragrance-oil", hashId: "GZXE", weightOunces: "0.25" }
+    ],
+    layers: [
+      {
+        whenPoured: "2020-01-24T21:22:01",
+        containerTemperatureFahrenheit: "74",
+        pourTemperatureFahrenheit: "205",
+        coolingRoomTemperatureFahrenheit: "74",
+        coolingRoomHumidityPercent: "50",
+        candleHashId: "RXNZ",
+        preppedContainerWeightOunces: "7.10"
+      }
+    ],
+    name: "Candle Party Al",
+    dyeAddTemperatureFahrenheit: "",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-01-24",
+    batchItems: [
+      { type: "wax", hashId: "3GEP", weightOunces: "24.25" },
+      { type: "wax", hashId: "157P", weightOunces: "0.75" },
+      { type: "fragrance-oil", hashId: "46D2", weightOunces: "1.47" },
+      { type: "fragrance-oil", hashId: "GZVB", weightOunces: "1.47" }
+    ],
+    layers: [
+      {
+        candleHashId: "REDV",
+        whenPoured: "2020-01-25T20:15:10",
+        containerTemperatureFahrenheit: "74",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "74",
+        coolingRoomHumidityPercent: "49",
+        preppedContainerWeightOunces: "7.10"
+      },
+      {
+        candleHashId: "WN54",
+        whenPoured: "2020-01-25T20:15:10",
+        containerTemperatureFahrenheit: "74",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "74",
+        coolingRoomHumidityPercent: "49",
+        preppedContainerWeightOunces: "7.10"
+      },
+      {
+        candleHashId: "3Z57",
+        whenPoured: "2020-01-25T20:15:10",
+        containerTemperatureFahrenheit: "74",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "74",
+        coolingRoomHumidityPercent: "49",
+        preppedContainerWeightOunces: "7.10"
+      },
+      {
+        candleHashId: "WLDE",
+        whenPoured: "2020-01-25T20:15:10",
+        containerTemperatureFahrenheit: "74",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "74",
+        coolingRoomHumidityPercent: "49",
+        preppedContainerWeightOunces: "7.10"
+      },
+      {
+        candleHashId: "34X5",
+        whenPoured: "2020-01-25T20:15:10",
+        containerTemperatureFahrenheit: "74",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "74",
+        coolingRoomHumidityPercent: "49",
+        preppedContainerWeightOunces: "7.10"
+      }
+    ],
+    name: "97/3 Wick test 3 Pineapple Sherbert Mango",
+    fragranceAddTemperatureFahrenheit: "205"
   }
 ];

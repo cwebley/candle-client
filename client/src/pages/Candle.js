@@ -1,12 +1,10 @@
-import React, { useState, useEffect } from "react";
-import moment from "moment";
+import React, { useCallback, useState, useEffect } from "react";
 import axios from "axios";
 import qs from "query-string";
 import { withRouter } from "react-router-dom";
 import { withSnackbar } from "notistack";
 
 import { withStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import Grid from "@material-ui/core/Grid";
@@ -96,32 +94,26 @@ function CandlePage({ match, enqueueSnackbar, history, classes }) {
     ]);
   };
 
-  const fetchCandle = async () => {
+  const fetchCandle = useCallback(async () => {
     const result = await axios(api.getCandleUrl(match.params.id));
     if (result && result.data) {
       setCandle(result.data);
     }
-  };
+  }, [match.params.id]);
 
   // fetch one time data from the server
-  useEffect(
-    () => {
-      fetchCandle();
-    },
-    [match.params.id]
-  );
+  useEffect(() => {
+    fetchCandle();
+  }, [fetchCandle]);
 
-  useEffect(
-    () => {
-      const { editable, ...rest } = qs.parse(history.location.search);
-      if (editable) {
-        setPageEditable(true);
-        return;
-      }
-      setPageEditable(false);
-    },
-    [history.location.search]
-  );
+  useEffect(() => {
+    const { editable, ...rest } = qs.parse(history.location.search);
+    if (editable) {
+      setPageEditable(true);
+      return;
+    }
+    setPageEditable(false);
+  }, [history.location.search]);
 
   return (
     <Grid container justify="center">

@@ -5211,5 +5211,692 @@ module.exports = [
     shippingCost: "0",
     taxesAndFees: "0",
     totalCost: "19.29"
+  },
+  {
+    openDate: "2020-01-18",
+    items: [
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Lavender",
+        weightOunces: "8",
+        remaining: "8",
+        price: "12.04",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "fragrance-oil",
+        category: "spice",
+        name: "Very Vanilla",
+        weightOunces: "16",
+        remaining: "16",
+        price: "18.82",
+        shareOfShippingPercent: "8"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Mint Mojito",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "3",
+        notes: "Free sample."
+      },
+      {
+        type: "fragrance-oil",
+        category: "spice",
+        name: "Tonka and Oud",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.98",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Cinnamon Chai",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.50",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "other",
+        name: "Library",
+        weightOunces: "8",
+        remaining: "8",
+        price: "12.66",
+        shareOfShippingPercent: "6"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Fresh Picked Cucumber",
+        weightOunces: "8",
+        remaining: "8",
+        price: "12.77",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "jars",
+        name: "Amber Straight Tumbler",
+        waxToFillLineOunces: "10.0",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "amber",
+        count: "12",
+        remaining: "12",
+        price: "17.57",
+        shareOfShippingPercent: "9"
+      },
+      {
+        type: "fragrance-oil",
+        category: "spice",
+        name: "Cardamom And Star Anise",
+        weightOunces: "8",
+        remaining: "8",
+        price: "12.86",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "fragrance-oil",
+        category: "spice",
+        name: "Cinnamon Stick",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.27",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Tomato Leaf",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.50",
+        shareOfShippingPercent: "3"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "English Garden",
+        weightOunces: "16",
+        remaining: "16",
+        price: "18.82",
+        shareOfShippingPercent: "6"
+      },
+      {
+        type: "fragrance-oil",
+        category: "other",
+        name: "Rain Water",
+        weightOunces: "8",
+        remaining: "8",
+        price: "12.86",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Mediterranean Fig",
+        weightOunces: "8",
+        remaining: "8",
+        price: "12.61",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "lids",
+        name: "Silver Flat Metal Lid",
+        diameterInches: "4",
+        color: "silver",
+        count: "12",
+        remaining: "12",
+        price: "9.49",
+        shareOfShippingPercent: "4",
+        notes: ""
+      },
+      {
+        type: "lids",
+        name: "Bronze Metal Flat Lid",
+        diameterInches: "4",
+        color: "bronze",
+        count: "12",
+        remaining: "12",
+        price: "10.13",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Sea Salt and Orchid",
+        weightOunces: "8",
+        remaining: "8",
+        price: "13.90",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Vetiver",
+        weightOunces: "16",
+        remaining: "16",
+        price: "23.06",
+        shareOfShippingPercent: "7"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Black Sea",
+        weightOunces: "16",
+        remaining: "16",
+        price: "23.06",
+        shareOfShippingPercent: "7"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Garden Mint",
+        weightOunces: "8",
+        remaining: "8",
+        price: "13.90",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Blood Orange",
+        weightOunces: "8",
+        remaining: "8",
+        price: "13.90",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Fireside",
+        weightOunces: "8",
+        remaining: "8",
+        price: "12.86",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Caramel Popcorn",
+        weightOunces: "8",
+        remaining: "8",
+        price: "11.94",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "wicks",
+        name: 'Eco 2 6" Pretabbed Wick',
+        length: "6",
+        count: "100",
+        remaining: "100",
+        series: "Eco",
+        size: "2",
+        price: "8.35",
+        shareOfShippingPercent: "3"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Cotton Tree",
+        weightOunces: "8",
+        remaining: "8",
+        price: "12.72",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Mango and Tangerine",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.27",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Fig Tree",
+        weightOunces: "16",
+        remaining: "16",
+        price: "19.97",
+        shareOfShippingPercent: "7"
+      }
+    ],
+    source: "Candle Science",
+    subtotalCost: "346.41",
+    taxesAndFees: "30.97",
+    shippingCost: "28.39",
+    totalCost: "405.77"
+  },
+  {
+    openDate: "2020-01-18",
+    items: [
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Aspen Woods",
+        weightOunces: "8",
+        remaining: "8",
+        price: "13.95",
+        shareOfShippingPercent: "15"
+      },
+      {
+        type: "wicks",
+        name: 'CD-7 6" Pretabbed Wick',
+        length: "6",
+        count: "100",
+        remaining: "100",
+        series: "CD",
+        size: "7",
+        price: "8.95",
+        shareOfShippingPercent: "15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "other",
+        name: "Cashmere",
+        weightOunces: "8",
+        remaining: "8",
+        price: "12.95",
+        shareOfShippingPercent: "15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Firewood",
+        weightOunces: "4",
+        remaining: "4",
+        price: "9.95",
+        shareOfShippingPercent: "15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Merlot",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.95",
+        shareOfShippingPercent: "15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Chocolate Mint",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.95",
+        shareOfShippingPercent: "15"
+      }
+    ],
+    source: "Lonestar Candle Supply",
+    subtotalCost: "63.70",
+    shippingCost: "7.85",
+    taxesAndFees: "5.90",
+    totalCost: "77.45"
+  },
+  {
+    openDate: "2020-01-18",
+    items: [
+      {
+        type: "wax",
+        name: "Coconut 83 Wax",
+        material: "Coconut",
+        weightPounds: "45",
+        remaining: "45",
+        price: "76.95",
+        shareOfShippingPercent: "90"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Pineapple Sherbert",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.60",
+        shareOfShippingPercent: "3"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Roasted Pinecones",
+        weightOunces: "4",
+        remaining: "4",
+        price: "11.34",
+        shareOfShippingPercent: "3"
+      },
+      {
+        type: "fragrance-oil",
+        category: "spice",
+        name: "Spiced Clove",
+        weightOunces: "8",
+        remaining: "8",
+        price: "12.60",
+        shareOfShippingPercent: "6"
+      },
+      {
+        type: "wicks",
+        name: "Eco 1 Pretabbed Wick",
+        length: "6",
+        count: "50",
+        remaining: "50",
+        series: "Eco",
+        size: "1",
+        price: "4.75",
+        shareOfShippingPercent: "3"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Amber",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.60",
+        shareOfShippingPercent: "3"
+      }
+    ],
+    source: "California Candle Supply",
+    subtotalCost: "122.84",
+    shippingCost: "36.04",
+    taxesAndFees: "0",
+    totalCost: "158.88"
+  },
+  {
+    openDate: "2020-01-24",
+    items: [
+      {
+        type: "wicks",
+        name: 'Premier 720 6.5" Pretabbed Wick',
+        length: "6.5",
+        count: "12",
+        remaining: "12",
+        series: "Premier",
+        size: "720",
+        price: "1",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "wicks",
+        name: 'Premier 710 6.5" Pretabbed Wick',
+        length: "6.5",
+        count: "12",
+        remaining: "12",
+        series: "Premier",
+        size: "710",
+        price: "1",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "wicks",
+        name: 'Premier 700 6.5" Pretabbed Wick',
+        length: "6.5",
+        count: "12",
+        remaining: "12",
+        series: "Premier",
+        size: "700",
+        price: "1",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "misc-equipment",
+        name: "One Pot Pouring Pitcher",
+        count: "1",
+        remaining: "1",
+        price: "10",
+        shareOfShippingPercent: "15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Almond",
+        weightOunces: "8",
+        remaining: "8",
+        price: "10.99",
+        shareOfShippingPercent: "25"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Jasmine",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Floral Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Lilac",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Floral Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Hawaiian Hibiscus BBW Type",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Floral Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Honeysuckle Jasmine",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Floral Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Japanese Cherry Blossom BBW Tye",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Floral Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Fresh Cut Roses",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Floral Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Lavender",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Floral Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Honeysuckle",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Floral Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Plumeria",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Floral Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Stroll in the Garden",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Floral Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Patchouli",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Natural Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Tobacco",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Natural Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Leaves",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Natural Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Eucalyptus and Spearmint",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Natural Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Eucalyptus",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Natural Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Sandalwood",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Natural Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Barn Wood",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Natural Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Cactus and Sea Salt",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Natural Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Lemongrass",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Natural Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Rosemary Mint",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.5",
+        shareOfShippingPercent: "2.5",
+        notes: "1 Part in 10 of the Natural Sample Set for $15"
+      },
+      {
+        type: "fragrance-oil",
+        category: "spice",
+        name: "Rosemary Pepper",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "2.5",
+        notes: "Free sample"
+      }
+    ],
+    source: "Aztec Candle and Soap Supplies",
+    shippingCost: "14.45",
+    subtotalCost: "53.99",
+    totalCost: "",
+    taxesAndFees: "0"
+  },
+  {
+    openDate: "2020-01-24",
+    items: [
+      {
+        type: "jars",
+        name: "Straight Sided Tumbler Clear",
+        waxToFillLineOunces: "10.0",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "clear",
+        count: "25",
+        remaining: "25",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "Recycled from tester candles"
+      }
+    ],
+    source: "Recycled",
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0"
   }
 ];

@@ -82,7 +82,7 @@ function NewLayer({
               endAdornment: <InputAdornment position="end">oz</InputAdornment>,
               inputProps: {
                 name: "preppedContainerWeightOunces",
-                step: "1"
+                step: "0.01"
               }
             }}
           />

@@ -1697,5 +1697,136 @@ module.exports = [
     colorDescription: "whiteish",
     burns: [],
     notes: ""
+  },
+  // 97/3 wick test
+  // 38NG
+  {
+    completedCandleWeightOunces: "13.28",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // W9DE whoops i never made this one
+  {},
+  // 3QDQ
+  {
+    completedCandleWeightOunces: "12.78",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 3MZ7
+  {
+    completedCandleWeightOunces: "13.71",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 37B1
+  {
+    completedCandleWeightOunces: "13.62",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // WGXV
+  {
+    completedCandleWeightOunces: "12.71",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 3P6K
+  {
+    completedCandleWeightOunces: "13.72",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // R2OQ
+  {
+    completedCandleWeightOunces: "13.61",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // Candle party of 4
+  // never actually measured the weight
+  {
+    completedCandleWeightOunces: "17.0",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  {
+    completedCandleWeightOunces: "17.0",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  {
+    completedCandleWeightOunces: "17.0",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  {
+    completedCandleWeightOunces: "17.0",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 97/3 wick test 3 pineapple mango
+  // REDV
+  {
+    completedCandleWeightOunces: "12.89",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // WN54
+  {
+    completedCandleWeightOunces: "12.76",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 3Z57
+
+  {
+    completedCandleWeightOunces: "12.72",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // WLDE
+  {
+    completedCandleWeightOunces: "12.83",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 34X5
+  {
+    completedCandleWeightOunces: "12.95",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
   }
 ];

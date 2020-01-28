@@ -1736,5 +1736,146 @@ module.exports = [
       wickLayout: "center",
       wickStickerHashId: "BPJB"
     }
+  ],
+  [
+    {
+      name: "97/3 83/Bees CD-2",
+      jarHashId: "M6D9",
+      wickHashId: "N744",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "97/3 83/Bees CD-3",
+      jarHashId: "M6D9",
+      wickHashId: "N9OW",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "97/3 83/Bees HTP-31",
+      jarHashId: "M6D9",
+      wickHashId: "N6ZP",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "97/3 83/Bees HTP-83",
+      jarHashId: "M6D9",
+      wickHashId: "DW1Y",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "97/3 83/Bees Premier 765",
+      jarHashId: "M6D9",
+      wickHashId: "511W",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "97/3 83/Bees Premier 775",
+      jarHashId: "M6D9",
+      wickHashId: "5Z2G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "97/3 83/Bees CD-6",
+      jarHashId: "M6D9",
+      wickHashId: "5Q7M",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "97/3 83/Bees Eco-6",
+      jarHashId: "M6D9",
+      wickHashId: "N74N",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    }
+  ],
+  [
+    {
+      name: "Candle Party of 4 Rita",
+      jarHashId: "M6D9",
+      wickHashId: "DXW6",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Candle Party of Sameera",
+      jarHashId: "M6D9",
+      wickHashId: "DXW6",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Candle Party of 4 Vijay",
+      jarHashId: "M6D9",
+      wickHashId: "DXW6",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "Candle Party of 4 Al",
+      jarHashId: "M6D9",
+      wickHashId: "DXW6",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    }
+  ],[
+    {
+      name: "97/3 wick test 3 double 720",
+      jarHashId: "12D3",
+      wickHashId: "N93W",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "97/3 wick test 3 double 710",
+      jarHashId: "12D3",
+      wickHashId: "5QZM",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "97/3 wick test 3 double 700",
+      jarHashId: "12D3",
+      wickHashId: "5YPR",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "97/3 wick test 3 HTP-93",
+      jarHashId: "12D3",
+      wickHashId: "51LW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    },
+    {
+      name: "97/3 wick test 3 CD-7",
+      jarHashId: "12D3",
+      wickHashId: "DXW6",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BPJB"
+    }
   ]
 ];
