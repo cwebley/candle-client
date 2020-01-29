@@ -1836,7 +1836,8 @@ module.exports = [
       wickLayout: "center",
       wickStickerHashId: "BPJB"
     }
-  ],[
+  ],
+  [
     {
       name: "97/3 wick test 3 double 720",
       jarHashId: "12D3",
@@ -1876,6 +1877,48 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "BPJB"
+    }
+  ],
+  [
+    {
+      name: "Double P725",
+      jarHashId: "12D3",
+      wickHashId: "N63P",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "Double CD-2",
+      jarHashId: "12D3",
+      wickHashId: "N744",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "Double CD-3",
+      jarHashId: "12D3",
+      wickHashId: "N9OW",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "Double HTP-31",
+      jarHashId: "12D3",
+      wickHashId: "N6ZP",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "Double Eco-1",
+      jarHashId: "12D3",
+      wickHashId: "NL87",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "3RO3"
     }
   ]
 ];

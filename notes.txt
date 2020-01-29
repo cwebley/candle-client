@@ -155,18 +155,11 @@ autocomplete components need some sort of lookup by hash_id endpoint
 
 node canvas to create labels programmatically
 
-Dye blocks pieces per pound of wax? something like that
-or shift all to weight?
+clear order page after submission
+deleting a layer doesnt update the wax to fill numbers
 Checkbox for finishing an oil/block/wax/jar/wick/etc
 -- when hit you can make up the remainder with another one somehow
-
-clear order page after submission
-
-deleting a layer doesnt update the wax to fill numbers
-
-candle page layer item prices reflect batch prices and not the cost of the layer
-
-batch page needs a total batch cost value
+shift all dye blocks to weight and add liquid_dye resource
 
 remaining coco83-5% bees wick tests:
 todo: 
@@ -179,12 +172,9 @@ update: CD-2 self extinguished.
 
 coco83-3% tests? 11% FO
 
-Double CD-2
-Double HTP-31
-HTP-73
-Premier 765
-Premier 775
-CD-6
-Eco-6
 
-(later double P720, double 710, cd-7)
+Double P725 again
+Double CD-2
+Double CD-3
+Double HTP-31
+Double Eco-1

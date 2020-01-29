@@ -1828,5 +1828,46 @@ module.exports = [
     colorDescription: "whiteish",
     burns: [],
     notes: ""
+  },
+  // 96/4 hotter double wick tests
+  // W9NK P-725
+  {
+    completedCandleWeightOunces: "13.02",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 3QK4
+  {
+    completedCandleWeightOunces: "13.48",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 3MJD
+  {
+    completedCandleWeightOunces: "12.85",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 37KX
+  {
+    completedCandleWeightOunces: "12.89",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // WG98
+  {
+    completedCandleWeightOunces: "13.00",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
   }
 ];

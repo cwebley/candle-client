@@ -3064,5 +3064,63 @@ module.exports = [
     ],
     name: "97/3 Wick test 3 Pineapple Sherbert Mango",
     fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-01-28",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "24.00" },
+      { type: "wax", hashId: "157P", weightOunces: "1.00" },
+      { type: "fragrance-oil", hashId: "G597", weightOunces: "1.47" },
+      { type: "fragrance-oil", hashId: "43EY", weightOunces: "1.47" }
+    ],
+    layers: [
+      {
+        candleHashId: "W9NK",
+        whenPoured: "2020-01-28T20:19:34",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "45",
+        preppedContainerWeightOunces: "7.68"
+      },
+      {
+        candleHashId: "3QK4",
+        whenPoured: "2020-01-28T20:19:34",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "45",
+        preppedContainerWeightOunces: "7.72"
+      },
+      {
+        candleHashId: "3MJD",
+        whenPoured: "2020-01-28T20:19:34",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "45",
+        preppedContainerWeightOunces: "7.77"
+      },
+      {
+        candleHashId: "37KX",
+        whenPoured: "2020-01-28T20:20:04",
+        coolingRoomHumidityPercent: "45",
+        preppedContainerWeightOunces: "7.54",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73"
+      },
+      {
+        whenPoured: "2020-01-28T20:34:25",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "45",
+        candleHashId: "WG98",
+        preppedContainerWeightOunces: "7.53"
+      }
+    ],
+    name: "96/4 Coco-83/Bees Hotter Double Wick",
+    fragranceAddTemperatureFahrenheit: "205"
   }
 ];
