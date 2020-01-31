@@ -1869,5 +1869,80 @@ module.exports = [
     colorDescription: "whiteish",
     burns: [],
     notes: ""
-  }
+  },
+
+  // even hotter wick test 96/4
+  // Double P-735 WY87
+  {
+    completedCandleWeightOunces: "11.68",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // Double P-HTP-41 351M
+  {
+    completedCandleWeightOunces: "12.00",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // HTP-93 WB99
+  {
+    completedCandleWeightOunces: "11.22",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // HTP-104 36VL
+  {
+    completedCandleWeightOunces: "11.67",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // P-775 3D9L
+  {
+    completedCandleWeightOunces: "11.64",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // P-780 RJBM
+  {
+    completedCandleWeightOunces: "11.88",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // Even hotter
+  // P-745 W16N
+  {
+    completedCandleWeightOunces: "12.14",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // HTP-52 RV8V
+  {
+    completedCandleWeightOunces: "11.98",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // P-765 3K6O
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
 ];

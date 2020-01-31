@@ -1920,5 +1920,81 @@ module.exports = [
       wickLayout: "line",
       wickStickerHashId: "3RO3"
     }
+  ],
+  [
+    {
+      name: "Double P735",
+      jarHashId: "12D3",
+      wickHashId: "DOKR",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "Double HTP-41",
+      jarHashId: "12D3",
+      wickHashId: "DO3R",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "HTP-93",
+      jarHashId: "12D3",
+      wickHashId: "DXW6",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "HTP-104",
+      jarHashId: "12D3",
+      wickHashId: "5ZQG",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "P-775",
+      jarHashId: "12D3",
+      wickHashId: "5Z2G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "P-780",
+      jarHashId: "12D3",
+      wickHashId: "5P1X",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    }
+  ],
+  [
+    {
+      name: "Double P-745",
+      jarHashId: "12D3",
+      wickHashId: "5MYX",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "Double HTP-52",
+      jarHashId: "12D3",
+      wickHashId: "5M3X",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "P-765",
+      jarHashId: "12D3",
+      wickHashId: "511W",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "3RO3"
+    }
   ]
 ];

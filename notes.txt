@@ -173,8 +173,27 @@ update: CD-2 self extinguished.
 coco83-3% tests? 11% FO
 
 
-Double P725 again
+Double P725 // drowns out second burn half jar
 Double CD-2
-Double CD-3
+Double CD-3 // seems the best so far
 Double HTP-31
 Double Eco-1
+
+
+Double P735 drowned.
+Double HTP-41 drowned.
+Single HTP 104 mushroom, tiny bit of soot. otherwise good
+Single P775 soot, mushroom, maybe a bit big
+Single P780 same as above
+
+
+Zinc wick tests
+Wooden wick tests
+
+Thicker jars might help make double Eco-1 viable.
+
+Hotter Again:
+
+Double P-745
+Double HTP-52
+Single P765

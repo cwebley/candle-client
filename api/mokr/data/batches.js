@@ -3103,7 +3103,7 @@ module.exports = [
       },
       {
         candleHashId: "37KX",
-        whenPoured: "2020-01-28T20:20:04",
+        whenPoured: "2020-01-28T20:34:25",
         coolingRoomHumidityPercent: "45",
         preppedContainerWeightOunces: "7.54",
         containerTemperatureFahrenheit: "73",
@@ -3121,6 +3121,113 @@ module.exports = [
       }
     ],
     name: "96/4 Coco-83/Bees Hotter Double Wick",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-01-30",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "24.00" },
+      { type: "wax", hashId: "157P", weightOunces: "1.00" },
+      { type: "fragrance-oil", hashId: "G597", weightOunces: "1.58" },
+      { type: "fragrance-oil", hashId: "43EY", weightOunces: "1.42" }
+    ],
+    layers: [
+      {
+        candleHashId: "WY87",
+        whenPoured: "2020-01-30T20:19:34",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "45",
+        preppedContainerWeightOunces: "6.91"
+      },
+      {
+        candleHashId: "351M",
+        whenPoured: "2020-01-30T20:19:34",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "45",
+        preppedContainerWeightOunces: "7.23"
+      },
+      {
+        candleHashId: "WB99",
+        whenPoured: "2020-01-30T20:19:34",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "45",
+        preppedContainerWeightOunces: "6.94"
+      },
+      {
+        candleHashId: "36VL",
+        whenPoured: "2020-01-30T20:20:04",
+        coolingRoomHumidityPercent: "45",
+        preppedContainerWeightOunces: "7.11",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73"
+      },
+      {
+        whenPoured: "2020-01-30T20:34:25",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "45",
+        candleHashId: "3D9L",
+        preppedContainerWeightOunces: "7.06"
+      },
+      {
+        whenPoured: "2020-01-30T20:34:25",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "45",
+        candleHashId: "RJBM",
+        preppedContainerWeightOunces: "7.16"
+      }
+    ],
+    name: "96/4 Coco-83/Bees even hotter wicks",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-01-31",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "12.00" },
+      { type: "wax", hashId: "157P", weightOunces: "0.50" },
+      { type: "fragrance-oil", hashId: "GXX6", weightOunces: "0.74" },
+      { type: "fragrance-oil", hashId: "43EY", weightOunces: "0.74" }
+    ],
+    layers: [
+      {
+        candleHashId: "N93W",
+        whenPoured: "2020-01-31T20:19:34",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "40",
+        preppedContainerWeightOunces: "7.16"
+      },
+      {
+        candleHashId: "5QZM",
+        whenPoured: "2020-01-31T20:19:34",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "40",
+        preppedContainerWeightOunces: "7.18"
+      },
+      {
+        candleHashId: "5YPR",
+        whenPoured: "2020-01-31T20:19:34",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "40",
+        preppedContainerWeightOunces: "7.12"
+      }
+    ],
+    name: "96/4 Coco-83/Bees even hotter wicks",
     fragranceAddTemperatureFahrenheit: "205"
   }
 ];
