@@ -1,7 +1,7 @@
 import React, { useCallback, useState, useEffect } from "react";
 import moment from "moment";
 import axios from "axios";
-import { withRouter } from "react-router-dom";
+import { withRouter, useLocation } from "react-router-dom";
 import { withSnackbar } from "notistack";
 import qs from "query-string";
 
@@ -62,6 +62,24 @@ const useStyles = makeStyles(theme => ({
 }));
 
 function NewBatch({ history, enqueueSnackbar }) {
+  const location = useLocation();
+  const {
+    candle,
+    pourTemp,
+    roomTemp,
+    roomHumidity,
+    jarTemp,
+    ...rest
+  } = qs.parse(location.search, {
+    arrayFormat: "comma"
+  });
+  let initialCandleHashIds = candle || [];
+  if (candle) {
+    if (typeof candle === "string") {
+      initialCandleHashIds = [candle];
+    }
+  }
+
   const classes = useStyles();
   const [resourceTypes, setResourceTypes] = useState([]);
   const [newBatchItemValues, setNewBatchItemValues] = useState({});
@@ -71,19 +89,28 @@ function NewBatch({ history, enqueueSnackbar }) {
   const [batchValues, setBatchValues] = useState({
     whenCreated: currentDate(),
     batchItems: [],
-    layers: []
+    layers: initialCandleHashIds.map(hashId => ({
+      candleHashId: hashId,
+      whenPoured: currentDateTime(),
+      pourTemperatureFahrenheit: pourTemp,
+      coolingRoomHumidityPercent: roomHumidity,
+      coolingRoomTemperatureFahrenheit: roomTemp,
+      containerTemperatureFahrenheit: jarTemp
+    }))
   });
-  const [candleHashIds, setCandleHashIds] = useState([]);
+  const [candleHashIds, setCandleHashIds] = useState(initialCandleHashIds);
 
   const [layerDialogOpen, setLayerDialogOpen] = useState(false);
   const [newLayerValues, setNewLayerValues] = useState({});
   const [editLayerIndex, setLayerEditIndex] = useState(null);
   const [fragranceLoadTarget, setFragranceLoadTarget] = useState(null);
   const [cumulativeWeights, setCumlativeWeights] = useState({});
-  const [defaultJarTemp, setDefaultJarTemp] = useState("");
-  const [defaultPourTemp, setDefaultPourTemp] = useState("");
-  const [defaultRoomTemp, setDefaultRoomTemp] = useState("");
-  const [defaultRoomHumidity, setDefaultRoomHumidity] = useState("");
+  const [defaultJarTemp, setDefaultJarTemp] = useState(jarTemp || "");
+  const [defaultPourTemp, setDefaultPourTemp] = useState(pourTemp || "");
+  const [defaultRoomTemp, setDefaultRoomTemp] = useState(roomTemp || "");
+  const [defaultRoomHumidity, setDefaultRoomHumidity] = useState(
+    roomHumidity || ""
+  );
 
   const addLayer = useCallback(
     layerValues => {
@@ -94,8 +121,9 @@ function NewBatch({ history, enqueueSnackbar }) {
         };
       });
       if (layerValues.candleHashId) {
-        setCandleHashIds(c => ([...c, layerValues.candleHashId]));
+        setCandleHashIds(c => [...c, layerValues.candleHashId]);
       }
+
       setNewLayerValues({
         containerTemperatureFahrenheit: defaultJarTemp,
         pourTemperatureFahrenheit: defaultPourTemp,
@@ -106,6 +134,7 @@ function NewBatch({ history, enqueueSnackbar }) {
     },
     [
       // candleHashIds,
+      setBatchValues,
       defaultPourTemp,
       defaultRoomHumidity,
       defaultRoomTemp,
@@ -113,26 +142,34 @@ function NewBatch({ history, enqueueSnackbar }) {
     ]
   );
 
+  // every time the candleHashIds change, update the url
   useEffect(() => {
-    const { candle, ...rest } = qs.parse(history.location.search, {
-      arrayFormat: "comma"
-    });
-    if (!candle) {
+    if (candleHashIds.length) {
+      let url = `/new-batch?candle=${candleHashIds.join(",")}`;
+      if (defaultRoomHumidity) {
+        url += `&roomHumidity=${defaultRoomHumidity}`;
+      }
+      if (defaultRoomTemp) {
+        url += `&roomTemp=${defaultRoomTemp}`;
+      }
+      if (defaultPourTemp) {
+        url += `&pourTemp=${defaultPourTemp}`;
+      }
+      if (defaultJarTemp) {
+        url += `&jarTemp=${defaultJarTemp}`;
+      }
+      history.push(url);
       return;
     }
-    if (typeof candle === "string") {
-      // only one candle in the query string
-      addLayer({ candleHashId: candle, whenPoured: currentDateTime() });
-      setCandleHashIds(c => ([...c, candle]));
-
-      return;
-    }
-    // array of candles in the query string
-    candle.forEach(c => {
-      addLayer({ candleHashId: c, whenPoured: currentDateTime() });
-    });
-    setCandleHashIds(c => ([...c, ...candle]));
-  }, [history.location.search, addLayer, setCandleHashIds]);
+    history.push("/new-batch");
+  }, [
+    history,
+    candleHashIds,
+    defaultJarTemp,
+    defaultPourTemp,
+    defaultRoomTemp,
+    defaultRoomHumidity
+  ]);
 
   // fetch one time data from the server
   useEffect(() => {
@@ -295,6 +332,7 @@ function NewBatch({ history, enqueueSnackbar }) {
         ]
       };
     });
+    setCandleHashIds(c => [...c.slice(0, index), ...c.slice(index + 1)]);
   };
 
   const submitBatch = async e => {
