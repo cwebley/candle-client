@@ -5898,5 +5898,180 @@ module.exports = [
     shippingCost: "0",
     taxesAndFees: "0",
     totalCost: "0"
+  },
+  {
+    openDate: "2020-02-07",
+    items: [
+      {
+        type: "wicks",
+        size: "34-40",
+        name: "Zinc-34-40",
+        length: "6",
+        count: "25",
+        remaining: "25",
+        series: "Zinc",
+        price: "2.89",
+        shareOfShippingPercent: "2.5"
+      },
+      {
+        type: "wicks",
+        name: "Zinc-28-24",
+        length: "6",
+        count: "25",
+        remaining: "25",
+        series: "Zinc",
+        size: "28-24",
+        price: "2.89",
+        shareOfShippingPercent: "2.5"
+      },
+      {
+        type: "wicks",
+        name: "Zinc-36-24-24",
+        length: "6",
+        count: "25",
+        remaining: "25",
+        series: "2.89",
+        size: "36-24-24",
+        price: "2.89",
+        shareOfShippingPercent: "2.5"
+      },
+      {
+        type: "wicks",
+        name: "Zinc-44-24-18",
+        length: "6",
+        count: "25",
+        remaining: "25",
+        series: "Zinc",
+        size: "44-24-18",
+        price: "2.89",
+        shareOfShippingPercent: "2.5"
+      },
+      {
+        type: "wicks",
+        name: "Zinc-44-32-18",
+        length: "6",
+        count: "25",
+        remaining: "25",
+        series: "Zinc",
+        size: "44-32-18",
+        price: "2.89",
+        shareOfShippingPercent: "2.89"
+      },
+      {
+        type: "wicks",
+        name: "Zinc-51-32-18",
+        length: "6",
+        count: "25",
+        remaining: "25",
+        series: "Zinc",
+        size: "51-32-18",
+        price: "2.89",
+        shareOfShippingPercent: "2.5",
+        notes: ""
+      },
+      {
+        type: "wicks",
+        name: "Zinc-60-44-18",
+        length: "6",
+        count: "25",
+        remaining: "25",
+        series: "Zinc",
+        size: "60-44-18",
+        price: "2.89",
+        shareOfShippingPercent: "2.5"
+      },
+      {
+        category: "food-and-drink",
+        type: "fragrance-oil",
+        name: "Beer",
+        weightOunces: "4",
+        remaining: "4",
+        price: "7.39",
+        shareOfShippingPercent: "17"
+      },
+      {
+        category: "food-and-drink",
+        type: "fragrance-oil",
+        name: "Chocolate",
+        weightOunces: "4",
+        remaining: "4",
+        price: "6.99",
+        shareOfShippingPercent: "17"
+      },
+      {
+        category: "food-and-drink",
+        type: "fragrance-oil",
+        name: "Sugared Maple",
+        weightOunces: "4",
+        remaining: "4",
+        price: "7.39",
+        shareOfShippingPercent: "17"
+      },
+      {
+        category: "food-and-drink",
+        type: "fragrance-oil",
+        name: "Spiced Chestnut",
+        weightOunces: "4",
+        remaining: "4",
+        price: "7.59",
+        shareOfShippingPercent: "17"
+      },
+      {
+        category: "food-and-drink",
+        type: "fragrance-oil",
+        name: "Southern Iced Tea",
+        weightOunces: "8",
+        remaining: "8",
+        price: "9.79",
+        shareOfShippingPercent: "20",
+        notes: ""
+      },
+      {
+        type: "wick-stickers",
+        name: "WickStickers",
+        count: "1000",
+        remaining: "1000",
+        price: "21.49",
+        shareOfShippingPercent: "14"
+      },
+      {
+        category: "flowers-and-herbs",
+        type: "fragrance-oil",
+        name: "Rain Angelica",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "2",
+        notes: "Free Sample"
+      }
+    ],
+    source: "The Flaming Candle",
+    subtotalCost: "80.87",
+    shippingCost: "18.70",
+    taxesAndFees: "0",
+    totalCost: "99.57"
+  },
+  {
+    openDate: "2020-02-08",
+    items: [
+      {
+        type: "jars",
+        name: "Clear Straight Sided Tumbler",
+        waxToFillLineOunces: "10.00",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "clear",
+        count: "21",
+        remaining: "21",
+        price: "0",
+        shareOfShippingPercent: "100",
+        notes: "This is the second time these jars have been recycled"
+      }
+    ],
+    source: "Recycled",
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0"
   }
 ];

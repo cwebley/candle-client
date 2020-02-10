@@ -3200,7 +3200,7 @@ module.exports = [
     ],
     layers: [
       {
-        candleHashId: "N93W",
+        candleHashId: "W16N",
         whenPoured: "2020-01-31T20:19:34",
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "185",
@@ -3209,7 +3209,7 @@ module.exports = [
         preppedContainerWeightOunces: "7.16"
       },
       {
-        candleHashId: "5QZM",
+        candleHashId: "RV8V",
         whenPoured: "2020-01-31T20:19:34",
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "185",
@@ -3218,7 +3218,7 @@ module.exports = [
         preppedContainerWeightOunces: "7.18"
       },
       {
-        candleHashId: "5YPR",
+        candleHashId: "3K6O",
         whenPoured: "2020-01-31T20:19:34",
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "185",
@@ -3228,6 +3228,272 @@ module.exports = [
       }
     ],
     name: "96/4 Coco-83/Bees even hotter wicks",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-01-31",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "16.00" },
+      { type: "wax", hashId: "157P", weightOunces: "0.67" },
+      { type: "fragrance-oil", hashId: "GXX6", weightOunces: "0.99" },
+      { type: "fragrance-oil", hashId: "43EY", weightOunces: "0.99" }
+    ],
+    layers: [
+      {
+        candleHashId: "RE9V",
+        whenPoured: "2020-01-31T20:19:34",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "40",
+        preppedContainerWeightOunces: "7.16"
+      },
+      {
+        candleHashId: "WNX4",
+        whenPoured: "2020-01-31T20:19:34",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "40",
+        preppedContainerWeightOunces: "7.18"
+      },
+      {
+        candleHashId: "3ZM7",
+        whenPoured: "2020-01-31T20:19:34",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "40",
+        preppedContainerWeightOunces: "7.12"
+      },
+      {
+        candleHashId: "WL1E",
+        whenPoured: "2020-01-31T20:19:34",
+        containerTemperatureFahrenheit: "73",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "73",
+        coolingRoomHumidityPercent: "40",
+        preppedContainerWeightOunces: "7.12"
+      }
+    ],
+    name: "96/4 Coco-83/Bees Zinc Wick Tests",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-02-07",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "8.48" },
+      { type: "wax", hashId: "157P", weightOunces: "0.36" },
+      { type: "wax", hashId: "P4J1", weightOunces: "0.18" },
+      { type: "fragrance-oil", hashId: "43EY", weightOunces: "0.53" },
+      { type: "fragrance-oil", hashId: "GXX6", weightOunces: "0.53" }
+    ],
+    layers: [
+      {
+        whenPoured: "2020-02-07T22:12:51",
+        containerTemperatureFahrenheit: "74",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "74",
+        coolingRoomHumidityPercent: "48",
+        candleHashId: "W98K",
+        preppedContainerWeightOunces: "6.5"
+      },
+      {
+        whenPoured: "2020-02-07T22:13:13",
+        containerTemperatureFahrenheit: "74",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "74",
+        coolingRoomHumidityPercent: "48",
+        candleHashId: "3QZ4",
+        preppedContainerWeightOunces: "6.5"
+      }
+    ],
+    name: "Adding 2% Coconut-1",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-02-07",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "8.19" },
+      { type: "wax", hashId: "157P", weightOunces: "0.36" },
+      { type: "wax", hashId: "P4J1", weightOunces: "0.45" },
+      { type: "fragrance-oil", hashId: "43EY", weightOunces: "0.53" },
+      { type: "fragrance-oil", hashId: "GXX6", weightOunces: "0.53" }
+    ],
+    layers: [
+      {
+        whenPoured: "2020-02-07T22:18:06",
+        containerTemperatureFahrenheit: "74",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "74",
+        coolingRoomHumidityPercent: "48",
+        candleHashId: "3MVD",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        whenPoured: "2020-02-07T22:18:16",
+        containerTemperatureFahrenheit: "74",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "74",
+        coolingRoomHumidityPercent: "48",
+        candleHashId: "374X",
+        preppedContainerWeightOunces: "6.8"
+      }
+    ],
+    name: "Adding 5% Coconut-1",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-02-08",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "15.48" },
+      { type: "wax", hashId: "38J3", weightOunces: "0.9" },
+      { type: "wax", hashId: "P4J1", weightOunces: "0.9" },
+      { type: "wax", hashId: "157P", weightOunces: "0.72" },
+      { type: "fragrance-oil", hashId: "41LM", weightOunces: "1.05" },
+      { type: "fragrance-oil", hashId: "4NQN", weightOunces: "1.05" }
+    ],
+    layers: [
+      {
+        candleHashId: "WYX7",
+        whenPoured: "2020-02-08T15:14:42",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "74",
+        containerTemperatureFahrenheit: "74",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "35ZM",
+        whenPoured: "2020-02-08T15:14:42",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "74",
+        containerTemperatureFahrenheit: "74",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "WB89",
+        whenPoured: "2020-02-08T15:14:42",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "74",
+        containerTemperatureFahrenheit: "74",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "36LL",
+        whenPoured: "2020-02-08T15:14:42",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "74",
+        containerTemperatureFahrenheit: "74",
+        preppedContainerWeightOunces: "6.2"
+      }
+    ],
+    name: "86/5/5/4 83/464/C-1/Bees Test",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-02-08",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "14.58" },
+      { type: "wax", hashId: "38J3", weightOunces: "1.80" },
+      { type: "wax", hashId: "P4J1", weightOunces: "0.91" },
+      { type: "wax", hashId: "157P", weightOunces: "0.72" },
+      { type: "fragrance-oil", hashId: "41LM", weightOunces: "1.05" },
+      { type: "fragrance-oil", hashId: "4NQN", weightOunces: "1.05" }
+    ],
+    layers: [
+      {
+        candleHashId: "W1VN",
+        whenPoured: "2020-02-08T15:15:11",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "74",
+        containerTemperatureFahrenheit: "74",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "RV6V",
+        whenPoured: "2020-02-08T15:15:11",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "74",
+        containerTemperatureFahrenheit: "74",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "3KXO",
+        whenPoured: "2020-02-08T15:15:11",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "74",
+        containerTemperatureFahrenheit: "74",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "RE8V",
+        whenPoured: "2020-02-08T15:15:11",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "74",
+        containerTemperatureFahrenheit: "74",
+        preppedContainerWeightOunces: "6.2"
+      }
+    ],
+    name: "81/10/5/4 83/464/C-1/Bees Test",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-02-08",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "12.78" },
+      { type: "wax", hashId: "38J3", weightOunces: "3.60" },
+      { type: "wax", hashId: "P4J1", weightOunces: "0.91" },
+      { type: "wax", hashId: "157P", weightOunces: "0.72" },
+      { type: "fragrance-oil", hashId: "41LM", weightOunces: "1.05" },
+      { type: "fragrance-oil", hashId: "4NQN", weightOunces: "1.05" }
+    ],
+    layers: [
+      {
+        candleHashId: "3475",
+        whenPoured: "2020-02-08T15:15:37",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "74",
+        containerTemperatureFahrenheit: "74",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "ROKY",
+        whenPoured: "2020-02-08T15:15:37",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "74",
+        containerTemperatureFahrenheit: "74",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "385M",
+        whenPoured: "2020-02-08T15:15:37",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "74",
+        containerTemperatureFahrenheit: "74",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "W9BK",
+        whenPoured: "2020-02-08T15:15:37",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "74",
+        containerTemperatureFahrenheit: "74",
+        preppedContainerWeightOunces: "6.2"
+      }
+    ],
+    name: "71/20/5/4 83/464/C-1/Bees Test",
     fragranceAddTemperatureFahrenheit: "205"
   }
 ];

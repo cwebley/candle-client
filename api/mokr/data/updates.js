@@ -1945,4 +1945,174 @@ module.exports = [
     burns: [],
     notes: ""
   },
+  // Zinc tests
+  // RE9V
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "drowned fairly quickly after lighting"
+  },
+  // WNX4
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "seems like a solid option. need a full sized candle test. update: jar is probably too hot. approaching 160."
+  },
+  // 3ZM7
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes:
+      "another solid option for a single wick. tiny bit of soot but i did some serious long burns"
+  },
+  // WL1E
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes:
+      "seems like a decent option, but since the smaller one worked this is prob not the best"
+  },
+  // Adding some Coconut-1 Tests
+  // W98K
+  {
+    completedCandleWeightOunces: "11.78",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 3QZ4
+  {
+    completedCandleWeightOunces: "12.49",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 3MVD
+  {
+    completedCandleWeightOunces: "12.40",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 374X
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+
+  // 5% 464 test batch
+  // WYX7
+  {
+    completedCandleWeightOunces: "11.78",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 35ZM
+  {
+    completedCandleWeightOunces: "12.49",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // WB89
+  {
+    completedCandleWeightOunces: "12.40",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 36LL
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+
+  // 10% 464 test batch
+  // W1VN
+  {
+    completedCandleWeightOunces: "11.78",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // RV6V
+  {
+    completedCandleWeightOunces: "12.49",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 3KXO
+  {
+    completedCandleWeightOunces: "12.40",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // RE8V
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+
+  // 20% 464 test batch
+  // 3475
+  {
+    completedCandleWeightOunces: "11.78",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // ROKY
+  {
+    completedCandleWeightOunces: "12.49",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 385M
+  {
+    completedCandleWeightOunces: "12.40",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // W9BK
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
 ];

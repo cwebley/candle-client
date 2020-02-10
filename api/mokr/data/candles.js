@@ -1840,7 +1840,7 @@ module.exports = [
   [
     {
       name: "97/3 wick test 3 double 720",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "N93W",
       wickCount: "2",
       wickLayout: "line",
@@ -1848,7 +1848,7 @@ module.exports = [
     },
     {
       name: "97/3 wick test 3 double 710",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "5QZM",
       wickCount: "2",
       wickLayout: "line",
@@ -1856,7 +1856,7 @@ module.exports = [
     },
     {
       name: "97/3 wick test 3 double 700",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "5YPR",
       wickCount: "2",
       wickLayout: "line",
@@ -1864,7 +1864,7 @@ module.exports = [
     },
     {
       name: "97/3 wick test 3 HTP-93",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "51LW",
       wickCount: "1",
       wickLayout: "center",
@@ -1872,7 +1872,7 @@ module.exports = [
     },
     {
       name: "97/3 wick test 3 CD-7",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "DXW6",
       wickCount: "1",
       wickLayout: "center",
@@ -1882,7 +1882,7 @@ module.exports = [
   [
     {
       name: "Double P725",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "N63P",
       wickCount: "2",
       wickLayout: "line",
@@ -1890,7 +1890,7 @@ module.exports = [
     },
     {
       name: "Double CD-2",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "N744",
       wickCount: "2",
       wickLayout: "line",
@@ -1898,7 +1898,7 @@ module.exports = [
     },
     {
       name: "Double CD-3",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "N9OW",
       wickCount: "2",
       wickLayout: "line",
@@ -1906,7 +1906,7 @@ module.exports = [
     },
     {
       name: "Double HTP-31",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "N6ZP",
       wickCount: "2",
       wickLayout: "line",
@@ -1914,7 +1914,7 @@ module.exports = [
     },
     {
       name: "Double Eco-1",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "NL87",
       wickCount: "2",
       wickLayout: "line",
@@ -1924,7 +1924,7 @@ module.exports = [
   [
     {
       name: "Double P735",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "DOKR",
       wickCount: "2",
       wickLayout: "line",
@@ -1932,7 +1932,7 @@ module.exports = [
     },
     {
       name: "Double HTP-41",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "DO3R",
       wickCount: "2",
       wickLayout: "line",
@@ -1940,7 +1940,7 @@ module.exports = [
     },
     {
       name: "HTP-93",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "DXW6",
       wickCount: "1",
       wickLayout: "center",
@@ -1948,7 +1948,7 @@ module.exports = [
     },
     {
       name: "HTP-104",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "5ZQG",
       wickCount: "1",
       wickLayout: "center",
@@ -1956,7 +1956,7 @@ module.exports = [
     },
     {
       name: "P-775",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "5Z2G",
       wickCount: "1",
       wickLayout: "center",
@@ -1964,7 +1964,7 @@ module.exports = [
     },
     {
       name: "P-780",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "5P1X",
       wickCount: "1",
       wickLayout: "center",
@@ -1974,7 +1974,7 @@ module.exports = [
   [
     {
       name: "Double P-745",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "5MYX",
       wickCount: "2",
       wickLayout: "line",
@@ -1982,7 +1982,7 @@ module.exports = [
     },
     {
       name: "Double HTP-52",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "5M3X",
       wickCount: "2",
       wickLayout: "line",
@@ -1990,11 +1990,181 @@ module.exports = [
     },
     {
       name: "P-765",
-      jarHashId: "12D3",
+      jarHashId: "MR62",
       wickHashId: "511W",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    }
+  ],
+  [
+    {
+      name: "Double Zinc 28-24",
+      jarHashId: "MR62",
+      wickHashId: "NJG1",
       wickCount: "2",
       wickLayout: "line",
       wickStickerHashId: "3RO3"
+    },
+    {
+      name: "Double Zinc 34-40",
+      jarHashId: "MR62",
+      wickHashId: "NK8M",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "Zinc 44-32",
+      jarHashId: "MR62",
+      wickHashId: "D42R",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "Zinc 51-32",
+      jarHashId: "MR62",
+      wickHashId: "N7J4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    }
+  ],
+  [
+    {
+      name: "2% Coconut-1 Double Zinc 34-40",
+      jarHashId: "MR62",
+      wickHashId: "NK8M",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "2% Coconut-1 Zinc 44-32",
+      jarHashId: "MR62",
+      wickHashId: "D42R",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "5% Coconut-1 Double Zinc 34-40",
+      jarHashId: "MR62",
+      wickHashId: "NK8M",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "5% Coconut-1 Zinc 44-32",
+      jarHashId: "MR62",
+      wickHashId: "D42R",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    }
+  ],
+  [
+    {
+      name: "5% 464 Double CD-2",
+      jarHashId: "5XRD",
+      wickHashId: "N744",
+      wickCount: "2",
+      wickLayout: "tight",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "5% 464 Double CD-3",
+      jarHashId: "5XRD",
+      wickHashId: "N9OW",
+      wickCount: "2",
+      wickLayout: "tight",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "5% 464 P-765",
+      jarHashId: "5XRD",
+      wickHashId: "511W",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "5% 464 P-775",
+      jarHashId: "5XRD",
+      wickHashId: "5Z2G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    }
+  ],
+  [
+    {
+      name: "10% 464 Double CD-2",
+      jarHashId: "5XRD",
+      wickHashId: "N744",
+      wickCount: "2",
+      wickLayout: "tight",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "10% 464 Double CD-3",
+      jarHashId: "5XRD",
+      wickHashId: "N9OW",
+      wickCount: "2",
+      wickLayout: "tight",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "10% 464 P-765",
+      jarHashId: "5XRD",
+      wickHashId: "511W",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "10% 464 P-775",
+      jarHashId: "5XRD",
+      wickHashId: "5Z2G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    }
+  ],
+  [
+    {
+      name: "20% 464 Double CD-2",
+      jarHashId: "5XRD",
+      wickHashId: "N744",
+      wickCount: "2",
+      wickLayout: "tight",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "20% 464 Double CD-3",
+      jarHashId: "5XRD",
+      wickHashId: "N9OW",
+      wickCount: "2",
+      wickLayout: "tight",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "20% 464 P-765",
+      jarHashId: "5XRD",
+      wickHashId: "511W",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3RO3"
+    },
+    {
+      name: "20% 464 P-775",
+      jarHashId: "5XRD",
+      wickHashId: "5Z2G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
     }
   ]
 ];
