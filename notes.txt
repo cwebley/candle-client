@@ -268,19 +268,13 @@ P-765
 P-770
 
 
-amount to fill on batch page allow for half full candles 0.45 full etc
 change the order of the defaults on the batch page so FO temps are next to each other and room/jar temps too
 total wax weight doesnt update after editing a wax
 
 Missing wicks
 
-Eco 6/8
+Eco 8
 CD-8
-
-Try single smaller zinc?
-
-
-
 
 XL triple wick jar: https://www.candlemaking.com/oxford-xl-base-white-case-of-12.html.html
 https://calcandlesupply.com/16-oz-cali-jar/
@@ -289,3 +283,5 @@ https://woodenwick.com/candle-making-supplies/candle-lids/copper-aura-lid-thin
 some way to handle pre-mixed wax from presto-pot
 basically create wax blend.
 also create a wick.
+
+Compare all 4 patchoulis in small candles and decide which i like best.
