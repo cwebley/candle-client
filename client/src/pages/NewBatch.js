@@ -85,7 +85,10 @@ function NewBatch({ history, enqueueSnackbar }) {
   const [newBatchItemValues, setNewBatchItemValues] = useState({});
   const [batchItemDialogOpen, setBatchItemDialogOpen] = useState(false);
   const [editItemIndex, setItemEditIndex] = useState(null);
-  const [waxWeightSuggestion, setWaxWeightSuggestion] = useState("");
+  const [waxWeightSuggestion, setWaxWeightSuggestion] = useState(null);
+  const [waxSuggestionGivenJarFill, setWaxSuggestionGivenJarFill] = useState(
+    ""
+  );
   const [batchValues, setBatchValues] = useState({
     whenCreated: currentDate(),
     batchItems: [],
@@ -104,6 +107,7 @@ function NewBatch({ history, enqueueSnackbar }) {
   const [newLayerValues, setNewLayerValues] = useState({});
   const [editLayerIndex, setLayerEditIndex] = useState(null);
   const [fragranceLoadTarget, setFragranceLoadTarget] = useState(null);
+  const [jarFillPercentage, setJarFillPercentage] = useState(100);
   const [cumulativeWeights, setCumlativeWeights] = useState({});
   const [defaultJarTemp, setDefaultJarTemp] = useState(jarTemp || "");
   const [defaultPourTemp, setDefaultPourTemp] = useState(pourTemp || "");
@@ -205,7 +209,7 @@ function NewBatch({ history, enqueueSnackbar }) {
           params: { candles: candleHashIds.join(",") }
         });
         if (result.data) {
-          setWaxWeightSuggestion(result.data.total.toString());
+          setWaxWeightSuggestion(result.data.total);
         }
       } catch (err) {
         handleApiError(err, enqueueSnackbar);
@@ -213,6 +217,12 @@ function NewBatch({ history, enqueueSnackbar }) {
     };
     fetchWaxToFillSum();
   }, [candleHashIds, enqueueSnackbar]);
+
+  useEffect(() => {
+    setWaxSuggestionGivenJarFill(
+      ((waxWeightSuggestion * jarFillPercentage) / 100).toString()
+    );
+  }, [waxWeightSuggestion, setWaxSuggestionGivenJarFill, jarFillPercentage]);
 
   const handleBatchItemFormChange = e => {
     const name = e.target.name;
@@ -487,6 +497,14 @@ function NewBatch({ history, enqueueSnackbar }) {
     });
   };
 
+  const updateJarFillPercentage = value => {
+    const floatValue = parseFloat(value) || 100;
+    setJarFillPercentage(floatValue);
+    setWaxSuggestionGivenJarFill(
+      ((waxWeightSuggestion * floatValue) / 100).toString()
+    );
+  };
+
   return (
     <div className={classes.root}>
       <div>
@@ -502,7 +520,7 @@ function NewBatch({ history, enqueueSnackbar }) {
           <BatchItemDialog
             values={newBatchItemValues}
             itemTypes={resourceTypes.filter(r => r.scope === "batch")}
-            waxWeightSuggestion={waxWeightSuggestion}
+            waxWeightSuggestion={waxSuggestionGivenJarFill}
             foWeightSuggestion={getFoWeightSuggestion()}
             isOpen={batchItemDialogOpen}
             onChange={handleBatchItemFormChange}
@@ -719,6 +737,27 @@ function NewBatch({ history, enqueueSnackbar }) {
                       ),
                       inputProps: {
                         name: "defaultRoomHumidity",
+                        step: "1"
+                      }
+                    }}
+                  />
+                </Grid>
+                <Grid item xs={6} sm={4}>
+                  <TextField
+                    label="Jar Fill Percentage"
+                    className={classes.textField}
+                    value={jarFillPercentage}
+                    type="number"
+                    onChange={e => {
+                      const value = e.target.value;
+                      updateJarFillPercentage(value);
+                    }}
+                    InputProps={{
+                      endAdornment: (
+                        <InputAdornment position="end">%</InputAdornment>
+                      ),
+                      inputProps: {
+                        name: "jarFillPercentage",
                         step: "1"
                       }
                     }}
