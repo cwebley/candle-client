@@ -23,7 +23,7 @@ import LayerTable from "../LayerTable";
 import NewLayerDialog from "../item-forms/NewLayer";
 import handleApiError, { currentDate, currentDateTime } from "../utils";
 import api from "../api";
-import { calculateFragranceLoad } from "../utils";
+import { calculateFragranceLoadByPopularMethod } from "../utils";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -791,11 +791,10 @@ function NewBatch({ history, enqueueSnackbar }) {
                   {cumulativeWeights["fragrance-oil"] && cumulativeWeights.wax && (
                     <DataLabel
                       label="Fragrance Load"
-                      value={calculateFragranceLoad({
+                      value={calculateFragranceLoadByPopularMethod({
                         waxWeightOunces: cumulativeWeights.wax,
                         fragranceWeightOunces:
-                          cumulativeWeights["fragrance-oil"],
-                        additiveWeightOunces: cumulativeWeights["additives"]
+                          cumulativeWeights["fragrance-oil"]
                       })}
                       unit="%"
                     />

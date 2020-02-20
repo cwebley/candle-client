@@ -6073,5 +6073,221 @@ module.exports = [
     shippingCost: "0",
     taxesAndFees: "0",
     totalCost: "0"
+  },
+  {
+    openDate: "2020-02-12",
+    items: [
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Watermelon",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "17",
+        notes: "Free Sample"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Oakmoss And Amber",
+        weightOunces: "16",
+        remaining: "16",
+        price: "20.95",
+        shareOfShippingPercent: "50"
+      },
+      {
+        type: "wicks",
+        name: 'Eco 8 6" Pretabbed Wick',
+        length: "6",
+        count: "100",
+        remaining: "100",
+        series: "Eco",
+        size: "8",
+        price: "8.65",
+        shareOfShippingPercent: "17"
+      },
+      {
+        type: "wicks",
+        name: 'Eco 6 6" Pretabbed Wick',
+        length: "6",
+        count: "100",
+        remaining: "100",
+        series: "Eco",
+        size: "6",
+        price: "8.38",
+        shareOfShippingPercent: "17"
+      }
+    ],
+    source: "CandleScience",
+    subtotalCost: "37.98",
+    shippingCost: "10.42",
+    totalCost: "52.39",
+    taxesAndFees: "3.99"
+  },
+  {
+    openDate: "2020-02-13",
+    items: [
+      {
+        type: "jars",
+        name: "Clear Straight Sided Tumbler",
+        waxToFillLineOunces: "10",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "clear",
+        count: "25",
+        remaining: "25",
+        price: "0",
+        shareOfShippingPercent: "100",
+        notes: "most recycled for the 3rd time from tests"
+      }
+    ],
+    source: "Recycled",
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0"
+  },
+  {
+    openDate: "2020-02-17",
+    items: [
+      {
+        type: "misc-equipment",
+        name: "1.5mm Wick Tabs",
+        count: "100",
+        remaining: "100",
+        price: "5.95",
+        shareOfShippingPercent: "25"
+      },
+      {
+        type: "wicks",
+        name: 'CDN-8 12" Pretabbed Wick',
+        length: "12",
+        count: "100",
+        series: "CDN",
+        remaining: "100",
+        size: "8",
+        price: "17.00",
+        shareOfShippingPercent: "25",
+        notes: ""
+      },
+      {
+        type: "wicks",
+        name: 'CDN-6 12" Pretabbed Wick',
+        length: "12",
+        count: "100",
+        remaining: "100",
+        series: "CDN",
+        size: "6",
+        price: "17.00",
+        shareOfShippingPercent: "25"
+      },
+      {
+        type: "wicks",
+        name: 'CDN-4 12" Pretabbed Wick',
+        length: "12",
+        count: "100",
+        remaining: "100",
+        series: "CDN",
+        size: "4",
+        price: "17.00",
+        shareOfShippingPercent: "25"
+      }
+    ],
+    source: "Candle Cocoon",
+    subtotalCost: "56.95",
+    shippingCost: "14.69",
+    taxesAndFees: "0",
+    totalCost: "71.64"
+  },
+  {
+    openDate: "2020-02-17",
+    items: [
+      {
+        type: "wicks",
+        name: 'Premier 730 6.5" Pretabbed Wick',
+        length: "6.5",
+        count: "100",
+        remaining: "100",
+        series: "Premier",
+        size: "730",
+        price: "7.21",
+        shareOfShippingPercent: "16"
+      },
+      {
+        type: "wicks",
+        name: 'Premier 767 6.5" Pretabbed Wick',
+        length: "6.5",
+        count: "100",
+        remaining: "100",
+        series: "Premier",
+        size: "767",
+        price: "7.30",
+        shareOfShippingPercent: "16"
+      },
+      {
+        type: "wicks",
+        name: 'Premier 740 4.5" Pretabbed Wick',
+        length: "4.5",
+        count: "100",
+        remaining: "100",
+        series: "Premier",
+        size: "740",
+        price: "7.04",
+        shareOfShippingPercent: "16"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Mohogany Teakwood BBW Type",
+        weightOunces: "8",
+        remaining: "8",
+        price: "12.99",
+        shareOfShippingPercent: "16"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Hot Buttered Popcorn",
+        weightOunces: "8",
+        remaining: "8",
+        price: "9.99",
+        shareOfShippingPercent: "16"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Oud Wood",
+        weightOunces: "8",
+        remaining: "8",
+        price: "9.99",
+        shareOfShippingPercent: "16"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Wood Sage & Sea Salt Jo Malone Type",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "8",
+        notes: "Free Sample"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Grapefruit Mangosteen",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "8",
+        notes: "Free Sample"
+      }
+    ],
+    source: "Aztec Candle & Soap Supplies",
+    subtotalCost: "54.52",
+    shippingCost: "8.99",
+    taxesAndFees: "0",
+    totalCost: "63.51"
   }
 ];

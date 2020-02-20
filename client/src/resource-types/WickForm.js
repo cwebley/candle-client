@@ -79,10 +79,9 @@ function WickForm({ newItemValues, onChange, classes }) {
         className={classes.textField}
         label="Size"
         value={newItemValues.size || ""}
-        type="number"
+        type="text"
         inputProps={{
-          name: "size",
-          step: "1"
+          name: "size"
         }}
         onChange={onChange}
       />

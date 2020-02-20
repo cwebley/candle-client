@@ -197,3 +197,95 @@ Hotter Again:
 Double P-745
 Double HTP-52
 Single P765
+
+Decent Wick Candidates
+
+Double
+Zinc 28-24 too cool
+Zinc 34-40 too hot
+
+Eco 1 Okay. Pretty hot jar.
+
+CD-3 Pretty good. Got a little cool at some point.  and very hot at others. yellow melt pool?
+CD-2 Also pretty good, but didn't quite survive the low oxy phase. much too small in the soy blends. maybe in all. yellow melt pool.
+
+HTP-41 Drowned out, too cool maybe worth trying in different wax
+HTP-52 Also drowned out. might be from trimming too short? idk.
+
+Small Premiers all drown. Maybe run a test series with a final wax
+
+Select a final wax.
+
+Try these 14:
+P-720, P-725, P-735, 745
+HTP-31, HTP-41, HTP-52, HTP-62
+Zinc 28-24 /  34-40 / 36-24
+CD-2/ CD-3 and monitor container temp. These always get yellow and drown it seems
+Eco-1 and monitor container temp.
+
+
+Single
+Zinc 44-32 little soot and lots of mushrooming but otherwise decent option
+Zinc 51-32 same as above somehow
+
+HTP-93 Solid option. needs a bit more heat to get the sides. but works as is.
+HTP-104 Way too big, tons of soot.
+
+P-780, P-775 Pretty good, big flame, and some soot on both.
+P-765 on the verge of being useful, but not full melt pool without a crazy long burn. mushrooming.
+
+CD-7: tons of soot.
+
+Try these 15:
+HTP-93 and HTP-104
+CD-6 CD-7
+CDN 6/ 8
+Eco 6/ 8
+LX 16/ 18
+P-765/ P-767 / P-775
+Zinc 44-32/ Zinc-51-32-18
+
+
+5% coconut-1
+4% beeswax
+5% 464
+86% coco83
+
+5% coconut-1
+4% beeswax
+10% 464
+81% coco83
+
+5% coconut-1
+4% beeswax
+20% 464
+71% coco83
+
+
+2X CD-2
+2X CD-3
+P-765
+P-770
+
+
+amount to fill on batch page allow for half full candles 0.45 full etc
+change the order of the defaults on the batch page so FO temps are next to each other and room/jar temps too
+total wax weight doesnt update after editing a wax
+
+Missing wicks
+
+Eco 6/8
+CD-8
+
+Try single smaller zinc?
+
+
+
+
+XL triple wick jar: https://www.candlemaking.com/oxford-xl-base-white-case-of-12.html.html
+https://calcandlesupply.com/16-oz-cali-jar/
+https://woodenwick.com/candle-making-supplies/candle-lids/copper-aura-lid-thin
+
+some way to handle pre-mixed wax from presto-pot
+basically create wax blend.
+also create a wick.

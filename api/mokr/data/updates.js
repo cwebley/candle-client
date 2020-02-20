@@ -1960,7 +1960,8 @@ module.exports = [
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
     burns: [],
-    notes: "seems like a solid option. need a full sized candle test. update: jar is probably too hot. approaching 160."
+    notes:
+      "seems like a solid option. need a full sized candle test. update: jar is probably too hot. approaching 160."
   },
   // 3ZM7
   {
@@ -2115,4 +2116,334 @@ module.exports = [
     burns: [],
     notes: ""
   },
+
+  // 5% coco 2% beeswax
+  // WG58
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 3PEL
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // R27M
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 10% coco 2% beeswax
+  // WYD7
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 357M
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // WBN9
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 10% coco 4% beeswax
+  // 367L
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 3DLL
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // RJDM
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // Double wick extensive test batch
+  // RX6Z P-720
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // W17N    | P-725
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // RV5V    | P-735
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 3KJO    | P-745
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // RE4V    | HTP-31
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // WNV4    | HTP-41
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  //  3ZJ7    | HTP-52
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  //  WL5E    | HTP-62
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  //  34K5    | Zinc 28-24
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  //  RODY    | Zinc 34-40
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  //  38LM    | Zinc 36-24
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  //  W94K    | CD-2
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  //  3QX4    | CD-3
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 3MBD    | Eco 1
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // Single wick big test after double wick fail
+  // WGQ8 HTP-93
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes:
+      "1st 4hrs: not quite full pool. maybe a bit too small. 2nd 3hrs: not quite full melt pool."
+  },
+  // 3PJL HTP-104
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes:
+      "1st 4hrs: full pool, some soot, flame likely too big. 2nd 3hrs: barely full melt pool. some mushrooming."
+  },
+  // R21M CD-6
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes:
+      "1st 4hrs almost full perfect melt pool. 2nd 3hrs: not quite full pool, some hangup on edges. big flame."
+  },
+  // WY47 CD-7
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "1st 4hrs almost full melt pool. 2nd 3hrs: not quite full melt pool."
+  },
+  // 35EM CDN-6
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes:
+      "1st 4hrs not full melt pool, 1/4 inch all around. maybe not big enough. 2nd 3hrs:  not full melt pool. prob too small."
+  },
+  // WBY9 CDN-8
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes:
+      "1st 4hrs almost full melt pool. might be good on future burns. 2nd 3hrs: almost full melt pool. but mushrooming starting."
+  },
+  // 36NL Eco-4
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes:
+      "1st 4hrs almost full melt pool. flame not huge. maybe 1 size bigger is best? 2nd 3hrs: not full melt pool. quarter inch all around."
+  },
+  // 3DQL Eco-6
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes:
+      "1st 4hrs: full melt, about perfect. 2nd 3hrs: Not quite full melt pool. mushrooming starting. but pretty good."
+  },
+  // 35EE Eco-8
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "1st 10 minutes: immediatley smoking and blown out."
+  },
+  // WBY7 LX-16
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes:
+      "1st 4 hrs: not quite full melt pool. 2nd 3hrs: 1/8 inch remaining on edges."
+  },
+  // 36N8 LX-18
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes:
+      "1st 4hrs: full melt pool but some mushrooming. flame maybe too big at this point. 2nd 3hrs: barely full melt pool. mushrooming and big flame though."
+  },
+  // 3DQK P-765
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes:
+      "1st 4hrs: full melt pool, about right. 2nd 3hrs: not quite full melt. 1/8 inch around."
+  },
+  // RJM4 P-767
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes:
+      "full melt pool with 1/8 inch depth. about perfect also. 2nd 3hrs: Not quite full melt pool but very close. a bit of hangup on one side. one of the best on this cycle."
+  },
+  // RXLX P-770
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "1st 4hrs: full melt pool, some mushrooming. 2nd 3hrs: just barely full melt pool. one of the best 3 on this cycle."
+  },
+  // W1XY Z-44-32
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes:
+      "1st 4hrs almost full melt pool. flame may be a bit small but pretty good. 2nd 3hrs: almost full melt but some hanging up on the sides."
+  },
+  // RVNZ Z-51-32
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "1st 4hrs: barely full melt pool. cool jar. also about perfect. 2nd 3hrs:  almost perfect full melt. wick smoking a lot after blow out ~10s. only small mushroom."
+  }
 ];

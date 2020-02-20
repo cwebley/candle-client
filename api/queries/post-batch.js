@@ -1,6 +1,7 @@
 const hashConfig = require("../hash-config");
 const async = require("neo-async");
 const slug = require("slug");
+const calculateFragranceLoad = require("../util/calculate-fragrance-load");
 
 module.exports = function postBatch(db, data, cb) {
   const totalWaxWeightOunces = data.batchItems
@@ -136,13 +137,11 @@ function addToBatches(
   totalAdditiveWeightOunces,
   cb
 ) {
-  let fragranceLoad =
-    parseFloat(totalFragranceWeightOunces) /
-    (parseFloat(totalFragranceWeightOunces) +
-      parseFloat(totalWaxWeightOunces) +
-      parseFloat(totalAdditiveWeightOunces));
-
-  fragranceLoad = fragranceLoad || 0;
+  const fragranceLoad =
+    calculateFragranceLoad({
+      fragranceWeightOunces: parseFloat(totalFragranceWeightOunces),
+      waxWeightOunces: parseFloat(totalWaxWeightOunces)
+    }) || 0;
 
   const sql = `
     INSERT INTO batches
@@ -385,7 +384,7 @@ function insertBatchesWaxes(db, data, batchId, cb) {
     params.push(batchId, d.weightOunces, d.hashId);
 
     decrementCases.push("WHEN hash_id = ? THEN (remaining - ?)");
-    decrementParams.push(d.hashId, (parseFloat(d.weightOunces) / 16));
+    decrementParams.push(d.hashId, parseFloat(d.weightOunces) / 16);
     allHashIds.push(d.hashId);
   });
 

@@ -2166,5 +2166,332 @@ module.exports = [
       wickLayout: "center",
       wickStickerHashId: "3NOB"
     }
+  ],
+  // 5% Coco 2% beeswax 93 Coco83
+  [
+    {
+      name: "5% cnut-1 2% Bees 93 Coco83 CD-2",
+      jarHashId: "5XRD",
+      wickHashId: "N744",
+      wickCount: "2",
+      wickLayout: "small gap in wick tabs",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "5% cnut-1 2% Bees 93 Coco83 CD-3",
+      jarHashId: "5XRD",
+      wickHashId: "N9OW",
+      wickCount: "2",
+      wickLayout: "small gap in wick tabs",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "5% cnut-1 2% Bees 93 Coco83 HTP-93",
+      jarHashId: "5XRD",
+      wickHashId: "51LW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+  ],
+  // 10% Coco 2% beeswax 88 Coco83
+  [
+    {
+      name: "10% cnut-1, 2% Bees 88% Coco83 CD-2",
+      jarHashId: "5XRD",
+      wickHashId: "N744",
+      wickCount: "2",
+      wickLayout: "small gap in wick tabs",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "10% cnut-1, 2% Bees 88% Coco83 CD-3",
+      jarHashId: "5XRD",
+      wickHashId: "N9OW",
+      wickCount: "2",
+      wickLayout: "small gap in wick tabs",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "10% cnut-1, 2% Bees 88% Coco83 HTP-93",
+      jarHashId: "5XRD",
+      wickHashId: "51LW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+  ],
+  // 10% Coco 4% beeswax 86 Coco83
+  [
+    {
+      name: "10% cnut-1, 2% Bees 86% Coco83 CD-2",
+      jarHashId: "5XRD",
+      wickHashId: "N744",
+      wickCount: "2",
+      wickLayout: "small gap in wick tabs",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "10% cnut-1, 2% Bees 86% Coco83 CD-3",
+      jarHashId: "5XRD",
+      wickHashId: "N9OW",
+      wickCount: "2",
+      wickLayout: "small gap in wick tabs",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "10% cnut-1, 2% Bees 86% Coco83 HTP-93",
+      jarHashId: "5XRD",
+      wickHashId: "51LW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+  ],
+  // Double Wick Expansive Test 10% Coconut-1
+  [
+    {
+      name: "P-720",
+      jarHashId: "5BE8",
+      wickHashId: "N93W",
+      wickCount: "2",
+      wickLayout: "small gap in wick tabs",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "P-725",
+      jarHashId: "5XRD",
+      wickHashId: "N63P",
+      wickCount: "2",
+      wickLayout: "small gap in wick tabs",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "P-735",
+      jarHashId: "5XRD",
+      wickHashId: "DOKR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "P-745",
+      jarHashId: "5XRD",
+      wickHashId: "5MYX",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "HTP-31",
+      jarHashId: "5XRD",
+      wickHashId: "N6ZP",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "HTP-41",
+      jarHashId: "5XRD",
+      wickHashId: "DO3R",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "HTP-52",
+      jarHashId: "5XRD",
+      wickHashId: "5M3X",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "HTP-62",
+      jarHashId: "5XRD",
+      wickHashId: "DVVE",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Zinc 28-24",
+      jarHashId: "5XRD",
+      wickHashId: "NJG1",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Zinc 34-40",
+      jarHashId: "5XRD",
+      wickHashId: "NK8M",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Zinc 36-24",
+      jarHashId: "5XRD",
+      wickHashId: "NRLM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "CD-2",
+      jarHashId: "5XRD",
+      wickHashId: "N744",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "CD-3",
+      jarHashId: "5XRD",
+      wickHashId: "N9OW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Eco 1",
+      jarHashId: "5XRD",
+      wickHashId: "NL87",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+  ],
+  // Big Single Wick Test
+  [
+    {
+      name: "HTP-93",
+      jarHashId: "5BE8",
+      wickHashId: "51LW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "HTP-104",
+      jarHashId: "5BE8",
+      wickHashId: "5ZQG",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "CD-6",
+      jarHashId: "5BE8",
+      wickHashId: "5Q7M",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "CD-7",
+      jarHashId: "5BE8",
+      wickHashId: "DXW6",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "CDN-6",
+      jarHashId: "5BE8",
+      wickHashId: "N6P7",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "CDN-8",
+      jarHashId: "5BE8",
+      wickHashId: "N7J3",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Eco-4",
+      jarHashId: "5BE8",
+      wickHashId: "5PXN",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Eco-6",
+      jarHashId: "5BE8",
+      wickHashId: "D42G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Eco-8",
+      jarHashId: "5BE8",
+      wickHashId: "N3MZ",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "LX-16",
+      jarHashId: "5BE8",
+      wickHashId: "5P4X",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "LX-18",
+      jarHashId: "5BE8",
+      wickHashId: "D2P6",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "P-765",
+      jarHashId: "MDEK",
+      wickHashId: "511W",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "P-767",
+      jarHashId: "MEGB",
+      wickHashId: "DVG6",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "P-775",
+      jarHashId: "MEGB",
+      wickHashId: "5Z2G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Zinc 44-32",
+      jarHashId: "M4PX",
+      wickHashId: "D42R",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Zinc 51-32",
+      jarHashId: "1NJJ",
+      wickHashId: "N7J4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    }
   ]
 ];

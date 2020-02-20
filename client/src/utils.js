@@ -23,6 +23,15 @@ export function formatMoment(m) {
   return m.format("yyyy-MM-ddThh:mm:ss");
 }
 
+export function calculateFragranceLoadByPopularMethod({
+  fragranceWeightOunces = 0,
+  waxWeightOunces = 0
+}) {
+  return ((fragranceWeightOunces / waxWeightOunces) * 100).toFixed(2);
+}
+
+// this method isn't used by a lot of candle makers for whatever reason
+// keeping it around in case I want to revert
 export function calculateFragranceLoad({
   fragranceWeightOunces = 0,
   waxWeightOunces = 0,
