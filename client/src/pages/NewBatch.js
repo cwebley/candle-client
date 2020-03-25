@@ -108,7 +108,7 @@ function NewBatch({ history, enqueueSnackbar }) {
   const [editLayerIndex, setLayerEditIndex] = useState(null);
   const [fragranceLoadTarget, setFragranceLoadTarget] = useState(null);
   const [jarFillPercentage, setJarFillPercentage] = useState(100);
-  const [cumulativeWeights, setCumlativeWeights] = useState({});
+  const [cumulativeWeights, setCumulativeWeights] = useState({});
   const [defaultJarTemp, setDefaultJarTemp] = useState(jarTemp || "");
   const [defaultPourTemp, setDefaultPourTemp] = useState(pourTemp || "");
   const [defaultRoomTemp, setDefaultRoomTemp] = useState(roomTemp || "");
@@ -273,7 +273,7 @@ function NewBatch({ history, enqueueSnackbar }) {
       };
     });
 
-    updateCumulativeWeights(newBatchItemValues);
+    addToCumulativeWeights(newBatchItem);
 
     setNewBatchItemValues({
       type: newBatchItem.type
@@ -281,16 +281,32 @@ function NewBatch({ history, enqueueSnackbar }) {
     setBatchItemDialogOpen(false);
   };
 
-  const updateCumulativeWeights = newBatchItem => {
+  const addToCumulativeWeights = newBatchItem => {
     const previousCumulativeWeights = cumulativeWeights;
 
     const previousWeightForType =
       previousCumulativeWeights[newBatchItem.type] || 0;
 
-    setCumlativeWeights({
+    setCumulativeWeights({
       ...previousCumulativeWeights,
       [newBatchItem.type]:
         previousWeightForType + parseFloat(newBatchItem.weightOunces) || 0
+    });
+  };
+
+  const editCumulativeWeights = (uneditedBatchItem, editedBatchItem) => {
+    const previousCumulativeWeights = cumulativeWeights;
+
+    const previousWeightForType =
+      previousCumulativeWeights[uneditedBatchItem.type] || 0;
+
+    const adjustedPreviousWeightForType =
+      previousWeightForType - uneditedBatchItem.weightOunces;
+
+    setCumulativeWeights({
+      ...previousCumulativeWeights,
+      [editedBatchItem.type]:
+      adjustedPreviousWeightForType + parseFloat(editedBatchItem.weightOunces) || 0
     });
   };
 
@@ -363,18 +379,23 @@ function NewBatch({ history, enqueueSnackbar }) {
   };
 
   const editBatchItem = e => {
+    const newBatchItem = { ...newBatchItemValues };
+
     setBatchValues(batchValues => {
       return {
         ...batchValues,
         batchItems: [
           ...batchValues.batchItems.slice(0, editItemIndex),
-          { ...newBatchItemValues },
+          { ...newBatchItem },
           ...batchValues.batchItems.slice(editItemIndex + 1)
         ]
       };
     });
+
+    editCumulativeWeights(batchValues.batchItems[editItemIndex], newBatchItem);
+
     setNewBatchItemValues({
-      type: newBatchItemValues.type
+      type: newBatchItem.type
     });
     setBatchItemDialogOpen(false);
     setItemEditIndex(null);
@@ -507,6 +528,8 @@ function NewBatch({ history, enqueueSnackbar }) {
       ((waxWeightSuggestion * floatValue) / 100).toString()
     );
   };
+  
+  console.log("CUMUALTIVE WEIGHTS: ", cumulativeWeights);
 
   return (
     <div className={classes.root}>
@@ -819,7 +842,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                   {cumulativeWeights.wax && (
                     <DataLabel
                       label="Total Wax Weight"
-                      value={cumulativeWeights["wax"]}
+                      value={cumulativeWeights["wax"].toFixed(2)}
                       unit="oz"
                     />
                   )}
