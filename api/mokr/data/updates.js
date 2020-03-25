@@ -2903,31 +2903,37 @@ module.exports = [
         notes: "1/4 inch melt pool. big mushrooming."
       },
       {
-        whenStarted: "2020-03-20 13:25:00",
-        whenStopped: "2020-03-20 21:10:00",
+        whenStarted: "2020-03-21 13:25:00",
+        whenStopped: "2020-03-21 21:10:00",
         stoppedWeightOunces: 13.58,
         notes:
           "Nearly full melt pool. 1/8 inch on one side remaining. small mushroom and wide flame."
       },
       {
-        whenStarted: "2020-03-20 23:00:00",
-        whenStopped: "2020-03-21 04:10:00",
+        whenStarted: "2020-03-21 23:00:00",
+        whenStopped: "2020-03-22 04:10:00",
         stoppedWeightOunces: 12.19,
         notes:
           "1/4 inch pool. way too hot glass up top. fat flame and mushrooming."
       },
       {
-        whenStarted: "2020-03-21 21:00:00",
-        whenStopped: "2020-03-22 01:30:00",
+        whenStarted: "2020-03-22 21:00:00",
+        whenStopped: "2020-03-23 01:30:00",
         stoppedWeightOunces: 11.81,
         notes: "1/8 inch melt pool. Mushrooming. don't love the fat flame."
       },
       {
-        whenStarted: "2020-03-22 12:00:00",
-        whenStopped: "2020-03-22 19:54:00",
+        whenStarted: "2020-03-23 12:00:00",
+        whenStopped: "2020-03-23 19:54:00",
         stoppedWeightOunces: 10.744,
         notes:
           "1/8 inch melt pool. flame too big but not actually horrible. jar not too hot. bit of soot. mushrooming."
+      },
+      {
+        whenStarted: "2020-03-24 20:00:00",
+        whenStopped: "2020-03-25 01:00:00",
+        stoppedWeightOunces: 9.99,
+        notes: "full melt pool, jar too hot on one side bc the wick was leaning and not straightened last time. mushrooming big flame."
       }
     ],
     notes: ""
@@ -2958,30 +2964,36 @@ module.exports = [
         notes: "1/4 inch melt pool. big mushrooming."
       },
       {
-        whenStarted: "2020-03-20 13:25:00",
-        whenStopped: "2020-03-20 21:10:00",
+        whenStarted: "2020-03-21 13:25:00",
+        whenStopped: "2020-03-21 21:10:00",
         stoppedWeightOunces: 13.22,
         notes: "1/8 inch melt pool. but mushrooming and a wide flame."
       },
       {
-        whenStarted: "2020-03-20 23:00:00",
-        whenStopped: "2020-03-21 04:10:00",
+        whenStarted: "2020-03-21 23:00:00",
+        whenStopped: "2020-03-22 04:10:00",
         stoppedWeightOunces: 12.19,
         notes:
           "1/4 inch pool. way too hot glass up top. fat flame and mushrooming."
       },
       {
-        whenStarted: "2020-03-21 21:00:00",
-        whenStopped: "2020-03-22 01:30:00",
+        whenStarted: "2020-03-22 21:00:00",
+        whenStopped: "2020-03-23 01:30:00",
         stoppedWeightOunces: 11.51,
         notes: "1/8 inch melt pool. Mushrooming. don't love the fat flame."
       },
       {
-        whenStarted: "2020-03-22 12:00:00",
-        whenStopped: "2020-03-22 19:54:00",
+        whenStarted: "2020-03-23 12:00:00",
+        whenStopped: "2020-03-24 19:54:00",
         stoppedWeightOunces: 10.43,
         notes:
           "1/8 inch pool. flame too big, mushrooming and soot. jar not too hot though"
+      },
+      {
+        whenStarted: "2020-03-24 20:00:00",
+        whenStopped: "2020-03-25 01:00:00",
+        stoppedWeightOunces: 9.42,
+        notes: "3/8 inch pool. flame way too big and way too much mushrooming, soot etc"
       }
     ],
     notes: ""
@@ -3012,32 +3024,38 @@ module.exports = [
         notes: "1/4 inch melt pool. big mushrooming."
       },
       {
-        whenStarted: "2020-03-20 13:25:00",
-        whenStopped: "2020-03-20 21:10:00",
+        whenStarted: "2020-03-21 13:25:00",
+        whenStopped: "2020-03-21 21:10:00",
         stoppedWeightOunces: 13.19,
         notes:
           "Not quite full melt pool. but close. small mushroom and wide flame."
       },
       {
-        whenStarted: "2020-03-20 23:00:00",
-        whenStopped: "2020-03-21 04:10:00",
+        whenStarted: "2020-03-21 23:00:00",
+        whenStopped: "2020-03-22 04:10:00",
         stoppedWeightOunces: 12.19,
         notes:
           "1/4 inch pool. way too hot glass up top. fat flame and mushrooming."
       },
       {
-        whenStarted: "2020-03-21 21:00:00",
-        whenStopped: "2020-03-22 01:30:00",
+        whenStarted: "2020-03-22 21:00:00",
+        whenStopped: "2020-03-23 01:30:00",
         stoppedWeightOunces: 11.29,
         notes:
           "1/8 inch melt pool. Big time mushrooming. Very fat flame, TONS of smoke after blow out."
       },
       {
-        whenStarted: "2020-03-22 12:00:00",
-        whenStopped: "2020-03-22 19:54:00",
+        whenStarted: "2020-03-23 12:00:00",
+        whenStopped: "2020-03-24 19:54:00",
         stoppedWeightOunces: 10.43,
         notes:
           "1/8 inch pool. flame too big, huge mushrooming and plenty of soot. jar not too hot though"
+      },
+      {
+        whenStarted: "2020-03-24 20:00:00",
+        whenStopped: "2020-03-25 01:00:00",
+        stoppedWeightOunces: 9.00,
+        notes: "3/8 inch pool, flame way too big and huge mushrooming. also tons of soot."
       }
     ],
     notes: ""
@@ -3068,28 +3086,34 @@ module.exports = [
         notes: "1/8 inch melt pool. big mushrooming."
       },
       {
-        whenStarted: "2020-03-20 13:25:00",
-        whenStopped: "2020-03-20 21:10:00",
+        whenStarted: "2020-03-21 13:25:00",
+        whenStopped: "2020-03-21 21:10:00",
         stoppedWeightOunces: 13.23,
         notes: "Not quite full melt pool. 1/8 inch on one side."
       },
       {
-        whenStarted: "2020-03-20 23:00:00",
-        whenStopped: "2020-03-21 04:10:00",
+        whenStarted: "2020-03-21 23:00:00",
+        whenStopped: "2020-03-22 04:10:00",
         stoppedWeightOunces: 12.31,
         notes: "Basically full melt pool. flame a bit big but otherwise good."
       },
       {
-        whenStarted: "2020-03-21 21:00:00",
-        whenStopped: "2020-03-22 01:30:00",
+        whenStarted: "2020-03-22 21:00:00",
+        whenStopped: "2020-03-23 01:30:00",
         stoppedWeightOunces: 11.56,
         notes: "Not quite full melt pool."
       },
       {
-        whenStarted: "2020-03-22 12:00:00",
-        whenStopped: "2020-03-22 19:54:00",
+        whenStarted: "2020-03-23 12:00:00",
+        whenStopped: "2020-03-23 19:54:00",
         stoppedWeightOunces: 10.5,
         notes: "Hang up on one side. 1/8 inch pool on the other."
+      },
+      {
+        whenStarted: "2020-03-24 20:00:00",
+        whenStopped: "2020-03-25 01:00:00",
+        stoppedWeightOunces: 9.77,
+        notes: "tiny bit of hang up on one side. jar not too hot."
       }
     ],
     notes: ""
@@ -3119,29 +3143,35 @@ module.exports = [
         notes: "1/8 inch melt pool. only a bit of mushrooming."
       },
       {
-        whenStarted: "2020-03-20 13:25:00",
-        whenStopped: "2020-03-20 21:10:00",
+        whenStarted: "2020-03-21 13:25:00",
+        whenStopped: "2020-03-21 21:10:00",
         stoppedWeightOunces: 13.23,
         notes: "Not quite full melt pool. no mushrooming."
       },
       {
-        whenStarted: "2020-03-20 23:00:00",
-        whenStopped: "2020-03-21 04:10:00",
+        whenStarted: "2020-03-21 23:00:00",
+        whenStopped: "2020-03-22 04:10:00",
         stoppedWeightOunces: 12.19,
         notes: "Nearly full pool. no mushrooming."
       },
       {
-        whenStarted: "2020-03-21 21:00:00",
-        whenStopped: "2020-03-22 01:30:00",
+        whenStarted: "2020-03-22 21:00:00",
+        whenStopped: "2020-03-23 01:30:00",
         stoppedWeightOunces: 11.46,
         notes: "Not quite full melt pool"
       },
       {
-        whenStarted: "2020-03-22 12:00:00",
-        whenStopped: "2020-03-22 19:54:00",
+        whenStarted: "2020-03-23 12:00:00",
+        whenStopped: "2020-03-23 19:54:00",
         stoppedWeightOunces: 10.38,
         notes:
           "Tiny bit of hangup on the side. 1/8 inch pool on the other. flame too tall after a long burn. but of soot up top."
+      },
+      {
+        whenStarted: "2020-03-24 20:00:00",
+        whenStopped: "2020-03-25 01:00:00",
+        stoppedWeightOunces: 9.63,
+        notes: "Hang up on one side, but the wick is off center at this point. hot jar but not too hot."
       }
     ],
     notes: ""
@@ -3171,30 +3201,36 @@ module.exports = [
         notes: "1/8 inch melt pool. big mushrooming."
       },
       {
-        whenStarted: "2020-03-20 13:25:00",
-        whenStopped: "2020-03-20 21:10:00",
+        whenStarted: "2020-03-21 13:25:00",
+        whenStopped: "2020-03-21 21:10:00",
         stoppedWeightOunces: 13.34,
         notes:
           "Not quite full melt pool, but very close. Bit of mushroom but not bad."
       },
       {
-        whenStarted: "2020-03-20 23:00:00",
-        whenStopped: "2020-03-21 04:10:00",
+        whenStarted: "2020-03-21 23:00:00",
+        whenStopped: "2020-03-22 04:10:00",
         stoppedWeightOunces: 12.19,
         notes: "Nearly full pool. no mushrooming."
       },
       {
-        whenStarted: "2020-03-21 21:00:00",
-        whenStopped: "2020-03-22 01:30:00",
+        whenStarted: "2020-03-22 21:00:00",
+        whenStopped: "2020-03-23 01:30:00",
         stoppedWeightOunces: 11.46,
         notes: "Not quite full melt pool."
       },
       {
-        whenStarted: "2020-03-22 12:00:00",
-        whenStopped: "2020-03-22 19:54:00",
+        whenStarted: "2020-03-23 12:00:00",
+        whenStopped: "2020-03-23 19:54:00",
         stoppedWeightOunces: 10.38,
         notes:
           "Very tiny bit of hang up on one side. flame a bit too big after the long burn. 1/8 inch pool near side. no soot, jar not too hot."
+      },
+      {
+        whenStarted: "2020-03-24 20:00:00",
+        whenStopped: "2020-03-25 01:00:00",
+        stoppedWeightOunces: 9.79,
+        notes: "Full melt pool. 1/4 inch. hot jar but prob not too hot. flame too a bit too big. i think the 777 is better here."
       }
     ],
     notes: "Weirdly, the only one of the night to have poor glass adhesion."
@@ -3240,14 +3276,14 @@ module.exports = [
         notes: "1/4 inch melt pool. mushrooming."
       },
       {
-        whenStarted: "2020-03-20 13:25:00",
-        whenStopped: "2020-03-20 21:10:00",
+        whenStarted: "2020-03-21 13:25:00",
+        whenStopped: "2020-03-21 21:10:00",
         stoppedWeightOunces: 13.33,
         notes: "Not quite full melt pool but super close."
       },
       {
-        whenStarted: "2020-03-20 23:00:00",
-        whenStopped: "2020-03-21 04:10:00",
+        whenStarted: "2020-03-21 23:00:00",
+        whenStopped: "2020-03-22 04:10:00",
         stoppedWeightOunces: 12.6,
         notes: "Basically full pool."
       },
@@ -3257,6 +3293,12 @@ module.exports = [
         stoppedWeightOunces: 11.72,
         notes:
           "1/8 to 1/4 inch even pool. bit of a mushroom but no soot, glass not too hot. flame not too big. perfect. even with 8 hr burn."
+      },
+      {
+        whenStarted: "2020-03-24 20:00:00",
+        whenStopped: "2020-03-25 01:00:00",
+        stoppedWeightOunces: 10.92,
+        notes: "1/4 inch pool. flame fairly big. but no soot and mushrooming is fine. jar a bit hot. unclear if this is better than the 777. Maybe not."
       }
     ],
     notes: ""
