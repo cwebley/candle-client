@@ -414,10 +414,13 @@ function NewBatch({ history, enqueueSnackbar }) {
 
     const fragranceLoadTargetDecimal = parseFloat(fragranceLoadTarget) / 100;
 
-    return (
-      (fragranceLoadTargetDecimal * totalWaxWeightOunces) /
-      (1 - fragranceLoadTargetDecimal)
-    ).toFixed(2);
+    // old method
+    // return (
+    //   (fragranceLoadTargetDecimal * totalWaxWeightOunces) /
+    //   (1 - fragranceLoadTargetDecimal)
+    // ).toFixed(2);
+
+    return (fragranceLoadTargetDecimal * totalWaxWeightOunces).toFixed(2);
   };
 
   const updateDefaultJarTemp = value => {
