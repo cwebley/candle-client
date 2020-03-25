@@ -89,7 +89,8 @@ function CandlePage({ match, enqueueSnackbar, history, classes }) {
       ...updateBurns,
       {
         whenStarted: data.whenStarted.format("YYYY-MM-DD HH:mm:ss"),
-        whenStopped: data.whenStopped.format("YYYY-MM-DD HH:mm:ss")
+        whenStopped: data.whenStopped.format("YYYY-MM-DD HH:mm:ss"),
+        notes: data.notes
       }
     ]);
   };

@@ -13,7 +13,7 @@ import Batch from "./pages/Batch";
 import Order from "./Order";
 import Candle from "./pages/Candle";
 import { SnackbarProvider } from "notistack";
-import { MuiPickersUtilsProvider } from "material-ui-pickers";
+import { MuiPickersUtilsProvider } from "@material-ui/pickers";
 import MomentUtils from "@date-io/moment";
 
 class App extends Component {

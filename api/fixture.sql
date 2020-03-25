@@ -240,7 +240,7 @@ create table if not exists batches (
   total_fragrance_weight_ounces decimal(9,4),
   total_additive_weight_ounces decimal(9,4),
   -- percent fragrance by weight
-  fragrance_load decimal(5,2),
+  fragrance_load decimal(9,4),
   fragrance_add_temperature_fahrenheit decimal (6,2),
   dye_add_temperature_fahrenheit decimal(6,2),
   when_created datetime,
@@ -355,5 +355,6 @@ create table if not exists candles_burns (
   candle_id int not null,
   when_started datetime,
   when_stopped datetime,
+  notes text,
   foreign key (candle_id) references candles(id)
 );

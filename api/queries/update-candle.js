@@ -40,13 +40,13 @@ function insertBurnSessions(db, candleHashId, burns, cb) {
   }
 
   const internalSelect = `
-    SELECT c.id, ?, ?
+    SELECT c.id, ?, ?, ?
     FROM candles c
     WHERE c.hash_id = ?`;
 
   let sql = `
     INSERT INTO candles_burns
-      (candle_id, when_started, when_stopped)
+      (candle_id, when_started, when_stopped, notes)
   `;
   let params = [];
   burns.forEach((b, i) => {
@@ -54,7 +54,7 @@ function insertBurnSessions(db, candleHashId, burns, cb) {
       sql += ` UNION ALL `;
     }
     sql += internalSelect;
-    params.push(b.whenStarted, b.whenStopped, candleHashId);
+    params.push(b.whenStarted, b.whenStopped, b.notes, candleHashId);
   });
 
   console.log("SQL PARAMS: ", sql, params);

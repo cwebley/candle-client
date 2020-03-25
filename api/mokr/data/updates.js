@@ -2313,7 +2313,7 @@ module.exports = [
     colorDescription: "whiteish",
     burns: [],
     notes:
-      "1st 4hrs: not quite full pool. maybe a bit too small. 2nd 3hrs: not quite full melt pool."
+      "1st 4hrs: not quite full pool. maybe a bit too small. 2nd 3hrs: not quite full melt pool. 3rd 7hrs: Almost full melt pool. flame under control with no mushroom or soot. 4th 6hrs: tiny bit of hang up, but otherwise great. no soot no mushroom. wick slightly off center which might help full melt. 5th 6hrs: tiny bit of hangup, no soot, jar not too hot at all."
   },
   // 3PJL HTP-104
   {
@@ -2322,7 +2322,7 @@ module.exports = [
     colorDescription: "whiteish",
     burns: [],
     notes:
-      "1st 4hrs: full pool, some soot, flame likely too big. 2nd 3hrs: barely full melt pool. some mushrooming."
+      "1st 4hrs: full pool, some soot, flame likely too big. 2nd 3hrs: barely full melt pool. some mushrooming. 3rd 7hrs: 1/4 inch melt. hot jar but not horrible. some soot but not bad. 4th 6hrs: 1/8 inch pool, but very sooty."
   },
   // R21M CD-6
   {
@@ -2331,7 +2331,7 @@ module.exports = [
     colorDescription: "whiteish",
     burns: [],
     notes:
-      "1st 4hrs almost full perfect melt pool. 2nd 3hrs: not quite full pool, some hangup on edges. big flame."
+      "1st 4hrs almost full perfect melt pool. 2nd 3hrs: not quite full pool, some hangup on edges. big flame. 3rd 7hrs: 1/8 inch full melt. big flame and soot. 4th 6hrs: 1/4 inch  melt pool, bit of soot though. for some reason cd7 is better here. 5th 6hrs: middle amount of soot, end of jar, jar not too hot."
   },
   // WY47 CD-7
   {
@@ -2339,7 +2339,8 @@ module.exports = [
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
     burns: [],
-    notes: "1st 4hrs almost full melt pool. 2nd 3hrs: not quite full melt pool."
+    notes:
+      "1st 4hrs almost full melt pool. 2nd 3hrs: not quite full melt pool. 3rd 7hrs: 1/4 inch melt pool flame under control some mushroom but not bad and no soot. 4th 6hrs: 1/4 inch pool. some mushrooming though. no soot. 5th 6hrs: 1/4 or 1/8 inch melt pool, not too hot, only a  tiny bit of soot."
   },
   // 35EM CDN-6
   {
@@ -2348,7 +2349,7 @@ module.exports = [
     colorDescription: "whiteish",
     burns: [],
     notes:
-      "1st 4hrs not full melt pool, 1/4 inch all around. maybe not big enough. 2nd 3hrs:  not full melt pool. prob too small."
+      "1st 4hrs not full melt pool, 1/4 inch all around. maybe not big enough. 2nd 3hrs:  not full melt pool. prob too small. 3rd 7hrs: not quite full melt pool. everything else great. 4th 6hrs: not quite full melt pool, tiny bit of hangup. otherwise good. small mushroom. 5th 6hrs: touch of soot, bit of hanagup but not much."
   },
   // WBY9 CDN-8
   {
@@ -2357,7 +2358,7 @@ module.exports = [
     colorDescription: "whiteish",
     burns: [],
     notes:
-      "1st 4hrs almost full melt pool. might be good on future burns. 2nd 3hrs: almost full melt pool. but mushrooming starting."
+      "1st 4hrs almost full melt pool. might be good on future burns. 2nd 3hrs: almost full melt pool. but mushrooming starting. 3rd 7hrs: 1/8 inch melt pool but some soot. 4th 6hrs: big flame, lots of soot but 1/4 in pool. 5th 6hrs: lots of soot, nearly end of jar. jar not too hot though."
   },
   // 36NL Eco-4
   {
@@ -2366,7 +2367,7 @@ module.exports = [
     colorDescription: "whiteish",
     burns: [],
     notes:
-      "1st 4hrs almost full melt pool. flame not huge. maybe 1 size bigger is best? 2nd 3hrs: not full melt pool. quarter inch all around."
+      "1st 4hrs almost full melt pool. flame not huge. maybe 1 size bigger is best? 2nd 3hrs: not full melt pool. quarter inch all around. 3rd 7hrs: small flame and tunneling now."
   },
   // 3DQL Eco-6
   {
@@ -2375,7 +2376,7 @@ module.exports = [
     colorDescription: "whiteish",
     burns: [],
     notes:
-      "1st 4hrs: full melt, about perfect. 2nd 3hrs: Not quite full melt pool. mushrooming starting. but pretty good."
+      "1st 4hrs: full melt, about perfect. 2nd 3hrs: Not quite full melt pool. mushrooming starting. but pretty good. 3rd 7hrs: flame not large, buildup on sides is prob not going to melt. 4th 6hrs: just not big enough of a wick at this point."
   },
   // 35EE Eco-8
   {
@@ -2383,7 +2384,7 @@ module.exports = [
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
     burns: [],
-    notes: "1st 10 minutes: immediatley smoking and blown out."
+    notes: "1st 10 minutes: immediately smoking and blown out."
   },
   // WBY7 LX-16
   {
@@ -2392,7 +2393,7 @@ module.exports = [
     colorDescription: "whiteish",
     burns: [],
     notes:
-      "1st 4 hrs: not quite full melt pool. 2nd 3hrs: 1/8 inch remaining on edges."
+      "1st 4 hrs: not quite full melt pool. 2nd 3hrs: 1/8 inch remaining on edges.  3rd 7hrs: some soot some build up on sides. 4th 6hrs: some hangup on sides, sooty."
   },
   // 36N8 LX-18
   {
@@ -2401,7 +2402,7 @@ module.exports = [
     colorDescription: "whiteish",
     burns: [],
     notes:
-      "1st 4hrs: full melt pool but some mushrooming. flame maybe too big at this point. 2nd 3hrs: barely full melt pool. mushrooming and big flame though."
+      "1st 4hrs: full melt pool but some mushrooming. flame maybe too big at this point. 2nd 3hrs: barely full melt pool. mushrooming and big flame though. 3rd 7hrs: 1/4 inch melt pool tiny bit of soot but lot of mushrooming and big flame. lots of smoke after blow out. 4th 6hrs: 1/4 inch pool no soot, mushrooming though. 5th 6hrs: lots of mushrooming. end of jar, bit of soot, hot but not too hot."
   },
   // 3DQK P-765
   {
@@ -2410,7 +2411,7 @@ module.exports = [
     colorDescription: "whiteish",
     burns: [],
     notes:
-      "1st 4hrs: full melt pool, about right. 2nd 3hrs: not quite full melt. 1/8 inch around."
+      "1st 4hrs: full melt pool, about right. 2nd 3hrs: not quite full melt. 1/8 inch around. 3rd 7hrs: not quite full melt pool. some soot. flame under control. 4th 6hrs: not full melt pool. too small. 5th 6hrs: still too small, 1/4 inch hangup on one side."
   },
   // RJM4 P-767
   {
@@ -2419,15 +2420,16 @@ module.exports = [
     colorDescription: "whiteish",
     burns: [],
     notes:
-      "full melt pool with 1/8 inch depth. about perfect also. 2nd 3hrs: Not quite full melt pool but very close. a bit of hangup on one side. one of the best on this cycle."
+      "full melt pool with 1/8 inch depth. about perfect also. 2nd 3hrs: Not quite full melt pool but very close. a bit of hangup on one side. one of the best on this cycle. 3rd 5hrs accidentally put out with a wick dipper. almost full melt but wick was off center. no soot. great candidtate still. 4th 6hrs: not full melt pool sadly, plenty of hangup. otherwise good. 770 might work. 5th 6hrs: bit too small, 1/8 inch hangup. no soot."
   },
-  // RXLX P-770
+  // RXLX P-775
   {
     completedCandleWeightOunces: "11.65",
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
     burns: [],
-    notes: "1st 4hrs: full melt pool, some mushrooming. 2nd 3hrs: just barely full melt pool. one of the best 3 on this cycle."
+    notes:
+      "1st 4hrs: full melt pool, some mushrooming. 2nd 3hrs: just barely full melt pool. one of the best 3 on this cycle. 3rd 7hrs: 1/8 inch melt pool flame fine but considerable soot. 4th 6hrs: sooty, some hangup on one side. 5th 6hrs: near end of jar, but full melt pool, no soot."
   },
   // W1XY Z-44-32
   {
@@ -2436,7 +2438,7 @@ module.exports = [
     colorDescription: "whiteish",
     burns: [],
     notes:
-      "1st 4hrs almost full melt pool. flame may be a bit small but pretty good. 2nd 3hrs: almost full melt but some hanging up on the sides."
+      "1st 4hrs almost full melt pool. flame may be a bit small but pretty good. 2nd 3hrs: almost full melt but some hanging up on the sides. 3rd 7hrs: pretty much full melt pool. definitely worth testing more. flame under control but tiny bit of mushrooming. glass super reasonable temp. lots of smoke after blow out. 4th 6hrs: 1/4 inch pool but mushrooming and smoking after blowing out. otherwise great. 5th 6hrs: full melt pool but near the bottom. lots of smoke after blowing out. otherwise great."
   },
   // RVNZ Z-51-32
   {
@@ -2444,6 +2446,925 @@ module.exports = [
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
     burns: [],
-    notes: "1st 4hrs: barely full melt pool. cool jar. also about perfect. 2nd 3hrs:  almost perfect full melt. wick smoking a lot after blow out ~10s. only small mushroom."
+    notes:
+      "1st 4hrs: barely full melt pool. cool jar. also about perfect. 2nd 3hrs:  almost perfect full melt. wick smoking a lot after blow out ~10s. only small mushroom. 3rd 5hrs. accidentally put out for good bc wick detached. too hot, too sooty."
+  },
+  // Fig-Bergamot single wick finalists
+  // WYLD HTP-93
+  {
+    completedCandleWeightOunces: "16.70",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 352E CD-7
+  {
+    completedCandleWeightOunces: "16.90",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // WB77 P-767
+  {
+    completedCandleWeightOunces: "16.70",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // 3628 P-770
+  {
+    completedCandleWeightOunces: "16.90",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: ""
+  },
+  // Fig-Bergamot single wick finalists bigger
+
+  // W12Y CD-8
+  {
+    completedCandleWeightOunces: "16.90",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-02-28 18:00:00",
+        whenStopped: "2020-02-28 22:30:00",
+        notes: "full pool, good."
+      },
+      {
+        whenStarted: "2020-02-29 1:00:00",
+        whenStopped: "2020-02-29 5:00:00",
+        notes: "full pool"
+      },
+      {
+        whenStarted: "2020-03-01 1:00:00",
+        whenStopped: "2020-03-01 5:00:00",
+        notes: "full pool"
+      },
+      {
+        whenStarted: "2020-03-03 7:00:00",
+        whenStopped: "2020-03-04 0:00:00",
+        notes: "full pool, but large sooty flame."
+      },
+      {
+        whenStarted: "2020-03-04 6:30:00",
+        whenStopped: "2020-03-05 0:00:00",
+        notes: "1/4 inch pool, hot jar, huge flame, sooty"
+      }
+    ],
+    notes: ""
+  },
+  // RVEZ P-775
+  {
+    completedCandleWeightOunces: "16.70",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-02-28 18:00:00",
+        whenStopped: "2020-02-28 22:30:00",
+        notes: "full pool, good."
+      },
+      {
+        whenStarted: "2020-02-29 1:00:00",
+        whenStopped: "2020-02-29 5:00:00",
+        notes: "almost full pool"
+      },
+      {
+        whenStarted: "2020-03-01 1:00:00",
+        whenStopped: "2020-03-01 5:00:00",
+        notes: "almost full pool"
+      },
+      {
+        whenStarted: "2020-03-03 7:00:00",
+        whenStopped: "2020-03-04 0:00:00",
+        notes: "almost full pool, bit of mushrooming."
+      },
+      {
+        whenStarted: "2020-03-04 6:30:00",
+        whenStopped: "2020-03-05 01:00:00",
+        notes: "almost full pool."
+      }
+    ],
+    notes: ""
+  },
+  // 3K5G LX-18
+  {
+    completedCandleWeightOunces: "16.90",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-02-28 18:00:00",
+        whenStopped: "2020-02-28 22:30:00",
+        notes: "almost full pool"
+      },
+      {
+        whenStarted: "2020-02-29 1:00:00",
+        whenStopped: "2020-02-29 5:00:00",
+        notes: "not full melt pool"
+      },
+      {
+        whenStarted: "2020-03-01 1:00:00",
+        whenStopped: "2020-03-01 5:00:00",
+        notes: "not full melt pool"
+      },
+      {
+        whenStarted: "2020-03-03 7:00:00",
+        whenStopped: "2020-03-04 0:00:00",
+        notes: "not full melt pool"
+      },
+      {
+        whenStarted: "2020-03-04 6:30:00",
+        whenStopped: "2020-03-05 01:00:00",
+        notes: "not quite full melt pool."
+      }
+    ],
+    notes: ""
+  },
+  // REL2 HTP-104
+  {
+    completedCandleWeightOunces: "16.70",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-02-28 18:00:00",
+        whenStopped: "2020-02-28 22:30:00",
+        notes: "full pool, good. high flame."
+      },
+      {
+        whenStarted: "2020-02-29 1:00:00",
+        whenStopped: "2020-02-29 5:00:00",
+        notes: "not quite full melt pool. high flame."
+      },
+      {
+        whenStarted: "2020-03-01 1:00:00",
+        whenStopped: "2020-03-01 5:00:00",
+        notes: "not quite full melt pool. high flame."
+      },
+      {
+        whenStarted: "2020-03-04 6:30:00",
+        whenStopped: "2020-03-05 01:00:00",
+        notes: "1/8 inch pool, but big flame."
+      }
+    ],
+    notes: ""
+  },
+  // finalists round 3
+  // 344D CD-7
+  {
+    completedCandleWeightOunces: "16.70",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-11 18:00:00",
+        whenStopped: "2020-03-12 12:30:00",
+        stoppedWeightOunces: 15.7,
+        notes:
+          "Not nearly a full pool. Slightly off center, but a good 1/4 inch on the wide side remains. Stead flame though."
+      },
+      {
+        whenStarted: "2020-03-12 18:00:00",
+        whenStopped: "2020-03-13 02:25:00",
+        notes: "Not a full pool but not as bad as yesterday."
+      },
+      {
+        whenStarted: "2020-03-13 21:00:00",
+        whenStopped: "2020-03-14 05:00:00",
+        notes: "Not a full pool still."
+      },
+      {
+        whenStarted: "2020-03-14 13:00:00",
+        whenStopped: "2020-03-14 20:00:00",
+        notes: "Not a full pool still. little flecks of wick loose in wax."
+      },
+      {
+        whenStarted: "2020-03-15 13:00:00",
+        whenStopped: "2020-03-15 20:15:00",
+        notes: "Not a quite full melt pool. flecks."
+      },
+      {
+        whenStarted: "2020-03-15 10:30:00",
+        whenStopped: "2020-03-16 02:08:00",
+        notes: "Not a full melt pool. 141 degrees near the top."
+      },
+      {
+        whenStarted: "2020-03-16 11:45:00",
+        whenStopped: "2020-03-16 16:25:00",
+        notes: "Still not full melt pool."
+      },
+      {
+        whenStarted: "2020-03-17 09:05:00",
+        whenStopped: "2020-03-17 13:50:00",
+        stoppedWeightOunces: 10.12,
+        notes: "STILL not full melt pool."
+      },
+      {
+        whenStarted: "2020-03-17 06:0:00",
+        whenStopped: "2020-03-18 12:30:00",
+        stoppedWeightOunces: 9.43,
+        notes: "STILL not full melt pool. But close."
+      },
+      {
+        whenStarted: "2020-03-18 10:00:00",
+        whenStopped: "2020-03-18 21:00:00",
+        stoppedWeightOunces: 8.16,
+        notes:
+          "Finally full melt pool. Bit of soot on the glass. Self extinguished with 1/2 inch left"
+      }
+    ],
+    notes: ""
+  },
+  // ROJX CD-8
+  {
+    completedCandleWeightOunces: "16.70",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-11 18:00:00",
+        whenStopped: "2020-03-12 12:30:00",
+        stoppedWeightOunces: 15.7,
+        notes: "Very nearly full pool. Steady flame. Some mushrooming."
+      },
+      {
+        whenStarted: "2020-03-12 18:00:00",
+        whenStopped: "2020-03-13 02:25:00",
+        notes:
+          "Full and shallow pool. flame tallish and some mushrooming, but it was a long burn."
+      },
+      {
+        whenStarted: "2020-03-13 21:00:00",
+        whenStopped: "2020-03-14 05:00:00",
+        notes: "just about a full pool. bit of smoke after blowout but not bad."
+      },
+      {
+        whenStarted: "2020-03-14 13:00:00",
+        whenStopped: "2020-03-14 18:00:00",
+        notes: "Very close to full pool again, high flame, tiny bit of soot."
+      },
+      {
+        whenStarted: "2020-03-15 13:00:00",
+        whenStopped: "2020-03-15 20:15:00",
+        notes: "Full melt pool, but some soot and 160 degree top of jar."
+      },
+      {
+        whenStarted: "2020-03-15 10:30:00",
+        whenStopped: "2020-03-16 14:08:00",
+        notes: "Extremely close to full melt pool. 145 degrees top of jar."
+      },
+      {
+        whenStarted: "2020-03-16 11:45:00",
+        whenStopped: "2020-03-16 16:25:00",
+        notes: "Very nearly full melt. Some soot. 142 degree hottest."
+      },
+      {
+        whenStarted: "2020-03-17 09:05:00",
+        whenStopped: "2020-03-17 13:50:00",
+        stoppedWeightOunces: 9.26,
+        notes: "1/8 inch pool. some soot. 145 degree hottest."
+      },
+      {
+        whenStarted: "2020-03-17 06:0:00",
+        whenStopped: "2020-03-18 12:30:00",
+        stoppedWeightOunces: 8.3,
+        notes: "Very sooty."
+      },
+      {
+        whenStarted: "2020-03-18 10:00:00",
+        whenStopped: "2020-03-18 12:00:00",
+        stoppedWeightOunces: 8.03,
+        notes: "Not much soot. Self extinguished with 1/3 inch left"
+      }
+    ],
+    notes: ""
+  },
+  // 38Q1 P-775
+  {
+    completedCandleWeightOunces: "16.70",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-11 18:00:00",
+        whenStopped: "2020-03-12 12:30:00",
+        stoppedWeightOunces: 15.5,
+        notes:
+          "Not quite full pool. But okay. Steady flame. Hardly any mushrooming."
+      },
+      {
+        whenStarted: "2020-03-12 18:00:00",
+        whenStopped: "2020-03-13 02:25:00",
+        notes: "Very close to full melt pool. Everything looks good."
+      },
+      {
+        whenStarted: "2020-03-13 21:00:00",
+        whenStopped: "2020-03-14 05:00:00",
+        notes: "Not quite full pool, small ring around all sides. but close."
+      },
+      {
+        whenStarted: "2020-03-14 01:00:00",
+        whenStopped: "2020-03-14 06:00:00",
+        notes:
+          "Not quite a full pool still. One side starting to tunnel maybe. Hopfeully it goes down on future burns. Tiny bit of mushrooming."
+      },
+      {
+        whenStarted: "2020-03-15 13:00:00",
+        whenStopped: "2020-03-15 20:15:00",
+        notes: "Very nearly full melt pool. 130 degree hottest."
+      },
+      {
+        whenStarted: "2020-03-15 10:30:00",
+        whenStopped: "2020-03-16 14:08:00",
+        notes: "Full 1/8 inch melt pool. 130 degrees hottest."
+      },
+      {
+        whenStarted: "2020-03-16 11:45:00",
+        whenStopped: "2020-03-16 16:25:00",
+        notes: "Very nearly full melt pool. 140 degree hottest."
+      },
+      {
+        whenStarted: "2020-03-17 09:05:00",
+        whenStopped: "2020-03-17 01:50:00",
+        stoppedWeightOunces: 9.96,
+        notes: "Not full melt pool on one side. 135 dgree hottest."
+      },
+      {
+        whenStarted: "2020-03-17 18:00:00",
+        whenStopped: "2020-03-18 01:22:00",
+        stoppedWeightOunces: 8.99,
+        notes: "Close to full melt but not quite."
+      },
+      {
+        whenStarted: "2020-03-18 10:00:00",
+        whenStopped: "2020-03-18 20:00:00",
+        stoppedWeightOunces: 7.77,
+        notes: "Self extinguished with 1/4 inch left."
+      }
+    ],
+    notes: ""
+  },
+  // W956 P-777
+  {
+    completedCandleWeightOunces: "16.70",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-11 18:00:00",
+        whenStopped: "2020-03-12 12:30:00",
+        stoppedWeightOunces: 15.3,
+        notes:
+          "Exremely close to full pool. Steady flame. Thought there WAS mushrooming but after blowing out it doesnt seem to be a problem."
+      },
+      {
+        whenStarted: "2020-03-12 18:00:00",
+        whenStopped: "2020-03-13 02:25:00",
+        notes:
+          "Not a full pool oddly enough. About 1/4 inch on one side. Otherise looks good."
+      },
+      {
+        whenStarted: "2020-03-13 21:00:00",
+        whenStopped: "2020-03-14 05:00:00",
+        notes:
+          "1/8 inch on one side remains, bit of smoke after blow out but not terrible."
+      },
+      {
+        whenStarted: "2020-03-14 13:00:00",
+        whenStopped: "2020-03-14 20:00:00",
+        notes:
+          "Almost full pool. Still that 1/8 inch on one side remains. Little bit of mushrooming."
+      },
+      {
+        whenStarted: "2020-03-15 13:00:00",
+        whenStopped: "2020-03-15 20:15:00",
+        notes: "Full melt pool, jar 130 degree at hottest."
+      },
+      {
+        whenStarted: "2020-03-15 10:30:00",
+        whenStopped: "2020-03-16 14:08:00",
+        notes: "Not quite full melt pool, 125 degree hottest."
+      },
+      {
+        whenStarted: "2020-03-16 11:45:00",
+        whenStopped: "2020-03-16 16:25:00",
+        notes: "Basically full melt pool. 145 hottest. Tiny bit of soot."
+      },
+      {
+        whenStarted: "2020-03-17 21:05:00",
+        whenStopped: "2020-03-17 01:50:00",
+        stoppedWeightOunces: 9.42,
+        notes:
+          "1/8 inch pool (tiny bit of hangup on the one side). 150 degree hottest. tiny bit of soot on that side."
+      },
+      {
+        whenStarted: "2020-03-17 18:00:00",
+        whenStopped: "2020-03-18 01:22:00",
+        stoppedWeightOunces: 8.5,
+        notes: "1/8 inch pool. Jar not hot."
+      },
+      {
+        whenStarted: "2020-03-18 10:00:00",
+        whenStopped: "2020-03-18 21:00:00",
+        stoppedWeightOunces: 8.23,
+        notes: "Self extinguished with 1/2 inch left"
+      }
+    ],
+    notes: ""
+  },
+  // WGOX Root Beer 775
+  {
+    completedCandleWeightOunces: "16.78",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-19 11:00:00",
+        whenStopped: "2020-03-19 15:16:00",
+        stoppedWeightOunces: 16.03,
+        notes: "Basically full melt pool. Some mushrooming."
+      },
+      {
+        whenStarted: "2020-03-19 18:00:00",
+        whenStopped: "2020-03-20 02:07:00",
+        stoppedWeightOunces: 14.99,
+        notes: "1/8 inch melt pool. lots of mushrooming."
+      },
+      {
+        whenStarted: "2020-03-20 13:00:00",
+        whenStopped: "2020-03-20 18:30:00",
+        stoppedWeightOunces: 14.15,
+        notes: "1/4 inch melt pool. big mushrooming."
+      },
+      {
+        whenStarted: "2020-03-20 13:25:00",
+        whenStopped: "2020-03-20 21:10:00",
+        stoppedWeightOunces: 13.58,
+        notes:
+          "Nearly full melt pool. 1/8 inch on one side remaining. small mushroom and wide flame."
+      },
+      {
+        whenStarted: "2020-03-20 23:00:00",
+        whenStopped: "2020-03-21 04:10:00",
+        stoppedWeightOunces: 12.19,
+        notes:
+          "1/4 inch pool. way too hot glass up top. fat flame and mushrooming."
+      },
+      {
+        whenStarted: "2020-03-21 21:00:00",
+        whenStopped: "2020-03-22 01:30:00",
+        stoppedWeightOunces: 11.81,
+        notes: "1/8 inch melt pool. Mushrooming. don't love the fat flame."
+      },
+      {
+        whenStarted: "2020-03-22 12:00:00",
+        whenStopped: "2020-03-22 19:54:00",
+        stoppedWeightOunces: 10.744,
+        notes:
+          "1/8 inch melt pool. flame too big but not actually horrible. jar not too hot. bit of soot. mushrooming."
+      }
+    ],
+    notes: ""
+  },
+  // 3PXV Root Beer 780
+  {
+    completedCandleWeightOunces: "16.63",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-19 11:00:00",
+        whenStopped: "2020-03-19 15:16:00",
+        stoppedWeightOunces: 15.83,
+        notes:
+          "1/8 inch melt pool. Mushrooming. 2 flecks of wick loose and removed."
+      },
+      {
+        whenStarted: "2020-03-19 18:00:00",
+        whenStopped: "2020-03-20 02:07:00",
+        stoppedWeightOunces: 14.78,
+        notes: "1/8 inch melt pool. huge mushrooming."
+      },
+      {
+        whenStarted: "2020-03-20 13:00:00",
+        whenStopped: "2020-03-20 18:30:00",
+        stoppedWeightOunces: 13.82,
+        notes: "1/4 inch melt pool. big mushrooming."
+      },
+      {
+        whenStarted: "2020-03-20 13:25:00",
+        whenStopped: "2020-03-20 21:10:00",
+        stoppedWeightOunces: 13.22,
+        notes: "1/8 inch melt pool. but mushrooming and a wide flame."
+      },
+      {
+        whenStarted: "2020-03-20 23:00:00",
+        whenStopped: "2020-03-21 04:10:00",
+        stoppedWeightOunces: 12.19,
+        notes:
+          "1/4 inch pool. way too hot glass up top. fat flame and mushrooming."
+      },
+      {
+        whenStarted: "2020-03-21 21:00:00",
+        whenStopped: "2020-03-22 01:30:00",
+        stoppedWeightOunces: 11.51,
+        notes: "1/8 inch melt pool. Mushrooming. don't love the fat flame."
+      },
+      {
+        whenStarted: "2020-03-22 12:00:00",
+        whenStopped: "2020-03-22 19:54:00",
+        stoppedWeightOunces: 10.43,
+        notes:
+          "1/8 inch pool. flame too big, mushrooming and soot. jar not too hot though"
+      }
+    ],
+    notes: ""
+  },
+  // R2ZY Root Beer 777
+  {
+    completedCandleWeightOunces: "16.60",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-19 11:00:00",
+        whenStopped: "2020-03-19 15:16:00",
+        stoppedWeightOunces: 15.77,
+        notes: "Barely full melt pool. Flame oddly wide. Mushrooming."
+      },
+      {
+        whenStarted: "2020-03-19 18:00:00",
+        whenStopped: "2020-03-20 02:07:00",
+        stoppedWeightOunces: 14.7,
+        notes:
+          "1/4 inch melt pool. huge mushrooming. 1 big loose fleck pulled out."
+      },
+      {
+        whenStarted: "2020-03-20 13:00:00",
+        whenStopped: "2020-03-20 18:30:00",
+        stoppedWeightOunces: 13.8,
+        notes: "1/4 inch melt pool. big mushrooming."
+      },
+      {
+        whenStarted: "2020-03-20 13:25:00",
+        whenStopped: "2020-03-20 21:10:00",
+        stoppedWeightOunces: 13.19,
+        notes:
+          "Not quite full melt pool. but close. small mushroom and wide flame."
+      },
+      {
+        whenStarted: "2020-03-20 23:00:00",
+        whenStopped: "2020-03-21 04:10:00",
+        stoppedWeightOunces: 12.19,
+        notes:
+          "1/4 inch pool. way too hot glass up top. fat flame and mushrooming."
+      },
+      {
+        whenStarted: "2020-03-21 21:00:00",
+        whenStopped: "2020-03-22 01:30:00",
+        stoppedWeightOunces: 11.29,
+        notes:
+          "1/8 inch melt pool. Big time mushrooming. Very fat flame, TONS of smoke after blow out."
+      },
+      {
+        whenStarted: "2020-03-22 12:00:00",
+        whenStopped: "2020-03-22 19:54:00",
+        stoppedWeightOunces: 10.43,
+        notes:
+          "1/8 inch pool. flame too big, huge mushrooming and plenty of soot. jar not too hot though"
+      }
+    ],
+    notes: ""
+  },
+  // WYOD Movie Night 775
+  {
+    completedCandleWeightOunces: "16.53",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-19 11:00:00",
+        whenStopped: "2020-03-19 15:20:00",
+        stoppedWeightOunces: 15.67,
+        notes:
+          "not full melt pool. 1/8 inch remains on one side. No mushrooming."
+      },
+      {
+        whenStarted: "2020-03-19 18:00:00",
+        whenStopped: "2020-03-20 02:07:00",
+        stoppedWeightOunces: 14.63,
+        notes: "Not quite full melt pool. some mushrooming but not bad."
+      },
+      {
+        whenStarted: "2020-03-20 13:00:00",
+        whenStopped: "2020-03-20 18:30:00",
+        stoppedWeightOunces: 13.8,
+        notes: "1/8 inch melt pool. big mushrooming."
+      },
+      {
+        whenStarted: "2020-03-20 13:25:00",
+        whenStopped: "2020-03-20 21:10:00",
+        stoppedWeightOunces: 13.23,
+        notes: "Not quite full melt pool. 1/8 inch on one side."
+      },
+      {
+        whenStarted: "2020-03-20 23:00:00",
+        whenStopped: "2020-03-21 04:10:00",
+        stoppedWeightOunces: 12.31,
+        notes: "Basically full melt pool. flame a bit big but otherwise good."
+      },
+      {
+        whenStarted: "2020-03-21 21:00:00",
+        whenStopped: "2020-03-22 01:30:00",
+        stoppedWeightOunces: 11.56,
+        notes: "Not quite full melt pool."
+      },
+      {
+        whenStarted: "2020-03-22 12:00:00",
+        whenStopped: "2020-03-22 19:54:00",
+        stoppedWeightOunces: 10.5,
+        notes: "Hang up on one side. 1/8 inch pool on the other."
+      }
+    ],
+    notes: ""
+  },
+  // 35YE Movie Night 777
+  {
+    completedCandleWeightOunces: "16.44",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-19 11:00:00",
+        whenStopped: "2020-03-19 15:20:00",
+        stoppedWeightOunces: 15.67,
+        notes: "Basically full melt pool. Some mushrooming."
+      },
+      {
+        whenStarted: "2020-03-19 18:00:00",
+        whenStopped: "2020-03-20 02:07:00",
+        stoppedWeightOunces: 14.44,
+        notes: "Again almost full melt pool. no mushrooming."
+      },
+      {
+        whenStarted: "2020-03-20 13:00:00",
+        whenStopped: "2020-03-20 18:30:00",
+        stoppedWeightOunces: 13.9,
+        notes: "1/8 inch melt pool. only a bit of mushrooming."
+      },
+      {
+        whenStarted: "2020-03-20 13:25:00",
+        whenStopped: "2020-03-20 21:10:00",
+        stoppedWeightOunces: 13.23,
+        notes: "Not quite full melt pool. no mushrooming."
+      },
+      {
+        whenStarted: "2020-03-20 23:00:00",
+        whenStopped: "2020-03-21 04:10:00",
+        stoppedWeightOunces: 12.19,
+        notes: "Nearly full pool. no mushrooming."
+      },
+      {
+        whenStarted: "2020-03-21 21:00:00",
+        whenStopped: "2020-03-22 01:30:00",
+        stoppedWeightOunces: 11.46,
+        notes: "Not quite full melt pool"
+      },
+      {
+        whenStarted: "2020-03-22 12:00:00",
+        whenStopped: "2020-03-22 19:54:00",
+        stoppedWeightOunces: 10.38,
+        notes:
+          "Tiny bit of hangup on the side. 1/8 inch pool on the other. flame too tall after a long burn. but of soot up top."
+      }
+    ],
+    notes: ""
+  },
+  // WBE7 Movie Night 780
+  {
+    completedCandleWeightOunces: "16.61",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-19 11:00:00",
+        whenStopped: "2020-03-19 15:20:00",
+        stoppedWeightOunces: 15.73,
+        notes: "Basically full melt pool. Not much mushrooming."
+      },
+      {
+        whenStarted: "2020-03-19 18:00:00",
+        whenStopped: "2020-03-20 02:07:00",
+        stoppedWeightOunces: 14.71,
+        notes: "1/8 inch melt pool. lots of mushrooming."
+      },
+      {
+        whenStarted: "2020-03-20 13:00:00",
+        whenStopped: "2020-03-20 18:30:00",
+        stoppedWeightOunces: 13.9,
+        notes: "1/8 inch melt pool. big mushrooming."
+      },
+      {
+        whenStarted: "2020-03-20 13:25:00",
+        whenStopped: "2020-03-20 21:10:00",
+        stoppedWeightOunces: 13.34,
+        notes:
+          "Not quite full melt pool, but very close. Bit of mushroom but not bad."
+      },
+      {
+        whenStarted: "2020-03-20 23:00:00",
+        whenStopped: "2020-03-21 04:10:00",
+        stoppedWeightOunces: 12.19,
+        notes: "Nearly full pool. no mushrooming."
+      },
+      {
+        whenStarted: "2020-03-21 21:00:00",
+        whenStopped: "2020-03-22 01:30:00",
+        stoppedWeightOunces: 11.46,
+        notes: "Not quite full melt pool."
+      },
+      {
+        whenStarted: "2020-03-22 12:00:00",
+        whenStopped: "2020-03-22 19:54:00",
+        stoppedWeightOunces: 10.38,
+        notes:
+          "Very tiny bit of hang up on one side. flame a bit too big after the long burn. 1/8 inch pool near side. no soot, jar not too hot."
+      }
+    ],
+    notes: "Weirdly, the only one of the night to have poor glass adhesion."
+  },
+  // 3DZK Fig Berg 777
+  {
+    completedCandleWeightOunces: "16.65",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-19 11:00:00",
+        whenStopped: "2020-03-19 15:16:00",
+        stoppedWeightOunces: 15.82,
+        notes:
+          "Close to full melt pool. But of mushrooming. Accidentally broke this glass after first burn :("
+      }
+    ],
+    notes: ""
+  },
+  // RJQ4 Fig Berg 780
+  {
+    completedCandleWeightOunces: "16.48",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-19 11:00:00",
+        whenStopped: "2020-03-19 15:16:00",
+        stoppedWeightOunces: 15.7,
+        notes: "1/8 inch melt pool. mushrooming."
+      },
+      {
+        whenStarted: "2020-03-19 18:00:00",
+        whenStopped: "2020-03-20 02:07:00",
+        stoppedWeightOunces: 14.78,
+        notes: "1/8 inch melt pool. mushrooming. 2 big loose flecks pulled out."
+      },
+      {
+        whenStarted: "2020-03-20 13:00:00",
+        whenStopped: "2020-03-20 18:30:00",
+        stoppedWeightOunces: 13.9,
+        notes: "1/4 inch melt pool. mushrooming."
+      },
+      {
+        whenStarted: "2020-03-20 13:25:00",
+        whenStopped: "2020-03-20 21:10:00",
+        stoppedWeightOunces: 13.33,
+        notes: "Not quite full melt pool but super close."
+      },
+      {
+        whenStarted: "2020-03-20 23:00:00",
+        whenStopped: "2020-03-21 04:10:00",
+        stoppedWeightOunces: 12.6,
+        notes: "Basically full pool."
+      },
+      {
+        whenStarted: "2020-03-22 12:00:00",
+        whenStopped: "2020-03-22 19:54:00",
+        stoppedWeightOunces: 11.72,
+        notes:
+          "1/8 to 1/4 inch even pool. bit of a mushroom but no soot, glass not too hot. flame not too big. perfect. even with 8 hr burn."
+      }
+    ],
+    notes: ""
+  },
+
+  // W1NY RBF HTP-93
+  {
+    completedCandleWeightOunces: "16.30",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-19 11:00:00",
+        whenStopped: "2020-03-19 15:16:00",
+        stoppedWeightOunces: 16.30,
+        notes: "1/8 inch melt pool. mushrooming."
+      }
+    ],
+    notes: ""
+  },
+  // RVYZ RBF Eco-6
+  {
+    completedCandleWeightOunces: "16.47",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-19 11:00:00",
+        whenStopped: "2020-03-19 15:16:00",
+        stoppedWeightOunces: 16.47,
+        notes: "1/8 inch melt pool. mushrooming."
+      }
+    ],
+    notes: ""
+  },
+  // 3K8G RBF CD-7
+  {
+    completedCandleWeightOunces: "16.75",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-19 11:00:00",
+        whenStopped: "2020-03-19 15:16:00",
+        stoppedWeightOunces: 15.7,
+        notes: "1/8 inch melt pool. mushrooming."
+      }
+    ],
+    notes: ""
+  },
+  // REE2 RBF P-760
+  {
+    completedCandleWeightOunces: "16.58",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-19 11:00:00",
+        whenStopped: "2020-03-19 15:16:00",
+        stoppedWeightOunces: 15.7,
+        notes: "1/8 inch melt pool. mushrooming."
+      }
+    ],
+    notes: ""
+  },
+  // WNYG RBF P-765
+  {
+    completedCandleWeightOunces: "16.75",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-19 11:00:00",
+        whenStopped: "2020-03-19 15:16:00",
+        stoppedWeightOunces: 15.7,
+        notes: "1/8 inch melt pool. mushrooming."
+      }
+    ],
+    notes: ""
+  },
+  // 3ZZY RBF P-767
+  {
+    completedCandleWeightOunces: "16.51",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-19 11:00:00",
+        whenStopped: "2020-03-19 15:16:00",
+        stoppedWeightOunces: 15.7,
+        notes: "1/8 inch melt pool. mushrooming."
+      }
+    ],
+    notes: ""
+  },
+  // WL9M RBF P-770
+  {
+    completedCandleWeightOunces: "16.47",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-19 11:00:00",
+        whenStopped: "2020-03-19 15:16:00",
+        stoppedWeightOunces: 15.7,
+        notes: "1/8 inch melt pool. mushrooming."
+      }
+    ],
+    notes: ""
   }
 ];

@@ -3949,5 +3949,357 @@ module.exports = [
     name: "Single Wick Big Test Batch 2/2",
     fragranceAddTemperatureFahrenheit: "205",
     notes: ""
+  },
+  {
+    whenCreated: "2020-02-22",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "30.98" },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.70" },
+      { type: "wax", hashId: "PY8P", weightOunces: "3.52" },
+      { type: "fragrance-oil", hashId: "GQ9K", weightOunces: "2.39" },
+      { type: "fragrance-oil", hashId: "498N", weightOunces: "1.83" }
+    ],
+    layers: [
+      {
+        candleHashId: "WYLD",
+        whenPoured: "2020-02-22T18:21:11",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "40",
+        coolingRoomTemperatureFahrenheit: "72",
+        containerTemperatureFahrenheit: "72",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "352E",
+        whenPoured: "2020-02-22T18:21:11",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "40",
+        coolingRoomTemperatureFahrenheit: "72",
+        containerTemperatureFahrenheit: "72",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "WB77",
+        whenPoured: "2020-02-22T18:21:11",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "40",
+        coolingRoomTemperatureFahrenheit: "72",
+        containerTemperatureFahrenheit: "72",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "3628",
+        whenPoured: "2020-02-22T18:21:11",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "40",
+        coolingRoomTemperatureFahrenheit: "72",
+        containerTemperatureFahrenheit: "72",
+        preppedContainerWeightOunces: "6.2"
+      }
+    ],
+    name: "Fig Bergamot Single Wick Finalists",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-02-28",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "30.98" },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.70" },
+      { type: "wax", hashId: "PY8P", weightOunces: "3.52" },
+      { type: "fragrance-oil", hashId: "GVLR", weightOunces: "2.12" },
+      { type: "fragrance-oil", hashId: "GBQ8", weightOunces: "2.12" }
+    ],
+    layers: [
+      {
+        candleHashId: "W12Y",
+        whenPoured: "2020-02-28T18:21:11",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "40",
+        coolingRoomTemperatureFahrenheit: "72",
+        containerTemperatureFahrenheit: "72",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "RVEZ",
+        whenPoured: "2020-02-28T18:21:11",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "40",
+        coolingRoomTemperatureFahrenheit: "72",
+        containerTemperatureFahrenheit: "72",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "3K5G",
+        whenPoured: "2020-02-28T18:21:11",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "40",
+        coolingRoomTemperatureFahrenheit: "72",
+        containerTemperatureFahrenheit: "72",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "REL2",
+        whenPoured: "2020-02-28T18:21:11",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "40",
+        coolingRoomTemperatureFahrenheit: "72",
+        containerTemperatureFahrenheit: "72",
+        preppedContainerWeightOunces: "6.2"
+      }
+    ],
+    name: "Fig Bergamot Single Wick Finalists Bigger",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-03-10",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "29.92" },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.68" },
+      { type: "wax", hashId: "PY8P", weightOunces: "3.43" },
+      { type: "fragrance-oil", hashId: "GVLR", weightOunces: "2.04" },
+      { type: "fragrance-oil", hashId: "GBQ8", weightOunces: "2.04" }
+    ],
+    layers: [
+      {
+        candleHashId: "344D",
+        whenPoured: "2020-03-10T21:59:38",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "74",
+        containerTemperatureFahrenheit: "74",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "ROJX",
+        whenPoured: "2020-03-10T21:59:38",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "74",
+        containerTemperatureFahrenheit: "74",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "38Q1",
+        whenPoured: "2020-03-10T21:59:38",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "74",
+        containerTemperatureFahrenheit: "74",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "W956",
+        whenPoured: "2020-03-10T21:59:38",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "74",
+        containerTemperatureFahrenheit: "74",
+        preppedContainerWeightOunces: "6.2"
+      }
+    ],
+    name: "Single Wick Finalists Round 3",
+    fragranceAddTemperatureFahrenheit: "185"
+  },
+  {
+    whenCreated: "2020-03-18",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "22.44" },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.51" },
+      { type: "wax", hashId: "PY8P", weightOunces: "2.55" },
+      { type: "fragrance-oil", hashId: "GZ6B", weightOunces: "2.09" },
+      { type: "fragrance-oil", hashId: "49QN", weightOunces: "1.04" },
+      { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.35" }
+    ],
+    layers: [
+      {
+        candleHashId: "WGOX",
+        whenPoured: "2020-03-18T17:30:04",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "44",
+        coolingRoomTemperatureFahrenheit: "76",
+        containerTemperatureFahrenheit: "76",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "R2ZY",
+        whenPoured: "2020-03-18T17:30:04",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "44",
+        coolingRoomTemperatureFahrenheit: "76",
+        containerTemperatureFahrenheit: "76",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "3PXV",
+        whenPoured: "2020-03-18T17:30:04",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "44",
+        coolingRoomTemperatureFahrenheit: "76",
+        containerTemperatureFahrenheit: "76",
+        preppedContainerWeightOunces: "6.2"
+      }
+    ],
+    name: "Root Beer Float Test",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-03-18",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "22.44" },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.51" },
+      { type: "wax", hashId: "PY8P", weightOunces: "2.55" },
+      { type: "fragrance-oil", hashId: "OP1X", weightOunces: "2.09" },
+      { type: "fragrance-oil", hashId: "482B", weightOunces: "0.70" },
+      { type: "fragrance-oil", hashId: "41Q2", weightOunces: "0.70" }
+    ],
+    layers: [
+      {
+        candleHashId: "WYOD",
+        whenPoured: "2020-03-18T17:30:22",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "44",
+        coolingRoomTemperatureFahrenheit: "76",
+        containerTemperatureFahrenheit: "76",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "35YE",
+        whenPoured: "2020-03-18T17:30:22",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "44",
+        coolingRoomTemperatureFahrenheit: "76",
+        containerTemperatureFahrenheit: "76",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "WBE7",
+        whenPoured: "2020-03-18T17:30:22",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "44",
+        coolingRoomTemperatureFahrenheit: "76",
+        containerTemperatureFahrenheit: "76",
+        preppedContainerWeightOunces: "6.2"
+      }
+    ],
+    name: "Movie Night Test",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-03-18",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "14.96" },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.34" },
+      { type: "wax", hashId: "PY8P", weightOunces: "1.70" },
+      { type: "fragrance-oil", hashId: "GBQ8", weightOunces: "1.16" },
+      { type: "fragrance-oil", hashId: "GVLR", weightOunces: "1.16" }
+    ],
+    layers: [
+      {
+        candleHashId: "3DZK",
+        whenPoured: "2020-03-18T17:30:35",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "44",
+        coolingRoomTemperatureFahrenheit: "76",
+        containerTemperatureFahrenheit: "76",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "RJQ4",
+        whenPoured: "2020-03-18T17:30:35",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "44",
+        coolingRoomTemperatureFahrenheit: "76",
+        containerTemperatureFahrenheit: "76",
+        preppedContainerWeightOunces: "6.2"
+      }
+    ],
+    name: "Fig Bergamot Comparison",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-03-24",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "29.22" },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.66" },
+      { type: "wax", hashId: "PY8P", weightOunces: "3.32" },
+      { type: "fragrance-oil", hashId: "GZ6B", weightOunces: "2.72" },
+      { type: "fragrance-oil", hashId: "49QN", weightOunces: "1.36" },
+      { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.45" }
+    ],
+    layers: [
+      {
+        candleHashId: "W1NY",
+        whenPoured: "2020-03-24T19:24:54",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "48",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75"
+      },
+      {
+        candleHashId: "RVYZ",
+        whenPoured: "2020-03-24T19:24:54",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "48",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75"
+      },
+      {
+        candleHashId: "3K8G",
+        whenPoured: "2020-03-24T19:24:54",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "48",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75"
+      },
+      {
+        candleHashId: "REE2",
+        whenPoured: "2020-03-24T19:24:54",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "48",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75"
+      }
+    ],
+    name: "RBF round 2 part 1",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-03-24",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "21.91" },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.50" },
+      { type: "wax", hashId: "PY8P", weightOunces: "2.49" },
+      { type: "fragrance-oil", hashId: "GZ6B", weightOunces: "2.04" },
+      { type: "fragrance-oil", hashId: "49QN", weightOunces: "1.14" },
+      { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.34" }
+    ],
+    layers: [
+      {
+        candleHashId: "WNYG",
+        whenPoured: "2020-03-24T19:24:54",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "48",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75"
+      },
+      {
+        candleHashId: "3ZZY",
+        whenPoured: "2020-03-24T19:24:54",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "48",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75"
+      },
+      {
+        candleHashId: "WL9M",
+        whenPoured: "2020-03-24T19:24:54",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "48",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75"
+      }
+    ],
+    name: "RBF round 2 part 2",
+    fragranceAddTemperatureFahrenheit: "205"
   }
 ];

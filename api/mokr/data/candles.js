@@ -2192,7 +2192,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3NOB"
-    },
+    }
   ],
   // 10% Coco 2% beeswax 88 Coco83
   [
@@ -2219,7 +2219,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3NOB"
-    },
+    }
   ],
   // 10% Coco 4% beeswax 86 Coco83
   [
@@ -2246,7 +2246,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3NOB"
-    },
+    }
   ],
   // Double Wick Expansive Test 10% Coconut-1
   [
@@ -2361,7 +2361,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3NOB"
-    },
+    }
   ],
   // Big Single Wick Test
   [
@@ -2492,6 +2492,243 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3NOB"
+    }
+  ],
+  // Fig-Bergamot Full Jar Single Wick finalists
+  [
+    {
+      name: "Fig/Bergamot HTP-93",
+      jarHashId: "1ZE7",
+      wickHashId: "51LW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Fig/Bergamot CD-7",
+      jarHashId: "1ZE7",
+      wickHashId: "DXW6",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Fig/Bergamot P-767",
+      jarHashId: "1ZE7",
+      wickHashId: "DVG6",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Fig/Bergamot P-770",
+      jarHashId: "1ZE7",
+      wickHashId: "DWM4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    }
+  ],
+  // Fig-Bergamot Full Jar Single Wick bigger finalists bc last round sucked
+  [
+    {
+      name: "Fig/Bergamot CD-8",
+      jarHashId: "1ZE7",
+      wickHashId: "5PMR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Fig/Bergamot P-775",
+      jarHashId: "1ZE7",
+      wickHashId: "DXW6",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Fig/Bergamot LX-18",
+      jarHashId: "1ZE7",
+      wickHashId: "NKJM",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Fig/Bergamot HTP-104",
+      jarHashId: "1ZE7",
+      wickHashId: "5ZQG",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    }
+  ],
+  // Fig-Bergamot Full Jar Finalists Round 3
+  [
+    {
+      name: "Fig/Bergamot Round 3 CD-7",
+      jarHashId: "1ZE7",
+      wickHashId: "DXW6",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Fig/Bergamot Round 3 CD-8",
+      jarHashId: "1ZE7",
+      wickHashId: "5PMR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Fig/Bergamot Round 3 P-775",
+      jarHashId: "1ZE7",
+      wickHashId: "5Z2G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Fig/Bergamot Round 3 P-777",
+      jarHashId: "1ZE7",
+      wickHashId: "51VY",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    }
+  ],
+  [
+    {
+      name: "Root Beer Float Test 775",
+      jarHashId: "1ZE7",
+      wickHashId: "5Z2G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Root Beer Float Test 780",
+      jarHashId: "1ZE7",
+      wickHashId: "5ZPB",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Root Beer Float Test 777",
+      jarHashId: "1ZE7",
+      wickHashId: "51VY",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Movie Night Test 775",
+      jarHashId: "1ZE7",
+      wickHashId: "5Z2G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Movie Night Test 777",
+      jarHashId: "1ZE7",
+      wickHashId: "51VY",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Movie Night Test 780",
+      jarHashId: "1ZE7",
+      wickHashId: "5ZPB",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    }
+  ],
+  [
+    {
+      name: "Fig Bergamot 2 candle test 777",
+      jarHashId: "1ZE7",
+      wickHashId: "51VY",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Fig Bergamot 2 candle test 780",
+      jarHashId: "1ZE7",
+      wickHashId: "5ZPB",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    }
+  ],
+  [
+    {
+      name: "RBF HTP-93",
+      jarHashId: "1ZE7",
+      wickHashId: "51LW",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "RBF Eco-6",
+      jarHashId: "1ZE7",
+      wickHashId: "D42G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: "\n"
+    },
+    {
+      name: "RBF CD-7",
+      jarHashId: "1ZE7",
+      wickHashId: "DXW6",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: "\n"
+    },
+    {
+      name: "RBF P-760",
+      jarHashId: "1ZE7",
+      wickHashId: "NGGX",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: "\n"
+    },
+    {
+      name: "RBF P-765",
+      jarHashId: "1ZE7",
+      wickHashId: "511W",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: "\n"
+    },
+    {
+      name: "RBF P-767",
+      jarHashId: "1ZE7",
+      wickHashId: "DVG6",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: "\n"
+    },
+    {
+      name: "RBF P-770",
+      jarHashId: "1ZE7",
+      wickHashId: "DWM4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: "\n"
     }
   ]
 ];

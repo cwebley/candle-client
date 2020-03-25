@@ -65,7 +65,7 @@ function Batch({ match, classes }) {
           <main>
             <Paper className={classes.paper}>
               <Grid container>
-                <Grid item xs={12} md={8}>
+                <Grid item xs={12}>
                   <ul className={classes.batchSummary}>
                     <DataLabel
                       label="Wax weight"
@@ -79,7 +79,7 @@ function Batch({ match, classes }) {
                     />
                     <DataLabel
                       label="Fragrance Load"
-                      value={batch.fragranceLoad * 100}
+                      value={(batch.fragranceLoad * 100).toFixed(2)}
                       unit="%"
                     />
                     <DataLabel
@@ -96,7 +96,7 @@ function Batch({ match, classes }) {
                     )}
                   </ul>
                 </Grid>
-                <Grid item>
+                <Grid item xs={12}>
                   <Typography
                     className={classes.itemPrice}
                     variant="subtitle1"

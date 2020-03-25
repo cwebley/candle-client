@@ -6289,5 +6289,636 @@ module.exports = [
     shippingCost: "8.99",
     taxesAndFees: "0",
     totalCost: "63.51"
+  },
+  {
+    openDate: "2020-02-22",
+    items: [
+      {
+        type: "wicks",
+        name: 'Premier 770 6.5" Pretabbed Wick',
+        length: "6.5",
+        count: "100",
+        remaining: "100",
+        series: "Premier",
+        size: "770",
+        price: "8.24",
+        shareOfShippingPercent: "20",
+        notes: ""
+      },
+      {
+        type: "wicks",
+        name: 'Premier 777 6.5" Pretabbed Wick',
+        length: "6.5",
+        count: "100",
+        remaining: "100",
+        series: "Premier",
+        size: "777",
+        price: "7.92",
+        shareOfShippingPercent: "20"
+      },
+      {
+        type: "wicks",
+        name: 'Premier 780 6.5" Pretabbed Wick',
+        length: "6.5",
+        count: "100",
+        remaining: "100",
+        series: "Premier",
+        size: "780",
+        price: "8.24",
+        shareOfShippingPercent: "20"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Brazilian Coffee & Pure Cane",
+        weightOunces: "8",
+        remaining: "8",
+        price: "10.99",
+        shareOfShippingPercent: "25",
+        notes: ""
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Strawberry",
+        weightOunces: "1",
+        remaining: "1",
+        shareOfShippingPercent: "15",
+        notes: "Free sample",
+        price: "0"
+      }
+    ],
+    source: "Aztec Candle & Soap Supplies",
+    subtotalCost: "35.39",
+    shippingCost: "8.99",
+    taxesAndFees: "0",
+    totalCost: "44.38"
+  },
+  {
+    openDate: "2020-02-22",
+    items: [
+      {
+        type: "jars",
+        name: "Straight Sided Tumbler Clear",
+        waxToFillLineOunces: "10",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "clear",
+        count: "30",
+        remaining: "30",
+        price: "0",
+        shareOfShippingPercent: "100",
+        notes: "Recycled from test candles"
+      },
+      {
+        type: "jars",
+        name: "Straight Sided Tumbler Amber",
+        waxToFillLineOunces: "10",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "amber",
+        count: "2",
+        remaining: "2",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "Recycled from test candles"
+      }
+    ],
+    source: "Recycled",
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0"
+  },
+  {
+    openDate: "2020-02-25",
+    items: [
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Root Beer",
+        weightOunces: "16",
+        remaining: "16",
+        price: "17.00",
+        shareOfShippingPercent: "11",
+        notes: ""
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Carrot Cake",
+        weightOunces: "16",
+        remaining: "16",
+        price: "14.00",
+        shareOfShippingPercent: "11"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Wild Mountain Honey",
+        weightOunces: "1",
+        remaining: "1",
+        price: "3.25",
+        shareOfShippingPercent: "2",
+        notes: ""
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "River Rock",
+        weightOunces: "1",
+        remaining: "1",
+        price: "3.25",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "wax",
+        name: "Cargill's NatureWax® Coconut 1",
+        material: "Coconut",
+        weightPounds: "4",
+        remaining: "4",
+        price: "16",
+        shareOfShippingPercent: "22",
+        notes: "This is 2 2-lb containers"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Iced Lemon Biscotti",
+        weightOunces: "1",
+        remaining: "1",
+        price: "3.25",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Irish Moss",
+        weightOunces: "1",
+        remaining: "1",
+        price: "3.25",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Sandalwood",
+        weightOunces: "16",
+        remaining: "16",
+        price: "20",
+        shareOfShippingPercent: "11"
+      },
+      {
+        type: "fragrance-oil",
+        category: "spice",
+        name: "Frankincense & Myrrh",
+        weightOunces: "16",
+        remaining: "16",
+        price: "15",
+        shareOfShippingPercent: "11"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Rosemary & Thyme",
+        weightOunces: "1",
+        remaining: "1",
+        price: "3.25",
+        shareOfShippingPercent: "2"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Buttermilk Pancakes",
+        weightOunces: "16",
+        remaining: "16",
+        price: "15",
+        shareOfShippingPercent: "11"
+      }
+    ],
+    source: "Fillmore Container",
+    subtotalCost: "113.25",
+    shippingCost: "21.85",
+    taxesAndFees: "0",
+    totalCost: "135.10"
+  },
+  {
+    openDate: "2020-02-28",
+    items: [
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Bergamot",
+        weightOunces: "16",
+        remaining: "16",
+        price: "17.95",
+        shareOfShippingPercent: "50",
+        notes: ""
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Oakmoss",
+        weightOunces: "16",
+        remaining: "16",
+        price: "20.95",
+        shareOfShippingPercent: "50"
+      }
+    ],
+    source: "Lone Star Candle Supply",
+    subtotalCost: "38.90",
+    shippingCost: "7.92",
+    taxesAndFees: "3.86",
+    totalCost: "50.68"
+  },
+  {
+    openDate: "2020-02-28",
+    items: [
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Wassail",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "5",
+        notes: "Free sample"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Sweet Orange and Sriracha",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.33",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Watermint and Clementine",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.33",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Hemp",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.33",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Sea Minerals",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.33",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "High Tide",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.33",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Rose Petal Gelato",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.33",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "fragrance-oil",
+        category: "flowers-and-herbs",
+        name: "Honeysuckle Jasmine",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.33",
+        shareOfShippingPercent: "5"
+      },
+      {
+        type: "wicks",
+        name: 'CD-8 6" Pretabbed Wick',
+        length: "6",
+        count: "24",
+        remaining: "24",
+        series: "CD",
+        size: "8",
+        price: "4.94",
+        shareOfShippingPercent: "10",
+        notes: "this is 2 12-packs"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Mediterranean Fig",
+        weightOunces: "16",
+        remaining: "16",
+        price: "19.74",
+        shareOfShippingPercent: "50"
+      }
+    ],
+    source: "Candle Science",
+    subtotalCost: "33.99",
+    shippingCost: "10.42",
+    taxesAndFees: "3.66",
+    totalCost: "48.07"
+  },
+  {
+    openDate: "2020-03-18",
+    items: [
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Blackstrap Molasses Type",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1",
+        shareOfShippingPercent: "4",
+        notes: ""
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Black Sea",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Black Cherry",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "other",
+        name: "Black Ice Type",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Light Lager",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Banana",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Carrot Cake",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Chocolate",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1",
+        shareOfShippingPercent: "4",
+        notes: ""
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Cinnamon Stick",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1",
+        shareOfShippingPercent: "4",
+        notes: ""
+      },
+      {
+        type: "fragrance-oil",
+        category: "other",
+        name: "Cozy Cabin",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "other",
+        name: "Cozy Flannel",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Egyptian Musk",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Leather",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Sour Patch Kids Type",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "other",
+        name: "Winter BBW Type",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "spice",
+        name: "Pumpkin Spice",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1",
+        shareOfShippingPercent: "4"
+      },
+      {
+        type: "fragrance-oil",
+        category: "spice",
+        name: "Rosemary Pepper",
+        weightOunces: "32",
+        remaining: "32",
+        price: "19.21",
+        shareOfShippingPercent: "50",
+        notes: "Part of the spring sale"
+      }
+    ],
+    source: "Aztec Candle & Soap Supplies",
+    subtotalCost: "35.21",
+    shippingCost: "8.40",
+    taxesAndFees: "0",
+    totalCost: "43.61"
+  },
+  {
+    openDate: "2020-03-18",
+    items: [
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Amber and Driftwood",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.33",
+        shareOfShippingPercent: "8",
+        notes: ""
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Brown Sugar and Fig",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.33",
+        shareOfShippingPercent: "8"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Cinnamon Buns",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.33",
+        shareOfShippingPercent: "8"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Cinnamon Chai",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.33",
+        shareOfShippingPercent: "8"
+      },
+      {
+        type: "fragrance-oil",
+        category: "other",
+        name: "Nag Champa",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.33",
+        shareOfShippingPercent: "8"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Pumpkin Pie",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.33",
+        shareOfShippingPercent: "8"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Sea Minerals",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.33",
+        shareOfShippingPercent: "8"
+      },
+      {
+        type: "fragrance-oil",
+        category: "other",
+        name: "Toasted Pumpkin Spice",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.33",
+        shareOfShippingPercent: "8"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Watermelon",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.33",
+        shareOfShippingPercent: "8"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "High Tide",
+        weightOunces: "1",
+        remaining: "1",
+        price: "1.33",
+        shareOfShippingPercent: "8"
+      },
+      {
+        type: "misc-equipment",
+        name: "Fragrance Blotters",
+        count: "300",
+        remaining: "100",
+        price: "14.88",
+        notes: "12"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Cake",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "8",
+        notes: "Free sample"
+      }
+    ],
+    source: "CandleScience",
+    subtotalCost: "28.18",
+    shippingCost: "10.42",
+    taxesAndFees: "3.18",
+    totalCost: "41.78"
   }
 ];

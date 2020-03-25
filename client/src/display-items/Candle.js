@@ -123,10 +123,11 @@ function Candle({
     setComponentDialogValues(defaultComponentDailogValues);
   };
 
-  const handleAddBurn = (whenStarted, whenStopped) => {
+  const handleAddBurn = (whenStarted, whenStopped, notes) => {
     onAddBurn({
       whenStarted,
-      whenStopped
+      whenStopped,
+      notes
     });
     setBurnDialogOpen(false);
   };
