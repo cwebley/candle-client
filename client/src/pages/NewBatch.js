@@ -220,9 +220,9 @@ function NewBatch({ history, enqueueSnackbar }) {
 
   useEffect(() => {
     setWaxSuggestionGivenJarFill(
-      ((waxWeightSuggestion * jarFillPercentage) / 100).toString()
+      ((waxWeightSuggestion * jarFillPercentage * (1 - parseFloat(fragranceLoadTarget) / 100)) / 100).toString()
     );
-  }, [waxWeightSuggestion, setWaxSuggestionGivenJarFill, jarFillPercentage]);
+  }, [waxWeightSuggestion, setWaxSuggestionGivenJarFill, fragranceLoadTarget, jarFillPercentage]);
 
   const handleBatchItemFormChange = e => {
     const name = e.target.name;
@@ -529,8 +529,6 @@ function NewBatch({ history, enqueueSnackbar }) {
     );
   };
   
-  console.log("CUMUALTIVE WEIGHTS: ", cumulativeWeights);
-
   return (
     <div className={classes.root}>
       <div>

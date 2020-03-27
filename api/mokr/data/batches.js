@@ -4301,5 +4301,36 @@ module.exports = [
     ],
     name: "RBF round 2 part 2",
     fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-03-27",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "15.05" },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.34" },
+      { type: "wax", hashId: "3RO3", weightOunces: "1.71" },
+      { type: "fragrance-oil", hashId: "GZ6B", weightOunces: "1.03" },
+      { type: "fragrance-oil", hashId: "49QN", weightOunces: "0.51" },
+      { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.17" }
+    ],
+    layers: [
+      {
+        candleHashId: "34GD",
+        whenPoured: "2020-03-27T17:06:35",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "64",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75"
+      },
+      {
+        candleHashId: "RO5X",
+        whenPoured: "2020-03-27T17:06:35",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "64",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75"
+      }
+    ],
+    name: "RBF 10% Fragrance Test",
+    fragranceAddTemperatureFahrenheit: "205"
   }
 ];

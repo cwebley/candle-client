@@ -2730,5 +2730,25 @@ module.exports = [
       wickStickerHashId: "3NOB",
       notes: "\n"
     }
+  ],
+  [
+    {
+      name: "RBF 10% fragrance P-765",
+      jarHashId: "1ZE7",
+      wickHashId: "511W",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: ""
+    },
+    {
+      name: "RBF 10% fragrance P-775",
+      jarHashId: "1ZE7",
+      wickHashId: "5Z2G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: ""
+    }
   ]
 ];
