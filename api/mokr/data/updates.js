@@ -3518,7 +3518,7 @@ module.exports = [
   },
   // WL9M RBF P-770
   {
-    completedCandleWeightOunces: "1647",
+    completedCandleWeightOunces: "16.47",
     volumeOverflowPercent: "90",
     colorDescription: "whiteish",
     burns: [
@@ -3540,6 +3540,36 @@ module.exports = [
         stoppedWeightOunces: 14.5,
         notes: "Not quite full pool. flame a bit muted. some mushrooming."
       }
+    ],
+    notes: ""
+  },
+  // 34GD 10% RBF P-765
+  {
+    completedCandleWeightOunces: "16.29",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-28 12:18:00",
+        whenStopped: "2020-03-28 16:38:00",
+        stoppedWeightOunces: 16.29,
+        notes: "Basically full melt pool. Muted flame. Lots of mushrooming."
+      },
+    ],
+    notes: ""
+  },
+  // RO5X 10% RBF P-775
+  {
+    completedCandleWeightOunces: "16.34",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-03-28 12:18:00",
+        whenStopped: "2020-03-28 16:36:00",
+        stoppedWeightOunces: 15.80,
+        notes: "Basically full melt pool. Some mushrooming."
+      },
     ],
     notes: ""
   }

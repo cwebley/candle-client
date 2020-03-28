@@ -267,14 +267,8 @@ Zinc 44-32/ Zinc-51-32-18
 P-765
 P-770
 
-
 change the order of the defaults on the batch page so FO temps are next to each other and room/jar temps too
 total wax weight doesnt update after editing a wax
-
-Missing wicks
-
-Eco 8
-CD-8
 
 XL triple wick jar: https://www.candlemaking.com/oxford-xl-base-white-case-of-12.html.html
 https://calcandlesupply.com/16-oz-cali-jar/
@@ -297,29 +291,18 @@ lonestar oakmoss ftw
 fillmore green apple is excellent for fall
 
 
-
-clearly need better stickers.
-
 add confirmation link to new-supply-order form/table
-jar fill percentage on form could default to 100 - fo target
+msds sheets
+ifra certificates for fragrances
+vanillin content for fragrances if it seems important? average for a candle?
+
 autocomplete have a filter for not finished
-updating fo amounts doesnt update the calculated percent on batch page
 
 P775
 LX-18
-CD-8 (buy dis)
 HTP-104
 
-
-Eco-8 half jar again very well trimmed wick? idk
-
-
 display client side burns
-
-jar fill percentage on new-batch form doesn't let you backspace it all the way
-fragrance load doesnt update after changing an fo volume
-suggested fragrance weight doesnt use the new fragrance formula
-/batch page total cost should all include cents. EX of fail: $13
 add weight to burns
 
-jar percentage and volume only adds up wax weight and doesnt account for FO
+jar fill percentage on new-batch form doesn't let you backspace it all the way
