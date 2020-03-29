@@ -3344,7 +3344,8 @@ module.exports = [
         whenStarted: "2020-03-26 11:30:00",
         whenStopped: "2020-03-26 18:30:00",
         stoppedWeightOunces: 14.56,
-        notes: "Flame a bit large, but put itself out with 1/4 inch remaning, not much soot, not much residue. Pretty solid."
+        notes:
+          "Flame a bit large, but put itself out with 1/4 inch remaning, not much soot, not much residue. Pretty solid."
       }
     ],
     notes: ""
@@ -3373,6 +3374,12 @@ module.exports = [
         whenStopped: "2020-03-26 16:30:00",
         stoppedWeightOunces: 14.56,
         notes: "Not full pool. flame muted."
+      },
+      {
+        whenStarted: "2020-03-28 20:30:00",
+        whenStopped: "2020-03-29 01:30:00",
+        stoppedWeightOunces: 14.04,
+        notes: "Not full pool"
       }
     ],
     notes: ""
@@ -3401,7 +3408,8 @@ module.exports = [
         whenStarted: "2020-03-26 11:30:00",
         whenStopped: "2020-03-26 16:30:00",
         stoppedWeightOunces: 13.81,
-        notes: "1/4 inch pool. flame flickering and too tall. something not right about this combo."
+        notes:
+          "1/4 inch pool. flame flickering and too tall. something not right about this combo."
       }
     ],
     notes: ""
@@ -3421,7 +3429,7 @@ module.exports = [
       {
         whenStarted: "2020-03-25 20:45:00",
         whenStopped: "2020-03-26 02:00:00",
-        stoppedWeightOunces: 15.60,
+        stoppedWeightOunces: 15.6,
         notes: "almost full pool, some hangup on one side. otherwise looks good"
       },
       {
@@ -3429,6 +3437,12 @@ module.exports = [
         whenStopped: "2020-03-26 16:30:00",
         stoppedWeightOunces: 14.88,
         notes: "Not full pool. plenty of hang up. flame muted."
+      },
+      {
+        whenStarted: "2020-03-28 20:30:00",
+        whenStopped: "2020-03-29 01:30:00",
+        stoppedWeightOunces: 14.42,
+        notes: "Not a full pool."
       }
     ],
     notes: ""
@@ -3457,6 +3471,12 @@ module.exports = [
         whenStopped: "2020-03-26 16:30:00",
         stoppedWeightOunces: 14.65,
         notes: "Not full pool. flame a muted."
+      },
+      {
+        whenStarted: "2020-03-28 20:30:00",
+        whenStopped: "2020-03-29 01:30:00",
+        stoppedWeightOunces: 14.1,
+        notes: "Not quite a full pool."
       }
     ],
     notes: ""
@@ -3482,7 +3502,7 @@ module.exports = [
       {
         whenStarted: "2020-03-26 11:30:00",
         whenStopped: "2020-03-26 16:30:00",
-        stoppedWeightOunces: 14.60,
+        stoppedWeightOunces: 14.6,
         notes: "Not quite full pool. flame a muted. some mushrooming."
       }
     ],
@@ -3511,7 +3531,8 @@ module.exports = [
         whenStarted: "2020-03-26 11:30:00",
         whenStopped: "2020-03-26 16:30:00",
         stoppedWeightOunces: 14.01,
-        notes: "1/4 inch pool. big time mushrooming. this is the only one that isn't a muted flame of the premiers."
+        notes:
+          "1/4 inch pool. big time mushrooming. this is the only one that isn't a muted flame of the premiers."
       }
     ],
     notes: ""
@@ -3555,6 +3576,12 @@ module.exports = [
         stoppedWeightOunces: 16.29,
         notes: "Basically full melt pool. Muted flame. Lots of mushrooming."
       },
+      {
+        whenStarted: "2020-03-28 20:30:00",
+        whenStopped: "2020-03-29 01:30:00",
+        stoppedWeightOunces: 14.98,
+        notes: "1/4 inch melt pool, but pretty big mushrooming."
+      }
     ],
     notes: ""
   },
@@ -3567,9 +3594,21 @@ module.exports = [
       {
         whenStarted: "2020-03-28 12:18:00",
         whenStopped: "2020-03-28 16:36:00",
-        stoppedWeightOunces: 15.80,
+        stoppedWeightOunces: 15.8,
         notes: "Basically full melt pool. Some mushrooming."
       },
+      {
+        whenStarted: "2020-03-28 20:30:00",
+        whenStopped: "2020-03-29 01:30:00",
+        stoppedWeightOunces: 16.29,
+        notes: "Basically full melt pool. Muted flame. Lots of mushrooming."
+      },
+      {
+        whenStarted: "2020-03-28 20:30:00",
+        whenStopped: "2020-03-29 01:30:00",
+        stoppedWeightOunces: 14.91,
+        notes: "1/4 inch pool but big time mushrooming"
+      }
     ],
     notes: ""
   }
