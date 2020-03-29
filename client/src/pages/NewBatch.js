@@ -220,15 +220,34 @@ function NewBatch({ history, enqueueSnackbar }) {
 
   useEffect(() => {
     setWaxSuggestionGivenJarFill(
-      ((waxWeightSuggestion * jarFillPercentage * (1 - parseFloat(fragranceLoadTarget) / 100)) / 100).toString()
+      (
+        (waxWeightSuggestion *
+          jarFillPercentage *
+          (1 - parseFloat(fragranceLoadTarget) / 100)) /
+        100
+      ).toString()
     );
-  }, [waxWeightSuggestion, setWaxSuggestionGivenJarFill, fragranceLoadTarget, jarFillPercentage]);
+  }, [
+    waxWeightSuggestion,
+    setWaxSuggestionGivenJarFill,
+    fragranceLoadTarget,
+    jarFillPercentage
+  ]);
 
   const handleBatchItemFormChange = e => {
     const name = e.target.name;
     const value = e.target.value;
+    const checked = e.target.checked;
+
     setNewBatchItemValues(newBatchItemValues => {
       let formattedValues = newBatchItemValues;
+      if (name === "finished") {
+        return {
+          ...formattedValues,
+          [name]: checked
+        };
+      }
+
       if (name === "type") {
         if (value === "wax") {
           // destructure to remove the extra fields
@@ -266,12 +285,89 @@ function NewBatch({ history, enqueueSnackbar }) {
 
   const addBatchItem = e => {
     const newBatchItem = { ...newBatchItemValues };
-    setBatchValues(batchValues => {
-      return {
-        ...batchValues,
-        batchItems: [...batchValues.batchItems, newBatchItem]
-      };
-    });
+    if (newBatchItem.combinedPartner) {
+      setBatchValues(batchValues => {
+        // copy the batchItems for updating throughout this fn
+        let updatedBatchItems = [...batchValues.batchItems];
+
+        let oldPartnerIndex = -1;
+        let updatedOldPartner;
+        // find any items that are already linked to the new combinedPartner
+        batchValues.batchItems.forEach((item, i) => {
+          if (
+            item.type === newBatchItem.type &&
+            item.combinedPartner === newBatchItem.combinedPartner
+          ) {
+            oldPartnerIndex = i;
+            updatedOldPartner = { ...item };
+            delete updatedOldPartner.combinedPartner;
+          }
+        });
+
+        // remove the link old link
+        if (oldPartnerIndex !== -1) {
+          updatedBatchItems = [
+            ...updatedBatchItems.slice(0, oldPartnerIndex),
+            updatedOldPartner,
+            ...updatedBatchItems.slice(oldPartnerIndex + 1)
+          ];
+        }
+
+        let oldLinkedPartnerIndex = -1;
+        let updatedOldLinkedPartner;
+
+        // find any items that are already linked to added item
+        batchValues.batchItems.forEach((item, i) => {
+          if (
+            item.type === newBatchItem.type &&
+            item.combinedPartner === newBatchItem.hashId
+          ) {
+            oldLinkedPartnerIndex = i;
+            updatedOldLinkedPartner = { ...item };
+            delete updatedOldLinkedPartner.combinedPartner;
+          }
+        });
+
+        // remove the link old link for this too
+        if (oldLinkedPartnerIndex !== -1) {
+          updatedBatchItems = [
+            ...updatedBatchItems.slice(0, oldLinkedPartnerIndex),
+            updatedOldLinkedPartner,
+            ...updatedBatchItems.slice(oldLinkedPartnerIndex + 1)
+          ];
+        }
+
+        // update the partner to link to the added item
+        let partnerIndex;
+        let updatedPartner;
+        batchValues.batchItems.forEach((item, i) => {
+          if (
+            item.type === newBatchItem.type &&
+            item.hashId === newBatchItem.combinedPartner
+          ) {
+            partnerIndex = i;
+            updatedPartner = { ...item, combinedPartner: newBatchItem.hashId };
+          }
+        });
+
+        return {
+          ...batchValues,
+          batchItems: [
+            ...updatedBatchItems.slice(0, partnerIndex),
+            updatedPartner,
+            ...updatedBatchItems.slice(partnerIndex + 1),
+            newBatchItem
+          ]
+        };
+      });
+    } else {
+      setBatchValues(batchValues => {
+        return {
+          ...batchValues,
+          batchItems: [...batchValues.batchItems, newBatchItem]
+        };
+      });
+    }
 
     addToCumulativeWeights(newBatchItem);
 
@@ -306,7 +402,8 @@ function NewBatch({ history, enqueueSnackbar }) {
     setCumulativeWeights({
       ...previousCumulativeWeights,
       [editedBatchItem.type]:
-      adjustedPreviousWeightForType + parseFloat(editedBatchItem.weightOunces) || 0
+        adjustedPreviousWeightForType +
+          parseFloat(editedBatchItem.weightOunces) || 0
     });
   };
 
@@ -381,16 +478,108 @@ function NewBatch({ history, enqueueSnackbar }) {
   const editBatchItem = e => {
     const newBatchItem = { ...newBatchItemValues };
 
-    setBatchValues(batchValues => {
-      return {
-        ...batchValues,
-        batchItems: [
-          ...batchValues.batchItems.slice(0, editItemIndex),
-          { ...newBatchItem },
-          ...batchValues.batchItems.slice(editItemIndex + 1)
-        ]
-      };
-    });
+    if (newBatchItem.combinedPartner) {
+      // pair up the partner as well if this is a combined resource
+      setBatchValues(batchValues => {
+        // copy the batchItems for updating throughout this fn
+        let updatedBatchItems = [...batchValues.batchItems];
+
+        let oldPartnerIndex = -1;
+        let updatedOldPartner;
+        // find any items that are already linked to the new combinedPartner
+        batchValues.batchItems.forEach((item, i) => {
+          if (
+            item.type === newBatchItem.type &&
+            item.combinedPartner === newBatchItem.combinedPartner
+          ) {
+            oldPartnerIndex = i;
+            updatedOldPartner = { ...item };
+            delete updatedOldPartner.combinedPartner;
+          }
+        });
+
+        // remove the link old link
+        if (oldPartnerIndex !== -1) {
+          debugger;
+          updatedBatchItems = [
+            ...updatedBatchItems.slice(0, oldPartnerIndex),
+            updatedOldPartner,
+            ...updatedBatchItems.slice(oldPartnerIndex + 1)
+          ];
+        }
+
+        let oldLinkedPartnerIndex = -1;
+        let updatedOldLinkedPartner;
+
+        // find any items that are already linked to editedItem
+        batchValues.batchItems.forEach((item, i) => {
+          if (
+            item.type === newBatchItem.type &&
+            item.combinedPartner === newBatchItem.hashId
+          ) {
+            oldPartnerIndex = i;
+            updatedOldLinkedPartner = { ...item };
+            delete updatedOldLinkedPartner.combinedPartner;
+          }
+        });
+
+        // remove the link old link for this too
+        if (oldLinkedPartnerIndex !== -1) {
+          debugger;
+          updatedBatchItems = [
+            ...updatedBatchItems.slice(0, oldPartnerIndex),
+            updatedOldLinkedPartner,
+            ...updatedBatchItems.slice(oldPartnerIndex + 1)
+          ];
+        }
+
+
+        let newPartnerIndex;
+        let updatedNewPartner;
+        // find the partner based on the type and hashId
+        batchValues.batchItems.forEach((item, i) => {
+          if (
+            item.type === newBatchItem.type &&
+            item.hashId === newBatchItem.combinedPartner
+          ) {
+            newPartnerIndex = i;
+            updatedNewPartner = {
+              ...item,
+              combinedPartner: newBatchItem.hashId
+            };
+          }
+        });
+
+        // update batchItems with the partner linked to the edited item
+        const batchItemsWithUpdatedPartner = [
+          ...updatedBatchItems.slice(0, newPartnerIndex),
+          updatedNewPartner,
+          ...updatedBatchItems.slice(newPartnerIndex + 1)
+        ];
+
+        return {
+          ...batchValues,
+          // replace the old item with the edited item
+          batchItems: [
+            ...batchItemsWithUpdatedPartner.slice(0, editItemIndex),
+            { ...newBatchItem },
+            ...batchItemsWithUpdatedPartner.slice(editItemIndex + 1)
+          ]
+        };
+      });
+    } else {
+      // edited item doesn't have a combinedPartner
+      setBatchValues(batchValues => {
+        return {
+          ...batchValues,
+          batchItems: [
+            ...batchValues.batchItems.slice(0, editItemIndex),
+            { ...newBatchItem },
+            ...batchValues.batchItems.slice(editItemIndex + 1)
+          ]
+        };
+      });
+    }
 
     editCumulativeWeights(batchValues.batchItems[editItemIndex], newBatchItem);
 
@@ -528,7 +717,9 @@ function NewBatch({ history, enqueueSnackbar }) {
       ((waxWeightSuggestion * floatValue) / 100).toString()
     );
   };
-  
+
+  console.log("BATCH DATA: ", batchValues);
+
   return (
     <div className={classes.root}>
       <div>
@@ -542,6 +733,7 @@ function NewBatch({ history, enqueueSnackbar }) {
         </header>
         <main>
           <BatchItemDialog
+            combineOptions={batchValues.batchItems}
             values={newBatchItemValues}
             itemTypes={resourceTypes.filter(r => r.scope === "batch")}
             waxWeightSuggestion={waxSuggestionGivenJarFill}

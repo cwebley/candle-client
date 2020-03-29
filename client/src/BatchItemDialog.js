@@ -1,7 +1,9 @@
 import React, { useState, Fragment } from "react";
+import Checkbox from "@material-ui/core/Checkbox";
 import TextField from "@material-ui/core/TextField";
 import InputAdornment from "@material-ui/core/InputAdornment";
 import FormControl from "@material-ui/core/FormControl";
+import FormControlLabel from "@material-ui/core/FormControlLabel";
 import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
 import Dialog from "@material-ui/core/Dialog";
@@ -29,6 +31,7 @@ const styles = theme => ({
 
 function BatchItemDialog({
   values,
+  combineOptions,
   editItemIndex,
   isOpen,
   onClose,
@@ -153,6 +156,39 @@ function BatchItemDialog({
               />
             </Fragment>
           )}
+          {values.type && (
+            <FormControl>
+              <InputLabel htmlFor="combine-partner-selector">
+                Combined Partner
+              </InputLabel>
+              <Select
+                autoFocus
+                value={values.combinedPartner || ""}
+                onChange={onChange}
+                inputProps={{
+                  name: "combinedPartner",
+                  id: "combine-partner-selector"
+                }}
+              >
+                {combineOptions.filter(o => o.type === values.type).map(o => (
+                  <MenuItem key={o.hashId} value={o.hashId}>
+                    {o.hashId}
+                  </MenuItem>
+                ))}
+              </Select>
+            </FormControl>
+          )}
+          <FormControlLabel
+            control={
+              <Checkbox
+                checked={values.finished || false}
+                onChange={onChange}
+                name="finished"
+                color="primary"
+              />
+            }
+            label="Finished"
+          />
         </DialogContent>
         <DialogActions>
           <Button type="submit">
