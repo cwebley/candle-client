@@ -10,6 +10,7 @@ import IconButton from "@material-ui/core/IconButton";
 import DeleteIcon from "@material-ui/icons/Delete";
 import EditIcon from "@material-ui/icons/Edit";
 import { withStyles } from "@material-ui/core/styles";
+import lightBlue from "@material-ui/core/colors/lightBlue";
 
 const styles = theme => ({
   root: {
@@ -19,10 +20,49 @@ const styles = theme => ({
   toolbar: {
     backgroundColor: theme.palette.primary.light
   },
-  table: {}
+  table: {},
+  combine1: {
+    backgroundColor: lightBlue[100]
+  },
+  combine2: {
+    backgroundColor: lightBlue[500]
+  },
+  combine3: {
+    backgroundColor: lightBlue[300]
+  },
+  combine4: {
+    backgroundColor: lightBlue[400]
+  },
+  combine5: {
+    backgroundColor: lightBlue[200]
+  }
 });
 
 function BatchItemTable({ itemData, onDeleteClick, onEditClick, classes }) {
+  let groupCombineData = [];
+  let combineClassCount = 0;
+
+  itemData.forEach(o => {
+    let updatedItem = { ...o };
+    groupCombineData.forEach((gd, i) => {
+      if (gd.combineId === o.combineId) {
+        // if it already has a combineClassName and is a combineId match, its part of a multi-combine
+        // if not, we can increment the combineClassCount
+        if (!gd.combineClassName) {
+          // reset the counter back to 0 if we have tons of combined items to show
+          if (combineClassCount === 5) {
+            combineClassCount = 0;
+          }
+          combineClassCount++;
+        }
+
+        gd.combineClassName = `combine${combineClassCount}`;
+        updatedItem.combineClassName = `combine${combineClassCount}`;
+      }
+    });
+    groupCombineData.push(updatedItem);
+  });
+
   return (
     <Paper className={classes.root}>
       <Table className={classes.table}>
@@ -30,9 +70,7 @@ function BatchItemTable({ itemData, onDeleteClick, onEditClick, classes }) {
           <TableRow>
             {(onDeleteClick || onEditClick) && (
               <TableCell>
-                <Typography variant="h6">{`Batch Items (${
-                  itemData.length
-                })`}</Typography>
+                <Typography variant="h6">{`Batch Items (${itemData.length})`}</Typography>
               </TableCell>
             )}
             <TableCell>Type</TableCell>
@@ -41,7 +79,7 @@ function BatchItemTable({ itemData, onDeleteClick, onEditClick, classes }) {
           </TableRow>
         </TableHead>
         <TableBody>
-          {itemData.map((item, i) => {
+          {groupCombineData.map((item, i) => {
             let itemAmount;
             switch (item.type) {
               case "wax":
@@ -54,7 +92,12 @@ function BatchItemTable({ itemData, onDeleteClick, onEditClick, classes }) {
                 itemAmount = item.pieces;
             }
             return (
-              <TableRow key={i}>
+              <TableRow
+                key={i}
+                className={`${classes.row} ${
+                  item.combineClassName ? classes[item.combineClassName] : ""
+                }`}
+              >
                 {(onDeleteClick || onEditClick) && (
                   <TableCell padding="none">
                     {onDeleteClick && (

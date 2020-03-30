@@ -87,7 +87,7 @@ function BatchItemDialog({
       }
     });
     if (!sameValueFound) {
-      groupedCombineOptions.push(o);
+      groupedCombineOptions.push({ ...o });
     }
   });
 
