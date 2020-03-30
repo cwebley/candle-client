@@ -50,7 +50,7 @@ function BatchItemDialog({
   const getWeightPlaceholder = () => {
     const weightSuggestionValue =
       values.type === "wax" ? waxWeightSuggestion : foWeightSuggestion;
-    if (!weightSuggestionValue) {
+    if (isNaN(weightSuggestionValue)) {
       return "";
     }
 
@@ -67,10 +67,37 @@ function BatchItemDialog({
     onAddItem();
   };
 
-  const filteredCombinedOptions = combineOptions.filter(
-    o => o.type === values.type && o.hashId !== values.hashId
-  );
-  console.log("FILTERED: ", filteredCombinedOptions);
+  const filteredCombineOptions = combineOptions
+    .filter(o => o.type === values.type && o.hashId !== values.hashId)
+    .map(o => ({
+      name: o.hashId,
+      value: o.combineId
+    }));
+
+  let groupedCombineOptions = [];
+
+  filteredCombineOptions.forEach(o => {
+    let sameValueFound = false;
+    groupedCombineOptions.forEach(go => {
+      if (go.value === o.value) {
+        // combine the names into one select option
+        go.name = `${go.name}-${o.name}`;
+        sameValueFound = true;
+        return;
+      }
+    });
+    if (!sameValueFound) {
+      groupedCombineOptions.push(o);
+    }
+  });
+
+  const allCombineOptions = [
+    {
+      name: "None",
+      value: ""
+    },
+    ...groupedCombineOptions
+  ];
 
   return (
     <Dialog open={isOpen} onClose={onClose}>
@@ -168,19 +195,17 @@ function BatchItemDialog({
               </InputLabel>
               <Select
                 autoFocus
-                value={values.combinedPartner || ""}
+                value={values.combineId || ""}
                 onChange={onChange}
-                disabled={
-                  !filteredCombinedOptions.length
-                }
+                disabled={!filteredCombineOptions.length}
                 inputProps={{
-                  name: "combinedPartner",
+                  name: "combineId",
                   id: "combine-partner-selector"
                 }}
               >
-                {filteredCombinedOptions.map(o => (
-                  <MenuItem key={o.hashId} value={o.hashId}>
-                    {o.hashId}
+                {allCombineOptions.map(o => (
+                  <MenuItem key={o.name} value={o.value}>
+                    {o.name}
                   </MenuItem>
                 ))}
               </Select>
