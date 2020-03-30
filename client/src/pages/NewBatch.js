@@ -500,7 +500,6 @@ function NewBatch({ history, enqueueSnackbar }) {
 
         // remove the link old link
         if (oldPartnerIndex !== -1) {
-          debugger;
           updatedBatchItems = [
             ...updatedBatchItems.slice(0, oldPartnerIndex),
             updatedOldPartner,
@@ -525,7 +524,6 @@ function NewBatch({ history, enqueueSnackbar }) {
 
         // remove the link old link for this too
         if (oldLinkedPartnerIndex !== -1) {
-          debugger;
           updatedBatchItems = [
             ...updatedBatchItems.slice(0, oldPartnerIndex),
             updatedOldLinkedPartner,

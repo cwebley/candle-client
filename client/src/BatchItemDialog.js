@@ -67,6 +67,11 @@ function BatchItemDialog({
     onAddItem();
   };
 
+  const filteredCombinedOptions = combineOptions.filter(
+    o => o.type === values.type && o.hashId !== values.hashId
+  );
+  console.log("FILTERED: ", filteredCombinedOptions);
+
   return (
     <Dialog open={isOpen} onClose={onClose}>
       <DialogTitle>New Batch Item</DialogTitle>
@@ -165,12 +170,15 @@ function BatchItemDialog({
                 autoFocus
                 value={values.combinedPartner || ""}
                 onChange={onChange}
+                disabled={
+                  !filteredCombinedOptions.length
+                }
                 inputProps={{
                   name: "combinedPartner",
                   id: "combine-partner-selector"
                 }}
               >
-                {combineOptions.filter(o => o.type === values.type).map(o => (
+                {filteredCombinedOptions.map(o => (
                   <MenuItem key={o.hashId} value={o.hashId}>
                     {o.hashId}
                   </MenuItem>
