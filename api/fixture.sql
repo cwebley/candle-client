@@ -61,6 +61,8 @@ create table if not exists fragrance_oils (
   order_id int,
   weight_ounces decimal(9,4),
   remaining decimal(9,4),
+  -- confirmed to be finished/discarded
+  finished tinyint(1) default 0,
   price decimal(13,4) default 0,
   share_of_shipping_percent decimal(6,2) default 0,
   notes text,
@@ -77,6 +79,8 @@ create table if not exists waxes (
   material varchar(255),
   weight_pounds decimal(9,4),
   remaining decimal(9,4),
+  -- confirmed to be finished/discarded
+  finished tinyint(1) default 0,
   price decimal(13,4) default 0,
   share_of_shipping_percent decimal(6,2) default 0,
   notes text,
@@ -91,6 +95,8 @@ create table if not exists additives (
   order_id int,
   weight_ounces decimal(9,4),
   remaining decimal(9,4),
+  -- confirmed to be finished/discarded
+  finished tinyint(1) default 0,
   price decimal(13,4) default 0,
   share_of_shipping_percent decimal(6,2) default 0,
   notes text,
@@ -105,6 +111,8 @@ create table if not exists boxes (
   order_id int,
   count int,
   remaining int,
+  -- confirmed to be finished/discarded
+  finished tinyint(1) default 0,
   price decimal(13,4) default 0,
   share_of_shipping_percent decimal(6,2) default 0,
   notes text,
@@ -120,6 +128,8 @@ create table if not exists dye_blocks (
   order_id int,
   pieces decimal(9,4),
   remaining decimal(9,4),
+  -- confirmed to be finished/discarded
+  finished tinyint(1) default 0,
   price decimal(13,4) default 0,
   share_of_shipping_percent decimal(6,2) default 0,
   notes text,
@@ -139,6 +149,8 @@ create table if not exists jars (
   diameter_inches decimal(9,4),
   count int,
   remaining int,
+  -- confirmed to be finished/discarded
+  finished tinyint(1) default 0,
   price decimal(13,4) default 0,
   share_of_shipping_percent decimal(6,2) default 0,
   notes text,
@@ -155,6 +167,8 @@ create table if not exists lids (
   diameter_inches decimal(9,4),
   count int,
   remaining int,
+  -- confirmed to be finished/discarded
+  finished tinyint(1) default 0,
   price decimal(13,4) default 0,
   share_of_shipping_percent decimal(6,2) default 0,
   notes text,
@@ -169,6 +183,8 @@ create table if not exists misc_equipment (
   order_id int,
   count int,
   remaining int,
+  -- confirmed to be finished/discarded
+  finished tinyint(1) default 0,
   price decimal(13,4) default 0,
   share_of_shipping_percent decimal(6,2) default 0,
   notes text,
@@ -183,6 +199,8 @@ create table if not exists warning_labels (
   order_id int,
   count int,
   remaining int,
+  -- confirmed to be finished/discarded
+  finished tinyint(1) default 0,
   color varchar(255) not null,
   price decimal(13,4) default 0,
   share_of_shipping_percent decimal(6,2) default 0,
@@ -198,6 +216,8 @@ create table if not exists wicks (
   order_id int,
   count int,
   remaining int,
+  -- confirmed to be finished/discarded
+  finished tinyint(1) default 0,
   length decimal(9,4),
   series varchar(255),
   size varchar(255),
@@ -215,6 +235,8 @@ create table if not exists wick_stickers (
   order_id int,
   count int,
   remaining int,
+  -- confirmed to be finished/discarded
+  finished tinyint(1) default 0,
   price decimal(13,4) default 0,
   share_of_shipping_percent decimal(6,2) default 0,
   notes text,
@@ -315,6 +337,8 @@ create table if not exists batches_waxes (
   batch_id int not null,
   wax_id int not null,
   weight_ounces decimal(9,4),
+   -- items with the same combine_id are meant to be displayed as combined
+  combine_id int,
   foreign key (batch_id) references batches(id),
   foreign key (wax_id) references waxes(id)
 );
@@ -326,6 +350,8 @@ create table if not exists batches_additives (
   weight_ounces decimal(9,4),
     -- percent additive by weight
   additive_load decimal(5,2),
+   -- items with the same combine_id are meant to be displayed as combined
+  combine_id int,
   foreign key (batch_id) references batches(id),
   foreign key (additive_id) references additives(id)
 );
@@ -337,6 +363,8 @@ create table if not exists batches_fragrances (
   weight_ounces decimal(9,4),
   -- percent fragrance by weight
   fragrance_load decimal(5,2),
+  -- items with the same combine_id are meant to be displayed as combined
+  combine_id int,
   foreign key (batch_id) references batches(id),
   foreign key (fragrance_id) references fragrance_oils(id)
 );
@@ -346,6 +374,8 @@ create table if not exists batches_dye_blocks (
   batch_id int not null,
   dye_block_id int not null,
   pieces decimal(9,4),
+   -- items with the same combine_id are meant to be displayed as combined
+  combine_id int,
   foreign key (batch_id) references batches(id),
   foreign key (dye_block_id) references dye_blocks(id)
 );
