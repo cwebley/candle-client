@@ -4233,7 +4233,8 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomHumidityPercent: "48",
         coolingRoomTemperatureFahrenheit: "75",
-        containerTemperatureFahrenheit: "75"
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
       },
       {
         candleHashId: "RVYZ",
@@ -4241,7 +4242,8 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomHumidityPercent: "48",
         coolingRoomTemperatureFahrenheit: "75",
-        containerTemperatureFahrenheit: "75"
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
       },
       {
         candleHashId: "3K8G",
@@ -4249,7 +4251,8 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomHumidityPercent: "48",
         coolingRoomTemperatureFahrenheit: "75",
-        containerTemperatureFahrenheit: "75"
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
       },
       {
         candleHashId: "REE2",
@@ -4257,7 +4260,8 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomHumidityPercent: "48",
         coolingRoomTemperatureFahrenheit: "75",
-        containerTemperatureFahrenheit: "75"
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
       }
     ],
     name: "RBF round 2 part 1",
@@ -4280,7 +4284,8 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomHumidityPercent: "48",
         coolingRoomTemperatureFahrenheit: "75",
-        containerTemperatureFahrenheit: "75"
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
       },
       {
         candleHashId: "3ZZY",
@@ -4288,7 +4293,8 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomHumidityPercent: "48",
         coolingRoomTemperatureFahrenheit: "75",
-        containerTemperatureFahrenheit: "75"
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
       },
       {
         candleHashId: "WL9M",
@@ -4296,7 +4302,8 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomHumidityPercent: "48",
         coolingRoomTemperatureFahrenheit: "75",
-        containerTemperatureFahrenheit: "75"
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
       }
     ],
     name: "RBF round 2 part 2",
@@ -4319,7 +4326,8 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomHumidityPercent: "64",
         coolingRoomTemperatureFahrenheit: "75",
-        containerTemperatureFahrenheit: "75"
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
       },
       {
         candleHashId: "RO5X",
@@ -4327,10 +4335,55 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomHumidityPercent: "64",
         coolingRoomTemperatureFahrenheit: "75",
-        containerTemperatureFahrenheit: "75"
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
       }
     ],
     name: "RBF 10% Fragrance Test",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-03-30",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "6.73" },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.15" },
+      { type: "wax", hashId: "3RO3", weightOunces: "0.77" },
+      { type: "fragrance-oil", hashId: "GZ6B", weightOunces: "0.92" }
+    ],
+    layers: [
+      {
+        candleHashId: "W9G6",
+        whenPoured: "2020-03-30T19:26:17",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
+      }
+    ],
+    name: "Root Beer only test",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-03-30",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "6.73" },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.15" },
+      { type: "wax", hashId: "3RO3", weightOunces: "0.77" },
+      { type: "fragrance-oil", hashId: "49QN", weightOunces: "0.92" }
+    ],
+    layers: [
+      {
+        candleHashId: "3Q6L",
+        whenPoured: "2020-03-30T19:26:22",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "50",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
+      }
+    ],
+    name: "Very Vanilla only test",
     fragranceAddTemperatureFahrenheit: "205"
   }
 ];

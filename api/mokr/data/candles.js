@@ -2750,5 +2750,25 @@ module.exports = [
       wickStickerHashId: "3NOB",
       notes: ""
     }
+  ],
+  [
+    {
+      name: "Root Beer Only 10% fragrance P-767",
+      jarHashId: "1ZE7",
+      wickHashId: "DVG6",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: ""
+    },
+    {
+      name: "Vanilla Only 10% fragrance P-767",
+      jarHashId: "M4PX",
+      wickHashId: "DVG6",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: ""
+    }
   ]
 ];
