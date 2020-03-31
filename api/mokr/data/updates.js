@@ -3617,7 +3617,14 @@ module.exports = [
     completedCandleWeightOunces: "15.5",
     volumeOverflowPercent: "85",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2020-03-31 10:30:00",
+        whenStopped: "2020-03-31 14:50:00",
+        stoppedWeightOunces: 14.75,
+        notes: "1/4 inch pool and moderate mushrooming"
+      }
+    ],
     notes: ""
   },
   // 3Q6L 10% Vanilla only P-767
@@ -3625,7 +3632,14 @@ module.exports = [
     completedCandleWeightOunces: "15.32",
     volumeOverflowPercent: "85",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2020-03-31 10:30:00",
+        whenStopped: "2020-03-31 14:50:00",
+        stoppedWeightOunces: 14.69,
+        notes: "1/4 inch pool and moderate mushrooming"
+      }
+    ],
     notes: ""
   }
 ];
