@@ -3614,7 +3614,7 @@ module.exports = [
   },
   // W9G6 10% Root beer only P-767
   {
-    completedCandleWeightOunces: "16.34",
+    completedCandleWeightOunces: "15.5",
     volumeOverflowPercent: "85",
     colorDescription: "whiteish",
     burns: [],
@@ -3622,7 +3622,7 @@ module.exports = [
   },
   // 3Q6L 10% Vanilla only P-767
   {
-    completedCandleWeightOunces: "16.34",
+    completedCandleWeightOunces: "15.32",
     volumeOverflowPercent: "85",
     colorDescription: "whiteish",
     burns: [],
