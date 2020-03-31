@@ -10,6 +10,7 @@ import CircularProgress from "@material-ui/core/CircularProgress";
 import DataLabel from "../display-items/DataLabel";
 import CandleResource from "../display-items/CandleResource";
 import BatchLayer from "../display-items/BatchLayer";
+import { processAllBatchData } from "../utils";
 
 const styles = theme => ({
   root: {
@@ -43,7 +44,9 @@ function Batch({ match, classes }) {
       );
       console.log("RESULTS: ", result && result.data);
       if (result && result.data) {
-        setBatch(result.data);
+        const processedData = processAllBatchData(result.data);
+        console.log("PROCESSED: ", processedData)
+        setBatch(processedData);
       }
     };
     fetchBatch();
