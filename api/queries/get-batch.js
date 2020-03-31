@@ -94,6 +94,7 @@ function getBatchesFragranceOils(db, batchId, cb) {
   const sql = `
     SELECT
       bf.weight_ounces AS "weightOunces", bf.fragrance_load AS "fragranceLoad",
+      bf.combine_id AS "combineId",
       f.hash_id AS "hashId", f.name, f.slug,
       f.order_id, f.weight_ounces AS "bottleWeightOunces",
       f.price AS "itemCost", f.share_of_shipping_percent AS "shareOfShippingPercent",
@@ -110,9 +111,7 @@ function getBatchesFragranceOils(db, batchId, cb) {
 
   const params = [batchId];
 
-  console.log("GET FOS FOR BATCH");
   db.query(sql, params, (err, result) => {
-    console.log("DONT GETTING FOS FOR BATCH");
     if (err) {
       console.error(err, {
         sql,
@@ -141,6 +140,7 @@ function getBatchesAdditives(db, batchId, cb) {
   const sql = `
     SELECT
       ba.weight_ounces AS "weightOunces", ba.additive_load AS "additiveLoad",
+      ba.combine_id AS "combineId",
       a.hash_id AS "hashId", a.name, a.slug,
       a.order_id, a.weight_ounces AS "itemWeightOunces",
       a.price AS "itemCost", a.share_of_shipping_percent AS "shareOfShippingPercent",
@@ -155,9 +155,7 @@ function getBatchesAdditives(db, batchId, cb) {
 
   const params = [batchId];
 
-  console.log("GET ADDITIVES FOR BATCH");
   db.query(sql, params, (err, result) => {
-    console.log("DONT GETTING ADDITIVES FOR BATCH");
     if (err) {
       console.error(err, {
         sql,
@@ -186,7 +184,9 @@ function getBatchesWaxes(db, batchId, cb) {
   const sql = `
     SELECT
       bw.weight_ounces AS "weightOunces", w.hash_id AS "hashId", w.name, w.slug,
-      w.order_id, w.weight_pounds AS "shipmentWeightPounds", w.material,
+      bw.combine_id AS "combineId",
+      w.order_id, w.weight_pounds AS "shipmentWeightPounds",
+      w.material,
       w.price AS "itemCost", w.share_of_shipping_percent AS "shareOfShippingPercent",
       w.notes, so.source, so.item_count AS "orderItemCount",
       so.subtotal_cost AS "orderSubtotalCost", so.taxes_and_fees AS "orderTaxesAndFees",
