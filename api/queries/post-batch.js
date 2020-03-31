@@ -333,13 +333,13 @@ function insertBatchesAdditives(
       INSERT INTO batches_additives
         (batch_id, weight_ounces, additive_id)
     `;
-    let params = [];
-    let decrementCases = [];
-    let finishedCases = [];
-    let decrementParams = [];
-    let finishedParams = [];
-    let allHashIds = [];
-    let finishedHashIds = [];
+  let params = [];
+  let decrementCases = [];
+  let finishedCases = [];
+  let decrementParams = [];
+  let finishedParams = [];
+  let allHashIds = [];
+  let finishedHashIds = [];
   data.forEach((d, i) => {
     if (i !== 0) {
       sql += ` UNION ALL `;
@@ -504,7 +504,6 @@ function insertBatchesWaxes(db, data, batchId, cb) {
       `;
 
       finishedParams.push(finishedHashIds);
-      console.log("FFFFFFFFINISHED WAX: ", finishedParams)
 
       db.query(finishedSql, finishedParams, (err, finishedResult) => {
         if (err) {
@@ -539,8 +538,12 @@ function insertBatchesDyeBlocks(db, data, batchId, cb) {
     `;
   let params = [];
   let decrementCases = [];
+  let finishedCases = [];
   let decrementParams = [];
+  let finishedParams = [];
   let allHashIds = [];
+  let finishedHashIds = [];
+
   data.forEach((d, i) => {
     if (i !== 0) {
       sql += ` UNION ALL `;
@@ -550,6 +553,11 @@ function insertBatchesDyeBlocks(db, data, batchId, cb) {
 
     decrementCases.push("WHEN hash_id = ? THEN (remaining - ?)");
     decrementParams.push(d.hashId, d.pieces);
+    if (d.finished) {
+      finishedCases.push("WHEN hash_id = ? THEN ?");
+      finishedParams.push(d.hashId, true);
+      finishedHashIds.push(d.hashId);
+    }
     allHashIds.push(d.hashId);
   });
 
@@ -582,7 +590,32 @@ function insertBatchesDyeBlocks(db, data, batchId, cb) {
         });
         return cb(err);
       }
-      return cb(null, batchesDyeBlocksResult);
+      if (!finishedCases.length) {
+        return cb(null, batchesDyeBlocksResult);
+      }
+
+      // also decrement the amount used from the resource table
+      const finishedSql = `
+      UPDATE dye_blocks
+        SET finished = (
+          CASE ${finishedCases.join(" ")}
+          END
+        )
+        WHERE hash_id IN (?)
+      `;
+
+      finishedParams.push(finishedHashIds);
+
+      db.query(finishedSql, finishedParams, (err, finishedResult) => {
+        if (err) {
+          console.error(err, {
+            finishedSql,
+            finishedParams
+          });
+          return cb(err);
+        }
+        return cb(null, batchesDyeBlocksResult);
+      });
     });
   });
 }

@@ -227,7 +227,9 @@ function getBatchesWaxes(db, batchId, cb) {
 function getBatchesDyeBlocks(db, batchId, cb) {
   const sql = `
     SELECT
-      bdb.pieces, d.hash_id AS "hashId", d.name, d.slug,
+      bdb.pieces, d.hash_id AS "hashId",
+      bdb.combine_id AS "combineId",
+      d.name, d.slug,
       d.order_id, d.pieces AS "shipmentPieces",
       d.price AS "itemCost", d.share_of_shipping_percent AS "shareOfShippingPercent",
       d.notes, so.source, so.item_count AS "orderItemCount",
