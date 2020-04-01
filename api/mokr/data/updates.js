@@ -3380,6 +3380,12 @@ module.exports = [
         whenStopped: "2020-03-29 01:30:00",
         stoppedWeightOunces: 14.04,
         notes: "Not full pool"
+      },
+      {
+        whenStarted: "2020-03-31 20:30:00",
+        whenStopped: "2020-04-01 03:05:00",
+        stoppedWeightOunces: 13.28,
+        notes: "not full melt pool, plenty of hang up."
       }
     ],
     notes: ""
@@ -3443,6 +3449,12 @@ module.exports = [
         whenStopped: "2020-03-29 01:30:00",
         stoppedWeightOunces: 14.42,
         notes: "Not a full pool."
+      },
+      {
+        whenStarted: "2020-03-31 20:30:00",
+        whenStopped: "2020-04-01 03:05:00",
+        stoppedWeightOunces: 13.73,
+        notes: "not nearly full melt pool, plenty of hang up."
       }
     ],
     notes: ""
@@ -3477,6 +3489,12 @@ module.exports = [
         whenStopped: "2020-03-29 01:30:00",
         stoppedWeightOunces: 14.1,
         notes: "Not quite a full pool."
+      },
+      {
+        whenStarted: "2020-03-31 20:30:00",
+        whenStopped: "2020-04-01 03:05:00",
+        stoppedWeightOunces: 13.33,
+        notes: "not nearly full melt pool, plenty of hang up."
       }
     ],
     notes: ""
@@ -3623,6 +3641,12 @@ module.exports = [
         whenStopped: "2020-03-31 14:50:00",
         stoppedWeightOunces: 14.75,
         notes: "1/4 inch pool and moderate mushrooming"
+      },
+      {
+        whenStarted: "2020-03-31 20:30:00",
+        whenStopped: "2020-04-01 03:05:00",
+        stoppedWeightOunces: 13.57,
+        notes: "1/4 inch, big time mushrooming"
       }
     ],
     notes: ""
@@ -3638,6 +3662,12 @@ module.exports = [
         whenStopped: "2020-03-31 14:50:00",
         stoppedWeightOunces: 14.69,
         notes: "1/4 inch pool and moderate mushrooming"
+      },
+      {
+        whenStarted: "2020-03-31 20:30:00",
+        whenStopped: "2020-04-01 03:05:00",
+        stoppedWeightOunces: 13.88,
+        notes: "1/8 inch, just a bit of mushrooming"
       }
     ],
     notes: ""
