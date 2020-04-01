@@ -6,8 +6,8 @@ import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
   root: {
-    padding: theme.spacing(2),
-    paddingBottom: theme.spacing(4)
+    padding: theme.spacing(2)
+    // paddingBottom: theme.spacing(4)
     // position: "relative"
   },
   itemDetails: {
@@ -42,7 +42,6 @@ function CandleResource({
   totalCost,
   classes
 }) {
-  console.log("TCL: percentOfType", percentOfType);
   return (
     <Paper className={classes.root}>
       <Grid container spacing={3}>

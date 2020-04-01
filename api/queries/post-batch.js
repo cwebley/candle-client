@@ -210,18 +210,21 @@ function insertBatchesFragranceOils(
   // maybe involving a WHERE IN (fo-id-1, fo-id-2, ...), but the need
   // for distinct weight_ounces values for each fo-id makes that complex
   const internalSelect = `
-    SELECT ?, ?, ?, fo.id
+    SELECT ?, ?, ?, ?, fo.id
     FROM fragrance_oils fo
     WHERE fo.hash_id = ?`;
 
   let sql = `
       INSERT INTO batches_fragrances
-        (batch_id, weight_ounces, fragrance_load, fragrance_id)
+        (batch_id, weight_ounces, combine_id, fragrance_load, fragrance_id)
     `;
   let params = [];
   let decrementCases = [];
+  let finishedCases = [];
   let decrementParams = [];
+  let finishedParams = [];
   let allHashIds = [];
+  let finishedHashIds = [];
   data.forEach((d, i) => {
     if (i !== 0) {
       sql += ` UNION ALL `;
@@ -236,10 +239,16 @@ function insertBatchesFragranceOils(
 
     fragranceLoad = fragranceLoad || 0;
 
-    params.push(batchId, d.weightOunces, fragranceLoad, d.hashId);
+    params.push(batchId, d.weightOunces, d.combineId, fragranceLoad, d.hashId);
 
     decrementCases.push("WHEN hash_id = ? THEN (remaining - ?)");
     decrementParams.push(d.hashId, d.weightOunces);
+
+    if (d.finished) {
+      finishedCases.push("WHEN hash_id = ? THEN ?");
+      finishedParams.push(d.hashId, true);
+      finishedHashIds.push(d.hashId);
+    }
     allHashIds.push(d.hashId);
   });
 
@@ -272,7 +281,32 @@ function insertBatchesFragranceOils(
         });
         return cb(err);
       }
-      return cb(null, batchesFoResult);
+      if (!finishedCases.length) {
+        return cb(null, batchesFoResult);
+      }
+
+      // also decrement the amount used from the resource table
+      const finishedSql = `
+      UPDATE fragrance_oils
+        SET finished = (
+          CASE ${finishedCases.join(" ")}
+          END
+        )
+        WHERE hash_id IN (?)
+      `;
+
+      finishedParams.push(finishedHashIds);
+
+      db.query(finishedSql, finishedParams, (err, finishedResult) => {
+        if (err) {
+          console.error(err, {
+            finishedSql,
+            finishedParams
+          });
+          return cb(err);
+        }
+        return cb(null, batchesFoResult);
+      });
     });
   });
 }
@@ -291,18 +325,21 @@ function insertBatchesAdditives(
   }
 
   const internalSelect = `
-    SELECT ?, ?, a.id
+    SELECT ?, ?, ?, a.id
     FROM additives a
     WHERE a.hash_id = ?`;
 
   let sql = `
       INSERT INTO batches_additives
-        (batch_id, weight_ounces, additive_id)
+        (batch_id, weight_ounces, combine_id, additive_id)
     `;
   let params = [];
   let decrementCases = [];
+  let finishedCases = [];
   let decrementParams = [];
+  let finishedParams = [];
   let allHashIds = [];
+  let finishedHashIds = [];
   data.forEach((d, i) => {
     if (i !== 0) {
       sql += ` UNION ALL `;
@@ -317,14 +354,14 @@ function insertBatchesAdditives(
 
     additiveLoad = additiveLoad || 0;
 
-    params.push(batchId, d.weightOunces, additiveLoad, d.hashId);
+    params.push(batchId, d.weightOunces, d.combineId, additiveLoad, d.hashId);
 
     decrementCases.push("WHEN hash_id = ? THEN (remaining - ?)");
     decrementParams.push(d.hashId, d.weightOunces);
     allHashIds.push(d.hashId);
   });
 
-  db.query(sql, params, (err, batchesFoResult) => {
+  db.query(sql, params, (err, batchesAdditivesResult) => {
     if (err) {
       console.error(err, {
         sql,
@@ -353,7 +390,32 @@ function insertBatchesAdditives(
         });
         return cb(err);
       }
-      return cb(null, batchesFoResult);
+      if (!finishedCases.length) {
+        return cb(null, batchesAdditivesResult);
+      }
+
+      // also decrement the amount used from the resource table
+      const finishedSql = `
+      UPDATE additives
+        SET finished = (
+          CASE ${finishedCases.join(" ")}
+          END
+        )
+        WHERE hash_id IN (?)
+      `;
+
+      finishedParams.push(finishedHashIds);
+
+      db.query(finishedSql, finishedParams, (err, finishedResult) => {
+        if (err) {
+          console.error(err, {
+            finishedSql,
+            finishedParams
+          });
+          return cb(err);
+        }
+        return cb(null, batchesAdditivesResult);
+      });
     });
   });
 }
@@ -364,27 +426,36 @@ function insertBatchesWaxes(db, data, batchId, cb) {
   }
 
   const internalSelect = `
-    SELECT ?, ?, w.id
+    SELECT ?, ?, ?, w.id
     FROM waxes w
     WHERE w.hash_id = ?`;
 
   let sql = `
       INSERT INTO batches_waxes
-        (batch_id, weight_ounces, wax_id)
+        (batch_id, weight_ounces, combine_id, wax_id)
     `;
   let params = [];
   let decrementCases = [];
+  let finishedCases = [];
   let decrementParams = [];
+  let finishedParams = [];
   let allHashIds = [];
+  let finishedHashIds = [];
+
   data.forEach((d, i) => {
     if (i !== 0) {
       sql += ` UNION ALL `;
     }
     sql += internalSelect;
-    params.push(batchId, d.weightOunces, d.hashId);
+    params.push(batchId, d.weightOunces, d.combineId, d.hashId);
 
     decrementCases.push("WHEN hash_id = ? THEN (remaining - ?)");
     decrementParams.push(d.hashId, parseFloat(d.weightOunces) / 16);
+    if (d.finished) {
+      finishedCases.push("WHEN hash_id = ? THEN ?");
+      finishedParams.push(d.hashId, true);
+      finishedHashIds.push(d.hashId);
+    }
     allHashIds.push(d.hashId);
   });
 
@@ -418,7 +489,32 @@ function insertBatchesWaxes(db, data, batchId, cb) {
         });
         return cb(err);
       }
-      return cb(null, batchesWaxesResult);
+      if (!finishedCases.length) {
+        return cb(null, batchesWaxesResult);
+      }
+
+      // also decrement the amount used from the resource table
+      const finishedSql = `
+      UPDATE waxes
+        SET finished = (
+          CASE ${finishedCases.join(" ")}
+          END
+        )
+        WHERE hash_id IN (?)
+      `;
+
+      finishedParams.push(finishedHashIds);
+
+      db.query(finishedSql, finishedParams, (err, finishedResult) => {
+        if (err) {
+          console.error(err, {
+            finishedSql,
+            finishedParams
+          });
+          return cb(err);
+        }
+        return cb(null, batchesWaxesResult);
+      });
     });
   });
 }
@@ -432,27 +528,36 @@ function insertBatchesDyeBlocks(db, data, batchId, cb) {
   // maybe involving a WHERE IN (fo-id-1, fo-id-2, ...) but the need
   // for distinct weight_ounces values for each fo-id makes that complex
   const internalSelect = `
-    SELECT ?, ?, db.id
+    SELECT ?, ?, ?, db.id
     FROM dye_blocks db
     WHERE db.hash_id = ?`;
 
   let sql = `
       INSERT INTO batches_dye_blocks
-        (batch_id, pieces, dye_block_id)
+        (batch_id, pieces, combine_id, dye_block_id)
     `;
   let params = [];
   let decrementCases = [];
+  let finishedCases = [];
   let decrementParams = [];
+  let finishedParams = [];
   let allHashIds = [];
+  let finishedHashIds = [];
+
   data.forEach((d, i) => {
     if (i !== 0) {
       sql += ` UNION ALL `;
     }
     sql += internalSelect;
-    params.push(batchId, d.pieces, d.hashId);
+    params.push(batchId, d.pieces, d.combineId, d.hashId);
 
     decrementCases.push("WHEN hash_id = ? THEN (remaining - ?)");
     decrementParams.push(d.hashId, d.pieces);
+    if (d.finished) {
+      finishedCases.push("WHEN hash_id = ? THEN ?");
+      finishedParams.push(d.hashId, true);
+      finishedHashIds.push(d.hashId);
+    }
     allHashIds.push(d.hashId);
   });
 
@@ -485,7 +590,32 @@ function insertBatchesDyeBlocks(db, data, batchId, cb) {
         });
         return cb(err);
       }
-      return cb(null, batchesDyeBlocksResult);
+      if (!finishedCases.length) {
+        return cb(null, batchesDyeBlocksResult);
+      }
+
+      // also decrement the amount used from the resource table
+      const finishedSql = `
+      UPDATE dye_blocks
+        SET finished = (
+          CASE ${finishedCases.join(" ")}
+          END
+        )
+        WHERE hash_id IN (?)
+      `;
+
+      finishedParams.push(finishedHashIds);
+
+      db.query(finishedSql, finishedParams, (err, finishedResult) => {
+        if (err) {
+          console.error(err, {
+            finishedSql,
+            finishedParams
+          });
+          return cb(err);
+        }
+        return cb(null, batchesDyeBlocksResult);
+      });
     });
   });
 }

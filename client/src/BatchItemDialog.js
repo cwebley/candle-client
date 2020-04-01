@@ -1,7 +1,9 @@
 import React, { useState, Fragment } from "react";
+import Checkbox from "@material-ui/core/Checkbox";
 import TextField from "@material-ui/core/TextField";
 import InputAdornment from "@material-ui/core/InputAdornment";
 import FormControl from "@material-ui/core/FormControl";
+import FormControlLabel from "@material-ui/core/FormControlLabel";
 import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
 import Dialog from "@material-ui/core/Dialog";
@@ -29,6 +31,7 @@ const styles = theme => ({
 
 function BatchItemDialog({
   values,
+  combineOptions,
   editItemIndex,
   isOpen,
   onClose,
@@ -47,7 +50,7 @@ function BatchItemDialog({
   const getWeightPlaceholder = () => {
     const weightSuggestionValue =
       values.type === "wax" ? waxWeightSuggestion : foWeightSuggestion;
-    if (!weightSuggestionValue) {
+    if (isNaN(weightSuggestionValue)) {
       return "";
     }
 
@@ -63,6 +66,38 @@ function BatchItemDialog({
     }
     onAddItem();
   };
+
+  const filteredCombineOptions = combineOptions
+    .filter(o => o.type === values.type && o.hashId !== values.hashId)
+    .map(o => ({
+      name: o.hashId,
+      value: o.combineId
+    }));
+
+  let groupedCombineOptions = [];
+
+  filteredCombineOptions.forEach(o => {
+    let sameValueFound = false;
+    groupedCombineOptions.forEach(go => {
+      if (go.value === o.value) {
+        // combine the names into one select option
+        go.name = `${go.name}-${o.name}`;
+        sameValueFound = true;
+        return;
+      }
+    });
+    if (!sameValueFound) {
+      groupedCombineOptions.push({ ...o });
+    }
+  });
+
+  const allCombineOptions = [
+    {
+      name: "None",
+      value: ""
+    },
+    ...groupedCombineOptions
+  ];
 
   return (
     <Dialog open={isOpen} onClose={onClose}>
@@ -153,6 +188,40 @@ function BatchItemDialog({
               />
             </Fragment>
           )}
+          {values.type && (
+            <FormControl>
+              <InputLabel htmlFor="combine-partner-selector">
+                Combined Partner
+              </InputLabel>
+              <Select
+                autoFocus
+                value={values.combineId || ""}
+                onChange={onChange}
+                disabled={!filteredCombineOptions.length}
+                inputProps={{
+                  name: "combineId",
+                  id: "combine-partner-selector"
+                }}
+              >
+                {allCombineOptions.map(o => (
+                  <MenuItem key={o.name} value={o.value}>
+                    {o.name}
+                  </MenuItem>
+                ))}
+              </Select>
+            </FormControl>
+          )}
+          <FormControlLabel
+            control={
+              <Checkbox
+                checked={values.finished || false}
+                onChange={onChange}
+                name="finished"
+                color="primary"
+              />
+            }
+            label="Finished"
+          />
         </DialogContent>
         <DialogActions>
           <Button type="submit">

@@ -61,6 +61,11 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
+// batchItems all get a combineId that is unique
+// unless specified in the BatchItemForm that the given
+// item should be organziationally combined with another
+let combineIdCounter = 1;
+
 function NewBatch({ history, enqueueSnackbar }) {
   const location = useLocation();
   const {
@@ -220,15 +225,34 @@ function NewBatch({ history, enqueueSnackbar }) {
 
   useEffect(() => {
     setWaxSuggestionGivenJarFill(
-      ((waxWeightSuggestion * jarFillPercentage * (1 - parseFloat(fragranceLoadTarget) / 100)) / 100).toString()
+      (
+        (waxWeightSuggestion *
+          jarFillPercentage *
+          (1 - parseFloat(fragranceLoadTarget) / 100)) /
+        100
+      ).toString()
     );
-  }, [waxWeightSuggestion, setWaxSuggestionGivenJarFill, fragranceLoadTarget, jarFillPercentage]);
+  }, [
+    waxWeightSuggestion,
+    setWaxSuggestionGivenJarFill,
+    fragranceLoadTarget,
+    jarFillPercentage
+  ]);
 
   const handleBatchItemFormChange = e => {
     const name = e.target.name;
     const value = e.target.value;
+    const checked = e.target.checked;
+
     setNewBatchItemValues(newBatchItemValues => {
       let formattedValues = newBatchItemValues;
+      if (name === "finished") {
+        return {
+          ...formattedValues,
+          [name]: checked
+        };
+      }
+
       if (name === "type") {
         if (value === "wax") {
           // destructure to remove the extra fields
@@ -266,10 +290,14 @@ function NewBatch({ history, enqueueSnackbar }) {
 
   const addBatchItem = e => {
     const newBatchItem = { ...newBatchItemValues };
+    if (!newBatchItem.combineId) {
+      newBatchItem.combineId = combineIdCounter;
+      combineIdCounter++;
+    }
     setBatchValues(batchValues => {
       return {
         ...batchValues,
-        batchItems: [...batchValues.batchItems, newBatchItem]
+        batchItems: [...batchValues.batchItems, { ...newBatchItem }]
       };
     });
 
@@ -306,7 +334,8 @@ function NewBatch({ history, enqueueSnackbar }) {
     setCumulativeWeights({
       ...previousCumulativeWeights,
       [editedBatchItem.type]:
-      adjustedPreviousWeightForType + parseFloat(editedBatchItem.weightOunces) || 0
+        adjustedPreviousWeightForType +
+          parseFloat(editedBatchItem.weightOunces) || 0
     });
   };
 
@@ -380,6 +409,10 @@ function NewBatch({ history, enqueueSnackbar }) {
 
   const editBatchItem = e => {
     const newBatchItem = { ...newBatchItemValues };
+    if (!newBatchItem.combineId) {
+      newBatchItem.combineId = combineIdCounter;
+      combineIdCounter++;
+    }
 
     setBatchValues(batchValues => {
       return {
@@ -528,7 +561,9 @@ function NewBatch({ history, enqueueSnackbar }) {
       ((waxWeightSuggestion * floatValue) / 100).toString()
     );
   };
-  
+
+  console.log("BATCH DATA: ", batchValues);
+
   return (
     <div className={classes.root}>
       <div>
@@ -542,6 +577,7 @@ function NewBatch({ history, enqueueSnackbar }) {
         </header>
         <main>
           <BatchItemDialog
+            combineOptions={batchValues.batchItems}
             values={newBatchItemValues}
             itemTypes={resourceTypes.filter(r => r.scope === "batch")}
             waxWeightSuggestion={waxSuggestionGivenJarFill}

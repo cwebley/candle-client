@@ -1,4 +1,5 @@
 import React from "react";
+import moment from "moment";
 import { Link } from "react-router-dom";
 import Typography from "@material-ui/core/Typography";
 import ExpansionPanel from "@material-ui/core/ExpansionPanel";
@@ -9,7 +10,8 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { withStyles } from "@material-ui/core/styles";
 import DataLabel from "./DataLabel";
 import CandleResource from "./CandleResource";
-import moment from "moment";
+import CombinedCandleResource from "./CombinedCandleResource";
+import { processAllBatchData } from "../utils";
 
 const styles = theme => ({
   root: {
@@ -40,15 +42,16 @@ const styles = theme => ({
 });
 
 function CandleLayer({ data, isTopLayer, classes }) {
+  const processedBatchData = processAllBatchData(data.batchData);
   const layerDetails = [
     {
       label: "Fragrance Load",
-      value: data.batchData.fragranceLoad * 100,
+      value: processedBatchData.fragranceLoad * 100,
       unit: "%"
     },
     {
       label: "Fragrance Add Temp",
-      value: data.batchData.fragranceAddTemperatureFahrenheit,
+      value: processedBatchData.fragranceAddTemperatureFahrenheit,
       unit: "°F"
     },
     {
@@ -76,10 +79,10 @@ function CandleLayer({ data, isTopLayer, classes }) {
       unit: "°F"
     }
   ];
-  if (data.batchData.dyeAddTemperature) {
+  if (processedBatchData.dyeAddTemperature) {
     layerDetails.push({
       label: "Dye Add Temp",
-      value: data.batchData.dyeAddTemperatureFahrenheit,
+      value: processedBatchData.dyeAddTemperatureFahrenheit,
       unit: "°F"
     });
   }
@@ -107,8 +110,8 @@ function CandleLayer({ data, isTopLayer, classes }) {
         <Typography className={classes.headingName}>
           {`Layer from `}
           <Link
-            to={`/batches/${data.batchData.id}`}
-          >{`Batch ${data.batchData.id}`}</Link>
+            to={`/batches/${processedBatchData.id}`}
+          >{`Batch ${processedBatchData.id}`}</Link>
         </Typography>
         {` ${data.layerToBatchPercentage}% of batch`}
         <Typography
@@ -131,59 +134,130 @@ function CandleLayer({ data, isTopLayer, classes }) {
           ))}
         </ol>
         <Grid container spacing={8}>
-          {data.batchData.wax &&
-            data.batchData.wax.map(w => (
-              <Grid item key={w.id + w.hashId} xs={12} sm={6} m={4}>
-                <CandleResource
-                  itemType="Wax"
-                  name={w.name}
-                  source={w.source}
-                  percentOfType={`${Math.round(
-                    (1000 * w.weightOunces) /
-                      data.batchData.totalWaxWeightOunces
-                  ) / 10}%`}
-                  amount={`${w.layerWeightOunces} oz`}
-                  shippingCost={w.layerCosts.shippingCost}
-                  productCost={w.layerCosts.productCost}
-                  totalCost={w.layerCosts.totalCost}
-                />
-              </Grid>
-            ))}
-          {data.batchData.fragranceOil &&
-            data.batchData.fragranceOil.map(fo => (
-              <Grid item key={fo.id + fo.hashId} xs={12} sm={6} m={4}>
-                <CandleResource
-                  itemType="Fragrance Oil"
-                  name={fo.name}
-                  source={fo.source}
-                  percentOfType={`${Math.round(
-                    (1000 * fo.weightOunces) /
-                      data.batchData.totalFragranceWeightOunces
-                  ) / 10}%`}
-                  amount={`${fo.layerWeightOunces} oz`}
-                  shippingCost={fo.layerCosts.shippingCost}
-                  productCost={fo.layerCosts.productCost}
-                  totalCost={fo.layerCosts.totalCost}
-                />
-              </Grid>
-            ))}
-          {data.batchData.dyeBlocks &&
-            data.batchData.dyeBlocks.map(db => (
-              <Grid item key={db.id + db.hashId} xs={12} sm={6} m={4}>
-                <CandleResource
-                  itemType="Dye Block"
-                  name={db.name}
-                  source={db.source}
-                  percentOfType={`${Math.round(
-                    (1000 * db.pieces) / data.batchData.totalWaxpieces
-                  ) / 10}%`}
-                  amount={`${db.layerPieces} pieces`}
-                  shippingCost={db.layerCosts.shippingCost}
-                  productCost={db.layerCosts.productCost}
-                  totalCost={db.layerCosts.totalCost}
-                />
-              </Grid>
-            ))}
+          {processedBatchData.wax &&
+            processedBatchData.wax.map(w => {
+              if (w.subItems) {
+                return (
+                  <Grid item key={`w-${w.hashId}`} xs={12} sm={6} m={4}>
+                    <CombinedCandleResource
+                      name={w.name}
+                      source={w.source}
+                      percentOfType={`${Math.round(
+                        (1000 * w.weightOunces) /
+                          processedBatchData.totalWaxWeightOunces
+                      ) / 10}%`}
+                      amount={`${w.weightOunces} oz`}
+                      productCost={w.calculatedCosts.productCost}
+                      shippingCost={w.calculatedCosts.shippingCost}
+                      subItems={w.subItems}
+                      totalCost={w.calculatedCosts.totalCost}
+                      totalAmountForType={
+                        processedBatchData.totalWaxWeightOunces
+                      }
+                    />
+                  </Grid>
+                );
+              }
+              return (
+                <Grid item key={`w-${w.hashId}`} xs={12} sm={6} m={4}>
+                  <CandleResource
+                    name={w.name}
+                    source={w.source}
+                    percentOfType={`${Math.round(
+                      (1000 * w.weightOunces) /
+                        processedBatchData.totalFragranceWeightOunces
+                    ) / 10}%`}
+                    amount={`${w.weightOunces} oz`}
+                    productCost={w.calculatedCosts.productCost}
+                    shippingCost={w.calculatedCosts.shippingCost}
+                    totalCost={w.calculatedCosts.totalCost}
+                  />
+                </Grid>
+              );
+            })}
+          {processedBatchData.fragranceOil &&
+            processedBatchData.fragranceOil.map(fo => {
+              if (fo.subItems) {
+                return (
+                  <Grid item key={`fo-${fo.hashId}`} xs={12} sm={6} m={4}>
+                    <CombinedCandleResource
+                      name={fo.name}
+                      source={fo.source}
+                      percentOfType={`${Math.round(
+                        (1000 * fo.weightOunces) /
+                          processedBatchData.totalFragranceWeightOunces
+                      ) / 10}%`}
+                      amount={`${fo.weightOunces} oz`}
+                      productCost={fo.calculatedCosts.productCost}
+                      shippingCost={fo.calculatedCosts.shippingCost}
+                      subItems={fo.subItems}
+                      totalCost={fo.calculatedCosts.totalCost}
+                      totalAmountForType={
+                        processedBatchData.totalFragranceWeightOunces
+                      }
+                    />
+                  </Grid>
+                );
+              }
+              return (
+                <Grid item key={`fo-${fo.hashId}`} xs={12} sm={6} m={4}>
+                  <CandleResource
+                    name={fo.name}
+                    source={fo.source}
+                    percentOfType={`${Math.round(
+                      (1000 * fo.weightOunces) /
+                        processedBatchData.totalFragranceWeightOunces
+                    ) / 10}%`}
+                    amount={`${fo.weightOunces} oz`}
+                    productCost={fo.calculatedCosts.productCost}
+                    shippingCost={fo.calculatedCosts.shippingCost}
+                    totalCost={fo.calculatedCosts.totalCost}
+                  />
+                </Grid>
+              );
+            })}
+          {processedBatchData.dyeBlocks &&
+            processedBatchData.dyeBlocks.map(db => {
+              if (db.subItems) {
+                return (
+                  <Grid item key={`db-${db.hashId}`} xs={12} sm={6} m={4}>
+                    <CombinedCandleResource
+                      name={db.name}
+                      source={db.source}
+                      percentOfType={`${Math.round(
+                        (1000 * db.pieces) /
+                          processedBatchData.totalDyeBlockPieces
+                      ) / 10}%`}
+                      amount={`${db.pieces} pieces`}
+                      productCost={db.calculatedCosts.productCost}
+                      shippingCost={db.calculatedCosts.shippingCost}
+                      subItems={db.subItems}
+                      totalCost={db.calculatedCosts.totalCost}
+                      totalAmountForType={
+                        processedBatchData.totalDyeBlockPieces
+                      }
+                    />
+                  </Grid>
+                );
+              }
+              return (
+                <Grid item key={`db-${db.hashId}`} xs={12} sm={6} m={4}>
+                  <CandleResource
+                    itemType="Dye Block"
+                    name={db.name}
+                    source={db.source}
+                    percentOfType={`${Math.round(
+                      (1000 * db.pieces) /
+                        processedBatchData.totalDyeBlockPieces
+                    ) / 10}%`}
+                    amount={`${db.layerPieces} pieces`}
+                    shippingCost={db.layerCosts.shippingCost}
+                    productCost={db.layerCosts.productCost}
+                    totalCost={db.layerCosts.totalCost}
+                  />
+                </Grid>
+              );
+            })}
         </Grid>
       </ExpansionPanelDetails>
     </ExpansionPanel>
