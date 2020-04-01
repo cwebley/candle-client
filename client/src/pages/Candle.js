@@ -98,6 +98,7 @@ function CandlePage({ match, enqueueSnackbar, history, classes }) {
   const fetchCandle = useCallback(async () => {
     const result = await axios(api.getCandleUrl(match.params.id));
     if (result && result.data) {
+      
       setCandle(result.data);
     }
   }, [match.params.id]);

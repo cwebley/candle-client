@@ -114,20 +114,41 @@ function Batch({ match, classes }) {
             <Typography className={classes.resourceTypeTitle} variant="h5">
               {`Waxes (${batch.wax.length})`}
             </Typography>
-            {batch.wax.map(w => (
-              <CandleResource
-                key={w.hashId}
-                name={w.name}
-                source={w.source}
-                percentOfType={`${Math.round(
-                  (1000 * w.weightOunces) / batch.totalWaxWeightOunces
-                ) / 10}%`}
-                amount={`${w.weightOunces} oz`}
-                productCost={w.calculatedCosts.productCost}
-                shippingCost={w.calculatedCosts.shippingCost}
-                totalCost={w.calculatedCosts.totalCost}
-              />
-            ))}
+
+            {batch.wax.map(w => {
+              if (w.subItems) {
+                return (
+                  <CombinedCandleResource
+                    key={w.hashId}
+                    name={w.name}
+                    source={w.source}
+                    percentOfType={`${Math.round(
+                      (1000 * w.weightOunces) / batch.totalWaxWeightOunces
+                    ) / 10}%`}
+                    amount={`${w.weightOunces} oz`}
+                    productCost={w.calculatedCosts.productCost}
+                    shippingCost={w.calculatedCosts.shippingCost}
+                    subItems={w.subItems}
+                    totalCost={w.calculatedCosts.totalCost}
+                    totalAmountForType={batch.totalWaxWeightOunces}
+                  />
+                );
+              }
+              return (
+                <CandleResource
+                  key={w.hashId}
+                  name={w.name}
+                  source={w.source}
+                  percentOfType={`${Math.round(
+                    (1000 * w.weightOunces) / batch.totalWaxWeightOunces
+                  ) / 10}%`}
+                  amount={`${w.weightOunces} oz`}
+                  productCost={w.calculatedCosts.productCost}
+                  shippingCost={w.calculatedCosts.shippingCost}
+                  totalCost={w.calculatedCosts.totalCost}
+                />
+              );
+            })}
             <Typography className={classes.resourceTypeTitle} variant="h5">
               {`Fragrance Oils (${batch.fragranceOil.length})`}
             </Typography>
@@ -169,14 +190,40 @@ function Batch({ match, classes }) {
             <Typography className={classes.resourceTypeTitle} variant="h5">
               {`Dye Blocks (${batch.dyeBlocks.length})`}
             </Typography>
-            {batch.dyeBlocks.map(db => (
-              <CandleResource
-                key={db.hashId}
-                name={db.name}
-                source={db.source}
-                price={db.calculatedCosts.totalCost}
-              />
-            ))}
+            {batch.dyeBlocks.map(db => {
+              if (db.subItems) {
+                return (
+                  <CombinedCandleResource
+                    key={db.hashId}
+                    name={db.name}
+                    source={db.source}
+                    percentOfType={`${Math.round(
+                      (1000 * db.pieces) / batch.totalDyeBlockPieces
+                    ) / 10}%`}
+                    amount={`${db.pieces} pieces`}
+                    productCost={db.calculatedCosts.productCost}
+                    shippingCost={db.calculatedCosts.shippingCost}
+                    subItems={db.subItems}
+                    totalCost={db.calculatedCosts.totalCost}
+                    totalAmountForType={batch.totalDyeBlockPieces}
+                  />
+                );
+              }
+              return (
+                <CandleResource
+                  key={db.hashId}
+                  name={db.name}
+                  source={db.source}
+                  percentOfType={`${Math.round(
+                    (1000 * db.pieces) / batch.totalDyeBlockPieces
+                  ) / 10}%`}
+                  amount={`${db.pieces} pieces`}
+                  productCost={db.calculatedCosts.productCost}
+                  shippingCost={db.calculatedCosts.shippingCost}
+                  totalCost={db.calculatedCosts.totalCost}
+                />
+              );
+            })}
             <Typography className={classes.resourceTypeTitle} variant="h5">
               {`Layers (${batch.layers.length})`}
             </Typography>

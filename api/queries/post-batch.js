@@ -325,13 +325,13 @@ function insertBatchesAdditives(
   }
 
   const internalSelect = `
-    SELECT ?, ?, a.id
+    SELECT ?, ?, ?, a.id
     FROM additives a
     WHERE a.hash_id = ?`;
 
   let sql = `
       INSERT INTO batches_additives
-        (batch_id, weight_ounces, additive_id)
+        (batch_id, weight_ounces, combine_id, additive_id)
     `;
   let params = [];
   let decrementCases = [];
@@ -354,7 +354,7 @@ function insertBatchesAdditives(
 
     additiveLoad = additiveLoad || 0;
 
-    params.push(batchId, d.weightOunces, additiveLoad, d.hashId);
+    params.push(batchId, d.weightOunces, d.combineId, additiveLoad, d.hashId);
 
     decrementCases.push("WHEN hash_id = ? THEN (remaining - ?)");
     decrementParams.push(d.hashId, d.weightOunces);
@@ -426,13 +426,13 @@ function insertBatchesWaxes(db, data, batchId, cb) {
   }
 
   const internalSelect = `
-    SELECT ?, ?, w.id
+    SELECT ?, ?, ?, w.id
     FROM waxes w
     WHERE w.hash_id = ?`;
 
   let sql = `
       INSERT INTO batches_waxes
-        (batch_id, weight_ounces, wax_id)
+        (batch_id, weight_ounces, combine_id, wax_id)
     `;
   let params = [];
   let decrementCases = [];
@@ -447,7 +447,7 @@ function insertBatchesWaxes(db, data, batchId, cb) {
       sql += ` UNION ALL `;
     }
     sql += internalSelect;
-    params.push(batchId, d.weightOunces, d.hashId);
+    params.push(batchId, d.weightOunces, d.combineId, d.hashId);
 
     decrementCases.push("WHEN hash_id = ? THEN (remaining - ?)");
     decrementParams.push(d.hashId, parseFloat(d.weightOunces) / 16);
@@ -528,13 +528,13 @@ function insertBatchesDyeBlocks(db, data, batchId, cb) {
   // maybe involving a WHERE IN (fo-id-1, fo-id-2, ...) but the need
   // for distinct weight_ounces values for each fo-id makes that complex
   const internalSelect = `
-    SELECT ?, ?, db.id
+    SELECT ?, ?, ?, db.id
     FROM dye_blocks db
     WHERE db.hash_id = ?`;
 
   let sql = `
       INSERT INTO batches_dye_blocks
-        (batch_id, pieces, dye_block_id)
+        (batch_id, pieces, combine_id, dye_block_id)
     `;
   let params = [];
   let decrementCases = [];
@@ -549,7 +549,7 @@ function insertBatchesDyeBlocks(db, data, batchId, cb) {
       sql += ` UNION ALL `;
     }
     sql += internalSelect;
-    params.push(batchId, d.pieces, d.hashId);
+    params.push(batchId, d.pieces, d.combineId, d.hashId);
 
     decrementCases.push("WHEN hash_id = ? THEN (remaining - ?)");
     decrementParams.push(d.hashId, d.pieces);
