@@ -8,6 +8,7 @@ import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import DataLabel from "../display-items/DataLabel";
+import CombinedCandleResource from "../display-items/CombinedCandleResource";
 import CandleResource from "../display-items/CandleResource";
 import BatchLayer from "../display-items/BatchLayer";
 import { processAllBatchData } from "../utils";
@@ -45,7 +46,7 @@ function Batch({ match, classes }) {
       console.log("RESULTS: ", result && result.data);
       if (result && result.data) {
         const processedData = processAllBatchData(result.data);
-        console.log("PROCESSED: ", processedData)
+        console.log("PROCESSED: ", processedData);
         setBatch(processedData);
       }
     };
@@ -130,20 +131,41 @@ function Batch({ match, classes }) {
             <Typography className={classes.resourceTypeTitle} variant="h5">
               {`Fragrance Oils (${batch.fragranceOil.length})`}
             </Typography>
-            {batch.fragranceOil.map(fo => (
-              <CandleResource
-                key={fo.hashId}
-                name={fo.name}
-                source={fo.source}
-                percentOfType={`${Math.round(
-                  (1000 * fo.weightOunces) / batch.totalFragranceWeightOunces
-                ) / 10}%`}
-                amount={`${fo.weightOunces} oz`}
-                productCost={fo.calculatedCosts.productCost}
-                shippingCost={fo.calculatedCosts.shippingCost}
-                totalCost={fo.calculatedCosts.totalCost}
-              />
-            ))}
+            {batch.fragranceOil.map(fo => {
+              if (fo.subItems) {
+                return (
+                  <CombinedCandleResource
+                    key={fo.hashId}
+                    name={fo.name}
+                    source={fo.source}
+                    percentOfType={`${Math.round(
+                      (1000 * fo.weightOunces) /
+                        batch.totalFragranceWeightOunces
+                    ) / 10}%`}
+                    amount={`${fo.weightOunces} oz`}
+                    productCost={fo.calculatedCosts.productCost}
+                    shippingCost={fo.calculatedCosts.shippingCost}
+                    subItems={fo.subItems}
+                    totalCost={fo.calculatedCosts.totalCost}
+                    totalAmountForType={batch.totalFragranceWeightOunces}
+                  />
+                );
+              }
+              return (
+                <CandleResource
+                  key={fo.hashId}
+                  name={fo.name}
+                  source={fo.source}
+                  percentOfType={`${Math.round(
+                    (1000 * fo.weightOunces) / batch.totalFragranceWeightOunces
+                  ) / 10}%`}
+                  amount={`${fo.weightOunces} oz`}
+                  productCost={fo.calculatedCosts.productCost}
+                  shippingCost={fo.calculatedCosts.shippingCost}
+                  totalCost={fo.calculatedCosts.totalCost}
+                />
+              );
+            })}
             <Typography className={classes.resourceTypeTitle} variant="h5">
               {`Dye Blocks (${batch.dyeBlocks.length})`}
             </Typography>
