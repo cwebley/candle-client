@@ -2624,7 +2624,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-03-11 18:00:00",
-        whenStopped: "2020-03-12 12:30:00",
+        whenStopped: "2020-03-12 00:30:00",
         stoppedWeightOunces: 15.7,
         notes:
           "Not nearly a full pool. Slightly off center, but a good 1/4 inch on the wide side remains. Stead flame though."
@@ -2689,7 +2689,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-03-11 18:00:00",
-        whenStopped: "2020-03-12 12:30:00",
+        whenStopped: "2020-03-12 00:30:00",
         stoppedWeightOunces: 15.7,
         notes: "Very nearly full pool. Steady flame. Some mushrooming."
       },
@@ -2753,7 +2753,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-03-11 18:00:00",
-        whenStopped: "2020-03-12 12:30:00",
+        whenStopped: "2020-03-12 00:30:00",
         stoppedWeightOunces: 15.5,
         notes:
           "Not quite full pool. But okay. Steady flame. Hardly any mushrooming."
@@ -2818,7 +2818,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-03-11 18:00:00",
-        whenStopped: "2020-03-12 12:30:00",
+        whenStopped: "2020-03-12 00:30:00",
         stoppedWeightOunces: 15.3,
         notes:
           "Exremely close to full pool. Steady flame. Thought there WAS mushrooming but after blowing out it doesnt seem to be a problem."
@@ -3495,6 +3495,18 @@ module.exports = [
         whenStopped: "2020-04-01 03:05:00",
         stoppedWeightOunces: 13.33,
         notes: "not nearly full melt pool, plenty of hang up."
+      },
+      {
+        whenStarted: "2020-04-01 11:30:00",
+        whenStopped: "2020-04-01 16:05:00",
+        stoppedWeightOunces: 12.73,
+        notes: "Not quite a full melt"
+      },
+      {
+        whenStarted: "2020-04-01 20:30:00",
+        whenStopped: "2020-04-02 02:30:00",
+        stoppedWeightOunces: 11.88,
+        notes: "Not quite a full melt, stopping this candle here"
       }
     ],
     notes: ""
@@ -3647,6 +3659,18 @@ module.exports = [
         whenStopped: "2020-04-01 03:05:00",
         stoppedWeightOunces: 13.57,
         notes: "1/4 inch, big time mushrooming"
+      },
+      {
+        whenStarted: "2020-04-01 11:30:00",
+        whenStopped: "2020-04-01 16:05:00",
+        stoppedWeightOunces: 12.88,
+        notes: "1/8 inch pool, some mushrooming"
+      },
+      {
+        whenStarted: "2020-04-01 20:30:00",
+        whenStopped: "2020-04-02 02:30:00",
+        stoppedWeightOunces: 11.61,
+        notes: "1/8 inch pool, bit of mushrooming, jar close too hot up top"
       }
     ],
     notes: ""
@@ -3668,6 +3692,404 @@ module.exports = [
         whenStopped: "2020-04-01 03:05:00",
         stoppedWeightOunces: 13.88,
         notes: "1/8 inch, just a bit of mushrooming"
+      },
+      {
+        whenStarted: "2020-04-01 11:30:00",
+        whenStopped: "2020-04-01 16:05:00",
+        stoppedWeightOunces: 13.26,
+        notes: "1/8 inch pool, bunch of mushrooming"
+      },
+      {
+        whenStarted: "2020-04-01 20:30:00",
+        whenStopped: "2020-04-02 02:30:00",
+        stoppedWeightOunces: 12.13,
+        notes:
+          "1/8 inch pool, bunch of mushrooming and flecks in the wax. jar pretty hot up"
+      }
+    ],
+    notes: ""
+  },
+  // 37GE 12% RBF HTP-104
+  {
+    completedCandleWeightOunces: "12.31",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-04-03 23:15:00",
+        whenStopped: "2020-04-04 04:36:00",
+        stoppedWeightOunces: 11.16,
+        notes:
+          "1/4 inch pool. fair amount of mushrooming though and crazy smoke after blowout. bit of soot on the jar."
+      },
+      {
+        whenStarted: "2020-04-04 23:30:00",
+        whenStopped: "2020-04-05 04:18:00",
+        stoppedWeightOunces: 10.91,
+        notes:
+          "1/4 inch pool, jar cool. flame not too big, not much mushooming. not bad"
+      },
+      {
+        whenStarted: "2020-04-05 20:30:00",
+        whenStopped: "2020-04-06 01:01:00",
+        stoppedWeightOunces: 9.63,
+        notes: "1/8 inch pool. no soot no mushrooming. looks great."
+      },
+      {
+        whenStarted: "2020-04-06 20:28:00",
+        whenStopped: "2020-04-07 01:01:00",
+        stoppedWeightOunces: 8.97,
+        notes:
+          "barely full pool, tiny bit of hangup to 1/8 inch. flame not tiny but definitely expected bigger. jar barely warm."
+      },
+      {
+        whenStarted: "2020-04-07 20:00:00",
+        whenStopped: "2020-04-08 01:11:00",
+        stoppedWeightOunces: 8.46,
+        notes:
+          "full pool, 1/8 inch deep. inch of wax remains. flame fairly small and muted."
+      }
+    ],
+    notes: ""
+  },
+  // WGZX 12% RBF CD-8
+  {
+    completedCandleWeightOunces: "12.31",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-04-03 23:15:00",
+        whenStopped: "2020-04-04 04:36:00",
+        stoppedWeightOunces: 11.25,
+        notes:
+          "1/8 to 1/4 inch pool. jar not too hot. no mushrooming. def solid option."
+      },
+      {
+        whenStarted: "2020-04-04 23:30:00",
+        whenStopped: "2020-04-05 04:18:00",
+        stoppedWeightOunces: 10.43,
+        notes: "1/4 inch pool, flame fairly big though. some soot on glass."
+      },
+      {
+        whenStarted: "2020-04-05 20:30:00",
+        whenStopped: "2020-04-06 01:01:00",
+        stoppedWeightOunces: 9.85,
+        notes: "not quite full pool. looks like a good option still."
+      },
+      {
+        whenStarted: "2020-04-06 20:28:00",
+        whenStopped: "2020-04-07 01:31:00",
+        stoppedWeightOunces: 9.29,
+        notes: "almost full pool, flame pretty small and muted. not sure why."
+      },
+      {
+        whenStarted: "2020-04-07 20:00:00",
+        whenStopped: "2020-04-08 01:10:00",
+        stoppedWeightOunces: 8.8,
+        notes:
+          "tiny bit of hang up, inch of wax remains. no mushrooming flame fairly cool"
+      }
+    ],
+    notes: ""
+  },
+  // 3PBV 12% RBF CDN-8
+  {
+    completedCandleWeightOunces: "12.31",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-04-03 23:15:00",
+        whenStopped: "2020-04-04 04:36:00",
+        stoppedWeightOunces: 11.46,
+        notes:
+          "1/4 inch pool, big time mushrooming. jar hot but maybe not TOO hot."
+      },
+      {
+        whenStarted: "2020-04-04 23:30:00",
+        whenStopped: "2020-04-05 04:18:00",
+        stoppedWeightOunces: 10.91,
+        notes:
+          "1/4 inch, jar not too hot. not even mushrooming too bad. lots of smoke on blowout bc of spark."
+      },
+      {
+        whenStarted: "2020-04-05 20:30:00",
+        whenStopped: "2020-04-06 01:01:00",
+        stoppedWeightOunces: 9.97,
+        notes:
+          "not quite full pool, no mushrooming no soot. Looks like an excellent option here."
+      },
+      {
+        whenStarted: "2020-04-06 20:28:00",
+        whenStopped: "2020-04-07 01:28:00",
+        stoppedWeightOunces: 9.4,
+        notes:
+          "barely full pool. tiny bit of hangup. this is pretty good still. flame was low at about 3 hours but shortly after it picked up again."
+      },
+      {
+        whenStarted: "2020-04-07 20:00:00",
+        whenStopped: "2020-04-08 01:09:00",
+        stoppedWeightOunces: 8.83,
+        notes:
+          "tiny bit of hangup. cool flame and an inch of wax remains. no mushrooming or anything like that. seems like a good option all the way through."
+      }
+    ],
+    notes: ""
+  },
+  // R2GY 12% RBF LX-18
+  {
+    completedCandleWeightOunces: "12.31",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-04-03 23:15:00",
+        whenStopped: "2020-04-04 04:36:00",
+        stoppedWeightOunces: 11.82,
+        notes:
+          "1/8 to 1/4 inch pool. jar prob too hot up top, but this was a long burn and a half jar. but not much mushrooming. LX-16? or this one?"
+      },
+      {
+        whenStarted: "2020-04-04 23:30:00",
+        whenStopped: "2020-04-05 04:18:00",
+        stoppedWeightOunces: 10.91,
+        notes:
+          "1/8 to 1/4 inch, jar prob hot. flame prob too big and mushrooming."
+      },
+      {
+        whenStarted: "2020-04-05 20:30:00",
+        whenStopped: "2020-04-06 01:01:00",
+        stoppedWeightOunces: 10.24,
+        notes:
+          "not quite full pool. no mushrooming. jar not too hot. this burn looks good for a 5-6 hour at this stage."
+      },
+      {
+        whenStarted: "2020-04-06 20:28:00",
+        whenStopped: "2020-04-07 01:31:00",
+        stoppedWeightOunces: 9.65,
+        notes: "not quite full pool. flame looks good though."
+      },
+      {
+        whenStarted: "2020-04-07 20:00:00",
+        whenStopped: "2020-04-08 01:08:00",
+        stoppedWeightOunces: 9.04,
+        notes:
+          "still some hangup on the sides. inch of wax remaining only. flame okay, but a little cool. no mushrooming. wicking down wouldnt work and wicking up might be too hot for early. but maybe wicking up and keeping the wick trimmed?"
+      }
+    ],
+    notes: ""
+  },
+  // WYND 12% RBF ZN-44-32
+  {
+    completedCandleWeightOunces: "12.31",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-04-03 23:15:00",
+        whenStopped: "2020-04-04 04:36:00",
+        stoppedWeightOunces: 11.51,
+        notes:
+          "1/8 inch pool. jar not too hot and not insane mushrooming. but ridic amount of smoke after blowout. def need a wick dip."
+      },
+      {
+        whenStarted: "2020-04-04 23:30:00",
+        whenStopped: "2020-04-05 04:18:00",
+        stoppedWeightOunces: 10.97,
+        notes: "not quite full pool. muted flame."
+      },
+      {
+        whenStarted: "2020-04-05 20:30:00",
+        whenStopped: "2020-04-06 01:01:00",
+        stoppedWeightOunces: 10.56,
+        notes:
+          "not full pool. very muted flame. maybe try the next size up. done lighting this one"
+      }
+    ],
+    notes: ""
+  },
+  // 35GE 770 Wild Mountain Honey Test
+  {
+    completedCandleWeightOunces: "14.01",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-04-03 23:15:00",
+        whenStopped: "2020-04-04 04:36:00",
+        stoppedWeightOunces: 13.13,
+        notes:
+          "barely full pool. sort of dim flame. fair amount of mushrooming."
+      },
+      {
+        whenStarted: "2020-04-04 23:30:00",
+        whenStopped: "2020-04-05 04:18:00",
+        stoppedWeightOunces: 12.74,
+        notes: "1/8 inch pool, fair amount of mushrooming."
+      },
+      {
+        whenStarted: "2020-04-05 20:30:00",
+        whenStopped: "2020-04-06 01:01:00",
+        stoppedWeightOunces: 12.04,
+        notes:
+          "1/4 inch pool, big mushrooming and wide flame. jar hot but not too hot. maybe a 765ish would work?"
+      },
+      {
+        whenStarted: "2020-04-06 20:28:00",
+        whenStopped: "2020-04-07 01:28:00",
+        stoppedWeightOunces: 11.33,
+        notes:
+          "kind of perfect. barely full pool, 1/8 inch tops. no mushrooming, good flame."
+      },
+      {
+        whenStarted: "2020-04-07 20:00:00",
+        whenStopped: "2020-04-08 01:07:00",
+        stoppedWeightOunces: 10.66,
+        notes:
+          "1/8 of an inch to small bit of hang up. perfect flame and jar temp though. only a tiny bit of mushroom if any."
+      },
+      {
+        whenStarted: "2020-04-10 11:00:00",
+        whenStopped: "2020-04-10 04:00:00",
+        stoppedWeightOunces: 14.21,
+        notes: ""
+      }
+    ],
+    notes: ""
+  },
+  // WB17 770 Sandalwood Fillmore Test
+  {
+    completedCandleWeightOunces: "14.01",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-04-03 23:15:00",
+        whenStopped: "2020-04-04 04:36:00",
+        stoppedWeightOunces: 13.13,
+        notes:
+          "barely full pool. sort of dim flame. fair amount of mushrooming."
+      },
+      {
+        whenStarted: "2020-04-04 23:30:00",
+        whenStopped: "2020-04-05 04:18:00",
+        stoppedWeightOunces: 12.55,
+        notes: "not quite full pool. bit of mushrooming."
+      },
+      {
+        whenStarted: "2020-04-05 20:30:00",
+        whenStopped: "2020-04-06 01:01:00",
+        stoppedWeightOunces: 11.94,
+        notes: "not quite full pool, no mushrooming though."
+      },
+      {
+        whenStarted: "2020-04-06 20:28:00",
+        whenStopped: "2020-04-07 01:26:00",
+        stoppedWeightOunces: 11.19,
+        notes:
+          "perfect full pool, 1/8 inch tops. good flame, warm jar just a bit of mushrooming--kind of great. maybe a 775?"
+      },
+      {
+        whenStarted: "2020-04-07 20:00:00",
+        whenStopped: "2020-04-08 01:05:00",
+        stoppedWeightOunces: 10.46,
+        notes:
+          "1/8 inch pool, jar on the brink of too hot, flame tall. small bit of mushrooming."
+      },
+      {
+        whenStarted: "2020-04-10 11:00:00",
+        whenStopped: "2020-04-10 04:00:00",
+        stoppedWeightOunces: 14.21,
+        notes: ""
+      }
+    ],
+    notes: ""
+  },
+  // 36G8 777 Med Fig Bergamot
+  {
+    completedCandleWeightOunces: "15.73",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-04-09 21:30:00",
+        whenStopped: "2020-04-10 02:20:00",
+        stoppedWeightOunces: 14.98,
+        notes:
+          "just about full pool, tiny bit of hang up. fairly steady flame. tiny bit of mushroom."
+      },
+      {
+        whenStarted: "2020-04-10 11:00:00",
+        whenStopped: "2020-04-10 04:00:00",
+        stoppedWeightOunces: 14.21,
+        notes: ""
+      }
+    ],
+    notes: ""
+  },
+  // 3DKK 780 Med Fig Bergamot
+  {
+    completedCandleWeightOunces: "15.70",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-04-09 21:30:00",
+        whenStopped: "2020-04-10 02:20:00",
+        stoppedWeightOunces: 14.95,
+        notes:
+          "just about full pool, tiny bit of hang up. fairly steady flame but a bit wide. bit of mushrooming."
+      },
+      {
+        whenStarted: "2020-04-10 11:00:00",
+        whenStopped: "2020-04-10 04:00:00",
+        stoppedWeightOunces: 14.21,
+        notes: ""
+      }
+    ],
+    notes: ""
+  },
+  // RJO4 777 Fig Tree Bergamot
+  {
+    completedCandleWeightOunces: "15.97",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-04-09 21:30:00",
+        whenStopped: "2020-04-10 02:20:00",
+        stoppedWeightOunces: 15.27,
+        notes:
+          "not quite full pool. bit of hang up--more than the med-fig + berg candles. super clean flame though. looks great."
+      },
+      {
+        whenStarted: "2020-04-10 11:00:00",
+        whenStopped: "2020-04-10 04:00:00",
+        stoppedWeightOunces: 14.21,
+        notes: ""
+      }
+    ],
+    notes: ""
+  },
+  // RXEX 780 Fig Tree Bergamot
+  {
+    completedCandleWeightOunces: "15.98",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-04-09 21:30:00",
+        whenStopped: "2020-04-10 02:20:00",
+        stoppedWeightOunces: 15.21,
+        notes:
+          "full shallow pool, plenty of mushrooming though leading to a wide flame."
+      },
+      {
+        whenStarted: "2020-04-10 11:00:00",
+        whenStopped: "2020-04-10 04:00:00",
+        stoppedWeightOunces: 14.21,
+        notes: ""
       }
     ],
     notes: ""

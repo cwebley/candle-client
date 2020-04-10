@@ -48,14 +48,33 @@ function BatchItemDialog({
   let weightInputProps = { name: "weightOunces", step: "0.01" };
 
   const getWeightPlaceholder = () => {
-    const weightSuggestionValue =
-      values.type === "wax" ? waxWeightSuggestion : foWeightSuggestion;
-    if (isNaN(weightSuggestionValue)) {
-      return "";
+    let weightSuggestionValue = 0;
+    let weightSuggestionString = "";
+
+    if (values.type === "wax") {
+      weightSuggestionValue = waxWeightSuggestion;
+    }
+    if (values.type === "fragrance-oil") {
+      weightSuggestionValue = foWeightSuggestion;
     }
 
     const blendDecimal = parseFloat(percentOfBlend || 100) / 100;
-    return (blendDecimal * weightSuggestionValue).toFixed(2);
+    weightSuggestionValue = blendDecimal * weightSuggestionValue;
+
+    if (values.combineId) {
+      const currentWeightForCombination = combineOptions
+        .map(o =>
+          o.combineId === values.combineId ? parseFloat(o.weightOunces) : 0
+        )
+        .reduce((acc, val) => (acc += val), 0);
+
+      weightSuggestionValue =
+        weightSuggestionValue - currentWeightForCombination;
+    }
+    if (isNaN(weightSuggestionValue)) {
+      return "";
+    }
+    return weightSuggestionValue.toFixed(2);
   };
 
   const handleFormSubmit = e => {

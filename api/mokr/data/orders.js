@@ -6920,5 +6920,83 @@ module.exports = [
     shippingCost: "10.42",
     taxesAndFees: "3.18",
     totalCost: "41.78"
+  },
+  {
+    openDate: "2020-04-03",
+    items: [
+      {
+        type: "jars",
+        name: "Clear Straight Sided Tumbler",
+        waxToFillLineOunces: "10.0",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "clear",
+        count: "24",
+        remaining: "24",
+        price: "0",
+        shareOfShippingPercent: "100",
+        notes: "Recycled for the 4th or 5th time"
+      }
+    ],
+    source: "Recycled",
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0"
+  },
+  {
+    openDate: "2020-04-03",
+    items: [
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Wild Mountain Honey",
+        weightOunces: "16",
+        remaining: "16",
+        price: "19.00",
+        shareOfShippingPercent: "50"
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Balsam Clove",
+        weightOunces: "1",
+        remaining: "1",
+        price: "3.25",
+        shareOfShippingPercent: "12.5"
+      },
+      {
+        type: "fragrance-oil",
+        category: "spice",
+        name: "Cinnamon Stick",
+        weightOunces: "1",
+        remaining: "1",
+        price: "3.25",
+        shareOfShippingPercent: "12.5"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Strawberry",
+        weightOunces: "1",
+        remaining: "1",
+        price: "3.25",
+        shareOfShippingPercent: "12.5"
+      },
+      {
+        type: "fragrance-oil",
+        category: "food-and-drink",
+        name: "Sweet Orange Chili Pepper",
+        weightOunces: "1",
+        remaining: "1",
+        price: "3.25",
+        shareOfShippingPercent: "12.5"
+      }
+    ],
+    source: "Fillmore Container",
+    subtotalCost: "32",
+    shippingCost: "16.89",
+    taxesAndFees: "0",
+    totalCost: "48.89"
   }
 ];

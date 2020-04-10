@@ -4385,5 +4385,218 @@ module.exports = [
     ],
     name: "Very Vanilla only test",
     fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-04-03",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "21.30", combineId: 1 },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.48", combineId: 2 },
+      { type: "wax", hashId: "3RO3", weightOunces: "2.42", combineId: 3 },
+      {
+        type: "fragrance-oil",
+        hashId: "GZ6B",
+        weightOunces: "1.74",
+        combineId: 4
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "49QN",
+        weightOunces: "0.87",
+        combineId: 5
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "OKKE",
+        weightOunces: "0.29",
+        combineId: 6
+      }
+    ],
+    layers: [
+      {
+        candleHashId: "37GE",
+        whenPoured: "2020-04-03T12:51:10",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "62",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "WGZX",
+        whenPoured: "2020-04-03T12:51:10",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "62",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "3PBV",
+        whenPoured: "2020-04-03T12:51:10",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "62",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "R2GY",
+        whenPoured: "2020-04-03T12:51:10",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "62",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "WYND",
+        whenPoured: "2020-04-03T12:51:10",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "62",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
+      }
+    ],
+    name: "RBF 12% Alt Wick Half Jars",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-04-03",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "5.42", combineId: 1 },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.12", combineId: 2 },
+      { type: "wax", hashId: "3RO3", weightOunces: "0.62", combineId: 3 },
+      {
+        type: "fragrance-oil",
+        hashId: "4LK8",
+        weightOunces: "0.74",
+        combineId: 4
+      }
+    ],
+    layers: [
+      {
+        candleHashId: "35GE",
+        whenPoured: "2020-04-03T12:51:19",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "62",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
+      }
+    ],
+    name: "Wild Mountain Honey 770 Test",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-04-03",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "5.42", combineId: 1 },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.12", combineId: 2 },
+      { type: "wax", hashId: "3RO3", weightOunces: "0.62", combineId: 3 },
+      {
+        type: "fragrance-oil",
+        hashId: "OK9D",
+        weightOunces: "0.74",
+        combineId: 4
+      }
+    ],
+    layers: [
+      {
+        candleHashId: "WB17",
+        whenPoured: "2020-04-03T12:51:26",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "62",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "6.2"
+      }
+    ],
+    name: "Sandalwood Fillmore 770 Test",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-04-06",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "13.94", combineId: 1 },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.32", combineId: 2 },
+      { type: "wax", hashId: "3RO3", weightOunces: "1.58", combineId: 3 },
+      {
+        type: "fragrance-oil",
+        hashId: "GVLR",
+        weightOunces: "0.95",
+        combineId: 4
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "GBQ8",
+        weightOunces: "0.95",
+        combineId: 5
+      }
+    ],
+    layers: [
+      {
+        candleHashId: "36G8",
+        whenPoured: "2020-04-06T16:43:09",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "61",
+        coolingRoomTemperatureFahrenheit: "76",
+        containerTemperatureFahrenheit: "76",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "3DKK",
+        whenPoured: "2020-04-06T16:43:09",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "61",
+        coolingRoomTemperatureFahrenheit: "76",
+        containerTemperatureFahrenheit: "76",
+        preppedContainerWeightOunces: "6.2"
+      }
+    ],
+    name: "Mediterranean-Fig Bergamot",
+    fragranceAddTemperatureFahrenheit: "205"
+  },
+  {
+    whenCreated: "2020-04-06",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "13.94", combineId: 1 },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.32", combineId: 2 },
+      { type: "wax", hashId: "3RO3", weightOunces: "1.58", combineId: 3 },
+      {
+        type: "fragrance-oil",
+        hashId: "4NNN",
+        weightOunces: "0.95",
+        combineId: 4
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "GBQ8",
+        weightOunces: "0.95",
+        combineId: 5
+      }
+    ],
+    layers: [
+      {
+        candleHashId: "RJO4",
+        whenPoured: "2020-04-06T16:43:09",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "61",
+        coolingRoomTemperatureFahrenheit: "76",
+        containerTemperatureFahrenheit: "76",
+        preppedContainerWeightOunces: "6.2"
+      },
+      {
+        candleHashId: "RXEX",
+        whenPoured: "2020-04-06T16:43:09",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "61",
+        coolingRoomTemperatureFahrenheit: "76",
+        containerTemperatureFahrenheit: "76",
+        preppedContainerWeightOunces: "6.2"
+      }
+    ],
+    name: "Fig-Tree Bergamot",
+    fragranceAddTemperatureFahrenheit: "205"
   }
 ];

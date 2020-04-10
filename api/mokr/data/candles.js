@@ -2770,5 +2770,97 @@ module.exports = [
       wickStickerHashId: "3NOB",
       notes: ""
     }
+  ],
+  [
+    {
+      name: "RBF 12% HTP-104 Half Jar",
+      wickHashId: "5ZQG",
+      jarHashId: "5QDL",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "RBF 12% CD-8 Half Jar",
+      wickHashId: "5PMR",
+      jarHashId: "5QDL",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "RBF 12% CDN-8 Half Jar",
+      wickHashId: "N7J3",
+      jarHashId: "5QDL",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "RBF 12% LX-18 Half Jar",
+      wickHashId: "D2P6",
+      jarHashId: "5QDL",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "RBF 12% Zinc 44-32-18 Half Jar",
+      wickHashId: "D42R",
+      jarHashId: "5QDL",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Wild Mountain Honey Test",
+      wickHashId: "DWM4",
+      jarHashId: "5QDL",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Sandalwood Test",
+      wickHashId: "DWM4",
+      jarHashId: "5QDL",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    }
+  ],
+  [
+    {
+      name: "Fig Bergamot 777",
+      jarHashId: "5QDL",
+      wickHashId: "51VY",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Fig Bergamot 780",
+      jarHashId: "5QDL",
+      wickHashId: "5ZPB",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Fig Tree Bergamot 777",
+      jarHashId: "5QDL",
+      wickHashId: "51VY",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    },
+    {
+      name: "Fig Tree Bergamot 780",
+      jarHashId: "5QDL",
+      wickHashId: "5ZPB",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB"
+    }
   ]
 ];

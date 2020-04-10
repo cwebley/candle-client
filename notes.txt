@@ -290,19 +290,55 @@ flaming candle beer smells amazing out of the bottle.
 lonestar oakmoss ftw
 fillmore green apple is excellent for fall
 
-
-add confirmation link to new-supply-order form/table
-msds sheets
-ifra certificates for fragrances
-vanillin content for fragrances if it seems important? average for a candle?
-
 autocomplete have a filter for not finished
 
 P775
 LX-18
 HTP-104
 
-display client side burns
-add weight to burns
-
 jar fill percentage on new-batch form doesn't let you backspace it all the way
+
+Current Todo List:
+
+finished checkbox next to item on new-candle page
+add more items from new-batch page into query
+add weight to burns
+display client side burns
+client-api ping route or something to make sure its all connected
+convert all dye-block amounts to weights if the small amounts are measureable with my scale
+add liquid dye as a resource
+confirmation links, msds sheets, ifra certificates, vanillin content
+autocomplete routes from hash_id
+recent batches route
+inventory routes
+search candle route and search form by fragrance/wax/dye name etc
+
+root beer float options:
+htp 104 (good option but bit of soot on a mid jar burn. all the way throuh this might have been the best actually. maybe enforce a trimmed wick?)
+cd8 (great option, tiny bit of soot on one burn)
+cdn8 (excellent optiona after 3 burns)
+lx-18 (a bit hot in mid jar. cool at 2/3 burn. smaller would be too small at the bottom. bigger too big at the top prob.)
+zinc 44-32 (too small, try one size up)
+
+Candle todos:
+RBF more options
+English Honey Wood small test run to see if fragrance good etc
+English Honey Wood bigger test run
+English Honey Wood final candidates test
+Fig-Bergamot full candles again 777 and 780 to completely decide.
+Make some Fig-Bergs for curing / gifts
+Cali short jar tests--double wick, triple wicks
+Cali small jar tests
+Candle Science copper tumbler test
+Research Label options
+  Cricut/Silhouette Vinyl
+  Printers and online labels
+  Illustrator to create labels and print them
+test hurricane glasses for asthetics, draft reduction
+
+
+Supplies needed
+
+CS
+Fig FO
+couple LX-18 wicks
