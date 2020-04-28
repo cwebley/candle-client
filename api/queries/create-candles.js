@@ -4,7 +4,7 @@ const slug = require("slug");
 
 module.exports = function createCandles(db, candles, cb) {
   // begin transaction
-  db.beginTransaction(err => {
+  db.beginTransaction((err) => {
     if (err) {
       console.error(err);
       return cb(err);
@@ -17,7 +17,7 @@ module.exports = function createCandles(db, candles, cb) {
       }
 
       // end transaction
-      db.commit(err => {
+      db.commit((err) => {
         if (err) {
           return rollback(db, err, cb);
         }
@@ -67,18 +67,26 @@ function insertCandles(db, data, cb) {
       d.wickHashId
     );
 
-    decrementFuncs.push(done =>
-      decrementResource(db, "jars", 1, d.jarHashId, done)
+    decrementFuncs.push((done) =>
+      decrementResource(db, "jars", 1, d.jarHashId, d.jarFinished, done)
     );
-    decrementFuncs.push(done =>
-      decrementResource(db, "wicks", d.wickCount, d.wickHashId, done)
+    decrementFuncs.push((done) =>
+      decrementResource(
+        db,
+        "wicks",
+        d.wickCount,
+        d.wickHashId,
+        d.wickFinished,
+        done
+      )
     );
-    decrementFuncs.push(done =>
+    decrementFuncs.push((done) =>
       decrementResource(
         db,
         "wick_stickers",
         d.wickCount,
         d.wickStickerHashId,
+        d.wickStickerFinished,
         done
       )
     );
@@ -88,7 +96,7 @@ function insertCandles(db, data, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return cb(err);
     }
@@ -97,8 +105,8 @@ function insertCandles(db, data, cb) {
 
       err.reasons = [
         {
-          message: `Failed to post. Double check the hashIds.`
-        }
+          message: `Failed to post. Double check the hashIds.`,
+        },
       ];
       return cb(err);
     }
@@ -110,23 +118,23 @@ function insertCandles(db, data, cb) {
     }
 
     const candleIdArray = [];
-    const updateFuncs = rowIndices.map(rowIndex => {
+    const updateFuncs = rowIndices.map((rowIndex) => {
       // but save an object containing hashId and id to return to the client
       // if this transaction is successful
       const candleIds = {
         id: rowIndex,
-        hashId: hashConfig.candles.encode(rowIndex)
+        hashId: hashConfig.candles.encode(rowIndex),
       };
       candleIdArray.push(candleIds);
 
-      return done => {
+      return (done) => {
         const sql = `UPDATE candles SET hash_id = ? WHERE id = ?`;
         const params = [candleIds.hashId, candleIds.id];
         db.query(sql, params, (err, result) => {
           if (err) {
             console.error(err, {
               sql,
-              params
+              params,
             });
           }
           done(err, result);
@@ -153,19 +161,28 @@ function insertCandles(db, data, cb) {
   });
 }
 
-function decrementResource(db, tableName, count, hashId, cb) {
-  const sql = `
+function decrementResource(db, tableName, count, hashId, finished, cb) {
+  let sql = `
   UPDATE ${tableName}
     SET remaining = (remaining - ?)
     WHERE hash_id = ?
   `;
-  const params = [count, hashId];
+
+  let params = [count, hashId];
+
+  if (finished) {
+    sql = `UPDATE ${tableName}
+      SET remaining = 0, finished = ?
+      WHERE hash_id = ?
+    `;
+    params = [true, hashId];
+  }
 
   db.query(sql, params, (err, decrementResult) => {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return cb(err);
     }

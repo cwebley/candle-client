@@ -15,18 +15,18 @@ import Button from "@material-ui/core/Button";
 
 import { withStyles } from "@material-ui/core/styles";
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {
     display: "flex",
-    flexFlow: "column nowrap"
+    flexFlow: "column nowrap",
   },
   textField: {
-    marginTop: "1em"
+    marginTop: "1em",
   },
   dialogContent: {
     display: "flex",
-    flexFlow: "column nowrap"
-  }
+    flexFlow: "column nowrap",
+  },
 });
 
 function BatchItemDialog({
@@ -41,7 +41,7 @@ function BatchItemDialog({
   itemTypes,
   waxWeightSuggestion,
   foWeightSuggestion,
-  classes
+  classes,
 }) {
   const [percentOfBlend, setPercentOfBlend] = useState(null);
 
@@ -63,7 +63,7 @@ function BatchItemDialog({
 
     if (values.combineId) {
       const currentWeightForCombination = combineOptions
-        .map(o =>
+        .map((o) =>
           o.combineId === values.combineId ? parseFloat(o.weightOunces) : 0
         )
         .reduce((acc, val) => (acc += val), 0);
@@ -77,7 +77,7 @@ function BatchItemDialog({
     return weightSuggestionValue.toFixed(2);
   };
 
-  const handleFormSubmit = e => {
+  const handleFormSubmit = (e) => {
     e.preventDefault();
     if (editItemIndex !== null) {
       onEditItem();
@@ -87,17 +87,17 @@ function BatchItemDialog({
   };
 
   const filteredCombineOptions = combineOptions
-    .filter(o => o.type === values.type && o.hashId !== values.hashId)
-    .map(o => ({
+    .filter((o) => o.type === values.type && o.hashId !== values.hashId)
+    .map((o) => ({
       name: o.hashId,
-      value: o.combineId
+      value: o.combineId,
     }));
 
   let groupedCombineOptions = [];
 
-  filteredCombineOptions.forEach(o => {
+  filteredCombineOptions.forEach((o) => {
     let sameValueFound = false;
-    groupedCombineOptions.forEach(go => {
+    groupedCombineOptions.forEach((go) => {
       if (go.value === o.value) {
         // combine the names into one select option
         go.name = `${go.name}-${o.name}`;
@@ -113,9 +113,9 @@ function BatchItemDialog({
   const allCombineOptions = [
     {
       name: "None",
-      value: ""
+      value: "",
     },
-    ...groupedCombineOptions
+    ...groupedCombineOptions,
   ];
 
   return (
@@ -133,10 +133,10 @@ function BatchItemDialog({
               onChange={onChange}
               inputProps={{
                 name: "type",
-                id: "batch-item-type-selector"
+                id: "batch-item-type-selector",
               }}
             >
-              {itemTypes.map(t => (
+              {itemTypes.map((t) => (
                 <MenuItem key={t.slug} value={t.slug}>
                   {t.name}
                 </MenuItem>
@@ -152,7 +152,7 @@ function BatchItemDialog({
             onChange={onChange}
             inputProps={{
               name: "hashId",
-              maxLength: 4
+              maxLength: 4,
             }}
           />
           {values.type === "dye-blocks" ? (
@@ -169,8 +169,8 @@ function BatchItemDialog({
                 ),
                 inputProps: {
                   name: "pieces",
-                  step: "0.01"
-                }
+                  step: "0.01",
+                },
               }}
             />
           ) : (
@@ -180,14 +180,14 @@ function BatchItemDialog({
                 label="% of blend"
                 value={percentOfBlend || ""}
                 type="number"
-                onChange={e => {
+                onChange={(e) => {
                   const val = e.target.value;
                   setPercentOfBlend(val);
                 }}
                 InputProps={{
                   endAdornment: (
                     <InputAdornment position="end">%</InputAdornment>
-                  )
+                  ),
                 }}
               />
               <TextField
@@ -202,33 +202,10 @@ function BatchItemDialog({
                   endAdornment: (
                     <InputAdornment position="end">oz</InputAdornment>
                   ),
-                  inputProps: weightInputProps
+                  inputProps: weightInputProps,
                 }}
               />
             </Fragment>
-          )}
-          {values.type && (
-            <FormControl>
-              <InputLabel htmlFor="combine-partner-selector">
-                Combined Partner
-              </InputLabel>
-              <Select
-                autoFocus
-                value={values.combineId || ""}
-                onChange={onChange}
-                disabled={!filteredCombineOptions.length}
-                inputProps={{
-                  name: "combineId",
-                  id: "combine-partner-selector"
-                }}
-              >
-                {allCombineOptions.map(o => (
-                  <MenuItem key={o.name} value={o.value}>
-                    {o.name}
-                  </MenuItem>
-                ))}
-              </Select>
-            </FormControl>
           )}
           <FormControlLabel
             control={
@@ -241,6 +218,29 @@ function BatchItemDialog({
             }
             label="Finished"
           />
+          {values.type && (
+            <FormControl>
+              <InputLabel htmlFor="combine-partner-selector">
+                Combined Partner
+              </InputLabel>
+              <Select
+                autoFocus
+                value={values.combineId || ""}
+                onChange={onChange}
+                disabled={!filteredCombineOptions.length}
+                inputProps={{
+                  name: "combineId",
+                  id: "combine-partner-selector",
+                }}
+              >
+                {allCombineOptions.map((o) => (
+                  <MenuItem key={o.name} value={o.value}>
+                    {o.name}
+                  </MenuItem>
+                ))}
+              </Select>
+            </FormControl>
+          )}
         </DialogContent>
         <DialogActions>
           <Button type="submit">

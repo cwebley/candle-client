@@ -161,115 +161,6 @@ Checkbox for finishing an oil/block/wax/jar/wick/etc
 -- when hit you can make up the remainder with another one somehow
 shift all dye blocks to weight and add liquid_dye resource
 
-remaining coco83-5% bees wick tests:
-todo: 
-
-double premier 710 and 720 (ordered)
-cd-7 (ordered)
-
-HTP-31 and CD-2 are kind of great.
-update: CD-2 self extinguished.
-
-coco83-3% tests? 11% FO
-
-
-Double P725 // drowns out second burn half jar
-Double CD-2
-Double CD-3 // seems the best so far
-Double HTP-31
-Double Eco-1
-
-
-Double P735 drowned.
-Double HTP-41 drowned.
-Single HTP 104 mushroom, tiny bit of soot. otherwise good
-Single P775 soot, mushroom, maybe a bit big
-Single P780 same as above
-
-
-Zinc wick tests
-Wooden wick tests
-
-Thicker jars might help make double Eco-1 viable.
-
-Hotter Again:
-
-Double P-745
-Double HTP-52
-Single P765
-
-Decent Wick Candidates
-
-Double
-Zinc 28-24 too cool
-Zinc 34-40 too hot
-
-Eco 1 Okay. Pretty hot jar.
-
-CD-3 Pretty good. Got a little cool at some point.  and very hot at others. yellow melt pool?
-CD-2 Also pretty good, but didn't quite survive the low oxy phase. much too small in the soy blends. maybe in all. yellow melt pool.
-
-HTP-41 Drowned out, too cool maybe worth trying in different wax
-HTP-52 Also drowned out. might be from trimming too short? idk.
-
-Small Premiers all drown. Maybe run a test series with a final wax
-
-Select a final wax.
-
-Try these 14:
-P-720, P-725, P-735, 745
-HTP-31, HTP-41, HTP-52, HTP-62
-Zinc 28-24 /  34-40 / 36-24
-CD-2/ CD-3 and monitor container temp. These always get yellow and drown it seems
-Eco-1 and monitor container temp.
-
-
-Single
-Zinc 44-32 little soot and lots of mushrooming but otherwise decent option
-Zinc 51-32 same as above somehow
-
-HTP-93 Solid option. needs a bit more heat to get the sides. but works as is.
-HTP-104 Way too big, tons of soot.
-
-P-780, P-775 Pretty good, big flame, and some soot on both.
-P-765 on the verge of being useful, but not full melt pool without a crazy long burn. mushrooming.
-
-CD-7: tons of soot.
-
-Try these 15:
-HTP-93 and HTP-104
-CD-6 CD-7
-CDN 6/ 8
-Eco 6/ 8
-LX 16/ 18
-P-765/ P-767 / P-775
-Zinc 44-32/ Zinc-51-32-18
-
-
-5% coconut-1
-4% beeswax
-5% 464
-86% coco83
-
-5% coconut-1
-4% beeswax
-10% 464
-81% coco83
-
-5% coconut-1
-4% beeswax
-20% 464
-71% coco83
-
-
-2X CD-2
-2X CD-3
-P-765
-P-770
-
-change the order of the defaults on the batch page so FO temps are next to each other and room/jar temps too
-total wax weight doesnt update after editing a wax
-
 XL triple wick jar: https://www.candlemaking.com/oxford-xl-base-white-case-of-12.html.html
 https://calcandlesupply.com/16-oz-cali-jar/
 https://woodenwick.com/candle-making-supplies/candle-lids/copper-aura-lid-thin
@@ -292,22 +183,16 @@ fillmore green apple is excellent for fall
 
 autocomplete have a filter for not finished
 
-P775
-LX-18
-HTP-104
-
-jar fill percentage on new-batch form doesn't let you backspace it all the way
-
 Current Todo List:
 
-finished checkbox next to item on new-candle page
-add more items from new-batch page into query
 add weight to burns
 display client side burns
-client-api ping route or something to make sure its all connected
+add more info to burns
+client-api ping route or something to make sure its all connected--looks like this route already exists
 convert all dye-block amounts to weights if the small amounts are measureable with my scale
 add liquid dye as a resource
-confirmation links, msds sheets, ifra certificates, vanillin content
+confirmation links, msds sheets, ifra certificates, vanillin content/ ethyl vanillin, flashpoint, pthalate free
+add vanillin content to candle page
 autocomplete routes from hash_id
 recent batches route
 inventory routes
@@ -340,5 +225,13 @@ test hurricane glasses for asthetics, draft reduction
 Supplies needed
 
 CS
-Fig FO
-couple LX-18 wicks
+Mediterranean Fig FO
+
+candle jars
+https://www.candlesandsupplies.net/Candle-Making/Straight-Sided-Tumblers
+
+scent ideas
+nag champa + orange spice AAA + tuscan tobacco/ fir tree etc
+
+pancakes + birch or pancakes + fir for a seasonal breakfast
+

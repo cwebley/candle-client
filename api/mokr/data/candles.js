@@ -8,7 +8,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "First Citronella Sample CS Wick",
@@ -17,7 +17,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3RO3",
-      notes: "Testing a CS tea light wick"
+      notes: "Testing a CS tea light wick",
     },
     {
       name: "First Citronella Sample Candlemaker's Store Wick",
@@ -26,7 +26,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3RO3",
-      notes: "Testing the Candlemaker's store tea light wick"
+      notes: "Testing the Candlemaker's store tea light wick",
     },
     {
       name: "Beeswax Eco 0.75",
@@ -34,7 +34,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Beeswax TCS wick",
@@ -42,7 +42,7 @@ module.exports = [
       wickHashId: "NR6M",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Beeswax Mason Eco 14",
@@ -50,7 +50,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "10% beeswax test e-14",
@@ -59,7 +59,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "4D7B",
-      notes: "tester--no need to fill 100%"
+      notes: "tester--no need to fill 100%",
     },
     {
       name: "10% beeswax test e-16",
@@ -68,7 +68,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "4D7B",
-      notes: "tester--no need to fill"
+      notes: "tester--no need to fill",
     },
     {
       name: "10% beeswax test votive TCS",
@@ -77,7 +77,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "4D7B",
-      notes: "small wick test"
+      notes: "small wick test",
     },
     {
       name: "10% beeswax test votive e-0.75",
@@ -86,7 +86,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "4D7B",
-      notes: ""
+      notes: "",
     },
     {
       name: "Coco Test E-12",
@@ -94,7 +94,7 @@ module.exports = [
       wickHashId: "NKMD",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Coco test E-14",
@@ -102,7 +102,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Tealight TCS",
@@ -110,7 +110,7 @@ module.exports = [
       wickHashId: "NR6M",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Tealight E-0.75",
@@ -118,7 +118,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Made up candle to fix the data",
@@ -126,7 +126,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Coco-Beeswax-Soy Test E-14",
@@ -134,7 +134,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Coco-Beeswax-Soy Test E-16",
@@ -142,7 +142,7 @@ module.exports = [
       wickHashId: "NL7N",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Coco-Beeswax-Soy Votive TCS",
@@ -150,7 +150,7 @@ module.exports = [
       wickHashId: "NR6M",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Coco-Beeswax-Soy Votive CS",
@@ -158,7 +158,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Green Apple Sage E-14",
@@ -166,7 +166,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Green Apple Sage Votive TCS",
@@ -174,7 +174,7 @@ module.exports = [
       wickHashId: "NR6M",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Green Apple Sage Votive TCS",
@@ -182,7 +182,7 @@ module.exports = [
       wickHashId: "NR6M",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Data filler candle",
@@ -190,7 +190,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Data filler candle",
@@ -198,7 +198,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Data filler candle",
@@ -206,7 +206,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Data filler candle",
@@ -214,7 +214,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Data filler candle",
@@ -222,7 +222,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Data filler candle",
@@ -230,7 +230,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Data filler candle",
@@ -238,7 +238,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Data filler candle",
@@ -246,7 +246,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Green Apple Sage Clear Tumbler",
@@ -254,7 +254,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "2% bees 8% coco test",
@@ -262,7 +262,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "2/8 tealight CS",
@@ -270,7 +270,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "2/8 tealight TCS",
@@ -278,7 +278,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Mason 2/8 birch/vetiver test",
@@ -286,7 +286,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Tealight 2/8 birch/vetiver test TCS",
@@ -294,7 +294,7 @@ module.exports = [
       wickHashId: "NR6M",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Tealight 2/8 birch/vetiver test CS",
@@ -302,7 +302,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "94/3/1 bees-coco",
@@ -310,7 +310,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "95/3 coco-soy",
@@ -318,7 +318,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "3/0 Beeswax Coco Test Series",
@@ -326,7 +326,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "3/5 Beeswax Coco Test Series",
@@ -334,7 +334,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "3/10 Beeswax Coco Test Series",
@@ -342,7 +342,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "2/0 Beeswax Coco Test Series",
@@ -350,7 +350,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "2/5 Beeswax Coco Test Series",
@@ -358,7 +358,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "2/10 Beeswax Coco Test Series",
@@ -366,7 +366,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "1/0 Beeswax Coco Test",
@@ -374,7 +374,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "1/5 Beeswax Coco Test",
@@ -382,7 +382,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "1/10 Beeswax Coco",
@@ -390,7 +390,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "0/0 Beeeswax Coco Test",
@@ -398,7 +398,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "0/5 Beeswax Coco Test",
@@ -406,7 +406,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "0/10 Beeswax Coco Test",
@@ -414,8 +414,8 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
-    }
+      wickStickerHashId: "4D7B",
+    },
   ],
   [
     {
@@ -424,7 +424,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "100% 464 110 Pour",
@@ -432,7 +432,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "2/8/90 120 Pour",
@@ -440,7 +440,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "2/8/90 110 Pour",
@@ -448,7 +448,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "2/15/83 Cold Pour",
@@ -456,7 +456,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "2/20/78 Cold Pour",
@@ -464,7 +464,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "3/15/82 Cold Pour",
@@ -472,7 +472,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "3/20/77 Cold Pour",
@@ -480,7 +480,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
 
     // 12/4/2019
@@ -490,7 +490,7 @@ module.exports = [
       wickHashId: "DOLR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "2/8/90 Hot Pour RT Jar",
@@ -498,7 +498,7 @@ module.exports = [
       wickHashId: "N724",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "2/8/90 Cold Pour Warm Jar",
@@ -506,7 +506,7 @@ module.exports = [
       wickHashId: "DOLR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     // 1.5 / 5
     {
@@ -515,7 +515,7 @@ module.exports = [
       wickHashId: "DOLR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "1.5/5 cold pour RT jar",
@@ -523,7 +523,7 @@ module.exports = [
       wickHashId: "N724",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "1.5/5 cold pour warm jar",
@@ -531,8 +531,8 @@ module.exports = [
       wickHashId: "DOLR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
-    }
+      wickStickerHashId: "4D7B",
+    },
   ],
   // 12 / 5 / 2019
   [
@@ -542,7 +542,7 @@ module.exports = [
       wickHashId: "N7Z4",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "1.5/5 hot pour RT jar",
@@ -550,8 +550,8 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
-    }
+      wickStickerHashId: "4D7B",
+    },
   ],
   // 12 / 5 / 2019
   [
@@ -561,7 +561,7 @@ module.exports = [
       wickHashId: "N7Z4",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "1.5/5 cold pour RT jar",
@@ -569,8 +569,8 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
-    }
+      wickStickerHashId: "4D7B",
+    },
   ],
   // 12/6 mason jar hot pour jar temp test
   [
@@ -580,7 +580,7 @@ module.exports = [
       wickHashId: "D4VR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Mason 1.5/5 hot pour RT jar",
@@ -588,8 +588,8 @@ module.exports = [
       wickHashId: "D4RR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
-    }
+      wickStickerHashId: "4D7B",
+    },
   ],
   // 12/6 mason jar cold pour jar temp test
   [
@@ -599,7 +599,7 @@ module.exports = [
       wickHashId: "D4VR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Mason 1.5/5 cold pour RT jar",
@@ -607,8 +607,8 @@ module.exports = [
       wickHashId: "D4RR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
-    }
+      wickStickerHashId: "4D7B",
+    },
   ],
   // 12/8 wick test straight clear libby
   [
@@ -618,7 +618,7 @@ module.exports = [
       wickHashId: "D4VR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Straight Libby CD-18",
@@ -626,7 +626,7 @@ module.exports = [
       wickHashId: "N7Z4",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Straight Libby Eco-14",
@@ -634,7 +634,7 @@ module.exports = [
       wickHashId: "5QMN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Straight Libby LX-26",
@@ -642,8 +642,8 @@ module.exports = [
       wickHashId: "D4RR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
-    }
+      wickStickerHashId: "4D7B",
+    },
   ],
 
   // 12/9 holiday punch black tumbler
@@ -654,7 +654,7 @@ module.exports = [
       wickHashId: "D4VR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Black Tumbler Wick Test CD-18",
@@ -662,7 +662,7 @@ module.exports = [
       wickHashId: "N7Z4",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Black Tumbler Wick Test LX-26",
@@ -670,7 +670,7 @@ module.exports = [
       wickHashId: "D4RR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Black Tumbler Wick Test LX-28",
@@ -678,8 +678,8 @@ module.exports = [
       wickHashId: "N724",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
-    }
+      wickStickerHashId: "4D7B",
+    },
   ],
 
   // 12/9 black tumbler 2 more wick and scent tests
@@ -690,7 +690,7 @@ module.exports = [
       wickHashId: "D4VR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Black Tumbler Wick Test CD-18",
@@ -698,7 +698,7 @@ module.exports = [
       wickHashId: "N7Z4",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Black Tumbler Wick Test CD-16",
@@ -706,7 +706,7 @@ module.exports = [
       wickHashId: "D4VR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Black Tumbler Wick Test CD-18",
@@ -714,8 +714,8 @@ module.exports = [
       wickHashId: "N7Z4",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
-    }
+      wickStickerHashId: "4D7B",
+    },
   ],
 
   // 12/10 amber tumbler rework of juniper and krampus scents CD-16
@@ -726,7 +726,7 @@ module.exports = [
       wickHashId: "D4VR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Amber Tumbler Krampus Rework",
@@ -734,8 +734,8 @@ module.exports = [
       wickHashId: "D4VR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
-    }
+      wickStickerHashId: "4D7B",
+    },
   ],
 
   // 12/12 8 candle holiday fragrance CD-14 vs LX-24 showdown
@@ -746,7 +746,7 @@ module.exports = [
       wickHashId: "NGLX",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Juniper-Mint-Library LX-24",
@@ -754,7 +754,7 @@ module.exports = [
       wickHashId: "NBG4",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Krampus 3.0 CD-14",
@@ -762,7 +762,7 @@ module.exports = [
       wickHashId: "NGLX",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Krampus 3.0 LX-24",
@@ -770,7 +770,7 @@ module.exports = [
       wickHashId: "NBG4",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Holiday Punch CD-14",
@@ -778,7 +778,7 @@ module.exports = [
       wickHashId: "NGLX",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Holiday Punch LX-24",
@@ -786,7 +786,7 @@ module.exports = [
       wickHashId: "NBG4",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Tobacco Caramel Bergamot CD-14",
@@ -794,7 +794,7 @@ module.exports = [
       wickHashId: "NGLX",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Tobacco Caramel Bergamot LX-24",
@@ -802,8 +802,8 @@ module.exports = [
       wickHashId: "NBG4",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
-    }
+      wickStickerHashId: "4D7B",
+    },
   ],
   [
     // Krampus 4.0
@@ -813,7 +813,7 @@ module.exports = [
       wickHashId: "NGLX",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Krampus 4.0 LX-24",
@@ -821,7 +821,7 @@ module.exports = [
       wickHashId: "NBG4",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
 
     // Birch Teakwood Lav
@@ -831,7 +831,7 @@ module.exports = [
       wickHashId: "NGLX",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Birch Teakwood Lav LX-24",
@@ -839,8 +839,8 @@ module.exports = [
       wickHashId: "N3PV",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
-    }
+      wickStickerHashId: "4D7B",
+    },
   ],
   [
     // Krampus 5.0
@@ -850,7 +850,7 @@ module.exports = [
       wickHashId: "NGLX",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Krampus 5.0 LX-24",
@@ -858,7 +858,7 @@ module.exports = [
       wickHashId: "NBG4",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     // Krampus 6.0
     {
@@ -867,7 +867,7 @@ module.exports = [
       wickHashId: "NGLX",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Krampus 6.0 LX-24",
@@ -875,8 +875,8 @@ module.exports = [
       wickHashId: "N3PV",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
-    }
+      wickStickerHashId: "4D7B",
+    },
   ],
   [
     // Small jar wick tests, 4 full size dye tests
@@ -887,7 +887,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Juniper Mint CD-4",
@@ -895,7 +895,7 @@ module.exports = [
       wickHashId: "NLR7",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Juniper Mint Full Test",
@@ -903,7 +903,7 @@ module.exports = [
       wickHashId: "N3PV",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
 
     // punch
@@ -913,7 +913,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Holiday Punch CD-4",
@@ -921,7 +921,7 @@ module.exports = [
       wickHashId: "NLR7",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Holiday Punch Full Test",
@@ -929,7 +929,7 @@ module.exports = [
       wickHashId: "N3PV",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
 
     // tobacco caramel bergamot
@@ -939,7 +939,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Tabacco Salty Caramel CD-4",
@@ -947,7 +947,7 @@ module.exports = [
       wickHashId: "NLR7",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Tabacco Salty Caramel Full Test",
@@ -955,7 +955,7 @@ module.exports = [
       wickHashId: "NGLX",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
 
     // Krampus v5
@@ -965,7 +965,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Krampus V5 CD-4",
@@ -973,7 +973,7 @@ module.exports = [
       wickHashId: "NLR7",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Krampus V5 Full Test",
@@ -981,8 +981,8 @@ module.exports = [
       wickHashId: "NGLX",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
-    }
+      wickStickerHashId: "4D7B",
+    },
   ],
   [
     // tobacco small jar pour tests
@@ -992,7 +992,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Birch Vetiver Lavender CD-3 No Insulation",
@@ -1000,7 +1000,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Birch Vetiver Lavender CD-3 Covered with Box",
@@ -1008,7 +1008,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Birch Vetiver Lavender CD-3 Covered with Box",
@@ -1016,7 +1016,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "4D7B"
+      wickStickerHashId: "4D7B",
     },
     {
       name: "Birch Vetiver Lavender CD-3 Foil With Box",
@@ -1024,7 +1024,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Birch Vetiver Lavender CD-3 Foil With Box",
@@ -1032,7 +1032,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Birch Vetiver Lavender CD-3 Foil With Towel and Box",
@@ -1040,7 +1040,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Birch Vetiver Lavender CD-3 Foil With Towel and Box",
@@ -1048,7 +1048,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Birch Vetiver Lavender CD-3 120 Cold Pour in box",
@@ -1056,7 +1056,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Birch Vetiver Lavender CD-3 120 Cold Pour in box",
@@ -1064,7 +1064,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Birch Vetiver Lavender CD-3 120 Cold Jar foil + towel in box",
@@ -1072,7 +1072,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Birch Vetiver Lavender CD-3 120 Cold Jar foil + towel in box",
@@ -1080,7 +1080,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name:
@@ -1089,7 +1089,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name:
@@ -1098,8 +1098,8 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
-    }
+      wickStickerHashId: "BPJB",
+    },
   ],
   // Juniper Mint Library Gift Batch
   [
@@ -1109,7 +1109,7 @@ module.exports = [
       wickHashId: "NRPM",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Juniper Mint Library Gift Batch 1",
@@ -1117,7 +1117,7 @@ module.exports = [
       wickHashId: "NRPM",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Juniper Mint Library Gift Batch 1",
@@ -1125,7 +1125,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Juniper Mint Library Gift Batch 1",
@@ -1133,8 +1133,8 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
-    }
+      wickStickerHashId: "BPJB",
+    },
   ],
   [
     {
@@ -1143,7 +1143,7 @@ module.exports = [
       wickHashId: "NRPM",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Juniper Mint Library Gift Batch 2",
@@ -1151,7 +1151,7 @@ module.exports = [
       wickHashId: "NRPM",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Juniper Mint Library Gift Batch 2",
@@ -1159,7 +1159,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Juniper Mint Library Gift Batch 2",
@@ -1167,8 +1167,8 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
-    }
+      wickStickerHashId: "BPJB",
+    },
   ],
   [
     {
@@ -1177,7 +1177,7 @@ module.exports = [
       wickHashId: "NRPM",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Holiday Punch Gift Batch 1",
@@ -1185,7 +1185,7 @@ module.exports = [
       wickHashId: "NRPM",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Holiday Punch Gift Batch 1",
@@ -1193,7 +1193,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Holiday Punch Gift Batch 1",
@@ -1201,8 +1201,8 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
-    }
+      wickStickerHashId: "BPJB",
+    },
   ],
   [
     {
@@ -1211,7 +1211,7 @@ module.exports = [
       wickHashId: "NRPM",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Holiday Punch Gift Batch 2",
@@ -1219,7 +1219,7 @@ module.exports = [
       wickHashId: "NRPM",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Holiday Punch Gift Batch 2",
@@ -1227,7 +1227,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Something extra, never made prob",
@@ -1235,8 +1235,8 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
-    }
+      wickStickerHashId: "BPJB",
+    },
   ],
   [
     {
@@ -1245,7 +1245,7 @@ module.exports = [
       wickHashId: "D4WR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Salty Tobacco Caramel Gift Batch 1",
@@ -1253,7 +1253,7 @@ module.exports = [
       wickHashId: "D4WR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Salty Tobacco Caramel Gift Batch 1",
@@ -1261,7 +1261,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Salty Tobacco Caramel Gift Batch 1",
@@ -1269,8 +1269,8 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
-    }
+      wickStickerHashId: "BPJB",
+    },
   ],
   [
     {
@@ -1279,7 +1279,7 @@ module.exports = [
       wickHashId: "D4WR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Salty Tobacco Caramel Gift Batch 2",
@@ -1287,7 +1287,7 @@ module.exports = [
       wickHashId: "D4WR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Salty Tobacco Caramel Gift Batch 2",
@@ -1295,7 +1295,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Salty Tobacco Caramel Gift Batch 2",
@@ -1303,8 +1303,8 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
-    }
+      wickStickerHashId: "BPJB",
+    },
   ],
   [
     {
@@ -1313,7 +1313,7 @@ module.exports = [
       wickHashId: "NRPM",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Krampus Gift Batch 1",
@@ -1321,7 +1321,7 @@ module.exports = [
       wickHashId: "NRPM",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Krampus Gift Batch 1",
@@ -1329,7 +1329,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Krampus Gift Batch 1",
@@ -1337,8 +1337,8 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
-    }
+      wickStickerHashId: "BPJB",
+    },
   ],
   [
     {
@@ -1347,7 +1347,7 @@ module.exports = [
       wickHashId: "NRPM",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Krampus Gift Batch 2",
@@ -1355,7 +1355,7 @@ module.exports = [
       wickHashId: "NRPM",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Krampus Gift Batch 2",
@@ -1363,7 +1363,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Krampus Gift Batch 2",
@@ -1371,8 +1371,8 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
-    }
+      wickStickerHashId: "BPJB",
+    },
   ],
   // overflow from gift batches
   [
@@ -1382,7 +1382,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Juniper Mint Extra Batch 2",
@@ -1390,7 +1390,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Juniper Mint Tealight Extra",
@@ -1398,7 +1398,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Juniper Mint Tealight Extra",
@@ -1406,7 +1406,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Punch Extra Batch 1",
@@ -1414,7 +1414,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Punch Extra Tealight Batch 2",
@@ -1422,7 +1422,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Punch Extra Tealight Batch 2",
@@ -1430,7 +1430,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Punch Extra Tealight Batch 2",
@@ -1438,7 +1438,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Punch Extra Tealight Batch 2",
@@ -1446,7 +1446,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Punch Extra Tealight Batch 2",
@@ -1454,7 +1454,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Salty Tobacco Caramel Extra Batch 1",
@@ -1462,7 +1462,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Salty Tobacco Extra Tealight Batch 1",
@@ -1470,7 +1470,7 @@ module.exports = [
       wickHashId: "N9WN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Salty Tobacco Caramel Extra Batch 2",
@@ -1478,7 +1478,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Krampus Extra Batch 1",
@@ -1486,7 +1486,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Krampus Extra Batch 2",
@@ -1494,8 +1494,8 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
-    }
+      wickStickerHashId: "BPJB",
+    },
   ],
   [
     {
@@ -1504,7 +1504,7 @@ module.exports = [
       wickHashId: "NRPM",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       jarHashId: "M6D9",
@@ -1512,7 +1512,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "BPJB",
-      name: "Heat Lamp Tumbler Hot Jar"
+      name: "Heat Lamp Tumbler Hot Jar",
     },
     {
       name: "Heat Lamp Small Jar RT",
@@ -1521,7 +1521,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "BPJB",
-      notes: ""
+      notes: "",
     },
     {
       jarHashId: "MODG",
@@ -1529,8 +1529,8 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "BPJB",
-      name: "Heat Lamp Small Jar Hot Jar"
-    }
+      name: "Heat Lamp Small Jar Hot Jar",
+    },
   ],
   [
     {
@@ -1539,7 +1539,7 @@ module.exports = [
       wickHashId: "NRPM",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Higher Heat Lamp Small RT jar",
@@ -1547,7 +1547,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       jarHashId: "M6D9",
@@ -1555,7 +1555,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "BPJB",
-      name: "No Heat Lamp But Warmer Apartment RT Jar"
+      name: "No Heat Lamp But Warmer Apartment RT Jar",
     },
     {
       jarHashId: "MODG",
@@ -1563,8 +1563,8 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "BPJB",
-      name: "No Heat Lamp But Warmer Apartment RT Jar"
-    }
+      name: "No Heat Lamp But Warmer Apartment RT Jar",
+    },
   ],
   // double wick tests cd-3/cd-4
   [
@@ -1574,7 +1574,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Straight Tumbler Double CD-4",
@@ -1582,8 +1582,8 @@ module.exports = [
       wickHashId: "NLR7",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "BPJB"
-    }
+      wickStickerHashId: "BPJB",
+    },
   ],
   // first coco-83 candles with 5% bees
   [
@@ -1593,7 +1593,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Straight Tumbler Double CD-4",
@@ -1601,8 +1601,8 @@ module.exports = [
       wickHashId: "NLR7",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "BPJB"
-    }
+      wickStickerHashId: "BPJB",
+    },
   ],
   // 95/5 83/Bees wick tests half pours
   [
@@ -1612,7 +1612,7 @@ module.exports = [
       wickHashId: "N6ZP",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "95/5 83/Bees Double CD-2",
@@ -1620,7 +1620,7 @@ module.exports = [
       wickHashId: "N744",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "95/5 83/Bees LX-14",
@@ -1628,7 +1628,7 @@ module.exports = [
       wickHashId: "5Z4G",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "95/5 83/Bees LX-16",
@@ -1636,7 +1636,7 @@ module.exports = [
       wickHashId: "5P4X",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "95/5 83/Bees CD-6",
@@ -1644,7 +1644,7 @@ module.exports = [
       wickHashId: "5Q7M",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "95/5 83/Bees Eco-6",
@@ -1652,7 +1652,7 @@ module.exports = [
       wickHashId: "D26N",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "95/5 83/Bees HTP-52",
@@ -1660,7 +1660,7 @@ module.exports = [
       wickHashId: "5M3X",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "95/5 83/Bees HTP-62",
@@ -1668,7 +1668,7 @@ module.exports = [
       wickHashId: "DVVE",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "95/5 83/Bees Double CD-3",
@@ -1676,7 +1676,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "95/5 83/Bees Eco-8",
@@ -1684,8 +1684,8 @@ module.exports = [
       wickHashId: "5EGN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
-    }
+      wickStickerHashId: "BPJB",
+    },
   ],
   [
     {
@@ -1694,7 +1694,7 @@ module.exports = [
       wickHashId: "N63P",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "95/5 83/Bees Double Eco-1",
@@ -1702,7 +1702,7 @@ module.exports = [
       wickHashId: "DWY5",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "95/5 83/Bees HTP-73",
@@ -1710,7 +1710,7 @@ module.exports = [
       wickHashId: "NGEX",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "95/5 83/Bees LX-18",
@@ -1718,7 +1718,7 @@ module.exports = [
       wickHashId: "NKJM",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "95/5 83/Bees P-765",
@@ -1726,7 +1726,7 @@ module.exports = [
       wickHashId: "511W",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "95/5 83/Bees P-775",
@@ -1734,8 +1734,8 @@ module.exports = [
       wickHashId: "5Z2G",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
-    }
+      wickStickerHashId: "BPJB",
+    },
   ],
   [
     {
@@ -1744,7 +1744,7 @@ module.exports = [
       wickHashId: "N744",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "97/3 83/Bees CD-3",
@@ -1752,7 +1752,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "97/3 83/Bees HTP-31",
@@ -1760,7 +1760,7 @@ module.exports = [
       wickHashId: "N6ZP",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "97/3 83/Bees HTP-83",
@@ -1768,7 +1768,7 @@ module.exports = [
       wickHashId: "DW1Y",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "97/3 83/Bees Premier 765",
@@ -1776,7 +1776,7 @@ module.exports = [
       wickHashId: "511W",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "97/3 83/Bees Premier 775",
@@ -1784,7 +1784,7 @@ module.exports = [
       wickHashId: "5Z2G",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "97/3 83/Bees CD-6",
@@ -1792,7 +1792,7 @@ module.exports = [
       wickHashId: "5Q7M",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "97/3 83/Bees Eco-6",
@@ -1800,8 +1800,8 @@ module.exports = [
       wickHashId: "N74N",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
-    }
+      wickStickerHashId: "BPJB",
+    },
   ],
   [
     {
@@ -1810,7 +1810,7 @@ module.exports = [
       wickHashId: "DXW6",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Candle Party of Sameera",
@@ -1818,7 +1818,7 @@ module.exports = [
       wickHashId: "DXW6",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Candle Party of 4 Vijay",
@@ -1826,7 +1826,7 @@ module.exports = [
       wickHashId: "DXW6",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "Candle Party of 4 Al",
@@ -1834,8 +1834,8 @@ module.exports = [
       wickHashId: "DXW6",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
-    }
+      wickStickerHashId: "BPJB",
+    },
   ],
   [
     {
@@ -1844,7 +1844,7 @@ module.exports = [
       wickHashId: "N93W",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "97/3 wick test 3 double 710",
@@ -1852,7 +1852,7 @@ module.exports = [
       wickHashId: "5QZM",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "97/3 wick test 3 double 700",
@@ -1860,7 +1860,7 @@ module.exports = [
       wickHashId: "5YPR",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "97/3 wick test 3 HTP-93",
@@ -1868,7 +1868,7 @@ module.exports = [
       wickHashId: "51LW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
+      wickStickerHashId: "BPJB",
     },
     {
       name: "97/3 wick test 3 CD-7",
@@ -1876,8 +1876,8 @@ module.exports = [
       wickHashId: "DXW6",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "BPJB"
-    }
+      wickStickerHashId: "BPJB",
+    },
   ],
   [
     {
@@ -1886,7 +1886,7 @@ module.exports = [
       wickHashId: "N63P",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Double CD-2",
@@ -1894,7 +1894,7 @@ module.exports = [
       wickHashId: "N744",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Double CD-3",
@@ -1902,7 +1902,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Double HTP-31",
@@ -1910,7 +1910,7 @@ module.exports = [
       wickHashId: "N6ZP",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Double Eco-1",
@@ -1918,8 +1918,8 @@ module.exports = [
       wickHashId: "NL87",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "3RO3"
-    }
+      wickStickerHashId: "3RO3",
+    },
   ],
   [
     {
@@ -1928,7 +1928,7 @@ module.exports = [
       wickHashId: "DOKR",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Double HTP-41",
@@ -1936,7 +1936,7 @@ module.exports = [
       wickHashId: "DO3R",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "HTP-93",
@@ -1944,7 +1944,7 @@ module.exports = [
       wickHashId: "DXW6",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "HTP-104",
@@ -1952,7 +1952,7 @@ module.exports = [
       wickHashId: "5ZQG",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "P-775",
@@ -1960,7 +1960,7 @@ module.exports = [
       wickHashId: "5Z2G",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "P-780",
@@ -1968,8 +1968,8 @@ module.exports = [
       wickHashId: "5P1X",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
-    }
+      wickStickerHashId: "3RO3",
+    },
   ],
   [
     {
@@ -1978,7 +1978,7 @@ module.exports = [
       wickHashId: "5MYX",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Double HTP-52",
@@ -1986,7 +1986,7 @@ module.exports = [
       wickHashId: "5M3X",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "P-765",
@@ -1994,8 +1994,8 @@ module.exports = [
       wickHashId: "511W",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
-    }
+      wickStickerHashId: "3RO3",
+    },
   ],
   [
     {
@@ -2004,7 +2004,7 @@ module.exports = [
       wickHashId: "NJG1",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Double Zinc 34-40",
@@ -2012,7 +2012,7 @@ module.exports = [
       wickHashId: "NK8M",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Zinc 44-32",
@@ -2020,7 +2020,7 @@ module.exports = [
       wickHashId: "D42R",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "Zinc 51-32",
@@ -2028,8 +2028,8 @@ module.exports = [
       wickHashId: "N7J4",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
-    }
+      wickStickerHashId: "3RO3",
+    },
   ],
   [
     {
@@ -2038,7 +2038,7 @@ module.exports = [
       wickHashId: "NK8M",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "2% Coconut-1 Zinc 44-32",
@@ -2046,7 +2046,7 @@ module.exports = [
       wickHashId: "D42R",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "5% Coconut-1 Double Zinc 34-40",
@@ -2054,7 +2054,7 @@ module.exports = [
       wickHashId: "NK8M",
       wickCount: "2",
       wickLayout: "line",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "5% Coconut-1 Zinc 44-32",
@@ -2062,8 +2062,8 @@ module.exports = [
       wickHashId: "D42R",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
-    }
+      wickStickerHashId: "3RO3",
+    },
   ],
   [
     {
@@ -2072,7 +2072,7 @@ module.exports = [
       wickHashId: "N744",
       wickCount: "2",
       wickLayout: "tight",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "5% 464 Double CD-3",
@@ -2080,7 +2080,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "2",
       wickLayout: "tight",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "5% 464 P-765",
@@ -2088,7 +2088,7 @@ module.exports = [
       wickHashId: "511W",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "5% 464 P-775",
@@ -2096,8 +2096,8 @@ module.exports = [
       wickHashId: "5Z2G",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
-    }
+      wickStickerHashId: "3RO3",
+    },
   ],
   [
     {
@@ -2106,7 +2106,7 @@ module.exports = [
       wickHashId: "N744",
       wickCount: "2",
       wickLayout: "tight",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "10% 464 Double CD-3",
@@ -2114,7 +2114,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "2",
       wickLayout: "tight",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "10% 464 P-765",
@@ -2122,7 +2122,7 @@ module.exports = [
       wickHashId: "511W",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "10% 464 P-775",
@@ -2130,8 +2130,8 @@ module.exports = [
       wickHashId: "5Z2G",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
-    }
+      wickStickerHashId: "3RO3",
+    },
   ],
   [
     {
@@ -2140,7 +2140,7 @@ module.exports = [
       wickHashId: "N744",
       wickCount: "2",
       wickLayout: "tight",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "20% 464 Double CD-3",
@@ -2148,7 +2148,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "2",
       wickLayout: "tight",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "20% 464 P-765",
@@ -2156,7 +2156,7 @@ module.exports = [
       wickHashId: "511W",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3RO3"
+      wickStickerHashId: "3RO3",
     },
     {
       name: "20% 464 P-775",
@@ -2164,8 +2164,8 @@ module.exports = [
       wickHashId: "5Z2G",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
-    }
+      wickStickerHashId: "3NOB",
+    },
   ],
   // 5% Coco 2% beeswax 93 Coco83
   [
@@ -2175,7 +2175,7 @@ module.exports = [
       wickHashId: "N744",
       wickCount: "2",
       wickLayout: "small gap in wick tabs",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "5% cnut-1 2% Bees 93 Coco83 CD-3",
@@ -2183,7 +2183,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "2",
       wickLayout: "small gap in wick tabs",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "5% cnut-1 2% Bees 93 Coco83 HTP-93",
@@ -2191,8 +2191,8 @@ module.exports = [
       wickHashId: "51LW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
-    }
+      wickStickerHashId: "3NOB",
+    },
   ],
   // 10% Coco 2% beeswax 88 Coco83
   [
@@ -2202,7 +2202,7 @@ module.exports = [
       wickHashId: "N744",
       wickCount: "2",
       wickLayout: "small gap in wick tabs",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "10% cnut-1, 2% Bees 88% Coco83 CD-3",
@@ -2210,7 +2210,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "2",
       wickLayout: "small gap in wick tabs",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "10% cnut-1, 2% Bees 88% Coco83 HTP-93",
@@ -2218,8 +2218,8 @@ module.exports = [
       wickHashId: "51LW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
-    }
+      wickStickerHashId: "3NOB",
+    },
   ],
   // 10% Coco 4% beeswax 86 Coco83
   [
@@ -2229,7 +2229,7 @@ module.exports = [
       wickHashId: "N744",
       wickCount: "2",
       wickLayout: "small gap in wick tabs",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "10% cnut-1, 2% Bees 86% Coco83 CD-3",
@@ -2237,7 +2237,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "2",
       wickLayout: "small gap in wick tabs",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "10% cnut-1, 2% Bees 86% Coco83 HTP-93",
@@ -2245,8 +2245,8 @@ module.exports = [
       wickHashId: "51LW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
-    }
+      wickStickerHashId: "3NOB",
+    },
   ],
   // Double Wick Expansive Test 10% Coconut-1
   [
@@ -2256,7 +2256,7 @@ module.exports = [
       wickHashId: "N93W",
       wickCount: "2",
       wickLayout: "small gap in wick tabs",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "P-725",
@@ -2264,7 +2264,7 @@ module.exports = [
       wickHashId: "N63P",
       wickCount: "2",
       wickLayout: "small gap in wick tabs",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "P-735",
@@ -2272,7 +2272,7 @@ module.exports = [
       wickHashId: "DOKR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "P-745",
@@ -2280,7 +2280,7 @@ module.exports = [
       wickHashId: "5MYX",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "HTP-31",
@@ -2288,7 +2288,7 @@ module.exports = [
       wickHashId: "N6ZP",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "HTP-41",
@@ -2296,7 +2296,7 @@ module.exports = [
       wickHashId: "DO3R",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "HTP-52",
@@ -2304,7 +2304,7 @@ module.exports = [
       wickHashId: "5M3X",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "HTP-62",
@@ -2312,7 +2312,7 @@ module.exports = [
       wickHashId: "DVVE",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Zinc 28-24",
@@ -2320,7 +2320,7 @@ module.exports = [
       wickHashId: "NJG1",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Zinc 34-40",
@@ -2328,7 +2328,7 @@ module.exports = [
       wickHashId: "NK8M",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Zinc 36-24",
@@ -2336,7 +2336,7 @@ module.exports = [
       wickHashId: "NRLM",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "CD-2",
@@ -2344,7 +2344,7 @@ module.exports = [
       wickHashId: "N744",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "CD-3",
@@ -2352,7 +2352,7 @@ module.exports = [
       wickHashId: "N9OW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Eco 1",
@@ -2360,8 +2360,8 @@ module.exports = [
       wickHashId: "NL87",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
-    }
+      wickStickerHashId: "3NOB",
+    },
   ],
   // Big Single Wick Test
   [
@@ -2371,7 +2371,7 @@ module.exports = [
       wickHashId: "51LW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "HTP-104",
@@ -2379,7 +2379,7 @@ module.exports = [
       wickHashId: "5ZQG",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "CD-6",
@@ -2387,7 +2387,7 @@ module.exports = [
       wickHashId: "5Q7M",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "CD-7",
@@ -2395,7 +2395,7 @@ module.exports = [
       wickHashId: "DXW6",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "CDN-6",
@@ -2403,7 +2403,7 @@ module.exports = [
       wickHashId: "N6P7",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "CDN-8",
@@ -2411,7 +2411,7 @@ module.exports = [
       wickHashId: "N7J3",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Eco-4",
@@ -2419,7 +2419,7 @@ module.exports = [
       wickHashId: "5PXN",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Eco-6",
@@ -2427,7 +2427,7 @@ module.exports = [
       wickHashId: "D42G",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Eco-8",
@@ -2435,7 +2435,7 @@ module.exports = [
       wickHashId: "N3MZ",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "LX-16",
@@ -2443,7 +2443,7 @@ module.exports = [
       wickHashId: "5P4X",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "LX-18",
@@ -2451,7 +2451,7 @@ module.exports = [
       wickHashId: "D2P6",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "P-765",
@@ -2459,7 +2459,7 @@ module.exports = [
       wickHashId: "511W",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "P-767",
@@ -2467,7 +2467,7 @@ module.exports = [
       wickHashId: "DVG6",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "P-775",
@@ -2475,7 +2475,7 @@ module.exports = [
       wickHashId: "5Z2G",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Zinc 44-32",
@@ -2483,7 +2483,7 @@ module.exports = [
       wickHashId: "D42R",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Zinc 51-32",
@@ -2491,8 +2491,8 @@ module.exports = [
       wickHashId: "N7J4",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
-    }
+      wickStickerHashId: "3NOB",
+    },
   ],
   // Fig-Bergamot Full Jar Single Wick finalists
   [
@@ -2502,7 +2502,7 @@ module.exports = [
       wickHashId: "51LW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Fig/Bergamot CD-7",
@@ -2510,7 +2510,7 @@ module.exports = [
       wickHashId: "DXW6",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Fig/Bergamot P-767",
@@ -2518,7 +2518,7 @@ module.exports = [
       wickHashId: "DVG6",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Fig/Bergamot P-770",
@@ -2526,8 +2526,8 @@ module.exports = [
       wickHashId: "DWM4",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
-    }
+      wickStickerHashId: "3NOB",
+    },
   ],
   // Fig-Bergamot Full Jar Single Wick bigger finalists bc last round sucked
   [
@@ -2537,7 +2537,7 @@ module.exports = [
       wickHashId: "5PMR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Fig/Bergamot P-775",
@@ -2545,7 +2545,7 @@ module.exports = [
       wickHashId: "DXW6",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Fig/Bergamot LX-18",
@@ -2553,7 +2553,7 @@ module.exports = [
       wickHashId: "NKJM",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Fig/Bergamot HTP-104",
@@ -2561,8 +2561,8 @@ module.exports = [
       wickHashId: "5ZQG",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
-    }
+      wickStickerHashId: "3NOB",
+    },
   ],
   // Fig-Bergamot Full Jar Finalists Round 3
   [
@@ -2572,7 +2572,7 @@ module.exports = [
       wickHashId: "DXW6",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Fig/Bergamot Round 3 CD-8",
@@ -2580,7 +2580,7 @@ module.exports = [
       wickHashId: "5PMR",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Fig/Bergamot Round 3 P-775",
@@ -2588,7 +2588,7 @@ module.exports = [
       wickHashId: "5Z2G",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Fig/Bergamot Round 3 P-777",
@@ -2596,8 +2596,8 @@ module.exports = [
       wickHashId: "51VY",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
-    }
+      wickStickerHashId: "3NOB",
+    },
   ],
   [
     {
@@ -2606,7 +2606,7 @@ module.exports = [
       wickHashId: "5Z2G",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Root Beer Float Test 780",
@@ -2614,7 +2614,7 @@ module.exports = [
       wickHashId: "5ZPB",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Root Beer Float Test 777",
@@ -2622,7 +2622,7 @@ module.exports = [
       wickHashId: "51VY",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Movie Night Test 775",
@@ -2630,7 +2630,7 @@ module.exports = [
       wickHashId: "5Z2G",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Movie Night Test 777",
@@ -2638,7 +2638,7 @@ module.exports = [
       wickHashId: "51VY",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Movie Night Test 780",
@@ -2646,8 +2646,8 @@ module.exports = [
       wickHashId: "5ZPB",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
-    }
+      wickStickerHashId: "3NOB",
+    },
   ],
   [
     {
@@ -2656,7 +2656,7 @@ module.exports = [
       wickHashId: "51VY",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Fig Bergamot 2 candle test 780",
@@ -2664,8 +2664,8 @@ module.exports = [
       wickHashId: "5ZPB",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
-    }
+      wickStickerHashId: "3NOB",
+    },
   ],
   [
     {
@@ -2674,7 +2674,7 @@ module.exports = [
       wickHashId: "51LW",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "RBF Eco-6",
@@ -2683,7 +2683,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3NOB",
-      notes: "\n"
+      notes: "\n",
     },
     {
       name: "RBF CD-7",
@@ -2692,7 +2692,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3NOB",
-      notes: "\n"
+      notes: "\n",
     },
     {
       name: "RBF P-760",
@@ -2701,7 +2701,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3NOB",
-      notes: "\n"
+      notes: "\n",
     },
     {
       name: "RBF P-765",
@@ -2710,7 +2710,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3NOB",
-      notes: "\n"
+      notes: "\n",
     },
     {
       name: "RBF P-767",
@@ -2719,7 +2719,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3NOB",
-      notes: "\n"
+      notes: "\n",
     },
     {
       name: "RBF P-770",
@@ -2728,8 +2728,8 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3NOB",
-      notes: "\n"
-    }
+      notes: "\n",
+    },
   ],
   [
     {
@@ -2739,7 +2739,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3NOB",
-      notes: ""
+      notes: "",
     },
     {
       name: "RBF 10% fragrance P-775",
@@ -2748,8 +2748,8 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3NOB",
-      notes: ""
-    }
+      notes: "",
+    },
   ],
   [
     {
@@ -2759,7 +2759,7 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3NOB",
-      notes: ""
+      notes: "",
     },
     {
       name: "Vanilla Only 10% fragrance P-767",
@@ -2768,8 +2768,8 @@ module.exports = [
       wickCount: "1",
       wickLayout: "center",
       wickStickerHashId: "3NOB",
-      notes: ""
-    }
+      notes: "",
+    },
   ],
   [
     {
@@ -2778,7 +2778,7 @@ module.exports = [
       jarHashId: "5QDL",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "RBF 12% CD-8 Half Jar",
@@ -2786,7 +2786,7 @@ module.exports = [
       jarHashId: "5QDL",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "RBF 12% CDN-8 Half Jar",
@@ -2794,7 +2794,7 @@ module.exports = [
       jarHashId: "5QDL",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "RBF 12% LX-18 Half Jar",
@@ -2802,7 +2802,7 @@ module.exports = [
       jarHashId: "5QDL",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "RBF 12% Zinc 44-32-18 Half Jar",
@@ -2810,7 +2810,7 @@ module.exports = [
       jarHashId: "5QDL",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Wild Mountain Honey Test",
@@ -2818,7 +2818,7 @@ module.exports = [
       jarHashId: "5QDL",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Sandalwood Test",
@@ -2826,8 +2826,8 @@ module.exports = [
       jarHashId: "5QDL",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
-    }
+      wickStickerHashId: "3NOB",
+    },
   ],
   [
     {
@@ -2836,7 +2836,7 @@ module.exports = [
       wickHashId: "51VY",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Fig Bergamot 780",
@@ -2844,7 +2844,7 @@ module.exports = [
       wickHashId: "5ZPB",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Fig Tree Bergamot 777",
@@ -2852,7 +2852,7 @@ module.exports = [
       wickHashId: "51VY",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
+      wickStickerHashId: "3NOB",
     },
     {
       name: "Fig Tree Bergamot 780",
@@ -2860,7 +2860,141 @@ module.exports = [
       wickHashId: "5ZPB",
       wickCount: "1",
       wickLayout: "center",
-      wickStickerHashId: "3NOB"
-    }
-  ]
+      wickStickerHashId: "3NOB",
+    },
+  ],
+  [
+    {
+      name: "RBF Finalist 4/14 CDN-8",
+      jarHashId: "5QDL",
+      wickHashId: "N7J3",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: "",
+    },
+    {
+      name: "RBF Finalist 4/14 CD-8",
+      jarHashId: "5QDL",
+      wickHashId: "5PMR",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: "",
+    },
+    {
+      name: "RBF Finalist 4/14 HTP-104",
+      jarHashId: "5QDL",
+      wickHashId: "5ZQG",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: "",
+    },
+    {
+      name: "RBF Finalist 4/14 Z-51-32",
+      jarHashId: "5QDL",
+      wickHashId: "N7J4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: "",
+    },
+    {
+      name: "Golden Garden Half Pour P-770",
+      jarHashId: "5QDL",
+      wickHashId: "DWM4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: "",
+    },
+    {
+      name: "Golden Garden Half Pour P-777",
+      jarHashId: "5QDL",
+      wickHashId: "51VY",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: "",
+    },
+    {
+      name: "Golden Garden Half Pour CDN-8",
+      jarHashId: "5QDL",
+      wickHashId: "N7J3",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: "",
+    },
+    {
+      name: "Golden Garden Half Pour ECO-6",
+      jarHashId: "5QDL",
+      wickHashId: "D42G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      notes: "",
+    },
+  ],
+  [
+    {
+      name: "Med Fig + Berg 777",
+      jarHashId: "5QDL",
+      wickHashId: "51VY",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+    },
+    {
+      name: "Fig Tree + Berg 777",
+      jarHashId: "5QDL",
+      wickHashId: "51VY",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+    },
+    {
+      name: "Fig Tree + Berg Eco-6",
+      jarHashId: "1YBW",
+      wickHashId: "D42G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+    },
+    {
+      name: "Golden Garden 770",
+      jarHashId: "5QDL",
+      wickHashId: "DWM4",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+    },
+    {
+      name: "Golden Garden 775",
+      jarHashId: "5QDL",
+      wickHashId: "5Z2G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+    },
+    {
+      name: "Golden Garden Eco-6",
+      jarHashId: "5QDL",
+      wickHashId: "D42G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+    },
+  ],
+  [
+    {
+      name: "Complex Cigar Test",
+      jarHashId: "1YBW",
+      wickHashId: "5Z2G",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+    },
+  ],
 ];

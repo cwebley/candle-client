@@ -25,40 +25,40 @@ import handleApiError, { currentDate, currentDateTime } from "../utils";
 import api from "../api";
 import { calculateFragranceLoadByPopularMethod } from "../utils";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     ...theme.mixins.gutters(),
     display: "flex",
     flexFlow: "row wrap",
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
   },
   paper: {
-    padding: theme.spacing(2)
+    padding: theme.spacing(2),
   },
   tableWrapper: {
-    marginTop: theme.spacing(2)
+    marginTop: theme.spacing(2),
   },
   textField: {
     width: "90%",
-    padding: theme.spacing(2)
+    padding: theme.spacing(2),
   },
   header: {
-    padding: theme.spacing(2)
+    padding: theme.spacing(2),
   },
   footer: {
-    padding: theme.spacing(2)
+    padding: theme.spacing(2),
   },
   iconButton: {
-    borderRadius: 0
+    borderRadius: 0,
   },
   formActions: {
     textAlign: "center",
-    marginTop: theme.spacing(2)
+    marginTop: theme.spacing(2),
   },
   submitButton: {
-    padding: theme.spacing(1)
-  }
+    padding: theme.spacing(1),
+  },
 }));
 
 // batchItems all get a combineId that is unique
@@ -70,14 +70,19 @@ function NewBatch({ history, enqueueSnackbar }) {
   const location = useLocation();
   const {
     candle,
+    foTarget,
+    dyeTemp,
+    foTemp,
+    jarTemp,
     pourTemp,
     roomTemp,
     roomHumidity,
-    jarTemp,
+    fillPercentage,
     ...rest
   } = qs.parse(location.search, {
-    arrayFormat: "comma"
+    arrayFormat: "comma",
   });
+
   let initialCandleHashIds = candle || [];
   if (candle) {
     if (typeof candle === "string") {
@@ -96,23 +101,27 @@ function NewBatch({ history, enqueueSnackbar }) {
   );
   const [batchValues, setBatchValues] = useState({
     whenCreated: currentDate(),
+    fragranceAddTemperatureFahrenheit: foTemp || null,
+    dyeAddTemperatureFahrenheit: dyeTemp || null,
     batchItems: [],
-    layers: initialCandleHashIds.map(hashId => ({
+    layers: initialCandleHashIds.map((hashId) => ({
       candleHashId: hashId,
       whenPoured: currentDateTime(),
       pourTemperatureFahrenheit: pourTemp,
       coolingRoomHumidityPercent: roomHumidity,
       coolingRoomTemperatureFahrenheit: roomTemp,
-      containerTemperatureFahrenheit: jarTemp
-    }))
+      containerTemperatureFahrenheit: jarTemp,
+    })),
   });
   const [candleHashIds, setCandleHashIds] = useState(initialCandleHashIds);
 
   const [layerDialogOpen, setLayerDialogOpen] = useState(false);
   const [newLayerValues, setNewLayerValues] = useState({});
   const [editLayerIndex, setLayerEditIndex] = useState(null);
-  const [fragranceLoadTarget, setFragranceLoadTarget] = useState(null);
-  const [jarFillPercentage, setJarFillPercentage] = useState(100);
+  const [fragranceLoadTarget, setFragranceLoadTarget] = useState(foTarget);
+  const [jarFillPercentage, setJarFillPercentage] = useState(
+    fillPercentage || 100
+  );
   const [cumulativeWeights, setCumulativeWeights] = useState({});
   const [defaultJarTemp, setDefaultJarTemp] = useState(jarTemp || "");
   const [defaultPourTemp, setDefaultPourTemp] = useState(pourTemp || "");
@@ -121,23 +130,25 @@ function NewBatch({ history, enqueueSnackbar }) {
     roomHumidity || ""
   );
 
+  // the values placed in a newly added layer depend on the default values
+  // so this fn is memoized each time those values change
   const addLayer = useCallback(
-    layerValues => {
-      setBatchValues(batchValues => {
+    (layerValues) => {
+      setBatchValues((batchValues) => {
         return {
           ...batchValues,
-          layers: [...batchValues.layers, layerValues]
+          layers: [...batchValues.layers, layerValues],
         };
       });
       if (layerValues.candleHashId) {
-        setCandleHashIds(c => [...c, layerValues.candleHashId]);
+        setCandleHashIds((c) => [...c, layerValues.candleHashId]);
       }
 
       setNewLayerValues({
         containerTemperatureFahrenheit: defaultJarTemp,
         pourTemperatureFahrenheit: defaultPourTemp,
         coolingRoomTemperatureFahrenheit: defaultRoomTemp,
-        coolingRoomHumidityPercent: defaultRoomHumidity
+        coolingRoomHumidityPercent: defaultRoomHumidity,
       });
       setLayerDialogOpen(false);
     },
@@ -147,12 +158,13 @@ function NewBatch({ history, enqueueSnackbar }) {
       defaultPourTemp,
       defaultRoomHumidity,
       defaultRoomTemp,
-      defaultJarTemp
+      defaultJarTemp,
     ]
   );
 
   // every time the candleHashIds change, update the url
   useEffect(() => {
+    // at the moment the url only needs to update when a layer exists. might revisit this in the future
     if (candleHashIds.length) {
       let url = `/new-batch?candle=${candleHashIds.join(",")}`;
       if (defaultRoomHumidity) {
@@ -167,6 +179,18 @@ function NewBatch({ history, enqueueSnackbar }) {
       if (defaultJarTemp) {
         url += `&jarTemp=${defaultJarTemp}`;
       }
+      if (fragranceLoadTarget) {
+        url += `&foTarget=${fragranceLoadTarget}`;
+      }
+      if (batchValues.fragranceAddTemperatureFahrenheit) {
+        url += `&foTemp=${batchValues.fragranceAddTemperatureFahrenheit}`;
+      }
+      if (batchValues.dyeAddTemperatureFahrenheit) {
+        url += `&dyeTemp=${batchValues.dyeAddTemperatureFahrenheit}`;
+      }
+      if (jarFillPercentage) {
+        url += `&fillPercentage=${jarFillPercentage}`;
+      }
       history.push(url);
       return;
     }
@@ -174,10 +198,14 @@ function NewBatch({ history, enqueueSnackbar }) {
   }, [
     history,
     candleHashIds,
+    fragranceLoadTarget,
+    batchValues.fragranceAddTemperatureFahrenheit,
+    batchValues.dyeAddTemperatureFahrenheit,
+    jarFillPercentage,
     defaultJarTemp,
     defaultPourTemp,
     defaultRoomTemp,
-    defaultRoomHumidity
+    defaultRoomHumidity,
   ]);
 
   // fetch one time data from the server
@@ -188,11 +216,11 @@ function NewBatch({ history, enqueueSnackbar }) {
         if (result.data) {
           setResourceTypes(result.data);
           if (result.data.length) {
-            let batchResources = result.data.filter(r => r.scope === "batch");
+            let batchResources = result.data.filter((r) => r.scope === "batch");
             if (batchResources.length) {
-              setNewBatchItemValues(newBatchItemValues => ({
+              setNewBatchItemValues((newBatchItemValues) => ({
                 ...newBatchItemValues,
-                type: batchResources[0].slug
+                type: batchResources[0].slug,
               }));
             }
           }
@@ -211,7 +239,7 @@ function NewBatch({ history, enqueueSnackbar }) {
     const fetchWaxToFillSum = async () => {
       try {
         const result = await axios(api.waxToFillUrl, {
-          params: { candles: candleHashIds.join(",") }
+          params: { candles: candleHashIds.join(",") },
         });
         if (result.data) {
           setWaxWeightSuggestion(result.data.total);
@@ -236,20 +264,20 @@ function NewBatch({ history, enqueueSnackbar }) {
     waxWeightSuggestion,
     setWaxSuggestionGivenJarFill,
     fragranceLoadTarget,
-    jarFillPercentage
+    jarFillPercentage,
   ]);
 
-  const handleBatchItemFormChange = e => {
+  const handleBatchItemFormChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
     const checked = e.target.checked;
 
-    setNewBatchItemValues(newBatchItemValues => {
+    setNewBatchItemValues((newBatchItemValues) => {
       let formattedValues = newBatchItemValues;
       if (name === "finished") {
         return {
           ...formattedValues,
-          [name]: checked
+          [name]: checked,
         };
       }
 
@@ -272,44 +300,44 @@ function NewBatch({ history, enqueueSnackbar }) {
       }
       return {
         ...formattedValues,
-        [name]: value
+        [name]: value,
       };
     });
   };
 
-  const handleLayerFormChange = e => {
+  const handleLayerFormChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
-    setNewLayerValues(newLayerValues => {
+    setNewLayerValues((newLayerValues) => {
       return {
         ...newLayerValues,
-        [name]: value
+        [name]: value,
       };
     });
   };
 
-  const addBatchItem = e => {
+  const addBatchItem = (e) => {
     const newBatchItem = { ...newBatchItemValues };
     if (!newBatchItem.combineId) {
       newBatchItem.combineId = combineIdCounter;
       combineIdCounter++;
     }
-    setBatchValues(batchValues => {
+    setBatchValues((batchValues) => {
       return {
         ...batchValues,
-        batchItems: [...batchValues.batchItems, { ...newBatchItem }]
+        batchItems: [...batchValues.batchItems, { ...newBatchItem }],
       };
     });
 
     addToCumulativeWeights(newBatchItem);
 
     setNewBatchItemValues({
-      type: newBatchItem.type
+      type: newBatchItem.type,
     });
     setBatchItemDialogOpen(false);
   };
 
-  const addToCumulativeWeights = newBatchItem => {
+  const addToCumulativeWeights = (newBatchItem) => {
     const previousCumulativeWeights = cumulativeWeights;
 
     const previousWeightForType =
@@ -318,7 +346,7 @@ function NewBatch({ history, enqueueSnackbar }) {
     setCumulativeWeights({
       ...previousCumulativeWeights,
       [newBatchItem.type]:
-        previousWeightForType + parseFloat(newBatchItem.weightOunces) || 0
+        previousWeightForType + parseFloat(newBatchItem.weightOunces) || 0,
     });
   };
 
@@ -335,69 +363,86 @@ function NewBatch({ history, enqueueSnackbar }) {
       ...previousCumulativeWeights,
       [editedBatchItem.type]:
         adjustedPreviousWeightForType +
-          parseFloat(editedBatchItem.weightOunces) || 0
+          parseFloat(editedBatchItem.weightOunces) || 0,
+    });
+  };
+
+  const deleteFromCumulativeWeights = (deletedItem) => {
+    const previousCumulativeWeights = cumulativeWeights;
+
+    const previousWeightForType =
+      previousCumulativeWeights[deletedItem.type] || 0;
+
+    const adjustedPreviousWeightForType =
+      previousWeightForType - deletedItem.weightOunces;
+
+    setCumulativeWeights({
+      ...previousCumulativeWeights,
+      [deletedItem.type]: adjustedPreviousWeightForType || 0,
     });
   };
 
   const clearBatchItemDialogState = () => {
     setBatchItemDialogOpen(false);
-    setNewBatchItemValues(newBatchItemValues => {
+    setNewBatchItemValues((newBatchItemValues) => {
       return {
-        type: newBatchItemValues.type
+        type: newBatchItemValues.type,
       };
     });
     setItemEditIndex(null);
   };
 
-  const showEditBatchItem = index => {
+  const showEditBatchItem = (index) => {
     setItemEditIndex(index);
     setNewBatchItemValues({
-      ...batchValues.batchItems[index]
+      ...batchValues.batchItems[index],
     });
     setBatchItemDialogOpen(true);
   };
 
-  const showEditLayers = index => {
+  const showEditLayers = (index) => {
     setLayerEditIndex(index);
     setNewLayerValues({
-      ...batchValues.layers[index]
+      ...batchValues.layers[index],
     });
     setLayerDialogOpen(true);
   };
 
-  const deleteBatchItem = index => {
-    setBatchValues(batchValues => {
+  const deleteBatchItem = (index) => {
+    deleteFromCumulativeWeights(batchValues.batchItems[index]);
+
+    setBatchValues((batchValues) => {
       return {
         ...batchValues,
         batchItems: [
           ...batchValues.batchItems.slice(0, index),
-          ...batchValues.batchItems.slice(index + 1)
-        ]
+          ...batchValues.batchItems.slice(index + 1),
+        ],
       };
     });
   };
 
-  const deleteLayer = index => {
-    setBatchValues(batchValues => {
+  const deleteLayer = (index) => {
+    setBatchValues((batchValues) => {
       return {
         ...batchValues,
         layers: [
           ...batchValues.layers.slice(0, index),
-          ...batchValues.layers.slice(index + 1)
-        ]
+          ...batchValues.layers.slice(index + 1),
+        ],
       };
     });
-    setCandleHashIds(c => [...c.slice(0, index), ...c.slice(index + 1)]);
+    setCandleHashIds((c) => [...c.slice(0, index), ...c.slice(index + 1)]);
   };
 
-  const submitBatch = async e => {
+  const submitBatch = async (e) => {
     e.preventDefault();
-    const submitBatchData = async data => {
+    const submitBatchData = async (data) => {
       try {
         const result = await axios.post(api.newBatchUrl, data);
         if (result && result.data) {
           enqueueSnackbar(`Batch ${result.data.batchId} successfully created`, {
-            variant: "success"
+            variant: "success",
           });
         }
       } catch (err) {
@@ -407,49 +452,49 @@ function NewBatch({ history, enqueueSnackbar }) {
     submitBatchData(batchValues);
   };
 
-  const editBatchItem = e => {
+  const editBatchItem = (e) => {
     const newBatchItem = { ...newBatchItemValues };
     if (!newBatchItem.combineId) {
       newBatchItem.combineId = combineIdCounter;
       combineIdCounter++;
     }
 
-    setBatchValues(batchValues => {
+    setBatchValues((batchValues) => {
       return {
         ...batchValues,
         batchItems: [
           ...batchValues.batchItems.slice(0, editItemIndex),
           { ...newBatchItem },
-          ...batchValues.batchItems.slice(editItemIndex + 1)
-        ]
+          ...batchValues.batchItems.slice(editItemIndex + 1),
+        ],
       };
     });
 
     editCumulativeWeights(batchValues.batchItems[editItemIndex], newBatchItem);
 
     setNewBatchItemValues({
-      type: newBatchItem.type
+      type: newBatchItem.type,
     });
     setBatchItemDialogOpen(false);
     setItemEditIndex(null);
   };
 
-  const editLayer = editedLayerValues => {
-    setBatchValues(batchValues => {
+  const editLayer = (editedLayerValues) => {
+    setBatchValues((batchValues) => {
       return {
         ...batchValues,
         layers: [
           ...batchValues.layers.slice(0, editLayerIndex),
           { ...editedLayerValues },
-          ...batchValues.layers.slice(editLayerIndex + 1)
-        ]
+          ...batchValues.layers.slice(editLayerIndex + 1),
+        ],
       };
     });
     setNewLayerValues({
       containerTemperatureFahrenheit: defaultJarTemp,
       pourTemperatureFahrenheit: defaultPourTemp,
       coolingRoomTemperatureFahrenheit: defaultRoomTemp,
-      coolingRoomHumidityPercent: defaultRoomHumidity
+      coolingRoomHumidityPercent: defaultRoomHumidity,
     });
     setLayerDialogOpen(false);
     setLayerEditIndex(null);
@@ -463,7 +508,7 @@ function NewBatch({ history, enqueueSnackbar }) {
       return;
     }
     const totalWaxWeightOunces = batchValues.batchItems
-      .filter(b => b.type === "wax")
+      .filter((b) => b.type === "wax")
       .reduce((sum, w) => sum + parseFloat(w.weightOunces), 0);
 
     const fragranceLoadTargetDecimal = parseFloat(fragranceLoadTarget) / 100;
@@ -477,12 +522,12 @@ function NewBatch({ history, enqueueSnackbar }) {
     return (fragranceLoadTargetDecimal * totalWaxWeightOunces).toFixed(2);
   };
 
-  const updateDefaultJarTemp = value => {
+  const updateDefaultJarTemp = (value) => {
     const previousVal = defaultJarTemp;
     setDefaultJarTemp(value);
     setBatchValues({
       ...batchValues,
-      layers: batchValues.layers.map(l => {
+      layers: batchValues.layers.map((l) => {
         if (
           l.containerTemperatureFahrenheit &&
           l.containerTemperatureFahrenheit !== previousVal
@@ -491,17 +536,17 @@ function NewBatch({ history, enqueueSnackbar }) {
         }
         return {
           ...l,
-          containerTemperatureFahrenheit: value
+          containerTemperatureFahrenheit: value,
         };
-      })
+      }),
     });
   };
-  const updateDefaultPourTemp = value => {
+  const updateDefaultPourTemp = (value) => {
     const previousVal = defaultPourTemp;
     setDefaultPourTemp(value);
     setBatchValues({
       ...batchValues,
-      layers: batchValues.layers.map(l => {
+      layers: batchValues.layers.map((l) => {
         if (
           l.pourTemperatureFahrenheit &&
           l.pourTemperatureFahrenheit !== previousVal
@@ -510,17 +555,17 @@ function NewBatch({ history, enqueueSnackbar }) {
         }
         return {
           ...l,
-          pourTemperatureFahrenheit: value
+          pourTemperatureFahrenheit: value,
         };
-      })
+      }),
     });
   };
-  const updateDefaultRoomTemp = value => {
+  const updateDefaultRoomTemp = (value) => {
     const previousVal = defaultRoomTemp;
     setDefaultRoomTemp(value);
     setBatchValues({
       ...batchValues,
-      layers: batchValues.layers.map(l => {
+      layers: batchValues.layers.map((l) => {
         if (
           l.coolingRoomTemperatureFahrenheit &&
           l.coolingRoomTemperatureFahrenheit !== previousVal
@@ -529,17 +574,17 @@ function NewBatch({ history, enqueueSnackbar }) {
         }
         return {
           ...l,
-          coolingRoomTemperatureFahrenheit: value
+          coolingRoomTemperatureFahrenheit: value,
         };
-      })
+      }),
     });
   };
-  const updateDefaultRoomHumidity = value => {
+  const updateDefaultRoomHumidity = (value) => {
     const previousVal = defaultRoomHumidity;
     setDefaultRoomHumidity(value);
     setBatchValues({
       ...batchValues,
-      layers: batchValues.layers.map(l => {
+      layers: batchValues.layers.map((l) => {
         if (
           l.coolingRoomHumidityPercent &&
           l.coolingRoomHumidityPercent !== previousVal
@@ -548,15 +593,15 @@ function NewBatch({ history, enqueueSnackbar }) {
         }
         return {
           ...l,
-          coolingRoomHumidityPercent: value
+          coolingRoomHumidityPercent: value,
         };
-      })
+      }),
     });
   };
 
-  const updateJarFillPercentage = value => {
-    const floatValue = parseFloat(value) || 100;
-    setJarFillPercentage(floatValue);
+  const updateJarFillPercentage = (value) => {
+    const floatValue = Math.abs(parseFloat(value));
+    setJarFillPercentage(!isNaN(floatValue) ? floatValue : "");
     setWaxSuggestionGivenJarFill(
       ((waxWeightSuggestion * floatValue) / 100).toString()
     );
@@ -579,7 +624,7 @@ function NewBatch({ history, enqueueSnackbar }) {
           <BatchItemDialog
             combineOptions={batchValues.batchItems}
             values={newBatchItemValues}
-            itemTypes={resourceTypes.filter(r => r.scope === "batch")}
+            itemTypes={resourceTypes.filter((r) => r.scope === "batch")}
             waxWeightSuggestion={waxSuggestionGivenJarFill}
             foWeightSuggestion={getFoWeightSuggestion()}
             isOpen={batchItemDialogOpen}
@@ -610,19 +655,19 @@ function NewBatch({ history, enqueueSnackbar }) {
                     type="date"
                     value={batchValues.whenCreated}
                     className={classes.textField}
-                    onChange={e => {
+                    onChange={(e) => {
                       const name = e.target.name;
                       const value = e.target.value;
-                      setBatchValues(values => ({
+                      setBatchValues((values) => ({
                         ...values,
-                        [name]: value
+                        [name]: value,
                       }));
                     }}
                     InputLabelProps={{
-                      shrink: true
+                      shrink: true,
                     }}
                     inputProps={{
-                      name: "whenCreated"
+                      name: "whenCreated",
                     }}
                   />
                 </Grid>
@@ -633,16 +678,16 @@ function NewBatch({ history, enqueueSnackbar }) {
                     autoFocus
                     value={batchValues.name || ""}
                     type="text"
-                    onChange={e => {
+                    onChange={(e) => {
                       const name = e.target.name;
                       const value = e.target.value;
-                      setBatchValues(values => ({
+                      setBatchValues((values) => ({
                         ...values,
-                        [name]: value
+                        [name]: value,
                       }));
                     }}
                     inputProps={{
-                      name: "name"
+                      name: "name",
                     }}
                   />
                 </Grid>
@@ -652,7 +697,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                     label="FO Target"
                     value={fragranceLoadTarget || ""}
                     type="number"
-                    onChange={e => {
+                    onChange={(e) => {
                       const value = e.target.value;
                       setFragranceLoadTarget(parseFloat(value));
                     }}
@@ -663,33 +708,8 @@ function NewBatch({ history, enqueueSnackbar }) {
                       inputProps: {
                         name: "fragranceLoadTarget",
                         step: "0.1",
-                        max: "50"
-                      }
-                    }}
-                  />
-                </Grid>
-                <Grid item xs={6} sm={4}>
-                  <TextField
-                    className={classes.textField}
-                    label="Dye Temp"
-                    value={batchValues.dyeAddTemperatureFahrenheit || ""}
-                    type="number"
-                    onChange={e => {
-                      const name = e.target.name;
-                      const value = e.target.value;
-                      setBatchValues(values => ({
-                        ...values,
-                        [name]: value
-                      }));
-                    }}
-                    InputProps={{
-                      endAdornment: (
-                        <InputAdornment position="end">°F</InputAdornment>
-                      ),
-                      inputProps: {
-                        name: "dyeAddTemperatureFahrenheit",
-                        step: "1"
-                      }
+                        max: "50",
+                      },
                     }}
                   />
                 </Grid>
@@ -699,12 +719,12 @@ function NewBatch({ history, enqueueSnackbar }) {
                     label="FO Temp"
                     value={batchValues.fragranceAddTemperatureFahrenheit || ""}
                     type="number"
-                    onChange={e => {
+                    onChange={(e) => {
                       const name = e.target.name;
                       const value = e.target.value;
-                      setBatchValues(values => ({
+                      setBatchValues((values) => ({
                         ...values,
-                        [name]: value
+                        [name]: value,
                       }));
                     }}
                     InputProps={{
@@ -713,29 +733,33 @@ function NewBatch({ history, enqueueSnackbar }) {
                       ),
                       inputProps: {
                         name: "fragranceAddTemperatureFahrenheit",
-                        step: "1"
-                      }
+                        step: "1",
+                      },
                     }}
                   />
                 </Grid>
                 <Grid item xs={6} sm={4}>
                   <TextField
-                    label="Default Jar Temp"
                     className={classes.textField}
-                    value={defaultJarTemp}
+                    label="Dye Temp"
+                    value={batchValues.dyeAddTemperatureFahrenheit || ""}
                     type="number"
-                    onChange={e => {
+                    onChange={(e) => {
+                      const name = e.target.name;
                       const value = e.target.value;
-                      updateDefaultJarTemp(value);
+                      setBatchValues((values) => ({
+                        ...values,
+                        [name]: value,
+                      }));
                     }}
                     InputProps={{
                       endAdornment: (
                         <InputAdornment position="end">°F</InputAdornment>
                       ),
                       inputProps: {
-                        name: "defaultJarTemp",
-                        step: "1"
-                      }
+                        name: "dyeAddTemperatureFahrenheit",
+                        step: "1",
+                      },
                     }}
                   />
                 </Grid>
@@ -745,7 +769,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                     className={classes.textField}
                     value={defaultPourTemp}
                     type="number"
-                    onChange={e => {
+                    onChange={(e) => {
                       const value = e.target.value;
                       updateDefaultPourTemp(value);
                     }}
@@ -755,8 +779,29 @@ function NewBatch({ history, enqueueSnackbar }) {
                       ),
                       inputProps: {
                         name: "defaultPourTemp",
-                        step: "1"
-                      }
+                        step: "1",
+                      },
+                    }}
+                  />
+                </Grid>
+                <Grid item xs={6} sm={4}>
+                  <TextField
+                    label="Default Jar Temp"
+                    className={classes.textField}
+                    value={defaultJarTemp}
+                    type="number"
+                    onChange={(e) => {
+                      const value = e.target.value;
+                      updateDefaultJarTemp(value);
+                    }}
+                    InputProps={{
+                      endAdornment: (
+                        <InputAdornment position="end">°F</InputAdornment>
+                      ),
+                      inputProps: {
+                        name: "defaultJarTemp",
+                        step: "1",
+                      },
                     }}
                   />
                 </Grid>
@@ -766,7 +811,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                     className={classes.textField}
                     value={defaultRoomTemp}
                     type="number"
-                    onChange={e => {
+                    onChange={(e) => {
                       const value = e.target.value;
                       updateDefaultRoomTemp(value);
                     }}
@@ -776,8 +821,8 @@ function NewBatch({ history, enqueueSnackbar }) {
                       ),
                       inputProps: {
                         name: "defaultRoomTemp",
-                        step: "1"
-                      }
+                        step: "1",
+                      },
                     }}
                   />
                 </Grid>
@@ -787,7 +832,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                     className={classes.textField}
                     value={defaultRoomHumidity}
                     type="number"
-                    onChange={e => {
+                    onChange={(e) => {
                       const value = e.target.value;
                       updateDefaultRoomHumidity(value);
                     }}
@@ -797,8 +842,8 @@ function NewBatch({ history, enqueueSnackbar }) {
                       ),
                       inputProps: {
                         name: "defaultRoomHumidity",
-                        step: "1"
-                      }
+                        step: "1",
+                      },
                     }}
                   />
                 </Grid>
@@ -808,7 +853,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                     className={classes.textField}
                     value={jarFillPercentage}
                     type="number"
-                    onChange={e => {
+                    onChange={(e) => {
                       const value = e.target.value;
                       updateJarFillPercentage(value);
                     }}
@@ -818,8 +863,8 @@ function NewBatch({ history, enqueueSnackbar }) {
                       ),
                       inputProps: {
                         name: "jarFillPercentage",
-                        step: "1"
-                      }
+                        step: "1",
+                      },
                     }}
                   />
                 </Grid>
@@ -831,14 +876,14 @@ function NewBatch({ history, enqueueSnackbar }) {
                     className={classes.textField}
                     margin="normal"
                     inputProps={{
-                      name: "notes"
+                      name: "notes",
                     }}
-                    onChange={e => {
+                    onChange={(e) => {
                       const name = e.target.name;
                       const value = e.target.value;
-                      setBatchValues(values => ({
+                      setBatchValues((values) => ({
                         ...values,
-                        [name]: value
+                        [name]: value,
                       }));
                     }}
                   />
@@ -861,7 +906,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                     containerTemperatureFahrenheit: defaultJarTemp,
                     pourTemperatureFahrenheit: defaultPourTemp,
                     coolingRoomTemperatureFahrenheit: defaultRoomTemp,
-                    coolingRoomHumidityPercent: defaultRoomHumidity
+                    coolingRoomHumidityPercent: defaultRoomHumidity,
                   });
                   setLayerDialogOpen(true);
                 }}
@@ -893,7 +938,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                       value={calculateFragranceLoadByPopularMethod({
                         waxWeightOunces: cumulativeWeights.wax,
                         fragranceWeightOunces:
-                          cumulativeWeights["fragrance-oil"]
+                          cumulativeWeights["fragrance-oil"],
                       })}
                       unit="%"
                     />

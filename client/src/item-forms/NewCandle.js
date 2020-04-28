@@ -1,25 +1,27 @@
 import React from "react";
 import TextField from "@material-ui/core/TextField";
+import Checkbox from "@material-ui/core/Checkbox";
 import Dialog from "@material-ui/core/Dialog";
 import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogTitle from "@material-ui/core/DialogTitle";
+import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Button from "@material-ui/core/Button";
 
 import { withStyles } from "@material-ui/core/styles";
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {
     display: "flex",
-    flexFlow: "column nowrap"
+    flexFlow: "column nowrap",
   },
   textField: {
-    marginTop: "1em"
+    marginTop: "1em",
   },
   dialogContent: {
     display: "flex",
-    flexFlow: "column nowrap"
-  }
+    flexFlow: "column nowrap",
+  },
 });
 
 function NewCandle({
@@ -30,7 +32,7 @@ function NewCandle({
   onChange,
   onAddCandle,
   onEditCandle,
-  classes
+  classes,
 }) {
   return (
     <Dialog open={isOpen} onClose={onClose}>
@@ -45,7 +47,7 @@ function NewCandle({
             type="text"
             onChange={onChange}
             inputProps={{
-              name: "name"
+              name: "name",
             }}
           />
           <TextField
@@ -56,8 +58,19 @@ function NewCandle({
             onChange={onChange}
             inputProps={{
               name: "jarHashId",
-              maxLength: 4
+              maxLength: 4,
             }}
+          />
+          <FormControlLabel
+            control={
+              <Checkbox
+                checked={values.jarFinished || false}
+                onChange={onChange}
+                name="jarFinished"
+                color="primary"
+              />
+            }
+            label="Finished"
           />
           <TextField
             className={classes.textField}
@@ -67,8 +80,19 @@ function NewCandle({
             onChange={onChange}
             inputProps={{
               name: "wickHashId",
-              maxLength: 4
+              maxLength: 4,
             }}
+          />
+          <FormControlLabel
+            control={
+              <Checkbox
+                checked={values.wickFinished || false}
+                onChange={onChange}
+                name="wickFinished"
+                color="primary"
+              />
+            }
+            label="Finished"
           />
           <TextField
             className={classes.textField}
@@ -78,7 +102,7 @@ function NewCandle({
             onChange={onChange}
             inputProps={{
               name: "wickCount",
-              step: 1
+              step: 1,
             }}
           />
           <TextField
@@ -88,7 +112,7 @@ function NewCandle({
             type="text"
             onChange={onChange}
             inputProps={{
-              name: "wickLayout"
+              name: "wickLayout",
             }}
           />
           <TextField
@@ -99,8 +123,19 @@ function NewCandle({
             onChange={onChange}
             inputProps={{
               name: "wickStickerHashId",
-              maxLength: 4
+              maxLength: 4,
             }}
+          />
+          <FormControlLabel
+            control={
+              <Checkbox
+                checked={values.wickStickerFinished || false}
+                onChange={onChange}
+                name="wickStickerFinished"
+                color="primary"
+              />
+            }
+            label="Finished"
           />
           <TextField
             label="Notes"
@@ -109,14 +144,14 @@ function NewCandle({
             className={classes.textField}
             margin="normal"
             inputProps={{
-              name: "notes"
+              name: "notes",
             }}
             onChange={onChange}
           />
         </DialogContent>
         <DialogActions>
           <Button type="submit">
-            {editCandleIndex === null ? "Add Item" : "Edit Item"}
+            {editCandleIndex === null ? "Add Candle" : "Edit Item"}
           </Button>
           <Button onClick={onClose} color="primary">
             Cancel

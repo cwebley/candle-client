@@ -13,25 +13,25 @@ import CandleTable from "../CandleTable";
 import NewCandleDialog from "../item-forms/NewCandle";
 import api from "../api.js";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
-    ...theme.mixins.gutters()
+    ...theme.mixins.gutters(),
   },
 
   form: {},
   header: {
-    padding: theme.spacing(2)
+    padding: theme.spacing(2),
   },
   iconButton: {
-    borderRadius: 0
+    borderRadius: 0,
   },
   formActions: {
     textAlign: "center",
-    marginTop: theme.spacing(2)
+    marginTop: theme.spacing(2),
   },
   submitButton: {
-    padding: theme.spacing(2)
-  }
+    padding: theme.spacing(2),
+  },
 }));
 
 function NewCandles({ enqueueSnackbar }) {
@@ -41,62 +41,64 @@ function NewCandles({ enqueueSnackbar }) {
   const [candles, setCandles] = useState([]);
   const classes = useStyles();
 
-  const handleCandleFormChange = e => {
+  const handleCandleFormChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
-    setNewCandleValues(newCandleValues => {
+    const checked = e.target.checked;
+
+    setNewCandleValues((newCandleValues) => {
       return {
         ...newCandleValues,
-        [name]: value
+        [name]: value || checked,
       };
     });
   };
 
-  const addCandle = e => {
+  const addCandle = (e) => {
     e.preventDefault();
 
-    setCandles(candles => [...candles, { ...newCandleValues }]);
+    setCandles((candles) => [...candles, { ...newCandleValues }]);
     setNewCandleValues({});
     setCandleDialogOpen(false);
   };
 
-  const showEditCandle = index => {
+  const showEditCandle = (index) => {
     setCandleEditIndex(index);
     setNewCandleValues({
-      ...candles[index]
+      ...candles[index],
     });
     setCandleDialogOpen(true);
   };
 
-  const copyCandle = index => {
+  const copyCandle = (index) => {
     setCandleEditIndex(null);
     setNewCandleValues({
-      ...candles[index]
+      ...candles[index],
     });
     setCandleDialogOpen(true);
   };
 
-  const editCandle = e => {
+  const editCandle = (e) => {
     e.preventDefault();
 
-    setCandles(candles => [
+    setCandles((candles) => [
       ...candles.slice(0, editCandleIndex),
       { ...newCandleValues },
-      ...candles.slice(editCandleIndex + 1)
+      ...candles.slice(editCandleIndex + 1),
     ]);
     setNewCandleValues({});
     setCandleDialogOpen(false);
     setCandleEditIndex(null);
   };
 
-  const deleteCandle = index => {
-    setCandles(candles => [
+  const deleteCandle = (index) => {
+    setCandles((candles) => [
       ...candles.slice(0, index),
-      ...candles.slice(index + 1)
+      ...candles.slice(index + 1),
     ]);
   };
 
-  const submitCandles = async e => {
+  const submitCandles = async (e) => {
     e.preventDefault();
 
     try {
@@ -106,7 +108,7 @@ function NewCandles({ enqueueSnackbar }) {
         setCandles([]);
 
         // notify the user and provide a link to a pre-populated batch page
-        const confirmedHashIds = result.data.map(c => c.hashId);
+        const confirmedHashIds = result.data.map((c) => c.hashId);
         enqueueSnackbar(
           `Candle${result.data.length === 1 ? "" : "s"} ${confirmedHashIds.join(
             ", "
@@ -117,7 +119,7 @@ function NewCandles({ enqueueSnackbar }) {
               <Button href={`/new-batch?candle=${confirmedHashIds.join(",")}`}>
                 Go There
               </Button>
-            )
+            ),
           }
         );
       }
@@ -125,7 +127,7 @@ function NewCandles({ enqueueSnackbar }) {
       let data = err.response && err.response.data;
       if (data && data.reasons) {
         if (data.reasons) {
-          data.reasons.forEach(r =>
+          data.reasons.forEach((r) =>
             enqueueSnackbar(r.message, { variant: "error" })
           );
           return;

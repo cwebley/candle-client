@@ -5,7 +5,7 @@ module.exports = [
     whenCreated: "2019-05-17",
     batchItems: [
       { type: "wax", hashId: "3Z7P", weightOunces: "11.0" },
-      { type: "fragrance-oil", hashId: "4JDB", weightOunces: "0.9" }
+      { type: "fragrance-oil", hashId: "4JDB", weightOunces: "0.9" },
     ],
     layers: [
       {
@@ -15,7 +15,7 @@ module.exports = [
         containerTemperatureFahrenheit: "77",
         pourTemperatureFahrenheit: "135",
         coolingRoomTemperatureFahrenheit: "77",
-        coolingRoomHumidityPercent: "55"
+        coolingRoomHumidityPercent: "55",
       },
       {
         whenPoured: "2019-05-17T15:12:02",
@@ -24,7 +24,7 @@ module.exports = [
         containerTemperatureFahrenheit: "77",
         pourTemperatureFahrenheit: "135",
         coolingRoomTemperatureFahrenheit: "77",
-        coolingRoomHumidityPercent: "55"
+        coolingRoomHumidityPercent: "55",
       },
       {
         whenPoured: "2019-05-17T15:12:30",
@@ -33,14 +33,14 @@ module.exports = [
         containerTemperatureFahrenheit: "77",
         pourTemperatureFahrenheit: "135",
         coolingRoomTemperatureFahrenheit: "77",
-        coolingRoomHumidityPercent: "56"
-      }
+        coolingRoomHumidityPercent: "56",
+      },
     ],
     name: "First Citronella Batch",
     dyeAddTemperatureFahrenheit: "",
     fragranceAddTemperatureFahrenheit: "185",
     notes:
-      "Citronella is pretty potent. Maybe 8% is too much. Also seems like jar MWZM holds more than 10oz of 464 wax. Maybe 11 or 11.5 would be perfect."
+      "Citronella is pretty potent. Maybe 8% is too much. Also seems like jar MWZM holds more than 10oz of 464 wax. Maybe 11 or 11.5 would be perfect.",
   },
   {
     whenCreated: "2019-05-21",
@@ -49,7 +49,7 @@ module.exports = [
       { type: "wax", hashId: "3Z7P", weightOunces: "10.2" },
       { type: "fragrance-oil", hashId: "4JDB", weightOunces: "0.8" },
       { type: "fragrance-oil", hashId: "OK5E", weightOunces: "0.3" },
-      { type: "dye-blocks", hashId: "VQWV", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "VQWV", pieces: "0.1" },
     ],
     layers: [
       {
@@ -59,7 +59,7 @@ module.exports = [
         containerTemperatureFahrenheit: "72",
         pourTemperatureFahrenheit: "145",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "51"
+        coolingRoomHumidityPercent: "51",
       },
       {
         whenPoured: "2019-05-22T00:50:33",
@@ -68,7 +68,7 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "145",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "51"
+        coolingRoomHumidityPercent: "51",
       },
       {
         whenPoured: "2019-05-22T00:53:00",
@@ -77,14 +77,14 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "145",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "51"
-      }
+        coolingRoomHumidityPercent: "51",
+      },
     ],
     name: "Beeswax Citronella Mix",
     dyeAddTemperatureFahrenheit: "185",
     fragranceAddTemperatureFahrenheit: "135",
     notes:
-      "Let the batch get too cool at slightly below 135 and it started to solidify. Heated up to 145 then poured."
+      "Let the batch get too cool at slightly below 135 and it started to solidify. Heated up to 145 then poured.",
   },
   {
     whenCreated: "2019-06-08",
@@ -93,7 +93,7 @@ module.exports = [
       { type: "wax", hashId: "PBV3", weightOunces: "1.2" },
       { type: "fragrance-oil", hashId: "4JDB", weightOunces: "0.8" },
       { type: "fragrance-oil", hashId: "GQRB", weightOunces: "0.2" },
-      { type: "dye-blocks", hashId: "7B6Q", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "7B6Q", pieces: "0.1" },
     ],
     layers: [
       {
@@ -103,7 +103,7 @@ module.exports = [
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "155",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "52"
+        coolingRoomHumidityPercent: "52",
       },
       {
         whenPoured: "2019-06-08T15:14:06",
@@ -112,7 +112,7 @@ module.exports = [
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "155",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "52"
+        coolingRoomHumidityPercent: "52",
       },
       {
         whenPoured: "2019-06-08T15:14:33",
@@ -121,7 +121,7 @@ module.exports = [
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "155",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "52"
+        coolingRoomHumidityPercent: "52",
       },
       {
         whenPoured: "2019-06-08T15:15:13",
@@ -130,12 +130,12 @@ module.exports = [
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "155",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "52"
-      }
+        coolingRoomHumidityPercent: "52",
+      },
     ],
     name: "10% Beeswax test batch",
     dyeAddTemperatureFahrenheit: "185",
-    fragranceAddTemperatureFahrenheit: "185"
+    fragranceAddTemperatureFahrenheit: "185",
   },
   {
     whenCreated: "2019-06-28",
@@ -145,7 +145,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.42" },
       { type: "fragrance-oil", hashId: "GQRB", weightOunces: "0.38" },
       { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.38" },
-      { type: "dye-blocks", hashId: "VQPW", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "VQPW", pieces: "0.1" },
     ],
     layers: [
       {
@@ -155,7 +155,7 @@ module.exports = [
         containerTemperatureFahrenheit: "72",
         pourTemperatureFahrenheit: "135",
         coolingRoomTemperatureFahrenheit: "71",
-        coolingRoomHumidityPercent: "54"
+        coolingRoomHumidityPercent: "54",
       },
       {
         whenPoured: "2019-06-28T19:13:28",
@@ -164,7 +164,7 @@ module.exports = [
         containerTemperatureFahrenheit: "71",
         pourTemperatureFahrenheit: "135",
         coolingRoomTemperatureFahrenheit: "71",
-        coolingRoomHumidityPercent: "54"
+        coolingRoomHumidityPercent: "54",
       },
       {
         whenPoured: "2019-06-28T19:14:08",
@@ -173,7 +173,7 @@ module.exports = [
         containerTemperatureFahrenheit: "71",
         pourTemperatureFahrenheit: "135",
         coolingRoomTemperatureFahrenheit: "71",
-        coolingRoomHumidityPercent: "54"
+        coolingRoomHumidityPercent: "54",
       },
       {
         whenPoured: "2019-06-28T19:14:33",
@@ -182,14 +182,14 @@ module.exports = [
         containerTemperatureFahrenheit: "71",
         pourTemperatureFahrenheit: "135",
         coolingRoomTemperatureFahrenheit: "71",
-        coolingRoomHumidityPercent: "54"
-      }
+        coolingRoomHumidityPercent: "54",
+      },
     ],
     name: "Coco Test",
     dyeAddTemperatureFahrenheit: "185",
     fragranceAddTemperatureFahrenheit: "185",
     notes:
-      "All candles placed in the oven at room temperature after pouring to slow down the cooling"
+      "All candles placed in the oven at room temperature after pouring to slow down the cooling",
   },
   {
     whenCreated: "2019-08-21",
@@ -199,7 +199,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.6" },
       { type: "fragrance-oil", hashId: "4NV8", weightOunces: "0.025" },
       { type: "fragrance-oil", hashId: "GQRB", weightOunces: "0.02" },
-      { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.025" }
+      { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.025" },
     ],
     layers: [
       {
@@ -209,7 +209,7 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "140",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         whenPoured: "2019-08-21T23:35:40",
@@ -218,7 +218,7 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "140",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         whenPoured: "2019-08-21T23:36:33",
@@ -227,7 +227,7 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "140",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         whenPoured: "2019-08-21T23:37:01",
@@ -236,13 +236,13 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "140",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Coco-Beeswax-Soy 5/5/90",
     dyeAddTemperatureFahrenheit: "185",
     fragranceAddTemperatureFahrenheit: "185",
-    notes: "No dye, cooled on the counter top"
+    notes: "No dye, cooled on the counter top",
   },
   {
     whenCreated: "2019-08-22",
@@ -252,7 +252,7 @@ module.exports = [
       { type: "wax", weightOunces: "1.1", hashId: "157P" },
       { type: "fragrance-oil", hashId: "GRNR", weightOunces: "0.8" },
       { type: "fragrance-oil", hashId: "G5K7", weightOunces: "0.8" },
-      { type: "dye-blocks", hashId: "7J57", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "7J57", pieces: "0.1" },
     ],
     layers: [
       {
@@ -262,7 +262,7 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "135",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         whenPoured: "2019-08-22T18:34:25",
@@ -271,7 +271,7 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "135",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         whenPoured: "2019-08-22T18:34:54",
@@ -280,7 +280,7 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "135",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         whenPoured: "2019-08-22T18:35:25",
@@ -289,7 +289,7 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "135",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         whenPoured: "2019-08-22T18:35:44",
@@ -298,7 +298,7 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "135",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         whenPoured: "2019-08-22T18:36:05",
@@ -307,12 +307,12 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "135",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Green Apple Sage Fall Test",
     dyeAddTemperatureFahrenheit: "185",
-    fragranceAddTemperatureFahrenheit: "185"
+    fragranceAddTemperatureFahrenheit: "185",
   },
   {
     whenCreated: "2019-09-02",
@@ -322,7 +322,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.3" },
       { type: "fragrance-oil", hashId: "ODW8", weightOunces: "0.7" },
       { type: "fragrance-oil", hashId: "4338", weightOunces: ".4" },
-      { type: "dye-blocks", hashId: "7MWW", pieces: ".1" }
+      { type: "dye-blocks", hashId: "7MWW", pieces: ".1" },
     ],
     layers: [
       {
@@ -332,7 +332,7 @@ module.exports = [
         containerTemperatureFahrenheit: "80",
         pourTemperatureFahrenheit: "150",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "RE2Y",
@@ -341,7 +341,7 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "150",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WN2P",
@@ -350,12 +350,12 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "150",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Coffee Leather 50/50 2/8 bee-coco test",
     dyeAddTemperatureFahrenheit: "185",
-    fragranceAddTemperatureFahrenheit: "185"
+    fragranceAddTemperatureFahrenheit: "185",
   },
   {
     whenCreated: "2019-09-02",
@@ -365,7 +365,7 @@ module.exports = [
       { type: "wax", hashId: "3761", weightOunces: "1" },
       { type: "fragrance-oil", hashId: "GQPB", weightOunces: "0.5" },
       { type: "fragrance-oil", hashId: "GWM3", weightOunces: "0.7" },
-      { type: "dye-blocks", hashId: "O6RZ", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "O6RZ", pieces: "0.1" },
     ],
     layers: [
       {
@@ -375,7 +375,7 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "170",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WLLN",
@@ -384,7 +384,7 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "170",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "345X",
@@ -393,14 +393,14 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "170",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "birch vetiver bee-coco 2/8 hot pour",
     dyeAddTemperatureFahrenheit: "185",
     fragranceAddTemperatureFahrenheit: "185",
     notes:
-      "Finished off the vetiver small bottle so this is prob more like 9% FO"
+      "Finished off the vetiver small bottle so this is prob more like 9% FO",
   },
   {
     whenCreated: "2019-09-04",
@@ -409,7 +409,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.1" },
       { type: "wax", hashId: "3761", weightOunces: "0.35" },
       { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.75" },
-      { type: "dye-blocks", hashId: "OLZY", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "OLZY", pieces: "0.1" },
     ],
     layers: [
       {
@@ -419,12 +419,12 @@ module.exports = [
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "150",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Vetiver minimal bee-coco test 1/3/96",
     dyeAddTemperatureFahrenheit: "185",
-    fragranceAddTemperatureFahrenheit: "185"
+    fragranceAddTemperatureFahrenheit: "185",
   },
   {
     whenCreated: "2019-09-04",
@@ -432,7 +432,7 @@ module.exports = [
       { type: "wax", hashId: "1KVP", weightOunces: "11.4" },
       { type: "wax", hashId: "3761", weightOunces: "0.4" },
       { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.75" },
-      { type: "dye-blocks", hashId: "VQPW", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "VQPW", pieces: "0.1" },
     ],
     layers: [
       {
@@ -442,12 +442,12 @@ module.exports = [
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "145",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Vetiver minimal coco test 3/97",
     dyeAddTemperatureFahrenheit: "185",
-    fragranceAddTemperatureFahrenheit: "185"
+    fragranceAddTemperatureFahrenheit: "185",
   },
   {
     whenCreated: "2019-12-01",
@@ -455,7 +455,7 @@ module.exports = [
       { type: "wax", hashId: "1KVP", weightOunces: "8.03" },
       { type: "wax", hashId: "157P", weightOunces: "0.25" },
       { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
-      { type: "dye-blocks", hashId: "7BQ7", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "7BQ7", pieces: "0.1" },
     ],
     layers: [
       {
@@ -465,12 +465,12 @@ module.exports = [
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "140",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "3/0 Beeswax-Coco Test",
     dyeAddTemperatureFahrenheit: "185",
-    fragranceAddTemperatureFahrenheit: "185"
+    fragranceAddTemperatureFahrenheit: "185",
   },
   {
     whenCreated: "2019-12-01",
@@ -479,7 +479,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.25" },
       { type: "wax", hashId: "3761", weightOunces: "0.41" },
       { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
-      { type: "dye-blocks", hashId: "7BQ7", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "7BQ7", pieces: "0.1" },
     ],
     layers: [
       {
@@ -489,12 +489,12 @@ module.exports = [
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "140",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "3/5 Beeswax-Coco Test",
     dyeAddTemperatureFahrenheit: "185",
-    fragranceAddTemperatureFahrenheit: "185"
+    fragranceAddTemperatureFahrenheit: "185",
   },
   {
     whenCreated: "2019-12-01",
@@ -503,7 +503,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.25" },
       { type: "wax", hashId: "3761", weightOunces: "0.83" },
       { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
-      { type: "dye-blocks", hashId: "7BQ7", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "7BQ7", pieces: "0.1" },
     ],
     layers: [
       {
@@ -513,12 +513,12 @@ module.exports = [
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "140",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "3/10 Beeswax-Coco Test",
     dyeAddTemperatureFahrenheit: "185",
-    fragranceAddTemperatureFahrenheit: "185"
+    fragranceAddTemperatureFahrenheit: "185",
   },
   {
     whenCreated: "2019-12-02",
@@ -526,7 +526,7 @@ module.exports = [
       { type: "wax", hashId: "1KVP", weightOunces: "8" },
       { type: "wax", hashId: "157P", weightOunces: "0.17" },
       { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
-      { type: "dye-blocks", hashId: "OGX7", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "OGX7", pieces: "0.1" },
     ],
     layers: [
       {
@@ -536,13 +536,13 @@ module.exports = [
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "140",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "2/0 Beeswax Coco Test",
     dyeAddTemperatureFahrenheit: "150",
     fragranceAddTemperatureFahrenheit: "185",
-    notes: "Wax cloudy around 110, solidified around 98"
+    notes: "Wax cloudy around 110, solidified around 98",
   },
   {
     whenCreated: "2019-12-02",
@@ -551,7 +551,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.17" },
       { type: "wax", hashId: "3761", weightOunces: "0.41" },
       { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
-      { type: "dye-blocks", hashId: "OGX7", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "OGX7", pieces: "0.1" },
     ],
     layers: [
       {
@@ -561,13 +561,13 @@ module.exports = [
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "140",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "2/5 Beeswax Coco test",
     dyeAddTemperatureFahrenheit: "150",
     fragranceAddTemperatureFahrenheit: "185",
-    notes: "Wax cloudy around 110 solidified around 96"
+    notes: "Wax cloudy around 110 solidified around 96",
   },
   {
     whenCreated: "2019-12-02",
@@ -576,7 +576,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.17" },
       { type: "wax", hashId: "3761", weightOunces: "0.83" },
       { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
-      { type: "dye-blocks", hashId: "OGX7", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "OGX7", pieces: "0.1" },
     ],
     layers: [
       {
@@ -586,13 +586,13 @@ module.exports = [
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "140",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "2/10 Beeswax Coco Test",
     dyeAddTemperatureFahrenheit: "150",
     fragranceAddTemperatureFahrenheit: "185",
-    notes: "Wax cloudy around 110, solidified around 95"
+    notes: "Wax cloudy around 110, solidified around 95",
   },
   {
     whenCreated: "2019-12-02",
@@ -600,7 +600,7 @@ module.exports = [
       { type: "wax", hashId: "1KVP", weightOunces: "8.17" },
       { type: "wax", hashId: "157P", weightOunces: "0.08" },
       { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
-      { type: "dye-blocks", hashId: "O34V", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "O34V", pieces: "0.1" },
     ],
     layers: [
       {
@@ -610,13 +610,13 @@ module.exports = [
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "138",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "1/0 Beeswax Coco Test",
     dyeAddTemperatureFahrenheit: "150",
     fragranceAddTemperatureFahrenheit: "185",
-    notes: "Started getting cloudy at about 110"
+    notes: "Started getting cloudy at about 110",
   },
   {
     whenCreated: "2019-12-02",
@@ -625,7 +625,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.08" },
       { type: "wax", hashId: "3761", weightOunces: "0.41" },
       { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
-      { type: "dye-blocks", hashId: "O34V", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "O34V", pieces: "0.1" },
     ],
     layers: [
       {
@@ -635,13 +635,13 @@ module.exports = [
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "140",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "1/5 Beeswax Coco",
     dyeAddTemperatureFahrenheit: "150",
     fragranceAddTemperatureFahrenheit: "185",
-    notes: "First starting to cloud up at 112"
+    notes: "First starting to cloud up at 112",
   },
   {
     whenCreated: "2019-12-02",
@@ -650,7 +650,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.08" },
       { type: "wax", hashId: "3761", weightOunces: "0.83" },
       { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
-      { type: "dye-blocks", hashId: "O34V", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "O34V", pieces: "0.1" },
     ],
     layers: [
       {
@@ -660,20 +660,20 @@ module.exports = [
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "134",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "1/10 Beeswax Coco",
     dyeAddTemperatureFahrenheit: "150",
     fragranceAddTemperatureFahrenheit: "185",
-    notes: "First starting to cloud up at 110"
+    notes: "First starting to cloud up at 110",
   },
   {
     whenCreated: "2019-12-02",
     batchItems: [
       { type: "wax", hashId: "1KVP", weightOunces: "8.26" },
       { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
-      { type: "dye-blocks", hashId: "7ZQ7", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "7ZQ7", pieces: "0.1" },
     ],
     layers: [
       {
@@ -683,13 +683,13 @@ module.exports = [
         containerTemperatureFahrenheit: "72",
         pourTemperatureFahrenheit: "140",
         coolingRoomTemperatureFahrenheit: "72",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "0/0 Beeswax Coco",
     dyeAddTemperatureFahrenheit: "150",
     fragranceAddTemperatureFahrenheit: "185",
-    notes: "First cloudy at 116"
+    notes: "First cloudy at 116",
   },
   {
     whenCreated: "2019-12-02",
@@ -697,7 +697,7 @@ module.exports = [
       { type: "wax", hashId: "1KVP", weightOunces: "7.85" },
       { type: "wax", hashId: "3761", weightOunces: "0.43" },
       { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
-      { type: "dye-blocks", hashId: "7ZQ7", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "7ZQ7", pieces: "0.1" },
     ],
     layers: [
       {
@@ -707,13 +707,13 @@ module.exports = [
         containerTemperatureFahrenheit: "72",
         pourTemperatureFahrenheit: "140",
         coolingRoomTemperatureFahrenheit: "72",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "0/5 Beeswax Coco",
     dyeAddTemperatureFahrenheit: "150",
     fragranceAddTemperatureFahrenheit: "185",
-    notes: "First cloudy at 113"
+    notes: "First cloudy at 113",
   },
   {
     whenCreated: "2019-12-02",
@@ -721,7 +721,7 @@ module.exports = [
       { type: "wax", hashId: "1KVP", weightOunces: "7.43" },
       { type: "wax", hashId: "3761", weightOunces: "0.83" },
       { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
-      { type: "dye-blocks", hashId: "7ZQ7", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "7ZQ7", pieces: "0.1" },
     ],
     layers: [
       {
@@ -731,20 +731,20 @@ module.exports = [
         containerTemperatureFahrenheit: "72",
         pourTemperatureFahrenheit: "140",
         coolingRoomTemperatureFahrenheit: "72",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "0/10 Beeswax Coco",
     dyeAddTemperatureFahrenheit: "150",
     fragranceAddTemperatureFahrenheit: "185",
-    notes: "First cloudy at 106"
+    notes: "First cloudy at 106",
   },
   {
     whenCreated: "2019-12-03",
     batchItems: [
       { type: "wax", hashId: "1KVP", weightOunces: "16.52" },
       { type: "fragrance-oil", hashId: "42MJ", weightOunces: "1.05" },
-      { type: "dye-blocks", hashId: "7ZQ7", pieces: "0.2" }
+      { type: "dye-blocks", hashId: "7ZQ7", pieces: "0.2" },
     ],
     layers: [
       {
@@ -754,7 +754,7 @@ module.exports = [
         containerTemperatureFahrenheit: "72",
         pourTemperatureFahrenheit: "120",
         coolingRoomTemperatureFahrenheit: "72",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3QVJ",
@@ -763,14 +763,14 @@ module.exports = [
         containerTemperatureFahrenheit: "72",
         pourTemperatureFahrenheit: "110",
         coolingRoomTemperatureFahrenheit: "72",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "464 Cold Pour Test",
     dyeAddTemperatureFahrenheit: "170",
     fragranceAddTemperatureFahrenheit: "140",
     notes:
-      "Uneven pours. And the 110 pour was already pretty cloudy. Cooled extremely quickly though and the 120 was clear."
+      "Uneven pours. And the 110 pour was already pretty cloudy. Cooled extremely quickly though and the 120 was clear.",
   },
   {
     whenCreated: "2019-12-03",
@@ -779,7 +779,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.33" },
       { type: "wax", hashId: "3761", weightOunces: "1.32" },
       { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.8" },
-      { type: "dye-blocks", hashId: "OGX7", pieces: "0.2" }
+      { type: "dye-blocks", hashId: "OGX7", pieces: "0.2" },
     ],
     layers: [
       {
@@ -789,7 +789,7 @@ module.exports = [
         containerTemperatureFahrenheit: "72",
         pourTemperatureFahrenheit: "120",
         coolingRoomTemperatureFahrenheit: "72",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "37NG",
@@ -798,14 +798,14 @@ module.exports = [
         containerTemperatureFahrenheit: "72",
         pourTemperatureFahrenheit: "110",
         coolingRoomTemperatureFahrenheit: "72",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "2/8/90 Cold Pour Test",
     dyeAddTemperatureFahrenheit: "170",
     fragranceAddTemperatureFahrenheit: "140",
     notes:
-      "Uneven pours And the 110 pour was almost goopy coming out. Interested to see how it turns out. The 120 was clear though"
+      "Uneven pours And the 110 pour was almost goopy coming out. Interested to see how it turns out. The 120 was clear though",
   },
   {
     whenCreated: "2019-12-03",
@@ -814,7 +814,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.17" },
       { type: "wax", hashId: "3761", weightOunces: "1.24" },
       { type: "fragrance-oil", hashId: "4NV8", weightOunces: "0.6" },
-      { type: "dye-blocks", hashId: "OWXV", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "OWXV", pieces: "0.1" },
     ],
     layers: [
       {
@@ -824,14 +824,14 @@ module.exports = [
         containerTemperatureFahrenheit: "72",
         pourTemperatureFahrenheit: "115",
         coolingRoomTemperatureFahrenheit: "72",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "2/15/83 Cold Pour",
     dyeAddTemperatureFahrenheit: "160",
     fragranceAddTemperatureFahrenheit: "135",
     notes:
-      "First filaments at 110, cloudy by 100. The black die block actually didnt completely dissolve. Cooled sitting on an open cardboard box"
+      "First filaments at 110, cloudy by 100. The black die block actually didnt completely dissolve. Cooled sitting on an open cardboard box",
   },
   {
     whenCreated: "2019-12-03",
@@ -840,7 +840,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.17" },
       { type: "wax", hashId: "3761", weightOunces: "1.65" },
       { type: "fragrance-oil", hashId: "4NV8", weightOunces: "0.6" },
-      { type: "dye-blocks", hashId: "OWXV", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "OWXV", pieces: "0.1" },
     ],
     layers: [
       {
@@ -850,14 +850,14 @@ module.exports = [
         containerTemperatureFahrenheit: "72",
         pourTemperatureFahrenheit: "115",
         coolingRoomTemperatureFahrenheit: "72",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "2/20/77 Cold Pour",
     dyeAddTemperatureFahrenheit: "160",
     fragranceAddTemperatureFahrenheit: "135",
     notes:
-      "Seemed to have a lower melt point. First filaments at 107, cloudy by 97. Black die block didnt completely dissolve. Maybe need less or a higher temp for longer. Cooled sitting in an open cardboard box."
+      "Seemed to have a lower melt point. First filaments at 107, cloudy by 97. Black die block didnt completely dissolve. Maybe need less or a higher temp for longer. Cooled sitting in an open cardboard box.",
   },
   {
     whenCreated: "2019-12-03",
@@ -866,7 +866,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.18" },
       { type: "wax", hashId: "3761", weightOunces: "0.89" },
       { type: "fragrance-oil", hashId: "4NV8", weightOunces: "0.38" },
-      { type: "dye-blocks", hashId: "VP1O", pieces: "0.05" }
+      { type: "dye-blocks", hashId: "VP1O", pieces: "0.05" },
     ],
     layers: [
       {
@@ -876,14 +876,14 @@ module.exports = [
         containerTemperatureFahrenheit: "72",
         pourTemperatureFahrenheit: "120",
         coolingRoomTemperatureFahrenheit: "72",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "3/15/82 Libby Test",
     dyeAddTemperatureFahrenheit: "170",
     fragranceAddTemperatureFahrenheit: "140",
     notes:
-      "First filaments at 114, cloudy at 108. Clear on pour, but seemed a little thick. Cooled sitting on a piece of a cardboard."
+      "First filaments at 114, cloudy at 108. Clear on pour, but seemed a little thick. Cooled sitting on a piece of a cardboard.",
   },
   {
     whenCreated: "2019-12-03",
@@ -892,7 +892,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.18" },
       { type: "wax", hashId: "3761", weightOunces: "1.2" },
       { type: "fragrance-oil", hashId: "4NV8", weightOunces: "0.38" },
-      { type: "dye-blocks", hashId: "VP1O", pieces: "0.05" }
+      { type: "dye-blocks", hashId: "VP1O", pieces: "0.05" },
     ],
     layers: [
       {
@@ -902,14 +902,14 @@ module.exports = [
         containerTemperatureFahrenheit: "72",
         pourTemperatureFahrenheit: "120",
         coolingRoomTemperatureFahrenheit: "72",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "3/20/77 Libby Test",
     dyeAddTemperatureFahrenheit: "170",
     fragranceAddTemperatureFahrenheit: "140",
     notes:
-      "First filaments at 111, cloudy at 104. Clear on pour but a little thick. Cooled sitting on a piece of cardboard."
+      "First filaments at 111, cloudy at 104. Clear on pour but a little thick. Cooled sitting on a piece of cardboard.",
   },
   {
     whenCreated: "2019-12-04",
@@ -918,7 +918,7 @@ module.exports = [
       { type: "wax", hashId: "3761", weightOunces: "1.27" },
       { type: "wax", hashId: "3XYP", weightOunces: "14.24" },
       { type: "fragrance-oil", hashId: "4NV8", weightOunces: "1.01" },
-      { type: "dye-blocks", hashId: "OEWO", pieces: "0.05" }
+      { type: "dye-blocks", hashId: "OEWO", pieces: "0.05" },
     ],
     layers: [
       {
@@ -928,7 +928,7 @@ module.exports = [
         coolingRoomTemperatureFahrenheit: "70",
         coolingRoomHumidityPercent: "50",
         pourTemperatureFahrenheit: "185",
-        containerTemperatureFahrenheit: "150"
+        containerTemperatureFahrenheit: "150",
       },
       {
         candleHashId: "WBOZ",
@@ -937,7 +937,7 @@ module.exports = [
         containerTemperatureFahrenheit: "70",
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "70",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "36XB",
@@ -946,12 +946,12 @@ module.exports = [
         containerTemperatureFahrenheit: "150",
         pourTemperatureFahrenheit: "120",
         coolingRoomTemperatureFahrenheit: "70",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "2/8 Beeswax Coco Temp Test",
     dyeAddTemperatureFahrenheit: "200",
-    fragranceAddTemperatureFahrenheit: "200"
+    fragranceAddTemperatureFahrenheit: "200",
   },
   {
     whenCreated: "2019-12-04",
@@ -960,7 +960,7 @@ module.exports = [
       { type: "wax", hashId: "3761", weightOunces: "0.79" },
       { type: "wax", hashId: "3XYP", weightOunces: "14.79" },
       { type: "fragrance-oil", hashId: "4NV8", weightOunces: "1.01" },
-      { type: "dye-blocks", hashId: "74ZV", pieces: "0.05" }
+      { type: "dye-blocks", hashId: "74ZV", pieces: "0.05" },
     ],
     layers: [
       {
@@ -970,7 +970,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "72",
         coolingRoomHumidityPercent: "50",
-        containerTemperatureFahrenheit: "150"
+        containerTemperatureFahrenheit: "150",
       },
       {
         candleHashId: "RJ6V",
@@ -979,7 +979,7 @@ module.exports = [
         containerTemperatureFahrenheit: "70",
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "70",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "RXPO",
@@ -988,12 +988,12 @@ module.exports = [
         pourTemperatureFahrenheit: "120",
         coolingRoomTemperatureFahrenheit: "70",
         coolingRoomHumidityPercent: "50",
-        containerTemperatureFahrenheit: "150"
-      }
+        containerTemperatureFahrenheit: "150",
+      },
     ],
     name: "1.5/5 Beeswax Coco Temp Test",
     dyeAddTemperatureFahrenheit: "200",
-    fragranceAddTemperatureFahrenheit: "200"
+    fragranceAddTemperatureFahrenheit: "200",
   },
   {
     whenCreated: "2019-12-05",
@@ -1002,7 +1002,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.13" },
       { type: "wax", hashId: "3761", weightOunces: "0.43" },
       { type: "fragrance-oil", hashId: "GQPB", weightOunces: "0.54" },
-      { type: "dye-blocks", hashId: "71KV", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "71KV", pieces: "0.1" },
     ],
     layers: [
       {
@@ -1012,7 +1012,7 @@ module.exports = [
         containerTemperatureFahrenheit: "150",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "72",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3KZ9",
@@ -1021,12 +1021,12 @@ module.exports = [
         containerTemperatureFahrenheit: "72",
         pourTemperatureFahrenheit: "120",
         coolingRoomTemperatureFahrenheit: "72",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "1.5/5 Hot Pour Jar Temp Test",
     dyeAddTemperatureFahrenheit: "200",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   {
     whenCreated: "2019-12-05",
@@ -1035,7 +1035,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.13" },
       { type: "wax", hashId: "3761", weightOunces: "0.43" },
       { type: "fragrance-oil", hashId: "GQPB", weightOunces: "0.54" },
-      { type: "dye-blocks", hashId: "OEWO", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "OEWO", pieces: "0.1" },
     ],
     layers: [
       {
@@ -1045,7 +1045,7 @@ module.exports = [
         containerTemperatureFahrenheit: "150",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "72",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3ZYL",
@@ -1054,13 +1054,13 @@ module.exports = [
         containerTemperatureFahrenheit: "72",
         pourTemperatureFahrenheit: "120",
         coolingRoomTemperatureFahrenheit: "72",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "1.5/5 Cold Pour Jar Temp Test",
     dyeAddTemperatureFahrenheit: "180",
     fragranceAddTemperatureFahrenheit: "140",
-    notes: ""
+    notes: "",
   },
   {
     whenCreated: "2019-12-06",
@@ -1069,7 +1069,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.18" },
       { type: "wax", hashId: "3761", weightOunces: "0.59" },
       { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.75" },
-      { type: "dye-blocks", hashId: "VP1O", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "VP1O", pieces: "0.1" },
     ],
     layers: [
       {
@@ -1079,7 +1079,7 @@ module.exports = [
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "72",
         coolingRoomHumidityPercent: "50",
-        containerTemperatureFahrenheit: "150"
+        containerTemperatureFahrenheit: "150",
       },
       {
         candleHashId: "ROVE",
@@ -1088,12 +1088,12 @@ module.exports = [
         containerTemperatureFahrenheit: "72",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "72",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Hot pour Mason Jar Temp test",
     dyeAddTemperatureFahrenheit: "200",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   {
     whenCreated: "2019-12-06",
@@ -1102,7 +1102,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.18" },
       { type: "wax", weightOunces: "0.59", hashId: "3761" },
       { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.75" },
-      { type: "dye-blocks", hashId: "74ZV", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "74ZV", pieces: "0.1" },
     ],
     layers: [
       {
@@ -1112,7 +1112,7 @@ module.exports = [
         pourTemperatureFahrenheit: "120",
         coolingRoomTemperatureFahrenheit: "72",
         coolingRoomHumidityPercent: "50",
-        containerTemperatureFahrenheit: "150"
+        containerTemperatureFahrenheit: "150",
       },
       {
         candleHashId: "3QGJ",
@@ -1121,12 +1121,12 @@ module.exports = [
         containerTemperatureFahrenheit: "72",
         pourTemperatureFahrenheit: "120",
         coolingRoomTemperatureFahrenheit: "72",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Cold Pour Mason Jar Temp test",
     dyeAddTemperatureFahrenheit: "200",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   {
     whenCreated: "2019-12-08",
@@ -1137,7 +1137,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "49BQ", weightOunces: "0.62" },
       { type: "fragrance-oil", hashId: "4NV8", weightOunces: "0.62" },
       { type: "fragrance-oil", hashId: "486E", weightOunces: "0.62" },
-      { type: "dye-blocks", hashId: "VP1O", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "VP1O", pieces: "0.1" },
     ],
     layers: [
       {
@@ -1147,7 +1147,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WGGN",
@@ -1156,7 +1156,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3P4M",
@@ -1165,7 +1165,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "R26V",
@@ -1174,13 +1174,13 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Straight Libby Wick Test",
     dyeAddTemperatureFahrenheit: "180",
     fragranceAddTemperatureFahrenheit: "195",
-    notes: ""
+    notes: "",
   },
   {
     whenCreated: "2019-12-08",
@@ -1192,7 +1192,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "OKVV", weightOunces: "0.62" },
       { type: "fragrance-oil", hashId: "41ZW", weightOunces: "0.62" },
       { type: "fragrance-oil", hashId: "GX5V", weightOunces: "0.62" },
-      { type: "dye-blocks", hashId: "71KV", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "71KV", pieces: "0.1" },
     ],
     layers: [
       {
@@ -1202,7 +1202,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3DBN",
@@ -1211,7 +1211,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3599",
@@ -1220,7 +1220,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WBKV",
@@ -1229,13 +1229,13 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Fruit punch wick test",
     dyeAddTemperatureFahrenheit: "180",
     fragranceAddTemperatureFahrenheit: "195",
-    notes: ""
+    notes: "",
   },
   {
     whenCreated: "2019-12-09",
@@ -1246,7 +1246,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.10" },
       { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.28" },
       { type: "fragrance-oil", hashId: "411L", weightOunces: "0.28" },
-      { type: "fragrance-oil", hashId: "G7Q8", weightOunces: "0.28" }
+      { type: "fragrance-oil", hashId: "G7Q8", weightOunces: "0.28" },
     ],
     layers: [
       {
@@ -1256,7 +1256,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "W18Z",
@@ -1265,12 +1265,12 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Bowsman Scent and Wick Test",
     dyeAddTemperatureFahrenheit: "",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   {
     whenCreated: "2019-12-09",
@@ -1282,7 +1282,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "GVQ8", weightOunces: "0.28" },
       { type: "fragrance-oil", hashId: "GR1R", weightOunces: "0.28" },
       { type: "fragrance-oil", hashId: "49DQ", weightOunces: "0.28" },
-      { type: "dye-blocks", hashId: "OWXV", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "OWXV", pieces: "0.1" },
     ],
     layers: [
       {
@@ -1292,7 +1292,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3KME",
@@ -1301,12 +1301,12 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Krampus Scent and Wick Test",
     dyeAddTemperatureFahrenheit: "180",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   {
     whenCreated: "2019-12-10",
@@ -1316,7 +1316,7 @@ module.exports = [
       { type: "wax", hashId: "3761", weightOunces: "0.24" },
       { type: "fragrance-oil", hashId: "4NDL", weightOunces: "0.19" },
       { type: "fragrance-oil", hashId: "GVXP", weightOunces: "0.19" },
-      { type: "fragrance-oil", hashId: "48DE", weightOunces: "0.19" }
+      { type: "fragrance-oil", hashId: "48DE", weightOunces: "0.19" },
     ],
     layers: [
       {
@@ -1326,13 +1326,13 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Juniper Rework Amber Tumbler",
     dyeAddTemperatureFahrenheit: "",
     fragranceAddTemperatureFahrenheit: "195",
-    notes: "First test of higher than 10% load"
+    notes: "First test of higher than 10% load",
   },
   {
     whenCreated: "2019-12-10",
@@ -1343,7 +1343,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "GR1R", weightOunces: "0.15" },
       { type: "fragrance-oil", hashId: "49DQ", weightOunces: "0.15" },
       { type: "fragrance-oil", hashId: "GZ1M", weightOunces: "0.15" },
-      { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.15" }
+      { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.15" },
     ],
     layers: [
       {
@@ -1353,13 +1353,13 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Krampus Rework Amber Tumbler",
     dyeAddTemperatureFahrenheit: "",
     fragranceAddTemperatureFahrenheit: "195",
-    notes: "first test of above 10% load"
+    notes: "first test of above 10% load",
   },
 
   // juniper mint wick down test
@@ -1371,7 +1371,7 @@ module.exports = [
       { type: "wax", hashId: "3761", weightOunces: "0.42" },
       { type: "fragrance-oil", hashId: "4NDL", weightOunces: "0.41" },
       { type: "fragrance-oil", hashId: "GVXP", weightOunces: "0.41" },
-      { type: "fragrance-oil", hashId: "48DE", weightOunces: "0.35" }
+      { type: "fragrance-oil", hashId: "48DE", weightOunces: "0.35" },
     ],
     layers: [
       {
@@ -1381,7 +1381,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "W9KP",
@@ -1390,11 +1390,11 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Juniper-Mint-Library Wick Down Test",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   // Krampus 3.0 Wick Down Test
   {
@@ -1406,7 +1406,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.29" },
       { type: "fragrance-oil", hashId: "GR1R", weightOunces: "0.29" },
       { type: "fragrance-oil", hashId: "49DQ", weightOunces: "0.29" },
-      { type: "fragrance-oil", hashId: "GMYR", weightOunces: "0.29" }
+      { type: "fragrance-oil", hashId: "GMYR", weightOunces: "0.29" },
     ],
     layers: [
       {
@@ -1416,7 +1416,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3MML",
@@ -1425,11 +1425,11 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Krampus 3.0 Wick Down Test",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   // Holiday Punch Wick Down Test
   {
@@ -1440,7 +1440,7 @@ module.exports = [
       { type: "wax", hashId: "3761", weightOunces: "0.42" },
       { type: "fragrance-oil", hashId: "OKVV", weightOunces: "0.38" },
       { type: "fragrance-oil", hashId: "41ZW", weightOunces: "0.38" },
-      { type: "fragrance-oil", hashId: "GX5V", weightOunces: "0.38" }
+      { type: "fragrance-oil", hashId: "GX5V", weightOunces: "0.38" },
     ],
     layers: [
       {
@@ -1450,7 +1450,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WGPM",
@@ -1459,11 +1459,11 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Holiday Punch Wick Down Test",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   // Tobacco Caramel Wick Down Test
   {
@@ -1476,7 +1476,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.38" },
       { type: "fragrance-oil", hashId: "G7Q8", weightOunces: "0.28" },
       { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.12" },
-      { type: "wax", hashId: "1KVP", weightOunces: "4.14" }
+      { type: "wax", hashId: "1KVP", weightOunces: "4.14" },
     ],
     layers: [
       {
@@ -1486,7 +1486,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "R2BX",
@@ -1495,12 +1495,12 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Tobacco Caramel Bergamot Wick Down Test",
     fragranceAddTemperatureFahrenheit: "195",
-    notes: "finished a bag of soy wax"
+    notes: "finished a bag of soy wax",
   },
   {
     whenCreated: "2019-12-12",
@@ -1512,7 +1512,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "GW7X", weightOunces: "0.32" },
       { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.32" },
       { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.09" },
-      { type: "fragrance-oil", hashId: "4J3Y", weightOunces: "0.09" }
+      { type: "fragrance-oil", hashId: "4J3Y", weightOunces: "0.09" },
     ],
     layers: [
       {
@@ -1522,7 +1522,7 @@ module.exports = [
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
         coolingRoomHumidityPercent: "50",
-        preppedContainerWeightOunces: "6.78"
+        preppedContainerWeightOunces: "6.78",
       },
       {
         candleHashId: "RVO7",
@@ -1531,11 +1531,11 @@ module.exports = [
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
         coolingRoomHumidityPercent: "50",
-        preppedContainerWeightOunces: "6.81"
-      }
+        preppedContainerWeightOunces: "6.81",
+      },
     ],
     name: "Krampus 4.0 Scent and Wick Test",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   {
     whenCreated: "2019-12-12",
@@ -1545,7 +1545,7 @@ module.exports = [
       { type: "wax", hashId: "3M41", weightOunces: "7.95" },
       { type: "fragrance-oil", hashId: "GQPB", weightOunces: "0.38" },
       { type: "fragrance-oil", hashId: "4NYL", weightOunces: "0.38" },
-      { type: "fragrance-oil", hashId: "GQRB", weightOunces: "0.38" }
+      { type: "fragrance-oil", hashId: "GQRB", weightOunces: "0.38" },
     ],
     layers: [
       {
@@ -1555,7 +1555,7 @@ module.exports = [
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
         coolingRoomHumidityPercent: "50",
-        preppedContainerWeightOunces: "7.09"
+        preppedContainerWeightOunces: "7.09",
       },
       {
         candleHashId: "REO9",
@@ -1564,12 +1564,12 @@ module.exports = [
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
         coolingRoomHumidityPercent: "50",
-        preppedContainerWeightOunces: "6.72"
-      }
+        preppedContainerWeightOunces: "6.72",
+      },
     ],
     name: "Birch Teakwood Lav Scent and Wick Test",
     dyeAddTemperatureFahrenheit: "",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   // krampus 5
   {
@@ -1583,7 +1583,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "4JYB", weightOunces: "0.12" },
       { type: "fragrance-oil", hashId: "G5W7", weightOunces: "0.41" },
       // TODO cypress bayberry
-      { type: "fragrance-oil", hashId: "G5W7", weightOunces: "0.41" }
+      { type: "fragrance-oil", hashId: "G5W7", weightOunces: "0.41" },
     ],
     layers: [
       {
@@ -1593,7 +1593,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "150",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "RO8J",
@@ -1602,11 +1602,11 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "150",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Krampus 5.0 Fireside Cypress",
-    fragranceAddTemperatureFahrenheit: "165"
+    fragranceAddTemperatureFahrenheit: "165",
   },
   // krampus 6.0
   {
@@ -1619,7 +1619,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "42J4", weightOunces: "0.12" },
       { type: "fragrance-oil", hashId: "4JYB", weightOunces: "0.12" },
       { type: "fragrance-oil", hashId: "49DQ", weightOunces: "0.41" },
-      { type: "fragrance-oil", hashId: "4N88", weightOunces: "0.41" }
+      { type: "fragrance-oil", hashId: "4N88", weightOunces: "0.41" },
     ],
     layers: [
       {
@@ -1629,7 +1629,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "150",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "W9LP",
@@ -1638,11 +1638,11 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "150",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Krampus 6.0 Mistletoe Spruce",
-    fragranceAddTemperatureFahrenheit: "165"
+    fragranceAddTemperatureFahrenheit: "165",
   },
   {
     whenCreated: "2019-12-15",
@@ -1653,7 +1653,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "4NDL", weightOunces: "0.75" },
       { type: "fragrance-oil", hashId: "GVXP", weightOunces: "0.75" },
       { type: "fragrance-oil", hashId: "48DE", weightOunces: "0.64" },
-      { type: "dye-blocks", hashId: "74ZV", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "74ZV", pieces: "0.1" },
     ],
     layers: [
       {
@@ -1663,7 +1663,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "70",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3P51",
@@ -1672,7 +1672,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "70",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "R2QX",
@@ -1681,12 +1681,12 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "70",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Juniper Mint Library",
     dyeAddTemperatureFahrenheit: "180",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   {
     whenCreated: "2019-12-15",
@@ -1697,7 +1697,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "OKVV", weightOunces: "0.71" },
       { type: "fragrance-oil", hashId: "GYXM", weightOunces: "0.71" },
       { type: "fragrance-oil", hashId: "41ZW", weightOunces: "0.71" },
-      { type: "dye-blocks", hashId: "71KV", pieces: "0.2" }
+      { type: "dye-blocks", hashId: "71KV", pieces: "0.2" },
     ],
     layers: [
       {
@@ -1707,7 +1707,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "70",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "35Q9",
@@ -1716,7 +1716,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "70",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WBPV",
@@ -1725,12 +1725,12 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "70",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Holiday Punch Dye Test",
     dyeAddTemperatureFahrenheit: "180",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   {
     whenCreated: "2019-12-15",
@@ -1742,7 +1742,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.71" },
       { type: "fragrance-oil", hashId: "G7Q8", weightOunces: "0.51" },
       { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.21" },
-      { type: "dye-blocks", hashId: "VP1O", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "VP1O", pieces: "0.1" },
     ],
     layers: [
       {
@@ -1752,7 +1752,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "70",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3DMJ",
@@ -1761,7 +1761,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "70",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "RJ58",
@@ -1770,12 +1770,12 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "70",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Salty Tobacco Caramel Dye Test",
     dyeAddTemperatureFahrenheit: "180",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   {
     whenCreated: "2019-12-15",
@@ -1789,7 +1789,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "4JYB", weightOunces: "0.21" },
       { type: "fragrance-oil", hashId: "OERB", weightOunces: "0.21" },
       { type: "fragrance-oil", hashId: "4N88", weightOunces: "0.39" },
-      { type: "dye-blocks", hashId: "7R6W", pieces: "0.05" }
+      { type: "dye-blocks", hashId: "7R6W", pieces: "0.05" },
     ],
     layers: [
       {
@@ -1799,7 +1799,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "70",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "W19Z",
@@ -1808,7 +1808,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "70",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "RV97",
@@ -1817,12 +1817,12 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "70",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Krampus v5 Dye Test",
     dyeAddTemperatureFahrenheit: "180",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   {
     whenCreated: "2019-12-16",
@@ -1834,7 +1834,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "GV68", weightOunces: "2.05" },
       { type: "fragrance-oil", hashId: "GZ1M", weightOunces: "1.94" },
       { type: "dye-blocks", hashId: "OEWO", pieces: "0.2" },
-      { type: "wax", hashId: "P4J1", weightOunces: "1.77" }
+      { type: "wax", hashId: "P4J1", weightOunces: "1.77" },
     ],
     layers: [
       {
@@ -1844,7 +1844,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WL65",
@@ -1853,7 +1853,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "34V2",
@@ -1862,7 +1862,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "ROXJ",
@@ -1871,7 +1871,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "38ZY",
@@ -1880,7 +1880,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "W97P",
@@ -1889,7 +1889,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3QY7",
@@ -1898,7 +1898,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3MDL",
@@ -1907,7 +1907,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "37VM",
@@ -1916,7 +1916,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "120",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WGKM",
@@ -1925,7 +1925,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "120",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3PY1",
@@ -1934,7 +1934,7 @@ module.exports = [
         containerTemperatureFahrenheit: "68",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "R25X",
@@ -1943,7 +1943,7 @@ module.exports = [
         containerTemperatureFahrenheit: "68",
         pourTemperatureFahrenheit: "160",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WYJV",
@@ -1952,7 +1952,7 @@ module.exports = [
         containerTemperatureFahrenheit: "68",
         pourTemperatureFahrenheit: "120",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "35D9",
@@ -1961,12 +1961,12 @@ module.exports = [
         containerTemperatureFahrenheit: "68",
         pourTemperatureFahrenheit: "120",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Small Jar Pour Test Birch Vetiver Lavender",
     fragranceAddTemperatureFahrenheit: "195",
-    dyeAddTemperatureFahrenheit: "180"
+    dyeAddTemperatureFahrenheit: "180",
   },
   {
     whenCreated: "2019-12-17",
@@ -1977,7 +1977,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "GVXP", weightOunces: "1.28" },
       { type: "fragrance-oil", hashId: "48DE", weightOunces: "1.28" },
       { type: "fragrance-oil", hashId: "4NDL", weightOunces: "1.09" },
-      { type: "dye-blocks", hashId: "74ZV", pieces: "0.2" }
+      { type: "dye-blocks", hashId: "74ZV", pieces: "0.2" },
     ],
     layers: [
       {
@@ -1987,7 +1987,7 @@ module.exports = [
         containerTemperatureFahrenheit: "68",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3DJJ",
@@ -1996,7 +1996,7 @@ module.exports = [
         containerTemperatureFahrenheit: "68",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "RJY8",
@@ -2005,7 +2005,7 @@ module.exports = [
         containerTemperatureFahrenheit: "68",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "RXD2",
@@ -2014,7 +2014,7 @@ module.exports = [
         containerTemperatureFahrenheit: "68",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "W1LV",
@@ -2023,12 +2023,12 @@ module.exports = [
         containerTemperatureFahrenheit: "68",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Juniper Mint Library Gift Batch 1",
     fragranceAddTemperatureFahrenheit: "165",
-    dyeAddTemperatureFahrenheit: "180"
+    dyeAddTemperatureFahrenheit: "180",
   },
   {
     whenCreated: "2019-12-17",
@@ -2040,7 +2040,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "48DE", weightOunces: "1.28" },
       { type: "fragrance-oil", hashId: "4NDL", weightOunces: "1.09" },
       { type: "dye-blocks", hashId: "74ZV", pieces: "0.2" },
-      { type: "wax", hashId: "3NRP", weightOunces: "19.06" }
+      { type: "wax", hashId: "3NRP", weightOunces: "19.06" },
     ],
     layers: [
       {
@@ -2050,7 +2050,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WNEK",
@@ -2059,7 +2059,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3ZXJ",
@@ -2068,7 +2068,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WL25",
@@ -2077,7 +2077,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "RVL5",
@@ -2086,7 +2086,7 @@ module.exports = [
         containerTemperatureFahrenheit: "68",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3K1Q",
@@ -2095,7 +2095,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "REY7",
@@ -2104,12 +2104,12 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Juniper Mint Library Gift Batch 2",
     dyeAddTemperatureFahrenheit: "180",
-    fragranceAddTemperatureFahrenheit: "165"
+    fragranceAddTemperatureFahrenheit: "165",
   },
   {
     whenCreated: "2019-12-17",
@@ -2120,7 +2120,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "OKVV", weightOunces: "1.20" },
       { type: "fragrance-oil", hashId: "GYXM", weightOunces: "1.20" },
       { type: "fragrance-oil", hashId: "41ZW", weightOunces: "1.20" },
-      { type: "dye-blocks", hashId: "V29B", pieces: "0.2" }
+      { type: "dye-blocks", hashId: "V29B", pieces: "0.2" },
     ],
     layers: [
       {
@@ -2130,7 +2130,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3QE7",
@@ -2139,7 +2139,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3M2L",
@@ -2148,7 +2148,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "37XM",
@@ -2157,7 +2157,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WNLD",
@@ -2166,12 +2166,12 @@ module.exports = [
         containerTemperatureFahrenheit: "68",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Holiday Punch Gift Batch 1",
     dyeAddTemperatureFahrenheit: "180",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   {
     whenCreated: "2019-12-17",
@@ -2182,7 +2182,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "41ZW", weightOunces: "1.05" },
       { type: "fragrance-oil", hashId: "OKVV", weightOunces: "1.05" },
       { type: "fragrance-oil", hashId: "GYXM", weightOunces: "1.05" },
-      { type: "dye-blocks", hashId: "74ZV", pieces: "0.2" }
+      { type: "dye-blocks", hashId: "74ZV", pieces: "0.2" },
     ],
     layers: [
       {
@@ -2192,7 +2192,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3549",
@@ -2201,7 +2201,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WBDV",
@@ -2210,12 +2210,12 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Holiday Punch Gift Batch 2",
     dyeAddTemperatureFahrenheit: "180",
-    fragranceAddTemperatureFahrenheit: "165"
+    fragranceAddTemperatureFahrenheit: "165",
   },
   {
     whenCreated: "2019-12-17",
@@ -2227,7 +2227,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "GV68", weightOunces: "1.20" },
       { type: "fragrance-oil", hashId: "G7Q8", weightOunces: "0.88" },
       { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.36" },
-      { type: "dye-blocks", hashId: "VP1O", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "VP1O", pieces: "0.1" },
     ],
     layers: [
       {
@@ -2237,7 +2237,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3DX5",
@@ -2246,7 +2246,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "RJ8K",
@@ -2255,7 +2255,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "RXQY",
@@ -2264,7 +2264,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "W9QE",
@@ -2273,7 +2273,7 @@ module.exports = [
         containerTemperatureFahrenheit: "68",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3Q2Q",
@@ -2282,12 +2282,12 @@ module.exports = [
         containerTemperatureFahrenheit: "68",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Salty Tobacco Caramel Gift Batch 1",
     dyeAddTemperatureFahrenheit: "180",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   {
     whenCreated: "2019-12-17",
@@ -2300,7 +2300,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "G597", weightOunces: "0.75" },
       { type: "fragrance-oil", hashId: "G7Q8", weightOunces: "0.88" },
       { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.36" },
-      { type: "dye-blocks", hashId: "VP1O", pieces: "0.1" }
+      { type: "dye-blocks", hashId: "VP1O", pieces: "0.1" },
     ],
     layers: [
       {
@@ -2310,7 +2310,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WN8D",
@@ -2319,7 +2319,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3ZGZ",
@@ -2328,7 +2328,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "65",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WLG8",
@@ -2337,7 +2337,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3MG7",
@@ -2346,12 +2346,12 @@ module.exports = [
         containerTemperatureFahrenheit: "68",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Salty Tobacco Caramel Gift Batch 2",
     dyeAddTemperatureFahrenheit: "180",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   {
     whenCreated: "2019-12-17",
@@ -2364,7 +2364,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "G5W7", weightOunces: "1.28" },
       { type: "fragrance-oil", hashId: "42J4", weightOunces: "0.36" },
       { type: "fragrance-oil", hashId: "GW7X", weightOunces: "1.28" },
-      { type: "dye-blocks", hashId: "OWXV", pieces: "0.2" }
+      { type: "dye-blocks", hashId: "OWXV", pieces: "0.2" },
     ],
     layers: [
       {
@@ -2374,7 +2374,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3QLQ",
@@ -2383,7 +2383,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3MK7",
@@ -2392,7 +2392,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "37J1",
@@ -2401,7 +2401,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "37Y1",
@@ -2410,12 +2410,12 @@ module.exports = [
         containerTemperatureFahrenheit: "68",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Krampus Gift Batch 1",
     dyeAddTemperatureFahrenheit: "180",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   {
     whenCreated: "2019-12-17",
@@ -2429,7 +2429,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "G5W7", weightOunces: "1.28" },
       { type: "fragrance-oil", hashId: "42J4", weightOunces: "0.36" },
       { type: "fragrance-oil", hashId: "GW7X", weightOunces: "1.28" },
-      { type: "dye-blocks", hashId: "OWXV", pieces: "0.2" }
+      { type: "dye-blocks", hashId: "OWXV", pieces: "0.2" },
     ],
     layers: [
       {
@@ -2439,7 +2439,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3564",
@@ -2448,7 +2448,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WB44",
@@ -2457,7 +2457,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "36DQ",
@@ -2466,7 +2466,7 @@ module.exports = [
         containerTemperatureFahrenheit: "130",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WGLV",
@@ -2475,13 +2475,13 @@ module.exports = [
         containerTemperatureFahrenheit: "68",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "68",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Krampus Gift Batch 2",
     dyeAddTemperatureFahrenheit: "180",
     fragranceAddTemperatureFahrenheit: "195",
-    notes: "not 100% accurate soy data"
+    notes: "not 100% accurate soy data",
   },
   {
     whenCreated: "2020-01-09",
@@ -2490,7 +2490,7 @@ module.exports = [
       { type: "wax", hashId: "P4J1", weightOunces: "1.36" },
       { type: "wax", hashId: "157P", weightOunces: "0.40" },
       { type: "fragrance-oil", hashId: "OE78", weightOunces: "2.48" },
-      { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.83" }
+      { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.83" },
     ],
     layers: [
       {
@@ -2500,7 +2500,7 @@ module.exports = [
         containerTemperatureFahrenheit: "77",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "77",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "R2MQ",
@@ -2509,7 +2509,7 @@ module.exports = [
         containerTemperatureFahrenheit: "77",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "77",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WY9J",
@@ -2518,7 +2518,7 @@ module.exports = [
         containerTemperatureFahrenheit: "77",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "77",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3584",
@@ -2527,11 +2527,11 @@ module.exports = [
         containerTemperatureFahrenheit: "77",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "77",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Fig Tree Bergamot Heat Lamp Test",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   {
     whenCreated: "2020-01-10",
@@ -2540,7 +2540,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.20" },
       { type: "wax", hashId: "P4J1", weightOunces: "0.67" },
       { type: "fragrance-oil", hashId: "OE78", weightOunces: "1.12" },
-      { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.37" }
+      { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.37" },
     ],
     layers: [
       {
@@ -2550,7 +2550,7 @@ module.exports = [
         containerTemperatureFahrenheit: "76",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "76",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "RXMY",
@@ -2559,12 +2559,12 @@ module.exports = [
         containerTemperatureFahrenheit: "76",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "76",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Higher Heat Lamp Lower FO Fig Bergamot Test",
     fragranceAddTemperatureFahrenheit: "195",
-    notes: "250w heat lamp but higher up on the counter light"
+    notes: "250w heat lamp but higher up on the counter light",
   },
   {
     whenCreated: "2020-01-10",
@@ -2573,7 +2573,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.20" },
       { type: "wax", hashId: "P4J1", weightOunces: "0.71" },
       { type: "fragrance-oil", hashId: "OE78", weightOunces: "1.12" },
-      { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.37" }
+      { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.37" },
     ],
     layers: [
       {
@@ -2583,7 +2583,7 @@ module.exports = [
         containerTemperatureFahrenheit: "76",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "76",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "RV45",
@@ -2592,12 +2592,12 @@ module.exports = [
         containerTemperatureFahrenheit: "76",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "76",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "No A/C Test ~76 degrees",
     fragranceAddTemperatureFahrenheit: "195",
-    notes: ""
+    notes: "",
   },
   {
     whenCreated: "2020-01-11",
@@ -2606,7 +2606,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.30" },
       { type: "wax", hashId: "P4J1", weightOunces: "1.00" },
       { type: "fragrance-oil", hashId: "OD3Q", weightOunces: "1.11" },
-      { type: "fragrance-oil", hashId: "GQQK", weightOunces: "1.11" }
+      { type: "fragrance-oil", hashId: "GQQK", weightOunces: "1.11" },
     ],
     layers: [
       {
@@ -2616,7 +2616,7 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WLQ8",
@@ -2625,11 +2625,11 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "165",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Orange Vanilla Soy blend warm apartment take 2",
-    fragranceAddTemperatureFahrenheit: "195"
+    fragranceAddTemperatureFahrenheit: "195",
   },
   {
     whenCreated: "2020-01-11",
@@ -2637,7 +2637,7 @@ module.exports = [
       { type: "wax", hashId: "3GEP", weightOunces: "19.00" },
       { type: "wax", hashId: "157P", weightOunces: "1.00" },
       { type: "fragrance-oil", hashId: "OD3Q", weightOunces: "1.36" },
-      { type: "fragrance-oil", hashId: "GQQK", weightOunces: "1.36" }
+      { type: "fragrance-oil", hashId: "GQQK", weightOunces: "1.36" },
     ],
     layers: [
       {
@@ -2647,7 +2647,7 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "180",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "38OG",
@@ -2656,12 +2656,12 @@ module.exports = [
         containerTemperatureFahrenheit: "74",
         pourTemperatureFahrenheit: "180",
         coolingRoomTemperatureFahrenheit: "74",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "Coco-83 5% Beeswax First Try",
     fragranceAddTemperatureFahrenheit: "205",
-    notes: ""
+    notes: "",
   },
   {
     whenCreated: "2020-01-13",
@@ -2669,7 +2669,7 @@ module.exports = [
       { type: "wax", hashId: "3GEP", weightOunces: "47.5" },
       { type: "wax", hashId: "157P", weightOunces: "2.5" },
       { type: "fragrance-oil", hashId: "4L32", weightOunces: "3.41" },
-      { type: "fragrance-oil", hashId: "46M9", weightOunces: "3.41" }
+      { type: "fragrance-oil", hashId: "46M9", weightOunces: "3.41" },
     ],
     layers: [
       {
@@ -2679,7 +2679,7 @@ module.exports = [
         containerTemperatureFahrenheit: "75",
         pourTemperatureFahrenheit: "180",
         coolingRoomTemperatureFahrenheit: "75",
-        coolingRoomHumidityPercent: "59"
+        coolingRoomHumidityPercent: "59",
       },
       {
         candleHashId: "3ME7",
@@ -2688,7 +2688,7 @@ module.exports = [
         containerTemperatureFahrenheit: "75",
         pourTemperatureFahrenheit: "180",
         coolingRoomTemperatureFahrenheit: "75",
-        coolingRoomHumidityPercent: "59"
+        coolingRoomHumidityPercent: "59",
       },
       {
         candleHashId: "37E1",
@@ -2697,7 +2697,7 @@ module.exports = [
         containerTemperatureFahrenheit: "75",
         pourTemperatureFahrenheit: "180",
         coolingRoomTemperatureFahrenheit: "75",
-        coolingRoomHumidityPercent: "59"
+        coolingRoomHumidityPercent: "59",
       },
       {
         candleHashId: "WGDV",
@@ -2706,7 +2706,7 @@ module.exports = [
         containerTemperatureFahrenheit: "75",
         pourTemperatureFahrenheit: "180",
         coolingRoomTemperatureFahrenheit: "75",
-        coolingRoomHumidityPercent: "59"
+        coolingRoomHumidityPercent: "59",
       },
       {
         candleHashId: "3PGK",
@@ -2715,7 +2715,7 @@ module.exports = [
         containerTemperatureFahrenheit: "75",
         pourTemperatureFahrenheit: "180",
         coolingRoomTemperatureFahrenheit: "75",
-        coolingRoomHumidityPercent: "59"
+        coolingRoomHumidityPercent: "59",
       },
       {
         candleHashId: "R2JQ",
@@ -2724,7 +2724,7 @@ module.exports = [
         containerTemperatureFahrenheit: "75",
         pourTemperatureFahrenheit: "180",
         coolingRoomTemperatureFahrenheit: "75",
-        coolingRoomHumidityPercent: "59"
+        coolingRoomHumidityPercent: "59",
       },
       {
         candleHashId: "WY7J",
@@ -2733,7 +2733,7 @@ module.exports = [
         containerTemperatureFahrenheit: "75",
         pourTemperatureFahrenheit: "180",
         coolingRoomTemperatureFahrenheit: "75",
-        coolingRoomHumidityPercent: "59"
+        coolingRoomHumidityPercent: "59",
       },
       {
         candleHashId: "35V4",
@@ -2742,7 +2742,7 @@ module.exports = [
         containerTemperatureFahrenheit: "75",
         pourTemperatureFahrenheit: "180",
         coolingRoomTemperatureFahrenheit: "75",
-        coolingRoomHumidityPercent: "59"
+        coolingRoomHumidityPercent: "59",
       },
       {
         candleHashId: "WBM4",
@@ -2751,7 +2751,7 @@ module.exports = [
         containerTemperatureFahrenheit: "75",
         pourTemperatureFahrenheit: "180",
         coolingRoomTemperatureFahrenheit: "75",
-        coolingRoomHumidityPercent: "59"
+        coolingRoomHumidityPercent: "59",
       },
       {
         whenPoured: "2020-01-13T20:16:54",
@@ -2760,11 +2760,11 @@ module.exports = [
         containerTemperatureFahrenheit: "75",
         pourTemperatureFahrenheit: "180",
         coolingRoomTemperatureFahrenheit: "75",
-        coolingRoomHumidityPercent: "59"
-      }
+        coolingRoomHumidityPercent: "59",
+      },
     ],
     name: "83/Bees 95/5 Wick Test",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-01-15",
@@ -2773,7 +2773,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "1.50" },
       { type: "fragrance-oil", hashId: "OE78", weightOunces: "3.07" },
       { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.34" },
-      { type: "fragrance-oil", hashId: "498N", weightOunces: "0.68" }
+      { type: "fragrance-oil", hashId: "498N", weightOunces: "0.68" },
     ],
     layers: [
       {
@@ -2783,7 +2783,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         preppedContainerWeightOunces: "7.13",
         coolingRoomTemperatureFahrenheit: "76",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "REB7",
@@ -2791,7 +2791,7 @@ module.exports = [
         containerTemperatureFahrenheit: "76",
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "76",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WNND",
@@ -2800,7 +2800,7 @@ module.exports = [
         preppedContainerWeightOunces: "7.13",
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "76",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3ZLZ",
@@ -2809,7 +2809,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         preppedContainerWeightOunces: "7.13",
         coolingRoomTemperatureFahrenheit: "76",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WLK8",
@@ -2818,7 +2818,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         preppedContainerWeightOunces: "7.13",
         coolingRoomTemperatureFahrenheit: "76",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "341Z",
@@ -2827,11 +2827,11 @@ module.exports = [
         preppedContainerWeightOunces: "7.13",
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "76",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "95/5 83/Bees Fig Bergamot Wick Series",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-01-16",
@@ -2839,7 +2839,7 @@ module.exports = [
       { type: "wax", hashId: "3GEP", weightOunces: "38.8" },
       { type: "wax", hashId: "157P", weightOunces: "1.20" },
       { type: "fragrance-oil", hashId: "G597", weightOunces: "3.60" },
-      { type: "fragrance-oil", hashId: "498N", weightOunces: "1.20" }
+      { type: "fragrance-oil", hashId: "498N", weightOunces: "1.20" },
     ],
     layers: [
       {
@@ -2849,7 +2849,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         preppedContainerWeightOunces: "7.13",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3QDQ",
@@ -2858,7 +2858,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         preppedContainerWeightOunces: "7.13",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3MZ7",
@@ -2867,7 +2867,7 @@ module.exports = [
         preppedContainerWeightOunces: "7.13",
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "37B1",
@@ -2876,7 +2876,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         preppedContainerWeightOunces: "7.13",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "WGXV",
@@ -2885,7 +2885,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         preppedContainerWeightOunces: "7.13",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "3P6K",
@@ -2895,7 +2895,7 @@ module.exports = [
         preppedContainerWeightOunces: "7.13",
 
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
+        coolingRoomHumidityPercent: "50",
       },
       {
         candleHashId: "R2OQ",
@@ -2904,11 +2904,11 @@ module.exports = [
         preppedContainerWeightOunces: "7.13",
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "73",
-        coolingRoomHumidityPercent: "50"
-      }
+        coolingRoomHumidityPercent: "50",
+      },
     ],
     name: "97/3 98/Bees Test",
-    fragranceAddTemperatureFahrenheit: "185"
+    fragranceAddTemperatureFahrenheit: "185",
   },
   {
     whenCreated: "2020-01-17",
@@ -2916,7 +2916,7 @@ module.exports = [
       { type: "wax", hashId: "3GEP", weightOunces: "8.7" },
       { type: "wax", hashId: "157P", weightOunces: "0.30" },
       { type: "fragrance-oil", hashId: "GWW9", weightOunces: "0.50" },
-      { type: "fragrance-oil", hashId: "GZXE", weightOunces: "0.50" }
+      { type: "fragrance-oil", hashId: "GZXE", weightOunces: "0.50" },
     ],
     layers: [
       {
@@ -2926,12 +2926,12 @@ module.exports = [
         coolingRoomTemperatureFahrenheit: "74",
         coolingRoomHumidityPercent: "50",
         candleHashId: "365L",
-        preppedContainerWeightOunces: "7.10"
-      }
+        preppedContainerWeightOunces: "7.10",
+      },
     ],
     name: "Candle Party Rita",
     dyeAddTemperatureFahrenheit: "",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-01-17",
@@ -2940,7 +2940,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.30" },
       { type: "fragrance-oil", hashId: "OEW8", weightOunces: "0.50" },
       { type: "fragrance-oil", hashId: "4NDL", weightOunces: "0.25" },
-      { type: "fragrance-oil", hashId: "OPQX", weightOunces: "0.25" }
+      { type: "fragrance-oil", hashId: "OPQX", weightOunces: "0.25" },
     ],
     layers: [
       {
@@ -2950,12 +2950,12 @@ module.exports = [
         coolingRoomTemperatureFahrenheit: "74",
         coolingRoomHumidityPercent: "50",
         candleHashId: "3D6L",
-        preppedContainerWeightOunces: "7.10"
-      }
+        preppedContainerWeightOunces: "7.10",
+      },
     ],
     name: "Candle Party Sameera",
     dyeAddTemperatureFahrenheit: "",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-01-17",
@@ -2965,7 +2965,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "GBZW", weightOunces: "0.25" },
       { type: "fragrance-oil", hashId: "G5E9", weightOunces: "0.25" },
       { type: "fragrance-oil", hashId: "GWV9", weightOunces: "0.25" },
-      { type: "fragrance-oil", hashId: "OEW8", weightOunces: "0.25" }
+      { type: "fragrance-oil", hashId: "OEW8", weightOunces: "0.25" },
     ],
     layers: [
       {
@@ -2975,12 +2975,12 @@ module.exports = [
         coolingRoomTemperatureFahrenheit: "74",
         coolingRoomHumidityPercent: "50",
         candleHashId: "RJKM",
-        preppedContainerWeightOunces: "7.10"
-      }
+        preppedContainerWeightOunces: "7.10",
+      },
     ],
     name: "Candle Party Vijay",
     dyeAddTemperatureFahrenheit: "",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-01-17",
@@ -2990,7 +2990,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "OPWX", weightOunces: "0.25" },
       { type: "fragrance-oil", hashId: "GXX6", weightOunces: "0.25" },
       { type: "fragrance-oil", hashId: "GZQE", weightOunces: "0.25" },
-      { type: "fragrance-oil", hashId: "GZXE", weightOunces: "0.25" }
+      { type: "fragrance-oil", hashId: "GZXE", weightOunces: "0.25" },
     ],
     layers: [
       {
@@ -3000,12 +3000,12 @@ module.exports = [
         coolingRoomTemperatureFahrenheit: "74",
         coolingRoomHumidityPercent: "50",
         candleHashId: "RXNZ",
-        preppedContainerWeightOunces: "7.10"
-      }
+        preppedContainerWeightOunces: "7.10",
+      },
     ],
     name: "Candle Party Al",
     dyeAddTemperatureFahrenheit: "",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-01-24",
@@ -3013,7 +3013,7 @@ module.exports = [
       { type: "wax", hashId: "3GEP", weightOunces: "24.25" },
       { type: "wax", hashId: "157P", weightOunces: "0.75" },
       { type: "fragrance-oil", hashId: "46D2", weightOunces: "1.47" },
-      { type: "fragrance-oil", hashId: "GZVB", weightOunces: "1.47" }
+      { type: "fragrance-oil", hashId: "GZVB", weightOunces: "1.47" },
     ],
     layers: [
       {
@@ -3023,7 +3023,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "74",
         coolingRoomHumidityPercent: "49",
-        preppedContainerWeightOunces: "7.10"
+        preppedContainerWeightOunces: "7.10",
       },
       {
         candleHashId: "WN54",
@@ -3032,7 +3032,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "74",
         coolingRoomHumidityPercent: "49",
-        preppedContainerWeightOunces: "7.10"
+        preppedContainerWeightOunces: "7.10",
       },
       {
         candleHashId: "3Z57",
@@ -3041,7 +3041,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "74",
         coolingRoomHumidityPercent: "49",
-        preppedContainerWeightOunces: "7.10"
+        preppedContainerWeightOunces: "7.10",
       },
       {
         candleHashId: "WLDE",
@@ -3050,7 +3050,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "74",
         coolingRoomHumidityPercent: "49",
-        preppedContainerWeightOunces: "7.10"
+        preppedContainerWeightOunces: "7.10",
       },
       {
         candleHashId: "34X5",
@@ -3059,11 +3059,11 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "74",
         coolingRoomHumidityPercent: "49",
-        preppedContainerWeightOunces: "7.10"
-      }
+        preppedContainerWeightOunces: "7.10",
+      },
     ],
     name: "97/3 Wick test 3 Pineapple Sherbert Mango",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-01-28",
@@ -3071,7 +3071,7 @@ module.exports = [
       { type: "wax", hashId: "PQ41", weightOunces: "24.00" },
       { type: "wax", hashId: "157P", weightOunces: "1.00" },
       { type: "fragrance-oil", hashId: "G597", weightOunces: "1.47" },
-      { type: "fragrance-oil", hashId: "43EY", weightOunces: "1.47" }
+      { type: "fragrance-oil", hashId: "43EY", weightOunces: "1.47" },
     ],
     layers: [
       {
@@ -3081,7 +3081,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "73",
         coolingRoomHumidityPercent: "45",
-        preppedContainerWeightOunces: "7.68"
+        preppedContainerWeightOunces: "7.68",
       },
       {
         candleHashId: "3QK4",
@@ -3090,7 +3090,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "73",
         coolingRoomHumidityPercent: "45",
-        preppedContainerWeightOunces: "7.72"
+        preppedContainerWeightOunces: "7.72",
       },
       {
         candleHashId: "3MJD",
@@ -3099,7 +3099,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "73",
         coolingRoomHumidityPercent: "45",
-        preppedContainerWeightOunces: "7.77"
+        preppedContainerWeightOunces: "7.77",
       },
       {
         candleHashId: "37KX",
@@ -3108,7 +3108,7 @@ module.exports = [
         preppedContainerWeightOunces: "7.54",
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "185",
-        coolingRoomTemperatureFahrenheit: "73"
+        coolingRoomTemperatureFahrenheit: "73",
       },
       {
         whenPoured: "2020-01-28T20:34:25",
@@ -3117,11 +3117,11 @@ module.exports = [
         coolingRoomTemperatureFahrenheit: "73",
         coolingRoomHumidityPercent: "45",
         candleHashId: "WG98",
-        preppedContainerWeightOunces: "7.53"
-      }
+        preppedContainerWeightOunces: "7.53",
+      },
     ],
     name: "96/4 Coco-83/Bees Hotter Double Wick",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-01-30",
@@ -3129,7 +3129,7 @@ module.exports = [
       { type: "wax", hashId: "PQ41", weightOunces: "24.00" },
       { type: "wax", hashId: "157P", weightOunces: "1.00" },
       { type: "fragrance-oil", hashId: "G597", weightOunces: "1.58" },
-      { type: "fragrance-oil", hashId: "43EY", weightOunces: "1.42" }
+      { type: "fragrance-oil", hashId: "43EY", weightOunces: "1.42" },
     ],
     layers: [
       {
@@ -3139,7 +3139,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "73",
         coolingRoomHumidityPercent: "45",
-        preppedContainerWeightOunces: "6.91"
+        preppedContainerWeightOunces: "6.91",
       },
       {
         candleHashId: "351M",
@@ -3148,7 +3148,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "73",
         coolingRoomHumidityPercent: "45",
-        preppedContainerWeightOunces: "7.23"
+        preppedContainerWeightOunces: "7.23",
       },
       {
         candleHashId: "WB99",
@@ -3157,7 +3157,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "73",
         coolingRoomHumidityPercent: "45",
-        preppedContainerWeightOunces: "6.94"
+        preppedContainerWeightOunces: "6.94",
       },
       {
         candleHashId: "36VL",
@@ -3166,7 +3166,7 @@ module.exports = [
         preppedContainerWeightOunces: "7.11",
         containerTemperatureFahrenheit: "73",
         pourTemperatureFahrenheit: "185",
-        coolingRoomTemperatureFahrenheit: "73"
+        coolingRoomTemperatureFahrenheit: "73",
       },
       {
         whenPoured: "2020-01-30T20:34:25",
@@ -3175,7 +3175,7 @@ module.exports = [
         coolingRoomTemperatureFahrenheit: "73",
         coolingRoomHumidityPercent: "45",
         candleHashId: "3D9L",
-        preppedContainerWeightOunces: "7.06"
+        preppedContainerWeightOunces: "7.06",
       },
       {
         whenPoured: "2020-01-30T20:34:25",
@@ -3184,11 +3184,11 @@ module.exports = [
         coolingRoomTemperatureFahrenheit: "73",
         coolingRoomHumidityPercent: "45",
         candleHashId: "RJBM",
-        preppedContainerWeightOunces: "7.16"
-      }
+        preppedContainerWeightOunces: "7.16",
+      },
     ],
     name: "96/4 Coco-83/Bees even hotter wicks",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-01-31",
@@ -3196,7 +3196,7 @@ module.exports = [
       { type: "wax", hashId: "PQ41", weightOunces: "12.00" },
       { type: "wax", hashId: "157P", weightOunces: "0.50" },
       { type: "fragrance-oil", hashId: "GXX6", weightOunces: "0.74" },
-      { type: "fragrance-oil", hashId: "43EY", weightOunces: "0.74" }
+      { type: "fragrance-oil", hashId: "43EY", weightOunces: "0.74" },
     ],
     layers: [
       {
@@ -3206,7 +3206,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "73",
         coolingRoomHumidityPercent: "40",
-        preppedContainerWeightOunces: "7.16"
+        preppedContainerWeightOunces: "7.16",
       },
       {
         candleHashId: "RV8V",
@@ -3215,7 +3215,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "73",
         coolingRoomHumidityPercent: "40",
-        preppedContainerWeightOunces: "7.18"
+        preppedContainerWeightOunces: "7.18",
       },
       {
         candleHashId: "3K6O",
@@ -3224,11 +3224,11 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "73",
         coolingRoomHumidityPercent: "40",
-        preppedContainerWeightOunces: "7.12"
-      }
+        preppedContainerWeightOunces: "7.12",
+      },
     ],
     name: "96/4 Coco-83/Bees even hotter wicks",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-01-31",
@@ -3236,7 +3236,7 @@ module.exports = [
       { type: "wax", hashId: "PQ41", weightOunces: "16.00" },
       { type: "wax", hashId: "157P", weightOunces: "0.67" },
       { type: "fragrance-oil", hashId: "GXX6", weightOunces: "0.99" },
-      { type: "fragrance-oil", hashId: "43EY", weightOunces: "0.99" }
+      { type: "fragrance-oil", hashId: "43EY", weightOunces: "0.99" },
     ],
     layers: [
       {
@@ -3246,7 +3246,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "73",
         coolingRoomHumidityPercent: "40",
-        preppedContainerWeightOunces: "7.16"
+        preppedContainerWeightOunces: "7.16",
       },
       {
         candleHashId: "WNX4",
@@ -3255,7 +3255,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "73",
         coolingRoomHumidityPercent: "40",
-        preppedContainerWeightOunces: "7.18"
+        preppedContainerWeightOunces: "7.18",
       },
       {
         candleHashId: "3ZM7",
@@ -3264,7 +3264,7 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "73",
         coolingRoomHumidityPercent: "40",
-        preppedContainerWeightOunces: "7.12"
+        preppedContainerWeightOunces: "7.12",
       },
       {
         candleHashId: "WL1E",
@@ -3273,11 +3273,11 @@ module.exports = [
         pourTemperatureFahrenheit: "185",
         coolingRoomTemperatureFahrenheit: "73",
         coolingRoomHumidityPercent: "40",
-        preppedContainerWeightOunces: "7.12"
-      }
+        preppedContainerWeightOunces: "7.12",
+      },
     ],
     name: "96/4 Coco-83/Bees Zinc Wick Tests",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-02-07",
@@ -3286,7 +3286,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.36" },
       { type: "wax", hashId: "P4J1", weightOunces: "0.18" },
       { type: "fragrance-oil", hashId: "43EY", weightOunces: "0.53" },
-      { type: "fragrance-oil", hashId: "GXX6", weightOunces: "0.53" }
+      { type: "fragrance-oil", hashId: "GXX6", weightOunces: "0.53" },
     ],
     layers: [
       {
@@ -3296,7 +3296,7 @@ module.exports = [
         coolingRoomTemperatureFahrenheit: "74",
         coolingRoomHumidityPercent: "48",
         candleHashId: "W98K",
-        preppedContainerWeightOunces: "6.5"
+        preppedContainerWeightOunces: "6.5",
       },
       {
         whenPoured: "2020-02-07T22:13:13",
@@ -3305,11 +3305,11 @@ module.exports = [
         coolingRoomTemperatureFahrenheit: "74",
         coolingRoomHumidityPercent: "48",
         candleHashId: "3QZ4",
-        preppedContainerWeightOunces: "6.5"
-      }
+        preppedContainerWeightOunces: "6.5",
+      },
     ],
     name: "Adding 2% Coconut-1",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-02-07",
@@ -3318,7 +3318,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.36" },
       { type: "wax", hashId: "P4J1", weightOunces: "0.45" },
       { type: "fragrance-oil", hashId: "43EY", weightOunces: "0.53" },
-      { type: "fragrance-oil", hashId: "GXX6", weightOunces: "0.53" }
+      { type: "fragrance-oil", hashId: "GXX6", weightOunces: "0.53" },
     ],
     layers: [
       {
@@ -3328,7 +3328,7 @@ module.exports = [
         coolingRoomTemperatureFahrenheit: "74",
         coolingRoomHumidityPercent: "48",
         candleHashId: "3MVD",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         whenPoured: "2020-02-07T22:18:16",
@@ -3337,11 +3337,11 @@ module.exports = [
         coolingRoomTemperatureFahrenheit: "74",
         coolingRoomHumidityPercent: "48",
         candleHashId: "374X",
-        preppedContainerWeightOunces: "6.8"
-      }
+        preppedContainerWeightOunces: "6.8",
+      },
     ],
     name: "Adding 5% Coconut-1",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-02-08",
@@ -3351,7 +3351,7 @@ module.exports = [
       { type: "wax", hashId: "P4J1", weightOunces: "0.9" },
       { type: "wax", hashId: "157P", weightOunces: "0.72" },
       { type: "fragrance-oil", hashId: "41LM", weightOunces: "1.05" },
-      { type: "fragrance-oil", hashId: "4NQN", weightOunces: "1.05" }
+      { type: "fragrance-oil", hashId: "4NQN", weightOunces: "1.05" },
     ],
     layers: [
       {
@@ -3361,7 +3361,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "35ZM",
@@ -3370,7 +3370,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "WB89",
@@ -3379,7 +3379,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "36LL",
@@ -3388,11 +3388,11 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "86/5/5/4 83/464/C-1/Bees Test",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-02-08",
@@ -3402,7 +3402,7 @@ module.exports = [
       { type: "wax", hashId: "P4J1", weightOunces: "0.91" },
       { type: "wax", hashId: "157P", weightOunces: "0.72" },
       { type: "fragrance-oil", hashId: "41LM", weightOunces: "1.05" },
-      { type: "fragrance-oil", hashId: "4NQN", weightOunces: "1.05" }
+      { type: "fragrance-oil", hashId: "4NQN", weightOunces: "1.05" },
     ],
     layers: [
       {
@@ -3412,7 +3412,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "RV6V",
@@ -3421,7 +3421,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "3KXO",
@@ -3430,7 +3430,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "RE8V",
@@ -3439,11 +3439,11 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "81/10/5/4 83/464/C-1/Bees Test",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-02-08",
@@ -3453,7 +3453,7 @@ module.exports = [
       { type: "wax", hashId: "P4J1", weightOunces: "0.91" },
       { type: "wax", hashId: "157P", weightOunces: "0.72" },
       { type: "fragrance-oil", hashId: "41LM", weightOunces: "1.05" },
-      { type: "fragrance-oil", hashId: "4NQN", weightOunces: "1.05" }
+      { type: "fragrance-oil", hashId: "4NQN", weightOunces: "1.05" },
     ],
     layers: [
       {
@@ -3463,7 +3463,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "ROKY",
@@ -3472,7 +3472,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "385M",
@@ -3481,7 +3481,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "W9BK",
@@ -3490,11 +3490,11 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "71/20/5/4 83/464/C-1/Bees Test",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-02-10",
@@ -3503,7 +3503,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.27" },
       { type: "wax", hashId: "P4J1", weightOunces: "0.68" },
       { type: "fragrance-oil", hashId: "GMMX", weightOunces: "1.03" },
-      { type: "fragrance-oil", hashId: "421K", weightOunces: "0.55" }
+      { type: "fragrance-oil", hashId: "421K", weightOunces: "0.55" },
     ],
     layers: [
       {
@@ -3513,7 +3513,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "3PEL",
@@ -3522,7 +3522,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "R27M",
@@ -3531,12 +3531,12 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "5% cnut-1 2% bees 93 Coco-83",
     fragranceAddTemperatureFahrenheit: "205",
-    notes: ""
+    notes: "",
   },
   {
     whenCreated: "2020-02-10",
@@ -3545,7 +3545,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.27" },
       { type: "wax", hashId: "P4J1", weightOunces: "1.35" },
       { type: "fragrance-oil", hashId: "GMMX", weightOunces: "1.03" },
-      { type: "fragrance-oil", hashId: "421K", weightOunces: "0.55" }
+      { type: "fragrance-oil", hashId: "421K", weightOunces: "0.55" },
     ],
     layers: [
       {
@@ -3555,7 +3555,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "357M",
@@ -3564,7 +3564,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "WBN9",
@@ -3573,11 +3573,11 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "10% cnut-1 2% bees 88 Coco-83",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-02-10",
@@ -3586,7 +3586,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.54" },
       { type: "wax", hashId: "P4J1", weightOunces: "1.35" },
       { type: "fragrance-oil", hashId: "GMMX", weightOunces: "1.03" },
-      { type: "fragrance-oil", hashId: "421K", weightOunces: "0.55" }
+      { type: "fragrance-oil", hashId: "421K", weightOunces: "0.55" },
     ],
     layers: [
       {
@@ -3596,7 +3596,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "3DLL",
@@ -3605,7 +3605,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "RJDM",
@@ -3614,11 +3614,11 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "10% cnut-1 4% bees 86 Coco-83",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-02-13",
@@ -3628,7 +3628,7 @@ module.exports = [
       { type: "wax", hashId: "P4J1", weightOunces: "3.15" },
       { type: "fragrance-oil", hashId: "GVWQ", weightOunces: "1.26" },
       { type: "fragrance-oil", hashId: "ODXZ", weightOunces: "1.22" },
-      { type: "fragrance-oil", hashId: "41LM", weightOunces: "1.22" }
+      { type: "fragrance-oil", hashId: "41LM", weightOunces: "1.22" },
     ],
     layers: [
       {
@@ -3638,7 +3638,7 @@ module.exports = [
         coolingRoomHumidityPercent: "38",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "W17N",
@@ -3647,7 +3647,7 @@ module.exports = [
         coolingRoomHumidityPercent: "38",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "RV5V",
@@ -3656,7 +3656,7 @@ module.exports = [
         coolingRoomHumidityPercent: "38",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "3KJO",
@@ -3665,7 +3665,7 @@ module.exports = [
         coolingRoomHumidityPercent: "38",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "RE4V",
@@ -3674,7 +3674,7 @@ module.exports = [
         coolingRoomHumidityPercent: "38",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "WNV4",
@@ -3683,7 +3683,7 @@ module.exports = [
         coolingRoomHumidityPercent: "38",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "3ZJ7",
@@ -3692,12 +3692,12 @@ module.exports = [
         coolingRoomHumidityPercent: "38",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "Double Wick Test Batch 1/2",
     fragranceAddTemperatureFahrenheit: "205",
-    dyeAddTemperatureFahrenheit: ""
+    dyeAddTemperatureFahrenheit: "",
   },
   {
     whenCreated: "2020-02-13",
@@ -3707,7 +3707,7 @@ module.exports = [
       { type: "wax", hashId: "P4J1", weightOunces: "3.15" },
       { type: "fragrance-oil", hashId: "GVWQ", weightOunces: "1.26" },
       { type: "fragrance-oil", hashId: "ODXZ", weightOunces: "1.22" },
-      { type: "fragrance-oil", hashId: "41LM", weightOunces: "1.22" }
+      { type: "fragrance-oil", hashId: "41LM", weightOunces: "1.22" },
     ],
     layers: [
       {
@@ -3717,7 +3717,7 @@ module.exports = [
         coolingRoomHumidityPercent: "38",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "34K5",
@@ -3726,7 +3726,7 @@ module.exports = [
         coolingRoomHumidityPercent: "38",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "RODY",
@@ -3735,7 +3735,7 @@ module.exports = [
         coolingRoomHumidityPercent: "38",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "38LM",
@@ -3744,7 +3744,7 @@ module.exports = [
         coolingRoomHumidityPercent: "38",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "W94K",
@@ -3753,7 +3753,7 @@ module.exports = [
         coolingRoomHumidityPercent: "38",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "3QX4",
@@ -3762,7 +3762,7 @@ module.exports = [
         coolingRoomHumidityPercent: "38",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "3MBD",
@@ -3771,11 +3771,11 @@ module.exports = [
         coolingRoomHumidityPercent: "38",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "Double Wick test batch 2/2",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-02-17",
@@ -3784,7 +3784,7 @@ module.exports = [
       { type: "wax", hashId: "1VE3", weightOunces: "0.72" },
       { type: "wax", hashId: "PY8P", weightOunces: "3.60" },
       { type: "fragrance-oil", hashId: "GQ9K", weightOunces: "2.11" },
-      { type: "fragrance-oil", hashId: "498N", weightOunces: "2.11" }
+      { type: "fragrance-oil", hashId: "498N", weightOunces: "2.11" },
     ],
     layers: [
       {
@@ -3794,7 +3794,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "73",
         containerTemperatureFahrenheit: "73",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "3PJL",
@@ -3803,7 +3803,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "73",
         containerTemperatureFahrenheit: "73",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "R21M",
@@ -3812,7 +3812,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "73",
         containerTemperatureFahrenheit: "73",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "WY47",
@@ -3821,7 +3821,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "73",
         containerTemperatureFahrenheit: "73",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "35EM",
@@ -3830,7 +3830,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "73",
         containerTemperatureFahrenheit: "73",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "WBY9",
@@ -3839,7 +3839,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "73",
         containerTemperatureFahrenheit: "73",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "36NL",
@@ -3848,7 +3848,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "73",
         containerTemperatureFahrenheit: "73",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "3DQL",
@@ -3857,11 +3857,11 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "73",
         containerTemperatureFahrenheit: "73",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "Single Wick Big Test 1/2",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-02-17",
@@ -3870,7 +3870,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.72" },
       { type: "wax", hashId: "PY8P", weightOunces: "3.60" },
       { type: "fragrance-oil", hashId: "GQ9K", weightOunces: "2.11" },
-      { type: "fragrance-oil", hashId: "498N", weightOunces: "2.11" }
+      { type: "fragrance-oil", hashId: "498N", weightOunces: "2.11" },
     ],
     layers: [
       {
@@ -3880,7 +3880,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "73",
         containerTemperatureFahrenheit: "73",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "WBY7",
@@ -3889,7 +3889,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "73",
         containerTemperatureFahrenheit: "73",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "36N8",
@@ -3898,7 +3898,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "73",
         containerTemperatureFahrenheit: "73",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "3DQK",
@@ -3907,7 +3907,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "73",
         containerTemperatureFahrenheit: "73",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "RJM4",
@@ -3916,7 +3916,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "73",
         containerTemperatureFahrenheit: "73",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "RXLX",
@@ -3925,7 +3925,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "73",
         containerTemperatureFahrenheit: "73",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "W1XY",
@@ -3934,7 +3934,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "73",
         containerTemperatureFahrenheit: "73",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "RVNZ",
@@ -3943,12 +3943,12 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "73",
         containerTemperatureFahrenheit: "73",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "Single Wick Big Test Batch 2/2",
     fragranceAddTemperatureFahrenheit: "205",
-    notes: ""
+    notes: "",
   },
   {
     whenCreated: "2020-02-22",
@@ -3957,7 +3957,7 @@ module.exports = [
       { type: "wax", hashId: "1VE3", weightOunces: "0.70" },
       { type: "wax", hashId: "PY8P", weightOunces: "3.52" },
       { type: "fragrance-oil", hashId: "GQ9K", weightOunces: "2.39" },
-      { type: "fragrance-oil", hashId: "498N", weightOunces: "1.83" }
+      { type: "fragrance-oil", hashId: "498N", weightOunces: "1.83" },
     ],
     layers: [
       {
@@ -3967,7 +3967,7 @@ module.exports = [
         coolingRoomHumidityPercent: "40",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "352E",
@@ -3976,7 +3976,7 @@ module.exports = [
         coolingRoomHumidityPercent: "40",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "WB77",
@@ -3985,7 +3985,7 @@ module.exports = [
         coolingRoomHumidityPercent: "40",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "3628",
@@ -3994,11 +3994,11 @@ module.exports = [
         coolingRoomHumidityPercent: "40",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "Fig Bergamot Single Wick Finalists",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-02-28",
@@ -4007,7 +4007,7 @@ module.exports = [
       { type: "wax", hashId: "1VE3", weightOunces: "0.70" },
       { type: "wax", hashId: "PY8P", weightOunces: "3.52" },
       { type: "fragrance-oil", hashId: "GVLR", weightOunces: "2.12" },
-      { type: "fragrance-oil", hashId: "GBQ8", weightOunces: "2.12" }
+      { type: "fragrance-oil", hashId: "GBQ8", weightOunces: "2.12" },
     ],
     layers: [
       {
@@ -4017,7 +4017,7 @@ module.exports = [
         coolingRoomHumidityPercent: "40",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "RVEZ",
@@ -4026,7 +4026,7 @@ module.exports = [
         coolingRoomHumidityPercent: "40",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "3K5G",
@@ -4035,7 +4035,7 @@ module.exports = [
         coolingRoomHumidityPercent: "40",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "REL2",
@@ -4044,11 +4044,11 @@ module.exports = [
         coolingRoomHumidityPercent: "40",
         coolingRoomTemperatureFahrenheit: "72",
         containerTemperatureFahrenheit: "72",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "Fig Bergamot Single Wick Finalists Bigger",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-03-10",
@@ -4057,7 +4057,7 @@ module.exports = [
       { type: "wax", hashId: "1VE3", weightOunces: "0.68" },
       { type: "wax", hashId: "PY8P", weightOunces: "3.43" },
       { type: "fragrance-oil", hashId: "GVLR", weightOunces: "2.04" },
-      { type: "fragrance-oil", hashId: "GBQ8", weightOunces: "2.04" }
+      { type: "fragrance-oil", hashId: "GBQ8", weightOunces: "2.04" },
     ],
     layers: [
       {
@@ -4067,7 +4067,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "ROJX",
@@ -4076,7 +4076,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "38Q1",
@@ -4085,7 +4085,7 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "W956",
@@ -4094,11 +4094,11 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "74",
         containerTemperatureFahrenheit: "74",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "Single Wick Finalists Round 3",
-    fragranceAddTemperatureFahrenheit: "185"
+    fragranceAddTemperatureFahrenheit: "185",
   },
   {
     whenCreated: "2020-03-18",
@@ -4108,7 +4108,7 @@ module.exports = [
       { type: "wax", hashId: "PY8P", weightOunces: "2.55" },
       { type: "fragrance-oil", hashId: "GZ6B", weightOunces: "2.09" },
       { type: "fragrance-oil", hashId: "49QN", weightOunces: "1.04" },
-      { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.35" }
+      { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.35" },
     ],
     layers: [
       {
@@ -4118,7 +4118,7 @@ module.exports = [
         coolingRoomHumidityPercent: "44",
         coolingRoomTemperatureFahrenheit: "76",
         containerTemperatureFahrenheit: "76",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "R2ZY",
@@ -4127,7 +4127,7 @@ module.exports = [
         coolingRoomHumidityPercent: "44",
         coolingRoomTemperatureFahrenheit: "76",
         containerTemperatureFahrenheit: "76",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "3PXV",
@@ -4136,11 +4136,11 @@ module.exports = [
         coolingRoomHumidityPercent: "44",
         coolingRoomTemperatureFahrenheit: "76",
         containerTemperatureFahrenheit: "76",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "Root Beer Float Test",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-03-18",
@@ -4150,7 +4150,7 @@ module.exports = [
       { type: "wax", hashId: "PY8P", weightOunces: "2.55" },
       { type: "fragrance-oil", hashId: "OP1X", weightOunces: "2.09" },
       { type: "fragrance-oil", hashId: "482B", weightOunces: "0.70" },
-      { type: "fragrance-oil", hashId: "41Q2", weightOunces: "0.70" }
+      { type: "fragrance-oil", hashId: "41Q2", weightOunces: "0.70" },
     ],
     layers: [
       {
@@ -4160,7 +4160,7 @@ module.exports = [
         coolingRoomHumidityPercent: "44",
         coolingRoomTemperatureFahrenheit: "76",
         containerTemperatureFahrenheit: "76",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "35YE",
@@ -4169,7 +4169,7 @@ module.exports = [
         coolingRoomHumidityPercent: "44",
         coolingRoomTemperatureFahrenheit: "76",
         containerTemperatureFahrenheit: "76",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "WBE7",
@@ -4178,11 +4178,11 @@ module.exports = [
         coolingRoomHumidityPercent: "44",
         coolingRoomTemperatureFahrenheit: "76",
         containerTemperatureFahrenheit: "76",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "Movie Night Test",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-03-18",
@@ -4191,7 +4191,7 @@ module.exports = [
       { type: "wax", hashId: "1VE3", weightOunces: "0.34" },
       { type: "wax", hashId: "PY8P", weightOunces: "1.70" },
       { type: "fragrance-oil", hashId: "GBQ8", weightOunces: "1.16" },
-      { type: "fragrance-oil", hashId: "GVLR", weightOunces: "1.16" }
+      { type: "fragrance-oil", hashId: "GVLR", weightOunces: "1.16" },
     ],
     layers: [
       {
@@ -4201,7 +4201,7 @@ module.exports = [
         coolingRoomHumidityPercent: "44",
         coolingRoomTemperatureFahrenheit: "76",
         containerTemperatureFahrenheit: "76",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "RJQ4",
@@ -4210,11 +4210,11 @@ module.exports = [
         coolingRoomHumidityPercent: "44",
         coolingRoomTemperatureFahrenheit: "76",
         containerTemperatureFahrenheit: "76",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "Fig Bergamot Comparison",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-03-24",
@@ -4224,7 +4224,7 @@ module.exports = [
       { type: "wax", hashId: "PY8P", weightOunces: "3.32" },
       { type: "fragrance-oil", hashId: "GZ6B", weightOunces: "2.72" },
       { type: "fragrance-oil", hashId: "49QN", weightOunces: "1.36" },
-      { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.45" }
+      { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.45" },
     ],
     layers: [
       {
@@ -4234,7 +4234,7 @@ module.exports = [
         coolingRoomHumidityPercent: "48",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "RVYZ",
@@ -4243,7 +4243,7 @@ module.exports = [
         coolingRoomHumidityPercent: "48",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "3K8G",
@@ -4252,7 +4252,7 @@ module.exports = [
         coolingRoomHumidityPercent: "48",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "REE2",
@@ -4261,11 +4261,11 @@ module.exports = [
         coolingRoomHumidityPercent: "48",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "RBF round 2 part 1",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-03-24",
@@ -4275,7 +4275,7 @@ module.exports = [
       { type: "wax", hashId: "PY8P", weightOunces: "2.49" },
       { type: "fragrance-oil", hashId: "GZ6B", weightOunces: "2.04" },
       { type: "fragrance-oil", hashId: "49QN", weightOunces: "1.14" },
-      { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.34" }
+      { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.34" },
     ],
     layers: [
       {
@@ -4285,7 +4285,7 @@ module.exports = [
         coolingRoomHumidityPercent: "48",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "3ZZY",
@@ -4294,7 +4294,7 @@ module.exports = [
         coolingRoomHumidityPercent: "48",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "WL9M",
@@ -4303,11 +4303,11 @@ module.exports = [
         coolingRoomHumidityPercent: "48",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "RBF round 2 part 2",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-03-27",
@@ -4317,7 +4317,7 @@ module.exports = [
       { type: "wax", hashId: "3RO3", weightOunces: "1.71" },
       { type: "fragrance-oil", hashId: "GZ6B", weightOunces: "1.03" },
       { type: "fragrance-oil", hashId: "49QN", weightOunces: "0.51" },
-      { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.17" }
+      { type: "fragrance-oil", hashId: "OKKE", weightOunces: "0.17" },
     ],
     layers: [
       {
@@ -4327,7 +4327,7 @@ module.exports = [
         coolingRoomHumidityPercent: "64",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "RO5X",
@@ -4336,11 +4336,11 @@ module.exports = [
         coolingRoomHumidityPercent: "64",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "RBF 10% Fragrance Test",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-03-30",
@@ -4348,7 +4348,7 @@ module.exports = [
       { type: "wax", hashId: "PQ41", weightOunces: "6.73" },
       { type: "wax", hashId: "1VE3", weightOunces: "0.15" },
       { type: "wax", hashId: "3RO3", weightOunces: "0.77" },
-      { type: "fragrance-oil", hashId: "GZ6B", weightOunces: "0.92" }
+      { type: "fragrance-oil", hashId: "GZ6B", weightOunces: "0.92" },
     ],
     layers: [
       {
@@ -4358,11 +4358,11 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "Root Beer only test",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-03-30",
@@ -4370,7 +4370,7 @@ module.exports = [
       { type: "wax", hashId: "PQ41", weightOunces: "6.73" },
       { type: "wax", hashId: "1VE3", weightOunces: "0.15" },
       { type: "wax", hashId: "3RO3", weightOunces: "0.77" },
-      { type: "fragrance-oil", hashId: "49QN", weightOunces: "0.92" }
+      { type: "fragrance-oil", hashId: "49QN", weightOunces: "0.92" },
     ],
     layers: [
       {
@@ -4380,11 +4380,11 @@ module.exports = [
         coolingRoomHumidityPercent: "50",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "Very Vanilla only test",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-04-03",
@@ -4396,20 +4396,20 @@ module.exports = [
         type: "fragrance-oil",
         hashId: "GZ6B",
         weightOunces: "1.74",
-        combineId: 4
+        combineId: 4,
       },
       {
         type: "fragrance-oil",
         hashId: "49QN",
         weightOunces: "0.87",
-        combineId: 5
+        combineId: 5,
       },
       {
         type: "fragrance-oil",
         hashId: "OKKE",
         weightOunces: "0.29",
-        combineId: 6
-      }
+        combineId: 6,
+      },
     ],
     layers: [
       {
@@ -4419,7 +4419,7 @@ module.exports = [
         coolingRoomHumidityPercent: "62",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "WGZX",
@@ -4428,7 +4428,7 @@ module.exports = [
         coolingRoomHumidityPercent: "62",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "3PBV",
@@ -4437,7 +4437,7 @@ module.exports = [
         coolingRoomHumidityPercent: "62",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "R2GY",
@@ -4446,7 +4446,7 @@ module.exports = [
         coolingRoomHumidityPercent: "62",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "WYND",
@@ -4455,11 +4455,11 @@ module.exports = [
         coolingRoomHumidityPercent: "62",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "RBF 12% Alt Wick Half Jars",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-04-03",
@@ -4471,8 +4471,8 @@ module.exports = [
         type: "fragrance-oil",
         hashId: "4LK8",
         weightOunces: "0.74",
-        combineId: 4
-      }
+        combineId: 4,
+      },
     ],
     layers: [
       {
@@ -4482,11 +4482,11 @@ module.exports = [
         coolingRoomHumidityPercent: "62",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "Wild Mountain Honey 770 Test",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-04-03",
@@ -4498,8 +4498,8 @@ module.exports = [
         type: "fragrance-oil",
         hashId: "OK9D",
         weightOunces: "0.74",
-        combineId: 4
-      }
+        combineId: 4,
+      },
     ],
     layers: [
       {
@@ -4509,11 +4509,11 @@ module.exports = [
         coolingRoomHumidityPercent: "62",
         coolingRoomTemperatureFahrenheit: "75",
         containerTemperatureFahrenheit: "75",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "Sandalwood Fillmore 770 Test",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-04-06",
@@ -4525,14 +4525,14 @@ module.exports = [
         type: "fragrance-oil",
         hashId: "GVLR",
         weightOunces: "0.95",
-        combineId: 4
+        combineId: 4,
       },
       {
         type: "fragrance-oil",
         hashId: "GBQ8",
         weightOunces: "0.95",
-        combineId: 5
-      }
+        combineId: 5,
+      },
     ],
     layers: [
       {
@@ -4542,7 +4542,7 @@ module.exports = [
         coolingRoomHumidityPercent: "61",
         coolingRoomTemperatureFahrenheit: "76",
         containerTemperatureFahrenheit: "76",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "3DKK",
@@ -4551,11 +4551,11 @@ module.exports = [
         coolingRoomHumidityPercent: "61",
         coolingRoomTemperatureFahrenheit: "76",
         containerTemperatureFahrenheit: "76",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "Mediterranean-Fig Bergamot",
-    fragranceAddTemperatureFahrenheit: "205"
+    fragranceAddTemperatureFahrenheit: "205",
   },
   {
     whenCreated: "2020-04-06",
@@ -4567,14 +4567,14 @@ module.exports = [
         type: "fragrance-oil",
         hashId: "4NNN",
         weightOunces: "0.95",
-        combineId: 4
+        combineId: 4,
       },
       {
         type: "fragrance-oil",
         hashId: "GBQ8",
         weightOunces: "0.95",
-        combineId: 5
-      }
+        combineId: 5,
+      },
     ],
     layers: [
       {
@@ -4584,7 +4584,7 @@ module.exports = [
         coolingRoomHumidityPercent: "61",
         coolingRoomTemperatureFahrenheit: "76",
         containerTemperatureFahrenheit: "76",
-        preppedContainerWeightOunces: "6.2"
+        preppedContainerWeightOunces: "6.2",
       },
       {
         candleHashId: "RXEX",
@@ -4593,10 +4593,347 @@ module.exports = [
         coolingRoomHumidityPercent: "61",
         coolingRoomTemperatureFahrenheit: "76",
         containerTemperatureFahrenheit: "76",
-        preppedContainerWeightOunces: "6.2"
-      }
+        preppedContainerWeightOunces: "6.2",
+      },
     ],
     name: "Fig-Tree Bergamot",
-    fragranceAddTemperatureFahrenheit: "205"
-  }
+    fragranceAddTemperatureFahrenheit: "205",
+  },
+  {
+    whenCreated: "2020-04-14",
+    batchItems: [
+      {
+        type: "wax",
+        hashId: "3GEP",
+        weightOunces: "6.70",
+        finished: true,
+        combineId: 1,
+      },
+      { type: "wax", hashId: "PQ41", combineId: 1, weightOunces: "21.18" },
+      {
+        type: "wax",
+        hashId: "PY8P",
+        weightOunces: "1.45",
+        finished: true,
+        combineId: 2,
+      },
+      { type: "wax", hashId: "3RO3", combineId: 2, weightOunces: "1.73" },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.63", combineId: 3 },
+      {
+        type: "fragrance-oil",
+        hashId: "GZ6B",
+        weightOunces: "2.28",
+        combineId: 4,
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "49QN",
+        weightOunces: "1.18",
+        combineId: 5,
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "OKKE",
+        weightOunces: "0.41",
+        combineId: 6,
+      },
+    ],
+    layers: [
+      {
+        candleHashId: "REK2",
+        whenPoured: "2020-04-14T17:42:24",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "36",
+        coolingRoomTemperatureFahrenheit: "72",
+        containerTemperatureFahrenheit: "72",
+        preppedContainerWeightOunces: "6.2",
+      },
+      {
+        candleHashId: "WNQG",
+        whenPoured: "2020-04-14T17:42:24",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "36",
+        coolingRoomTemperatureFahrenheit: "72",
+        containerTemperatureFahrenheit: "72",
+        preppedContainerWeightOunces: "6.2",
+      },
+      {
+        candleHashId: "3ZEY",
+        whenPoured: "2020-04-14T17:42:24",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "36",
+        coolingRoomTemperatureFahrenheit: "72",
+        containerTemperatureFahrenheit: "72",
+        preppedContainerWeightOunces: "6.2",
+      },
+      {
+        candleHashId: "WL8M",
+        whenPoured: "2020-04-14T17:42:24",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "36",
+        coolingRoomTemperatureFahrenheit: "72",
+        containerTemperatureFahrenheit: "72",
+        preppedContainerWeightOunces: "6.2",
+      },
+    ],
+    name: "RBF Finalists 4/14",
+    fragranceAddTemperatureFahrenheit: "205",
+  },
+  {
+    whenCreated: "2020-04-14",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "18.59", combineId: 1 },
+      { type: "wax", hashId: "3RO3", weightOunces: "2.11", combineId: 2 },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.42", combineId: 3 },
+      {
+        type: "fragrance-oil",
+        hashId: "GM5X",
+        weightOunces: "0.76",
+        combineId: 4,
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "OK9D",
+        weightOunces: "0.89",
+        combineId: 5,
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "4LK8",
+        weightOunces: "0.89",
+        combineId: 6,
+      },
+    ],
+    layers: [
+      {
+        candleHashId: "34PD",
+        whenPoured: "2020-04-14T17:39:30",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "36",
+        coolingRoomTemperatureFahrenheit: "72",
+        containerTemperatureFahrenheit: "72",
+        preppedContainerWeightOunces: "6.2",
+      },
+      {
+        candleHashId: "ROMX",
+        whenPoured: "2020-04-14T17:39:30",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "36",
+        coolingRoomTemperatureFahrenheit: "72",
+        containerTemperatureFahrenheit: "72",
+        preppedContainerWeightOunces: "6.2",
+      },
+      {
+        candleHashId: "38P1",
+        whenPoured: "2020-04-14T17:39:30",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "36",
+        coolingRoomTemperatureFahrenheit: "72",
+        containerTemperatureFahrenheit: "72",
+        preppedContainerWeightOunces: "6.2",
+      },
+      {
+        candleHashId: "W9P6",
+        whenPoured: "2020-04-14T17:39:30",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "36",
+        coolingRoomTemperatureFahrenheit: "72",
+        containerTemperatureFahrenheit: "72",
+        preppedContainerWeightOunces: "6.2",
+      },
+    ],
+    name: "Golden Garden First Tests",
+    fragranceAddTemperatureFahrenheit: "205",
+  },
+  {
+    whenCreated: "2020-04-25",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "6.97", combineId: 1 },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.16", combineId: 2 },
+      { type: "wax", hashId: "3RO3", weightOunces: "0.79", combineId: 3 },
+      {
+        type: "fragrance-oil",
+        hashId: "GVLR",
+        weightOunces: "0.47",
+        combineId: 4,
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "GBQ8",
+        weightOunces: "0.47",
+        combineId: 5,
+      },
+    ],
+    layers: [
+      {
+        whenPoured: "2020-04-25T16:56:20",
+        containerTemperatureFahrenheit: "75",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomTemperatureFahrenheit: "75",
+        coolingRoomHumidityPercent: "40",
+        candleHashId: "35PE",
+        preppedContainerWeightOunces: "7.06",
+      },
+    ],
+    name: "MF + Berg 777",
+    fragranceAddTemperatureFahrenheit: "205",
+  },
+  {
+    whenCreated: "2020-04-25",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "13.94", combineId: 1 },
+      { type: "wax", hashId: "3RO3", weightOunces: "1.58", combineId: 2 },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.32", combineId: 3 },
+      {
+        type: "fragrance-oil",
+        hashId: "GBQ8",
+        weightOunces: "0.95",
+        combineId: 4,
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "4NNN",
+        weightOunces: "0.95",
+        combineId: 5,
+      },
+    ],
+    layers: [
+      {
+        candleHashId: "WBX7",
+        whenPoured: "2020-04-25T16:59:06",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "40",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "7.06",
+      },
+      {
+        candleHashId: "36P8",
+        whenPoured: "2020-04-25T16:59:06",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "40",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "7.06",
+      },
+    ],
+    name: "Fig Tree + Berg batch of 2",
+    dyeAddTemperatureFahrenheit: "",
+    fragranceAddTemperatureFahrenheit: "205",
+  },
+  {
+    whenCreated: "2020-04-25",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "20.91", combineId: 1 },
+      { type: "wax", hashId: "3RO3", weightOunces: "2.38", combineId: 2 },
+      {
+        type: "wax",
+        hashId: "157P",
+        weightOunces: "0.32",
+        combineId: 3,
+        finished: true,
+      },
+      { type: "wax", hashId: "1VE3", combineId: 3, weightOunces: "0.16" },
+      {
+        type: "fragrance-oil",
+        hashId: "GM5X",
+        weightOunces: "0.85",
+        combineId: 4,
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "4LK8",
+        weightOunces: "1.00",
+        combineId: 5,
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "OK9D",
+        weightOunces: "1.00",
+        combineId: 6,
+      },
+    ],
+    layers: [
+      {
+        candleHashId: "3DVK",
+        whenPoured: "2020-04-25T17:01:17",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "40",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "7.06",
+      },
+      {
+        candleHashId: "35PP",
+        whenPoured: "2020-04-25T17:01:17",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "40",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "7.06",
+      },
+      {
+        candleHashId: "WBXJ",
+        whenPoured: "2020-04-25T17:01:17",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "40",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "7.06",
+      },
+    ],
+    name: "Golden Garden 3 wick tests",
+    fragranceAddTemperatureFahrenheit: "205",
+  },
+  {
+    whenCreated: "2020-04-25",
+    batchItems: [
+      { type: "wax", hashId: "PQ41", weightOunces: "5.81", combineId: 1 },
+      { type: "wax", hashId: "3RO3", weightOunces: "0.66", combineId: 2 },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.13", combineId: 3 },
+      {
+        type: "fragrance-oil",
+        hashId: "41Q2",
+        weightOunces: "0.32",
+        combineId: 4,
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "GZXE",
+        weightOunces: "0.16",
+        combineId: 5,
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "GZBB",
+        weightOunces: "0.16",
+        combineId: 6,
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "GW6X",
+        weightOunces: "0.08",
+        combineId: 7,
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "GZ1M",
+        weightOunces: "0.08",
+        combineId: 8,
+      },
+    ],
+    layers: [
+      {
+        candleHashId: "3DVP",
+        whenPoured: "2020-04-25T18:28:12",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "40",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "7.06",
+      },
+    ],
+    name: "Complex Cigar half tester",
+    fragranceAddTemperatureFahrenheit: "205",
+  },
 ];
