@@ -2,7 +2,6 @@ const slug = require("slug");
 const calculateCosts = require("../util/calculate-costs");
 
 module.exports = function getCandle(db, { batchId, hashId }, cb) {
-  console.log("TOP OF GET CANDLE");
   let sql = `
     SELECT
       c.id, c.hash_id AS "hashId", c.name, c.slug,
@@ -78,7 +77,7 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
       o.notes AS "ownerNotes",
 
       FORMAT(
-        SUM(TIME_TO_SEC(cbs.when_stopped) - TIME_TO_SEC(cbs.when_started)) / (60*60)
+        SUM(UNIX_TIMESTAMP(cbs.when_stopped) - UNIX_TIMESTAMP(cbs.when_started)) / (60*60)
       , 2) AS "burnTimeToDateHours"
 
     FROM candles c

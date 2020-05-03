@@ -90,6 +90,8 @@ function CandlePage({ match, enqueueSnackbar, history, classes }) {
       {
         whenStarted: data.whenStarted.format("YYYY-MM-DD HH:mm:ss"),
         whenStopped: data.whenStopped.format("YYYY-MM-DD HH:mm:ss"),
+        stoppedWeightOunces: data.stoppedWeightOunces,
+        finished: data.finished,
         notes: data.notes
       }
     ]);

@@ -113,7 +113,7 @@ update-candle response should maybe return a get-candle request and show a snack
 recent batches route to display on the main screen or something.
    so subsequent layers can be easily added and current layers can be weighed from the future
 
-server creates candle name based on fragrance oils used
+server creates default candle name based on fragrance oils used
 
 the tables are kind of gross and don't use space very well.
 maybe a custom div list rendered through https://virtuoso.dev/?path=/story/features-overview--auto-resizing would be nice
@@ -185,18 +185,23 @@ autocomplete have a filter for not finished
 
 Current Todo List:
 
-add weight to burns
-display client side burns
-add more info to burns
+candle page percentages in layer make no sense http://localhost:3002/36P8 and prices reflect 
+ batch instead of candle
+move burn-table into a dialog, display burns in some shorter form and  display pending burns in highlight color as well.
+add finished checkbox for update candle components lid/box/warning-labels
+
 client-api ping route or something to make sure its all connected--looks like this route already exists
 convert all dye-block amounts to weights if the small amounts are measureable with my scale
 add liquid dye as a resource
 confirmation links, msds sheets, ifra certificates, vanillin content/ ethyl vanillin, flashpoint, pthalate free
-add vanillin content to candle page
 autocomplete routes from hash_id
 recent batches route
 inventory routes
 search candle route and search form by fragrance/wax/dye name etc
+
+ options for a more complex burn log:
+    full melt pool, mp depth, mushrooming amount, jar temp at hottest, flame size, smoke on blowout, soot
+
 
 root beer float options:
 htp 104 (good option but bit of soot on a mid jar burn. all the way throuh this might have been the best actually. maybe enforce a trimmed wick?)
@@ -235,3 +240,10 @@ nag champa + orange spice AAA + tuscan tobacco/ fir tree etc
 
 pancakes + birch or pancakes + fir for a seasonal breakfast
 
+
+FT + Berg:
+try 770 + 775 since 777 is a bit too hot in 2 runs
+And Eco-8?
+
+CC
+Try 780/Eco-8

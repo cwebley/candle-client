@@ -17,73 +17,74 @@ import DialogContent from "@material-ui/core/DialogContent";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import Select from "@material-ui/core/Select";
 import BurnTimeDialog from "./BurnTimeDialog";
+import BurnTable from "./BurnTable";
 
 import { withStyles } from "@material-ui/core/styles";
 
 import DataLabel from "./DataLabel";
 import TempCandleComponent from "./TempCandleComponent";
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {
     display: "flex",
-    flexFlow: "column nowrap"
+    flexFlow: "column nowrap",
   },
   textField: {
-    marginTop: "1em"
+    marginTop: "1em",
   },
   headingHash: {
-    flexBasis: "7%"
+    flexBasis: "7%",
   },
   headingName: {
     fontSize: theme.typography.pxToRem(15),
     fontWeight: theme.typography.fontWeightRegular,
-    flexBasis: "33%"
+    flexBasis: "33%",
   },
   subHeading: {
-    flexGrow: 1
+    flexGrow: 1,
   },
   paper: {
     padding: theme.spacing(2),
     paddingBottom: theme.spacing(4),
-    position: "relative"
+    position: "relative",
   },
   candleDetails: {
-    paddingBottom: theme.spacing(2)
+    paddingBottom: theme.spacing(2),
   },
   itemDetails: {
     display: "flex",
-    flexFlow: "column nowrap"
+    flexFlow: "column nowrap",
   },
   itemType: {
-    fontSize: 12
+    fontSize: 12,
   },
   secondaryInfo: {
-    fontSize: 12
+    fontSize: 12,
   },
   itemPrice: {
     position: "absolute",
     bottom: 0,
     right: 0,
-    paddingRight: theme.spacing(2)
+    paddingRight: theme.spacing(2),
   },
   expansionPanelDetails: {
-    flexFlow: "column nowrap"
+    flexFlow: "column nowrap",
   },
   actions: {
     display: "flex",
     justifyContent: "flex-end",
-    padding: theme.spacing(2)
+    padding: theme.spacing(2),
   },
   dialogContent: {
-    display: "flex"
+    display: "flex",
   },
   formControl: {
-    paddingRight: theme.spacing(2)
-  }
+    paddingRight: theme.spacing(2),
+  },
 });
 
 const defaultComponentDailogValues = {
-  type: "lidHashId"
+  type: "lidHashId",
 };
 
 function Candle({
@@ -95,7 +96,7 @@ function Candle({
   onAddBurn,
   updateDisabled,
   clientSideData,
-  classes
+  classes,
 }) {
   console.log("CANDLE DATA: ", data);
   const [componentDialogOpen, setComponentDialogOpen] = useState(false);
@@ -104,30 +105,38 @@ function Candle({
   );
   const [burnDialogOpen, setBurnDialogOpen] = useState(false);
 
-  const handleDialogValueChange = e => {
+  const handleDialogValueChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
 
-    setComponentDialogValues(prevValues => ({
+    setComponentDialogValues((prevValues) => ({
       ...prevValues,
-      [name]: value
+      [name]: value,
     }));
   };
 
-  const handleAddComponent = e => {
+  const handleAddComponent = (e) => {
     e.preventDefault();
     onAddComponent({
-      [componentDialogValues.type]: componentDialogValues.hashId
+      [componentDialogValues.type]: componentDialogValues.hashId,
     });
     setComponentDialogOpen(false);
     setComponentDialogValues(defaultComponentDailogValues);
   };
 
-  const handleAddBurn = (whenStarted, whenStopped, notes) => {
+  const handleAddBurn = ({
+    whenStarted,
+    whenStopped,
+    stoppedWeightOunces,
+    finished,
+    notes,
+  }) => {
     onAddBurn({
       whenStarted,
       whenStopped,
-      notes
+      stoppedWeightOunces,
+      finished,
+      notes,
     });
     setBurnDialogOpen(false);
   };
@@ -296,7 +305,7 @@ function Candle({
                 autoFocus
                 inputProps={{
                   name: "type",
-                  id: "item-type-selector"
+                  id: "item-type-selector",
                 }}
               >
                 <MenuItem value="lidHashId">Lid Hash Id</MenuItem>
@@ -445,9 +454,11 @@ function Candle({
                     </Button>
                   </div>
                 )}
+                <BurnTable burns={data.burnHistory}/>
               </Grid>
             </Grid>
           </form>
+
           <Grid container justify="center" spacing={8}>
             <Grid item xs={4} lg={3}>
               <Paper className={classes.paper}>

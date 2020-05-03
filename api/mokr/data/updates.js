@@ -4664,7 +4664,7 @@ module.exports = [
         whenStopped: "2020-04-24 17:10:00",
         stoppedWeightOunces: 9.11,
         notes:
-          "1/4 inch mp. flame getting a little large, but its been a long burn and it still looks fine.ƒ",
+          "1/4 inch mp. flame getting a little large, but its been a long burn and it still looks fine.",
       },
       {
         whenStarted: "2020-04-24 22:15:00",
@@ -4695,6 +4695,67 @@ module.exports = [
         notes:
           "full 1/4 inch mp, flame started out very high but fixed itself after a few minutes. looks great after burning for a while. this is about perfect.",
       },
+      {
+        whenStarted: "2020-04-27 18:45:00",
+        whenStopped: "2020-04-27 23:00:00",
+        stoppedWeightOunces: 14.03,
+        notes:
+          "not quite a full mp but it'd get there. flame looks perfect. hint of mushrooming.",
+      },
+      {
+        whenStarted: "2020-04-28 09:30:00",
+        whenStopped: "2020-04-28 13:42:00",
+        stoppedWeightOunces: 13.37,
+        notes:
+          "1/8 to 1/4 inch mp. but it is mushrooming a fair amount which makes the flame ugly. maybe needs a closer wick trim?",
+      },
+      {
+        whenStarted: "2020-04-28 17:30:00",
+        whenStopped: "2020-04-28 22:00:00",
+        stoppedWeightOunces: 12.57,
+        notes: "1/4 inch mp, some mushrooming, but looks good otherwise",
+      },
+      {
+        whenStarted: "2020-04-29 10:45:00",
+        whenStopped: "2020-04-29 16:20:00",
+        stoppedWeightOunces: 11.65,
+        notes:
+          "1/4 inch mp jar not too hot. this is looking perfect still even half way down and with a longish burn. little bit of mushrooming.",
+      },
+      {
+        whenStarted: "2020-04-29 21:45:00",
+        whenStopped: "2020-04-30 01:25:00",
+        stoppedWeightOunces: 11.09,
+        notes:
+          "1/4 inch mp, little bit of mushrooming, flame a bit large but mostly fine.",
+      },
+      {
+        whenStarted: "2020-04-30 11:15:00",
+        whenStopped: "2020-04-30 15:25:00",
+        stoppedWeightOunces: 10.44,
+        notes:
+          "1/3 inch mp. flame looks good. jar not too hot. not really any notable soot. fair amount of mushrooming but its prob fine.",
+      },
+      {
+        whenStarted: "2020-04-30 20:00:00",
+        whenStopped: "2020-05-01 2:30:00",
+        stoppedWeightOunces: 9.68,
+        notes:
+          "1/4 inch mp, some mushrooming, but flame looks fine. jar prob a bit too hot. still looks okay.",
+      },
+      {
+        whenStarted: "2020-05-01 22:30:00",
+        whenStopped: "2020-05-02 4:30:00",
+        stoppedWeightOunces: 8.49,
+        notes: "1/2 inch mp, flame a bit large, not much soot",
+      },
+      {
+        whenStarted: "2020-05-01 22:15:00",
+        whenStopped: "2020-05-02 01:45:00",
+        stoppedWeightOunces: 8.03,
+        notes:
+          "put itself out during the burn so end time is estimated. about 1/4 inch remain. no soot, jar has some residual wax. but all-in-all a solid candle. i do prefer the fig-tree to the fig though.",
+      },
     ],
     notes: "",
   },
@@ -4718,6 +4779,61 @@ module.exports = [
         notes:
           "1/2 inch mp, flame started out very high but cleaned up after about 30 minutes. jar on the brink of too hot. this is too big.",
       },
+      {
+        whenStarted: "2020-04-27 18:45:00",
+        whenStopped: "2020-04-27 23:00:00",
+        stoppedWeightOunces: 13.6,
+        notes:
+          "1/4 inch mp, little bit of mushrooming and flame a tinnny bit bigger than i'd like. maybe 775?",
+      },
+      {
+        whenStarted: "2020-04-28 09:30:00",
+        whenStopped: "2020-04-28 13:42:00",
+        stoppedWeightOunces: 12.92,
+        notes:
+          "1/3 inch mp. bit of mushrooming causing a wide flame. jar not too hot, but 775 still may be better.",
+      },
+      {
+        whenStarted: "2020-04-28 17:30:00",
+        whenStopped: "2020-04-28 22:15:00",
+        stoppedWeightOunces: 12.08,
+        notes: "1/4 inch mp jar sort of hot but not overly.",
+      },
+      {
+        whenStarted: "2020-04-29 10:45:00",
+        whenStopped: "2020-04-29 16:20:00",
+        stoppedWeightOunces: 11.06,
+        notes:
+          "1/3 inch mp, jar not too hot, looks about perfect even after long burn half way down the jar here.",
+      },
+      {
+        whenStarted: "2020-04-29 21:45:00",
+        whenStopped: "2020-04-30 01:25:00",
+        stoppedWeightOunces: 10.57,
+        notes:
+          "1/8 to 1/4 inch mp, flame looks a little big but probably fine since its drafty right now. tiny bit of mushrooming.",
+      },
+      {
+        whenStarted: "2020-04-30 11:15:00",
+        whenStopped: "2020-04-30 15:25:00",
+        stoppedWeightOunces: 9.83,
+        notes:
+          "1/3 to 1/2 inch mp, flame a little too large, jar a little too hot, some soot up top.",
+      },
+      {
+        whenStarted: "2020-04-30 20:00:00",
+        whenStopped: "2020-05-01 2:30:00",
+        stoppedWeightOunces: 8.85,
+        notes:
+          "1/4 inch mp, still a bit of unlmelted wax at the bottom for one last burn prob. flame looks good, no mushrooming. jar hot but not too hot.",
+      },
+      {
+        whenStarted: "2020-05-01 22:30:00",
+        whenStopped: "2020-05-02 4:30:00",
+        stoppedWeightOunces: 7.98,
+        notes:
+          "put itself out with about 1/4 inch remaining. hard to say about jar temp, flame size etc.",
+      },
     ],
     notes: "",
   },
@@ -4739,6 +4855,20 @@ module.exports = [
         stoppedWeightOunces: 15.06,
         notes:
           "not close to full melt pool. but flame looks great. could try an eco-8?",
+      },
+      {
+        whenStarted: "2020-04-27 18:45:00",
+        whenStopped: "2020-04-27 23:00:00",
+        stoppedWeightOunces: 14.57,
+        notes:
+          "really not even close to a full mp. should try an eco-8 in the next set in addition to the 775",
+      },
+      {
+        whenStarted: "2020-04-28 09:30:00",
+        whenStopped: "2020-04-28 13:42:00",
+        stoppedWeightOunces: 14.03,
+        notes:
+          "not full melt pool. still tunneling. i have a feeling it'll eventually clear up but its not big enough as is. flame looks great though and no mushrooming. ",
       },
     ],
     notes: "",
@@ -4763,6 +4893,68 @@ module.exports = [
         notes:
           "not a full mp, and flame is small. some mushrooming also. not good so far.",
       },
+      {
+        whenStarted: "2020-04-27 21:00:00",
+        whenStopped: "2020-04-28 01:20:00",
+        stoppedWeightOunces: 14.71,
+        notes:
+          "full very shallow mp. starting to look much better. flame a little bit small still though.",
+      },
+      {
+        whenStarted: "2020-04-27 21:00:00",
+        whenStopped: "2020-04-28 01:20:00",
+        stoppedWeightOunces: 14.17,
+        notes:
+          "1/4 inch mp, flame a little bit small again and tiny bit of mushrooming but i think its okay again. this actually might be the best of the bunch if it handles later well",
+      },
+      {
+        whenStarted: "2020-04-28 21:00:00",
+        whenStopped: "2020-04-29 00:53:00",
+        stoppedWeightOunces: 13.26,
+        notes:
+          "full shallow mp, <1/8 inch, little bit of mushrooming, but looks good",
+      },
+      {
+        whenStarted: "2020-04-29 10:45:00",
+        whenStopped: "2020-04-29 16:20:00",
+        stoppedWeightOunces: 12.87,
+        notes:
+          "full 1/8 inch mp, some mushrooming but flame looks fine. jar not too hot.",
+      },
+      {
+        whenStarted: "2020-04-29 21:45:00",
+        whenStopped: "2020-04-30 01:25:00",
+        stoppedWeightOunces: 12.4,
+        notes:
+          "full shallow mp, flame looks good, little mushrooming but not bad.",
+      },
+      {
+        whenStarted: "2020-04-30 11:15:00",
+        whenStopped: "2020-04-30 15:25:00",
+        stoppedWeightOunces: 11.81,
+        notes:
+          "basically full shallow pool. little mushrooming but not bad. flame looks great.",
+      },
+      {
+        whenStarted: "2020-04-30 20:00:00",
+        whenStopped: "2020-05-01 2:40:00",
+        stoppedWeightOunces: 8.86,
+        notes:
+          "1/8 inch mp, fair amount of mushrooming. jar prob a bit too hot bc of the fat flame.",
+      },
+      {
+        whenStarted: "2020-05-01 22:30:00",
+        whenStopped: "2020-05-02 4:30:00",
+        stoppedWeightOunces: 9.83,
+        notes:
+          "1/4 inch mp glass not too hot, flame looks a bit large but good.",
+      },
+      {
+        whenStarted: "2020-05-01 22:15:00",
+        whenStopped: "2020-05-02 04:45:00",
+        stoppedWeightOunces: 8.62,
+        notes: "flame looks good, jar not too hot, probably another burn left.",
+      },
     ],
     notes: "",
   },
@@ -4785,6 +4977,68 @@ module.exports = [
         stoppedWeightOunces: 14.8,
         notes:
           "1/8 to 1/4 inch mp. little bit of mushrooming, but looks good. flame is fine, jar not too hot.",
+      },
+      {
+        whenStarted: "2020-04-27 21:00:00",
+        whenStopped: "2020-04-28 01:20:00",
+        stoppedWeightOunces: 14.16,
+        notes:
+          "approaching 1/2 inch mp. jar a bit hot but okay for now. tiny bit of mushrooming, flame looks great.",
+      },
+      {
+        whenStarted: "2020-04-27 21:00:00",
+        whenStopped: "2020-04-28 01:20:00",
+        stoppedWeightOunces: 13.44,
+        notes:
+          "1/3 to 1/2 inch mp. some mushrooming, but probably okay. jar temp also fine.",
+      },
+      {
+        whenStarted: "2020-04-28 21:00:00",
+        whenStopped: "2020-04-29 00:52:00",
+        stoppedWeightOunces: 12.84,
+        notes: "1/4 inch mp, some mushrooming but looks good.",
+      },
+      {
+        whenStarted: "2020-04-29 10:45:00",
+        whenStopped: "2020-04-29 16:20:00",
+        stoppedWeightOunces: 11.94,
+        notes:
+          "1/8 to 1/4 inch mp, flame looks great, little bit of mushrooming.",
+      },
+      {
+        whenStarted: "2020-04-29 21:45:00",
+        whenStopped: "2020-04-30 01:25:00",
+        stoppedWeightOunces: 11.42,
+        notes:
+          "1/4 inch mp, flame a little large maybe, but jar not too hot. little mushrooming, but not terrible.",
+      },
+      {
+        whenStarted: "2020-04-30 11:15:00",
+        whenStopped: "2020-04-30 15:25:00",
+        stoppedWeightOunces: 10.76,
+        notes:
+          "almost 1/4 inch mp. wick a bit off center. flame looks good, only a little bit of mushrooming. jar not too hot.",
+      },
+      {
+        whenStarted: "2020-04-30 20:00:00",
+        whenStopped: "2020-05-01 2:40:00",
+        stoppedWeightOunces: 9.68,
+        notes:
+          "1/4 inch mp, flame large at this point but expected for a long burn. not much mushrooming, jar not too hot. this looks pretty good.",
+      },
+      {
+        whenStarted: "2020-05-01 22:30:00",
+        whenStopped: "2020-05-02 4:30:00",
+        stoppedWeightOunces: 8.51,
+        notes:
+          "1/2 inch mp glass not too hot, flame looks a little big and a little soot.",
+      },
+      {
+        whenStarted: "2020-05-01 22:15:00",
+        whenStopped: "2020-05-02 04:45:00",
+        stoppedWeightOunces: 7.46,
+        notes:
+          "put itself out during this burn. wasnt too hot midway through so hopefully was fine. only 1/8 inch remain of wax. no soot but i trimmed the wick well after last burn and wiped glass which did have soot previously.",
       },
     ],
     notes: "",
@@ -4809,6 +5063,65 @@ module.exports = [
         notes:
           "not quite full mp again, but flame looks great. theres a chance this clears up later down the jar or with a ~6hr burn",
       },
+      {
+        whenStarted: "2020-04-27 21:00:00",
+        whenStopped: "2020-04-28 01:20:00",
+        stoppedWeightOunces: 13.9,
+        notes:
+          "not quite full melt pool but flame still looks good and it looks like the hangup will melt a bit down the road",
+      },
+      {
+        whenStarted: "2020-04-28 13:00:00",
+        whenStopped: "2020-04-28 17:25:00",
+        stoppedWeightOunces: 13.26,
+        notes:
+          "not quite full melt pool still but flame still looks great and the hangup is definitely going down. i think a 6hr burn would fix this.",
+      },
+      {
+        whenStarted: "2020-04-28 21:00:00",
+        whenStopped: "2020-04-29 00:51:00",
+        stoppedWeightOunces: 12.72,
+        notes: "not quite full mp. flame looks good. tiny bit of mushrooming.",
+      },
+      {
+        whenStarted: "2020-04-29 10:45:00",
+        whenStopped: "2020-04-29 16:20:00",
+        stoppedWeightOunces: 11.84,
+        notes:
+          "not quite full pool but not tunneling. definitely not big enough for 4 hour burns in the first half of the candle. tiny bit of mushrooming and flame looks good.",
+      },
+      {
+        whenStarted: "2020-04-29 21:45:00",
+        whenStopped: "2020-04-30 01:25:00",
+        stoppedWeightOunces: 11.36,
+        notes: "not quite full mp",
+      },
+      {
+        whenStarted: "2020-04-30 11:15:00",
+        whenStopped: "2020-04-30 15:25:00",
+        stoppedWeightOunces: 9.7,
+        notes:
+          "1/8 inch mp to some hangup on one side. the hangup is definitely melting as the flame burns. flame looks great.",
+      },
+      {
+        whenStarted: "2020-04-30 20:00:00",
+        whenStopped: "2020-05-01 2:40:00",
+        stoppedWeightOunces: 9.7,
+        notes: "1/8 inch mp, flame and wick look beautiful, jar not too hot.",
+      },
+      {
+        whenStarted: "2020-05-01 22:30:00",
+        whenStopped: "2020-05-02 4:30:00",
+        stoppedWeightOunces: 8.79,
+        notes: "1/8 inch mp glass not too hot, flame looks good.",
+      },
+      {
+        whenStarted: "2020-05-01 22:15:00",
+        whenStopped: "2020-05-02 04:45:00",
+        stoppedWeightOunces: 7.8,
+        notes:
+          "just about the bottom of the candle. flame is putting itself out. no soot, jar wasnt too hot midway through.",
+      },
     ],
     notes: "",
   },
@@ -4831,7 +5144,102 @@ module.exports = [
         notes:
           "not full melt pool, 1/4 to 1/8 inch remaining on all sides. maybe 777 or 780?",
       },
+      {
+        whenStarted: "2020-04-27 18:45:00",
+        whenStopped: "2020-04-27 23:00:00",
+        stoppedWeightOunces: 12.6,
+        notes:
+          "not full melt pool, 1/4 to 1/8 inch remaining on all sides. just needs to be bigger. flame smallish. mayybe 777, but now i'm thinking even 780/CDN-8 etc",
+      },
+      {
+        whenStarted: "2020-04-28 09:30:00",
+        whenStopped: "2020-04-28 13:42:00",
+        stoppedWeightOunces: 12.16,
+        notes:
+          "not quite full melt pool, flame has been small the whole time. tiny bit of mushrooming even. would like to try 780, eco-8, cd-8",
+      },
+      {
+        whenStarted: "2020-04-28 17:30:00",
+        whenStopped: "2020-04-28 22:00:00",
+        stoppedWeightOunces: 11.57,
+        notes: "not quite full mp but very close. flame looking fine now.",
+      },
+      {
+        whenStarted: "2020-04-29 10:45:00",
+        whenStopped: "2020-04-29 16:20:00",
+        stoppedWeightOunces: 10.8,
+        notes:
+          "full 1/8 inch mp, little bit of mushrooming but flame looks good. jar not too hot.",
+      },
+      {
+        whenStarted: "2020-04-29 21:45:00",
+        whenStopped: "2020-04-30 01:25:00",
+        stoppedWeightOunces: 10.33,
+        notes: "1/8 to 1/4 inch mp, flame looks great.",
+      },
+      {
+        whenStarted: "2020-04-30 11:15:00",
+        whenStopped: "2020-04-30 15:25:00",
+        stoppedWeightOunces: 9.7,
+        notes:
+          "1/4 inch mp. flame looks great. only a little bit of mushrooming. maybe a 777 still is fine down here and will help with the top. or maybe eco-8?",
+      },
+      {
+        whenStarted: "2020-05-01 22:15:00",
+        whenStopped: "2020-05-02 04:45:00",
+        stoppedWeightOunces: 7.72,
+        notes:
+          "very nearly the end of the candle. jar not overly hot, smells nice. will probably put itself out. ",
+      },
     ],
+    notes: "",
+  },
+  // RJL9 FT + Berg Eco-8
+  {
+    completedCandleWeightOunces: "15.79",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // RXX5 FT + Berg P-775
+  {
+    completedCandleWeightOunces: "15.69",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // W1KE GG more G P-775
+  {
+    completedCandleWeightOunces: "15.76",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // RVDG CCv2 Eco-8
+  {
+    completedCandleWeightOunces: "15.30",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // 3K4M CCv2 P-777
+  {
+    completedCandleWeightOunces: "16.23",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // REVO CCv2 P-780
+  {
+    completedCandleWeightOunces: "16.15",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [],
     notes: "",
   },
 ];

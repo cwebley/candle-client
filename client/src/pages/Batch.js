@@ -125,7 +125,7 @@ function Batch({ match, classes }) {
                     percentOfType={`${Math.round(
                       (1000 * w.weightOunces) / batch.totalWaxWeightOunces
                     ) / 10}%`}
-                    amount={`${w.weightOunces} oz`}
+                    amount={`${w.weightOunces.toFixed(2)} oz`}
                     productCost={w.calculatedCosts.productCost}
                     shippingCost={w.calculatedCosts.shippingCost}
                     subItems={w.subItems}
@@ -142,7 +142,7 @@ function Batch({ match, classes }) {
                   percentOfType={`${Math.round(
                     (1000 * w.weightOunces) / batch.totalWaxWeightOunces
                   ) / 10}%`}
-                  amount={`${w.weightOunces} oz`}
+                  amount={`${w.weightOunces.toFixed(2)} oz`}
                   productCost={w.calculatedCosts.productCost}
                   shippingCost={w.calculatedCosts.shippingCost}
                   totalCost={w.calculatedCosts.totalCost}
@@ -163,7 +163,7 @@ function Batch({ match, classes }) {
                       (1000 * fo.weightOunces) /
                         batch.totalFragranceWeightOunces
                     ) / 10}%`}
-                    amount={`${fo.weightOunces} oz`}
+                    amount={`${fo.weightOunces.toFixed(2)} oz`}
                     productCost={fo.calculatedCosts.productCost}
                     shippingCost={fo.calculatedCosts.shippingCost}
                     subItems={fo.subItems}
@@ -180,7 +180,7 @@ function Batch({ match, classes }) {
                   percentOfType={`${Math.round(
                     (1000 * fo.weightOunces) / batch.totalFragranceWeightOunces
                   ) / 10}%`}
-                  amount={`${fo.weightOunces} oz`}
+                  amount={`${fo.weightOunces.toFixed(2)} oz`}
                   productCost={fo.calculatedCosts.productCost}
                   shippingCost={fo.calculatedCosts.shippingCost}
                   totalCost={fo.calculatedCosts.totalCost}
@@ -200,7 +200,7 @@ function Batch({ match, classes }) {
                     percentOfType={`${Math.round(
                       (1000 * db.pieces) / batch.totalDyeBlockPieces
                     ) / 10}%`}
-                    amount={`${db.pieces} pieces`}
+                    amount={`${db.pieces.toFixed(2)} pieces`}
                     productCost={db.calculatedCosts.productCost}
                     shippingCost={db.calculatedCosts.shippingCost}
                     subItems={db.subItems}
@@ -217,7 +217,7 @@ function Batch({ match, classes }) {
                   percentOfType={`${Math.round(
                     (1000 * db.pieces) / batch.totalDyeBlockPieces
                   ) / 10}%`}
-                  amount={`${db.pieces} pieces`}
+                  amount={`${db.pieces.toFixed(2)} pieces`}
                   productCost={db.calculatedCosts.productCost}
                   shippingCost={db.calculatedCosts.shippingCost}
                   totalCost={db.calculatedCosts.totalCost}

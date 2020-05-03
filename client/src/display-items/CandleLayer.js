@@ -13,32 +13,32 @@ import CandleResource from "./CandleResource";
 import CombinedCandleResource from "./CombinedCandleResource";
 import { processAllBatchData } from "../utils";
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {
     display: "flex",
-    flexFlow: "column nowrap"
+    flexFlow: "column nowrap",
   },
   textField: {
-    marginTop: "1em"
+    marginTop: "1em",
   },
   headingHash: {
     flexBasis: "7%",
-    marginRight: theme.spacing(2)
+    marginRight: theme.spacing(2),
   },
   headingName: {
     fontSize: theme.typography.pxToRem(15),
     fontWeight: theme.typography.fontWeightRegular,
-    flexBasis: "33%"
+    flexBasis: "33%",
   },
   subHeading: {
-    flexGrow: 1
+    flexGrow: 1,
   },
   candleDetails: {
-    paddingLeft: theme.spacing(2)
+    paddingLeft: theme.spacing(2),
   },
   expansionPanelDetails: {
-    flexFlow: "column nowrap"
-  }
+    flexFlow: "column nowrap",
+  },
 });
 
 function CandleLayer({ data, isTopLayer, classes }) {
@@ -47,60 +47,59 @@ function CandleLayer({ data, isTopLayer, classes }) {
     {
       label: "Fragrance Load",
       value: processedBatchData.fragranceLoad * 100,
-      unit: "%"
+      unit: "%",
     },
     {
       label: "Fragrance Add Temp",
       value: processedBatchData.fragranceAddTemperatureFahrenheit,
-      unit: "°F"
+      unit: "°F",
     },
     {
       label: "Pour Weight",
       value: data.pourWeightOunces,
-      unit: "oz"
+      unit: "oz",
     },
     {
       label: "When poured",
-      value: moment(data.whenPoured).format("MMMM DD YYYY")
+      value: moment(data.whenPoured).format("MMMM DD YYYY"),
     },
     {
       label: "Percent of Batch",
       value: data.layerToBatchPercentage,
-      unit: "%"
+      unit: "%",
     },
     {
       label: "Pour Temp",
       value: data.pourTemperatureFahrenheit,
-      unit: "°F"
+      unit: "°F",
     },
     {
       label: "Room Temp",
       value: data.coolingRoomTemperatureFahrenheit,
-      unit: "°F"
-    }
+      unit: "°F",
+    },
   ];
   if (processedBatchData.dyeAddTemperature) {
     layerDetails.push({
       label: "Dye Add Temp",
       value: processedBatchData.dyeAddTemperatureFahrenheit,
-      unit: "°F"
+      unit: "°F",
     });
   }
   if (data.coolingRoomHumidityPercent) {
     layerDetails.push({
       label: "Room Humidity",
       value: data.coolingRoomHumidityPercent,
-      unit: "%"
+      unit: "%",
     });
   }
   if (data.notes) {
     layerDetails.push({
       label: "Notes",
-      value: data.notes
+      value: data.notes,
     });
   }
 
-  console.log("layer data: ", data);
   return (
     <ExpansionPanel defaultExpanded={isTopLayer}>
       <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
@@ -124,7 +123,7 @@ function CandleLayer({ data, isTopLayer, classes }) {
       </ExpansionPanelSummary>
       <ExpansionPanelDetails className={classes.expansionPanelDetails}>
         <ol className={classes.candleDetails}>
-          {layerDetails.map(d => (
+          {layerDetails.map((d) => (
             <DataLabel
               key={d.label}
               label={d.label}
@@ -135,22 +134,24 @@ function CandleLayer({ data, isTopLayer, classes }) {
         </ol>
         <Grid container spacing={8}>
           {processedBatchData.wax &&
-            processedBatchData.wax.map(w => {
+            processedBatchData.wax.map((w) => {
               if (w.subItems) {
                 return (
                   <Grid item key={`w-${w.hashId}`} xs={12} sm={6} m={4}>
                     <CombinedCandleResource
                       name={w.name}
                       source={w.source}
-                      percentOfType={`${Math.round(
-                        (1000 * w.weightOunces) /
-                          processedBatchData.totalWaxWeightOunces
-                      ) / 10}%`}
-                      amount={`${w.weightOunces} oz`}
-                      productCost={w.calculatedCosts.productCost}
-                      shippingCost={w.calculatedCosts.shippingCost}
+                      percentOfType={`${
+                        Math.round(
+                          (1000 * w.weightOunces) /
+                            processedBatchData.totalWaxWeightOunces
+                        ) / 10
+                      }%`}
+                      amount={`${w.layerWeightOunces} oz`}
+                      productCost={w.layerCosts.productCost}
+                      shippingCost={w.layerCosts.shippingCost}
                       subItems={w.subItems}
-                      totalCost={w.calculatedCosts.totalCost}
+                      totalCost={w.layerCosts.totalCost}
                       totalAmountForType={
                         processedBatchData.totalWaxWeightOunces
                       }
@@ -163,35 +164,39 @@ function CandleLayer({ data, isTopLayer, classes }) {
                   <CandleResource
                     name={w.name}
                     source={w.source}
-                    percentOfType={`${Math.round(
-                      (1000 * w.weightOunces) /
-                        processedBatchData.totalFragranceWeightOunces
-                    ) / 10}%`}
-                    amount={`${w.weightOunces} oz`}
-                    productCost={w.calculatedCosts.productCost}
-                    shippingCost={w.calculatedCosts.shippingCost}
-                    totalCost={w.calculatedCosts.totalCost}
+                    percentOfType={`${
+                      Math.round(
+                        (1000 * w.weightOunces) /
+                          processedBatchData.totalWaxWeightOunces
+                      ) / 10
+                    }%`}
+                    amount={`${w.layerWeightOunces} oz`}
+                    productCost={w.layerCosts.productCost}
+                    shippingCost={w.layerCosts.shippingCost}
+                    totalCost={w.layerCosts.totalCost}
                   />
                 </Grid>
               );
             })}
           {processedBatchData.fragranceOil &&
-            processedBatchData.fragranceOil.map(fo => {
+            processedBatchData.fragranceOil.map((fo) => {
               if (fo.subItems) {
                 return (
                   <Grid item key={`fo-${fo.hashId}`} xs={12} sm={6} m={4}>
                     <CombinedCandleResource
                       name={fo.name}
                       source={fo.source}
-                      percentOfType={`${Math.round(
-                        (1000 * fo.weightOunces) /
-                          processedBatchData.totalFragranceWeightOunces
-                      ) / 10}%`}
-                      amount={`${fo.weightOunces} oz`}
-                      productCost={fo.calculatedCosts.productCost}
-                      shippingCost={fo.calculatedCosts.shippingCost}
+                      percentOfType={`${
+                        Math.round(
+                          (1000 * fo.weightOunces) /
+                            processedBatchData.totalFragranceWeightOunces
+                        ) / 10
+                      }%`}
+                      amount={`${fo.layerWeightOunces} oz`}
+                      productCost={fo.layerCosts.productCost}
+                      shippingCost={fo.layerCosts.shippingCost}
                       subItems={fo.subItems}
-                      totalCost={fo.calculatedCosts.totalCost}
+                      totalCost={fo.layerCosts.totalCost}
                       totalAmountForType={
                         processedBatchData.totalFragranceWeightOunces
                       }
@@ -204,35 +209,39 @@ function CandleLayer({ data, isTopLayer, classes }) {
                   <CandleResource
                     name={fo.name}
                     source={fo.source}
-                    percentOfType={`${Math.round(
-                      (1000 * fo.weightOunces) /
-                        processedBatchData.totalFragranceWeightOunces
-                    ) / 10}%`}
-                    amount={`${fo.weightOunces} oz`}
-                    productCost={fo.calculatedCosts.productCost}
-                    shippingCost={fo.calculatedCosts.shippingCost}
-                    totalCost={fo.calculatedCosts.totalCost}
+                    percentOfType={`${
+                      Math.round(
+                        (1000 * fo.weightOunces) /
+                          processedBatchData.totalFragranceWeightOunces
+                      ) / 10
+                    }%`}
+                    amount={`${fo.layerWeightOunces} oz`}
+                    productCost={fo.layerCosts.productCost}
+                    shippingCost={fo.layerCosts.shippingCost}
+                    totalCost={fo.layerCosts.totalCost}
                   />
                 </Grid>
               );
             })}
           {processedBatchData.dyeBlocks &&
-            processedBatchData.dyeBlocks.map(db => {
+            processedBatchData.dyeBlocks.map((db) => {
               if (db.subItems) {
                 return (
                   <Grid item key={`db-${db.hashId}`} xs={12} sm={6} m={4}>
                     <CombinedCandleResource
                       name={db.name}
                       source={db.source}
-                      percentOfType={`${Math.round(
-                        (1000 * db.pieces) /
-                          processedBatchData.totalDyeBlockPieces
-                      ) / 10}%`}
-                      amount={`${db.pieces} pieces`}
-                      productCost={db.calculatedCosts.productCost}
-                      shippingCost={db.calculatedCosts.shippingCost}
+                      percentOfType={`${
+                        Math.round(
+                          (1000 * db.pieces) /
+                            processedBatchData.totalDyeBlockPieces
+                        ) / 10
+                      }%`}
+                      amount={`${db.layerPieces} pieces`}
+                      productCost={db.layerCosts.productCost}
+                      shippingCost={db.layerCosts.shippingCost}
                       subItems={db.subItems}
-                      totalCost={db.calculatedCosts.totalCost}
+                      totalCost={db.layerCosts.totalCost}
                       totalAmountForType={
                         processedBatchData.totalDyeBlockPieces
                       }
@@ -246,10 +255,12 @@ function CandleLayer({ data, isTopLayer, classes }) {
                     itemType="Dye Block"
                     name={db.name}
                     source={db.source}
-                    percentOfType={`${Math.round(
-                      (1000 * db.pieces) /
-                        processedBatchData.totalDyeBlockPieces
-                    ) / 10}%`}
+                    percentOfType={`${
+                      Math.round(
+                        (1000 * db.pieces) /
+                          processedBatchData.totalDyeBlockPieces
+                      ) / 10
+                    }%`}
                     amount={`${db.layerPieces} pieces`}
                     shippingCost={db.layerCosts.shippingCost}
                     productCost={db.layerCosts.productCost}

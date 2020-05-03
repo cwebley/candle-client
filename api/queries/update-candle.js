@@ -5,8 +5,15 @@ const slug = require("slug");
 module.exports = function updateCandleQuery(db, candleHashId, candleData, cb) {
   const { burns, ...candleTableData } = candleData;
 
+  if (burns && burns.length) {
+    // if any of the burns have the "finished" property we'll add that to the candle update data
+    candleTableData.finished = burns.some((b) => {
+      return !!b.finished;
+    });
+  }
+
   // begin transaction
-  db.beginTransaction(err => {
+  db.beginTransaction((err) => {
     if (err) {
       console.error(err);
       return cb(err);
@@ -21,8 +28,9 @@ module.exports = function updateCandleQuery(db, candleHashId, candleData, cb) {
         if (err) {
           return rollback(db, err, cb);
         }
+
         // end transaction
-        db.commit(err => {
+        db.commit((err) => {
           if (err) {
             return rollback(db, err, cb);
           }
@@ -40,13 +48,13 @@ function insertBurnSessions(db, candleHashId, burns, cb) {
   }
 
   const internalSelect = `
-    SELECT c.id, ?, ?, ?
+    SELECT c.id, ?, ?, ?, ?
     FROM candles c
     WHERE c.hash_id = ?`;
 
   let sql = `
     INSERT INTO candles_burns
-      (candle_id, when_started, when_stopped, notes)
+      (candle_id, when_started, when_stopped, stopped_weight_ounces, notes)
   `;
   let params = [];
   burns.forEach((b, i) => {
@@ -54,7 +62,13 @@ function insertBurnSessions(db, candleHashId, burns, cb) {
       sql += ` UNION ALL `;
     }
     sql += internalSelect;
-    params.push(b.whenStarted, b.whenStopped, b.notes, candleHashId);
+    params.push(
+      b.whenStarted,
+      b.whenStopped,
+      b.stoppedWeightOunces,
+      b.notes,
+      candleHashId
+    );
   });
 
   console.log("SQL PARAMS: ", sql, params);
@@ -63,7 +77,7 @@ function insertBurnSessions(db, candleHashId, burns, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return cb(err);
     }
@@ -73,7 +87,7 @@ function insertBurnSessions(db, candleHashId, burns, cb) {
       );
       console.error(err, {
         sql,
-        params
+        params,
       });
       return cb(err);
     }
@@ -103,7 +117,7 @@ function updateCandle(db, candleHashId, data, cb) {
     setBoxes = `${atLeastOneSet ? ", " : ""} c.box_id = b.id`;
     atLeastOneSet = true;
 
-    decrementFuncs.push(done =>
+    decrementFuncs.push((done) =>
       decrementResource(db, "boxes", 1, data.boxHashId, done)
     );
   }
@@ -118,7 +132,7 @@ function updateCandle(db, candleHashId, data, cb) {
     setLids = `${atLeastOneSet ? ", " : ""} c.lid_id = l.id`;
     atLeastOneSet = true;
 
-    decrementFuncs.push(done =>
+    decrementFuncs.push((done) =>
       decrementResource(db, "lids", 1, data.lidHashId, done)
     );
   }
@@ -134,7 +148,7 @@ function updateCandle(db, candleHashId, data, cb) {
       atLeastOneSet ? ", " : ""
     } c.warning_label_id = wl.id`;
     atLeastOneSet = true;
-    decrementFuncs.push(done =>
+    decrementFuncs.push((done) =>
       decrementResource(db, "warning_labels", 1, data.warningLabelHashId, done)
     );
   }
@@ -208,7 +222,7 @@ function updateCandle(db, candleHashId, data, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return cb(err);
     }
@@ -239,7 +253,7 @@ function decrementResource(db, tableName, count, hashId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return cb(err);
     }

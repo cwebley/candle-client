@@ -11,7 +11,7 @@ module.exports = [
         remaining: "0",
         price: "4.48",
         shareOfShippingPercent: "2.8",
-        notes: "This broke after a drop"
+        notes: "This broke after a drop",
       },
       {
         type: "misc-equipment",
@@ -20,7 +20,7 @@ module.exports = [
         remaining: "12",
         price: "4.93",
         shareOfShippingPercent: "2.8",
-        notes: "Some of these are definitely lost..."
+        notes: "Some of these are definitely lost...",
       },
       {
         type: "wax",
@@ -30,7 +30,7 @@ module.exports = [
         weightPounds: "10",
         remaining: "0",
         price: "15.68",
-        shareOfShippingPercent: "25"
+        shareOfShippingPercent: "25",
       },
       {
         type: "wicks",
@@ -43,7 +43,7 @@ module.exports = [
         price: "2.25",
         shareOfShippingPercent: "0.25",
         notes:
-          "Part of the ECO Wick Sample Kit 1 Wick kit item. But this is actually 2 of those combined."
+          "Part of the ECO Wick Sample Kit 1 Wick kit item. But this is actually 2 of those combined.",
       },
       {
         type: "wick-stickers",
@@ -51,7 +51,7 @@ module.exports = [
         count: "100",
         remaining: "0",
         price: "4.95",
-        shareOfShippingPercent: "2.8"
+        shareOfShippingPercent: "2.8",
       },
       {
         type: "jars",
@@ -64,7 +64,7 @@ module.exports = [
         count: "12",
         remaining: "0",
         price: "10.51",
-        shareOfShippingPercent: "8.3"
+        shareOfShippingPercent: "8.3",
       },
       {
         type: "jars",
@@ -77,7 +77,7 @@ module.exports = [
         count: "12",
         remaining: "0",
         price: "4.91",
-        shareOfShippingPercent: "8.3"
+        shareOfShippingPercent: "8.3",
       },
       {
         type: "jars",
@@ -90,7 +90,7 @@ module.exports = [
         count: "12",
         remaining: "0",
         price: "8.91",
-        shareOfShippingPercent: "8.3"
+        shareOfShippingPercent: "8.3",
       },
       {
         type: "wicks",
@@ -103,7 +103,7 @@ module.exports = [
         price: "2.25",
         shareOfShippingPercent: "0.25",
         notes:
-          "Part of the ECO Wick Sample Kit. But this is actually 2 of those combined."
+          "Part of the ECO Wick Sample Kit. But this is actually 2 of those combined.",
       },
       {
         type: "wicks",
@@ -116,7 +116,7 @@ module.exports = [
         price: "2.25",
         shareOfShippingPercent: ".25",
         notes:
-          "Part of the ECO Wick Sample Kit 1 Wick kit item. But this is actually 2 of those combined."
+          "Part of the ECO Wick Sample Kit 1 Wick kit item. But this is actually 2 of those combined.",
       },
       {
         type: "wicks",
@@ -129,7 +129,7 @@ module.exports = [
         price: "8",
         shareOfShippingPercent: "0.25",
         notes:
-          "Part of the ECO Wick Sample Kit 1 Wick kit item. But this is actually 2 of those combined."
+          "Part of the ECO Wick Sample Kit 1 Wick kit item. But this is actually 2 of those combined.",
       },
       {
         type: "wicks",
@@ -142,7 +142,7 @@ module.exports = [
         price: "2.25",
         shareOfShippingPercent: "0.25",
         notes:
-          "Part of the ECO Wick Sample Kit 1 Wick kit item. But this is actually 2 of those combined."
+          "Part of the ECO Wick Sample Kit 1 Wick kit item. But this is actually 2 of those combined.",
       },
       {
         type: "wicks",
@@ -155,7 +155,7 @@ module.exports = [
         price: "2.25",
         shareOfShippingPercent: "0.25",
         notes:
-          "Part of the ECO Wick Sample Kit 1 Wick kit item. But this is actually 2 of those combined."
+          "Part of the ECO Wick Sample Kit 1 Wick kit item. But this is actually 2 of those combined.",
       },
       {
         type: "wicks",
@@ -168,7 +168,7 @@ module.exports = [
         price: "2.25",
         shareOfShippingPercent: "0.25",
         notes:
-          "Part of the ECO Wick Sample Kit 1 Wick kit item. But this is actually 2 of those combined."
+          "Part of the ECO Wick Sample Kit 1 Wick kit item. But this is actually 2 of those combined.",
       },
       {
         type: "wicks",
@@ -181,7 +181,7 @@ module.exports = [
         price: "2.25",
         shareOfShippingPercent: "0.25",
         notes:
-          "Part of the ECO Wick Sample Kit 1 Wick kit item. But this is actually 2 of those combined."
+          "Part of the ECO Wick Sample Kit 1 Wick kit item. But this is actually 2 of those combined.",
       },
       {
         type: "wicks",
@@ -194,7 +194,7 @@ module.exports = [
         price: "2.25",
         shareOfShippingPercent: "0.25",
         notes:
-          "Part of the ECO Wick Sample Kit 1 Wick kit item. But this is actually 2 of those combined."
+          "Part of the ECO Wick Sample Kit 1 Wick kit item. But this is actually 2 of those combined.",
       },
       {
         type: "fragrance-oil",
@@ -203,7 +203,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.7",
         price: "2.41",
-        shareOfShippingPercent: "2.25"
+        shareOfShippingPercent: "2.25",
       },
       {
         type: "fragrance-oil",
@@ -212,7 +212,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.2",
         price: "2.41",
-        shareOfShippingPercent: "2.25"
+        shareOfShippingPercent: "2.25",
       },
       {
         type: "fragrance-oil",
@@ -221,7 +221,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
-        shareOfShippingPercent: "2.25"
+        shareOfShippingPercent: "2.25",
       },
       {
         type: "fragrance-oil",
@@ -230,7 +230,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.5",
         price: "2.41",
-        shareOfShippingPercent: "2.25"
+        shareOfShippingPercent: "2.25",
       },
       {
         type: "fragrance-oil",
@@ -239,7 +239,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "2.25"
+        shareOfShippingPercent: "2.25",
       },
       {
         type: "fragrance-oil",
@@ -248,7 +248,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
-        shareOfShippingPercent: "2.25"
+        shareOfShippingPercent: "2.25",
       },
       {
         type: "fragrance-oil",
@@ -257,7 +257,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.5",
         price: "2.41",
-        shareOfShippingPercent: "2.25"
+        shareOfShippingPercent: "2.25",
       },
       {
         type: "fragrance-oil",
@@ -266,7 +266,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.5",
         price: "2.41",
-        shareOfShippingPercent: "2.25"
+        shareOfShippingPercent: "2.25",
       },
       {
         type: "fragrance-oil",
@@ -275,7 +275,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.5",
         price: "2.41",
-        shareOfShippingPercent: "2.25"
+        shareOfShippingPercent: "2.25",
       },
       {
         type: "fragrance-oil",
@@ -285,7 +285,7 @@ module.exports = [
         remaining: "0",
         price: "0",
         shareOfShippingPercent: "2.25",
-        notes: "This was a free sample."
+        notes: "This was a free sample.",
       },
       {
         type: "fragrance-oil",
@@ -295,7 +295,7 @@ module.exports = [
         remaining: "0",
         price: "0",
         shareOfShippingPercent: "2.25",
-        notes: "This was a free sample."
+        notes: "This was a free sample.",
       },
       {
         type: "dye-blocks",
@@ -305,7 +305,7 @@ module.exports = [
         color: "red",
         price: "0.88",
         shareOfShippingPercent: "0.3",
-        notes: "Part of an 8-piece Dye Block Sample Pack"
+        notes: "Part of an 8-piece Dye Block Sample Pack",
       },
       {
         type: "dye-blocks",
@@ -315,7 +315,7 @@ module.exports = [
         remaining: "0",
         color: "lavender",
         price: "0.88",
-        shareOfShippingPercent: "0.3"
+        shareOfShippingPercent: "0.3",
       },
       {
         type: "dye-blocks",
@@ -325,7 +325,7 @@ module.exports = [
         color: "pink",
         price: "0.88",
         shareOfShippingPercent: "0.3",
-        notes: "Part of an 8 piece Dye Block Sample Pack"
+        notes: "Part of an 8 piece Dye Block Sample Pack",
       },
       {
         type: "dye-blocks",
@@ -335,7 +335,7 @@ module.exports = [
         color: "brown",
         price: "0.88",
         shareOfShippingPercent: "0.3",
-        notes: "Part of an 8 piece Dye Block Sample Pack"
+        notes: "Part of an 8 piece Dye Block Sample Pack",
       },
       {
         type: "dye-blocks",
@@ -345,7 +345,7 @@ module.exports = [
         color: "navy blue",
         price: "0.88",
         shareOfShippingPercent: "0.3",
-        notes: "Part of an 8 piece Dye Block Sample Pack"
+        notes: "Part of an 8 piece Dye Block Sample Pack",
       },
       {
         type: "dye-blocks",
@@ -355,7 +355,7 @@ module.exports = [
         color: "pumpkin",
         price: "0.88",
         shareOfShippingPercent: "0.3",
-        notes: "Part of an 8 piece Dye Block Sample Pack"
+        notes: "Part of an 8 piece Dye Block Sample Pack",
       },
       {
         type: "dye-blocks",
@@ -365,7 +365,7 @@ module.exports = [
         color: "canary yellow",
         price: "0.88",
         shareOfShippingPercent: "0.3",
-        notes: "Part of an 8 piece Dye Block Sample Pack"
+        notes: "Part of an 8 piece Dye Block Sample Pack",
       },
       {
         type: "dye-blocks",
@@ -375,14 +375,14 @@ module.exports = [
         color: "forest green",
         price: "0.88",
         shareOfShippingPercent: "0.3",
-        notes: "Part of an 8 piece Dye Block Sample Pack"
-      }
+        notes: "Part of an 8 piece Dye Block Sample Pack",
+      },
     ],
     source: "Candle Science",
     subtotalCost: "103.44",
     shippingCost: "33.71",
     taxesAndFees: "0",
-    totalCost: "137.15"
+    totalCost: "137.15",
   },
   {
     openDate: "2018-05-07",
@@ -394,7 +394,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "2",
         price: "8.50",
-        shareOfShippingPercent: "38"
+        shareOfShippingPercent: "38",
       },
       {
         type: "fragrance-oil",
@@ -403,7 +403,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
-        shareOfShippingPercent: "12"
+        shareOfShippingPercent: "12",
       },
       {
         type: "fragrance-oil",
@@ -412,7 +412,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "12"
+        shareOfShippingPercent: "12",
       },
       {
         type: "fragrance-oil",
@@ -421,7 +421,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.5",
         price: "2.41",
-        shareOfShippingPercent: "12"
+        shareOfShippingPercent: "12",
       },
       {
         type: "fragrance-oil",
@@ -431,7 +431,7 @@ module.exports = [
         remaining: "0",
         price: "2.41",
         shareOfShippingPercent: "12",
-        notes: ""
+        notes: "",
       },
       {
         type: "fragrance-oil",
@@ -440,14 +440,14 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.1",
         price: "2.41",
-        shareOfShippingPercent: "12"
-      }
+        shareOfShippingPercent: "12",
+      },
     ],
     source: "Candle Science",
     subtotalCost: "20.55",
     shippingCost: "10.65",
     taxesAndFees: "0",
-    totalCost: "31.20"
+    totalCost: "31.20",
   },
   {
     openDate: "2018-05-21",
@@ -462,7 +462,7 @@ module.exports = [
         series: "Eco",
         size: "1",
         price: "1",
-        shareOfShippingPercent: "0.5"
+        shareOfShippingPercent: "0.5",
       },
       {
         type: "wicks",
@@ -474,7 +474,7 @@ module.exports = [
         size: "2",
         price: "1",
         shareOfShippingPercent: "0.5",
-        notes: "art of the ECO Wick Sample Kit."
+        notes: "art of the ECO Wick Sample Kit.",
       },
       {
         type: "wicks",
@@ -486,7 +486,7 @@ module.exports = [
         size: "4",
         price: "1",
         shareOfShippingPercent: "0.5",
-        notes: "art of the ECO Wick Sample Kit."
+        notes: "art of the ECO Wick Sample Kit.",
       },
       {
         type: "wicks",
@@ -498,7 +498,7 @@ module.exports = [
         size: "6",
         price: "1",
         shareOfShippingPercent: "0.5",
-        notes: "art of the ECO Wick Sample Kit."
+        notes: "art of the ECO Wick Sample Kit.",
       },
       {
         type: "wicks",
@@ -510,7 +510,7 @@ module.exports = [
         size: "6",
         price: "1",
         shareOfShippingPercent: "0.5",
-        notes: "art of the ECO Wick Sample Kit."
+        notes: "art of the ECO Wick Sample Kit.",
       },
       {
         type: "wicks",
@@ -522,7 +522,7 @@ module.exports = [
         size: "10",
         price: "1",
         shareOfShippingPercent: "0.5",
-        notes: "art of the ECO Wick Sample Kit."
+        notes: "art of the ECO Wick Sample Kit.",
       },
       {
         type: "wicks",
@@ -534,7 +534,7 @@ module.exports = [
         size: "12",
         price: "1",
         shareOfShippingPercent: "0.5",
-        notes: "art of the ECO Wick Sample Kit."
+        notes: "art of the ECO Wick Sample Kit.",
       },
       {
         type: "wicks",
@@ -546,7 +546,7 @@ module.exports = [
         size: "14",
         price: "1",
         shareOfShippingPercent: "0.5",
-        notes: "art of the ECO Wick Sample Kit."
+        notes: "art of the ECO Wick Sample Kit.",
       },
       {
         type: "wicks",
@@ -558,7 +558,7 @@ module.exports = [
         size: "16",
         price: "1",
         shareOfShippingPercent: "0.5",
-        notes: "art of the ECO Wick Sample Kit."
+        notes: "art of the ECO Wick Sample Kit.",
       },
       {
         type: "jars",
@@ -570,7 +570,7 @@ module.exports = [
         count: "12",
         remaining: "0",
         price: "10.51",
-        shareOfShippingPercent: "10"
+        shareOfShippingPercent: "10",
       },
       {
         type: "jars",
@@ -582,7 +582,7 @@ module.exports = [
         count: "12",
         remaining: "0",
         price: "5.16",
-        shareOfShippingPercent: "20"
+        shareOfShippingPercent: "20",
       },
       {
         type: "jars",
@@ -594,7 +594,7 @@ module.exports = [
         count: "12",
         remaining: "0",
         price: "9.36",
-        shareOfShippingPercent: "20"
+        shareOfShippingPercent: "20",
       },
       {
         type: "fragrance-oil",
@@ -603,7 +603,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.4",
         price: "2.41",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "fragrance-oil",
@@ -612,7 +612,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.5",
-        shareOfShippingPercent: "7"
+        shareOfShippingPercent: "7",
       },
       {
         type: "fragrance-oil",
@@ -621,7 +621,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "fragrance-oil",
@@ -631,7 +631,7 @@ module.exports = [
         remaining: "0",
         price: "0",
         shareOfShippingPercent: "2.5",
-        notes: "This was a free sample."
+        notes: "This was a free sample.",
       },
       {
         type: "wicks",
@@ -642,7 +642,7 @@ module.exports = [
         series: "Eco",
         size: "0.75",
         price: "5.03",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "fragrance-oil",
@@ -651,7 +651,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "fragrance-oil",
@@ -660,7 +660,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "fragrance-oil",
@@ -669,7 +669,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "fragrance-oil",
@@ -678,7 +678,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.6",
         price: "2.41",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "fragrance-oil",
@@ -687,7 +687,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "fragrance-oil",
@@ -696,7 +696,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "fragrance-oil",
@@ -705,7 +705,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.6",
         price: "2.41",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "fragrance-oil",
@@ -714,7 +714,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "fragrance-oil",
@@ -723,7 +723,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.7",
         price: "2.41",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "fragrance-oil",
@@ -732,7 +732,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "fragrance-oil",
@@ -741,7 +741,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.6",
         price: "2.41",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "fragrance-oil",
@@ -750,7 +750,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.4",
         price: "2.41",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "fragrance-oil",
@@ -759,7 +759,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "jars",
@@ -771,14 +771,14 @@ module.exports = [
         count: "100",
         remaining: "0",
         price: "8.39",
-        shareOfShippingPercent: "10"
-      }
+        shareOfShippingPercent: "10",
+      },
     ],
     source: "Candle Science",
     subtotalCost: "92.10",
     shippingCost: "24.14",
     totalCost: "116.23",
-    taxesAndFees: "0"
+    taxesAndFees: "0",
   },
   {
     openDate: "2018-11-14",
@@ -791,7 +791,7 @@ module.exports = [
         remaining: "0.5",
         price: "0",
         shareOfShippingPercent: "5",
-        notes: "This was a free sample."
+        notes: "This was a free sample.",
       },
       {
         type: "dye-blocks",
@@ -800,7 +800,7 @@ module.exports = [
         remaining: "0.8",
         color: "honeycomb",
         price: "0.99",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "dye-blocks",
@@ -809,7 +809,7 @@ module.exports = [
         remaining: "1",
         color: "black",
         price: "0.99",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "dye-blocks",
@@ -818,7 +818,7 @@ module.exports = [
         remaining: "1",
         color: "0.7",
         price: "0.99",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "dye-blocks",
@@ -827,7 +827,7 @@ module.exports = [
         remaining: "0.40",
         color: "seafoam",
         price: "0.99",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -836,7 +836,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.8",
         price: "2.41",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -845,7 +845,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -854,7 +854,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -863,7 +863,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.6",
         price: "2.41",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -872,7 +872,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -881,7 +881,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.8",
         price: "2.41",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -890,7 +890,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -899,7 +899,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -908,7 +908,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -917,7 +917,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "3.2",
         price: "8.98",
-        shareOfShippingPercent: "8"
+        shareOfShippingPercent: "8",
       },
       {
         type: "fragrance-oil",
@@ -926,7 +926,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.7",
         price: "2.41",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -935,7 +935,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.6",
         price: "2.41",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -944,7 +944,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "2.7",
         price: "8.98",
-        shareOfShippingPercent: "8"
+        shareOfShippingPercent: "8",
       },
       {
         type: "fragrance-oil",
@@ -953,7 +953,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.4",
         price: "2.41",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -962,7 +962,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "7.88",
-        shareOfShippingPercent: "8"
+        shareOfShippingPercent: "8",
       },
       {
         type: "fragrance-oil",
@@ -971,13 +971,13 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.5",
         price: "2.41",
-        shareOfShippingPercent: "5"
-      }
+        shareOfShippingPercent: "5",
+      },
     ],
     source: "Candle Science",
     subtotalCost: "61.13",
     shippingCost: "16.45",
-    totalCost: "77.58"
+    totalCost: "77.58",
   },
   {
     openDate: "2018-11-15",
@@ -989,7 +989,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.6",
         price: "2.41",
-        shareOfShippingPercent: "14"
+        shareOfShippingPercent: "14",
       },
       {
         type: "fragrance-oil",
@@ -998,7 +998,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "14"
+        shareOfShippingPercent: "14",
       },
       {
         type: "fragrance-oil",
@@ -1007,7 +1007,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "14"
+        shareOfShippingPercent: "14",
       },
       {
         type: "fragrance-oil",
@@ -1016,7 +1016,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "14"
+        shareOfShippingPercent: "14",
       },
       {
         type: "fragrance-oil",
@@ -1025,7 +1025,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "14"
+        shareOfShippingPercent: "14",
       },
       {
         type: "fragrance-oil",
@@ -1034,7 +1034,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.6",
         price: "2.41",
-        shareOfShippingPercent: "14"
+        shareOfShippingPercent: "14",
       },
       {
         type: "fragrance-oil",
@@ -1043,13 +1043,13 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "14"
-      }
+        shareOfShippingPercent: "14",
+      },
     ],
     source: "Candle Science",
     subtotalCost: "16.87",
     shippingCost: "13.88",
-    totalCost: "30.75"
+    totalCost: "30.75",
   },
   {
     openDate: "2018-12-01",
@@ -1062,7 +1062,7 @@ module.exports = [
         remaining: "0",
         price: "0",
         notes: "This was a free sample.",
-        shareOfShippingPercent: "13"
+        shareOfShippingPercent: "13",
       },
       {
         type: "fragrance-oil",
@@ -1071,7 +1071,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "7.6",
         price: "12.88",
-        shareOfShippingPercent: "37"
+        shareOfShippingPercent: "37",
       },
       {
         type: "wicks",
@@ -1082,7 +1082,7 @@ module.exports = [
         series: "Eco",
         size: "14",
         price: "8.44",
-        shareOfShippingPercent: "13"
+        shareOfShippingPercent: "13",
       },
       {
         type: "wicks",
@@ -1093,7 +1093,7 @@ module.exports = [
         series: "Eco",
         size: "10",
         price: "8.41",
-        shareOfShippingPercent: "13"
+        shareOfShippingPercent: "13",
       },
       {
         type: "wicks",
@@ -1104,7 +1104,7 @@ module.exports = [
         series: "Eco",
         size: "12",
         price: "8.42",
-        shareOfShippingPercent: "13"
+        shareOfShippingPercent: "13",
       },
       {
         type: "wick-stickers",
@@ -1112,13 +1112,13 @@ module.exports = [
         count: "120",
         remaining: "63",
         price: "5.96",
-        shareOfShippingPercent: "10"
-      }
+        shareOfShippingPercent: "10",
+      },
     ],
     source: "Candle Science",
     subtotalCost: "44.11",
     shippingCost: "9.47",
-    totalCost: "53.58"
+    totalCost: "53.58",
   },
   {
     openDate: "2019-01-03",
@@ -1132,7 +1132,7 @@ module.exports = [
         price: "0",
         shareOfShippingPercent: "4",
         notes:
-          "This was a free sample. And this scent was revised by CS on 5/13/2019."
+          "This was a free sample. And this scent was revised by CS on 5/13/2019.",
       },
       {
         type: "fragrance-oil",
@@ -1141,7 +1141,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.28",
-        shareOfShippingPercent: "18"
+        shareOfShippingPercent: "18",
       },
       {
         type: "fragrance-oil",
@@ -1150,7 +1150,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -1160,7 +1160,7 @@ module.exports = [
         remaining: "3.3",
         price: "8.98",
         shareOfShippingPercent: "18",
-        notes: ""
+        notes: "",
       },
       {
         type: "dye-blocks",
@@ -1169,7 +1169,7 @@ module.exports = [
         remaining: "1",
         color: "pumpkin",
         price: "0.99",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "dye-blocks",
@@ -1179,7 +1179,7 @@ module.exports = [
         color: "teal",
         price: "1.19",
         shareOfShippingPercent: "4",
-        notes: ""
+        notes: "",
       },
       {
         type: "dye-blocks",
@@ -1189,7 +1189,7 @@ module.exports = [
         color: "yellow",
         price: "0.99",
         shareOfShippingPercent: "4",
-        notes: ""
+        notes: "",
       },
       {
         type: "dye-blocks",
@@ -1198,7 +1198,7 @@ module.exports = [
         remaining: "0.8",
         color: "royal blue",
         price: "0.99",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "dye-blocks",
@@ -1207,7 +1207,7 @@ module.exports = [
         remaining: "1",
         color: "royal blue",
         price: "0.99",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "dye-blocks",
@@ -1216,7 +1216,7 @@ module.exports = [
         remaining: "1",
         color: "navy blue",
         price: "0.99",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "dye-blocks",
@@ -1225,7 +1225,7 @@ module.exports = [
         remaining: "0.9",
         color: "avocado",
         price: "0.99",
-        shareOfShippingPercent: "0"
+        shareOfShippingPercent: "0",
       },
       {
         type: "dye-blocks",
@@ -1235,7 +1235,7 @@ module.exports = [
         color: "forest green",
         price: "1.98",
         shareOfShippingPercent: "8",
-        notes: "This was actually 2 that I've combined into one package"
+        notes: "This was actually 2 that I've combined into one package",
       },
       {
         type: "dye-blocks",
@@ -1244,7 +1244,7 @@ module.exports = [
         remaining: "1",
         color: "orchid",
         price: "1.19",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "dye-blocks",
@@ -1253,7 +1253,7 @@ module.exports = [
         remaining: "1",
         color: "merlot",
         price: "0.99",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "dye-blocks",
@@ -1262,7 +1262,7 @@ module.exports = [
         remaining: "1",
         color: "merlot",
         price: "0.99",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "dye-blocks",
@@ -1271,7 +1271,7 @@ module.exports = [
         remaining: "1",
         color: "orchid",
         price: "1.19",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "dye-blocks",
@@ -1280,7 +1280,7 @@ module.exports = [
         remaining: "1",
         color: "brown",
         price: "0.99",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "dye-blocks",
@@ -1289,7 +1289,7 @@ module.exports = [
         remaining: "1",
         color: "brown",
         price: "0.99",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "dye-blocks",
@@ -1298,7 +1298,7 @@ module.exports = [
         remaining: "1",
         color: "brown",
         price: "0.99",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "dye-blocks",
@@ -1307,7 +1307,7 @@ module.exports = [
         remaining: "1",
         color: "black",
         price: "0.99",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "dye-blocks",
@@ -1316,7 +1316,7 @@ module.exports = [
         remaining: "1",
         color: "black",
         price: "0.99",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "dye-blocks",
@@ -1326,13 +1326,13 @@ module.exports = [
         color: "black",
         price: "0.99",
         shareOfShippingPercent: "4",
-        notes: "I have no idea where this went or if I ever got it."
-      }
+        notes: "I have no idea where this went or if I ever got it.",
+      },
     ],
     source: "Candle Science",
     subtotalCost: "39.08",
     shippingCost: "9.47",
-    totalCost: "48.55"
+    totalCost: "48.55",
   },
   {
     openDate: "2018-12-12",
@@ -1344,7 +1344,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "fragrance-oil",
@@ -1353,7 +1353,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "fragrance-oil",
@@ -1362,7 +1362,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.6",
         price: "2.41",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "fragrance-oil",
@@ -1371,7 +1371,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "wicks",
@@ -1382,7 +1382,7 @@ module.exports = [
         series: "Eco",
         size: "8",
         price: "8.65",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "jars",
@@ -1394,7 +1394,7 @@ module.exports = [
         count: "12",
         remaining: "7",
         price: "9.36",
-        shareOfShippingPercent: "26"
+        shareOfShippingPercent: "26",
       },
       {
         type: "jars",
@@ -1406,7 +1406,7 @@ module.exports = [
         count: "12",
         remaining: "3",
         price: "11.11",
-        shareOfShippingPercent: "26"
+        shareOfShippingPercent: "26",
       },
       {
         type: "fragrance-oil",
@@ -1415,7 +1415,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "fragrance-oil",
@@ -1424,7 +1424,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "2.6",
         price: "8.50",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -1433,7 +1433,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.8",
         price: "2.41",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "fragrance-oil",
@@ -1442,7 +1442,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "fragrance-oil",
@@ -1451,7 +1451,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -1460,7 +1460,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "12.88",
-        shareOfShippingPercent: "8"
+        shareOfShippingPercent: "8",
       },
       {
         type: "fragrance-oil",
@@ -1469,7 +1469,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "0",
         price: "8.98",
-        shareOfShippingPercent: "6"
+        shareOfShippingPercent: "6",
       },
       {
         type: "warning-labels",
@@ -1479,7 +1479,7 @@ module.exports = [
         remaining: "70",
         price: "3.96",
         shareOfShippingPercent: "3",
-        notes: "I think I left these in Orchard Lake."
+        notes: "I think I left these in Orchard Lake.",
       },
       {
         type: "fragrance-oil",
@@ -1489,13 +1489,13 @@ module.exports = [
         remaining: "0.6",
         price: "0",
         shareOfShippingPercent: "3",
-        notes: "This was a free sample."
-      }
+        notes: "This was a free sample.",
+      },
     ],
     source: "Candle Science",
     subtotalCost: "88.81",
     shippingCost: "19.63",
-    totalCost: "108.44"
+    totalCost: "108.44",
   },
   {
     openDate: "2018-12-01",
@@ -1508,7 +1508,7 @@ module.exports = [
         remaining: "0.4",
         price: "0",
         shareOfShippingPercent: "1",
-        notes: "This was a free sample"
+        notes: "This was a free sample",
       },
       {
         type: "dye-blocks",
@@ -1518,7 +1518,7 @@ module.exports = [
         color: "red",
         price: "1",
         shareOfShippingPercent: "0.25",
-        notes: "Part of a sample pack"
+        notes: "Part of a sample pack",
       },
       {
         type: "dye-blocks",
@@ -1528,7 +1528,7 @@ module.exports = [
         color: "brown",
         price: "1",
         shareOfShippingPercent: "0.25",
-        notes: "Part of a sample set"
+        notes: "Part of a sample set",
       },
       {
         type: "dye-blocks",
@@ -1538,7 +1538,7 @@ module.exports = [
         color: "forest green",
         price: "1",
         shareOfShippingPercent: "0.25",
-        notes: "Part of a sample set"
+        notes: "Part of a sample set",
       },
       {
         type: "dye-blocks",
@@ -1548,7 +1548,7 @@ module.exports = [
         color: "pumpkin",
         price: "1",
         shareOfShippingPercent: "0.25",
-        notes: "Part of a sample set"
+        notes: "Part of a sample set",
       },
       {
         type: "dye-blocks",
@@ -1558,7 +1558,7 @@ module.exports = [
         color: "canary yello",
         price: "1",
         shareOfShippingPercent: "0.25",
-        notes: "Part of a sample set"
+        notes: "Part of a sample set",
       },
       {
         type: "dye-blocks",
@@ -1568,7 +1568,7 @@ module.exports = [
         color: "lavender",
         price: "1",
         shareOfShippingPercent: "0.25",
-        notes: "Part of a sample set"
+        notes: "Part of a sample set",
       },
       {
         type: "dye-blocks",
@@ -1578,7 +1578,7 @@ module.exports = [
         color: "pink",
         price: "1",
         shareOfShippingPercent: "0.25",
-        notes: "Part of a sample set"
+        notes: "Part of a sample set",
       },
       {
         type: "dye-blocks",
@@ -1588,7 +1588,7 @@ module.exports = [
         color: "navy blue",
         price: "1",
         shareOfShippingPercent: "0.25",
-        notes: "Part of a sample set"
+        notes: "Part of a sample set",
       },
       {
         type: "wax",
@@ -1597,7 +1597,7 @@ module.exports = [
         weightPounds: "10",
         remaining: "0",
         price: "16.46",
-        shareOfShippingPercent: "80"
+        shareOfShippingPercent: "80",
       },
       {
         type: "jars",
@@ -1609,13 +1609,13 @@ module.exports = [
         count: "12",
         remaining: "0",
         price: "11.11",
-        shareOfShippingPercent: "13"
-      }
+        shareOfShippingPercent: "13",
+      },
     ],
     source: "Candle Science",
     subtotalCost: "35.57",
     shippingCost: "21.05",
-    totalCost: "56.62"
+    totalCost: "56.62",
   },
   {
     openDate: "2019-04-01",
@@ -1628,7 +1628,7 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "3",
-        notes: "This was a free sample"
+        notes: "This was a free sample",
       },
       {
         type: "fragrance-oil",
@@ -1637,7 +1637,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.9",
         price: "2.41",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "fragrance-oil",
@@ -1646,7 +1646,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.27",
-        shareOfShippingPercent: "9"
+        shareOfShippingPercent: "9",
       },
       {
         type: "fragrance-oil",
@@ -1655,7 +1655,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.98",
-        shareOfShippingPercent: "9"
+        shareOfShippingPercent: "9",
       },
       {
         type: "fragrance-oil",
@@ -1664,7 +1664,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "fragrance-oil",
@@ -1673,7 +1673,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "fragrance-oil",
@@ -1682,7 +1682,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "fragrance-oil",
@@ -1691,7 +1691,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "fragrance-oil",
@@ -1700,7 +1700,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "fragrance-oil",
@@ -1709,7 +1709,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.02",
-        shareOfShippingPercent: "9"
+        shareOfShippingPercent: "9",
       },
       {
         type: "fragrance-oil",
@@ -1718,7 +1718,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "3.6",
         price: "8.27",
-        shareOfShippingPercent: "9"
+        shareOfShippingPercent: "9",
       },
       {
         type: "jars",
@@ -1730,7 +1730,7 @@ module.exports = [
         count: "12",
         remaining: "3",
         price: "11.53",
-        shareOfShippingPercent: "40"
+        shareOfShippingPercent: "40",
       },
       {
         type: "lids",
@@ -1740,13 +1740,13 @@ module.exports = [
         count: "12",
         remaining: "0",
         price: "9.48",
-        shareOfShippingPercent: "10"
-      }
+        shareOfShippingPercent: "10",
+      },
     ],
     source: "Candle Science",
     subtotalCost: "69.01",
     shippingCost: "20.13",
-    totalCost: "89.14"
+    totalCost: "89.14",
   },
   {
     openDate: "2019-04-16",
@@ -1761,7 +1761,7 @@ module.exports = [
         count: "100",
         remaining: "80",
         price: "8.39",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         type: "wick-stickers",
@@ -1769,7 +1769,7 @@ module.exports = [
         count: "100",
         remaining: "100",
         price: "4.44",
-        shareOfShippingPercent: "7"
+        shareOfShippingPercent: "7",
       },
       {
         type: "fragrance-oil",
@@ -1778,7 +1778,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "13.90",
-        shareOfShippingPercent: "20"
+        shareOfShippingPercent: "20",
       },
       {
         type: "fragrance-oil",
@@ -1787,7 +1787,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.5",
-        shareOfShippingPercent: "20"
+        shareOfShippingPercent: "20",
       },
       {
         type: "jars",
@@ -1799,7 +1799,7 @@ module.exports = [
         waxToFillLineOunces: "10.0",
         overflowVolumeOunces: "11.16",
         price: "16.51",
-        shareOfShippingPercent: "30"
+        shareOfShippingPercent: "30",
       },
       {
         type: "lids",
@@ -1809,7 +1809,7 @@ module.exports = [
         count: "12",
         remaining: "12",
         price: "10.37",
-        shareOfShippingPercent: "10"
+        shareOfShippingPercent: "10",
       },
       {
         type: "fragrance-oil",
@@ -1819,13 +1819,13 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         shareOfShippingPercent: "8",
-        notes: "This was a free sample"
-      }
+        notes: "This was a free sample",
+      },
     ],
     source: "Candle Science",
     subtotalCost: "62.11",
     shippingCost: "19.61",
-    totalCost: "81.72"
+    totalCost: "81.72",
   },
   {
     openDate: "2019-05-03",
@@ -1837,7 +1837,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "10"
+        shareOfShippingPercent: "10",
       },
       {
         type: "fragrance-oil",
@@ -1846,7 +1846,7 @@ module.exports = [
         weightOunces: "6",
         remaining: "6",
         price: "10.46",
-        shareOfShippingPercent: "50"
+        shareOfShippingPercent: "50",
       },
       {
         type: "lids",
@@ -1856,7 +1856,7 @@ module.exports = [
         count: "12",
         remaining: "12",
         price: "3.08",
-        shareOfShippingPercent: "10"
+        shareOfShippingPercent: "10",
       },
       {
         type: "fragrance-oil",
@@ -1865,7 +1865,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "10"
+        shareOfShippingPercent: "10",
       },
       {
         type: "fragrance-oil",
@@ -1874,7 +1874,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "10"
+        shareOfShippingPercent: "10",
       },
       {
         type: "fragrance-oil",
@@ -1883,13 +1883,13 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
-        shareOfShippingPercent: "10"
-      }
+        shareOfShippingPercent: "10",
+      },
     ],
     source: "Candle Science",
     subtotalCost: "23.18",
     shippingCost: "15.84",
-    totalCost: "39.02"
+    totalCost: "39.02",
   },
   {
     openDate: "2018-11-23",
@@ -1901,7 +1901,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -1910,7 +1910,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "3.5",
         price: "6.95",
-        shareOfShippingPercent: "6"
+        shareOfShippingPercent: "6",
       },
       {
         type: "fragrance-oil",
@@ -1919,7 +1919,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "3.5",
         price: "6.95",
-        shareOfShippingPercent: "6"
+        shareOfShippingPercent: "6",
       },
       {
         type: "fragrance-oil",
@@ -1928,7 +1928,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.5",
         price: "2.50",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -1937,7 +1937,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -1946,7 +1946,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -1955,7 +1955,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -1964,7 +1964,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.5",
         price: "2",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -1973,7 +1973,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.5",
         price: "2.50",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -1982,7 +1982,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.5",
         price: "2.5",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -1991,7 +1991,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.8",
         price: "2.5",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -2000,7 +2000,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -2009,7 +2009,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -2018,7 +2018,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.50",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -2027,7 +2027,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "2.5",
         price: "8.95",
-        shareOfShippingPercent: "6"
+        shareOfShippingPercent: "6",
       },
       {
         type: "fragrance-oil",
@@ -2036,7 +2036,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "3.5",
         price: "8.95",
-        shareOfShippingPercent: "6"
+        shareOfShippingPercent: "6",
       },
       {
         type: "fragrance-oil",
@@ -2045,7 +2045,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -2054,7 +2054,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -2063,7 +2063,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.8",
         price: "2",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -2072,7 +2072,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -2081,7 +2081,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -2090,7 +2090,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "0.8",
         price: "2.50",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "fragrance-oil",
@@ -2099,7 +2099,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.50",
-        shareOfShippingPercent: "1.5"
+        shareOfShippingPercent: "1.5",
       },
       {
         type: "misc-equipment",
@@ -2107,7 +2107,7 @@ module.exports = [
         count: "1",
         remaining: "1",
         price: "10.95",
-        shareOfShippingPercent: "10"
+        shareOfShippingPercent: "10",
       },
       {
         type: "jars",
@@ -2120,14 +2120,14 @@ module.exports = [
         count: "12",
         remaining: "0",
         price: "16.61",
-        shareOfShippingPercent: "50"
-      }
+        shareOfShippingPercent: "50",
+      },
     ],
     source: "Lone Star Candle Supply",
     subtotalCost: "102.87",
     shippingCost: "20.48",
     taxesAndFees: "2.03",
-    totalCost: "125.38"
+    totalCost: "125.38",
   },
   {
     openDate: "2019-04-10",
@@ -2139,7 +2139,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.39",
-        shareOfShippingPercent: "17"
+        shareOfShippingPercent: "17",
       },
       {
         type: "fragrance-oil",
@@ -2148,7 +2148,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.39",
-        shareOfShippingPercent: "17"
+        shareOfShippingPercent: "17",
       },
       {
         type: "fragrance-oil",
@@ -2157,7 +2157,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.39",
-        shareOfShippingPercent: "17"
+        shareOfShippingPercent: "17",
       },
       {
         type: "fragrance-oil",
@@ -2166,7 +2166,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.39",
-        shareOfShippingPercent: "17"
+        shareOfShippingPercent: "17",
       },
       {
         type: "fragrance-oil",
@@ -2175,7 +2175,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.39",
-        shareOfShippingPercent: "17"
+        shareOfShippingPercent: "17",
       },
       {
         type: "fragrance-oil",
@@ -2184,13 +2184,13 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.39",
-        shareOfShippingPercent: "17"
-      }
+        shareOfShippingPercent: "17",
+      },
     ],
     source: "The Flaming Candle",
     subtotalCost: "14.34",
     shippingCost: "8",
-    totalCost: "22.34"
+    totalCost: "22.34",
   },
   {
     openDate: "2018-11-14",
@@ -2203,14 +2203,14 @@ module.exports = [
         remaining: "2",
         price: "6.35",
         shareOfShippingPercent: "100",
-        notes: "From Amazon"
-      }
+        notes: "From Amazon",
+      },
     ],
     source: "Virginia Candle Supply",
     subtotalCost: "6.35",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "6.35"
+    totalCost: "6.35",
   },
   {
     openDate: "2018-11-14",
@@ -2223,14 +2223,14 @@ module.exports = [
         remaining: "1",
         price: "6.25",
         shareOfShippingPercent: "100",
-        notes: ""
-      }
+        notes: "",
+      },
     ],
     source: "P & J Trading",
     subtotalCost: "6.25",
     shippingCost: "2.95",
     taxesAndFees: "0",
-    totalCost: "9.20"
+    totalCost: "9.20",
   },
   {
     openDate: "2018-01-12",
@@ -2242,14 +2242,14 @@ module.exports = [
         remaining: "1",
         price: "9.39",
         shareOfShippingPercent: "100",
-        notes: "From Amazon"
-      }
+        notes: "From Amazon",
+      },
     ],
     source: "Top Grade Goods",
     subtotalCost: "9.39",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "9.39"
+    totalCost: "9.39",
   },
   {
     openDate: "2018-05-21",
@@ -2262,14 +2262,14 @@ module.exports = [
         remaining: "0",
         price: "23.75",
         shareOfShippingPercent: "100",
-        notes: "From Amazon"
-      }
+        notes: "From Amazon",
+      },
     ],
     source: "The Candlemaker's Store",
     shippingCost: "0",
     taxesAndFees: "0",
     totalCost: "23.75",
-    subtotalCost: "23.75"
+    subtotalCost: "23.75",
   },
   {
     openDate: "2018-11-13",
@@ -2281,14 +2281,14 @@ module.exports = [
         remaining: "0",
         price: "7.95",
         shareOfShippingPercent: "100",
-        notes: "From Amazon"
-      }
+        notes: "From Amazon",
+      },
     ],
     source: "EricX",
     subtotalCost: "7.95",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "7.95"
+    totalCost: "7.95",
   },
   {
     openDate: "2018-11-13",
@@ -2302,15 +2302,15 @@ module.exports = [
         series: "",
         price: "9.49",
         shareOfShippingPercent: "100",
-        notes: ""
-      }
+        notes: "",
+      },
     ],
     source: "The Candlemaker's Store",
     notes: "From Amazon",
     subtotalCost: "9.49",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "9.49"
+    totalCost: "9.49",
   },
   {
     openDate: "2018-05-21",
@@ -2322,15 +2322,15 @@ module.exports = [
         weightPounds: "10",
         remaining: "0",
         price: "23.75",
-        shareOfShippingPercent: "100"
-      }
+        shareOfShippingPercent: "100",
+      },
     ],
     source: "The Candlemaker's Store",
     subtotalCost: "23.75",
     shippingCost: "0",
     taxesAndFees: "0",
     totalCost: "23.75",
-    notes: "From Amazon"
+    notes: "From Amazon",
   },
   {
     openDate: "2018-12-01",
@@ -2344,15 +2344,15 @@ module.exports = [
         series: "Eco",
         size: "10",
         price: "10.50",
-        shareOfShippingPercent: "100"
-      }
+        shareOfShippingPercent: "100",
+      },
     ],
     source: "Mariposa CA",
     subtotalCost: "10.50",
     notes: "From Amazon",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "10.50"
+    totalCost: "10.50",
   },
   {
     openDate: "2018-12-18",
@@ -2363,15 +2363,15 @@ module.exports = [
         count: "20",
         remaining: "20",
         price: "9.99",
-        shareOfShippingPercent: "100"
-      }
+        shareOfShippingPercent: "100",
+      },
     ],
     source: "Forever Cases & More",
     notes: "From Amazon",
     subtotalCost: "9.99",
     totalCost: "9.99",
     taxesAndFees: "0",
-    shippingCost: "0"
+    shippingCost: "0",
   },
   {
     openDate: "2018-12-18",
@@ -2383,15 +2383,15 @@ module.exports = [
         weightPounds: "10",
         remaining: "10",
         price: "27.45",
-        shareOfShippingPercent: "100"
-      }
+        shareOfShippingPercent: "100",
+      },
     ],
     source: "Brandon's Candles, LLC",
     notes: "From Amazon",
     subtotalCost: "27.45",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "27.45"
+    totalCost: "27.45",
   },
   {
     openDate: "2018-12-22",
@@ -2404,15 +2404,15 @@ module.exports = [
         remaining: "15",
         price: "58",
         shareOfShippingPercent: "100",
-        notes: "Packaged in 2 10-lb bags"
-      }
+        notes: "Packaged in 2 10-lb bags",
+      },
     ],
     source: "Virginia Candle Supply",
     notes: "From Amazon",
     subtotalCost: "58",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "58"
+    totalCost: "58",
   },
   {
     openDate: "2019-05-03",
@@ -2424,15 +2424,15 @@ module.exports = [
         remaining: "1",
         price: "27.85",
         shareOfShippingPercent: "100",
-        notes: "2 Temp settings: 750 and 100"
-      }
+        notes: "2 Temp settings: 750 and 100",
+      },
     ],
     source: "Amazon",
     subtotalCost: "27.85",
     notes: "From Amazon",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "27.85"
+    totalCost: "27.85",
   },
   {
     openDate: "2019-04-24",
@@ -2443,15 +2443,15 @@ module.exports = [
         count: "3",
         remaining: "3",
         price: "8.99",
-        shareOfShippingPercent: "100"
-      }
+        shareOfShippingPercent: "100",
+      },
     ],
     source: "Lake Charles Manufacturing",
     subtotalCost: "8.99",
     shippingCost: "0",
     taxesAndFees: "0",
     totalCost: "8.99",
-    notes: "From Amazon"
+    notes: "From Amazon",
   },
   {
     openDate: "2019-04-23",
@@ -2463,15 +2463,15 @@ module.exports = [
         count: "1",
         remaining: "1",
         price: "12.85",
-        shareOfShippingPercent: "100"
-      }
+        shareOfShippingPercent: "100",
+      },
     ],
     source: "Greater Goods",
     notes: "From Amazon",
     subtotalCost: "12.85",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "12.85"
+    totalCost: "12.85",
   },
   {
     openDate: "2019-05-17",
@@ -2487,7 +2487,7 @@ module.exports = [
         remaining: "10",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled from a Clint's Salsa jar"
+        notes: "Recycled from a Clint's Salsa jar",
       },
       {
         type: "jars",
@@ -2500,7 +2500,7 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled from a farmer's market salsa"
+        notes: "Recycled from a farmer's market salsa",
       },
       {
         type: "jars",
@@ -2513,7 +2513,7 @@ module.exports = [
         remaining: "2",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled from Mark's Salsa"
+        notes: "Recycled from Mark's Salsa",
       },
       {
         type: "jars",
@@ -2527,7 +2527,7 @@ module.exports = [
         remaining: "2",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled from a farmer's market salsa. Non standard lid."
+        notes: "Recycled from a farmer's market salsa. Non standard lid.",
       },
       {
         type: "jars",
@@ -2541,7 +2541,7 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled from a farmer's market salsa."
+        notes: "Recycled from a farmer's market salsa.",
       },
       {
         type: "jars",
@@ -2554,7 +2554,7 @@ module.exports = [
         remaining: "3",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled."
+        notes: "Recycled.",
       },
       {
         type: "jars",
@@ -2567,7 +2567,7 @@ module.exports = [
         count: "3",
         remaining: "3",
         price: "8.91",
-        shareOfShippingPercent: "8.3"
+        shareOfShippingPercent: "8.3",
       },
       {
         type: "lids",
@@ -2581,7 +2581,7 @@ module.exports = [
         remaining: "3",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled from Clint's Salsa"
+        notes: "Recycled from Clint's Salsa",
       },
       {
         type: "lids",
@@ -2595,7 +2595,7 @@ module.exports = [
         remaining: "3",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled From Clint's Salsa"
+        notes: "Recycled From Clint's Salsa",
       },
       {
         type: "lids",
@@ -2606,14 +2606,14 @@ module.exports = [
         remaining: "3",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled from a farmer's market salsa"
-      }
+        notes: "Recycled from a farmer's market salsa",
+      },
     ],
     source: "Recycled",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "0"
+    totalCost: "0",
   },
   {
     openDate: "2019-05-21",
@@ -2625,8 +2625,8 @@ module.exports = [
         weightPounds: "0.28",
         remaining: "0.28",
         price: "0",
-        shareOfShippingPercent: "0"
-      }
+        shareOfShippingPercent: "0",
+      },
     ],
     source: "The Frogs Pond",
     notes:
@@ -2634,7 +2634,7 @@ module.exports = [
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "0"
+    totalCost: "0",
   },
   {
     openDate: "2019-05-23",
@@ -2646,7 +2646,7 @@ module.exports = [
         weightPounds: "2",
         remaining: "2",
         price: "8.00",
-        shareOfShippingPercent: "40"
+        shareOfShippingPercent: "40",
       },
       {
         type: "fragrance-oil",
@@ -2655,7 +2655,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.50",
-        shareOfShippingPercent: "4.5"
+        shareOfShippingPercent: "4.5",
       },
       {
         type: "fragrance-oil",
@@ -2664,7 +2664,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.50",
-        shareOfShippingPercent: "4.5"
+        shareOfShippingPercent: "4.5",
       },
       {
         type: "fragrance-oil",
@@ -2673,7 +2673,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.50",
-        shareOfShippingPercent: "4.5"
+        shareOfShippingPercent: "4.5",
       },
       {
         type: "fragrance-oil",
@@ -2682,7 +2682,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
-        shareOfShippingPercent: "4.5"
+        shareOfShippingPercent: "4.5",
       },
       {
         type: "fragrance-oil",
@@ -2691,7 +2691,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
-        shareOfShippingPercent: "4.5"
+        shareOfShippingPercent: "4.5",
       },
       {
         type: "fragrance-oil",
@@ -2700,7 +2700,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.50",
-        shareOfShippingPercent: "4.5"
+        shareOfShippingPercent: "4.5",
       },
       {
         type: "fragrance-oil",
@@ -2709,7 +2709,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.50",
-        shareOfShippingPercent: "4.5"
+        shareOfShippingPercent: "4.5",
       },
       {
         type: "fragrance-oil",
@@ -2718,7 +2718,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.50",
-        shareOfShippingPercent: "4.5"
+        shareOfShippingPercent: "4.5",
       },
       {
         type: "fragrance-oil",
@@ -2727,7 +2727,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
-        shareOfShippingPercent: "4.5"
+        shareOfShippingPercent: "4.5",
       },
       {
         type: "fragrance-oil",
@@ -2736,7 +2736,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
-        shareOfShippingPercent: "4.5"
+        shareOfShippingPercent: "4.5",
       },
       {
         type: "fragrance-oil",
@@ -2745,7 +2745,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
-        shareOfShippingPercent: "4.5"
+        shareOfShippingPercent: "4.5",
       },
       {
         type: "fragrance-oil",
@@ -2754,7 +2754,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
-        shareOfShippingPercent: "4.5"
+        shareOfShippingPercent: "4.5",
       },
       {
         type: "fragrance-oil",
@@ -2763,7 +2763,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
-        shareOfShippingPercent: "4.5"
+        shareOfShippingPercent: "4.5",
       },
       {
         type: "fragrance-oil",
@@ -2772,14 +2772,14 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
-        shareOfShippingPercent: "4.5"
-      }
+        shareOfShippingPercent: "4.5",
+      },
     ],
     source: "Fillmore Container",
     subtotalCost: "43.00",
     shippingCost: "15.30",
     taxesAndFees: "0",
-    totalCost: "58.30"
+    totalCost: "58.30",
   },
   {
     openDate: "2019-08-21",
@@ -2793,14 +2793,14 @@ module.exports = [
         remaining: "2",
         price: "18.99",
         shareOfShippingPercent: "100",
-        notes: "Ordered on Amazon"
-      }
+        notes: "Ordered on Amazon",
+      },
     ],
     source: "Natural Planet",
     subtotalCost: "18.99",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "18.99"
+    totalCost: "18.99",
   },
   {
     openDate: "2019-05-03",
@@ -2812,14 +2812,14 @@ module.exports = [
         remaining: "1",
         price: "27.85",
         shareOfShippingPercent: "100",
-        notes: "2 Temp Settings 750ᵒF & 1000ᵒF"
-      }
+        notes: "2 Temp Settings 750ᵒF & 1000ᵒF",
+      },
     ],
     source: "Amazon",
     subtotalCost: "27.85",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "27.85"
+    totalCost: "27.85",
   },
   {
     openDate: "2019-09-03",
@@ -2831,7 +2831,7 @@ module.exports = [
         count: "2",
         remaining: "2",
         price: "23.90",
-        shareOfShippingPercent: "33"
+        shareOfShippingPercent: "33",
       },
       {
         type: "misc-equipment",
@@ -2840,7 +2840,7 @@ module.exports = [
         count: "3",
         remaining: "3",
         price: "10.96",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         type: "misc-equipment",
@@ -2849,7 +2849,7 @@ module.exports = [
         count: "1",
         remaining: "1",
         price: "11.99",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         type: "misc-equipment",
@@ -2858,7 +2858,7 @@ module.exports = [
         count: "1",
         remaining: "1",
         price: "21.59",
-        shareOfShippingPercent: "20"
+        shareOfShippingPercent: "20",
       },
       {
         type: "misc-equipment",
@@ -2867,14 +2867,14 @@ module.exports = [
         count: "12",
         remaining: "12",
         price: "7.99",
-        shareOfShippingPercent: "10"
-      }
+        shareOfShippingPercent: "10",
+      },
     ],
     source: "Amazon",
     subtotalCost: "76.43",
     shippingCost: "0",
     taxesAndFees: "3.67",
-    totalCost: "80.10"
+    totalCost: "80.10",
   },
   {
     openDate: "2019-09-04",
@@ -2886,7 +2886,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -2895,7 +2895,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -2904,7 +2904,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -2913,7 +2913,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -2922,7 +2922,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -2931,7 +2931,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -2940,7 +2940,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wax",
@@ -2949,7 +2949,7 @@ module.exports = [
         weightPounds: "10",
         remaining: "10",
         price: "16.46",
-        shareOfShippingPercent: "33"
+        shareOfShippingPercent: "33",
       },
       {
         type: "wax",
@@ -2958,7 +2958,7 @@ module.exports = [
         weightPounds: "10",
         remaining: "10",
         price: "16.46",
-        shareOfShippingPercent: "33"
+        shareOfShippingPercent: "33",
       },
       {
         type: "wicks",
@@ -2969,7 +2969,7 @@ module.exports = [
         series: "CD",
         size: "16",
         price: "2.47",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -2980,7 +2980,7 @@ module.exports = [
         series: "CD",
         size: "18",
         price: "2.47",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -2991,7 +2991,7 @@ module.exports = [
         series: "CD",
         size: "20",
         price: "2.47",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3000,7 +3000,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3009,7 +3009,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.47",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3018,7 +3018,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.47",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3027,7 +3027,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.47",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3038,7 +3038,7 @@ module.exports = [
         series: "CD",
         size: "26",
         price: "2.47",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3049,7 +3049,7 @@ module.exports = [
         series: "CD",
         size: "24",
         price: "2.47",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3060,7 +3060,7 @@ module.exports = [
         series: "CD",
         size: "22",
         price: "2.47",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3071,7 +3071,7 @@ module.exports = [
         series: "CD",
         size: "14",
         price: "2.47",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3082,7 +3082,7 @@ module.exports = [
         series: "CD",
         size: "12",
         price: "2.47",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3091,7 +3091,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3100,7 +3100,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3109,7 +3109,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3118,7 +3118,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3127,7 +3127,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3136,7 +3136,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3145,7 +3145,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3154,7 +3154,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3163,7 +3163,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3172,7 +3172,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3181,7 +3181,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3190,7 +3190,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3199,7 +3199,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3208,7 +3208,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3217,7 +3217,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3226,7 +3226,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3235,7 +3235,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -3244,7 +3244,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3256,7 +3256,7 @@ module.exports = [
         size: "12",
         price: "1.11",
         shareOfShippingPercent: "2",
-        notes: "Part of an LX Wick Sample Kit"
+        notes: "Part of an LX Wick Sample Kit",
       },
       {
         type: "wicks",
@@ -3267,7 +3267,7 @@ module.exports = [
         series: "LX",
         size: "14",
         price: "1.11",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3278,7 +3278,7 @@ module.exports = [
         series: "LX",
         size: "16",
         price: "1.11",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3289,7 +3289,7 @@ module.exports = [
         series: "LX",
         size: "16",
         price: "1.11",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3300,7 +3300,7 @@ module.exports = [
         series: "LX",
         size: "20",
         price: "1.11",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3311,7 +3311,7 @@ module.exports = [
         series: "LX",
         size: "22",
         price: "1.11",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3322,7 +3322,7 @@ module.exports = [
         series: "LX",
         size: "24",
         price: "1.11",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3333,7 +3333,7 @@ module.exports = [
         series: "LX",
         size: "26",
         price: "1.11",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3344,7 +3344,7 @@ module.exports = [
         series: "LX",
         size: "28",
         price: "1.11",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3355,7 +3355,7 @@ module.exports = [
         series: "LX",
         size: "12",
         price: "1.11",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3366,7 +3366,7 @@ module.exports = [
         series: "LX",
         size: "14",
         price: "1.11",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3377,7 +3377,7 @@ module.exports = [
         series: "LX",
         size: "16",
         price: "1.11",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3388,7 +3388,7 @@ module.exports = [
         series: "LX",
         size: "18",
         price: "1.11",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3399,7 +3399,7 @@ module.exports = [
         series: "LX",
         size: "20",
         price: "1.11",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3410,7 +3410,7 @@ module.exports = [
         series: "LX",
         size: "22",
         price: "1.11",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3421,7 +3421,7 @@ module.exports = [
         series: "LX",
         size: "24",
         price: "1.11",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3432,7 +3432,7 @@ module.exports = [
         series: "LX",
         size: "26",
         price: "1.11",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wicks",
@@ -3443,14 +3443,14 @@ module.exports = [
         series: "LX",
         size: "28",
         price: "1.11",
-        shareOfShippingPercent: "2"
-      }
+        shareOfShippingPercent: "2",
+      },
     ],
     source: "Candle Science",
     subtotalCost: "104.82",
     shippingCost: "32.36",
     taxesAndFees: "0",
-    totalCost: "137.18"
+    totalCost: "137.18",
   },
   {
     openDate: "2019-12-01",
@@ -3466,14 +3466,14 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "100",
-        notes: "This is recycled, not sure from what"
-      }
+        notes: "This is recycled, not sure from what",
+      },
     ],
     source: "Recycled",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "0"
+    totalCost: "0",
   },
   {
     openDate: "2019-12-02",
@@ -3490,7 +3490,7 @@ module.exports = [
         remaining: "3",
         price: "0",
         shareOfShippingPercent: "100",
-        notes: "Recycled from Clint's salsa"
+        notes: "Recycled from Clint's salsa",
       },
       {
         type: "jars",
@@ -3503,7 +3503,7 @@ module.exports = [
         remaining: "2",
         price: "0",
         shareOfShippingPercent: "100",
-        notes: "Recycled from Mark's salsa"
+        notes: "Recycled from Mark's salsa",
       },
       {
         type: "jars",
@@ -3516,7 +3516,7 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "100",
-        notes: "Recycled from something"
+        notes: "Recycled from something",
       },
       {
         type: "jars",
@@ -3529,15 +3529,15 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "100",
-        notes: "Recycled from something"
-      }
+        notes: "Recycled from something",
+      },
     ],
     source: "Recycled",
     notes: "These are all recycled",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "0"
+    totalCost: "0",
   },
   {
     openDate: "2019-12-02",
@@ -3553,7 +3553,7 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "100",
-        notes: "Recycled from Clint's salsa"
+        notes: "Recycled from Clint's salsa",
       },
       {
         type: "jars",
@@ -3566,14 +3566,14 @@ module.exports = [
         remaining: "8",
         price: "0",
         shareOfShippingPercent: "100",
-        notes: "Recycled from Mark's salsa"
-      }
+        notes: "Recycled from Mark's salsa",
+      },
     ],
     source: "Recycled Salsas",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "0"
+    totalCost: "0",
   },
   {
     openDate: "2019-12-04",
@@ -3589,14 +3589,14 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "100",
-        notes: "Recycled from a cleaned out candle"
-      }
+        notes: "Recycled from a cleaned out candle",
+      },
     ],
     source: "Recycled",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "0"
+    totalCost: "0",
   },
   {
     openDate: "2019-12-05",
@@ -3607,7 +3607,7 @@ module.exports = [
         count: "4",
         remaining: "4",
         price: "14.95",
-        shareOfShippingPercent: "33"
+        shareOfShippingPercent: "33",
       },
       {
         type: "misc-equipment",
@@ -3617,7 +3617,7 @@ module.exports = [
         price: "11.99",
         shareOfShippingPercent: "33",
         notes:
-          "500g/0.01g Small Portable Electronic Precision Scale, Food Scale with Back-Lit LCD Display(Batteries Included)"
+          "500g/0.01g Small Portable Electronic Precision Scale, Food Scale with Back-Lit LCD Display(Batteries Included)",
       },
       {
         type: "misc-equipment",
@@ -3626,14 +3626,14 @@ module.exports = [
         remaining: "12",
         price: "17.09",
         shareOfShippingPercent: "33",
-        notes: "Borosilicate Glass - Eisco Labs"
-      }
+        notes: "Borosilicate Glass - Eisco Labs",
+      },
     ],
     source: "Amazon",
     subtotalCost: "44.03",
     shippingCost: "0",
     taxesAndFees: "3.63",
-    totalCost: "47.66"
+    totalCost: "47.66",
   },
   {
     openDate: "2019-12-05",
@@ -3650,7 +3650,7 @@ module.exports = [
         remaining: "2",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled"
+        notes: "Recycled",
       },
       {
         type: "jars",
@@ -3663,7 +3663,7 @@ module.exports = [
         remaining: "4",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled"
+        notes: "Recycled",
       },
       {
         type: "jars",
@@ -3676,7 +3676,7 @@ module.exports = [
         remaining: "5",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled"
+        notes: "Recycled",
       },
       {
         type: "jars",
@@ -3690,7 +3690,7 @@ module.exports = [
         remaining: "5",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled"
+        notes: "Recycled",
       },
       {
         type: "jars",
@@ -3704,7 +3704,7 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled"
+        notes: "Recycled",
       },
       {
         type: "jars",
@@ -3717,7 +3717,7 @@ module.exports = [
         remaining: "4",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled"
+        notes: "Recycled",
       },
       {
         type: "jars",
@@ -3731,7 +3731,7 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled"
+        notes: "Recycled",
       },
       {
         type: "lids",
@@ -3742,14 +3742,14 @@ module.exports = [
         remaining: "6",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled"
-      }
+        notes: "Recycled",
+      },
     ],
     source: "Recycled",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "0"
+    totalCost: "0",
   },
   {
     openDate: "2019-12-08",
@@ -3765,14 +3765,14 @@ module.exports = [
         remaining: "4",
         price: "0",
         shareOfShippingPercent: "100",
-        notes: "recycled from previous candles"
-      }
+        notes: "recycled from previous candles",
+      },
     ],
     source: "Recycled",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "0"
+    totalCost: "0",
   },
   {
     openDate: "2019-12-09",
@@ -3784,7 +3784,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "13.90",
-        shareOfShippingPercent: "14"
+        shareOfShippingPercent: "14",
       },
       {
         type: "fragrance-oil",
@@ -3793,7 +3793,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "13.90",
-        shareOfShippingPercent: "14"
+        shareOfShippingPercent: "14",
       },
       {
         type: "fragrance-oil",
@@ -3802,7 +3802,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "13.90",
-        shareOfShippingPercent: "14"
+        shareOfShippingPercent: "14",
       },
       {
         type: "fragrance-oil",
@@ -3811,7 +3811,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "12.88",
-        shareOfShippingPercent: "14"
+        shareOfShippingPercent: "14",
       },
       {
         type: "fragrance-oil",
@@ -3820,7 +3820,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
-        shareOfShippingPercent: "9"
+        shareOfShippingPercent: "9",
       },
       {
         type: "fragrance-oil",
@@ -3829,7 +3829,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.90",
-        shareOfShippingPercent: "9"
+        shareOfShippingPercent: "9",
       },
       {
         type: "fragrance-oil",
@@ -3838,7 +3838,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.98",
-        shareOfShippingPercent: "9"
+        shareOfShippingPercent: "9",
       },
       {
         type: "fragrance-oil",
@@ -3847,7 +3847,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.27",
-        shareOfShippingPercent: "9"
+        shareOfShippingPercent: "9",
       },
       {
         type: "fragrance-oil",
@@ -3857,13 +3857,13 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "5",
-        notes: "This was a free sample"
-      }
+        notes: "This was a free sample",
+      },
     ],
     source: "Candle Science",
     subtotalCost: "89.23",
     shippingCost: "20",
-    totalCost: "109.23"
+    totalCost: "109.23",
   },
   {
     openDate: "2019-12-09",
@@ -3878,7 +3878,7 @@ module.exports = [
         size: "31",
         price: "1.40",
         shareOfShippingPercent: "2",
-        notes: "part of 2 combined sample kits"
+        notes: "part of 2 combined sample kits",
       },
       {
         type: "wicks",
@@ -3890,7 +3890,7 @@ module.exports = [
         size: "41",
         price: "1.40",
         shareOfShippingPercent: "2",
-        notes: "part of 2 combined sample kits"
+        notes: "part of 2 combined sample kits",
       },
       {
         type: "wicks",
@@ -3902,7 +3902,7 @@ module.exports = [
         size: "52",
         price: "1.40",
         shareOfShippingPercent: "2",
-        notes: "part of 2 combined sample kits"
+        notes: "part of 2 combined sample kits",
       },
       {
         type: "wicks",
@@ -3914,7 +3914,7 @@ module.exports = [
         size: "62",
         price: "1.40",
         shareOfShippingPercent: "2",
-        notes: "part of 2 combined sample kits"
+        notes: "part of 2 combined sample kits",
       },
       {
         type: "wicks",
@@ -3926,7 +3926,7 @@ module.exports = [
         size: "73",
         price: "1.40",
         shareOfShippingPercent: "2",
-        notes: "part of 2 combined sample kits"
+        notes: "part of 2 combined sample kits",
       },
       {
         type: "wicks",
@@ -3938,7 +3938,7 @@ module.exports = [
         size: "83",
         price: "1.40",
         shareOfShippingPercent: "2",
-        notes: "part of 2 combined sample kits"
+        notes: "part of 2 combined sample kits",
       },
       {
         type: "wicks",
@@ -3950,7 +3950,7 @@ module.exports = [
         size: "93",
         price: "1.40",
         shareOfShippingPercent: "2",
-        notes: "part of 2 combined sample kits"
+        notes: "part of 2 combined sample kits",
       },
       {
         type: "wicks",
@@ -3962,7 +3962,7 @@ module.exports = [
         size: "104",
         price: "1.40",
         shareOfShippingPercent: "2",
-        notes: "part of 2 combined sample kits"
+        notes: "part of 2 combined sample kits",
       },
       {
         type: "wicks",
@@ -3974,7 +3974,7 @@ module.exports = [
         size: "105",
         price: "1.40",
         shareOfShippingPercent: "2",
-        notes: "part of 2 combined sample kits"
+        notes: "part of 2 combined sample kits",
       },
       {
         type: "wicks",
@@ -3986,7 +3986,7 @@ module.exports = [
         size: "126",
         price: "1.40",
         shareOfShippingPercent: "2",
-        notes: "part of 2 combined sample kits"
+        notes: "part of 2 combined sample kits",
       },
       {
         type: "wicks",
@@ -3998,7 +3998,7 @@ module.exports = [
         size: "1212",
         price: "1.40",
         shareOfShippingPercent: "2",
-        notes: "part of 2 combined sample kits"
+        notes: "part of 2 combined sample kits",
       },
       {
         type: "wicks",
@@ -4010,7 +4010,7 @@ module.exports = [
         size: "1312",
         price: "1.40",
         shareOfShippingPercent: "2",
-        notes: "part of 2 combined sample kits"
+        notes: "part of 2 combined sample kits",
       },
       {
         type: "fragrance-oil",
@@ -4019,7 +4019,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "6.99",
-        shareOfShippingPercent: "20"
+        shareOfShippingPercent: "20",
       },
       {
         type: "fragrance-oil",
@@ -4028,7 +4028,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "7.19",
-        shareOfShippingPercent: "20"
+        shareOfShippingPercent: "20",
       },
       {
         type: "fragrance-oil",
@@ -4037,7 +4037,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "7.19",
-        shareOfShippingPercent: "20"
+        shareOfShippingPercent: "20",
       },
       {
         type: "fragrance-oil",
@@ -4046,7 +4046,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.49",
-        shareOfShippingPercent: "10"
+        shareOfShippingPercent: "10",
       },
       {
         type: "fragrance-oil",
@@ -4056,13 +4056,13 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "10",
-        notes: "this was a free sample"
-      }
+        notes: "this was a free sample",
+      },
     ],
     source: "The Flaming Candle",
     subtotalCost: "39.26",
     shippingCost: "12.60",
-    totalCost: "51.86"
+    totalCost: "51.86",
   },
   {
     openDate: "2019-12-10",
@@ -4074,7 +4074,7 @@ module.exports = [
         weightPounds: "10",
         remaining: "10",
         price: "16.46",
-        shareOfShippingPercent: "25"
+        shareOfShippingPercent: "25",
       },
       {
         type: "wax",
@@ -4083,7 +4083,7 @@ module.exports = [
         weightPounds: "10",
         remaining: "10",
         price: "16.46",
-        shareOfShippingPercent: "25"
+        shareOfShippingPercent: "25",
       },
       {
         type: "fragrance-oil",
@@ -4092,7 +4092,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.02",
-        shareOfShippingPercent: "1"
+        shareOfShippingPercent: "1",
       },
       {
         type: "fragrance-oil",
@@ -4101,7 +4101,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.27",
-        shareOfShippingPercent: "1"
+        shareOfShippingPercent: "1",
       },
       {
         type: "jars",
@@ -4115,7 +4115,7 @@ module.exports = [
         remaining: "48",
         price: "26.40",
         shareOfShippingPercent: "16",
-        notes: "This is 2-24 packs with the same code for simplicity"
+        notes: "This is 2-24 packs with the same code for simplicity",
       },
       {
         type: "fragrance-oil",
@@ -4125,7 +4125,7 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "0.33",
-        notes: "This is a free sample"
+        notes: "This is a free sample",
       },
       {
         type: "fragrance-oil",
@@ -4134,7 +4134,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.53",
-        shareOfShippingPercent: "0.33"
+        shareOfShippingPercent: "0.33",
       },
       {
         type: "lids",
@@ -4145,7 +4145,7 @@ module.exports = [
         remaining: "24",
         price: "4.18",
         shareOfShippingPercent: "2",
-        notes: "This is 2 12 packs combined to one code for simplicity"
+        notes: "This is 2 12 packs combined to one code for simplicity",
       },
       {
         type: "fragrance-oil",
@@ -4154,7 +4154,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
-        shareOfShippingPercent: "1"
+        shareOfShippingPercent: "1",
       },
       {
         type: "fragrance-oil",
@@ -4163,7 +4163,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "7.81",
-        shareOfShippingPercent: "1"
+        shareOfShippingPercent: "1",
       },
       {
         type: "fragrance-oil",
@@ -4172,7 +4172,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "7.44",
-        shareOfShippingPercent: "1"
+        shareOfShippingPercent: "1",
       },
       {
         type: "wick-stickers",
@@ -4180,7 +4180,7 @@ module.exports = [
         count: "120",
         remaining: "120",
         price: "5.96",
-        shareOfShippingPercent: "0.33"
+        shareOfShippingPercent: "0.33",
       },
       {
         type: "jars",
@@ -4192,7 +4192,7 @@ module.exports = [
         count: "12",
         remaining: "12",
         price: "17.57",
-        shareOfShippingPercent: "8"
+        shareOfShippingPercent: "8",
       },
       {
         type: "jars",
@@ -4204,7 +4204,7 @@ module.exports = [
         count: "12",
         remaining: "12",
         price: "17.57",
-        shareOfShippingPercent: "8"
+        shareOfShippingPercent: "8",
       },
       {
         type: "fragrance-oil",
@@ -4213,7 +4213,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
-        shareOfShippingPercent: "1"
+        shareOfShippingPercent: "1",
       },
       {
         type: "jars",
@@ -4225,7 +4225,7 @@ module.exports = [
         count: "12",
         remaining: "12",
         price: "17.57",
-        shareOfShippingPercent: "8"
+        shareOfShippingPercent: "8",
       },
       {
         type: "fragrance-oil",
@@ -4234,7 +4234,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.53",
-        shareOfShippingPercent: "0.33"
+        shareOfShippingPercent: "0.33",
       },
       {
         type: "fragrance-oil",
@@ -4243,7 +4243,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.27",
-        shareOfShippingPercent: "1"
+        shareOfShippingPercent: "1",
       },
       {
         type: "fragrance-oil",
@@ -4252,7 +4252,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
-        shareOfShippingPercent: "1"
+        shareOfShippingPercent: "1",
       },
       {
         type: "fragrance-oil",
@@ -4261,7 +4261,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
-        shareOfShippingPercent: "1"
+        shareOfShippingPercent: "1",
       },
       {
         type: "fragrance-oil",
@@ -4270,7 +4270,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
-        shareOfShippingPercent: "1"
+        shareOfShippingPercent: "1",
       },
       {
         type: "misc-equipment",
@@ -4278,7 +4278,7 @@ module.exports = [
         count: "100",
         remaining: "100",
         price: "4.96",
-        shareOfShippingPercent: "0.33"
+        shareOfShippingPercent: "0.33",
       },
       {
         type: "fragrance-oil",
@@ -4287,7 +4287,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
-        shareOfShippingPercent: "1"
+        shareOfShippingPercent: "1",
       },
       {
         type: "fragrance-oil",
@@ -4296,7 +4296,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.98",
-        shareOfShippingPercent: "1"
+        shareOfShippingPercent: "1",
       },
       {
         type: "lids",
@@ -4306,14 +4306,14 @@ module.exports = [
         count: "12",
         remaining: "12",
         price: "10.13",
-        shareOfShippingPercent: "1"
-      }
+        shareOfShippingPercent: "1",
+      },
     ],
     source: "Candle Science",
     subtotalCost: "242.11",
     shippingCost: "65.54",
     taxesAndFees: "0",
-    totalCost: "307.65"
+    totalCost: "307.65",
   },
   {
     openDate: "2019-12-11",
@@ -4325,7 +4325,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -4334,7 +4334,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -4343,7 +4343,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -4352,7 +4352,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "wax",
@@ -4361,7 +4361,7 @@ module.exports = [
         weightPounds: "2",
         remaining: "2",
         price: "8",
-        shareOfShippingPercent: "40"
+        shareOfShippingPercent: "40",
       },
       {
         type: "wax",
@@ -4370,7 +4370,7 @@ module.exports = [
         weightPounds: "2",
         remaining: "2",
         price: "8",
-        shareOfShippingPercent: "40"
+        shareOfShippingPercent: "40",
       },
       {
         type: "misc-equipment",
@@ -4378,14 +4378,14 @@ module.exports = [
         count: "1",
         remaining: "1",
         price: "8.50",
-        shareOfShippingPercent: "4"
-      }
+        shareOfShippingPercent: "4",
+      },
     ],
     source: "Fillmore Container",
     subtotalCost: "37.50",
     shippingCost: "16.53",
     taxesAndFees: "0",
-    totalCost: "54.03"
+    totalCost: "54.03",
   },
   {
     openDate: "2019-12-12",
@@ -4397,7 +4397,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "6.95",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         category: "food-and-drink",
@@ -4406,7 +4406,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "12.95",
-        shareOfShippingPercent: "35"
+        shareOfShippingPercent: "35",
       },
       {
         type: "dye-blocks",
@@ -4415,7 +4415,7 @@ module.exports = [
         remaining: "3",
         color: "red",
         price: "0.99",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "warning-labels",
@@ -4424,7 +4424,7 @@ module.exports = [
         count: "100",
         remaining: "100",
         price: "4.50",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         type: "warning-labels",
@@ -4433,7 +4433,7 @@ module.exports = [
         count: "100",
         remaining: "100",
         price: "2.75",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         type: "wicks",
@@ -4446,14 +4446,14 @@ module.exports = [
         price: "9.95",
         shareOfShippingPercent: "15",
         notes:
-          "These are not nearly as organized as CS. Just kind of stuffed into a bag."
-      }
+          "These are not nearly as organized as CS. Just kind of stuffed into a bag.",
+      },
     ],
     source: "Lone Star Candle Supply",
     subtotalCost: "38.09",
     taxesAndFees: "3.79",
     shippingCost: "7.85",
-    totalCost: "49.73"
+    totalCost: "49.73",
   },
   {
     openDate: "2019-12-12",
@@ -4465,7 +4465,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         category: "flowers-and-herbs",
@@ -4475,7 +4475,7 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "15",
-        notes: "This was a free sample"
+        notes: "This was a free sample",
       },
       {
         category: "spice",
@@ -4484,7 +4484,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.00",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         category: "earthy",
@@ -4493,7 +4493,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.00",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         category: "food-and-drink",
@@ -4502,7 +4502,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.00",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         category: "other",
@@ -4511,7 +4511,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.00",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         category: "earthy",
@@ -4520,7 +4520,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "2.00",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         type: "wicks",
@@ -4531,14 +4531,14 @@ module.exports = [
         series: "CD",
         size: "16",
         price: "9.95",
-        shareOfShippingPercent: "15"
-      }
+        shareOfShippingPercent: "15",
+      },
     ],
     source: "AAA Candle Supply",
     subtotalCost: "21.95",
     shippingCost: "7.99",
     taxesAndFees: "2.47",
-    totalCost: "32.41"
+    totalCost: "32.41",
   },
   {
     openDate: "2019-12-12",
@@ -4554,14 +4554,14 @@ module.exports = [
         remaining: "2",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "recycled"
-      }
+        notes: "recycled",
+      },
     ],
     source: "Recycled",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "0"
+    totalCost: "0",
   },
   {
     openDate: "2019-12-15",
@@ -4575,7 +4575,7 @@ module.exports = [
         series: "CD",
         size: "4",
         price: "8.61",
-        shareOfShippingPercent: "25"
+        shareOfShippingPercent: "25",
       },
       {
         type: "wicks",
@@ -4586,7 +4586,7 @@ module.exports = [
         series: "CD",
         size: "3",
         price: "8.42",
-        shareOfShippingPercent: "25"
+        shareOfShippingPercent: "25",
       },
       {
         type: "wicks",
@@ -4597,7 +4597,7 @@ module.exports = [
         series: "CD",
         size: "6",
         price: "8.85",
-        shareOfShippingPercent: "25"
+        shareOfShippingPercent: "25",
       },
       {
         type: "fragrance-oil",
@@ -4607,14 +4607,14 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "25",
-        notes: "This was a free sample"
-      }
+        notes: "This was a free sample",
+      },
     ],
     source: "CandleScience",
     subtotalCost: "25.88",
     shippingCost: "10",
     taxesAndFees: "0",
-    totalCost: "35.88"
+    totalCost: "35.88",
   },
   {
     openDate: "2019-12-15",
@@ -4630,14 +4630,14 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "100",
-        notes: "this is recycled from a different candle test"
-      }
+        notes: "this is recycled from a different candle test",
+      },
     ],
     source: "Recycled",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "0"
+    totalCost: "0",
   },
   {
     openDate: "2019-12-17",
@@ -4651,7 +4651,7 @@ module.exports = [
         series: "LX",
         size: "16",
         price: "7.71",
-        shareOfShippingPercent: "14"
+        shareOfShippingPercent: "14",
       },
       {
         type: "wicks",
@@ -4662,7 +4662,7 @@ module.exports = [
         series: "LX",
         size: "18",
         price: "7.73",
-        shareOfShippingPercent: "14"
+        shareOfShippingPercent: "14",
       },
       {
         type: "wicks",
@@ -4673,7 +4673,7 @@ module.exports = [
         series: "LX",
         size: "20",
         price: "7.31",
-        shareOfShippingPercent: "14"
+        shareOfShippingPercent: "14",
       },
       {
         type: "wicks",
@@ -4684,7 +4684,7 @@ module.exports = [
         series: "LX",
         size: "20",
         price: "7.77",
-        shareOfShippingPercent: "14"
+        shareOfShippingPercent: "14",
       },
       {
         type: "wicks",
@@ -4695,7 +4695,7 @@ module.exports = [
         series: "LX",
         size: "26",
         price: "7.78",
-        shareOfShippingPercent: "14"
+        shareOfShippingPercent: "14",
       },
       {
         type: "wicks",
@@ -4706,7 +4706,7 @@ module.exports = [
         series: "CD",
         size: "14",
         price: "9.24",
-        shareOfShippingPercent: "14"
+        shareOfShippingPercent: "14",
       },
       {
         type: "fragrance-oil",
@@ -4716,14 +4716,14 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "14",
-        notes: "Free sample"
-      }
+        notes: "Free sample",
+      },
     ],
     source: "CandleScience",
     subtotalCost: "47.54",
     shippingCost: "12.60",
     taxesAndFees: "4.96",
-    totalCost: "65.10"
+    totalCost: "65.10",
   },
   {
     openDate: "2019-12-17",
@@ -4739,7 +4739,7 @@ module.exports = [
         remaining: "7",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled from test candles. slightly chipped."
+        notes: "Recycled from test candles. slightly chipped.",
       },
       {
         type: "jars",
@@ -4752,7 +4752,7 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled from test candle"
+        notes: "Recycled from test candle",
       },
       {
         type: "jars",
@@ -4765,7 +4765,7 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled from a test candle"
+        notes: "Recycled from a test candle",
       },
       {
         type: "jars",
@@ -4778,14 +4778,14 @@ module.exports = [
         remaining: "4",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled from old candles"
-      }
+        notes: "Recycled from old candles",
+      },
     ],
     source: "Recycled",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "0"
+    totalCost: "0",
   },
   {
     openDate: "2020-01-09",
@@ -4797,7 +4797,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "12.72",
-        shareOfShippingPercent: "6.25"
+        shareOfShippingPercent: "6.25",
       },
       {
         type: "fragrance-oil",
@@ -4806,7 +4806,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "13.90",
-        shareOfShippingPercent: "6.25"
+        shareOfShippingPercent: "6.25",
       },
       {
         type: "fragrance-oil",
@@ -4815,7 +4815,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.27",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -4825,7 +4825,7 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "2",
-        notes: "Free Sample"
+        notes: "Free Sample",
       },
       {
         type: "jars",
@@ -4838,14 +4838,14 @@ module.exports = [
         remaining: "36",
         price: "36.81",
         shareOfShippingPercent: "75",
-        notes: "this is 3 boxes of 12 combined into one set"
-      }
+        notes: "this is 3 boxes of 12 combined into one set",
+      },
     ],
     source: "CandleScience",
     subtotalCost: "71.70",
     shippingCost: "26.37",
     taxesAndFees: "8.10",
-    totalCost: "106.17"
+    totalCost: "106.17",
   },
   {
     openDate: "2020-01-11",
@@ -4858,14 +4858,14 @@ module.exports = [
         remaining: "12",
         price: "23.52",
         shareOfShippingPercent: "100",
-        notes: ""
-      }
+        notes: "",
+      },
     ],
     source: "California Candle Supply",
     subtotalCost: "23.52",
     shippingCost: "15.30",
     taxesAndFees: "0",
-    totalCost: "38.82"
+    totalCost: "38.82",
   },
   {
     openDate: "2020-01-11",
@@ -4882,7 +4882,7 @@ module.exports = [
         price: "0",
         shareOfShippingPercent: "100",
         notes:
-          "recycled from test candles. some are double recycled and are slightly chipped from dishwasher or double boiler"
+          "recycled from test candles. some are double recycled and are slightly chipped from dishwasher or double boiler",
       },
       {
         type: "jars",
@@ -4895,7 +4895,7 @@ module.exports = [
         remaining: "3",
         price: "0",
         shareOfShippingPercent: "100",
-        notes: "some chipped on bottom from dishwasher"
+        notes: "some chipped on bottom from dishwasher",
       },
       {
         type: "jars",
@@ -4907,14 +4907,14 @@ module.exports = [
         count: "3",
         remaining: "3",
         price: "0",
-        shareOfShippingPercent: "100"
-      }
+        shareOfShippingPercent: "100",
+      },
     ],
     source: "Recycled",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "0"
+    totalCost: "0",
   },
   {
     openDate: "2020-01-13",
@@ -4928,14 +4928,14 @@ module.exports = [
         series: "CD",
         size: "2",
         price: "9.49",
-        shareOfShippingPercent: "100"
-      }
+        shareOfShippingPercent: "100",
+      },
     ],
     source: "Bitter Creek Candle Supply",
     subtotalCost: "9.49",
     shippingCost: "5.56",
     taxesAndFees: "0",
-    totalCost: "15.05"
+    totalCost: "15.05",
   },
   {
     openDate: "2020-01-14",
@@ -4948,7 +4948,7 @@ module.exports = [
         remaining: "20",
         price: "37.90",
         shareOfShippingPercent: "80",
-        notes: "This is 2 10-lb bags "
+        notes: "This is 2 10-lb bags ",
       },
       {
         type: "fragrance-oil",
@@ -4957,7 +4957,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "9.95",
-        shareOfShippingPercent: "7"
+        shareOfShippingPercent: "7",
       },
       {
         type: "fragrance-oil",
@@ -4966,7 +4966,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "9.95",
-        shareOfShippingPercent: "7"
+        shareOfShippingPercent: "7",
       },
       {
         type: "fragrance-oil",
@@ -4975,14 +4975,14 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "9.95",
-        shareOfShippingPercent: "7"
-      }
+        shareOfShippingPercent: "7",
+      },
     ],
     source: "AAA Candle Supplies",
     subtotalCost: "67.75",
     shippingCost: "17.91",
     totalCost: "92.72",
-    taxesAndFees: "7.06"
+    taxesAndFees: "7.06",
   },
   {
     openDate: "2020-01-15",
@@ -4997,7 +4997,7 @@ module.exports = [
         size: "725",
         price: "2.56",
         shareOfShippingPercent: "1.50",
-        notes: "this is from 4 sample packs"
+        notes: "this is from 4 sample packs",
       },
       {
         type: "wicks",
@@ -5009,7 +5009,7 @@ module.exports = [
         size: "735",
         price: "2.56",
         shareOfShippingPercent: "1.50",
-        notes: "From 4 sample packs"
+        notes: "From 4 sample packs",
       },
       {
         type: "wicks",
@@ -5021,7 +5021,7 @@ module.exports = [
         size: "20",
         price: "2.56",
         shareOfShippingPercent: "1.50",
-        notes: "From 4 sample packs"
+        notes: "From 4 sample packs",
       },
       {
         type: "wicks",
@@ -5033,7 +5033,7 @@ module.exports = [
         size: "750",
         price: "2.56",
         shareOfShippingPercent: "1.50",
-        notes: "from 4 sample packs"
+        notes: "from 4 sample packs",
       },
       {
         type: "wicks",
@@ -5044,7 +5044,7 @@ module.exports = [
         series: "Premier",
         size: "760",
         price: "2.56",
-        shareOfShippingPercent: "1.50"
+        shareOfShippingPercent: "1.50",
       },
       {
         type: "wicks",
@@ -5056,7 +5056,7 @@ module.exports = [
         size: "755",
         price: "2.56",
         shareOfShippingPercent: "1.50",
-        notes: "from 4 sample packs"
+        notes: "from 4 sample packs",
       },
       {
         type: "wicks",
@@ -5068,7 +5068,7 @@ module.exports = [
         size: "765",
         price: "2.56",
         shareOfShippingPercent: "1.50",
-        notes: "from 4 sample packs"
+        notes: "from 4 sample packs",
       },
       {
         type: "wicks",
@@ -5080,7 +5080,7 @@ module.exports = [
         size: "775",
         price: "2.56",
         shareOfShippingPercent: "1.50",
-        notes: "from 4 sample packs"
+        notes: "from 4 sample packs",
       },
       {
         type: "wicks",
@@ -5092,7 +5092,7 @@ module.exports = [
         size: "780",
         price: "2.56",
         shareOfShippingPercent: "1.50",
-        notes: "from 4 sample packs"
+        notes: "from 4 sample packs",
       },
       {
         type: "wicks",
@@ -5104,7 +5104,7 @@ module.exports = [
         size: "785",
         price: "2.56",
         shareOfShippingPercent: "1.50",
-        notes: "from 4 sample packs"
+        notes: "from 4 sample packs",
       },
       {
         type: "wicks",
@@ -5116,7 +5116,7 @@ module.exports = [
         size: "795",
         price: "2.56",
         shareOfShippingPercent: "1.50",
-        notes: "from 4 sample packs"
+        notes: "from 4 sample packs",
       },
       {
         type: "wicks",
@@ -5128,7 +5128,7 @@ module.exports = [
         size: "799",
         price: "2.56",
         shareOfShippingPercent: "1.50",
-        notes: "from 4 sample packs"
+        notes: "from 4 sample packs",
       },
       {
         type: "fragrance-oil",
@@ -5138,7 +5138,7 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "1.50",
-        notes: "free sample"
+        notes: "free sample",
       },
       {
         type: "fragrance-oil",
@@ -5147,7 +5147,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "11.19",
-        shareOfShippingPercent: "16"
+        shareOfShippingPercent: "16",
       },
       {
         type: "fragrance-oil",
@@ -5156,7 +5156,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "9.69",
-        shareOfShippingPercent: "16"
+        shareOfShippingPercent: "16",
       },
       {
         type: "fragrance-oil",
@@ -5165,7 +5165,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "11.19",
-        shareOfShippingPercent: "16"
+        shareOfShippingPercent: "16",
       },
       {
         type: "fragrance-oil",
@@ -5174,7 +5174,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "9.79",
-        shareOfShippingPercent: "16"
+        shareOfShippingPercent: "16",
       },
       {
         type: "fragrance-oil",
@@ -5183,14 +5183,14 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "10.59",
-        shareOfShippingPercent: "16"
-      }
+        shareOfShippingPercent: "16",
+      },
     ],
     source: "The Flaming Candle",
     subtotalCost: "83.21",
     shippingCost: "15.60",
     taxesAndFees: "0",
-    totalCost: "98.81"
+    totalCost: "98.81",
   },
   {
     openDate: "2020-01-15",
@@ -5203,14 +5203,14 @@ module.exports = [
         remaining: "2",
         price: "19.29",
         shareOfShippingPercent: "100",
-        notes: "sold as 2 1-lb packages"
-      }
+        notes: "sold as 2 1-lb packages",
+      },
     ],
     source: "Amazon",
     subtotalCost: "19.29",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "19.29"
+    totalCost: "19.29",
   },
   {
     openDate: "2020-01-18",
@@ -5222,7 +5222,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "12.04",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -5231,7 +5231,7 @@ module.exports = [
         weightOunces: "16",
         remaining: "16",
         price: "18.82",
-        shareOfShippingPercent: "8"
+        shareOfShippingPercent: "8",
       },
       {
         type: "fragrance-oil",
@@ -5241,7 +5241,7 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "3",
-        notes: "Free sample."
+        notes: "Free sample.",
       },
       {
         type: "fragrance-oil",
@@ -5250,7 +5250,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.98",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -5259,7 +5259,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -5268,7 +5268,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "12.66",
-        shareOfShippingPercent: "6"
+        shareOfShippingPercent: "6",
       },
       {
         type: "fragrance-oil",
@@ -5277,7 +5277,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "12.77",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "jars",
@@ -5289,7 +5289,7 @@ module.exports = [
         count: "12",
         remaining: "12",
         price: "17.57",
-        shareOfShippingPercent: "9"
+        shareOfShippingPercent: "9",
       },
       {
         type: "fragrance-oil",
@@ -5298,7 +5298,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "12.86",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -5307,7 +5307,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.27",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -5316,7 +5316,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "fragrance-oil",
@@ -5325,7 +5325,7 @@ module.exports = [
         weightOunces: "16",
         remaining: "16",
         price: "18.82",
-        shareOfShippingPercent: "6"
+        shareOfShippingPercent: "6",
       },
       {
         type: "fragrance-oil",
@@ -5334,7 +5334,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "12.86",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -5343,7 +5343,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "12.61",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "lids",
@@ -5354,7 +5354,7 @@ module.exports = [
         remaining: "12",
         price: "9.49",
         shareOfShippingPercent: "4",
-        notes: ""
+        notes: "",
       },
       {
         type: "lids",
@@ -5364,7 +5364,7 @@ module.exports = [
         count: "12",
         remaining: "12",
         price: "10.13",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -5373,7 +5373,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "13.90",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -5382,7 +5382,7 @@ module.exports = [
         weightOunces: "16",
         remaining: "16",
         price: "23.06",
-        shareOfShippingPercent: "7"
+        shareOfShippingPercent: "7",
       },
       {
         type: "fragrance-oil",
@@ -5391,7 +5391,7 @@ module.exports = [
         weightOunces: "16",
         remaining: "16",
         price: "23.06",
-        shareOfShippingPercent: "7"
+        shareOfShippingPercent: "7",
       },
       {
         type: "fragrance-oil",
@@ -5400,7 +5400,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "13.90",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -5409,7 +5409,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "13.90",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -5418,7 +5418,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "12.86",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -5427,7 +5427,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "11.94",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "wicks",
@@ -5438,7 +5438,7 @@ module.exports = [
         series: "Eco",
         size: "2",
         price: "8.35",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "fragrance-oil",
@@ -5447,7 +5447,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "12.72",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -5456,7 +5456,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.27",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -5465,14 +5465,14 @@ module.exports = [
         weightOunces: "16",
         remaining: "16",
         price: "19.97",
-        shareOfShippingPercent: "7"
-      }
+        shareOfShippingPercent: "7",
+      },
     ],
     source: "Candle Science",
     subtotalCost: "346.41",
     taxesAndFees: "30.97",
     shippingCost: "28.39",
-    totalCost: "405.77"
+    totalCost: "405.77",
   },
   {
     openDate: "2020-01-18",
@@ -5484,7 +5484,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "13.95",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         type: "wicks",
@@ -5495,7 +5495,7 @@ module.exports = [
         series: "CD",
         size: "7",
         price: "8.95",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         type: "fragrance-oil",
@@ -5504,7 +5504,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "12.95",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         type: "fragrance-oil",
@@ -5513,7 +5513,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "9.95",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         type: "fragrance-oil",
@@ -5522,7 +5522,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.95",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         type: "fragrance-oil",
@@ -5531,14 +5531,14 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.95",
-        shareOfShippingPercent: "15"
-      }
+        shareOfShippingPercent: "15",
+      },
     ],
     source: "Lonestar Candle Supply",
     subtotalCost: "63.70",
     shippingCost: "7.85",
     taxesAndFees: "5.90",
-    totalCost: "77.45"
+    totalCost: "77.45",
   },
   {
     openDate: "2020-01-18",
@@ -5550,7 +5550,7 @@ module.exports = [
         weightPounds: "45",
         remaining: "45",
         price: "76.95",
-        shareOfShippingPercent: "90"
+        shareOfShippingPercent: "90",
       },
       {
         type: "fragrance-oil",
@@ -5559,7 +5559,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.60",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "fragrance-oil",
@@ -5568,7 +5568,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "11.34",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "fragrance-oil",
@@ -5577,7 +5577,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "12.60",
-        shareOfShippingPercent: "6"
+        shareOfShippingPercent: "6",
       },
       {
         type: "wicks",
@@ -5588,7 +5588,7 @@ module.exports = [
         series: "Eco",
         size: "1",
         price: "4.75",
-        shareOfShippingPercent: "3"
+        shareOfShippingPercent: "3",
       },
       {
         type: "fragrance-oil",
@@ -5597,14 +5597,14 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "8.60",
-        shareOfShippingPercent: "3"
-      }
+        shareOfShippingPercent: "3",
+      },
     ],
     source: "California Candle Supply",
     subtotalCost: "122.84",
     shippingCost: "36.04",
     taxesAndFees: "0",
-    totalCost: "158.88"
+    totalCost: "158.88",
   },
   {
     openDate: "2020-01-24",
@@ -5618,7 +5618,7 @@ module.exports = [
         series: "Premier",
         size: "720",
         price: "1",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "wicks",
@@ -5629,7 +5629,7 @@ module.exports = [
         series: "Premier",
         size: "710",
         price: "1",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "wicks",
@@ -5640,7 +5640,7 @@ module.exports = [
         series: "Premier",
         size: "700",
         price: "1",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "misc-equipment",
@@ -5648,7 +5648,7 @@ module.exports = [
         count: "1",
         remaining: "1",
         price: "10",
-        shareOfShippingPercent: "15"
+        shareOfShippingPercent: "15",
       },
       {
         type: "fragrance-oil",
@@ -5657,7 +5657,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "10.99",
-        shareOfShippingPercent: "25"
+        shareOfShippingPercent: "25",
       },
       {
         type: "fragrance-oil",
@@ -5667,7 +5667,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Floral Sample Set for $15"
+        notes: "1 Part in 10 of the Floral Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5677,7 +5677,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Floral Sample Set for $15"
+        notes: "1 Part in 10 of the Floral Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5687,7 +5687,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Floral Sample Set for $15"
+        notes: "1 Part in 10 of the Floral Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5697,7 +5697,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Floral Sample Set for $15"
+        notes: "1 Part in 10 of the Floral Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5707,7 +5707,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Floral Sample Set for $15"
+        notes: "1 Part in 10 of the Floral Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5717,7 +5717,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Floral Sample Set for $15"
+        notes: "1 Part in 10 of the Floral Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5727,7 +5727,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Floral Sample Set for $15"
+        notes: "1 Part in 10 of the Floral Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5737,7 +5737,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Floral Sample Set for $15"
+        notes: "1 Part in 10 of the Floral Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5747,7 +5747,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Floral Sample Set for $15"
+        notes: "1 Part in 10 of the Floral Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5757,7 +5757,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Floral Sample Set for $15"
+        notes: "1 Part in 10 of the Floral Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5767,7 +5767,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Natural Sample Set for $15"
+        notes: "1 Part in 10 of the Natural Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5777,7 +5777,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Natural Sample Set for $15"
+        notes: "1 Part in 10 of the Natural Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5787,7 +5787,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Natural Sample Set for $15"
+        notes: "1 Part in 10 of the Natural Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5797,7 +5797,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Natural Sample Set for $15"
+        notes: "1 Part in 10 of the Natural Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5807,7 +5807,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Natural Sample Set for $15"
+        notes: "1 Part in 10 of the Natural Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5817,7 +5817,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Natural Sample Set for $15"
+        notes: "1 Part in 10 of the Natural Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5827,7 +5827,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Natural Sample Set for $15"
+        notes: "1 Part in 10 of the Natural Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5837,7 +5837,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Natural Sample Set for $15"
+        notes: "1 Part in 10 of the Natural Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5847,7 +5847,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Natural Sample Set for $15"
+        notes: "1 Part in 10 of the Natural Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5857,7 +5857,7 @@ module.exports = [
         remaining: "1",
         price: "1.5",
         shareOfShippingPercent: "2.5",
-        notes: "1 Part in 10 of the Natural Sample Set for $15"
+        notes: "1 Part in 10 of the Natural Sample Set for $15",
       },
       {
         type: "fragrance-oil",
@@ -5867,14 +5867,14 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "2.5",
-        notes: "Free sample"
-      }
+        notes: "Free sample",
+      },
     ],
     source: "Aztec Candle and Soap Supplies",
     shippingCost: "14.45",
     subtotalCost: "53.99",
     totalCost: "",
-    taxesAndFees: "0"
+    taxesAndFees: "0",
   },
   {
     openDate: "2020-01-24",
@@ -5890,14 +5890,14 @@ module.exports = [
         remaining: "25",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled from tester candles"
-      }
+        notes: "Recycled from tester candles",
+      },
     ],
     source: "Recycled",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "0"
+    totalCost: "0",
   },
   {
     openDate: "2020-02-07",
@@ -5911,7 +5911,7 @@ module.exports = [
         remaining: "25",
         series: "Zinc",
         price: "2.89",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "wicks",
@@ -5922,7 +5922,7 @@ module.exports = [
         series: "Zinc",
         size: "28-24",
         price: "2.89",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "wicks",
@@ -5933,7 +5933,7 @@ module.exports = [
         series: "2.89",
         size: "36-24-24",
         price: "2.89",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "wicks",
@@ -5944,7 +5944,7 @@ module.exports = [
         series: "Zinc",
         size: "44-24-18",
         price: "2.89",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         type: "wicks",
@@ -5955,7 +5955,7 @@ module.exports = [
         series: "Zinc",
         size: "44-32-18",
         price: "2.89",
-        shareOfShippingPercent: "2.89"
+        shareOfShippingPercent: "2.89",
       },
       {
         type: "wicks",
@@ -5967,7 +5967,7 @@ module.exports = [
         size: "51-32-18",
         price: "2.89",
         shareOfShippingPercent: "2.5",
-        notes: ""
+        notes: "",
       },
       {
         type: "wicks",
@@ -5978,7 +5978,7 @@ module.exports = [
         series: "Zinc",
         size: "60-44-18",
         price: "2.89",
-        shareOfShippingPercent: "2.5"
+        shareOfShippingPercent: "2.5",
       },
       {
         category: "food-and-drink",
@@ -5987,7 +5987,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "7.39",
-        shareOfShippingPercent: "17"
+        shareOfShippingPercent: "17",
       },
       {
         category: "food-and-drink",
@@ -5996,7 +5996,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "6.99",
-        shareOfShippingPercent: "17"
+        shareOfShippingPercent: "17",
       },
       {
         category: "food-and-drink",
@@ -6005,7 +6005,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "7.39",
-        shareOfShippingPercent: "17"
+        shareOfShippingPercent: "17",
       },
       {
         category: "food-and-drink",
@@ -6014,7 +6014,7 @@ module.exports = [
         weightOunces: "4",
         remaining: "4",
         price: "7.59",
-        shareOfShippingPercent: "17"
+        shareOfShippingPercent: "17",
       },
       {
         category: "food-and-drink",
@@ -6024,7 +6024,7 @@ module.exports = [
         remaining: "8",
         price: "9.79",
         shareOfShippingPercent: "20",
-        notes: ""
+        notes: "",
       },
       {
         type: "wick-stickers",
@@ -6032,7 +6032,7 @@ module.exports = [
         count: "1000",
         remaining: "1000",
         price: "21.49",
-        shareOfShippingPercent: "14"
+        shareOfShippingPercent: "14",
       },
       {
         category: "flowers-and-herbs",
@@ -6042,14 +6042,14 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "2",
-        notes: "Free Sample"
-      }
+        notes: "Free Sample",
+      },
     ],
     source: "The Flaming Candle",
     subtotalCost: "80.87",
     shippingCost: "18.70",
     taxesAndFees: "0",
-    totalCost: "99.57"
+    totalCost: "99.57",
   },
   {
     openDate: "2020-02-08",
@@ -6065,14 +6065,14 @@ module.exports = [
         remaining: "21",
         price: "0",
         shareOfShippingPercent: "100",
-        notes: "This is the second time these jars have been recycled"
-      }
+        notes: "This is the second time these jars have been recycled",
+      },
     ],
     source: "Recycled",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "0"
+    totalCost: "0",
   },
   {
     openDate: "2020-02-12",
@@ -6085,7 +6085,7 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "17",
-        notes: "Free Sample"
+        notes: "Free Sample",
       },
       {
         type: "fragrance-oil",
@@ -6094,7 +6094,7 @@ module.exports = [
         weightOunces: "16",
         remaining: "16",
         price: "20.95",
-        shareOfShippingPercent: "50"
+        shareOfShippingPercent: "50",
       },
       {
         type: "wicks",
@@ -6105,7 +6105,7 @@ module.exports = [
         series: "Eco",
         size: "8",
         price: "8.65",
-        shareOfShippingPercent: "17"
+        shareOfShippingPercent: "17",
       },
       {
         type: "wicks",
@@ -6116,14 +6116,14 @@ module.exports = [
         series: "Eco",
         size: "6",
         price: "8.38",
-        shareOfShippingPercent: "17"
-      }
+        shareOfShippingPercent: "17",
+      },
     ],
     source: "CandleScience",
     subtotalCost: "37.98",
     shippingCost: "10.42",
     totalCost: "52.39",
-    taxesAndFees: "3.99"
+    taxesAndFees: "3.99",
   },
   {
     openDate: "2020-02-13",
@@ -6139,14 +6139,14 @@ module.exports = [
         remaining: "25",
         price: "0",
         shareOfShippingPercent: "100",
-        notes: "most recycled for the 3rd time from tests"
-      }
+        notes: "most recycled for the 3rd time from tests",
+      },
     ],
     source: "Recycled",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "0"
+    totalCost: "0",
   },
   {
     openDate: "2020-02-17",
@@ -6157,7 +6157,7 @@ module.exports = [
         count: "100",
         remaining: "100",
         price: "5.95",
-        shareOfShippingPercent: "25"
+        shareOfShippingPercent: "25",
       },
       {
         type: "wicks",
@@ -6169,7 +6169,7 @@ module.exports = [
         size: "8",
         price: "17.00",
         shareOfShippingPercent: "25",
-        notes: ""
+        notes: "",
       },
       {
         type: "wicks",
@@ -6180,7 +6180,7 @@ module.exports = [
         series: "CDN",
         size: "6",
         price: "17.00",
-        shareOfShippingPercent: "25"
+        shareOfShippingPercent: "25",
       },
       {
         type: "wicks",
@@ -6191,14 +6191,14 @@ module.exports = [
         series: "CDN",
         size: "4",
         price: "17.00",
-        shareOfShippingPercent: "25"
-      }
+        shareOfShippingPercent: "25",
+      },
     ],
     source: "Candle Cocoon",
     subtotalCost: "56.95",
     shippingCost: "14.69",
     taxesAndFees: "0",
-    totalCost: "71.64"
+    totalCost: "71.64",
   },
   {
     openDate: "2020-02-17",
@@ -6212,7 +6212,7 @@ module.exports = [
         series: "Premier",
         size: "730",
         price: "7.21",
-        shareOfShippingPercent: "16"
+        shareOfShippingPercent: "16",
       },
       {
         type: "wicks",
@@ -6223,7 +6223,7 @@ module.exports = [
         series: "Premier",
         size: "767",
         price: "7.30",
-        shareOfShippingPercent: "16"
+        shareOfShippingPercent: "16",
       },
       {
         type: "wicks",
@@ -6234,7 +6234,7 @@ module.exports = [
         series: "Premier",
         size: "740",
         price: "7.04",
-        shareOfShippingPercent: "16"
+        shareOfShippingPercent: "16",
       },
       {
         type: "fragrance-oil",
@@ -6243,7 +6243,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "12.99",
-        shareOfShippingPercent: "16"
+        shareOfShippingPercent: "16",
       },
       {
         type: "fragrance-oil",
@@ -6252,7 +6252,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "9.99",
-        shareOfShippingPercent: "16"
+        shareOfShippingPercent: "16",
       },
       {
         type: "fragrance-oil",
@@ -6261,7 +6261,7 @@ module.exports = [
         weightOunces: "8",
         remaining: "8",
         price: "9.99",
-        shareOfShippingPercent: "16"
+        shareOfShippingPercent: "16",
       },
       {
         type: "fragrance-oil",
@@ -6271,7 +6271,7 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "8",
-        notes: "Free Sample"
+        notes: "Free Sample",
       },
       {
         type: "fragrance-oil",
@@ -6281,14 +6281,14 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "8",
-        notes: "Free Sample"
-      }
+        notes: "Free Sample",
+      },
     ],
     source: "Aztec Candle & Soap Supplies",
     subtotalCost: "54.52",
     shippingCost: "8.99",
     taxesAndFees: "0",
-    totalCost: "63.51"
+    totalCost: "63.51",
   },
   {
     openDate: "2020-02-22",
@@ -6303,7 +6303,7 @@ module.exports = [
         size: "770",
         price: "8.24",
         shareOfShippingPercent: "20",
-        notes: ""
+        notes: "",
       },
       {
         type: "wicks",
@@ -6314,7 +6314,7 @@ module.exports = [
         series: "Premier",
         size: "777",
         price: "7.92",
-        shareOfShippingPercent: "20"
+        shareOfShippingPercent: "20",
       },
       {
         type: "wicks",
@@ -6325,7 +6325,7 @@ module.exports = [
         series: "Premier",
         size: "780",
         price: "8.24",
-        shareOfShippingPercent: "20"
+        shareOfShippingPercent: "20",
       },
       {
         type: "fragrance-oil",
@@ -6335,7 +6335,7 @@ module.exports = [
         remaining: "8",
         price: "10.99",
         shareOfShippingPercent: "25",
-        notes: ""
+        notes: "",
       },
       {
         type: "fragrance-oil",
@@ -6345,14 +6345,14 @@ module.exports = [
         remaining: "1",
         shareOfShippingPercent: "15",
         notes: "Free sample",
-        price: "0"
-      }
+        price: "0",
+      },
     ],
     source: "Aztec Candle & Soap Supplies",
     subtotalCost: "35.39",
     shippingCost: "8.99",
     taxesAndFees: "0",
-    totalCost: "44.38"
+    totalCost: "44.38",
   },
   {
     openDate: "2020-02-22",
@@ -6368,7 +6368,7 @@ module.exports = [
         remaining: "30",
         price: "0",
         shareOfShippingPercent: "100",
-        notes: "Recycled from test candles"
+        notes: "Recycled from test candles",
       },
       {
         type: "jars",
@@ -6381,14 +6381,14 @@ module.exports = [
         remaining: "2",
         price: "0",
         shareOfShippingPercent: "0",
-        notes: "Recycled from test candles"
-      }
+        notes: "Recycled from test candles",
+      },
     ],
     source: "Recycled",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "0"
+    totalCost: "0",
   },
   {
     openDate: "2020-02-25",
@@ -6401,7 +6401,7 @@ module.exports = [
         remaining: "16",
         price: "17.00",
         shareOfShippingPercent: "11",
-        notes: ""
+        notes: "",
       },
       {
         type: "fragrance-oil",
@@ -6410,7 +6410,7 @@ module.exports = [
         weightOunces: "16",
         remaining: "16",
         price: "14.00",
-        shareOfShippingPercent: "11"
+        shareOfShippingPercent: "11",
       },
       {
         type: "fragrance-oil",
@@ -6420,7 +6420,7 @@ module.exports = [
         remaining: "1",
         price: "3.25",
         shareOfShippingPercent: "2",
-        notes: ""
+        notes: "",
       },
       {
         type: "fragrance-oil",
@@ -6429,7 +6429,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "wax",
@@ -6439,7 +6439,7 @@ module.exports = [
         remaining: "4",
         price: "16",
         shareOfShippingPercent: "22",
-        notes: "This is 2 2-lb containers"
+        notes: "This is 2 2-lb containers",
       },
       {
         type: "fragrance-oil",
@@ -6448,7 +6448,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -6457,7 +6457,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -6466,7 +6466,7 @@ module.exports = [
         weightOunces: "16",
         remaining: "16",
         price: "20",
-        shareOfShippingPercent: "11"
+        shareOfShippingPercent: "11",
       },
       {
         type: "fragrance-oil",
@@ -6475,7 +6475,7 @@ module.exports = [
         weightOunces: "16",
         remaining: "16",
         price: "15",
-        shareOfShippingPercent: "11"
+        shareOfShippingPercent: "11",
       },
       {
         type: "fragrance-oil",
@@ -6484,7 +6484,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
-        shareOfShippingPercent: "2"
+        shareOfShippingPercent: "2",
       },
       {
         type: "fragrance-oil",
@@ -6493,14 +6493,14 @@ module.exports = [
         weightOunces: "16",
         remaining: "16",
         price: "15",
-        shareOfShippingPercent: "11"
-      }
+        shareOfShippingPercent: "11",
+      },
     ],
     source: "Fillmore Container",
     subtotalCost: "113.25",
     shippingCost: "21.85",
     taxesAndFees: "0",
-    totalCost: "135.10"
+    totalCost: "135.10",
   },
   {
     openDate: "2020-02-28",
@@ -6513,7 +6513,7 @@ module.exports = [
         remaining: "16",
         price: "17.95",
         shareOfShippingPercent: "50",
-        notes: ""
+        notes: "",
       },
       {
         type: "fragrance-oil",
@@ -6522,14 +6522,14 @@ module.exports = [
         weightOunces: "16",
         remaining: "16",
         price: "20.95",
-        shareOfShippingPercent: "50"
-      }
+        shareOfShippingPercent: "50",
+      },
     ],
     source: "Lone Star Candle Supply",
     subtotalCost: "38.90",
     shippingCost: "7.92",
     taxesAndFees: "3.86",
-    totalCost: "50.68"
+    totalCost: "50.68",
   },
   {
     openDate: "2020-02-28",
@@ -6542,7 +6542,7 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "5",
-        notes: "Free sample"
+        notes: "Free sample",
       },
       {
         type: "fragrance-oil",
@@ -6551,7 +6551,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -6560,7 +6560,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -6569,7 +6569,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -6578,7 +6578,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -6587,7 +6587,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -6596,7 +6596,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "fragrance-oil",
@@ -6605,7 +6605,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
-        shareOfShippingPercent: "5"
+        shareOfShippingPercent: "5",
       },
       {
         type: "wicks",
@@ -6617,7 +6617,7 @@ module.exports = [
         size: "8",
         price: "4.94",
         shareOfShippingPercent: "10",
-        notes: "this is 2 12-packs"
+        notes: "this is 2 12-packs",
       },
       {
         type: "fragrance-oil",
@@ -6626,14 +6626,14 @@ module.exports = [
         weightOunces: "16",
         remaining: "16",
         price: "19.74",
-        shareOfShippingPercent: "50"
-      }
+        shareOfShippingPercent: "50",
+      },
     ],
     source: "Candle Science",
     subtotalCost: "33.99",
     shippingCost: "10.42",
     taxesAndFees: "3.66",
-    totalCost: "48.07"
+    totalCost: "48.07",
   },
   {
     openDate: "2020-03-18",
@@ -6646,7 +6646,7 @@ module.exports = [
         remaining: "1",
         price: "1",
         shareOfShippingPercent: "4",
-        notes: ""
+        notes: "",
       },
       {
         type: "fragrance-oil",
@@ -6655,7 +6655,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -6664,7 +6664,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -6673,7 +6673,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -6682,7 +6682,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -6691,7 +6691,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -6700,7 +6700,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -6710,7 +6710,7 @@ module.exports = [
         remaining: "1",
         price: "1",
         shareOfShippingPercent: "4",
-        notes: ""
+        notes: "",
       },
       {
         type: "fragrance-oil",
@@ -6720,7 +6720,7 @@ module.exports = [
         remaining: "1",
         price: "1",
         shareOfShippingPercent: "4",
-        notes: ""
+        notes: "",
       },
       {
         type: "fragrance-oil",
@@ -6729,7 +6729,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -6738,7 +6738,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -6747,7 +6747,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -6756,7 +6756,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -6765,7 +6765,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -6774,7 +6774,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -6783,7 +6783,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1",
-        shareOfShippingPercent: "4"
+        shareOfShippingPercent: "4",
       },
       {
         type: "fragrance-oil",
@@ -6793,14 +6793,14 @@ module.exports = [
         remaining: "32",
         price: "19.21",
         shareOfShippingPercent: "50",
-        notes: "Part of the spring sale"
-      }
+        notes: "Part of the spring sale",
+      },
     ],
     source: "Aztec Candle & Soap Supplies",
     subtotalCost: "35.21",
     shippingCost: "8.40",
     taxesAndFees: "0",
-    totalCost: "43.61"
+    totalCost: "43.61",
   },
   {
     openDate: "2020-03-18",
@@ -6813,7 +6813,7 @@ module.exports = [
         remaining: "1",
         price: "1.33",
         shareOfShippingPercent: "8",
-        notes: ""
+        notes: "",
       },
       {
         type: "fragrance-oil",
@@ -6822,7 +6822,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
-        shareOfShippingPercent: "8"
+        shareOfShippingPercent: "8",
       },
       {
         type: "fragrance-oil",
@@ -6831,7 +6831,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
-        shareOfShippingPercent: "8"
+        shareOfShippingPercent: "8",
       },
       {
         type: "fragrance-oil",
@@ -6840,7 +6840,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
-        shareOfShippingPercent: "8"
+        shareOfShippingPercent: "8",
       },
       {
         type: "fragrance-oil",
@@ -6849,7 +6849,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
-        shareOfShippingPercent: "8"
+        shareOfShippingPercent: "8",
       },
       {
         type: "fragrance-oil",
@@ -6858,7 +6858,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
-        shareOfShippingPercent: "8"
+        shareOfShippingPercent: "8",
       },
       {
         type: "fragrance-oil",
@@ -6867,7 +6867,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
-        shareOfShippingPercent: "8"
+        shareOfShippingPercent: "8",
       },
       {
         type: "fragrance-oil",
@@ -6876,7 +6876,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
-        shareOfShippingPercent: "8"
+        shareOfShippingPercent: "8",
       },
       {
         type: "fragrance-oil",
@@ -6885,7 +6885,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
-        shareOfShippingPercent: "8"
+        shareOfShippingPercent: "8",
       },
       {
         type: "fragrance-oil",
@@ -6894,7 +6894,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
-        shareOfShippingPercent: "8"
+        shareOfShippingPercent: "8",
       },
       {
         type: "misc-equipment",
@@ -6902,7 +6902,7 @@ module.exports = [
         count: "300",
         remaining: "100",
         price: "14.88",
-        notes: "12"
+        notes: "12",
       },
       {
         type: "fragrance-oil",
@@ -6912,14 +6912,14 @@ module.exports = [
         remaining: "1",
         price: "0",
         shareOfShippingPercent: "8",
-        notes: "Free sample"
-      }
+        notes: "Free sample",
+      },
     ],
     source: "CandleScience",
     subtotalCost: "28.18",
     shippingCost: "10.42",
     taxesAndFees: "3.18",
-    totalCost: "41.78"
+    totalCost: "41.78",
   },
   {
     openDate: "2020-04-03",
@@ -6935,14 +6935,14 @@ module.exports = [
         remaining: "24",
         price: "0",
         shareOfShippingPercent: "100",
-        notes: "Recycled for the 4th or 5th time"
-      }
+        notes: "Recycled for the 4th or 5th time",
+      },
     ],
     source: "Recycled",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
-    totalCost: "0"
+    totalCost: "0",
   },
   {
     openDate: "2020-04-03",
@@ -6954,7 +6954,7 @@ module.exports = [
         weightOunces: "16",
         remaining: "16",
         price: "19.00",
-        shareOfShippingPercent: "50"
+        shareOfShippingPercent: "50",
       },
       {
         type: "fragrance-oil",
@@ -6963,7 +6963,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
-        shareOfShippingPercent: "12.5"
+        shareOfShippingPercent: "12.5",
       },
       {
         type: "fragrance-oil",
@@ -6972,7 +6972,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
-        shareOfShippingPercent: "12.5"
+        shareOfShippingPercent: "12.5",
       },
       {
         type: "fragrance-oil",
@@ -6981,7 +6981,7 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
-        shareOfShippingPercent: "12.5"
+        shareOfShippingPercent: "12.5",
       },
       {
         type: "fragrance-oil",
@@ -6990,13 +6990,134 @@ module.exports = [
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
-        shareOfShippingPercent: "12.5"
-      }
+        shareOfShippingPercent: "12.5",
+      },
     ],
     source: "Fillmore Container",
     subtotalCost: "32",
     shippingCost: "16.89",
     taxesAndFees: "0",
-    totalCost: "48.89"
-  }
+    totalCost: "48.89",
+  },
+  {
+    openDate: "2020-04-30",
+    items: [
+      {
+        type: "jars",
+        name: "Clear Straight Sided Tumbler",
+        waxToFillLineOunces: "10.0",
+        waxToOverflowOunces: "11.16",
+        diameterInches: "3.06",
+        color: "clear",
+        count: "21",
+        remaining: "21",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "recycled from test candles each used 4-5 times",
+      },
+      {
+        type: "jars",
+        name: "Amber Straight Tumbler",
+        waxToFillLineOunces: "10.0",
+        waxToOverflowOunces: "",
+        overflowVolumeOunces: "11.16",
+        diameterInches: "3.06",
+        color: "amber",
+        count: "2",
+        remaining: "2",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "recycled from test candles each used 3-4 times",
+      },
+    ],
+    source: "Recycled",
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0",
+  },
+  {
+    openDate: "2020-04-30",
+    items: [
+      {
+        type: "jars",
+        name: "10 oz Short Jar",
+        waxToFillLineOunces: "10.0",
+        diameterInches: "4.00",
+        color: "clear",
+        count: "6",
+        remaining: "6",
+        price: "18.90",
+        shareOfShippingPercent: "0.35",
+      },
+      {
+        type: "jars",
+        name: "13.5 oz Clear Cali Jar w/Black Lid",
+        waxToFillLineOunces: "13.5",
+        diameterInches: "3.25",
+        color: "clear",
+        count: "6",
+        remaining: "6",
+        price: "17.64",
+        shareOfShippingPercent: "35",
+        notes: "not in love with the mis-alignment of some of the tops",
+      },
+      {
+        type: "jars",
+        name: "6 oz Clear Cali Jar w/ Natural Wood Lid",
+        waxToFillLineOunces: "6.0",
+        diameterInches: "2.50",
+        color: "clear",
+        count: "6",
+        remaining: "6",
+        price: "13.08",
+        shareOfShippingPercent: "30",
+        notes: "",
+      },
+    ],
+    source: "California Candle Supply",
+    subtotalCost: "49.62",
+    shippingCost: "43.70",
+    taxesAndFees: "0",
+    totalCost: "93.32",
+  },
+  {
+    openDate: "2020-04-30",
+    items: [
+      {
+        type: "wax",
+        name: "Coconut 83",
+        material: "Coconut",
+        weightPounds: "45",
+        remaining: "45",
+        price: "76.95",
+        shareOfShippingPercent: "92",
+      },
+      {
+        type: "wicks",
+        name: 'HTP-93 6" Pretabbed Wick',
+        length: "6",
+        count: "50",
+        remaining: "50",
+        series: "HTP",
+        size: "93",
+        price: "4.75",
+        shareOfShippingPercent: "4",
+      },
+      {
+        type: "fragrance-oil",
+        category: "earthy",
+        name: "Oud",
+        weightOunces: "4",
+        remaining: "4",
+        price: "11.34",
+        shareOfShippingPercent: "4",
+      },
+    ],
+    source: "California Candle Supply",
+    subtotalCost: "93.04",
+    shippingCost: "36.98",
+    taxesAndFees: "0",
+    totalCost: "130.02",
+  },
 ];

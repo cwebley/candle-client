@@ -385,6 +385,7 @@ create table if not exists candles_burns (
   candle_id int not null,
   when_started datetime,
   when_stopped datetime,
+  stopped_weight_ounces decimal(9,4),
   notes text,
   foreign key (candle_id) references candles(id)
 );

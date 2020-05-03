@@ -11,31 +11,31 @@ import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 
-const styles = theme => ({
+const styles = (theme) => ({
   expandIconWrapper: {
-    margin: "0 auto"
+    margin: "0 auto",
   },
   icon: {
-    marginLeft: `-4px`
+    marginLeft: `-4px`,
   },
   itemCard: {
     paddingLeft: theme.spacing(2),
-    paddingRight: theme.spacing(2)
+    paddingRight: theme.spacing(2),
   },
   itemDetails: {},
   itemType: {
-    fontSize: 12
+    fontSize: 12,
   },
   secondaryInfo: {
-    fontSize: 12
+    fontSize: 12,
   },
   subItemPanel: {
     paddingLeft: theme.spacing(2),
     paddingRight: theme.spacing(2),
     backgroundColor: indigo[100],
-    borderBottom: `1px solid ${theme.palette.divider}`
+    borderBottom: `1px solid ${theme.palette.divider}`,
   },
-  itemPrice: {}
+  itemPrice: {},
 });
 
 function CombineCandleRes({
@@ -49,10 +49,10 @@ function CombineCandleRes({
   subItems,
   totalCost,
   totalAmountForType,
-  classes
+  classes,
 }) {
   const [expanded, setExpanded] = useState(false);
-  const subItemIds = subItems.map(s => `${s.type}-${s.hashId}-content`);
+  const subItemIds = subItems.map((s) => `${s.type}-${s.hashId}-content`);
 
   const handleChange = (e, expandState) => {
     setExpanded(expandState);
@@ -113,23 +113,28 @@ function CombineCandleRes({
         </Grid>
       </ExpansionPanelSummary>
       {subItems.map((subItem, i) => {
-        let subItemAmount;
+        let subItemBatchAmount;
+        let subItemLayerAmount;
         let subItemUnit;
         switch (subItem.type) {
           case "dye-blocks":
-            subItemAmount = subItem.pieces;
+            subItemBatchAmount = subItem.pieces;
+            subItemLayerAmount = subItem.layerPieces;
             subItemUnit = "pieces";
             break;
           case "fragrance-oil":
-            subItemAmount = subItem.weightOunces;
+            subItemBatchAmount = subItem.weightOunces;
+            subItemLayerAmount = subItem.layerWeightOunces;
             subItemUnit = "oz";
             break;
           case "wax":
-            subItemAmount = subItem.weightOunces;
+            subItemBatchAmount = subItem.weightOunces;
+            subItemLayerAmount = subItem.layerWeightOunces;
             subItemUnit = "oz";
             break;
           case "additive":
-            subItemAmount = subItem.weightOunces;
+            subItemBatchAmount = subItem.weightOunces;
+            subItemLayerAmount = subItem.layerWeightOunces;
             subItemUnit = "oz";
         }
         return (
@@ -158,22 +163,35 @@ function CombineCandleRes({
                   variant="subtitle1"
                   align="right"
                 >
-                  {`${Math.round((1000 * subItemAmount) / totalAmountForType) /
-                    10}%`}
+                  {`${
+                    Math.round(
+                      (1000 * subItemBatchAmount) / totalAmountForType
+                    ) / 10
+                  }%`}
                 </Typography>
                 <Typography
                   // className={classes.itemPrice}
                   variant="subtitle1"
                   align="right"
                 >
-                  {`${subItemAmount} ${subItemUnit}`}
+                  {`${subItemLayerAmount ? subItemLayerAmount : subItemBatchAmount} ${subItemUnit}`}
                 </Typography>
                 <Typography
                   className={classes.itemPrice}
                   variant="subtitle1"
                   align="right"
                 >
-                  {`$${subItem.calculatedCosts.productCost} | $${subItem.calculatedCosts.shippingCost} | $${subItem.calculatedCosts.totalCost}`}
+                  {`$${
+                    subItem.layerCosts
+                      ? subItem.layerCosts.productCost
+                      : subItem.calculatedCosts.productCost
+                  } | $${subItem.layerCosts
+                    ? subItem.layerCosts.shippingCost
+                    : subItem.calculatedCosts.shippingCost} | $${
+                      subItem.layerCosts
+                      ? subItem.layerCosts.totalCost
+                      : subItem.calculatedCosts.totalCost
+                  }`}
                 </Typography>
               </Grid>
             </Grid>
@@ -182,47 +200,6 @@ function CombineCandleRes({
       })}
     </ExpansionPanel>
   );
-
-  //  return (
-
-  //   <Paper className={classes.root}>
-  //     <Grid container spacing={3}>
-  //       <Grid item container direction="column" sm={8}>
-  //         <Grid item>
-  //           <Typography variant="subtitle1">{name}</Typography>
-  //         </Grid>
-  //         <Grid item>
-  //           <Typography className={classes.secondaryInfo} color="textSecondary">
-  //             {source}
-  //           </Typography>
-  //         </Grid>
-  //       </Grid>
-  //       <Grid item sm={4}>
-  //         <Typography
-  //           // className={classes.itemPrice}
-  //           variant="subtitle1"
-  //           align="right"
-  //         >
-  //           {percentOfType}
-  //         </Typography>
-  //         <Typography
-  //           // className={classes.itemPrice}
-  //           variant="subtitle1"
-  //           align="right"
-  //         >
-  //           {amount}
-  //         </Typography>
-  //         <Typography
-  //           className={classes.itemPrice}
-  //           variant="subtitle1"
-  //           align="right"
-  //         >
-  //           {`$${productCost} | $${shippingCost} | $${totalCost}`}
-  //         </Typography>
-  //       </Grid>
-  //     </Grid>
-  //   </Paper>
-  //   );
 }
 
 export default withStyles(styles)(CombineCandleRes);
