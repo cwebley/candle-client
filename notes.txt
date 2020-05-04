@@ -184,10 +184,6 @@ fillmore green apple is excellent for fall
 autocomplete have a filter for not finished
 
 Current Todo List:
-
-candle page percentages in layer make no sense http://localhost:3002/36P8 and prices reflect 
- batch instead of candle
-move burn-table into a dialog, display burns in some shorter form and  display pending burns in highlight color as well.
 add finished checkbox for update candle components lid/box/warning-labels
 
 client-api ping route or something to make sure its all connected--looks like this route already exists
@@ -198,6 +194,8 @@ autocomplete routes from hash_id
 recent batches route
 inventory routes
 search candle route and search form by fragrance/wax/dye name etc
+some way to track previous candles that a jar was used for? or at least track its original cost. 
+  when a jar is "recycled" let its cost in the new-order be negative the original cost * some depreciation factor
 
  options for a more complex burn log:
     full melt pool, mp depth, mushrooming amount, jar temp at hottest, flame size, smoke on blowout, soot

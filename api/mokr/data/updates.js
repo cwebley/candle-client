@@ -4753,6 +4753,7 @@ module.exports = [
         whenStarted: "2020-05-01 22:15:00",
         whenStopped: "2020-05-02 01:45:00",
         stoppedWeightOunces: 8.03,
+        finished: true,
         notes:
           "put itself out during the burn so end time is estimated. about 1/4 inch remain. no soot, jar has some residual wax. but all-in-all a solid candle. i do prefer the fig-tree to the fig though.",
       },
@@ -4831,6 +4832,7 @@ module.exports = [
         whenStarted: "2020-05-01 22:30:00",
         whenStopped: "2020-05-02 4:30:00",
         stoppedWeightOunces: 7.98,
+        finished: true,
         notes:
           "put itself out with about 1/4 inch remaining. hard to say about jar temp, flame size etc.",
       },
@@ -4953,7 +4955,8 @@ module.exports = [
         whenStarted: "2020-05-01 22:15:00",
         whenStopped: "2020-05-02 04:45:00",
         stoppedWeightOunces: 8.62,
-        notes: "flame looks good, jar not too hot, probably another burn left.",
+        finished: true,
+        notes: "flame looks good, jar not too hot, probably another burn left but im gonna stop.",
       },
     ],
     notes: "",
@@ -5037,6 +5040,7 @@ module.exports = [
         whenStarted: "2020-05-01 22:15:00",
         whenStopped: "2020-05-02 04:45:00",
         stoppedWeightOunces: 7.46,
+        finished: true,
         notes:
           "put itself out during this burn. wasnt too hot midway through so hopefully was fine. only 1/8 inch remain of wax. no soot but i trimmed the wick well after last burn and wiped glass which did have soot previously.",
       },
@@ -5119,6 +5123,7 @@ module.exports = [
         whenStarted: "2020-05-01 22:15:00",
         whenStopped: "2020-05-02 04:45:00",
         stoppedWeightOunces: 7.8,
+        finished: true,
         notes:
           "just about the bottom of the candle. flame is putting itself out. no soot, jar wasnt too hot midway through.",
       },
@@ -5188,6 +5193,7 @@ module.exports = [
         whenStarted: "2020-05-01 22:15:00",
         whenStopped: "2020-05-02 04:45:00",
         stoppedWeightOunces: 7.72,
+        finished: true,
         notes:
           "very nearly the end of the candle. jar not overly hot, smells nice. will probably put itself out. ",
       },
@@ -5199,7 +5205,15 @@ module.exports = [
     completedCandleWeightOunces: "15.79",
     volumeOverflowPercent: "85",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2020-05-03 14:10:00",
+        whenStopped: "2020-05-03 18:25:00",
+        stoppedWeightOunces: 15.26,
+        notes:
+          "flame looked good throughout burn but its a little bit smaller than the premiers. not full mp. 1/8 to 1/4 inch hangup on all sides.",
+      },
+    ],
     notes: "",
   },
   // RXX5 FT + Berg P-775
@@ -5207,7 +5221,15 @@ module.exports = [
     completedCandleWeightOunces: "15.69",
     volumeOverflowPercent: "85",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2020-05-03 14:10:00",
+        whenStopped: "2020-05-03 18:25:00",
+        stoppedWeightOunces: 15.03,
+        notes:
+          "very nearly full mp. bit of hangup on one side. flame looks wonderful",
+      },
+    ],
     notes: "",
   },
   // W1KE GG more G P-775
@@ -5215,7 +5237,15 @@ module.exports = [
     completedCandleWeightOunces: "15.76",
     volumeOverflowPercent: "85",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2020-05-03 14:10:00",
+        whenStopped: "2020-05-03 18:25:00",
+        stoppedWeightOunces: 15.15,
+        notes:
+          "full shallow mp. looks great. tiny bit of carbon build up in one spot on the wick",
+      },
+    ],
     notes: "",
   },
   // RVDG CCv2 Eco-8
@@ -5223,23 +5253,48 @@ module.exports = [
     completedCandleWeightOunces: "15.30",
     volumeOverflowPercent: "85",
     colorDescription: "whiteish",
-    burns: [],
-    notes: "",
+    burns: [
+      {
+        whenStarted: "2020-05-03 14:10:00",
+        whenStopped: "2020-05-03 18:25:00",
+        stoppedWeightOunces: 14.78,
+        notes:
+          "looked great for the first 2 hours or so, but at some point the flame died down almost completley. bit of mushrooming, 1/4 inch from full mp all around.",
+      },
+    ],
+    notes:
+      "weidly poor glass adhesion for this and the other 2 CCv2 candles in this set",
   },
   // 3K4M CCv2 P-777
   {
     completedCandleWeightOunces: "16.23",
     volumeOverflowPercent: "85",
     colorDescription: "whiteish",
-    burns: [],
-    notes: "",
+    burns: [
+      {
+        whenStarted: "2020-05-03 14:10:00",
+        whenStopped: "2020-05-03 18:25:00",
+        stoppedWeightOunces: 15.58,
+        notes: "extremely close to full mp. flame looks wonderful",
+      },
+    ],
+    notes:
+      "weidly poor glass adhesion for this and the other 2 CCv2 candles in this set",
   },
   // REVO CCv2 P-780
   {
     completedCandleWeightOunces: "16.15",
     volumeOverflowPercent: "85",
     colorDescription: "whiteish",
-    burns: [],
-    notes: "",
+    burns: [
+      {
+        whenStarted: "2020-05-03 14:10:00",
+        whenStopped: "2020-05-03 18:25:00",
+        stoppedWeightOunces: 15.58,
+        notes: "very nearly full mp. flame looks wonderful",
+      },
+    ],
+    notes:
+      "weidly poor glass adhesion for this and the other 2 CCv2 candles in this set",
   },
 ];

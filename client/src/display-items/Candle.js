@@ -17,7 +17,7 @@ import DialogContent from "@material-ui/core/DialogContent";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import Select from "@material-ui/core/Select";
 import BurnTimeDialog from "./BurnTimeDialog";
-import BurnTable from "./BurnTable";
+import BurnSummaryDialog from "./BurnSummaryDialog";
 
 import { withStyles } from "@material-ui/core/styles";
 
@@ -75,6 +75,11 @@ const styles = (theme) => ({
     justifyContent: "flex-end",
     padding: theme.spacing(2),
   },
+  burnSummary: {
+    display: "flex",
+    justifyContent: "flex-end",
+    padding: theme.spacing(2),
+  },
   dialogContent: {
     display: "flex",
   },
@@ -95,6 +100,7 @@ function Candle({
   onAddComponent,
   onAddBurn,
   updateDisabled,
+  clientSideBurns,
   clientSideData,
   classes,
 }) {
@@ -103,7 +109,8 @@ function Candle({
   const [componentDialogValues, setComponentDialogValues] = useState(
     defaultComponentDailogValues
   );
-  const [burnDialogOpen, setBurnDialogOpen] = useState(false);
+  const [newBurnDialogOpen, setNewBurnDialogOpen] = useState(false);
+  const [burnSummaryDialogOpen, setBurnSummaryDialogOpen] = useState(false);
 
   const handleDialogValueChange = (e) => {
     const name = e.target.name;
@@ -125,6 +132,7 @@ function Candle({
   };
 
   const handleAddBurn = ({
+    id,
     whenStarted,
     whenStopped,
     stoppedWeightOunces,
@@ -132,17 +140,21 @@ function Candle({
     notes,
   }) => {
     onAddBurn({
+      id,
       whenStarted,
       whenStopped,
       stoppedWeightOunces,
       finished,
       notes,
     });
-    setBurnDialogOpen(false);
+    setNewBurnDialogOpen(false);
   };
 
   const handleCloseBurnDialog = () => {
-    setBurnDialogOpen(false);
+    setNewBurnDialogOpen(false);
+  };
+  const handleCloseBurnSummaryDialog = () => {
+    setBurnSummaryDialogOpen(false);
   };
 
   const renderLid = () => {
@@ -287,7 +299,7 @@ function Candle({
       <BurnTimeDialog
         onClose={handleCloseBurnDialog}
         onSubmit={handleAddBurn}
-        isOpen={burnDialogOpen}
+        isOpen={newBurnDialogOpen}
       />
       <Dialog
         open={componentDialogOpen}
@@ -439,7 +451,7 @@ function Candle({
                       </Button>
                       <Button
                         color="primary"
-                        onClick={() => setBurnDialogOpen(true)}
+                        onClick={() => setNewBurnDialogOpen(true)}
                       >
                         Add Burn
                       </Button>
@@ -454,7 +466,33 @@ function Candle({
                     </Button>
                   </div>
                 )}
-                <BurnTable burns={data.burnHistory}/>
+                {!data.burnHistory.length && (
+                  <Typography className={classes.burnSummary}>
+                    No burns recorded
+                  </Typography>
+                )}
+                {data.burnHistory.length && (
+                  <div className={classes.burnSummary}>
+                    <div>
+                      <Typography variant="body1" align="right">{`${
+                        data.burnHistory.length
+                      } burn${
+                        data.burnHistory.length !== 1 ? "s" : ""
+                      } recorded`}</Typography>
+                      <Typography variant="body1" align="right">{`${
+                        clientSideBurns.length
+                      } burn${
+                        clientSideBurns.length !== 1 ? "s" : ""
+                      } pending`}</Typography>
+                      <Button
+                        color="secondary"
+                        onClick={() => setBurnSummaryDialogOpen(true)}
+                      >
+                        Show Burns
+                      </Button>
+                    </div>
+                  </div>
+                )}
               </Grid>
             </Grid>
           </form>
@@ -548,6 +586,12 @@ function Candle({
           </Grid>
         </ExpansionPanelDetails>
       </ExpansionPanel>
+      <BurnSummaryDialog
+        onClose={handleCloseBurnSummaryDialog}
+        isOpen={burnSummaryDialogOpen}
+        burns={data.burnHistory}
+        pendingBurns={clientSideBurns}
+      />
     </div>
   );
 }

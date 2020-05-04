@@ -33,6 +33,9 @@ const styles = (theme) => ({
   },
 });
 
+// tag each burn with a unique int id for react display purposes
+let pendingBurnCount = 0;
+
 const BurnTimePicker = ({ onSubmit, onClose, isOpen, classes }) => {
   const [selectedStartDate, setSelectedStartDate] = useState(moment());
   const [selectedStopDate, setSelectedStopDate] = useState(moment());
@@ -42,8 +45,10 @@ const BurnTimePicker = ({ onSubmit, onClose, isOpen, classes }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    pendingBurnCount++
 
     onSubmit({
+      id: pendingBurnCount,
       whenStarted: selectedStartDate,
       whenStopped: selectedStopDate,
       stoppedWeightOunces,

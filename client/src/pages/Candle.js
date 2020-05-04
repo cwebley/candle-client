@@ -88,6 +88,7 @@ function CandlePage({ match, enqueueSnackbar, history, classes }) {
     setUpdateBurns(updateBurns => [
       ...updateBurns,
       {
+        id: data.id,
         whenStarted: data.whenStarted.format("YYYY-MM-DD HH:mm:ss"),
         whenStopped: data.whenStopped.format("YYYY-MM-DD HH:mm:ss"),
         stoppedWeightOunces: data.stoppedWeightOunces,
@@ -133,7 +134,7 @@ function CandlePage({ match, enqueueSnackbar, history, classes }) {
               <Candle
                 data={candle}
                 clientSideData={updateData || {}}
-                clientSideBurns={updateBurns || {}}
+                clientSideBurns={updateBurns || []}
                 onFormValueChange={handleCandleFormChange}
                 editable={pageEditable}
                 onUpdateCandle={handleUpdateCandle}
