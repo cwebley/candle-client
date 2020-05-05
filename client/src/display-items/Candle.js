@@ -8,14 +8,8 @@ import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import FormControl from "@material-ui/core/FormControl";
-import TextField from "@material-ui/core/TextField";
-import InputLabel from "@material-ui/core/InputLabel";
-import MenuItem from "@material-ui/core/MenuItem";
-import Dialog from "@material-ui/core/Dialog";
-import DialogActions from "@material-ui/core/DialogActions";
-import DialogContent from "@material-ui/core/DialogContent";
-import DialogTitle from "@material-ui/core/DialogTitle";
 import Select from "@material-ui/core/Select";
+import AddComponentDialog from "./AddComponentDialog";
 import BurnTimeDialog from "./BurnTimeDialog";
 import BurnSummaryDialog from "./BurnSummaryDialog";
 
@@ -80,17 +74,7 @@ const styles = (theme) => ({
     justifyContent: "flex-end",
     padding: theme.spacing(2),
   },
-  dialogContent: {
-    display: "flex",
-  },
-  formControl: {
-    paddingRight: theme.spacing(2),
-  },
 });
-
-const defaultComponentDailogValues = {
-  type: "lidHashId",
-};
 
 function Candle({
   data,
@@ -106,29 +90,15 @@ function Candle({
 }) {
   console.log("CANDLE DATA: ", data);
   const [componentDialogOpen, setComponentDialogOpen] = useState(false);
-  const [componentDialogValues, setComponentDialogValues] = useState(
-    defaultComponentDailogValues
-  );
   const [newBurnDialogOpen, setNewBurnDialogOpen] = useState(false);
   const [burnSummaryDialogOpen, setBurnSummaryDialogOpen] = useState(false);
 
-  const handleDialogValueChange = (e) => {
-    const name = e.target.name;
-    const value = e.target.value;
-
-    setComponentDialogValues((prevValues) => ({
-      ...prevValues,
-      [name]: value,
-    }));
-  };
-
-  const handleAddComponent = (e) => {
-    e.preventDefault();
+  const handleAddComponent = ({ itemType, hashId, finished }) => {
     onAddComponent({
-      [componentDialogValues.type]: componentDialogValues.hashId,
+      [itemType]: hashId,
+      finished,
     });
     setComponentDialogOpen(false);
-    setComponentDialogValues(defaultComponentDailogValues);
   };
 
   const handleAddBurn = ({
@@ -148,6 +118,10 @@ function Candle({
       notes,
     });
     setNewBurnDialogOpen(false);
+  };
+
+  const handleCloseAddComponentDialog = () => {
+    setComponentDialogOpen(false);
   };
 
   const handleCloseBurnDialog = () => {
@@ -301,54 +275,7 @@ function Candle({
         onSubmit={handleAddBurn}
         isOpen={newBurnDialogOpen}
       />
-      <Dialog
-        open={componentDialogOpen}
-        onClose={() => setComponentDialogOpen(false)}
-        aria-labelledby="form-dialog-title"
-      >
-        <DialogTitle id="form-dialog-title">New Candle Component</DialogTitle>
-        <form onSubmit={handleAddComponent}>
-          <DialogContent className={classes.dialogContent}>
-            <FormControl className={classes.formControl}>
-              <InputLabel htmlFor="item-type-selector">Item Type</InputLabel>
-              <Select
-                value={componentDialogValues.type || ""}
-                onChange={handleDialogValueChange}
-                autoFocus
-                inputProps={{
-                  name: "type",
-                  id: "item-type-selector",
-                }}
-              >
-                <MenuItem value="lidHashId">Lid Hash Id</MenuItem>
-                <MenuItem value="boxHashId">Box Hash Id</MenuItem>
-                <MenuItem value="warningLabelHashId">
-                  Warning Label Hash Id
-                </MenuItem>
-              </Select>
-            </FormControl>
-            <TextField
-              label="hashId"
-              value={componentDialogValues.hashId || ""}
-              className={classes.textField}
-              type="text"
-              inputProps={{ name: "hashId", maxLength: 4 }}
-              onChange={handleDialogValueChange}
-            />
-          </DialogContent>
-          <DialogActions>
-            <Button color="primary" type="submit">
-              Confirm
-            </Button>
-            <Button
-              onClick={() => setComponentDialogOpen(false)}
-              color="secondary"
-            >
-              Cancel
-            </Button>
-          </DialogActions>
-        </form>
-      </Dialog>
+
       <ExpansionPanel defaultExpanded>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
           <Typography className={classes.headingHash} color="textSecondary">
@@ -586,6 +513,11 @@ function Candle({
           </Grid>
         </ExpansionPanelDetails>
       </ExpansionPanel>
+      <AddComponentDialog
+        isOpen={componentDialogOpen}
+        onClose={handleCloseAddComponentDialog}
+        onSubmit={handleAddComponent}
+      />
       <BurnSummaryDialog
         onClose={handleCloseBurnSummaryDialog}
         isOpen={burnSummaryDialogOpen}
