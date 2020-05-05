@@ -121,10 +121,7 @@ function updateCandle(db, candleHashId, data, cb) {
       decrementResource(
         db,
         "boxes",
-        1,
-        data.boxHashId,
-        data.finished,
-        data.finished,
+        { count: 1, hashId: data.boxHashId, finished: data.boxFinished },
         done
       )
     );
@@ -141,7 +138,12 @@ function updateCandle(db, candleHashId, data, cb) {
     atLeastOneSet = true;
 
     decrementFuncs.push((done) =>
-      decrementResource(db, "lids", 1, data.lidHashId, data.finished, done)
+      decrementResource(
+        db,
+        "lids",
+        { count: 1, hashId: data.lidHashId, finished: data.lidFinished },
+        done
+      )
     );
   }
   let joinWarningLabels = "";
@@ -157,7 +159,16 @@ function updateCandle(db, candleHashId, data, cb) {
     } c.warning_label_id = wl.id`;
     atLeastOneSet = true;
     decrementFuncs.push((done) =>
-      decrementResource(db, "warning_labels", 1, data.warningLabelHashId, done)
+      decrementResource(
+        db,
+        "warning_labels",
+        {
+          count: 1,
+          hashId: data.warningLabelHashId,
+          finished: data.warningLabelFinished,
+        },
+        done
+      )
     );
   }
   let setCompletedCandleWeight = "";
@@ -249,7 +260,7 @@ function updateCandle(db, candleHashId, data, cb) {
   });
 }
 
-function decrementResource(db, tableName, count, hashId, finished, cb) {
+function decrementResource(db, tableName, { count, hashId, finished }, cb) {
   let params = [count, hashId];
 
   // by default, don't touch the "finished" field
@@ -259,7 +270,7 @@ function decrementResource(db, tableName, count, hashId, finished, cb) {
   // originally this set remaining to 0 also, but it seems unncessary to clear data--ruins future "undo" potential etc
   if (finished) {
     updateFinished = `, finished = ?`;
-    params = [count, finished, hashId];
+    params = [count, "1", hashId];
   }
 
   const sql = `

@@ -95,8 +95,8 @@ function Candle({
 
   const handleAddComponent = ({ itemType, hashId, finished }) => {
     onAddComponent({
-      [itemType]: hashId,
-      finished,
+      [`${itemType}HashId`]: hashId,
+      [`${itemType}Finished`]: finished,
     });
     setComponentDialogOpen(false);
   };

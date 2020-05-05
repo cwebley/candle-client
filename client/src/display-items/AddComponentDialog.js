@@ -47,7 +47,7 @@ const AddComponentDialog = ({ onSubmit, onClose, isOpen, classes }) => {
     });
 
     // reset the date fields
-    setItemType("lidHashId");
+    setItemType("lid");
     setHashId("");
     setFinished(false);
   };
@@ -73,10 +73,10 @@ const AddComponentDialog = ({ onSubmit, onClose, isOpen, classes }) => {
                     id: "item-type-selector",
                   }}
                 >
-                  <MenuItem value="lidHashId">Lid Hash Id</MenuItem>
-                  <MenuItem value="boxHashId">Box Hash Id</MenuItem>
-                  <MenuItem value="warningLabelHashId">
-                    Warning Label Hash Id
+                  <MenuItem value="lid">Lid</MenuItem>
+                  <MenuItem value="box">Box</MenuItem>
+                  <MenuItem value="warningLabel">
+                    Warning Label
                   </MenuItem>
                 </Select>
               </FormControl>
