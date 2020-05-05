@@ -183,13 +183,18 @@ fillmore green apple is excellent for fall
 
 autocomplete have a filter for not finished
 
-Current Todo List:
-add finished checkbox for update candle components lid/box/warning-labels
+root beer float options:
+htp 104 (good option but bit of soot on a mid jar burn. all the way throuh this might have been the best actually. maybe enforce a trimmed wick?)
+cd8 (great option, tiny bit of soot on one burn)
+cdn8 (excellent optiona after 3 burns)
+lx-18 (a bit hot in mid jar. cool at 2/3 burn. smaller would be too small at the bottom. bigger too big at the top prob.)
+zinc 44-32 (too small, try one size up)
 
-client-api ping route or something to make sure its all connected--looks like this route already exists
+Current Todo List:
 convert all dye-block amounts to weights if the small amounts are measureable with my scale
 add liquid dye as a resource
 confirmation links, msds sheets, ifra certificates, vanillin content/ ethyl vanillin, flashpoint, pthalate free
+client-api ping route or something to make sure its all connected--looks like this route already exists
 autocomplete routes from hash_id
 recent batches route
 inventory routes
@@ -199,30 +204,28 @@ some way to track previous candles that a jar was used for? or at least track it
 
  options for a more complex burn log:
     full melt pool, mp depth, mushrooming amount, jar temp at hottest, flame size, smoke on blowout, soot
-
-
-root beer float options:
-htp 104 (good option but bit of soot on a mid jar burn. all the way throuh this might have been the best actually. maybe enforce a trimmed wick?)
-cd8 (great option, tiny bit of soot on one burn)
-cdn8 (excellent optiona after 3 burns)
-lx-18 (a bit hot in mid jar. cool at 2/3 burn. smaller would be too small at the bottom. bigger too big at the top prob.)
-zinc 44-32 (too small, try one size up)
+  burn graph in burn-history dialog weight vs burn-time. end points show tootips of date or something
 
 Candle todos:
-RBF more options
-English Honey Wood small test run to see if fragrance good etc
-English Honey Wood bigger test run
-English Honey Wood final candidates test
-Fig-Bergamot full candles again 777 and 780 to completely decide.
+Finalize recipe for FT + Berg 777 vs 775
+Finalize recipe for GG
+Finalize CCv2?
+vetiver star anise?
+Test french vanilla vs very vanilla
+Blood orange / Vanilla vs orange spice AAA / vanilla?
+
+Test wick trimming various amounts. VERY short, 1/8, 1/4 (premiers seem to need ridiculously short trim)
+Test cure times
+Test dyes
+
+Test Patchouli FOs
+
 Make some Fig-Bergs for curing / gifts
-Cali short jar tests--double wick, triple wicks
+CS Silver tumbler tests
+Cali short jar tests--double wick
 Cali small jar tests
-Candle Science copper tumbler test
 Research Label options
-  Cricut/Silhouette Vinyl
-  Printers and online labels
-  Illustrator to create labels and print them
-test hurricane glasses for asthetics, draft reduction
+  Silhouette 4 Vinyl, drawing on labels, benefits of using illustrator? export svgs? auto generate svgs? node canvas? 
 
 
 Supplies needed

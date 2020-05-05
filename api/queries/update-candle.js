@@ -118,7 +118,15 @@ function updateCandle(db, candleHashId, data, cb) {
     atLeastOneSet = true;
 
     decrementFuncs.push((done) =>
-      decrementResource(db, "boxes", 1, data.boxHashId, done)
+      decrementResource(
+        db,
+        "boxes",
+        1,
+        data.boxHashId,
+        data.finished,
+        data.finished,
+        done
+      )
     );
   }
   let joinLids = "";
@@ -133,7 +141,7 @@ function updateCandle(db, candleHashId, data, cb) {
     atLeastOneSet = true;
 
     decrementFuncs.push((done) =>
-      decrementResource(db, "lids", 1, data.lidHashId, done)
+      decrementResource(db, "lids", 1, data.lidHashId, data.finished, done)
     );
   }
   let joinWarningLabels = "";
@@ -241,13 +249,25 @@ function updateCandle(db, candleHashId, data, cb) {
   });
 }
 
-function decrementResource(db, tableName, count, hashId, cb) {
+function decrementResource(db, tableName, count, hashId, finished, cb) {
+  let params = [count, hashId];
+
+  // by default, don't touch the "finished" field
+  let updateFinished = "";
+
+  // if finished was checked, update that field
+  // originally this set remaining to 0 also, but it seems unncessary to clear data--ruins future "undo" potential etc
+  if (finished) {
+    updateFinished = `, finished = ?`;
+    params = [count, finished, hashId];
+  }
+
   const sql = `
   UPDATE ${tableName}
     SET remaining = (remaining - ?)
+    ${updateFinished}
     WHERE hash_id = ?
   `;
-  const params = [count, hashId];
 
   db.query(sql, params, (err, decrementResult) => {
     if (err) {
