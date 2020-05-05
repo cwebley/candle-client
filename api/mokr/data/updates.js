@@ -4956,7 +4956,8 @@ module.exports = [
         whenStopped: "2020-05-02 04:45:00",
         stoppedWeightOunces: 8.62,
         finished: true,
-        notes: "flame looks good, jar not too hot, probably another burn left but im gonna stop.",
+        notes:
+          "flame looks good, jar not too hot, probably another burn left but im gonna stop.",
       },
     ],
     notes: "",
@@ -5213,6 +5214,18 @@ module.exports = [
         notes:
           "flame looked good throughout burn but its a little bit smaller than the premiers. not full mp. 1/8 to 1/4 inch hangup on all sides.",
       },
+      {
+        whenStarted: "2020-05-03 21:15:00",
+        whenStopped: "2020-05-04 02:00:00",
+        stoppedWeightOunces: 14.77,
+        notes: "big time tunneling and small flame",
+      },
+      {
+        whenStarted: "2020-05-04 10:25:00",
+        whenStopped: "2020-05-04 15:50:00",
+        stoppedWeightOunces: 14.203,
+        notes: "big time tunneling, flame flame. stopping here.",
+      },
     ],
     notes: "",
   },
@@ -5228,6 +5241,26 @@ module.exports = [
         stoppedWeightOunces: 15.03,
         notes:
           "very nearly full mp. bit of hangup on one side. flame looks wonderful",
+      },
+      {
+        whenStarted: "2020-05-03 21:15:00",
+        whenStopped: "2020-05-04 02:00:00",
+        stoppedWeightOunces: 14.41,
+        notes:
+          "very nearly full mp. only a little bit of carbon build up. flame look great.",
+      },
+      {
+        whenStarted: "2020-05-04 10:25:00",
+        whenStopped: "2020-05-04 15:50:00",
+        stoppedWeightOunces: 13.67,
+        notes:
+          "full shallow mp that took about 5 hrs to hit. middle amount of mushrooming. looks great.",
+      },
+      {
+        whenStarted: "2020-05-04 22:00:00",
+        whenStopped: "2020-05-05 02:25:00",
+        stoppedWeightOunces: 13.02,
+        notes: "basically full shallow mp. not much mushrooming."
       },
     ],
     notes: "",
@@ -5245,6 +5278,25 @@ module.exports = [
         notes:
           "full shallow mp. looks great. tiny bit of carbon build up in one spot on the wick",
       },
+      {
+        whenStarted: "2020-05-03 21:15:00",
+        whenStopped: "2020-05-04 02:00:00",
+        stoppedWeightOunces: 14.45,
+        notes: "full shallow mp, some mushrooming but looks okay for 4 hours.",
+      },
+      {
+        whenStarted: "2020-05-04 10:25:00",
+        whenStopped: "2020-05-04 15:50:00",
+        stoppedWeightOunces: 13.63,
+        notes: "1/4 inch mp. lot of mushrooming though. otherwise looks good.",
+      },
+      {
+        whenStarted: "2020-05-04 22:00:00",
+        whenStopped: "2020-05-05 02:25:00",
+        stoppedWeightOunces: 13.01,
+        notes:
+          "full shallow mp, only a tiny bit of mushrooming. flame looks good strong.",
+      },
     ],
     notes: "",
   },
@@ -5260,6 +5312,18 @@ module.exports = [
         stoppedWeightOunces: 14.78,
         notes:
           "looked great for the first 2 hours or so, but at some point the flame died down almost completley. bit of mushrooming, 1/4 inch from full mp all around.",
+      },
+      {
+        whenStarted: "2020-05-03 21:15:00",
+        whenStopped: "2020-05-04 02:00:00",
+        stoppedWeightOunces: 14.35,
+        notes: "big time tunneling. flame looks fine but its small.",
+      },
+      {
+        whenStarted: "2020-05-04 10:25:00",
+        whenStopped: "2020-05-04 15:50:00",
+        stoppedWeightOunces: 13.88,
+        notes: "just big time tunneling, stopping this one here",
       },
     ],
     notes:
@@ -5277,6 +5341,26 @@ module.exports = [
         stoppedWeightOunces: 15.58,
         notes: "extremely close to full mp. flame looks wonderful",
       },
+      {
+        whenStarted: "2020-05-03 21:15:00",
+        whenStopped: "2020-05-04 02:00:00",
+        stoppedWeightOunces: 15.03,
+        notes:
+          "not quite full mp, some mushrooming-but less than the 780. flame looks a little fat",
+      },
+      {
+        whenStarted: "2020-05-04 10:25:00",
+        whenStopped: "2020-05-04 15:50:00",
+        stoppedWeightOunces: 14.26,
+        notes:
+          "full shallow mp--took about 5 hours to get here, lot of mushrooming though but otherwise good.",
+      },
+      {
+        whenStarted: "2020-05-04 22:00:00",
+        whenStopped: "2020-05-05 02:25:00",
+        stoppedWeightOunces: 13.65,
+        notes: "full shallow mp, middle amount of mushrooming.",
+      },
     ],
     notes:
       "weidly poor glass adhesion for this and the other 2 CCv2 candles in this set",
@@ -5292,6 +5376,26 @@ module.exports = [
         whenStopped: "2020-05-03 18:25:00",
         stoppedWeightOunces: 15.58,
         notes: "very nearly full mp. flame looks wonderful",
+      },
+      {
+        whenStarted: "2020-05-03 21:15:00",
+        whenStopped: "2020-05-04 02:00:00",
+        stoppedWeightOunces: 15.07,
+        notes:
+          "not quite a full mp, mushrooming a fair amount and flame a bit small/fat",
+      },
+      {
+        whenStarted: "2020-05-04 10:25:00",
+        whenStopped: "2020-05-04 15:50:00",
+        stoppedWeightOunces: 14.4,
+        notes: "not quite a full mp, middle amount of mushrooming.",
+      },
+      {
+        whenStarted: "2020-05-04 22:00:00",
+        whenStopped: "2020-05-05 02:25:00",
+        stoppedWeightOunces: 13.9,
+        notes:
+          "not full mp. weirdly just not as wide as the 777. maybe one burn screwed it up? or a trim difference at one point? flame looks good, not much mushrooming.",
       },
     ],
     notes:
