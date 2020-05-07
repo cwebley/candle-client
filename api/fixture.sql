@@ -126,7 +126,7 @@ create table if not exists dye_blocks (
   slug varchar(255) not null,
   color varchar(255) not null,
   order_id int,
-  pieces decimal(9,4),
+  weight_ounces decimal(9,4),
   remaining decimal(9,4),
   -- confirmed to be finished/discarded
   finished tinyint(1) default 0,
@@ -373,7 +373,7 @@ create table if not exists batches_dye_blocks (
   id int not null auto_increment primary key,
   batch_id int not null,
   dye_block_id int not null,
-  pieces decimal(9,4),
+  weight_ounces decimal(9,4),
    -- items with the same combine_id are meant to be displayed as combined
   combine_id int,
   foreign key (batch_id) references batches(id),
