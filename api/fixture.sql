@@ -261,6 +261,7 @@ create table if not exists batches (
   total_wax_weight_ounces decimal(9,4),
   total_fragrance_weight_ounces decimal(9,4),
   total_additive_weight_ounces decimal(9,4),
+  total_dye_block_weight_ounces decimal(9,4),
   -- percent fragrance by weight
   fragrance_load decimal(9,4),
   fragrance_add_temperature_fahrenheit decimal (6,2),

@@ -233,17 +233,17 @@ function CandleLayer({ data, isTopLayer, classes }) {
                       source={db.source}
                       percentOfType={`${
                         Math.round(
-                          (1000 * db.pieces) /
-                            processedBatchData.totalDyeBlockPieces
+                          (1000 * db.weightOunces) /
+                            processedBatchData.totalDyeBlockWeightOunces
                         ) / 10
                       }%`}
-                      amount={`${db.layerPieces} pieces`}
+                      amount={`${db.layerWeightOunces} oz`}
                       productCost={db.layerCosts.productCost}
                       shippingCost={db.layerCosts.shippingCost}
                       subItems={db.subItems}
                       totalCost={db.layerCosts.totalCost}
                       totalAmountForType={
-                        processedBatchData.totalDyeBlockPieces
+                        processedBatchData.totalDyeBlockWeightOunces
                       }
                     />
                   </Grid>
@@ -257,11 +257,11 @@ function CandleLayer({ data, isTopLayer, classes }) {
                     source={db.source}
                     percentOfType={`${
                       Math.round(
-                        (1000 * db.pieces) /
-                          processedBatchData.totalDyeBlockPieces
+                        (1000 * db.weightOUnces) /
+                          processedBatchData.totalDyeBlockWeightOunces
                       ) / 10
                     }%`}
-                    amount={`${db.layerPieces} pieces`}
+                    amount={`${db.layerWeightOunces} oz`}
                     shippingCost={db.layerCosts.shippingCost}
                     productCost={db.layerCosts.productCost}
                     totalCost={db.layerCosts.totalCost}

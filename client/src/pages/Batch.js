@@ -198,14 +198,14 @@ function Batch({ match, classes }) {
                     name={db.name}
                     source={db.source}
                     percentOfType={`${Math.round(
-                      (1000 * db.pieces) / batch.totalDyeBlockPieces
+                      (1000 * db.weightOunces) / batch.totalDyeBlockWeightOunces
                     ) / 10}%`}
-                    amount={`${db.pieces.toFixed(2)} pieces`}
+                    amount={`${db.weightOunces.toFixed(2)} oz`}
                     productCost={db.calculatedCosts.productCost}
                     shippingCost={db.calculatedCosts.shippingCost}
                     subItems={db.subItems}
                     totalCost={db.calculatedCosts.totalCost}
-                    totalAmountForType={batch.totalDyeBlockPieces}
+                    totalAmountForType={batch.totalDyeBlockWeightOunces}
                   />
                 );
               }
@@ -215,9 +215,9 @@ function Batch({ match, classes }) {
                   name={db.name}
                   source={db.source}
                   percentOfType={`${Math.round(
-                    (1000 * db.pieces) / batch.totalDyeBlockPieces
+                    (1000 * db.weightOunces) / batch.totalDyeBlockWeightOunces
                   ) / 10}%`}
-                  amount={`${db.pieces.toFixed(2)} pieces`}
+                  amount={`${db.weightOunces.toFixed(2)} oz`}
                   productCost={db.calculatedCosts.productCost}
                   shippingCost={db.calculatedCosts.shippingCost}
                   totalCost={db.calculatedCosts.totalCost}

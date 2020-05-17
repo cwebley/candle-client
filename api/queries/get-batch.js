@@ -9,6 +9,7 @@ module.exports = function getBatch(db, { batchId }, cb) {
       b.total_wax_weight_ounces AS "totalWaxWeightOunces",
       b.total_fragrance_weight_ounces AS "totalFragranceWeightOunces",
       b.total_additive_weight_ounces AS "totalAdditiveWeightOunces",
+      b.total_dye_block_weight_ounces AS "totalDyeBlockWeightOunces",
       b.fragrance_load AS "fragranceLoad",
       b.fragrance_add_temperature_fahrenheit AS "fragranceAddTemperatureFahrenheit",
       b.dye_add_temperature_fahrenheit AS "dyeAddTemperatureFahrenheit",
@@ -227,10 +228,11 @@ function getBatchesWaxes(db, batchId, cb) {
 function getBatchesDyeBlocks(db, batchId, cb) {
   const sql = `
     SELECT
-      bdb.pieces, d.hash_id AS "hashId",
+      bdb.weight_ounces AS "weightOunces",
+      d.hash_id AS "hashId",
       bdb.combine_id AS "combineId",
       d.name, d.slug,
-      d.order_id, d.pieces AS "shipmentPieces",
+      d.order_id, d.weight_ounces AS "shipmentWeightOunces",
       d.price AS "itemCost", d.share_of_shipping_percent AS "shareOfShippingPercent",
       d.notes, so.source, so.item_count AS "orderItemCount",
       so.subtotal_cost AS "orderSubtotalCost", so.taxes_and_fees AS "orderTaxesAndFees",
@@ -253,8 +255,8 @@ function getBatchesDyeBlocks(db, batchId, cb) {
 
     result.forEach(item => {
       item.calculatedCosts = calculateCosts({
-        amountUsed: item.pieces,
-        packageAmount: item.shipmentPieces,
+        amountUsed: item.weightOunces,
+        packageAmount: item.shipmentWeightOunces,
         resourceCost: item.itemCost,
         shareOfShippingPercent: item.shareOfShippingPercent,
         orderSubtotal: item.orderSubtotalCost,

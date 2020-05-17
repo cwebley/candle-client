@@ -64,17 +64,8 @@ export function processAllBatchData(batchData) {
 }
 
 export function processBatchItemsByCombineId(batchItemArray, type) {
-  let batchAmountKey;
-  let layerAmountKey;
-  switch (type) {
-    case "dyeBlocks":
-      batchAmountKey = "pieces";
-      layerAmountKey = "layerPieces";
-      break;
-    default:
-      batchAmountKey = "weightOunces";
-      layerAmountKey = "layerWeightOunces";
-  }
+  let batchAmountKey = "weightOunces";
+  let layerAmountKey = "layerWeightOunces";
 
   batchItemArray.sort((a, b) => {
     const diff = a.combineId - b.combineId;

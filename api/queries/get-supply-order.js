@@ -159,7 +159,8 @@ function getDyeBlocks(db, orderId, cb) {
   const sql = `
     SELECT
       hash_id AS "hashId", name, slug,
-      color, pieces, remaining, FORMAT(price, 2) AS "price",
+      color, weight_ounces AS "weightOunces",
+      remaining, FORMAT(price, 2) AS "price",
       share_of_shipping_percent AS "shareOfShippingPercent", notes
     FROM dye_blocks
     WHERE order_id = ?

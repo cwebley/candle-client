@@ -155,58 +155,32 @@ function BatchItemDialog({
               maxLength: 4,
             }}
           />
-          {values.type === "dye-blocks" ? (
-            <TextField
-              className={classes.textField}
-              label="Pieces"
-              value={values.pieces || ""}
-              type="number"
-              required
-              onChange={onChange}
-              InputProps={{
-                endAdornment: (
-                  <InputAdornment position="end">Pieces</InputAdornment>
-                ),
-                inputProps: {
-                  name: "pieces",
-                  step: "0.01",
-                },
-              }}
-            />
-          ) : (
-            <Fragment>
-              <TextField
-                className={classes.textField}
-                label="% of blend"
-                value={percentOfBlend || ""}
-                type="number"
-                onChange={(e) => {
-                  const val = e.target.value;
-                  setPercentOfBlend(val);
-                }}
-                InputProps={{
-                  endAdornment: (
-                    <InputAdornment position="end">%</InputAdornment>
-                  ),
-                }}
-              />
-              <TextField
-                className={classes.textField}
-                label="Weight"
-                value={values.weightOunces || ""}
-                type="number"
-                required
-                onChange={onChange}
-                placeholder={getWeightPlaceholder()}
-                InputProps={{
-                  endAdornment: (
-                    <InputAdornment position="end">oz</InputAdornment>
-                  ),
-                  inputProps: weightInputProps,
-                }}
-              />
-            </Fragment>
-          )}
+          <TextField
+            className={classes.textField}
+            label="% of blend"
+            value={percentOfBlend || ""}
+            type="number"
+            onChange={(e) => {
+              const val = e.target.value;
+              setPercentOfBlend(val);
+            }}
+            InputProps={{
+              endAdornment: <InputAdornment position="end">%</InputAdornment>,
+            }}
+          />
+          <TextField
+            className={classes.textField}
+            label="Weight"
+            value={values.weightOunces || ""}
+            type="number"
+            required
+            onChange={onChange}
+            placeholder={getWeightPlaceholder()}
+            InputProps={{
+              endAdornment: <InputAdornment position="end">oz</InputAdornment>,
+              inputProps: weightInputProps,
+            }}
+          />
           <FormControlLabel
             control={
               <Checkbox

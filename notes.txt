@@ -191,8 +191,8 @@ lx-18 (a bit hot in mid jar. cool at 2/3 burn. smaller would be too small at the
 zinc 44-32 (too small, try one size up)
 
 Current Todo List:
-convert all dye-block amounts to weights if the small amounts are measureable with my scale
 add liquid dye as a resource
+dyePercentage of total, suggested dye amount based on that field on new-batch page
 confirmation links, msds sheets, ifra certificates, vanillin content/ ethyl vanillin, flashpoint, pthalate free
 client-api ping route or something to make sure its all connected--looks like this route already exists
 autocomplete routes from hash_id

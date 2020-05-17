@@ -20,37 +20,37 @@ import red from "@material-ui/core/colors/red";
 import grey from "@material-ui/core/colors/grey";
 import purple from "@material-ui/core/colors/purple";
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {},
   toolbar: {
-    backgroundColor: theme.palette.primary.light
+    backgroundColor: theme.palette.primary.light,
   },
   brownBackground: {
     color: "#fff",
-    backgroundColor: brown["500"]
+    backgroundColor: brown["500"],
   },
   blueBackground: {
     color: "#fff",
-    backgroundColor: blue["500"]
+    backgroundColor: blue["500"],
   },
   pinkBackground: {
     color: "#fff",
-    backgroundColor: pink["400"]
+    backgroundColor: pink["400"],
   },
   redBackground: {
     color: "#fff",
-    backgroundColor: red["700"]
+    backgroundColor: red["700"],
   },
   purpleBackground: {
-    backgroundColor: purple["500"]
+    backgroundColor: purple["500"],
   },
   greyBackground: {
     color: "#fff",
-    backgroundColor: grey["900"]
+    backgroundColor: grey["900"],
   },
   label: {
-    width: "3em"
-  }
+    width: "3em",
+  },
 });
 
 const getAvatarClass = (data, classes) => {
@@ -75,7 +75,7 @@ function ItemTable({
   onDeleteItem,
   onEditItem,
   fromServer,
-  classes
+  classes,
 }) {
   return (
     <div className={classes.root}>
@@ -126,11 +126,12 @@ function ItemTable({
                 <TableCell align="right">{item.type}</TableCell>
                 <TableCell align="right">
                   {`${item.remaining} /
-                  ${item.count ||
+                  ${
+                    item.count ||
                     item.volume ||
                     item.weightOunces ||
-                    item.weightPounds ||
-                    item.pieces}`}
+                    item.weightPounds
+                  }`}
                 </TableCell>
                 <TableCell align="right">{item.price}</TableCell>
               </TableRow>

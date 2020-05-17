@@ -281,23 +281,6 @@ function NewBatch({ history, enqueueSnackbar }) {
         };
       }
 
-      if (name === "type") {
-        if (value === "wax") {
-          // destructure to remove the extra fields
-          let { pieces, ...rest } = newBatchItemValues;
-          formattedValues = rest;
-        }
-        if (value === "fragrance-oil") {
-          // destructure to remove the extra fields
-          let { pieces, ...rest } = newBatchItemValues;
-          formattedValues = rest;
-        }
-        if (value === "dye-blocks") {
-          // destructure to remove the extra fields
-          let { weightOunces, ...rest } = newBatchItemValues;
-          formattedValues = rest;
-        }
-      }
       return {
         ...formattedValues,
         [name]: value,

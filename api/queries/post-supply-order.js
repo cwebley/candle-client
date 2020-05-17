@@ -389,7 +389,7 @@ function insertDyeBlocks(db, data, orderId, cb) {
     slug(d.name, { lower: true }),
     d.color,
     orderId,
-    d.pieces,
+    d.weightOunces,
     d.remaining,
     d.price,
     d.shareOfShippingPercent,
@@ -400,7 +400,7 @@ function insertDyeBlocks(db, data, orderId, cb) {
   const sql = `
       INSERT INTO dye_blocks
         (name, slug, color, order_id,
-          pieces, remaining, price, share_of_shipping_percent, notes)
+          weight_ounces, remaining, price, share_of_shipping_percent, notes)
       VALUES ?
     `;
 

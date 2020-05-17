@@ -300,7 +300,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Red Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0",
         color: "red",
         price: "0.88",
@@ -311,7 +311,7 @@ module.exports = [
         type: "dye-blocks",
         notes: "Part of an 8 piece Dye Block Sample Pack",
         name: "Lavender Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0",
         color: "lavender",
         price: "0.88",
@@ -320,7 +320,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Pink Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0.5",
         color: "pink",
         price: "0.88",
@@ -330,7 +330,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Brown Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0.3",
         color: "brown",
         price: "0.88",
@@ -340,7 +340,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Navy Blue Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0.1",
         color: "navy blue",
         price: "0.88",
@@ -350,7 +350,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Pumpkin Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0.2",
         color: "pumpkin",
         price: "0.88",
@@ -360,7 +360,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Canary Yellow Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0.3",
         color: "canary yellow",
         price: "0.88",
@@ -370,7 +370,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Forest Green Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0.7",
         color: "forest green",
         price: "0.88",
@@ -796,7 +796,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Honeycomb Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0.8",
         color: "honeycomb",
         price: "0.99",
@@ -805,7 +805,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Black Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "black",
         price: "0.99",
@@ -814,7 +814,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Caribbean Blue Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "0.7",
         price: "0.99",
@@ -823,7 +823,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Seafoam Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0.40",
         color: "seafoam",
         price: "0.99",
@@ -1165,7 +1165,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Pumpkin Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "pumpkin",
         price: "0.99",
@@ -1174,7 +1174,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Teal Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0.8",
         color: "teal",
         price: "1.19",
@@ -1184,7 +1184,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Yellow Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "yellow",
         price: "0.99",
@@ -1194,7 +1194,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Royal Blue Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0.8",
         color: "royal blue",
         price: "0.99",
@@ -1203,7 +1203,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Royal Blue Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "royal blue",
         price: "0.99",
@@ -1212,7 +1212,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Navy Blue Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "navy blue",
         price: "0.99",
@@ -1221,7 +1221,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Avocado Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0.9",
         color: "avocado",
         price: "0.99",
@@ -1230,7 +1230,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Forest Green Dye Block",
-        pieces: "2",
+        weightOunces: "1.00",
         remaining: "1",
         color: "forest green",
         price: "1.98",
@@ -1240,7 +1240,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Orchid Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "orchid",
         price: "1.19",
@@ -1249,7 +1249,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Merlot Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "merlot",
         price: "0.99",
@@ -1258,7 +1258,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Merlot Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "merlot",
         price: "0.99",
@@ -1267,7 +1267,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Orchid Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "orchid",
         price: "1.19",
@@ -1276,7 +1276,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Brown Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "brown",
         price: "0.99",
@@ -1285,7 +1285,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Brown Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "brown",
         price: "0.99",
@@ -1294,7 +1294,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Brown Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "brown",
         price: "0.99",
@@ -1303,7 +1303,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Black Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "black",
         price: "0.99",
@@ -1312,7 +1312,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Black Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "black",
         price: "0.99",
@@ -1321,7 +1321,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Black Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0",
         color: "black",
         price: "0.99",
@@ -1513,7 +1513,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Red Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0",
         color: "red",
         price: "1",
@@ -1523,7 +1523,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Brown Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0",
         color: "brown",
         price: "1",
@@ -1533,7 +1533,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Forest Green Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0",
         color: "forest green",
         price: "1",
@@ -1543,7 +1543,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Pumpkin Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "pumpkin",
         price: "1",
@@ -1553,7 +1553,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Canary Yellow Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0.8",
         color: "canary yello",
         price: "1",
@@ -1563,7 +1563,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Lavender Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "0.75",
         color: "lavender",
         price: "1",
@@ -1573,7 +1573,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Pink Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "pink",
         price: "1",
@@ -1583,7 +1583,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Navy Blue Dye Block",
-        pieces: "1",
+        weightOunces: "0.50",
         remaining: "1",
         color: "navy blue",
         price: "1",
@@ -4411,7 +4411,7 @@ module.exports = [
       {
         type: "dye-blocks",
         name: "Red Dye Block",
-        pieces: "3",
+        weightOunces: "1.50",
         remaining: "3",
         color: "red",
         price: "0.99",
