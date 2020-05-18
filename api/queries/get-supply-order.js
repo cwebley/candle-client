@@ -37,7 +37,7 @@ module.exports = function getSupplyOrder(db, orderId, cb) {
         ["additives"]: done => getAdditives(db, orderId, done),
         ["boxes"]: done => getBoxes(db, orderId, done),
         ["jars"]: done => getJars(db, orderId, done),
-        ["dye-blocks"]: done => getDyeBlocks(db, orderId, done),
+        ["dye"]: done => getDyes(db, orderId, done),
         ["lids"]: done => getLids(db, orderId, done),
         ["misc-equipment"]: done => getMiscEquipment(db, orderId, done),
         ["warning-labels"]: done => getWarningLabels(db, orderId, done),
@@ -155,13 +155,14 @@ function getBoxes(db, orderId, cb) {
   });
 }
 
-function getDyeBlocks(db, orderId, cb) {
+function getDyes(db, orderId, cb) {
   const sql = `
     SELECT
       hash_id AS "hashId", name, slug,
-      color, pieces, remaining, FORMAT(price, 2) AS "price",
+      color, weight_ounces AS "weightOunces",
+      remaining, FORMAT(price, 2) AS "price",
       share_of_shipping_percent AS "shareOfShippingPercent", notes
-    FROM dye_blocks
+    FROM dyes
     WHERE order_id = ?
   `;
 

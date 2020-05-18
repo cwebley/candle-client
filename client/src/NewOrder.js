@@ -20,7 +20,7 @@ import FragranceOilForm from "./resource-types/FragranceOilForm";
 import JarForm from "./resource-types/JarForm";
 import LidForm from "./resource-types/LidForm";
 import BoxForm from "./resource-types/BoxForm";
-import DyeBlockForm from "./resource-types/DyeBlockForm";
+import DyeForm from "./resource-types/DyeForm";
 import WaxForm from "./resource-types/WaxForm";
 import AdditiveForm from "./resource-types/AdditiveForm";
 import WickForm from "./resource-types/WickForm";
@@ -338,8 +338,8 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
                 onChange={handleNewItemFormValueChange}
               />
             )}
-            {newItemValues.type === "dye-blocks" && (
-              <DyeBlockForm
+            {newItemValues.type === "dye" && (
+              <DyeForm
                 newItemValues={newItemValues}
                 onChange={handleNewItemFormValueChange}
               />

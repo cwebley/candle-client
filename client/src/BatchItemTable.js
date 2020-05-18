@@ -12,37 +12,37 @@ import EditIcon from "@material-ui/icons/Edit";
 import { withStyles } from "@material-ui/core/styles";
 import lightBlue from "@material-ui/core/colors/lightBlue";
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {
     overflowX: "auto",
-    padding: theme.spacing(2)
+    padding: theme.spacing(2),
   },
   toolbar: {
-    backgroundColor: theme.palette.primary.light
+    backgroundColor: theme.palette.primary.light,
   },
   table: {},
   combine1: {
-    backgroundColor: lightBlue[100]
+    backgroundColor: lightBlue[100],
   },
   combine2: {
-    backgroundColor: lightBlue[500]
+    backgroundColor: lightBlue[500],
   },
   combine3: {
-    backgroundColor: lightBlue[300]
+    backgroundColor: lightBlue[300],
   },
   combine4: {
-    backgroundColor: lightBlue[400]
+    backgroundColor: lightBlue[400],
   },
   combine5: {
-    backgroundColor: lightBlue[200]
-  }
+    backgroundColor: lightBlue[200],
+  },
 });
 
 function BatchItemTable({ itemData, onDeleteClick, onEditClick, classes }) {
   let groupCombineData = [];
   let combineClassCount = 0;
 
-  itemData.forEach(o => {
+  itemData.forEach((o) => {
     let updatedItem = { ...o };
     groupCombineData.forEach((gd, i) => {
       if (gd.combineId === o.combineId) {
@@ -80,17 +80,7 @@ function BatchItemTable({ itemData, onDeleteClick, onEditClick, classes }) {
         </TableHead>
         <TableBody>
           {groupCombineData.map((item, i) => {
-            let itemAmount;
-            switch (item.type) {
-              case "wax":
-                itemAmount = item.weightOunces;
-                break;
-              case "fragrance-oil":
-                itemAmount = item.weightOunces;
-                break;
-              default:
-                itemAmount = item.pieces;
-            }
+            let itemAmount = item.weightOunces;
             return (
               <TableRow
                 key={i}

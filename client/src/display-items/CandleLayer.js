@@ -223,8 +223,8 @@ function CandleLayer({ data, isTopLayer, classes }) {
                 </Grid>
               );
             })}
-          {processedBatchData.dyeBlocks &&
-            processedBatchData.dyeBlocks.map((db) => {
+          {processedBatchData.dyes &&
+            processedBatchData.dyes.map((db) => {
               if (db.subItems) {
                 return (
                   <Grid item key={`db-${db.hashId}`} xs={12} sm={6} m={4}>
@@ -233,17 +233,17 @@ function CandleLayer({ data, isTopLayer, classes }) {
                       source={db.source}
                       percentOfType={`${
                         Math.round(
-                          (1000 * db.pieces) /
-                            processedBatchData.totalDyeBlockPieces
+                          (1000 * db.weightOunces) /
+                            processedBatchData.totalDyeWeightOunces
                         ) / 10
                       }%`}
-                      amount={`${db.layerPieces} pieces`}
+                      amount={`${db.layerWeightOunces} oz`}
                       productCost={db.layerCosts.productCost}
                       shippingCost={db.layerCosts.shippingCost}
                       subItems={db.subItems}
                       totalCost={db.layerCosts.totalCost}
                       totalAmountForType={
-                        processedBatchData.totalDyeBlockPieces
+                        processedBatchData.totalDyeWeightOunces
                       }
                     />
                   </Grid>
@@ -252,16 +252,16 @@ function CandleLayer({ data, isTopLayer, classes }) {
               return (
                 <Grid item key={`db-${db.hashId}`} xs={12} sm={6} m={4}>
                   <CandleResource
-                    itemType="Dye Block"
+                    itemType="Dye"
                     name={db.name}
                     source={db.source}
                     percentOfType={`${
                       Math.round(
-                        (1000 * db.pieces) /
-                          processedBatchData.totalDyeBlockPieces
+                        (1000 * db.weightOUnces) /
+                          processedBatchData.totalDyeWeightOunces
                       ) / 10
                     }%`}
-                    amount={`${db.layerPieces} pieces`}
+                    amount={`${db.layerWeightOunces} oz`}
                     shippingCost={db.layerCosts.shippingCost}
                     productCost={db.layerCosts.productCost}
                     totalCost={db.layerCosts.totalCost}

@@ -56,25 +56,16 @@ export function processAllBatchData(batchData) {
     batchData.fragranceOil,
     "fragranceOil"
   );
-  batchData.dyeBlocks = processBatchItemsByCombineId(
-    batchData.dyeBlocks,
-    "dyeBlocks"
+  batchData.dyes = processBatchItemsByCombineId(
+    batchData.dyes,
+    "dye"
   );
   return batchData;
 }
 
 export function processBatchItemsByCombineId(batchItemArray, type) {
-  let batchAmountKey;
-  let layerAmountKey;
-  switch (type) {
-    case "dyeBlocks":
-      batchAmountKey = "pieces";
-      layerAmountKey = "layerPieces";
-      break;
-    default:
-      batchAmountKey = "weightOunces";
-      layerAmountKey = "layerWeightOunces";
-  }
+  let batchAmountKey = "weightOunces";
+  let layerAmountKey = "layerWeightOunces";
 
   batchItemArray.sort((a, b) => {
     const diff = a.combineId - b.combineId;

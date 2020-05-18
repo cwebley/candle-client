@@ -5,20 +5,27 @@ const calculateFragranceLoad = require("../util/calculate-fragrance-load");
 
 module.exports = function postBatch(db, data, cb) {
   const totalWaxWeightOunces = data.batchItems
-    .filter(item => item.type === "wax")
+    .filter((item) => item.type === "wax")
     .reduce((total, waxItem) => (total += parseFloat(waxItem.weightOunces)), 0);
   const totalFragranceWeightOunces = data.batchItems
-    .filter(item => item.type === "fragrance-oil")
+    .filter((item) => item.type === "fragrance-oil")
     .reduce((total, foItem) => (total += parseFloat(foItem.weightOunces)), 0);
   const totalAdditiveWeightOunces = data.batchItems
-    .filter(item => item.type === "additive")
+    .filter((item) => item.type === "additive")
     .reduce(
       (total, additiveItem) => (total += parseFloat(additiveItem.weightOunces)),
       0
     );
+  console.log("DATA :", data.batchItems);
+  const totalDyeWeightOunces = data.batchItems
+    .filter((item) => item.type === "dye")
+    .reduce(
+      (total, dyeItem) => (total += parseFloat(dyeItem.weightOunces)),
+      0
+    );
 
   // begin transaction
-  db.beginTransaction(err => {
+  db.beginTransaction((err) => {
     if (err) {
       console.error(err);
       return cb(err);
@@ -29,6 +36,7 @@ module.exports = function postBatch(db, data, cb) {
       totalWaxWeightOunces,
       totalFragranceWeightOunces,
       totalAdditiveWeightOunces,
+      totalDyeWeightOunces,
       (err, result) => {
         if (err) {
           return rollback(db, err, cb);
@@ -38,42 +46,53 @@ module.exports = function postBatch(db, data, cb) {
 
         // filter item array and add each type to its corresponding table
         const fragranceOils = data.batchItems.filter(
-          item => item.type === "fragrance-oil"
+          (item) => item.type === "fragrance-oil"
         );
         const additives = data.batchItems.filter(
-          item => item.type === "additives"
+          (item) => item.type === "additives"
         );
-        const waxes = data.batchItems.filter(item => item.type === "wax");
-        const dyeBlocks = data.batchItems.filter(
-          item => item.type === "dye-blocks"
+        const waxes = data.batchItems.filter((item) => item.type === "wax");
+        const dyes = data.batchItems.filter(
+          (item) => item.type === "dye"
         );
 
         async.parallel(
           {
-            fragranceOils: done =>
+            fragranceOils: (done) =>
               insertBatchesFragranceOils(
                 db,
                 fragranceOils,
                 totalWaxWeightOunces,
                 totalFragranceWeightOunces,
                 totalAdditiveWeightOunces,
+                totalDyeWeightOunces,
                 batchId,
                 done
               ),
-            waxes: done => insertBatchesWaxes(db, waxes, batchId, done),
-            additives: done =>
+            waxes: (done) => insertBatchesWaxes(db, waxes, batchId, done),
+            additives: (done) =>
               insertBatchesAdditives(
                 db,
                 additives,
                 totalWaxWeightOunces,
                 totalFragranceWeightOunces,
                 totalAdditiveWeightOunces,
+                totalDyeWeightOunces,
                 batchId,
                 done
               ),
-            dyeBlocks: done =>
-              insertBatchesDyeBlocks(db, dyeBlocks, batchId, done),
-            layers: done => insertLayers(db, data.layers, batchId, done)
+            dyes: (done) =>
+              insertBatchesDyes(
+                db,
+                dyes,
+                totalWaxWeightOunces,
+                totalFragranceWeightOunces,
+                totalAdditiveWeightOunces,
+                totalDyeWeightOunces,
+                batchId,
+                done
+              ),
+            layers: (done) => insertLayers(db, data.layers, batchId, done),
           },
           (err, results) => {
             if (err) {
@@ -81,7 +100,7 @@ module.exports = function postBatch(db, data, cb) {
               return rollback(db, err, cb);
             }
             let errorReasons = [];
-            Object.keys(results).forEach(k => {
+            Object.keys(results).forEach((k) => {
               let expectedRows = 0;
               switch (k) {
                 case "fragranceOils":
@@ -93,8 +112,8 @@ module.exports = function postBatch(db, data, cb) {
                 case "additives":
                   expectedRows = additives.length;
                   break;
-                case "dyeBlocks":
-                  expectedRows = dyeBlocks.length;
+                case "dyes":
+                  expectedRows = dyes.length;
                   break;
                 case "layers":
                   expectedRows = data.layers.length;
@@ -102,7 +121,7 @@ module.exports = function postBatch(db, data, cb) {
               }
               if (results[k] && results[k].affectedRows !== expectedRows) {
                 errorReasons.push({
-                  message: `failed to post. check the hashId for ${k}.`
+                  message: `failed to post. check the hashId for ${k}.`,
                 });
               }
             });
@@ -113,13 +132,13 @@ module.exports = function postBatch(db, data, cb) {
             }
 
             // end transaction
-            db.commit(err => {
+            db.commit((err) => {
               if (err) {
                 return rollback(db, err, cb);
               }
 
               return cb(null, {
-                batchId
+                batchId,
               });
             });
           }
@@ -135,20 +154,21 @@ function addToBatches(
   totalWaxWeightOunces,
   totalFragranceWeightOunces,
   totalAdditiveWeightOunces,
+  totalDyeWeightOunces,
   cb
 ) {
   const fragranceLoad =
     calculateFragranceLoad({
       fragranceWeightOunces: parseFloat(totalFragranceWeightOunces),
-      waxWeightOunces: parseFloat(totalWaxWeightOunces)
+      waxWeightOunces: parseFloat(totalWaxWeightOunces),
     }) || 0;
 
   const sql = `
     INSERT INTO batches
-      (name, slug, total_wax_weight_ounces, total_fragrance_weight_ounces, total_additive_weight_ounces, fragrance_load,
-        fragrance_add_temperature_fahrenheit, dye_add_temperature_fahrenheit, when_created, notes)
+      (name, slug, total_wax_weight_ounces, total_fragrance_weight_ounces, total_additive_weight_ounces, total_dye_weight_ounces,
+        fragrance_load, fragrance_add_temperature_fahrenheit, dye_add_temperature_fahrenheit, when_created, notes)
     VALUES
-      (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `;
 
   const params = [
@@ -157,18 +177,19 @@ function addToBatches(
     totalWaxWeightOunces,
     totalFragranceWeightOunces,
     totalAdditiveWeightOunces,
+    totalDyeWeightOunces,
     fragranceLoad,
     data.fragranceAddTemperatureFahrenheit || null,
     data.dyeAddTemperatureFahrenheit || null,
     data.whenCreated,
-    data.notes
+    data.notes,
   ];
 
   db.query(sql, params, (err, result) => {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return cb(err);
     }
@@ -177,14 +198,14 @@ function addToBatches(
     const hashSql = `UPDATE batches SET hash_id = ? WHERE id = ?`;
     const hashParams = [
       hashConfig.batches.encode(result.insertId),
-      result.insertId
+      result.insertId,
     ];
 
     db.query(hashSql, hashParams, (err, result) => {
       if (err) {
         console.error(err, {
           sql: hashSql,
-          params: hashParams
+          params: hashParams,
         });
         return cb(err);
       }
@@ -199,6 +220,7 @@ function insertBatchesFragranceOils(
   totalWaxWeightOunces,
   totalFragranceWeightOunces,
   totalAdditiveWeightOunces,
+  totalDyeWeightOunces,
   batchId,
   cb
 ) {
@@ -256,7 +278,7 @@ function insertBatchesFragranceOils(
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return cb(err);
     }
@@ -277,7 +299,7 @@ function insertBatchesFragranceOils(
       if (err) {
         console.error(err, {
           decrementSql,
-          decrementParams
+          decrementParams,
         });
         return cb(err);
       }
@@ -301,7 +323,7 @@ function insertBatchesFragranceOils(
         if (err) {
           console.error(err, {
             finishedSql,
-            finishedParams
+            finishedParams,
           });
           return cb(err);
         }
@@ -317,6 +339,7 @@ function insertBatchesAdditives(
   totalWaxWeightOunces,
   totalFragranceWeightOunces,
   totalAdditiveWeightOunces,
+  totalDyeWeightOunces,
   batchId,
   cb
 ) {
@@ -365,7 +388,7 @@ function insertBatchesAdditives(
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return cb(err);
     }
@@ -386,7 +409,7 @@ function insertBatchesAdditives(
       if (err) {
         console.error(err, {
           decrementSql,
-          decrementParams
+          decrementParams,
         });
         return cb(err);
       }
@@ -410,7 +433,7 @@ function insertBatchesAdditives(
         if (err) {
           console.error(err, {
             finishedSql,
-            finishedParams
+            finishedParams,
           });
           return cb(err);
         }
@@ -463,7 +486,7 @@ function insertBatchesWaxes(db, data, batchId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return cb(err);
     }
@@ -485,7 +508,7 @@ function insertBatchesWaxes(db, data, batchId, cb) {
         console.error(err, {
           decrementSql,
           decrementParams,
-          decrementResult
+          decrementResult,
         });
         return cb(err);
       }
@@ -509,7 +532,7 @@ function insertBatchesWaxes(db, data, batchId, cb) {
         if (err) {
           console.error(err, {
             finishedSql,
-            finishedParams
+            finishedParams,
           });
           return cb(err);
         }
@@ -519,7 +542,16 @@ function insertBatchesWaxes(db, data, batchId, cb) {
   });
 }
 
-function insertBatchesDyeBlocks(db, data, batchId, cb) {
+function insertBatchesDyes(
+  db,
+  data,
+  totalWaxWeightOunces,
+  totalFragranceWeightOunces,
+  totalAdditiveWeightOunces,
+  totalDyeWeightOunces,
+  batchId,
+  cb
+) {
   if (!data.length) {
     return cb();
   }
@@ -529,12 +561,12 @@ function insertBatchesDyeBlocks(db, data, batchId, cb) {
   // for distinct weight_ounces values for each fo-id makes that complex
   const internalSelect = `
     SELECT ?, ?, ?, db.id
-    FROM dye_blocks db
+    FROM dyes db
     WHERE db.hash_id = ?`;
 
   let sql = `
-      INSERT INTO batches_dye_blocks
-        (batch_id, pieces, combine_id, dye_block_id)
+      INSERT INTO batches_dyes
+        (batch_id, weight_ounces, combine_id, dye_id)
     `;
   let params = [];
   let decrementCases = [];
@@ -549,10 +581,10 @@ function insertBatchesDyeBlocks(db, data, batchId, cb) {
       sql += ` UNION ALL `;
     }
     sql += internalSelect;
-    params.push(batchId, d.pieces, d.combineId, d.hashId);
+    params.push(batchId, d.weightOunces, d.combineId, d.hashId);
 
     decrementCases.push("WHEN hash_id = ? THEN (remaining - ?)");
-    decrementParams.push(d.hashId, d.pieces);
+    decrementParams.push(d.hashId, d.weightOunces);
     if (d.finished) {
       finishedCases.push("WHEN hash_id = ? THEN ?");
       finishedParams.push(d.hashId, true);
@@ -561,18 +593,18 @@ function insertBatchesDyeBlocks(db, data, batchId, cb) {
     allHashIds.push(d.hashId);
   });
 
-  db.query(sql, params, (err, batchesDyeBlocksResult) => {
+  db.query(sql, params, (err, batchesDyesResult) => {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return cb(err);
     }
 
     // also decrement the amount used from the resource table
     const decrementSql = `
-    UPDATE dye_blocks
+    UPDATE dyes
       SET remaining = (
         CASE ${decrementCases.join(" ")}
         END
@@ -586,17 +618,17 @@ function insertBatchesDyeBlocks(db, data, batchId, cb) {
       if (err) {
         console.error(err, {
           decrementSql,
-          decrementParams
+          decrementParams,
         });
         return cb(err);
       }
       if (!finishedCases.length) {
-        return cb(null, batchesDyeBlocksResult);
+        return cb(null, batchesDyesResult);
       }
 
       // also decrement the amount used from the resource table
       const finishedSql = `
-      UPDATE dye_blocks
+      UPDATE dyes
         SET finished = (
           CASE ${finishedCases.join(" ")}
           END
@@ -610,11 +642,11 @@ function insertBatchesDyeBlocks(db, data, batchId, cb) {
         if (err) {
           console.error(err, {
             finishedSql,
-            finishedParams
+            finishedParams,
           });
           return cb(err);
         }
-        return cb(null, batchesDyeBlocksResult);
+        return cb(null, batchesDyesResult);
       });
     });
   });
@@ -661,7 +693,7 @@ function insertLayers(db, data, batchId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return cb(err);
     }
@@ -672,15 +704,15 @@ function insertLayers(db, data, batchId, cb) {
       rowIndices.push(result.insertId + i);
     }
 
-    const updateFuncs = rowIndices.map(rowIndex => {
-      return done => {
+    const updateFuncs = rowIndices.map((rowIndex) => {
+      return (done) => {
         const sql = `UPDATE layers SET hash_id = ? WHERE id = ?`;
         const params = [hashConfig.layers.encode(rowIndex), rowIndex];
         db.query(sql, params, (err, result) => {
           if (err) {
             console.error(err, {
               sql,
-              params
+              params,
             });
           }
           done(err, result);

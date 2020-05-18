@@ -62,8 +62,8 @@ app.route("/supply-orders").post(function(req, res, next) {
     if (!orderData.items[i].name) {
       return res.status(400).send({ message: "item name is required" });
     }
-    if (orderData.items[i].type === "dye-block" && !orderData.items[i].color) {
-      return res.status(400).send({ message: "dye-blocks require a color" });
+    if (orderData.items[i].type === "dye" && !orderData.items[i].color) {
+      return res.status(400).send({ message: "dyes require a color" });
     }
   }
 

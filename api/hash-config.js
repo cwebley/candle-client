@@ -9,7 +9,7 @@ module.exports = {
   waxes: new hashIds("waxes", hashMinimumSize, hashCharacters),
   additives: new hashIds("additives", hashMinimumSize, hashCharacters),
   boxes: new hashIds("boxes", hashMinimumSize, hashCharacters),
-  dyeBlocks: new hashIds("dye blocks", hashMinimumSize, hashCharacters),
+  dyes: new hashIds("dye blocks", hashMinimumSize, hashCharacters),
   jars: new hashIds("jars", hashMinimumSize, hashCharacters),
   lids: new hashIds("lids", hashMinimumSize, hashCharacters),
   miscEquipment: new hashIds("misc equipment", hashMinimumSize, hashCharacters),

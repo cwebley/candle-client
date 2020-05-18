@@ -14,7 +14,7 @@ const styles = theme => ({
   }
 });
 
-function DyeBlockForm({ newItemValues, onChange, classes }) {
+function DyeForm({ newItemValues, onChange, classes }) {
   return (
     <div className={classes.root}>
       <TextField
@@ -31,14 +31,14 @@ function DyeBlockForm({ newItemValues, onChange, classes }) {
       />
       <TextField
         className={classes.textField}
-        label="Pieces"
-        value={newItemValues.pieces || ""}
+        label="Weight Ounces"
+        value={newItemValues.weightOunces || ""}
         type="number"
         onChange={onChange}
         InputProps={{
-          endAdornment: <InputAdornment position="end">pieces</InputAdornment>,
+          endAdornment: <InputAdornment position="end">oz</InputAdornment>,
           inputProps: {
-            name: "pieces",
+            name: "weightOunces",
             step: "1"
           }
         }}
@@ -50,7 +50,7 @@ function DyeBlockForm({ newItemValues, onChange, classes }) {
         type="number"
         onChange={onChange}
         InputProps={{
-          endAdornment: <InputAdornment position="end">pieces</InputAdornment>,
+          endAdornment: <InputAdornment position="end">oz</InputAdornment>,
           inputProps: {
             name: "remaining",
             step: "0.01"
@@ -111,4 +111,4 @@ function DyeBlockForm({ newItemValues, onChange, classes }) {
   );
 }
 
-export default withStyles(styles)(DyeBlockForm);
+export default withStyles(styles)(DyeForm);
