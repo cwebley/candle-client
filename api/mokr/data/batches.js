@@ -5377,4 +5377,103 @@ module.exports = [
     ],
     name: "French Vanilla Fillmore Test",
   },
+  {
+    whenCreated: "2020-05-17",
+    fragranceAddTemperatureFahrenheit: "205",
+    dyeAddTemperatureFahrenheit: null,
+    batchItems: [
+      { type: "wax", hashId: "3EZ3", weightOunces: "4.65", combineId: 1 },
+      { type: "wax", hashId: "3RO3", weightOunces: "0.53", combineId: 2 },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.11", combineId: 3 },
+      {
+        type: "fragrance-oil",
+        hashId: "4NNN",
+        weightOunces: "0.32",
+        combineId: 4,
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "GBQ8",
+        weightOunces: "0.32",
+        combineId: 5,
+      },
+    ],
+    layers: [
+      {
+        candleHashId: "3ZVX",
+        whenPoured: "2020-05-17T18:39:21",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "51",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "7.00",
+      },
+    ],
+    name: "Coco Blend Throw Test Control Batch",
+  },
+  {
+    whenCreated: "2020-05-17",
+    fragranceAddTemperatureFahrenheit: "205",
+    dyeAddTemperatureFahrenheit: null,
+    batchItems: [
+      { type: "wax", hashId: "3EZ3", weightOunces: "5.02", combineId: 1 },
+      { type: "wax", hashId: "1VE3", weightOunces: "0.26", combineId: 3 },
+      {
+        type: "fragrance-oil",
+        hashId: "4NNN",
+        weightOunces: "0.32",
+        combineId: 4,
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "GBQ8",
+        weightOunces: "0.32",
+        combineId: 5,
+      },
+    ],
+    layers: [
+      {
+        candleHashId: "3MLV",
+        whenPoured: "2020-05-17T18:40:28",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "51",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "7.00",
+      },
+    ],
+    name: "Coco83 + 5% beeswax Test Batch",
+  },
+  {
+    whenCreated: "2020-05-17",
+    fragranceAddTemperatureFahrenheit: "205",
+    dyeAddTemperatureFahrenheit: null,
+    batchItems: [
+      { type: "wax", hashId: "3EZ3", weightOunces: "5.28", combineId: 1 },
+      {
+        type: "fragrance-oil",
+        hashId: "4NNN",
+        weightOunces: "0.32",
+        combineId: 2,
+      },
+      {
+        type: "fragrance-oil",
+        hashId: "GBQ8",
+        weightOunces: "0.32",
+        combineId: 3,
+      },
+    ],
+    layers: [
+      {
+        candleHashId: "37L7",
+        whenPoured: "2020-05-17T18:40:36",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "51",
+        coolingRoomTemperatureFahrenheit: "75",
+        containerTemperatureFahrenheit: "75",
+        preppedContainerWeightOunces: "7.00",
+      },
+    ],
+    name: "Pure Coco-83 Throw Test Batch",
+  },
 ];

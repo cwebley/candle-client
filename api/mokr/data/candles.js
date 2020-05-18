@@ -3180,4 +3180,32 @@ module.exports = [
       wickStickerHashId: "3NOB",
     },
   ],
+  [
+    {
+      name: "FTB 83 + Bees + Cnut-1 Throw Test Control",
+      jarHashId: "1NJJ",
+      wickHashId: "58LG",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+    },
+    {
+      name: "FTB 83 +  5% Bees Throw Test",
+      jarHashId: "1NJJ",
+      wickHashId: "58LG",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      jarFinished: true,
+    },
+    {
+      name: "FTB 100% Coco-83 Throw Test",
+      jarHashId: "M4PX",
+      wickHashId: "58LG",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "3NOB",
+      jarFinished: true,
+    },
+  ],
 ];

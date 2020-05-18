@@ -5635,6 +5635,14 @@ module.exports = [
         notes:
           "1/2 inch mp, pretty much all melted at this point. flame a bit big and dancy but prob fine for bottom of jar. only a little bit of mushrooming. jar not too hot.",
       },
+      {
+        whenStarted: "2020-05-16 13:00:00",
+        whenStopped: "2020-05-16 17:30:00",
+        stoppedWeightOunces: 7.77,
+        finished: true,
+        notes:
+          "1/4 inch wax remains after candle put itself out. temperature never seemed too high. only a very little bit of soot on the glass--almost invisible--after the entire candle burn. definitely a great wick, but i wonder if the throw could be better somehow",
+      },
     ],
     notes: "",
   },
@@ -5761,6 +5769,14 @@ module.exports = [
         notes:
           "1/4 inch mp, flame a bit big and dancy but prob fine for bottom of jar. middle amount of mushrooming. jar not too hot.",
       },
+      {
+        whenStarted: "2020-05-16 13:00:00",
+        whenStopped: "2020-05-16 17:30:00",
+        stoppedWeightOunces: 7.77,
+        finished: true,
+        notes:
+          "1/4 inch wax remains after candle put itself out. temperature never seemed too high. only a little bit of soot on the glass after the entire candle burn. definitely a good wick, but i wonder if the throw could be better",
+      },
     ],
     notes: "",
   },
@@ -5880,6 +5896,31 @@ module.exports = [
   {
     completedCandleWeightOunces: "11.63",
     volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // Different wax blend throw tests
+  // 3Q9K FTB 775 Normal Coco blend control tester
+  {
+    completedCandleWeightOunces: "12.50",
+    volumeOverflowPercent: "60",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // 3MLV FTB 775 Coco-83 & 5% Bees tester
+  {
+    completedCandleWeightOunces: "12.50",
+    volumeOverflowPercent: "60",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // 37L7 FTB 775 Pure coco-83 tester
+  {
+    completedCandleWeightOunces: "12.50",
+    volumeOverflowPercent: "60",
     colorDescription: "whiteish",
     burns: [],
     notes: "",
