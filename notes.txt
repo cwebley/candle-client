@@ -194,6 +194,8 @@ Current Todo List:
 create a wick from a untabbed wick and a tab
 create a wax blend from multiple waxes
 dyePercentage of total, suggested dye amount based on that field on new-batch page
+suggested weight on new-batch page is wonky after marking finished, then re-editing to unfinish
+add candle name to new-batch page layer popout or something. this might need a candle hash lookup, etc
 confirmation links, msds sheets, ifra certificates, vanillin content/ ethyl vanillin, flashpoint, pthalate free
 client-api ping route or something to make sure its all connected--looks like this route already exists
 some way to save candle "recipes"
@@ -245,8 +247,15 @@ pancakes + birch or pancakes + fir for a seasonal breakfast
 
 
 FT + Berg:
-try 770 + 775 since 777 is a bit too hot in 2 runs
-And Eco-8?
+still deciding 775 vs 777.
 
 CC
-Try 780/Eco-8
+777 almost big xenough, 780 weirdly not
+
+Almond + Nag Champa + Black Amber and Plum
+775
+CD-8
+CDN-8
+Eco-6
+LX-16
+HTP-104
