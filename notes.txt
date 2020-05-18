@@ -186,15 +186,17 @@ autocomplete have a filter for not finished
 root beer float options:
 htp 104 (good option but bit of soot on a mid jar burn. all the way throuh this might have been the best actually. maybe enforce a trimmed wick?)
 cd8 (great option, tiny bit of soot on one burn)
-cdn8 (excellent optiona after 3 burns)
+cdn8 (excellent option after 3 burns)
 lx-18 (a bit hot in mid jar. cool at 2/3 burn. smaller would be too small at the bottom. bigger too big at the top prob.)
 zinc 44-32 (too small, try one size up)
 
 Current Todo List:
-add liquid dye as a resource
+create a wick from a untabbed wick and a tab
+create a wax blend from multiple waxes
 dyePercentage of total, suggested dye amount based on that field on new-batch page
 confirmation links, msds sheets, ifra certificates, vanillin content/ ethyl vanillin, flashpoint, pthalate free
 client-api ping route or something to make sure its all connected--looks like this route already exists
+some way to save candle "recipes"
 autocomplete routes from hash_id
 recent batches route
 inventory routes
