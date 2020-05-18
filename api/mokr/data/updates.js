@@ -5903,7 +5903,7 @@ module.exports = [
   // Different wax blend throw tests
   // 3Q9K FTB 775 Normal Coco blend control tester
   {
-    completedCandleWeightOunces: "12.50",
+    completedCandleWeightOunces: "12.72",
     volumeOverflowPercent: "60",
     colorDescription: "whiteish",
     burns: [],
@@ -5911,7 +5911,7 @@ module.exports = [
   },
   // 3MLV FTB 775 Coco-83 & 5% Bees tester
   {
-    completedCandleWeightOunces: "12.50",
+    completedCandleWeightOunces: "12.68",
     volumeOverflowPercent: "60",
     colorDescription: "whiteish",
     burns: [],
@@ -5919,7 +5919,7 @@ module.exports = [
   },
   // 37L7 FTB 775 Pure coco-83 tester
   {
-    completedCandleWeightOunces: "12.50",
+    completedCandleWeightOunces: "12.72",
     volumeOverflowPercent: "60",
     colorDescription: "whiteish",
     burns: [],
