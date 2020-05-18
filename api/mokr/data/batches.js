@@ -49,7 +49,7 @@ module.exports = [
       { type: "wax", hashId: "3Z7P", weightOunces: "10.2" },
       { type: "fragrance-oil", hashId: "4JDB", weightOunces: "0.8" },
       { type: "fragrance-oil", hashId: "OK5E", weightOunces: "0.3" },
-      { type: "dye-blocks", hashId: "VQWV", weightOunces: "0.05" },
+      { type: "dye", hashId: "VQWV", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -93,7 +93,7 @@ module.exports = [
       { type: "wax", hashId: "PBV3", weightOunces: "1.2" },
       { type: "fragrance-oil", hashId: "4JDB", weightOunces: "0.8" },
       { type: "fragrance-oil", hashId: "GQRB", weightOunces: "0.2" },
-      { type: "dye-blocks", hashId: "7B6Q", weightOunces: "0.05" },
+      { type: "dye", hashId: "7B6Q", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -145,7 +145,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.42" },
       { type: "fragrance-oil", hashId: "GQRB", weightOunces: "0.38" },
       { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.38" },
-      { type: "dye-blocks", hashId: "VQPW", weightOunces: "0.05" },
+      { type: "dye", hashId: "VQPW", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -252,7 +252,7 @@ module.exports = [
       { type: "wax", weightOunces: "1.1", hashId: "157P" },
       { type: "fragrance-oil", hashId: "GRNR", weightOunces: "0.8" },
       { type: "fragrance-oil", hashId: "G5K7", weightOunces: "0.8" },
-      { type: "dye-blocks", hashId: "7J57", weightOunces: "0.05" },
+      { type: "dye", hashId: "7J57", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -322,7 +322,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.3" },
       { type: "fragrance-oil", hashId: "ODW8", weightOunces: "0.7" },
       { type: "fragrance-oil", hashId: "4338", weightOunces: "0.4" },
-      { type: "dye-blocks", hashId: "7MWW", weightOunces: "0.05" },
+      { type: "dye", hashId: "7MWW", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -365,7 +365,7 @@ module.exports = [
       { type: "wax", hashId: "3761", weightOunces: "1" },
       { type: "fragrance-oil", hashId: "GQPB", weightOunces: "0.5" },
       { type: "fragrance-oil", hashId: "GWM3", weightOunces: "0.7" },
-      { type: "dye-blocks", hashId: "O6RZ", weightOunces: "0.05" },
+      { type: "dye", hashId: "O6RZ", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -409,7 +409,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.1" },
       { type: "wax", hashId: "3761", weightOunces: "0.35" },
       { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.75" },
-      { type: "dye-blocks", hashId: "OLZY", weightOunces: "0.05" },
+      { type: "dye", hashId: "OLZY", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -432,7 +432,7 @@ module.exports = [
       { type: "wax", hashId: "1KVP", weightOunces: "11.4" },
       { type: "wax", hashId: "3761", weightOunces: "0.4" },
       { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.75" },
-      { type: "dye-blocks", hashId: "VQPW", weightOunces: "0.05" },
+      { type: "dye", hashId: "VQPW", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -455,7 +455,7 @@ module.exports = [
       { type: "wax", hashId: "1KVP", weightOunces: "8.03" },
       { type: "wax", hashId: "157P", weightOunces: "0.25" },
       { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
-      { type: "dye-blocks", hashId: "7BQ7", weightOunces: "0.05" },
+      { type: "dye", hashId: "7BQ7", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -479,7 +479,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.25" },
       { type: "wax", hashId: "3761", weightOunces: "0.41" },
       { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
-      { type: "dye-blocks", hashId: "7BQ7", weightOunces: "0.05" },
+      { type: "dye", hashId: "7BQ7", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -503,7 +503,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.25" },
       { type: "wax", hashId: "3761", weightOunces: "0.83" },
       { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
-      { type: "dye-blocks", hashId: "7BQ7", weightOunces: "0.05" },
+      { type: "dye", hashId: "7BQ7", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -526,7 +526,7 @@ module.exports = [
       { type: "wax", hashId: "1KVP", weightOunces: "8" },
       { type: "wax", hashId: "157P", weightOunces: "0.17" },
       { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
-      { type: "dye-blocks", hashId: "OGX7", weightOunces: "0.05" },
+      { type: "dye", hashId: "OGX7", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -551,7 +551,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.17" },
       { type: "wax", hashId: "3761", weightOunces: "0.41" },
       { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
-      { type: "dye-blocks", hashId: "OGX7", weightOunces: "0.05" },
+      { type: "dye", hashId: "OGX7", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -576,7 +576,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.17" },
       { type: "wax", hashId: "3761", weightOunces: "0.83" },
       { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.5" },
-      { type: "dye-blocks", hashId: "OGX7", weightOunces: "0.05" },
+      { type: "dye", hashId: "OGX7", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -600,7 +600,7 @@ module.exports = [
       { type: "wax", hashId: "1KVP", weightOunces: "8.17" },
       { type: "wax", hashId: "157P", weightOunces: "0.08" },
       { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
-      { type: "dye-blocks", hashId: "O34V", weightOunces: "0.05" },
+      { type: "dye", hashId: "O34V", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -625,7 +625,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.08" },
       { type: "wax", hashId: "3761", weightOunces: "0.41" },
       { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
-      { type: "dye-blocks", hashId: "O34V", weightOunces: "0.05" },
+      { type: "dye", hashId: "O34V", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -650,7 +650,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.08" },
       { type: "wax", hashId: "3761", weightOunces: "0.83" },
       { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
-      { type: "dye-blocks", hashId: "O34V", weightOunces: "0.05" },
+      { type: "dye", hashId: "O34V", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -673,7 +673,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "1KVP", weightOunces: "8.26" },
       { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
-      { type: "dye-blocks", hashId: "7ZQ7", weightOunces: "0.05" },
+      { type: "dye", hashId: "7ZQ7", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -697,7 +697,7 @@ module.exports = [
       { type: "wax", hashId: "1KVP", weightOunces: "7.85" },
       { type: "wax", hashId: "3761", weightOunces: "0.43" },
       { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
-      { type: "dye-blocks", hashId: "7ZQ7", weightOunces: "0.05" },
+      { type: "dye", hashId: "7ZQ7", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -721,7 +721,7 @@ module.exports = [
       { type: "wax", hashId: "1KVP", weightOunces: "7.43" },
       { type: "wax", hashId: "3761", weightOunces: "0.83" },
       { type: "fragrance-oil", hashId: "42MJ", weightOunces: "0.53" },
-      { type: "dye-blocks", hashId: "7ZQ7", weightOunces: "0.05" },
+      { type: "dye", hashId: "7ZQ7", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -744,7 +744,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "1KVP", weightOunces: "16.52" },
       { type: "fragrance-oil", hashId: "42MJ", weightOunces: "1.05" },
-      { type: "dye-blocks", hashId: "7ZQ7", weightOunces: "0.10" },
+      { type: "dye", hashId: "7ZQ7", weightOunces: "0.10" },
     ],
     layers: [
       {
@@ -779,7 +779,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.33" },
       { type: "wax", hashId: "3761", weightOunces: "1.32" },
       { type: "fragrance-oil", hashId: "GMDW", weightOunces: "0.8" },
-      { type: "dye-blocks", hashId: "OGX7", weightOunces: "0.10" },
+      { type: "dye", hashId: "OGX7", weightOunces: "0.10" },
     ],
     layers: [
       {
@@ -814,7 +814,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.17" },
       { type: "wax", hashId: "3761", weightOunces: "1.24" },
       { type: "fragrance-oil", hashId: "4NV8", weightOunces: "0.6" },
-      { type: "dye-blocks", hashId: "OWXV", weightOunces: "0.05" },
+      { type: "dye", hashId: "OWXV", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -840,7 +840,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.17" },
       { type: "wax", hashId: "3761", weightOunces: "1.65" },
       { type: "fragrance-oil", hashId: "4NV8", weightOunces: "0.6" },
-      { type: "dye-blocks", hashId: "OWXV", weightOunces: "0.05" },
+      { type: "dye", hashId: "OWXV", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -866,7 +866,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.18" },
       { type: "wax", hashId: "3761", weightOunces: "0.89" },
       { type: "fragrance-oil", hashId: "4NV8", weightOunces: "0.38" },
-      { type: "dye-blocks", hashId: "VP1O", weightOunces: "0.03" },
+      { type: "dye", hashId: "VP1O", weightOunces: "0.03" },
     ],
     layers: [
       {
@@ -892,7 +892,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.18" },
       { type: "wax", hashId: "3761", weightOunces: "1.2" },
       { type: "fragrance-oil", hashId: "4NV8", weightOunces: "0.38" },
-      { type: "dye-blocks", hashId: "VP1O", weightOunces: "0.03" },
+      { type: "dye", hashId: "VP1O", weightOunces: "0.03" },
     ],
     layers: [
       {
@@ -918,7 +918,7 @@ module.exports = [
       { type: "wax", hashId: "3761", weightOunces: "1.27" },
       { type: "wax", hashId: "3XYP", weightOunces: "14.24" },
       { type: "fragrance-oil", hashId: "4NV8", weightOunces: "1.01" },
-      { type: "dye-blocks", hashId: "OEWO", weightOunces: "0.03" },
+      { type: "dye", hashId: "OEWO", weightOunces: "0.03" },
     ],
     layers: [
       {
@@ -960,7 +960,7 @@ module.exports = [
       { type: "wax", hashId: "3761", weightOunces: "0.79" },
       { type: "wax", hashId: "3XYP", weightOunces: "14.79" },
       { type: "fragrance-oil", hashId: "4NV8", weightOunces: "1.01" },
-      { type: "dye-blocks", hashId: "74ZV", weightOunces: "0.03" },
+      { type: "dye", hashId: "74ZV", weightOunces: "0.03" },
     ],
     layers: [
       {
@@ -1002,7 +1002,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.13" },
       { type: "wax", hashId: "3761", weightOunces: "0.43" },
       { type: "fragrance-oil", hashId: "GQPB", weightOunces: "0.54" },
-      { type: "dye-blocks", hashId: "71KV", weightOunces: "0.05" },
+      { type: "dye", hashId: "71KV", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -1035,7 +1035,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.13" },
       { type: "wax", hashId: "3761", weightOunces: "0.43" },
       { type: "fragrance-oil", hashId: "GQPB", weightOunces: "0.54" },
-      { type: "dye-blocks", hashId: "OEWO", weightOunces: "0.05" },
+      { type: "dye", hashId: "OEWO", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -1069,7 +1069,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.18" },
       { type: "wax", hashId: "3761", weightOunces: "0.59" },
       { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.75" },
-      { type: "dye-blocks", hashId: "VP1O", weightOunces: "0.05" },
+      { type: "dye", hashId: "VP1O", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -1102,7 +1102,7 @@ module.exports = [
       { type: "wax", hashId: "157P", weightOunces: "0.18" },
       { type: "wax", weightOunces: "0.59", hashId: "3761" },
       { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.75" },
-      { type: "dye-blocks", hashId: "74ZV", weightOunces: "0.05" },
+      { type: "dye", hashId: "74ZV", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -1137,7 +1137,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "49BQ", weightOunces: "0.62" },
       { type: "fragrance-oil", hashId: "4NV8", weightOunces: "0.62" },
       { type: "fragrance-oil", hashId: "486E", weightOunces: "0.62" },
-      { type: "dye-blocks", hashId: "VP1O", weightOunces: "0.05" },
+      { type: "dye", hashId: "VP1O", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -1192,7 +1192,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "OKVV", weightOunces: "0.62" },
       { type: "fragrance-oil", hashId: "41ZW", weightOunces: "0.62" },
       { type: "fragrance-oil", hashId: "GX5V", weightOunces: "0.62" },
-      { type: "dye-blocks", hashId: "71KV", weightOunces: "0.05" },
+      { type: "dye", hashId: "71KV", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -1282,7 +1282,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "GVQ8", weightOunces: "0.28" },
       { type: "fragrance-oil", hashId: "GR1R", weightOunces: "0.28" },
       { type: "fragrance-oil", hashId: "49DQ", weightOunces: "0.28" },
-      { type: "dye-blocks", hashId: "OWXV", weightOunces: "0.05" },
+      { type: "dye", hashId: "OWXV", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -1653,7 +1653,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "4NDL", weightOunces: "0.75" },
       { type: "fragrance-oil", hashId: "GVXP", weightOunces: "0.75" },
       { type: "fragrance-oil", hashId: "48DE", weightOunces: "0.64" },
-      { type: "dye-blocks", hashId: "74ZV", weightOunces: "0.05" },
+      { type: "dye", hashId: "74ZV", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -1697,7 +1697,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "OKVV", weightOunces: "0.71" },
       { type: "fragrance-oil", hashId: "GYXM", weightOunces: "0.71" },
       { type: "fragrance-oil", hashId: "41ZW", weightOunces: "0.71" },
-      { type: "dye-blocks", hashId: "71KV", weightOunces: "0.10" },
+      { type: "dye", hashId: "71KV", weightOunces: "0.10" },
     ],
     layers: [
       {
@@ -1742,7 +1742,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "GV68", weightOunces: "0.71" },
       { type: "fragrance-oil", hashId: "G7Q8", weightOunces: "0.51" },
       { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.21" },
-      { type: "dye-blocks", hashId: "VP1O", weightOunces: "0.05" },
+      { type: "dye", hashId: "VP1O", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -1789,7 +1789,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "4JYB", weightOunces: "0.21" },
       { type: "fragrance-oil", hashId: "OERB", weightOunces: "0.21" },
       { type: "fragrance-oil", hashId: "4N88", weightOunces: "0.39" },
-      { type: "dye-blocks", hashId: "7R6W", weightOunces: "0.03" },
+      { type: "dye", hashId: "7R6W", weightOunces: "0.03" },
     ],
     layers: [
       {
@@ -1833,7 +1833,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "GZQE", weightOunces: "1.96" },
       { type: "fragrance-oil", hashId: "GV68", weightOunces: "2.05" },
       { type: "fragrance-oil", hashId: "GZ1M", weightOunces: "1.94" },
-      { type: "dye-blocks", hashId: "OEWO", weightOunces: "0.10" },
+      { type: "dye", hashId: "OEWO", weightOunces: "0.10" },
       { type: "wax", hashId: "P4J1", weightOunces: "1.77" },
     ],
     layers: [
@@ -1977,7 +1977,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "GVXP", weightOunces: "1.28" },
       { type: "fragrance-oil", hashId: "48DE", weightOunces: "1.28" },
       { type: "fragrance-oil", hashId: "4NDL", weightOunces: "1.09" },
-      { type: "dye-blocks", hashId: "74ZV", weightOunces: "0.10" },
+      { type: "dye", hashId: "74ZV", weightOunces: "0.10" },
     ],
     layers: [
       {
@@ -2039,7 +2039,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "GVXP", weightOunces: "1.28" },
       { type: "fragrance-oil", hashId: "48DE", weightOunces: "1.28" },
       { type: "fragrance-oil", hashId: "4NDL", weightOunces: "1.09" },
-      { type: "dye-blocks", hashId: "74ZV", weightOunces: "0.10" },
+      { type: "dye", hashId: "74ZV", weightOunces: "0.10" },
       { type: "wax", hashId: "3NRP", weightOunces: "19.06" },
     ],
     layers: [
@@ -2120,7 +2120,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "OKVV", weightOunces: "1.20" },
       { type: "fragrance-oil", hashId: "GYXM", weightOunces: "1.20" },
       { type: "fragrance-oil", hashId: "41ZW", weightOunces: "1.20" },
-      { type: "dye-blocks", hashId: "V29B", weightOunces: "0.10" },
+      { type: "dye", hashId: "V29B", weightOunces: "0.10" },
     ],
     layers: [
       {
@@ -2182,7 +2182,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "41ZW", weightOunces: "1.05" },
       { type: "fragrance-oil", hashId: "OKVV", weightOunces: "1.05" },
       { type: "fragrance-oil", hashId: "GYXM", weightOunces: "1.05" },
-      { type: "dye-blocks", hashId: "74ZV", weightOunces: "0.10" },
+      { type: "dye", hashId: "74ZV", weightOunces: "0.10" },
     ],
     layers: [
       {
@@ -2227,7 +2227,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "GV68", weightOunces: "1.20" },
       { type: "fragrance-oil", hashId: "G7Q8", weightOunces: "0.88" },
       { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.36" },
-      { type: "dye-blocks", hashId: "VP1O", weightOunces: "0.05" },
+      { type: "dye", hashId: "VP1O", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -2300,7 +2300,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "G597", weightOunces: "0.75" },
       { type: "fragrance-oil", hashId: "G7Q8", weightOunces: "0.88" },
       { type: "fragrance-oil", hashId: "4N58", weightOunces: "0.36" },
-      { type: "dye-blocks", hashId: "VP1O", weightOunces: "0.05" },
+      { type: "dye", hashId: "VP1O", weightOunces: "0.05" },
     ],
     layers: [
       {
@@ -2364,7 +2364,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "G5W7", weightOunces: "1.28" },
       { type: "fragrance-oil", hashId: "42J4", weightOunces: "0.36" },
       { type: "fragrance-oil", hashId: "GW7X", weightOunces: "1.28" },
-      { type: "dye-blocks", hashId: "OWXV", weightOunces: "0.10" },
+      { type: "dye", hashId: "OWXV", weightOunces: "0.10" },
     ],
     layers: [
       {
@@ -2429,7 +2429,7 @@ module.exports = [
       { type: "fragrance-oil", hashId: "G5W7", weightOunces: "1.28" },
       { type: "fragrance-oil", hashId: "42J4", weightOunces: "0.36" },
       { type: "fragrance-oil", hashId: "GW7X", weightOunces: "1.28" },
-      { type: "dye-blocks", hashId: "OWXV", weightOunces: "0.10" },
+      { type: "dye", hashId: "OWXV", weightOunces: "0.10" },
     ],
     layers: [
       {

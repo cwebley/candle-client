@@ -9,7 +9,7 @@ module.exports = function getBatch(db, { batchId }, cb) {
       b.total_wax_weight_ounces AS "totalWaxWeightOunces",
       b.total_fragrance_weight_ounces AS "totalFragranceWeightOunces",
       b.total_additive_weight_ounces AS "totalAdditiveWeightOunces",
-      b.total_dye_block_weight_ounces AS "totalDyeBlockWeightOunces",
+      b.total_dye_weight_ounces AS "totalDyeWeightOunces",
       b.fragrance_load AS "fragranceLoad",
       b.fragrance_add_temperature_fahrenheit AS "fragranceAddTemperatureFahrenheit",
       b.dye_add_temperature_fahrenheit AS "dyeAddTemperatureFahrenheit",
@@ -40,7 +40,7 @@ module.exports = function getBatch(db, { batchId }, cb) {
         ["fragranceOil"]: done => getBatchesFragranceOils(db, batchId, done),
         ["additives"]: done => getBatchesAdditives(db, batchId, done),
         ["wax"]: done => getBatchesWaxes(db, batchId, done),
-        ["dyeBlocks"]: done => getBatchesDyeBlocks(db, batchId, done)
+        ["dyes"]: done => getBatchesdyes(db, batchId, done)
       },
       (err, results) => {
         if (err) {
@@ -83,7 +83,7 @@ module.exports = function getBatch(db, { batchId }, cb) {
         batch.fragranceOil = results.fragranceOil;
         batch.additives = results.additives;
         batch.wax = results.wax;
-        batch.dyeBlocks = results.dyeBlocks;
+        batch.dyes = results.dyes;
 
         return cb(null, batch);
       }
@@ -225,7 +225,7 @@ function getBatchesWaxes(db, batchId, cb) {
   });
 }
 
-function getBatchesDyeBlocks(db, batchId, cb) {
+function getBatchesdyes(db, batchId, cb) {
   const sql = `
     SELECT
       bdb.weight_ounces AS "weightOunces",
@@ -237,8 +237,8 @@ function getBatchesDyeBlocks(db, batchId, cb) {
       d.notes, so.source, so.item_count AS "orderItemCount",
       so.subtotal_cost AS "orderSubtotalCost", so.taxes_and_fees AS "orderTaxesAndFees",
       so.shipping_cost AS "orderShippingCost", so.total_cost AS "orderTotalCost"
-    FROM batches_dye_blocks bdb
-    LEFT JOIN dye_blocks d ON d.id = bdb.dye_block_id
+    FROM batches_dyes bdb
+    LEFT JOIN dyes d ON d.id = bdb.dye_id
     LEFT JOIN supply_orders so ON so.id = d.order_id
     WHERE bdb.batch_id = ?
   `;
@@ -264,7 +264,7 @@ function getBatchesDyeBlocks(db, batchId, cb) {
         orderShippingCost: item.orderShippingCost
       });
 
-      item.type = "dye-blocks";
+      item.type = "dye";
     });
     return cb(err, result);
   });

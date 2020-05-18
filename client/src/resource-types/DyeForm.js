@@ -14,7 +14,7 @@ const styles = theme => ({
   }
 });
 
-function DyeBlockForm({ newItemValues, onChange, classes }) {
+function DyeForm({ newItemValues, onChange, classes }) {
   return (
     <div className={classes.root}>
       <TextField
@@ -111,4 +111,4 @@ function DyeBlockForm({ newItemValues, onChange, classes }) {
   );
 }
 
-export default withStyles(styles)(DyeBlockForm);
+export default withStyles(styles)(DyeForm);

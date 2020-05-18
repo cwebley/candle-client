@@ -117,7 +117,7 @@ function CombineCandleRes({
         let subItemLayerAmount;
         let subItemUnit;
         switch (subItem.type) {
-          case "dye-blocks":
+          case "dye":
             subItemBatchAmount = subItem.weightOunces;
             subItemLayerAmount = subItem.layerWeightOunces;
             subItemUnit = "oz";

@@ -17,17 +17,12 @@ module.exports = function postBatch(db, data, cb) {
       0
     );
   console.log("DATA :", data.batchItems);
-  const totalDyeBlockWeightOunces = data.batchItems
-    .filter((item) => item.type === "dye-blocks")
+  const totalDyeWeightOunces = data.batchItems
+    .filter((item) => item.type === "dye")
     .reduce(
-      (total, dyeBlockItem) => (total += parseFloat(dyeBlockItem.weightOunces)),
+      (total, dyeItem) => (total += parseFloat(dyeItem.weightOunces)),
       0
     );
-
-  if (data.batchItems.filter((i) => i.type === "dye-blocks").length) {
-    console.log("data.batchItems: ", data.batchItems);
-  }
-  console.log("TOTAL DYE BLOCK: ", totalDyeBlockWeightOunces);
 
   // begin transaction
   db.beginTransaction((err) => {
@@ -41,7 +36,7 @@ module.exports = function postBatch(db, data, cb) {
       totalWaxWeightOunces,
       totalFragranceWeightOunces,
       totalAdditiveWeightOunces,
-      totalDyeBlockWeightOunces,
+      totalDyeWeightOunces,
       (err, result) => {
         if (err) {
           return rollback(db, err, cb);
@@ -57,8 +52,8 @@ module.exports = function postBatch(db, data, cb) {
           (item) => item.type === "additives"
         );
         const waxes = data.batchItems.filter((item) => item.type === "wax");
-        const dyeBlocks = data.batchItems.filter(
-          (item) => item.type === "dye-blocks"
+        const dyes = data.batchItems.filter(
+          (item) => item.type === "dye"
         );
 
         async.parallel(
@@ -70,7 +65,7 @@ module.exports = function postBatch(db, data, cb) {
                 totalWaxWeightOunces,
                 totalFragranceWeightOunces,
                 totalAdditiveWeightOunces,
-                totalDyeBlockWeightOunces,
+                totalDyeWeightOunces,
                 batchId,
                 done
               ),
@@ -82,18 +77,18 @@ module.exports = function postBatch(db, data, cb) {
                 totalWaxWeightOunces,
                 totalFragranceWeightOunces,
                 totalAdditiveWeightOunces,
-                totalDyeBlockWeightOunces,
+                totalDyeWeightOunces,
                 batchId,
                 done
               ),
-            dyeBlocks: (done) =>
-              insertBatchesDyeBlocks(
+            dyes: (done) =>
+              insertBatchesDyes(
                 db,
-                dyeBlocks,
+                dyes,
                 totalWaxWeightOunces,
                 totalFragranceWeightOunces,
                 totalAdditiveWeightOunces,
-                totalDyeBlockWeightOunces,
+                totalDyeWeightOunces,
                 batchId,
                 done
               ),
@@ -117,8 +112,8 @@ module.exports = function postBatch(db, data, cb) {
                 case "additives":
                   expectedRows = additives.length;
                   break;
-                case "dyeBlocks":
-                  expectedRows = dyeBlocks.length;
+                case "dyes":
+                  expectedRows = dyes.length;
                   break;
                 case "layers":
                   expectedRows = data.layers.length;
@@ -159,7 +154,7 @@ function addToBatches(
   totalWaxWeightOunces,
   totalFragranceWeightOunces,
   totalAdditiveWeightOunces,
-  totalDyeBlockWeightOunces,
+  totalDyeWeightOunces,
   cb
 ) {
   const fragranceLoad =
@@ -170,7 +165,7 @@ function addToBatches(
 
   const sql = `
     INSERT INTO batches
-      (name, slug, total_wax_weight_ounces, total_fragrance_weight_ounces, total_additive_weight_ounces, total_dye_block_weight_ounces,
+      (name, slug, total_wax_weight_ounces, total_fragrance_weight_ounces, total_additive_weight_ounces, total_dye_weight_ounces,
         fragrance_load, fragrance_add_temperature_fahrenheit, dye_add_temperature_fahrenheit, when_created, notes)
     VALUES
       (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
@@ -182,7 +177,7 @@ function addToBatches(
     totalWaxWeightOunces,
     totalFragranceWeightOunces,
     totalAdditiveWeightOunces,
-    totalDyeBlockWeightOunces,
+    totalDyeWeightOunces,
     fragranceLoad,
     data.fragranceAddTemperatureFahrenheit || null,
     data.dyeAddTemperatureFahrenheit || null,
@@ -225,7 +220,7 @@ function insertBatchesFragranceOils(
   totalWaxWeightOunces,
   totalFragranceWeightOunces,
   totalAdditiveWeightOunces,
-  totalDyeBlockWeightOunces,
+  totalDyeWeightOunces,
   batchId,
   cb
 ) {
@@ -344,7 +339,7 @@ function insertBatchesAdditives(
   totalWaxWeightOunces,
   totalFragranceWeightOunces,
   totalAdditiveWeightOunces,
-  totalDyeBlockWeightOunces,
+  totalDyeWeightOunces,
   batchId,
   cb
 ) {
@@ -547,13 +542,13 @@ function insertBatchesWaxes(db, data, batchId, cb) {
   });
 }
 
-function insertBatchesDyeBlocks(
+function insertBatchesDyes(
   db,
   data,
   totalWaxWeightOunces,
   totalFragranceWeightOunces,
   totalAdditiveWeightOunces,
-  totalDyeBlockWeightOunces,
+  totalDyeWeightOunces,
   batchId,
   cb
 ) {
@@ -566,12 +561,12 @@ function insertBatchesDyeBlocks(
   // for distinct weight_ounces values for each fo-id makes that complex
   const internalSelect = `
     SELECT ?, ?, ?, db.id
-    FROM dye_blocks db
+    FROM dyes db
     WHERE db.hash_id = ?`;
 
   let sql = `
-      INSERT INTO batches_dye_blocks
-        (batch_id, weight_ounces, combine_id, dye_block_id)
+      INSERT INTO batches_dyes
+        (batch_id, weight_ounces, combine_id, dye_id)
     `;
   let params = [];
   let decrementCases = [];
@@ -598,7 +593,7 @@ function insertBatchesDyeBlocks(
     allHashIds.push(d.hashId);
   });
 
-  db.query(sql, params, (err, batchesDyeBlocksResult) => {
+  db.query(sql, params, (err, batchesDyesResult) => {
     if (err) {
       console.error(err, {
         sql,
@@ -609,7 +604,7 @@ function insertBatchesDyeBlocks(
 
     // also decrement the amount used from the resource table
     const decrementSql = `
-    UPDATE dye_blocks
+    UPDATE dyes
       SET remaining = (
         CASE ${decrementCases.join(" ")}
         END
@@ -628,12 +623,12 @@ function insertBatchesDyeBlocks(
         return cb(err);
       }
       if (!finishedCases.length) {
-        return cb(null, batchesDyeBlocksResult);
+        return cb(null, batchesDyesResult);
       }
 
       // also decrement the amount used from the resource table
       const finishedSql = `
-      UPDATE dye_blocks
+      UPDATE dyes
         SET finished = (
           CASE ${finishedCases.join(" ")}
           END
@@ -651,7 +646,7 @@ function insertBatchesDyeBlocks(
           });
           return cb(err);
         }
-        return cb(null, batchesDyeBlocksResult);
+        return cb(null, batchesDyesResult);
       });
     });
   });

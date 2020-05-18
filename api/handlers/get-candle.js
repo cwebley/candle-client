@@ -80,8 +80,8 @@ module.exports = function getCandle(req, res) {
               l.batchData.totalAdditiveWeightOunces
             );
             console.log(
-              "totoalDyeBlockWeightOunces: ",
-              l.batchData.totalDyeBlockWeightOunces
+              "totoalDyeWeightOunces: ",
+              l.batchData.totalDyeWeightOunces
             );
 
             l.batchData.wax.forEach((w) => {
@@ -115,7 +115,7 @@ module.exports = function getCandle(req, res) {
               a.layerWeightOunces =
                 Math.round(100 * a.weightOunces * layerToBatchPercentage) / 100;
             });
-            l.batchData.dyeBlocks.forEach((db) => {
+            l.batchData.dyes.forEach((db) => {
               updateLayerCostsFromResource(
                 candleResult,
                 l,

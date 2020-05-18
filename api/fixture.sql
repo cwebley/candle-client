@@ -29,7 +29,7 @@ insert into resource_types (`name`, `slug`, `scope`)
   values ("wax", "wax", "batch"),
   ("fragrance oil", "fragrance-oil", "batch"),
   ("additives", "additives", "batch"),
-  ("dye blocks", "dye-blocks", "batch"),
+  ("dye", "dye", "batch"),
   ("jars", "jars", "candle"),
   ("lids", "lids", "candle"),
   ("boxes", "boxes", "candle"),
@@ -119,7 +119,7 @@ create table if not exists boxes (
   foreign key (order_id) references supply_orders(id)
 );
 
-create table if not exists dye_blocks (
+create table if not exists dyes (
   id int not null auto_increment primary key,
   hash_id varchar(255) unique,
   name varchar(255) not null,
@@ -261,7 +261,7 @@ create table if not exists batches (
   total_wax_weight_ounces decimal(9,4),
   total_fragrance_weight_ounces decimal(9,4),
   total_additive_weight_ounces decimal(9,4),
-  total_dye_block_weight_ounces decimal(9,4),
+  total_dye_weight_ounces decimal(9,4),
   -- percent fragrance by weight
   fragrance_load decimal(9,4),
   fragrance_add_temperature_fahrenheit decimal (6,2),
@@ -370,15 +370,15 @@ create table if not exists batches_fragrances (
   foreign key (fragrance_id) references fragrance_oils(id)
 );
 
-create table if not exists batches_dye_blocks (
+create table if not exists batches_dyes (
   id int not null auto_increment primary key,
   batch_id int not null,
-  dye_block_id int not null,
+  dye_id int not null,
   weight_ounces decimal(9,4),
    -- items with the same combine_id are meant to be displayed as combined
   combine_id int,
   foreign key (batch_id) references batches(id),
-  foreign key (dye_block_id) references dye_blocks(id)
+  foreign key (dye_id) references dyes(id)
 );
 
 create table if not exists candles_burns (

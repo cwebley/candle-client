@@ -188,9 +188,9 @@ function Batch({ match, classes }) {
               );
             })}
             <Typography className={classes.resourceTypeTitle} variant="h5">
-              {`Dye Blocks (${batch.dyeBlocks.length})`}
+              {`Dyes (${batch.dyes.length})`}
             </Typography>
-            {batch.dyeBlocks.map(db => {
+            {batch.dyes.map(db => {
               if (db.subItems) {
                 return (
                   <CombinedCandleResource
@@ -198,14 +198,14 @@ function Batch({ match, classes }) {
                     name={db.name}
                     source={db.source}
                     percentOfType={`${Math.round(
-                      (1000 * db.weightOunces) / batch.totalDyeBlockWeightOunces
+                      (1000 * db.weightOunces) / batch.totalDyeWeightOunces
                     ) / 10}%`}
                     amount={`${db.weightOunces.toFixed(2)} oz`}
                     productCost={db.calculatedCosts.productCost}
                     shippingCost={db.calculatedCosts.shippingCost}
                     subItems={db.subItems}
                     totalCost={db.calculatedCosts.totalCost}
-                    totalAmountForType={batch.totalDyeBlockWeightOunces}
+                    totalAmountForType={batch.totalDyeWeightOunces}
                   />
                 );
               }
@@ -215,7 +215,7 @@ function Batch({ match, classes }) {
                   name={db.name}
                   source={db.source}
                   percentOfType={`${Math.round(
-                    (1000 * db.weightOunces) / batch.totalDyeBlockWeightOunces
+                    (1000 * db.weightOunces) / batch.totalDyeWeightOunces
                   ) / 10}%`}
                   amount={`${db.weightOunces.toFixed(2)} oz`}
                   productCost={db.calculatedCosts.productCost}

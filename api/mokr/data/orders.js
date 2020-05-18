@@ -298,7 +298,7 @@ module.exports = [
         notes: "This was a free sample.",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Red Dye Block",
         weightOunces: "0.50",
         remaining: "0",
@@ -308,7 +308,7 @@ module.exports = [
         notes: "Part of an 8-piece Dye Block Sample Pack",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         notes: "Part of an 8 piece Dye Block Sample Pack",
         name: "Lavender Dye Block",
         weightOunces: "0.50",
@@ -318,7 +318,7 @@ module.exports = [
         shareOfShippingPercent: "0.3",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Pink Dye Block",
         weightOunces: "0.50",
         remaining: "0.5",
@@ -328,7 +328,7 @@ module.exports = [
         notes: "Part of an 8 piece Dye Block Sample Pack",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Brown Dye Block",
         weightOunces: "0.50",
         remaining: "0.3",
@@ -338,7 +338,7 @@ module.exports = [
         notes: "Part of an 8 piece Dye Block Sample Pack",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Navy Blue Dye Block",
         weightOunces: "0.50",
         remaining: "0.1",
@@ -348,7 +348,7 @@ module.exports = [
         notes: "Part of an 8 piece Dye Block Sample Pack",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Pumpkin Dye Block",
         weightOunces: "0.50",
         remaining: "0.2",
@@ -358,7 +358,7 @@ module.exports = [
         notes: "Part of an 8 piece Dye Block Sample Pack",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Canary Yellow Dye Block",
         weightOunces: "0.50",
         remaining: "0.3",
@@ -368,7 +368,7 @@ module.exports = [
         notes: "Part of an 8 piece Dye Block Sample Pack",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Forest Green Dye Block",
         weightOunces: "0.50",
         remaining: "0.7",
@@ -794,7 +794,7 @@ module.exports = [
         notes: "This was a free sample.",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Honeycomb Dye Block",
         weightOunces: "0.50",
         remaining: "0.8",
@@ -803,7 +803,7 @@ module.exports = [
         shareOfShippingPercent: "5",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Black Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -812,7 +812,7 @@ module.exports = [
         shareOfShippingPercent: "5",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Caribbean Blue Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -821,7 +821,7 @@ module.exports = [
         shareOfShippingPercent: "5",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Seafoam Dye Block",
         weightOunces: "0.50",
         remaining: "0.40",
@@ -1163,7 +1163,7 @@ module.exports = [
         notes: "",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Pumpkin Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -1172,7 +1172,7 @@ module.exports = [
         shareOfShippingPercent: "4",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Teal Dye Block",
         weightOunces: "0.50",
         remaining: "0.8",
@@ -1182,7 +1182,7 @@ module.exports = [
         notes: "",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Yellow Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -1192,7 +1192,7 @@ module.exports = [
         notes: "",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Royal Blue Dye Block",
         weightOunces: "0.50",
         remaining: "0.8",
@@ -1201,7 +1201,7 @@ module.exports = [
         shareOfShippingPercent: "4",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Royal Blue Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -1210,7 +1210,7 @@ module.exports = [
         shareOfShippingPercent: "4",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Navy Blue Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -1219,7 +1219,7 @@ module.exports = [
         shareOfShippingPercent: "4",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Avocado Dye Block",
         weightOunces: "0.50",
         remaining: "0.9",
@@ -1228,7 +1228,7 @@ module.exports = [
         shareOfShippingPercent: "0",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Forest Green Dye Block",
         weightOunces: "1.00",
         remaining: "1",
@@ -1238,7 +1238,7 @@ module.exports = [
         notes: "This was actually 2 that I've combined into one package",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Orchid Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -1247,7 +1247,7 @@ module.exports = [
         shareOfShippingPercent: "4",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Merlot Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -1256,7 +1256,7 @@ module.exports = [
         shareOfShippingPercent: "4",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Merlot Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -1265,7 +1265,7 @@ module.exports = [
         shareOfShippingPercent: "4",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Orchid Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -1274,7 +1274,7 @@ module.exports = [
         shareOfShippingPercent: "4",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Brown Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -1283,7 +1283,7 @@ module.exports = [
         shareOfShippingPercent: "4",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Brown Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -1292,7 +1292,7 @@ module.exports = [
         shareOfShippingPercent: "4",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Brown Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -1301,7 +1301,7 @@ module.exports = [
         shareOfShippingPercent: "4",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Black Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -1310,7 +1310,7 @@ module.exports = [
         shareOfShippingPercent: "4",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Black Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -1319,7 +1319,7 @@ module.exports = [
         shareOfShippingPercent: "4",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Black Dye Block",
         weightOunces: "0.50",
         remaining: "0",
@@ -1511,7 +1511,7 @@ module.exports = [
         notes: "This was a free sample",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Red Dye Block",
         weightOunces: "0.50",
         remaining: "0",
@@ -1521,7 +1521,7 @@ module.exports = [
         notes: "Part of a sample pack",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Brown Dye Block",
         weightOunces: "0.50",
         remaining: "0",
@@ -1531,7 +1531,7 @@ module.exports = [
         notes: "Part of a sample set",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Forest Green Dye Block",
         weightOunces: "0.50",
         remaining: "0",
@@ -1541,7 +1541,7 @@ module.exports = [
         notes: "Part of a sample set",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Pumpkin Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -1551,7 +1551,7 @@ module.exports = [
         notes: "Part of a sample set",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Canary Yellow Dye Block",
         weightOunces: "0.50",
         remaining: "0.8",
@@ -1561,7 +1561,7 @@ module.exports = [
         notes: "Part of a sample set",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Lavender Dye Block",
         weightOunces: "0.50",
         remaining: "0.75",
@@ -1571,7 +1571,7 @@ module.exports = [
         notes: "Part of a sample set",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Pink Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -1581,7 +1581,7 @@ module.exports = [
         notes: "Part of a sample set",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Navy Blue Dye Block",
         weightOunces: "0.50",
         remaining: "1",
@@ -4409,7 +4409,7 @@ module.exports = [
         shareOfShippingPercent: "35",
       },
       {
-        type: "dye-blocks",
+        type: "dye",
         name: "Red Dye Block",
         weightOunces: "1.50",
         remaining: "3",

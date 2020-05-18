@@ -56,9 +56,9 @@ export function processAllBatchData(batchData) {
     batchData.fragranceOil,
     "fragranceOil"
   );
-  batchData.dyeBlocks = processBatchItemsByCombineId(
-    batchData.dyeBlocks,
-    "dyeBlocks"
+  batchData.dyes = processBatchItemsByCombineId(
+    batchData.dyes,
+    "dye"
   );
   return batchData;
 }

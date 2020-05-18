@@ -23,7 +23,7 @@ module.exports = function postSupplyOrder(db, data, cb) {
       const waxes = data.items.filter(item => item.type === "wax");
       const additives = data.items.filter(item => item.type === "additives");
       const boxes = data.items.filter(item => item.type === "boxes");
-      const dyeBlocks = data.items.filter(item => item.type === "dye-blocks");
+      const dyes = data.items.filter(item => item.type === "dye");
       const jars = data.items.filter(item => item.type === "jars");
       const lids = data.items.filter(item => item.type === "lids");
       const miscEquipment = data.items.filter(
@@ -43,7 +43,7 @@ module.exports = function postSupplyOrder(db, data, cb) {
           done => insertWaxes(db, waxes, orderId, done),
           done => insertAdditives(db, additives, orderId, done),
           done => insertBoxes(db, boxes, orderId, done),
-          done => insertDyeBlocks(db, dyeBlocks, orderId, done),
+          done => insertdyes(db, dyes, orderId, done),
           done => insertJars(db, jars, orderId, done),
           done => insertLids(db, lids, orderId, done),
           done => insertMiscEquipment(db, miscEquipment, orderId, done),
@@ -379,7 +379,7 @@ function insertBoxes(db, data, orderId, cb) {
   });
 }
 
-function insertDyeBlocks(db, data, orderId, cb) {
+function insertdyes(db, data, orderId, cb) {
   if (!data.length) {
     return cb();
   }
@@ -398,7 +398,7 @@ function insertDyeBlocks(db, data, orderId, cb) {
   params = [rowData];
 
   const sql = `
-      INSERT INTO dye_blocks
+      INSERT INTO dyes
         (name, slug, color, order_id,
           weight_ounces, remaining, price, share_of_shipping_percent, notes)
       VALUES ?
@@ -421,8 +421,8 @@ function insertDyeBlocks(db, data, orderId, cb) {
 
     const updateFuncs = rowIndices.map(rowIndex => {
       return done => {
-        const sql = `UPDATE dye_blocks SET hash_id = ? WHERE id = ?`;
-        const params = [hashConfig.dyeBlocks.encode(rowIndex), rowIndex];
+        const sql = `UPDATE dyes SET hash_id = ? WHERE id = ?`;
+        const params = [hashConfig.dyes.encode(rowIndex), rowIndex];
         db.query(sql, params, (err, result) => {
           if (err) {
             console.error(err, {

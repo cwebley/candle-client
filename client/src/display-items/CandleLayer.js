@@ -223,8 +223,8 @@ function CandleLayer({ data, isTopLayer, classes }) {
                 </Grid>
               );
             })}
-          {processedBatchData.dyeBlocks &&
-            processedBatchData.dyeBlocks.map((db) => {
+          {processedBatchData.dyes &&
+            processedBatchData.dyes.map((db) => {
               if (db.subItems) {
                 return (
                   <Grid item key={`db-${db.hashId}`} xs={12} sm={6} m={4}>
@@ -234,7 +234,7 @@ function CandleLayer({ data, isTopLayer, classes }) {
                       percentOfType={`${
                         Math.round(
                           (1000 * db.weightOunces) /
-                            processedBatchData.totalDyeBlockWeightOunces
+                            processedBatchData.totalDyeWeightOunces
                         ) / 10
                       }%`}
                       amount={`${db.layerWeightOunces} oz`}
@@ -243,7 +243,7 @@ function CandleLayer({ data, isTopLayer, classes }) {
                       subItems={db.subItems}
                       totalCost={db.layerCosts.totalCost}
                       totalAmountForType={
-                        processedBatchData.totalDyeBlockWeightOunces
+                        processedBatchData.totalDyeWeightOunces
                       }
                     />
                   </Grid>
@@ -252,13 +252,13 @@ function CandleLayer({ data, isTopLayer, classes }) {
               return (
                 <Grid item key={`db-${db.hashId}`} xs={12} sm={6} m={4}>
                   <CandleResource
-                    itemType="Dye Block"
+                    itemType="Dye"
                     name={db.name}
                     source={db.source}
                     percentOfType={`${
                       Math.round(
                         (1000 * db.weightOUnces) /
-                          processedBatchData.totalDyeBlockWeightOunces
+                          processedBatchData.totalDyeWeightOunces
                       ) / 10
                     }%`}
                     amount={`${db.layerWeightOunces} oz`}
