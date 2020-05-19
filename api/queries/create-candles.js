@@ -33,15 +33,22 @@ function insertCandles(db, data, cb) {
     return cb();
   }
 
-  const internalSelect = `
-    SELECT ?, ?, j.id, ws.id, w.id, ?, ?, ?, ?
-    FROM jars j, wick_stickers ws, wicks w
-    WHERE j.hash_id = ? AND ws.hash_Id = ? AND w.hash_Id = ?
+  const getInternalSelect = ({ wickTabHashId }) => {
+    return `
+    SELECT ?, ?, j.id, ws.id, w.id, ${
+      wickTabHashId ? "wt.id" : "NULL"
+    }, ?, ?, ?, ?
+    FROM jars j, wick_stickers ws, wicks w, wick_tabs wt
+    WHERE j.hash_id = ? AND ws.hash_Id = ? AND w.hash_Id = ? ${
+      wickTabHashId ? "AND wt.hash_id = ?" : ""
+    }
   `;
+  };
+
   let sql = `
       INSERT INTO candles
         (name, slug,
-          jar_id, wick_sticker_id, wick_id,
+          jar_id, wick_sticker_id, wick_id, wick_tab_id,
         wick_count, wick_layout,
         finished, notes)
     `;
@@ -54,7 +61,8 @@ function insertCandles(db, data, cb) {
     if (i !== 0) {
       sql += ` UNION ALL `;
     }
-    sql += internalSelect;
+    sql += getInternalSelect(d);
+
     params.push(
       d.name,
       slug(d.name || "", { lower: true }),
@@ -66,6 +74,10 @@ function insertCandles(db, data, cb) {
       d.wickStickerHashId,
       d.wickHashId
     );
+
+    if (d.wickTabHashId) {
+      params.push(d.wickTabHashId);
+    }
 
     decrementFuncs.push((done) =>
       decrementResource(db, "jars", 1, d.jarHashId, d.jarFinished, done)
@@ -90,6 +102,16 @@ function insertCandles(db, data, cb) {
         done
       )
     );
+    decrementFuncs.push((done) =>
+      decrementResource(
+        db,
+        "wick_tabs",
+        d.wickCount,
+        d.wickTabHashId,
+        d.wickTabFinished,
+        done
+      )
+    );
   });
 
   db.query(sql, params, (err, result) => {
@@ -100,6 +122,8 @@ function insertCandles(db, data, cb) {
       });
       return cb(err);
     }
+    console.log("SQL : ", sql);
+    console.log("PARAMS: ", params);
     if (result.affectedRows !== data.length) {
       err = new Error("Failed to add candles to database");
 

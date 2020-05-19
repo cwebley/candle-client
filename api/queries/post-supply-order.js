@@ -4,7 +4,7 @@ const slug = require("slug");
 
 module.exports = function postSupplyOrder(db, data, cb) {
   // begin transaction
-  db.beginTransaction(err => {
+  db.beginTransaction((err) => {
     if (err) {
       console.error(err);
       return cb(err);
@@ -18,38 +18,40 @@ module.exports = function postSupplyOrder(db, data, cb) {
 
       // filter item array and add each type to its corresponding table
       const fragranceOils = data.items.filter(
-        item => item.type === "fragrance-oil"
+        (item) => item.type === "fragrance-oil"
       );
-      const waxes = data.items.filter(item => item.type === "wax");
-      const additives = data.items.filter(item => item.type === "additives");
-      const boxes = data.items.filter(item => item.type === "boxes");
-      const dyes = data.items.filter(item => item.type === "dye");
-      const jars = data.items.filter(item => item.type === "jars");
-      const lids = data.items.filter(item => item.type === "lids");
+      const waxes = data.items.filter((item) => item.type === "wax");
+      const additives = data.items.filter((item) => item.type === "additives");
+      const boxes = data.items.filter((item) => item.type === "boxes");
+      const dyes = data.items.filter((item) => item.type === "dye");
+      const jars = data.items.filter((item) => item.type === "jars");
+      const lids = data.items.filter((item) => item.type === "lids");
       const miscEquipment = data.items.filter(
-        item => item.type === "misc-equipment"
+        (item) => item.type === "misc-equipment"
       );
       const warningLabels = data.items.filter(
-        item => item.type === "warning-labels"
+        (item) => item.type === "warning-labels"
       );
-      const wicks = data.items.filter(item => item.type === "wicks");
+      const wicks = data.items.filter((item) => item.type === "wicks");
+      const wickTabs = data.items.filter((item) => item.type === "wick-tabs");
       const wickStickers = data.items.filter(
-        item => item.type === "wick-stickers"
+        (item) => item.type === "wick-stickers"
       );
 
       async.parallel(
         [
-          done => insertFragranceOils(db, fragranceOils, orderId, done),
-          done => insertWaxes(db, waxes, orderId, done),
-          done => insertAdditives(db, additives, orderId, done),
-          done => insertBoxes(db, boxes, orderId, done),
-          done => insertdyes(db, dyes, orderId, done),
-          done => insertJars(db, jars, orderId, done),
-          done => insertLids(db, lids, orderId, done),
-          done => insertMiscEquipment(db, miscEquipment, orderId, done),
-          done => insertWarningLabels(db, warningLabels, orderId, done),
-          done => insertWicks(db, wicks, orderId, done),
-          done => insertWickStickers(db, wickStickers, orderId, done)
+          (done) => insertFragranceOils(db, fragranceOils, orderId, done),
+          (done) => insertWaxes(db, waxes, orderId, done),
+          (done) => insertAdditives(db, additives, orderId, done),
+          (done) => insertBoxes(db, boxes, orderId, done),
+          (done) => insertdyes(db, dyes, orderId, done),
+          (done) => insertJars(db, jars, orderId, done),
+          (done) => insertLids(db, lids, orderId, done),
+          (done) => insertMiscEquipment(db, miscEquipment, orderId, done),
+          (done) => insertWarningLabels(db, warningLabels, orderId, done),
+          (done) => insertWicks(db, wicks, orderId, done),
+          (done) => insertWickTabs(db, wickTabs, orderId, done),
+          (done) => insertWickStickers(db, wickStickers, orderId, done),
         ],
         (err, results) => {
           if (err) {
@@ -58,13 +60,13 @@ module.exports = function postSupplyOrder(db, data, cb) {
           }
 
           // end transaction
-          db.commit(err => {
+          db.commit((err) => {
             if (err) {
               return rollback(db, err, cb);
             }
 
             return cb(null, {
-              orderId
+              orderId,
             });
           });
         }
@@ -90,14 +92,14 @@ function addToSupplyOrderTable(db, data, cb) {
     data.shippingCost,
     data.totalCost,
     data.openDate,
-    data.notes
+    data.notes,
   ];
 
   db.query(sql, params, (err, result) => {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return rollback(db, err, cb);
     }
@@ -106,14 +108,14 @@ function addToSupplyOrderTable(db, data, cb) {
     const hashSql = `UPDATE supply_orders SET hash_id = ? WHERE id = ?`;
     const hashParams = [
       hashConfig.supplyOrders.encode(result.insertId),
-      result.insertId
+      result.insertId,
     ];
 
     db.query(hashSql, hashParams, (err, result) => {
       if (err) {
         console.error(err, {
           sql: hashSql,
-          params: hashParams
+          params: hashParams,
         });
         return rollback(db, err, cb);
       }
@@ -127,8 +129,8 @@ function insertFragranceOils(db, data, orderId, cb) {
     return cb();
   }
 
-  const valueMarkers = data.map(d => `(?, ?, ?, ?, ?, ?, ?)`);
-  const rowData = data.map(d => [
+  const valueMarkers = data.map((d) => `(?, ?, ?, ?, ?, ?, ?)`);
+  const rowData = data.map((d) => [
     d.name,
     slug(d.name, { lower: true }),
     d.weightOunces,
@@ -136,7 +138,7 @@ function insertFragranceOils(db, data, orderId, cb) {
     d.price,
     d.shareOfShippingPercent,
     orderId,
-    d.notes
+    d.notes,
   ]);
 
   params = [rowData];
@@ -152,7 +154,7 @@ function insertFragranceOils(db, data, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return rollback(db, err, cb);
     }
@@ -164,18 +166,18 @@ function insertFragranceOils(db, data, orderId, cb) {
     }
 
     const updateFuncs = rowIndices.map((rowIndex, i) => {
-      return done => {
+      return (done) => {
         const sql = `UPDATE fragrance_oils SET hash_id = ?, category_id = (SELECT id from fragrance_oil_categories WHERE slug = ?) WHERE id = ?`;
         const params = [
           hashConfig.fragranceOils.encode(rowIndex),
           data[i].category,
-          rowIndex
+          rowIndex,
         ];
         db.query(sql, params, (err, result) => {
           if (err) {
             console.error(err, {
               sql,
-              params
+              params,
             });
           }
           done(err, result);
@@ -196,7 +198,7 @@ function insertWaxes(db, data, orderId, cb) {
     return cb();
   }
 
-  const rowData = data.map(d => [
+  const rowData = data.map((d) => [
     d.name,
     slug(d.name, { lower: true }),
     d.weightPounds,
@@ -205,7 +207,7 @@ function insertWaxes(db, data, orderId, cb) {
     d.price,
     d.shareOfShippingPercent,
     orderId,
-    d.notes
+    d.notes,
   ]);
   params = [rowData];
 
@@ -220,7 +222,7 @@ function insertWaxes(db, data, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return rollback(db, err, cb);
     }
@@ -231,15 +233,15 @@ function insertWaxes(db, data, orderId, cb) {
       rowIndices.push(result.insertId + i);
     }
 
-    const updateFuncs = rowIndices.map(rowIndex => {
-      return done => {
+    const updateFuncs = rowIndices.map((rowIndex) => {
+      return (done) => {
         const sql = `UPDATE waxes SET hash_id = ? WHERE id = ?`;
         const params = [hashConfig.waxes.encode(rowIndex), rowIndex];
         db.query(sql, params, (err, result) => {
           if (err) {
             console.error(err, {
               sql,
-              params
+              params,
             });
           }
           done(err, result);
@@ -260,7 +262,7 @@ function insertAdditives(db, data, orderId, cb) {
     return cb();
   }
 
-  const rowData = data.map(d => [
+  const rowData = data.map((d) => [
     d.name,
     slug(d.name, { lower: true }),
     d.weightOunces,
@@ -268,7 +270,7 @@ function insertAdditives(db, data, orderId, cb) {
     d.price,
     d.shareOfShippingPercent,
     orderId,
-    d.notes
+    d.notes,
   ]);
   params = [rowData];
 
@@ -282,7 +284,7 @@ function insertAdditives(db, data, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return rollback(db, err, cb);
     }
@@ -293,15 +295,15 @@ function insertAdditives(db, data, orderId, cb) {
       rowIndices.push(result.insertId + i);
     }
 
-    const updateFuncs = rowIndices.map(rowIndex => {
-      return done => {
+    const updateFuncs = rowIndices.map((rowIndex) => {
+      return (done) => {
         const sql = `UPDATE additives SET hash_id = ? WHERE id = ?`;
         const params = [hashConfig.additives.encode(rowIndex), rowIndex];
         db.query(sql, params, (err, result) => {
           if (err) {
             console.error(err, {
               sql,
-              params
+              params,
             });
           }
           done(err, result);
@@ -322,7 +324,7 @@ function insertBoxes(db, data, orderId, cb) {
     return cb();
   }
 
-  const rowData = data.map(d => [
+  const rowData = data.map((d) => [
     d.name,
     slug(d.name, { lower: true }),
     orderId,
@@ -330,7 +332,7 @@ function insertBoxes(db, data, orderId, cb) {
     d.remaining,
     d.price,
     d.shareOfShippingPercent,
-    d.notes
+    d.notes,
   ]);
   params = [rowData];
 
@@ -344,7 +346,7 @@ function insertBoxes(db, data, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return rollback(db, err, cb);
     }
@@ -355,15 +357,15 @@ function insertBoxes(db, data, orderId, cb) {
       rowIndices.push(result.insertId + i);
     }
 
-    const updateFuncs = rowIndices.map(rowIndex => {
-      return done => {
+    const updateFuncs = rowIndices.map((rowIndex) => {
+      return (done) => {
         const sql = `UPDATE boxes SET hash_id = ? WHERE id = ?`;
         const params = [hashConfig.boxes.encode(rowIndex), rowIndex];
         db.query(sql, params, (err, result) => {
           if (err) {
             console.error(err, {
               sql,
-              params
+              params,
             });
           }
           done(err, result);
@@ -384,7 +386,7 @@ function insertdyes(db, data, orderId, cb) {
     return cb();
   }
 
-  const rowData = data.map(d => [
+  const rowData = data.map((d) => [
     d.name,
     slug(d.name, { lower: true }),
     d.color,
@@ -393,7 +395,7 @@ function insertdyes(db, data, orderId, cb) {
     d.remaining,
     d.price,
     d.shareOfShippingPercent,
-    d.notes
+    d.notes,
   ]);
   params = [rowData];
 
@@ -408,7 +410,7 @@ function insertdyes(db, data, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return rollback(db, err, cb);
     }
@@ -419,15 +421,15 @@ function insertdyes(db, data, orderId, cb) {
       rowIndices.push(result.insertId + i);
     }
 
-    const updateFuncs = rowIndices.map(rowIndex => {
-      return done => {
+    const updateFuncs = rowIndices.map((rowIndex) => {
+      return (done) => {
         const sql = `UPDATE dyes SET hash_id = ? WHERE id = ?`;
         const params = [hashConfig.dyes.encode(rowIndex), rowIndex];
         db.query(sql, params, (err, result) => {
           if (err) {
             console.error(err, {
               sql,
-              params
+              params,
             });
           }
           done(err, result);
@@ -448,7 +450,7 @@ function insertJars(db, data, orderId, cb) {
     return cb();
   }
 
-  const rowData = data.map(d => [
+  const rowData = data.map((d) => [
     d.name,
     slug(d.name, { lower: true }),
     d.color,
@@ -461,7 +463,7 @@ function insertJars(db, data, orderId, cb) {
     d.remaining,
     d.price,
     d.shareOfShippingPercent,
-    d.notes
+    d.notes,
   ]);
   params = [rowData];
 
@@ -478,7 +480,7 @@ function insertJars(db, data, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return rollback(db, err, cb);
     }
@@ -489,15 +491,15 @@ function insertJars(db, data, orderId, cb) {
       rowIndices.push(result.insertId + i);
     }
 
-    const updateFuncs = rowIndices.map(rowIndex => {
-      return done => {
+    const updateFuncs = rowIndices.map((rowIndex) => {
+      return (done) => {
         const sql = `UPDATE jars SET hash_id = ? WHERE id = ?`;
         const params = [hashConfig.jars.encode(rowIndex), rowIndex];
         db.query(sql, params, (err, result) => {
           if (err) {
             console.error(err, {
               sql,
-              params
+              params,
             });
           }
           done(err, result);
@@ -518,7 +520,7 @@ function insertLids(db, data, orderId, cb) {
     return cb();
   }
 
-  const rowData = data.map(d => [
+  const rowData = data.map((d) => [
     d.name,
     slug(d.name, { lower: true }),
     d.color,
@@ -528,7 +530,7 @@ function insertLids(db, data, orderId, cb) {
     d.remaining,
     d.price,
     d.shareOfShippingPercent,
-    d.notes
+    d.notes,
   ]);
   params = [rowData];
 
@@ -544,7 +546,7 @@ function insertLids(db, data, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return rollback(db, err, cb);
     }
@@ -555,15 +557,15 @@ function insertLids(db, data, orderId, cb) {
       rowIndices.push(result.insertId + i);
     }
 
-    const updateFuncs = rowIndices.map(rowIndex => {
-      return done => {
+    const updateFuncs = rowIndices.map((rowIndex) => {
+      return (done) => {
         const sql = `UPDATE lids SET hash_id = ? WHERE id = ?`;
         const params = [hashConfig.lids.encode(rowIndex), rowIndex];
         db.query(sql, params, (err, result) => {
           if (err) {
             console.error(err, {
               sql,
-              params
+              params,
             });
           }
           done(err, result);
@@ -584,7 +586,7 @@ function insertMiscEquipment(db, data, orderId, cb) {
     return cb();
   }
 
-  const rowData = data.map(d => [
+  const rowData = data.map((d) => [
     d.name,
     slug(d.name, { lower: true }),
     orderId,
@@ -592,7 +594,7 @@ function insertMiscEquipment(db, data, orderId, cb) {
     d.remaining,
     d.price,
     d.shareOfShippingPercent,
-    d.notes
+    d.notes,
   ]);
   params = [rowData];
 
@@ -607,7 +609,7 @@ function insertMiscEquipment(db, data, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return rollback(db, err, cb);
     }
@@ -618,15 +620,15 @@ function insertMiscEquipment(db, data, orderId, cb) {
       rowIndices.push(result.insertId + i);
     }
 
-    const updateFuncs = rowIndices.map(rowIndex => {
-      return done => {
+    const updateFuncs = rowIndices.map((rowIndex) => {
+      return (done) => {
         const sql = `UPDATE misc_equipment SET hash_id = ? WHERE id = ?`;
         const params = [hashConfig.miscEquipment.encode(rowIndex), rowIndex];
         db.query(sql, params, (err, result) => {
           if (err) {
             console.error(err, {
               sql,
-              params
+              params,
             });
           }
           done(err, result);
@@ -647,7 +649,7 @@ function insertWarningLabels(db, data, orderId, cb) {
     return cb();
   }
 
-  const rowData = data.map(d => [
+  const rowData = data.map((d) => [
     d.name,
     slug(d.name, { lower: true }),
     orderId,
@@ -656,7 +658,7 @@ function insertWarningLabels(db, data, orderId, cb) {
     d.color,
     d.price,
     d.shareOfShippingPercent,
-    d.notes
+    d.notes,
   ]);
   params = [rowData];
 
@@ -671,7 +673,7 @@ function insertWarningLabels(db, data, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return rollback(db, err, cb);
     }
@@ -682,15 +684,15 @@ function insertWarningLabels(db, data, orderId, cb) {
       rowIndices.push(result.insertId + i);
     }
 
-    const updateFuncs = rowIndices.map(rowIndex => {
-      return done => {
+    const updateFuncs = rowIndices.map((rowIndex) => {
+      return (done) => {
         const sql = `UPDATE warning_labels SET hash_id = ? WHERE id = ?`;
         const params = [hashConfig.warningLabels.encode(rowIndex), rowIndex];
         db.query(sql, params, (err, result) => {
           if (err) {
             console.error(err, {
               sql,
-              params
+              params,
             });
           }
           done(err, result);
@@ -711,7 +713,7 @@ function insertWicks(db, data, orderId, cb) {
     return cb();
   }
 
-  const rowData = data.map(d => [
+  const rowData = data.map((d) => [
     d.name,
     slug(d.name, { lower: true }),
     orderId,
@@ -722,7 +724,7 @@ function insertWicks(db, data, orderId, cb) {
     d.size,
     d.price,
     d.shareOfShippingPercent,
-    d.notes
+    d.notes,
   ]);
   params = [rowData];
 
@@ -737,7 +739,7 @@ function insertWicks(db, data, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return rollback(db, err, cb);
     }
@@ -748,15 +750,78 @@ function insertWicks(db, data, orderId, cb) {
       rowIndices.push(result.insertId + i);
     }
 
-    const updateFuncs = rowIndices.map(rowIndex => {
-      return done => {
+    const updateFuncs = rowIndices.map((rowIndex) => {
+      return (done) => {
         const sql = `UPDATE wicks SET hash_id = ? WHERE id = ?`;
         const params = [hashConfig.wicks.encode(rowIndex), rowIndex];
         db.query(sql, params, (err, result) => {
           if (err) {
             console.error(err, {
               sql,
-              params
+              params,
+            });
+          }
+          done(err, result);
+        });
+      };
+    });
+    async.parallel(updateFuncs, (err, results) => {
+      if (err) {
+        return rollback(db, err, cb);
+      }
+      cb(err, results);
+    });
+  });
+}
+
+function insertWickTabs(db, data, orderId, cb) {
+  if (!data.length) {
+    return cb();
+  }
+
+  const rowData = data.map((d) => [
+    d.name,
+    slug(d.name, { lower: true }),
+    orderId,
+    d.count,
+    d.remaining,
+    d.price,
+    d.shareOfShippingPercent,
+    d.notes,
+  ]);
+  params = [rowData];
+
+  const sql = `
+      INSERT INTO wick_tabs
+        (name, slug, order_id, count,
+          remaining, price, share_of_shipping_percent, notes)
+      VALUES ?
+    `;
+
+  db.query(sql, [rowData], (err, result) => {
+    if (err) {
+      console.error(err, {
+        sql,
+        params,
+      });
+      return rollback(db, err, cb);
+    }
+
+    // now insert the hashIds
+    let rowIndices = [];
+    for (let i = 0; i < result.affectedRows; i++) {
+      rowIndices.push(result.insertId + i);
+    }
+
+    const updateFuncs = rowIndices.map((rowIndex) => {
+      return (done) => {
+        const sql = `UPDATE wick_tabs SET hash_id = ? WHERE id = ?`;
+        const params = [hashConfig.wickStickers.encode(rowIndex), rowIndex];
+        db.query(sql, params, (err, result) => {
+          if (err) {
+            console.error(err, {
+              sql,
+              params,
             });
           }
           done(err, result);
@@ -777,7 +842,7 @@ function insertWickStickers(db, data, orderId, cb) {
     return cb();
   }
 
-  const rowData = data.map(d => [
+  const rowData = data.map((d) => [
     d.name,
     slug(d.name, { lower: true }),
     orderId,
@@ -785,7 +850,7 @@ function insertWickStickers(db, data, orderId, cb) {
     d.remaining,
     d.price,
     d.shareOfShippingPercent,
-    d.notes
+    d.notes,
   ]);
   params = [rowData];
 
@@ -800,7 +865,7 @@ function insertWickStickers(db, data, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return rollback(db, err, cb);
     }
@@ -811,15 +876,15 @@ function insertWickStickers(db, data, orderId, cb) {
       rowIndices.push(result.insertId + i);
     }
 
-    const updateFuncs = rowIndices.map(rowIndex => {
-      return done => {
+    const updateFuncs = rowIndices.map((rowIndex) => {
+      return (done) => {
         const sql = `UPDATE wick_stickers SET hash_id = ? WHERE id = ?`;
         const params = [hashConfig.wickStickers.encode(rowIndex), rowIndex];
         db.query(sql, params, (err, result) => {
           if (err) {
             console.error(err, {
               sql,
-              params
+              params,
             });
           }
           done(err, result);

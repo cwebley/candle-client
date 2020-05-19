@@ -6152,7 +6152,7 @@ module.exports = [
     openDate: "2020-02-17",
     items: [
       {
-        type: "misc-equipment",
+        type: "wick-tabs",
         name: "1.5mm Wick Tabs",
         count: "100",
         remaining: "100",

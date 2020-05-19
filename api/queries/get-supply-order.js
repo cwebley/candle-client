@@ -17,7 +17,7 @@ module.exports = function getSupplyOrder(db, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return cb(err);
     }
@@ -32,25 +32,26 @@ module.exports = function getSupplyOrder(db, orderId, cb) {
 
     async.parallel(
       {
-        ["fragrance-oil"]: done => getFragranceOils(db, orderId, done),
-        ["wax"]: done => getWaxes(db, orderId, done),
-        ["additives"]: done => getAdditives(db, orderId, done),
-        ["boxes"]: done => getBoxes(db, orderId, done),
-        ["jars"]: done => getJars(db, orderId, done),
-        ["dye"]: done => getDyes(db, orderId, done),
-        ["lids"]: done => getLids(db, orderId, done),
-        ["misc-equipment"]: done => getMiscEquipment(db, orderId, done),
-        ["warning-labels"]: done => getWarningLabels(db, orderId, done),
-        ["wicks"]: done => getWicks(db, orderId, done),
-        ["wick-stickers"]: done => getWickStickers(db, orderId, done)
+        ["fragrance-oil"]: (done) => getFragranceOils(db, orderId, done),
+        ["wax"]: (done) => getWaxes(db, orderId, done),
+        ["additives"]: (done) => getAdditives(db, orderId, done),
+        ["boxes"]: (done) => getBoxes(db, orderId, done),
+        ["jars"]: (done) => getJars(db, orderId, done),
+        ["dye"]: (done) => getDyes(db, orderId, done),
+        ["lids"]: (done) => getLids(db, orderId, done),
+        ["misc-equipment"]: (done) => getMiscEquipment(db, orderId, done),
+        ["warning-labels"]: (done) => getWarningLabels(db, orderId, done),
+        ["wicks"]: (done) => getWicks(db, orderId, done),
+        ["wick-stickers"]: (done) => getWickStickers(db, orderId, done),
+        ["wick-tabs"]: (done) => getWickTabs(db, orderId, done),
       },
       (err, results) => {
         if (err) {
           return cb(err);
         }
-        Object.keys(results).forEach(type => {
+        Object.keys(results).forEach((type) => {
           // add the 'type' field to each item of each type then push onto supplyOrder.items
-          results[type].forEach(item => {
+          results[type].forEach((item) => {
             item.type = type;
             supplyOrder.items.push(item);
           });
@@ -79,7 +80,7 @@ function getFragranceOils(db, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
     }
     return cb(err, result);
@@ -102,7 +103,7 @@ function getWaxes(db, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
     }
     return cb(err, result);
@@ -125,7 +126,7 @@ function getAdditives(db, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
     }
     return cb(err, result);
@@ -148,7 +149,7 @@ function getBoxes(db, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
     }
     return cb(err, result);
@@ -172,7 +173,7 @@ function getDyes(db, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
     }
     return cb(err, result);
@@ -197,7 +198,7 @@ function getJars(db, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
     }
     return cb(err, result);
@@ -221,7 +222,7 @@ function getLids(db, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
     }
     return cb(err, result);
@@ -244,7 +245,7 @@ function getMiscEquipment(db, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
     }
     return cb(err, result);
@@ -267,7 +268,7 @@ function getWarningLabels(db, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
     }
     return cb(err, result);
@@ -290,7 +291,7 @@ function getWicks(db, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
     }
     return cb(err, result);
@@ -313,7 +314,30 @@ function getWickStickers(db, orderId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
+      });
+    }
+    return cb(err, result);
+  });
+}
+
+function getWickTabs(db, orderId, cb) {
+  const sql = `
+    SELECT
+      hash_id AS "hashId", name, slug,
+      count, remaining, FORMAT(price, 2) AS "price",
+      share_of_shipping_percent AS "shareOfShippingPercent", notes
+    FROM wick_tabs
+    WHERE order_id = ?
+  `;
+
+  const params = [orderId];
+
+  db.query(sql, params, (err, result) => {
+    if (err) {
+      console.error(err, {
+        sql,
+        params,
       });
     }
     return cb(err, result);

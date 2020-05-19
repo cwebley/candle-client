@@ -191,8 +191,7 @@ lx-18 (a bit hot in mid jar. cool at 2/3 burn. smaller would be too small at the
 zinc 44-32 (too small, try one size up)
 
 Current Todo List:
-create a wick from a untabbed wick and a tab
-create a wax blend from multiple waxes
+create a wax blend from multiple waxes. this could eventually use infinity bottle logic?
 dyePercentage of total, suggested dye amount based on that field on new-batch page
 suggested weight on new-batch page is wonky after marking finished, then re-editing to unfinish
 add candle name to new-batch page layer popout or something. this might need a candle hash lookup, etc
@@ -259,3 +258,16 @@ CDN-8
 Eco-6
 LX-16
 HTP-104
+
+Gamers collection
+Sweat and Salt
+Legendary Loot
+  leather + woodsy + something citrusy or bright
+Double Agent / Assassin
+  Fireside + Black Cherry + tobacco
+Something from 7 Wonders
+Dominion
+Love letter
+  fireside + merlot + rose
+
+

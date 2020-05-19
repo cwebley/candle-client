@@ -11,6 +11,7 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
 
       c.jar_id AS "jarId", c.lid_id AS "lidId", c.box_id AS "boxId",
       c.wick_sticker_id AS "wickStickerId", c.wick_id AS "wickId",
+      c.wick_tab_id AS "wickTabId",
       c.wick_count AS "wickCount", c.wick_layout AS "wickLayout",
       c.finished, c.owner_id, c.notes,
 
@@ -73,6 +74,15 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
       wsso.shipping_cost AS "wickStickerShippingCost",
       wsso.total_cost AS "wickStickerTotalCost",
 
+      wt.hash_id AS "wickTabHashId", wt.name AS "wickTabName",
+      wt.slug AS "wickTabSlug", wt.count AS "wickTabCollectionCount",
+      wt.price AS "wickTabPrice",
+      wt.share_of_shipping_percent AS "wickTabShareOfShippingPercent",
+      wtso.subtotal_cost AS "wickTabSubtotalCost",
+      wtso.taxes_and_fees AS "wickTabTaxesAndFees",
+      wtso.shipping_cost AS "wickTabShippingCost",
+      wtso.total_cost AS "wickTabTotalCost",
+
       o.name AS "ownerName", o.slug AS "ownerSlug",
       o.notes AS "ownerNotes",
 
@@ -93,6 +103,8 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
     LEFT JOIN supply_orders bso ON bx.order_id = bso.id
     LEFT JOIN wick_stickers ws ON c.wick_sticker_id = ws.id
     LEFT JOIN supply_orders wsso ON ws.order_id = wsso.id
+    LEFT JOIN wick_tabs wt ON c.wick_tab_id = wt.id
+    LEFT JOIN supply_orders wtso ON wt.order_id = wtso.id
     LEFT JOIN owners o ON c.owner_id = o.id
     LEFT JOIN candles_burns cbs ON cbs.candle_id = c.id
   `;
@@ -183,6 +195,16 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
         orderTaxesAndFees: candle.wickStickerTaxesAndFees,
         orderShippingCost: candle.wickStickerShippingCost
       });
+      candle.wickTabCalculatedCosts = calculateCosts({
+        amountUsed:
+          candle.wickTabHashId && candle.wickCount ? candle.wickCount : 0,
+        packageAmount: candle.wickTabCollectionCount,
+        resourceCost: candle.wickTabPrice,
+        shareOfShippingPercent: candle.wickTabShareOfShippingPercent,
+        orderSubtotal: candle.wickTabSubtotalCost,
+        orderTaxesAndFees: candle.wickTabTaxesAndFees,
+        orderShippingCost: candle.wickTabShippingCost
+      });
       candle.calculatedCosts = {
         productCost: (
           parseFloat(candle.jarCalculatedCosts.productCost) +
@@ -190,6 +212,7 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
           parseFloat(candle.warningLabelCalculatedCosts.productCost) +
           parseFloat(candle.wickCalculatedCosts.productCost) +
           parseFloat(candle.wickStickerCalculatedCosts.productCost) +
+          parseFloat(candle.wickTabCalculatedCosts.productCost) +
           parseFloat(candle.boxCalculatedCosts.productCost)
         ).toFixed(2),
         taxesAndFees: (
@@ -198,6 +221,7 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
           parseFloat(candle.warningLabelCalculatedCosts.taxesAndFees) +
           parseFloat(candle.wickCalculatedCosts.taxesAndFees) +
           parseFloat(candle.wickStickerCalculatedCosts.taxesAndFees) +
+          parseFloat(candle.wickTabCalculatedCosts.taxesAndFees) +
           parseFloat(candle.boxCalculatedCosts.taxesAndFees)
         ).toFixed(2),
         shippingCost: (
@@ -206,6 +230,7 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
           parseFloat(candle.warningLabelCalculatedCosts.shippingCost) +
           parseFloat(candle.wickCalculatedCosts.shippingCost) +
           parseFloat(candle.wickStickerCalculatedCosts.shippingCost) +
+          parseFloat(candle.wickTabCalculatedCosts.shippingCost) +
           parseFloat(candle.boxCalculatedCosts.shippingCost)
         ).toFixed(2),
         totalCost: (
@@ -214,6 +239,7 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
           parseFloat(candle.warningLabelCalculatedCosts.totalCost) +
           parseFloat(candle.wickCalculatedCosts.totalCost) +
           parseFloat(candle.wickStickerCalculatedCosts.totalCost) +
+          parseFloat(candle.wickTabCalculatedCosts.totalCost) +
           parseFloat(candle.boxCalculatedCosts.totalCost)
         ).toFixed(2)
       };

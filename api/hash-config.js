@@ -15,6 +15,7 @@ module.exports = {
   miscEquipment: new hashIds("misc equipment", hashMinimumSize, hashCharacters),
   warningLabels: new hashIds("warning labels", hashMinimumSize, hashCharacters),
   wicks: new hashIds("wicks", hashMinimumSize, hashCharacters),
+  wickTabs: new hashIds("wick tabs", hashMinimumSize, hashCharacters),
   wickStickers: new hashIds("wick strickers", hashMinimumSize, hashCharacters),
   batches: new hashIds("batches", hashMinimumSize, hashCharacters),
   layers: new hashIds("layers", hashMinimumSize, hashCharacters),

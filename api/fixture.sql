@@ -34,6 +34,7 @@ insert into resource_types (`name`, `slug`, `scope`)
   ("lids", "lids", "candle"),
   ("boxes", "boxes", "candle"),
   ("wicks", "wicks", "candle"),
+  ("wick tabs", "wick-tabs", "candle"),
   ("wick stickers", "wick-stickers", "candle"),
   ("warning labels", "warning-labels", "candle"),
   ("misc equipment", "misc-equipment", "candle");
@@ -227,6 +228,22 @@ create table if not exists wicks (
   foreign key (order_id) references supply_orders(id)
 );
 
+create table if not exists wick_tabs (
+  id int not null auto_increment primary key,
+  hash_id varchar(255) unique,
+  name varchar(255) not null,
+  slug varchar(255) not null,
+  order_id int,
+  count int,
+  remaining int,
+  -- confirmed to be finished/discarded
+  finished tinyint(1) default 0,
+  price decimal(13,4) default 0,
+  share_of_shipping_percent decimal(6,2) default 0,
+  notes text,
+  foreign key (order_id) references supply_orders(id)
+);
+
 create table if not exists wick_stickers (
   id int not null auto_increment primary key,
   hash_id varchar(255) unique,
@@ -289,6 +306,7 @@ create table if not exists candles (
   wick_sticker_id int,
   -- presumes multi-wicks candles are all the same type of wick
   wick_id int,
+  wick_tab_id int,
   wick_count int,
   warning_label_id int,
   wick_layout varchar(255),
@@ -303,6 +321,7 @@ create table if not exists candles (
   foreign key (box_id) references boxes(id),
   foreign key (wick_sticker_id) references wick_stickers(id),
   foreign key (wick_id) references wicks(id),
+  foreign key (wick_tab_id) references wick_tabs(id),
   foreign key (warning_label_id) references warning_labels(id),
   foreign key (owner_id) references owners(id)
 );

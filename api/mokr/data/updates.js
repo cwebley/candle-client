@@ -5841,7 +5841,36 @@ module.exports = [
     completedCandleWeightOunces: "11.40",
     volumeOverflowPercent: "45",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2020-05-17 21:30:00",
+        whenStopped: "2020-05-18 01:30:00",
+        stoppedWeightOunces: 10.82,
+        notes:
+          "almost 1/4 inch mp. only a little mushrooming, no soot, flame looks good. jar up to 135 in one spot but the wick was slightly off center. will straighten a bit now.",
+      },
+      {
+        whenStarted: "2020-05-18 11:15:00",
+        whenStopped: "2020-05-18 15:30:00",
+        stoppedWeightOunces: 10.16,
+        notes:
+          "1/4 inch mp. flame a bit large and dancy but prob fine. jar up to 132. no mushrooming.",
+      },
+      {
+        whenStarted: "2020-05-18 20:00:00",
+        whenStopped: "2020-05-19 00:30:00",
+        stoppedWeightOunces: 9.78,
+        notes:
+          "1/4 inch mp. middle amount of mushrooming, no soot, flame looks good.",
+      },
+      {
+        whenStarted: "2020-05-19 10:00:00",
+        whenStopped: "2020-05-19 02:40:00",
+        stoppedWeightOunces: 8.83,
+        notes:
+          "1/3 inch mp, reaching bottom of jar. a little mushrooming, no soot, jar not too hot. probably the best of the bunch.",
+      },
+    ],
     notes: "initial wick slightly off center",
   },
   // 3D1P APM CD-8 Half Jar
@@ -5849,7 +5878,36 @@ module.exports = [
     completedCandleWeightOunces: "12.17",
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2020-05-17 21:30:00",
+        whenStopped: "2020-05-18 01:30:00",
+        stoppedWeightOunces: 11.56,
+        notes:
+          "full shallow mp, middle amount of mushrooming. flame looks great. jar not hot.",
+      },
+      {
+        whenStarted: "2020-05-18 11:15:00",
+        whenStopped: "2020-05-18 15:30:00",
+        stoppedWeightOunces: 10.16,
+        notes:
+          "almost 1/4 inch mp. middle amount of mushrooming, but otherwise great. jar up to 127.",
+      },
+      {
+        whenStarted: "2020-05-18 20:00:00",
+        whenStopped: "2020-05-19 00:30:00",
+        stoppedWeightOunces: 9.54,
+        notes:
+          "1/4 inch mp. only a little mushrooming. no soot, flame looks good.",
+      },
+      {
+        whenStarted: "2020-05-19 10:00:00",
+        whenStopped: "2020-05-19 02:40:00",
+        stoppedWeightOunces: 9.23,
+        notes:
+          "1/3 inch mp, lots of mushrooming and a fair amount of soot. flame large and dancing. jar up to 160.",
+      },
+    ],
     notes: "",
   },
   // RJE9 APM CDN-8 Half Jar
@@ -5857,7 +5915,36 @@ module.exports = [
     completedCandleWeightOunces: "11.94",
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2020-05-17 21:30:00",
+        whenStopped: "2020-05-18 01:30:00",
+        stoppedWeightOunces: 11.37,
+        notes:
+          "full shallow mp. middle amount of mushrooming. looks great, and identical to the cd-8.",
+      },
+      {
+        whenStarted: "2020-05-18 11:15:00",
+        whenStopped: "2020-05-18 15:30:00",
+        stoppedWeightOunces: 10.76,
+        notes:
+          "1/8 inch mp. only a little mushrooming. flame looks a bit more controlled than the cd-8 so far.",
+      },
+      {
+        whenStarted: "2020-05-18 20:00:00",
+        whenStopped: "2020-05-19 00:30:00",
+        stoppedWeightOunces: 10.11,
+        notes:
+          "1/4 inch mp. middle amount of mushrooming, no soot, flame a little large and dancy.",
+      },
+      {
+        whenStarted: "2020-05-19 10:00:00",
+        whenStopped: "2020-05-19 02:40:00",
+        stoppedWeightOunces: 9.18,
+        notes:
+          "1/3 inch mp, lots of mushrooming and a fair amount of soot. flame large and dancing. jar up to 150.",
+      },
+    ],
     notes: "",
   },
   // RXB5 APM ECO-6 Half Jar
@@ -5865,7 +5952,35 @@ module.exports = [
     completedCandleWeightOunces: "11.83",
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2020-05-17 21:30:00",
+        whenStopped: "2020-05-18 01:30:00",
+        stoppedWeightOunces: 11.25,
+        notes:
+          "almost full mp but not quite wide enough. very little mushrooming. looks pretty good here but might struggle with a full candle?",
+      },
+      {
+        whenStarted: "2020-05-18 11:15:00",
+        whenStopped: "2020-05-18 15:30:00",
+        stoppedWeightOunces: 10.16,
+        notes: "almost full mp. very little mushrooming. flame looks great.",
+      },
+      {
+        whenStarted: "2020-05-18 20:00:00",
+        whenStopped: "2020-05-19 00:30:00",
+        stoppedWeightOunces: 10.1,
+        notes:
+          "1/8 inch mp. very little mushrooming, no soot, flame looks great.",
+      },
+      {
+        whenStarted: "2020-05-19 10:00:00",
+        whenStopped: "2020-05-19 02:40:00",
+        stoppedWeightOunces: 9.39,
+        notes:
+          "basically 1/4 inch mp but a bit cloudy on the sides. flame looks great, no mushrooming, no soot, not hot. but wick seems a bit small.",
+      },
+    ],
     notes: "",
   },
   // W1YE APM LX-16 Half Jar
@@ -5873,7 +5988,36 @@ module.exports = [
     completedCandleWeightOunces: "12.00",
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2020-05-17 21:30:00",
+        whenStopped: "2020-05-18 01:30:00",
+        stoppedWeightOunces: 11.44,
+        notes:
+          "almost full shallow mp. only a little mushrooming, flame looks great--a little smaller and more controlled than the others. jar not hot.",
+      },
+      {
+        whenStarted: "2020-05-18 11:15:00",
+        whenStopped: "2020-05-18 15:30:00",
+        stoppedWeightOunces: 10.87,
+        notes:
+          "not quite full mp, hot throw seems a little weaker. but flame looks good. middle amount of mushrooming.",
+      },
+      {
+        whenStarted: "2020-05-18 20:00:00",
+        whenStopped: "2020-05-19 00:30:00",
+        stoppedWeightOunces: 9.78,
+        notes:
+          "1/4 inch mp. middle amount of mushrooming, no soot, flame a tad large and dancy but fine.",
+      },
+      {
+        whenStarted: "2020-05-19 10:00:00",
+        whenStopped: "2020-05-19 02:40:00",
+        stoppedWeightOunces: 9.46,
+        notes:
+          "1/4 inch mp, middle amount of mushrooming, flame looks great. no soot. this is actually wonderful down this low but i would be concerned about the top.",
+      },
+    ],
     notes: "",
   },
   // RVPG APM HTP-104 Half Jar
@@ -5881,7 +6025,35 @@ module.exports = [
     completedCandleWeightOunces: "11.68",
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2020-05-17 21:30:00",
+        whenStopped: "2020-05-18 01:30:00",
+        stoppedWeightOunces: 11.01,
+        notes:
+          "1/3 inch mp. fair amount of mushrooming causing flame to be slightly large. no soot, jar not too hot but up to 130.",
+      },
+      {
+        whenStarted: "2020-05-18 11:15:00",
+        whenStopped: "2020-05-18 15:30:00",
+        stoppedWeightOunces: 10.16,
+        notes: "1/3 inch mp. middle amount of mushrooming.",
+      },
+      {
+        whenStarted: "2020-05-18 20:00:00",
+        whenStopped: "2020-05-19 00:30:00",
+        stoppedWeightOunces: 9.78,
+        notes:
+          "1/4 inch mp. middle amount of mushrooming, no soot, flame looks good.",
+      },
+      {
+        whenStarted: "2020-05-19 10:00:00",
+        whenStopped: "2020-05-19 02:40:00",
+        stoppedWeightOunces: 9.78,
+        notes:
+          "nearly 1/2 inch mp. candle almost fully melted now. middle amount of mushrooming, flame pretty big and a tiny bit of soot. jar 135.",
+      },
+    ],
     notes: "",
   },
   // 3KNM Very Vanilla VV CS P-775 Half Jar
