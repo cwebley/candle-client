@@ -5870,6 +5870,13 @@ module.exports = [
         notes:
           "1/3 inch mp, reaching bottom of jar. a little mushrooming, no soot, jar not too hot. probably the best of the bunch.",
       },
+      {
+        whenStarted: "2020-05-19 20:00:00",
+        whenStopped: "2020-05-20 01:15:00",
+        stoppedWeightOunces: 7.8,
+        notes:
+          "1/3 inch+ mp. minimal soot but jar hot up to 150 at the worst spot. candle extinguished itself safely.",
+      },
     ],
     notes: "initial wick slightly off center",
   },
@@ -5906,6 +5913,13 @@ module.exports = [
         stoppedWeightOunces: 9.23,
         notes:
           "1/3 inch mp, lots of mushrooming and a fair amount of soot. flame large and dancing. jar up to 160.",
+      },
+      {
+        whenStarted: "2020-05-19 20:00:00",
+        whenStopped: "2020-05-20 00:49:00",
+        stoppedWeightOunces: 8.1,
+        notes:
+          "1/2 inch+ mp. flame fairly huge  and curled wick at the bottom leaning too close to the jar. plenty of soot esp on that curled side. jar up to 165 there.",
       },
     ],
     notes: "",
@@ -5944,6 +5958,13 @@ module.exports = [
         notes:
           "1/3 inch mp, lots of mushrooming and a fair amount of soot. flame large and dancing. jar up to 150.",
       },
+      {
+        whenStarted: "2020-05-19 20:00:00",
+        whenStopped: "2020-05-20 00:49:00",
+        stoppedWeightOunces: 8.13,
+        notes:
+          "1/2 inch+ mp. not much soot, only a little carbon build up, flame looks okay. surprisingly not a ton of soot desptie a fairly big flame. jar up to 150 at the thottest",
+      },
     ],
     notes: "",
   },
@@ -5979,6 +6000,12 @@ module.exports = [
         stoppedWeightOunces: 9.39,
         notes:
           "basically 1/4 inch mp but a bit cloudy on the sides. flame looks great, no mushrooming, no soot, not hot. but wick seems a bit small.",
+      },
+      {
+        whenStarted: "2020-05-19 20:00:00",
+        whenStopped: "2020-05-20 00:49:00",
+        stoppedWeightOunces: 8.6,
+        notes: "1/8 inch mp. flame looks a bit small. no soot jar not hot.",
       },
     ],
     notes: "",
@@ -6017,6 +6044,12 @@ module.exports = [
         notes:
           "1/4 inch mp, middle amount of mushrooming, flame looks great. no soot. this is actually wonderful down this low but i would be concerned about the top.",
       },
+      {
+        whenStarted: "2020-05-19 20:00:00",
+        whenStopped: "2020-05-20 00:52:00",
+        stoppedWeightOunces: 8.45,
+        notes: "1/8 inch+ mp. flame looks perfect, no soot.",
+      },
     ],
     notes: "",
   },
@@ -6052,6 +6085,13 @@ module.exports = [
         stoppedWeightOunces: 9.78,
         notes:
           "nearly 1/2 inch mp. candle almost fully melted now. middle amount of mushrooming, flame pretty big and a tiny bit of soot. jar 135.",
+      },
+      {
+        whenStarted: "2020-05-19 20:00:00",
+        whenStopped: "2020-05-20 00:49:00",
+        stoppedWeightOunces: 7.83,
+        notes:
+          "1/2 inch+ mp. lots of soot and huge flame. too big for this far down the jar. jar up to 160 at the top.",
       },
     ],
     notes: "",
