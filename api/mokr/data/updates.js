@@ -3560,7 +3560,7 @@ module.exports = [
         whenStopped: "2020-03-26 02:00:00",
         stoppedWeightOunces: 14.89,
         notes:
-          "big time mushrooming. jar actually almost too hots. 1/2 inch pool. tons of smoke after blow out.",
+          "big time mushrooming. jar actually almost too hot. 1/2 inch pool. tons of smoke after blow out.",
       },
       {
         whenStarted: "2020-03-26 11:30:00",
@@ -3760,7 +3760,7 @@ module.exports = [
   // WGZX 12% RBF CD-8
   {
     completedCandleWeightOunces: "12.31",
-    volumeOverflowPercent: "85",
+    volumeOverflowPercent: "55",
     colorDescription: "whiteish",
     burns: [
       {
@@ -5865,7 +5865,7 @@ module.exports = [
       },
       {
         whenStarted: "2020-05-19 10:00:00",
-        whenStopped: "2020-05-19 02:40:00",
+        whenStopped: "2020-05-20 02:40:00",
         stoppedWeightOunces: 8.83,
         notes:
           "1/3 inch mp, reaching bottom of jar. a little mushrooming, no soot, jar not too hot. probably the best of the bunch.",
@@ -5873,7 +5873,7 @@ module.exports = [
       {
         whenStarted: "2020-05-19 20:00:00",
         whenStopped: "2020-05-20 01:15:00",
-        stoppedWeightOunces: 7.8,
+        stoppedWeightOunces: 7.59,
         notes:
           "1/3 inch+ mp. minimal soot but jar hot up to 150 at the worst spot. candle extinguished itself safely.",
       },
@@ -5963,7 +5963,7 @@ module.exports = [
         whenStopped: "2020-05-20 00:49:00",
         stoppedWeightOunces: 8.13,
         notes:
-          "1/2 inch+ mp. not much soot, only a little carbon build up, flame looks okay. surprisingly not a ton of soot desptie a fairly big flame. jar up to 150 at the thottest",
+          "1/2 inch+ mp. not much soot, only a little carbon build up, flame looks okay. surprisingly not a ton of soot despite a fairly big flame. jar up to 150 at the hottest",
       },
     ],
     notes: "",
@@ -6007,6 +6007,13 @@ module.exports = [
         stoppedWeightOunces: 8.6,
         notes: "1/8 inch mp. flame looks a bit small. no soot jar not hot.",
       },
+      {
+        whenStarted: "2020-05-20 20:30:00",
+        whenStopped: "2020-05-20 18:30:00",
+        stoppedWeightOunces: 7.47,
+        notes:
+          "extinguished itself, about 1/4 inch wax remain but its a little deeper around the wick. this had trouble reaching the edges all the way through",
+      },
     ],
     notes: "",
   },
@@ -6049,6 +6056,13 @@ module.exports = [
         whenStopped: "2020-05-20 00:52:00",
         stoppedWeightOunces: 8.45,
         notes: "1/8 inch+ mp. flame looks perfect, no soot.",
+      },
+      {
+        whenStarted: "2020-05-20 20:30:00",
+        whenStopped: "2020-05-20 17:45:00",
+        stoppedWeightOunces: 7.14,
+        notes:
+          "extinguished itself, but had huge mushrooming right at the bottom. jar never too hot though.",
       },
     ],
     notes: "",
@@ -6101,7 +6115,35 @@ module.exports = [
     completedCandleWeightOunces: "11.66",
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2020-05-21 10:00:00",
+        whenStopped: "2020-05-21 17:40:00",
+        stoppedWeightOunces: 10.47,
+        notes:
+          "1/3 inch mp. huge mushrooming, jar at 150 degrees. smells wonderful though. i prefer this to fillmore's FV.",
+      },
+      {
+        whenStarted: "2020-05-21 10:00:00",
+        whenStopped: "2020-05-21 15:30:00",
+        stoppedWeightOunces: 9.96,
+        notes: "1/4 inch mp. medium mushrooming, jar at 130 degrees.",
+      },
+      {
+        whenStarted: "2020-05-21 10:00:00",
+        whenStopped: "2020-05-21 15:30:00",
+        stoppedWeightOunces: 9.31,
+        notes:
+          "3/4 inch mp. lots of mushrooming, jar up to 155 degrees. flame pretty large.",
+      },
+      {
+        whenStarted: "2020-05-21 10:00:00",
+        whenStopped: "2020-05-21 15:30:00",
+        stoppedWeightOunces: 7.79,
+        notes:
+          "3/4 inch mp but full depth at the bottom of the candle. flame fairly large and lots of mushrooming.",
+      },
+    ],
     notes: "",
   },
   // REJO French Vanilla FV Fillmore P-775 Half Jar
@@ -6109,7 +6151,33 @@ module.exports = [
     completedCandleWeightOunces: "11.63",
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2020-05-21 10:00:00",
+        whenStopped: "2020-05-21 17:40:00",
+        stoppedWeightOunces: 10.3,
+        notes: "1/3 inch mp. huge mushrooming, jar at 150 degrees.",
+      },
+      {
+        whenStarted: "2020-05-21 10:00:00",
+        whenStopped: "2020-05-21 15:30:00",
+        stoppedWeightOunces: 9.73,
+        notes: "1/4 inch mp. medium mushrooming, jar at 130 degrees.",
+      },
+      {
+        whenStarted: "2020-05-21 10:00:00",
+        whenStopped: "2020-05-21 15:30:00",
+        stoppedWeightOunces: 9.31,
+        notes: "1 inch mp. lots of mushrooming, jar up to 150 degrees.",
+      },
+      {
+        whenStarted: "2020-05-21 10:00:00",
+        whenStopped: "2020-05-21 15:30:00",
+        stoppedWeightOunces: 7.87,
+        notes:
+          "3/4 inch mp but full depth at the bottom of the candle. flame fairly large and lots of mushrooming.",
+      },
+    ],
     notes: "",
   },
   // Different wax blend throw tests
@@ -6133,6 +6201,1741 @@ module.exports = [
   {
     completedCandleWeightOunces: "12.72",
     volumeOverflowPercent: "60",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+
+  // APB first full candle tests with P-775
+  // WG1Q APM 775 Full wick trim test
+  {
+    completedCandleWeightOunces: "15.82",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-05 10:15:00",
+        whenStopped: "2020-06-05 16:20:00",
+        stoppedWeightOunces: 14.7,
+        notes:
+          "1/8 inch mp, large mushroooming since wick is split. but flame looks good, no soot, jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-05 10:15:00",
+        whenStopped: "2020-06-05 16:20:00",
+        stoppedWeightOunces: 13.88,
+        notes: "1/8 inch mp, large mushroom, but no soot. and glass not hot.",
+      },
+      {
+        whenStarted: "2020-06-06 12:30:00",
+        whenStopped: "2020-06-06 16:35:00",
+        stoppedWeightOunces: 13.27,
+        notes:
+          "1/8 inch mp, little mushrooming, but flame looks great. no soot glass not too hot.",
+      },
+      {
+        whenStarted: "2020-06-06 20:30:00",
+        whenStopped: "2020-06-07 16:35:00",
+        stoppedWeightOunces: 11.9,
+        notes:
+          "1/8 inch mp, medium mushrooming, flame looks good, no soot, glass not too hot.",
+      },
+      {
+        whenStarted: "2020-06-07 14:30:00",
+        whenStopped: "2020-06-07 18:30:00",
+        stoppedWeightOunces: 11.13,
+        notes:
+          "1/4 inch mp, little mushrooming,flame tall and a little bit of soot. i know it wasnt trimmed as short as it can be to start. jar hot but fine.",
+      },
+      {
+        whenStarted: "2020-06-07 21:00:00",
+        whenStopped: "2020-06-08 02:00:00",
+        stoppedWeightOunces: 10.36,
+        notes:
+          "1/4 inch mp, medium mushrooming, flame looks great, no soot, glass not hot.",
+      },
+      {
+        whenStarted: "2020-06-08 11:45:00",
+        whenStopped: "2020-06-08 14:55:00",
+        stoppedWeightOunces: 9.64,
+        notes:
+          "1/8 inch mp, flame looks good, maybe a tad large and dancey. little bit of mushrooming. not really much soot and glass not too hot.",
+      },
+      {
+        whenStarted: "2020-06-08 20:00:00",
+        whenStopped: "2020-06-09 01:26:00",
+        stoppedWeightOunces: 8.7,
+        notes:
+          "1/8 inch mp, not much mushrooming, flame a bit large and dancey but only a little soot on the jar. looks pretty solid.",
+      },
+      {
+        whenStarted: "2020-06-09 10:00:00",
+        whenStopped: "2020-06-09 15:45:00",
+        stoppedWeightOunces: 7.81,
+        notes:
+          "extinguished itself, with about 1/8 inch wax left. jar never too hot. flame a bit large at the bottom and deposited some soot on the top of the glass but really not much. i think its okay still and could be because of the A/C draft. good candle.",
+      },
+    ],
+    notes: "",
+  },
+  // 3P8D APM 775 Full wick no-trim test
+  {
+    completedCandleWeightOunces: "15.74",
+    volumeOverflowPercent: "85",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-05 10:15:00",
+        whenStopped: "2020-06-06 03:00:00",
+        stoppedWeightOunces: 12.99,
+        notes:
+          "1/8 inch mp, little mushroooming (was once big but it must have burned off) flame looks great and no soot. glass not too hot.",
+      },
+      {
+        whenStarted: "2020-06-06 20:30:00",
+        whenStopped: "2020-06-07 16:35:00",
+        stoppedWeightOunces: 10.33,
+        notes:
+          "1/3 to 1/2 inch mp, never was trimmed though. medium mushrooming (it obviously self trims somewhat), no soot, glass was up to 140ish when it was burning in the hurricane jar. but not too hot after removal from there.",
+      },
+      {
+        whenStarted: "2020-06-07 14:30:00",
+        whenStopped: "2020-06-08 02:00:00",
+        stoppedWeightOunces: 8.29,
+        notes:
+          "1/4 inch mp, with about 3/4 inch remaining of wax. but all of it is starting is looking pretty melted. flame looks great, no real mushrooming, only a little soot on the jar, jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-08 11:45:00",
+        whenStopped: "2020-06-08 17:00:00",
+        stoppedWeightOunces: 7.25,
+        notes:
+          "extinguished itself. jar didnt ever get too hot. little bit of soot all around the top of the jar, but probably still okay.",
+      },
+    ],
+    notes: "",
+  },
+  // Very Vanilla half jars larger wick test Batch 125?
+  // R2VZ VV half jar P-767
+  {
+    completedCandleWeightOunces: "12.03",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-01 20:00:00",
+        whenStopped: "2020-06-02 00:05:00",
+        stoppedWeightOunces: 11.39,
+        notes: "1/4 inch mp but big mushrooming. no soot jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-02 10:45:00",
+        whenStopped: "2020-06-02 15:30:00",
+        stoppedWeightOunces: 10.78,
+        notes:
+          "1/8 inch mp, only a little mushrooming--short trimming helped. jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-02 20:30:00",
+        whenStopped: "2020-06-03 00:50:00",
+        stoppedWeightOunces: 10.33,
+        notes: "almost 1/4 inch mp, a little mushrooming. jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-03 10:30:00",
+        whenStopped: "2020-06-03 16:00:00",
+        stoppedWeightOunces: 9.56,
+        notes:
+          "1/4 inch mp, medium mushoorming. jar not too hot but flame looking a little big.",
+      },
+      {
+        whenStarted: "2020-06-03 20:30:00",
+        whenStopped: "2020-06-04 01:00:00",
+        stoppedWeightOunces: 8.75,
+        notes:
+          "1/3 inch mp, light to medium mushoorming. flame large and some soot coming off of it. jar at 148.",
+      },
+      {
+        whenStarted: "2020-06-04 13:30:00",
+        whenStopped: "2020-06-04 17:35:00",
+        stoppedWeightOunces: 8.75,
+        notes:
+          "1/4 inch mp, light to medium mushoorming. flame large and some soot coming off of it. not quite full melted. jar not too hot.",
+      },
+    ],
+    notes: "",
+  },
+  // WY6N VV half jar CD-7
+  {
+    completedCandleWeightOunces: "12.92",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-01 20:00:00",
+        whenStopped: "2020-06-02 00:05:00",
+        stoppedWeightOunces: 12.36,
+        notes: "full shallow mp. middle mushrooming, no soot. jar not hot.",
+      },
+      {
+        whenStarted: "2020-06-02 10:45:00",
+        whenStopped: "2020-06-02 15:30:00",
+        stoppedWeightOunces: 11.63,
+        notes:
+          "1/4 inch mp, large mushrooming, some soot coming off the flame.",
+      },
+      {
+        whenStarted: "2020-06-02 20:30:00",
+        whenStopped: "2020-06-03 00:50:00",
+        stoppedWeightOunces: 11.15,
+        notes: "almost full mp. a little mushroooming.",
+      },
+      {
+        whenStarted: "2020-06-03 10:30:00",
+        whenStopped: "2020-06-03 16:00:00",
+        stoppedWeightOunces: 10.33,
+        notes:
+          "1/4 inch mp, medium mushoorming. jar not too hot but flame looking a little big.",
+      },
+      {
+        whenStarted: "2020-06-03 20:30:00",
+        whenStopped: "2020-06-04 01:00:00",
+        stoppedWeightOunces: 9.6,
+        notes:
+          "1/4 inch mp, light mushoorming. flame looks great, but some soot on the glass. jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-04 13:30:00",
+        whenStopped: "2020-06-04 17:35:00",
+        stoppedWeightOunces: 8.95,
+        notes:
+          "1/8 inch mp, light mushoorming. flame large and some soot coming off of it. not quite full melted. jar not too hot.",
+      },
+    ],
+    notes: "",
+  },
+  // 35NP VV half jar LX-16
+  {
+    completedCandleWeightOunces: "12.73",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-01 20:00:00",
+        whenStopped: "2020-06-02 00:05:00",
+        stoppedWeightOunces: 12.21,
+        notes: "full shallow mp, middle mushooming no soot.",
+      },
+      {
+        whenStarted: "2020-06-02 10:45:00",
+        whenStopped: "2020-06-02 15:30:00",
+        stoppedWeightOunces: 11.48,
+        notes: "1/4 inch mp, medium mushrooming, jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-02 20:30:00",
+        whenStopped: "2020-06-03 00:50:00",
+        stoppedWeightOunces: 10.94,
+        notes: "1/8 inch mp, medium mushrooming. jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-03 10:30:00",
+        whenStopped: "2020-06-03 16:00:00",
+        stoppedWeightOunces: 10.07,
+        notes:
+          "1/3 inch mp, large mushoorming. jar not too hot but flame looking a little big.",
+      },
+      {
+        whenStarted: "2020-06-03 20:30:00",
+        whenStopped: "2020-06-04 01:00:00",
+        stoppedWeightOunces: 8.75,
+        notes:
+          "1/4 inch mp, light to medium mushoorming. flame looks fine, but some soot coming off of it. jar at 135.",
+      },
+      {
+        whenStarted: "2020-06-04 13:30:00",
+        whenStopped: "2020-06-04 17:35:00",
+        stoppedWeightOunces: 8.68,
+        notes:
+          "1/3 to 1/2 inch mp, medium mushoorming. flame looks okay. basically full melted. little bit of soot on the jar. jar not too hot.",
+      },
+    ],
+    notes: "",
+  },
+  // WBBJ VV half jar Eco-6
+  {
+    completedCandleWeightOunces: "12.80",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-01 20:00:00",
+        whenStopped: "2020-06-02 00:05:00",
+        stoppedWeightOunces: 12.12,
+        notes:
+          "1/4 inch mp, only a little mushrooming, but flame a bit large and definitely some amount of soot. jar up to 140.",
+      },
+      {
+        whenStarted: "2020-06-02 10:45:00",
+        whenStopped: "2020-06-02 15:30:00",
+        stoppedWeightOunces: 10.78,
+        notes:
+          "1/4 inch mp, only a little mushrooming, maybe a bit of soot coming of the flame but hard to tell.",
+      },
+      {
+        whenStarted: "2020-06-02 20:30:00",
+        whenStopped: "2020-06-03 00:50:00",
+        stoppedWeightOunces: 10.94,
+        notes: "almost full mp. no mushrooming, flame looks great.",
+      },
+      {
+        whenStarted: "2020-06-03 10:30:00",
+        whenStopped: "2020-06-03 16:00:00",
+        stoppedWeightOunces: 10.05,
+        notes:
+          "1/8 inch mp, a little mushoorming. jar not too hot but flame looking much too tall and sooty..",
+      },
+      {
+        whenStarted: "2020-06-03 20:30:00",
+        whenStopped: "2020-06-04 01:00:00",
+        stoppedWeightOunces: 9.29,
+        notes:
+          "1/4 inch mp, light to medium mushoorming. flame large and a fair some soot coming off of it and obviously on the jar. jar at 140.",
+      },
+      {
+        whenStarted: "2020-06-04 13:30:00",
+        whenStopped: "2020-06-04 17:35:00",
+        stoppedWeightOunces: 8.64,
+        notes:
+          "1/3 inch mp, light mushoorming. flame large and some soot coming off of it. not quite full melted. jar not too hot but close.",
+      },
+    ],
+    notes: "",
+  },
+  // 36ZZ VV half jar RRD-34
+  {
+    completedCandleWeightOunces: "12.53",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-01 20:00:00",
+        whenStopped: "2020-06-02 00:05:00",
+        stoppedWeightOunces: 12.02,
+        notes:
+          "1/8 inch mp medium mushrooming. flame a touch small maybe but prob okay.",
+      },
+      {
+        whenStarted: "2020-06-02 10:45:00",
+        whenStopped: "2020-06-02 15:30:00",
+        stoppedWeightOunces: 11.4,
+        notes: "1/4 inch mp, medium mushrooming, jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-02 20:30:00",
+        whenStopped: "2020-06-03 00:50:00",
+        stoppedWeightOunces: 10.81,
+        notes:
+          "1/4 inch mp, medium mushrooming. jar not too hot. flame definitely on the large side.",
+      },
+      {
+        whenStarted: "2020-06-03 10:30:00",
+        whenStopped: "2020-06-03 16:00:00",
+        stoppedWeightOunces: 9.89,
+        notes:
+          "1/3 to 1/2 inch mp, huge mushoorming. jar not too hot but flame looking a little big.",
+      },
+      {
+        whenStarted: "2020-06-03 20:30:00",
+        whenStopped: "2020-06-04 01:00:00",
+        stoppedWeightOunces: 9.29,
+        notes:
+          "1/3 to 1/2 inch mp, large mushoorming. flame large and some soot coming off of it and obviously on the jar. jar under 140.",
+      },
+      {
+        whenStarted: "2020-06-04 13:30:00",
+        whenStopped: "2020-06-04 17:35:00",
+        stoppedWeightOunces: 8.34,
+        notes:
+          "full mp at this point, about 1/2 inch. huge mushoorming. bit of soot but not horrible. jar not too hot.",
+      },
+    ],
+    notes: "",
+  },
+  // 3DDP VV half jar RRD-37
+  {
+    completedCandleWeightOunces: "12.44",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-01 20:00:00",
+        whenStopped: "2020-06-02 12:05:00",
+        stoppedWeightOunces: 11.9,
+        notes: "1/8 inch mp medium mushrooming. no soot jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-02 10:45:00",
+        whenStopped: "2020-06-02 15:30:00",
+        stoppedWeightOunces: 11.15,
+        notes: "1/4 inch mp, medium to large mushrooming.",
+      },
+      {
+        whenStarted: "2020-06-02 20:30:00",
+        whenStopped: "2020-06-03 00:50:00",
+        stoppedWeightOunces: 10.58,
+        notes: "1/4 inch mp, medium to large mushrooming. jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-03 10:30:00",
+        whenStopped: "2020-06-03 16:00:00",
+        stoppedWeightOunces: 9.81,
+        notes:
+          "1/3 to 1/2 inch mp, huge mushoorming. jar not too hot but flame looking a little big.",
+      },
+      {
+        whenStarted: "2020-06-03 20:30:00",
+        whenStopped: "2020-06-04 01:00:00",
+        stoppedWeightOunces: 9.03,
+        notes:
+          "1/3 inch mp, large mushoorming. flame large and a fair some soot coming off of it with a little soot on the jar. jar around 130.",
+      },
+      {
+        whenStarted: "2020-06-04 13:30:00",
+        whenStopped: "2020-06-04 17:35:00",
+        stoppedWeightOunces: 8.34,
+        notes:
+          "full mp at this point about 1/2 inch. large mushrooming, plenty of soot on the glass. jar about 140.",
+      },
+    ],
+    notes: "",
+  },
+  // RJN9 VV half jar Performa-60
+  {
+    completedCandleWeightOunces: "12.03",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-01 20:00:00",
+        whenStopped: "2020-06-02 12:05:00",
+        stoppedWeightOunces: 11.41,
+        notes: "1/8 inch mp, but big mushrooming. no soot, but jar at 141.",
+      },
+      {
+        whenStarted: "2020-06-02 10:45:00",
+        whenStopped: "2020-06-02 15:30:00",
+        stoppedWeightOunces: 10.78,
+        notes: "1/4 inch mp, large mushrooming. jar not too hot",
+      },
+      {
+        whenStarted: "2020-06-02 20:30:00",
+        whenStopped: "2020-06-03 00:50:00",
+        stoppedWeightOunces: 10.13,
+        notes: "1/4 inch mp, large mushrooming. jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-03 10:30:00",
+        whenStopped: "2020-06-03 16:00:00",
+        stoppedWeightOunces: 9.34,
+        notes:
+          "1/3 inch mp, huge mushoorming. jar not too hot but flame looking a little big.",
+      },
+      {
+        whenStarted: "2020-06-03 20:30:00",
+        whenStopped: "2020-06-04 01:00:00",
+        stoppedWeightOunces: 8.56,
+        notes:
+          "3/4 inch mp, all the rest is melted. flame huge with plenty of soot. large mushrooming. jar under 140.",
+      },
+      {
+        whenStarted: "2020-06-04 13:30:00",
+        whenStopped: "2020-06-04 17:35:00",
+        stoppedWeightOunces: 7.9,
+        notes:
+          "full mp, about 1/3 inch left. huge mushrooming, some soot on the glass but not horrible. flame probably a little sooty. jar hot but not too hot.",
+      },
+    ],
+    notes: "",
+  },
+  // RX85 VV half jar Performa-100
+  {
+    completedCandleWeightOunces: "12.48",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-01 20:00:00",
+        whenStopped: "2020-06-02 12:05:00",
+        stoppedWeightOunces: 11.8,
+        notes:
+          "1/3 inch mp and huge mushrooming mushrooming. no soot jar not too hot--under 130 everywhere.",
+      },
+      {
+        whenStarted: "2020-06-02 10:45:00",
+        whenStopped: "2020-06-02 15:30:00",
+        stoppedWeightOunces: 11.02,
+        notes: "1/4 inch mp, large mushrooming. jar not too hot",
+      },
+      {
+        whenStarted: "2020-06-02 20:30:00",
+        whenStopped: "2020-06-02 00:50:00",
+        stoppedWeightOunces: 10.37,
+        notes: "1/4 inch mp, large mushrooming. jar up to 130.",
+      },
+      {
+        whenStarted: "2020-06-03 10:30:00",
+        whenStopped: "2020-06-03 16:00:00",
+        stoppedWeightOunces: 9.64,
+        notes:
+          "1/3 inch mp, huge mushoorming. jar not too hot but flame looking a little big.",
+      },
+      {
+        whenStarted: "2020-06-03 20:30:00",
+        whenStopped: "2020-06-04 01:00:00",
+        stoppedWeightOunces: 9.29,
+        notes:
+          "1/4 inch mp, light to medium mushoorming. flame looks completely fine, no soot. jar under 130",
+      },
+      {
+        whenStarted: "2020-06-04 13:30:00",
+        whenStopped: "2020-06-04 17:35:00",
+        stoppedWeightOunces: 8.42,
+        notes:
+          "full mp at this point, about 1/3 inch. medium to large mushrooming, some soot coming off of the flame, but not terrible. only a bit deposited on the glass. jar not too hot.",
+      },
+    ],
+    notes: "",
+  },
+  // VV Extensive Half jar tests round 2 Batch 126
+  // 3Z7X VV half jar P-760
+  {
+    completedCandleWeightOunces: "11.85",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-08 11:45:00",
+        whenStopped: "2020-06-08 14:55:00",
+        stoppedWeightOunces: 11.26,
+        notes:
+          "1/8 inch mp, flame looks great, tiny bit of mushrooming. this melted more than the 765 on this first burn--maybe it was trimmed slightly less?",
+      },
+      {
+        whenStarted: "2020-06-08 20:00:00",
+        whenStopped: "2020-06-09 01:26:00",
+        stoppedWeightOunces: 10.55,
+        notes:
+          "1/8 to 1/4 inch mp, no mushrooming, flame a little larger than the 765 for whatever reason still. no soot, jar not too hot. looks great.",
+      },
+      {
+        whenStarted: "2020-06-09 10:00:00",
+        whenStopped: "2020-06-09 16:40:00",
+        stoppedWeightOunces: 9.66,
+        notes:
+          "1/8 to 1/4 inch mp, flame a bit tall and depsoting some soot on the rim of the glass. little mushrooming, jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-09 20:30:00",
+        whenStopped: "2020-06-10 01:35:00",
+        stoppedWeightOunces: 9.11,
+        notes:
+          "1/8 inch mp, no mushrooming, flame looks great, with no soot coming off of it, but still plenty of soot on the jar. jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-10 10:00:00",
+        whenStopped: "2020-06-10 14:52:00",
+        stoppedWeightOunces: 8.77,
+        notes:
+          "1/4 inch mp, medium to large mushrooming, but flame looks great, no soot (jar was wiped before this burn), jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-10 18:45:00",
+        whenStopped: "2020-06-11 02:15:00",
+        stoppedWeightOunces: 7.42,
+        notes:
+          "self extinguished with about 1/8 inch remaining. not sure hot hot the glass got, but no obvious soot deposited.",
+      },
+    ],
+    notes: "",
+  },
+  // WLOG VV half jar P-765
+  {
+    completedCandleWeightOunces: "12.03",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-08 11:45:00",
+        whenStopped: "2020-06-08 14:55:00",
+        stoppedWeightOunces: 11.52,
+        notes: "full shallow mp, flame looks good, barely any mushrooming.",
+      },
+      {
+        whenStarted: "2020-06-08 20:00:00",
+        whenStopped: "2020-06-09 01:26:00",
+        stoppedWeightOunces: 10.85,
+        notes:
+          "1/8 inch mp, little bit of mushrooming, flame not huge but probably fine. no soot, jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-09 10:00:00",
+        whenStopped: "2020-06-09 16:40:00",
+        stoppedWeightOunces: 10.08,
+        notes:
+          "1/8 to 1/4 inch mp, medium mushrooming, but flame looks great, no soot, jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-09 20:30:00",
+        whenStopped: "2020-06-10 01:35:00",
+        stoppedWeightOunces: 9.48,
+        notes:
+          "1/8 to 1/4 inch mp, little mushrooming, flame looks great, no soot.",
+      },
+      {
+        whenStarted: "2020-06-10 10:00:00",
+        whenStopped: "2020-06-10 14:52:00",
+        stoppedWeightOunces: 8.77,
+        notes:
+          "1/4 inch mp, medium to large mushrooming, but flame looks great, no soot, jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-10 18:45:00",
+        whenStopped: "2020-06-11 02:15:00",
+        stoppedWeightOunces: 7.58,
+        notes:
+          "1/8 inch remains, huge mushrooming, flame pretty large at this bottom point. but not any obvious soot coming off of it. glass up to 160 at the hottest.",
+      },
+    ],
+    notes: "",
+  },
+  // 34LB VV half jar CD-6
+  {
+    completedCandleWeightOunces: "12.29",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-08 11:45:00",
+        whenStopped: "2020-06-08 14:55:00",
+        stoppedWeightOunces: 11.8,
+        notes:
+          "nearly a full shallow mp--this did a bit better than the cdn-6 on this first burn. little bit of mushrooming, flamek looks fine. maybe would be good in a slightly smaller jar like the eco-4.",
+      },
+      {
+        whenStarted: "2020-06-08 20:00:00",
+        whenStopped: "2020-06-09 01:26:00",
+        stoppedWeightOunces: 11.03,
+        notes:
+          "1/8 inch mp, fair amount of mushrooming. trimmed this to the same short length as the cdn-6 this time and its still bigger. no soot, jar not too hot, but flame a bit large. maybe a decent option save for the mushrooming.",
+      },
+      {
+        whenStarted: "2020-06-09 10:00:00",
+        whenStopped: "2020-06-09 16:40:00",
+        stoppedWeightOunces: 10.14,
+        notes:
+          "1/4 inch mp, medium mushrooming, flame a bit tall with a tiny bit of soot, coming off and depositing on rim of glass. jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-09 20:30:00",
+        whenStopped: "2020-06-10 01:35:00",
+        stoppedWeightOunces: 9.57,
+        notes:
+          "1/8 inch mp, meidum mushrooming, flame looks great, jar not too hot, tiny bit of soot on the jar.",
+      },
+      {
+        whenStarted: "2020-06-10 10:00:00",
+        whenStopped: "2020-06-10 14:52:00",
+        stoppedWeightOunces: 8.9,
+        notes:
+          "1/4 inch mp, medium mushrooming, jar not hot, no soot, flame looks great. doesnt seem like there is new soot on the jar, but maybe a tiny bit.",
+      },
+      {
+        whenStarted: "2020-06-10 18:45:00",
+        whenStopped: "2020-06-11 02:15:00",
+        stoppedWeightOunces: 7.69,
+        notes:
+          "1/8 inch remaining, large mushrmoom and fairly large flame here at the bottom with some soot coming off of it. jar at 165 degrees.",
+      },
+    ],
+    notes: "",
+  },
+  // ROG9 VV half jar CDN-6
+  {
+    completedCandleWeightOunces: "11.65",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-08 11:45:00",
+        whenStopped: "2020-06-08 14:55:00",
+        stoppedWeightOunces: 11.23,
+        notes:
+          "not a full mp, plenty of hang up. not really any mushroomingn, flame looks fine, maybe a tiny bit small.",
+      },
+      {
+        whenStarted: "2020-06-08 20:00:00",
+        whenStopped: "2020-06-09 01:26:00",
+        stoppedWeightOunces: 10.59,
+        notes:
+          "nearly full mp, but not quite. flame looks good, only a tiny bit of mushrooming, no soot, jar not too hot. would be great in a slightly smaller jar.",
+      },
+      {
+        whenStarted: "2020-06-09 10:00:00",
+        whenStopped: "2020-06-09 16:40:00",
+        stoppedWeightOunces: 9.94,
+        notes:
+          "almost 1/8 inch mp, little mushrooming, flame a bit small but probably okay down this low. no soot, jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-09 20:30:00",
+        whenStopped: "2020-06-10 01:35:00",
+        stoppedWeightOunces: 9.35,
+        notes:
+          "1/8 inch mp, only a little mushrooming, flame looks great, jar not too hot, no soot.",
+      },
+      {
+        whenStarted: "2020-06-10 10:00:00",
+        whenStopped: "2020-06-10 14:52:00",
+        stoppedWeightOunces: 8.67,
+        notes:
+          "1/4 inch mp, medium to large mushrooming, jar not hot, no soot, flame looks great.",
+      },
+      {
+        whenStarted: "2020-06-10 18:45:00",
+        whenStopped: "2020-06-11 02:15:00",
+        stoppedWeightOunces: 7.6,
+        notes:
+          "about 1/8 inch wax left, medium mushrooming, flame not too big and jar not too hot, looks pretty good.",
+      },
+    ],
+    notes: "",
+  },
+  // 38GN VV half jar LX-14
+  {
+    completedCandleWeightOunces: "12.20",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-08 11:45:00",
+        whenStopped: "2020-06-08 14:55:00",
+        stoppedWeightOunces: 11.8,
+        notes: "not even close to a full mp. tiny bit of mushrooming.",
+      },
+      {
+        whenStarted: "2020-06-08 20:00:00",
+        whenStopped: "2020-06-09 01:26:00",
+        stoppedWeightOunces: 11.19,
+        notes:
+          "nearly a full shallow mp, but flame a little small. little bit of mushrooming. no soot jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-09 10:00:00",
+        whenStopped: "2020-06-09 16:40:00",
+        stoppedWeightOunces: 8.79,
+        notes: "",
+      },
+      {
+        whenStarted: "2020-06-09 10:00:00",
+        whenStopped: "2020-06-09 16:40:00",
+        stoppedWeightOunces: 10.46,
+        notes:
+          "1/8 inch mp, medium mushrooming, flame looks great, no soot jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-09 20:30:00",
+        whenStopped: "2020-06-10 01:35:00",
+        stoppedWeightOunces: 9.75,
+        notes:
+          "1/4 inch mp, big mushrooming, but flame size is good. no soot jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-10 10:00:00",
+        whenStopped: "2020-06-10 14:52:00",
+        stoppedWeightOunces: 9.0,
+        notes:
+          "1/4 inch mp, fairly large mushrooming, jar hot in a part but not too hot, no soot, flame looks great.",
+      },
+      {
+        whenStarted: "2020-06-10 18:45:00",
+        whenStopped: "2020-06-11 02:15:00",
+        stoppedWeightOunces: 7.81,
+        notes:
+          "about 1/8 inch wax left,  but huge mushrooming. still, flame no too large for this final bit of wax prob. glass at 150 degrees.",
+      },
+    ],
+    notes: "",
+  },
+  // W92D VV half jar Eco-4
+  {
+    completedCandleWeightOunces: "11.73",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-08 11:45:00",
+        whenStopped: "2020-06-08 14:55:00",
+        stoppedWeightOunces: 11.23,
+        notes:
+          "nearly a full mp, flame looks good. only a tiny bit of mushrooming. i think this would be great in a very slightly smaller jar.",
+      },
+      {
+        whenStarted: "2020-06-08 20:00:00",
+        whenStopped: "2020-06-09 01:26:00",
+        stoppedWeightOunces: 10.62,
+        notes:
+          "not quite full mp, flame looks fine though, only a little mushrooming. jar not too hot, no soot. still think a slightly smaller jar and this would be great.",
+      },
+      {
+        whenStarted: "2020-06-09 10:00:00",
+        whenStopped: "2020-06-09 16:40:00",
+        stoppedWeightOunces: 9.83,
+        notes:
+          "18 inch mp, little mushrooming, flame looks great--maybe a tiny bit tall, no soot, jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-09 20:30:00",
+        whenStopped: "2020-06-10 01:35:00",
+        stoppedWeightOunces: 9.17,
+        notes:
+          "1/4 inch mp, flame a little large, maybe a tiny bit of soot coming off of it but not obvious on jar yet. jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-10 10:00:00",
+        whenStopped: "2020-06-10 14:52:00",
+        stoppedWeightOunces: 8.44,
+        notes:
+          "1/2 to 3/4 inch mp (rest of the wax), large mushrooming, jar a bit hot near the rim, no soot, flame looks fine.",
+      },
+      {
+        whenStarted: "2020-06-10 18:45:00",
+        whenStopped: "2020-06-11 02:15:00",
+        stoppedWeightOunces: 7.45,
+        notes:
+          "extinguished itself with 1/8 inch remaining. not sure hot hot the glass got.",
+      },
+    ],
+    notes: "",
+  },
+  // 3QBK VV half jar RRD-29
+  {
+    completedCandleWeightOunces: "11.48",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-08 11:45:00",
+        whenStopped: "2020-06-08 14:55:00",
+        stoppedWeightOunces: 11.08,
+        notes:
+          "not full mp, fair amount of hangup on the sides. flame is also fairly small. little bit of mushrooming.",
+      },
+      {
+        whenStarted: "2020-06-08 20:00:00",
+        whenStopped: "2020-06-09 01:26:00",
+        stoppedWeightOunces: 10.5,
+        notes:
+          "almost full shallow mp, medium mushrooming, flame too small. no soot glass not too hot.",
+      },
+      {
+        whenStarted: "2020-06-09 10:00:00",
+        whenStopped: "2020-06-09 16:40:00",
+        stoppedWeightOunces: 9.79,
+        notes:
+          "1/8 inch mp, medium amount of mushrooming, no soot, jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-09 20:30:00",
+        whenStopped: "2020-06-10 01:35:00",
+        stoppedWeightOunces: 9.19,
+        notes: "1/4 lots of mushrooming, jar not too hot, no real soot.",
+      },
+      {
+        whenStarted: "2020-06-10 10:00:00",
+        whenStopped: "2020-06-10 14:52:00",
+        stoppedWeightOunces: 8.69,
+        notes:
+          "1/8 inch mp, little bit of mushrooming, jar not hot, no soot, flame looks great.",
+      },
+      {
+        whenStarted: "2020-06-10 18:45:00",
+        whenStopped: "2020-06-11 02:15:00",
+        stoppedWeightOunces: 7.59,
+        notes:
+          "about 1/4 inch wax left, large mushroom but flame still not too bit. glassa at 140 degrees.",
+      },
+    ],
+    notes: "",
+  },
+  // 3M9V VV half jar Performa-90
+  {
+    completedCandleWeightOunces: "11.88",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-08 11:45:00",
+        whenStopped: "2020-06-08 14:55:00",
+        stoppedWeightOunces: 11.43,
+        notes:
+          "very nearly a full shallow mp. little bit of mushrooming, no soot, flame looks fine.",
+      },
+      {
+        whenStarted: "2020-06-08 20:00:00",
+        whenStopped: "2020-06-09 01:26:00",
+        stoppedWeightOunces: 10.81,
+        notes:
+          "nearly 1/8 inch mp, little mushrooming, flame not huge, but fine, jar not too hot, no soot.",
+      },
+      {
+        whenStarted: "2020-06-09 10:00:00",
+        whenStopped: "2020-06-09 16:40:00",
+        stoppedWeightOunces: 9.99,
+        notes:
+          "1/4 inch mp, jar not too hot, no soot, but lots of mushrooming and fat flame because of it. no soot, jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-09 20:30:00",
+        whenStopped: "2020-06-10 01:35:00",
+        stoppedWeightOunces: 9.43,
+        notes:
+          "1/4 inch mp, only a little mushrooming, flame looks great, no soot, glass not too hot.",
+      },
+      {
+        whenStarted: "2020-06-10 10:00:00",
+        whenStopped: "2020-06-10 14:52:00",
+        stoppedWeightOunces: 8.85,
+        notes:
+          "1/4 inch mp, little bit of mushrooming, jar not hot, no soot, flame looks great.",
+      },
+      {
+        whenStarted: "2020-06-10 18:45:00",
+        whenStopped: "2020-06-11 02:15:00",
+        stoppedWeightOunces: 7.61,
+        finished: true,
+        notes:
+          "about 1/4 inch wax left, but HUGE mushrooming and flame too big. Glass 165 degrees. ",
+      },
+    ],
+    notes: "",
+  },
+  // Leather FO comparison of 3 brands
+  // 369Z Leather CS half jar
+  {
+    completedCandleWeightOunces: "11.93",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-11 14:30:00",
+        whenStopped: "2020-06-11 16:45:00",
+        stoppedWeightOunces: 11.04,
+        notes:
+          "almost full mp. wick a bit off center and mp is up to 1/8 inch on deep side. little mushrooming, flame soot and jar look great.",
+      },
+      {
+        whenStarted: "2020-06-11 14:30:00",
+        whenStopped: "2020-06-11 19:00:00",
+        stoppedWeightOunces: 9.26,
+        notes:
+          "1/4 inch mp, large mushrooming, flame pretty big, must be some soot but cnat see any obvious signs on the jar.",
+      },
+      {
+        whenStarted: "2020-06-14 15:30:00",
+        whenStopped: "2020-06-14 19:40:00",
+        stoppedWeightOunces: 8.59,
+        notes:
+          "1/4 inch mp, flame looks wondeful, not much mushrooming, no soot. this leather also smells great to me.",
+      },
+    ],
+    notes: "",
+  },
+  // 3DPP Leather Fillmore half jar
+  {
+    completedCandleWeightOunces: "11.57",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-11 14:30:00",
+        whenStopped: "2020-06-11 16:45:00",
+        stoppedWeightOunces: 11.4,
+        notes:
+          "1/8 to 1/4 inch mp, medium mushroming, flame jar and soot look fine.",
+      },
+      {
+        whenStarted: "2020-06-11 14:30:00",
+        whenStopped: "2020-06-11 19:00:00",
+        stoppedWeightOunces: 10.27,
+        notes:
+          "1/8 inch mp, no mushroomign, jar not hot, no soot. dont like the smell as much as CS.",
+      },
+      {
+        whenStarted: "2020-06-14 15:30:00",
+        whenStopped: "2020-06-14 19:40:00",
+        stoppedWeightOunces: 8.69,
+        notes:
+          "1/8 inch mp, flame looks great, only a little mushrooming, no soot. dont think i love this leather scent either.",
+      },
+    ],
+    notes: "",
+  },
+  // J299 Leather Aztec half jar
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-11 14:30:00",
+        whenStopped: "2020-06-11 16:45:00",
+        stoppedWeightOunces: 11.05,
+        notes:
+          "about 1/4 inch mp. flame a bit larger than the others with bit of soot coming off of it. little mushrooming, no obvious soot on jar, jar a bit hotter than the others but fine.",
+      },
+      {
+        whenStarted: "2020-06-11 14:30:00",
+        whenStopped: "2020-06-11 19:00:00",
+        stoppedWeightOunces: 9.33,
+        notes:
+          "1/8 inch mp, flame a bit large, but not terrible. not much mushrooming or semsingly not much soot.",
+      },
+      {
+        whenStarted: "2020-06-14 15:30:00",
+        whenStopped: "2020-06-14 19:40:00",
+        stoppedWeightOunces: 8.69,
+        notes:
+          "1/4 inch mp, flame looks good but the candle is sooting a fair amount. its not my favorite leather scent either. a little plastic-y.",
+      },
+    ],
+    notes: "",
+  },
+  // Start of patchouli test batches
+  // X515 Patchouli CS half jar
+  {
+    completedCandleWeightOunces: "11.71",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-15 20:00:00",
+        whenStopped: "2020-06-16 00:15:00",
+        stoppedWeightOunces: 11.0,
+        notes:
+          "1/8 to 1/4 inch mp, fair amount of mushrooming, but flame jar and soot are great. little bit of soot deposited on the jar.",
+      },
+      {
+        whenStarted: "2020-06-16 21:00:00",
+        whenStopped: "2020-06-17 12:15:00",
+        stoppedWeightOunces: 10.55,
+        notes:
+          "1/8 inch mp, no mushrooming, flame looks great, jar not too hot. clearly the best plain patchouli scent--its complex and warm.",
+      },
+      {
+        whenStarted: "2020-06-16 12:30:00",
+        whenStopped: "2020-06-16 19:15:00",
+        stoppedWeightOunces: 9.48,
+        notes:
+          "1/8 to 1/4 inch mp, little mushroomign, flame looks fine for this deep and the long burn. no obvious soot, jar not too hot. smells wondeful. def my favorite besides maybe the palo santo patchouli from flaming candle.",
+      },
+    ],
+    notes: "",
+  },
+  // 1JME Patchouli Fillmore half jar
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-15 12:30:00",
+        whenStopped: "2020-06-15 19:44:00",
+        stoppedWeightOunces: 10.39,
+        notes:
+          "1/4 inch mp, flame looks great, little mushrooming, jar not too hot.",
+      },
+      {
+        whenStarted: "2020-06-16 11:45:00",
+        whenStopped: "2020-06-16 18:15:00",
+        stoppedWeightOunces: 9.38,
+        notes:
+          "1/4 inch mp, flame loooks great, only a little mushrooming, no soot, jar warm but not too hot. smells nice, but its very neutral. will have to compare to CS and AZ which i think i slightly prfer.",
+      },
+      {
+        whenStarted: "2020-06-16 12:30:00",
+        whenStopped: "2020-06-16 19:15:00",
+        stoppedWeightOunces: 8.34,
+        notes:
+          "3/4 inch mp (all the rest of the wax), flame a bit lare, but not much soot on the jar, only small mushrooming. scent is nice but not super distinct/interesting.",
+      },
+    ],
+    notes: "",
+  },
+  // V1JG Patchouli Lonestar half jar
+  {
+    completedCandleWeightOunces: "11.51",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-15 12:30:00",
+        whenStopped: "2020-06-15 19:44:00",
+        stoppedWeightOunces: 10.55,
+        notes:
+          "1/8 inch mp, flame looks great, no soot, jar not too hot, no mushroming. don't like the smell very much though.",
+      },
+      {
+        whenStarted: "2020-06-16 11:45:00",
+        whenStopped: "2020-06-16 18:15:00",
+        stoppedWeightOunces: 9.65,
+        notes:
+          "1/8 to 1/4 inch mp, flame looks fine, no soot. but still just dont like the smell.",
+      },
+    ],
+    notes: "",
+  },
+  // patchouli test batches round 2
+  // KPGM Patchouli AAA half jar
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-15 12:30:00",
+        whenStopped: "2020-06-15 19:44:00",
+        stoppedWeightOunces: 10.69,
+        notes:
+          "1/8 inch mp, flame looks great, but some soot on the glass. wick may have been too long to start. ill wipe down before next burn. jar not too hot, no mushrooming really. smells good but not as strong as i'd hope.",
+      },
+      {
+        whenStarted: "2020-06-16 21:00:00",
+        whenStopped: "2020-06-17 12:15:00",
+        stoppedWeightOunces: 10.19,
+        notes:
+          "basically full melt pool. little mushroomign, flame looks great, jar not too hot. probably one of the better scents.",
+      },
+      {
+        whenStarted: "2020-06-16 12:30:00",
+        whenStopped: "2020-06-16 19:15:00",
+        stoppedWeightOunces: 9.24,
+        notes:
+          "1/4 inch mp, little mushrooming, flam elooks great, no soot, jar not too hot. smell def more interesting than Fillmore's and Aztecs. i like this.",
+      },
+    ],
+    notes: "",
+  },
+  // E2GO Patchouli Aztec half jar
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-15 20:00:00",
+        whenStopped: "2020-06-16 00:15:00",
+        stoppedWeightOunces: 10.95,
+        notes:
+          "1/8 to 1/4 inch mp, fair amount of mushrooming, but flame jar look great. some soot deposited on the jar.",
+      },
+      {
+        whenStarted: "2020-06-16 21:00:00",
+        whenStopped: "2020-06-17 12:15:00",
+        stoppedWeightOunces: 10.55,
+        notes:
+          "basically full melt pool--some hangup on one side since wick is now off-center. little mushrooming, flame looks great, jar not too hot. has a bit more of a plastic-y scent but decent.",
+      },
+      {
+        whenStarted: "2020-06-16 12:30:00",
+        whenStopped: "2020-06-16 19:15:00",
+        stoppedWeightOunces: 9.63,
+        notes:
+          "1/4 to 1/3 inch mp, medium mushroomign, flame a bit large, but prob fine for this deep in the jar. maybe a touch of soot but not a ton. jar not too hot. smell is not my fav, still getting that plasticity",
+      },
+    ],
+    notes: "",
+  },
+  // N2ZJ Palo Santo Patchouli FC half jar
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-15 20:00:00",
+        whenStopped: "2020-06-16 00:15:00",
+        stoppedWeightOunces: 11.0,
+        notes:
+          "1/8 to 1/4 inch mp, fair amount of mushrooming, but flame jar and soot amounts are great.",
+      },
+      {
+        whenStarted: "2020-06-16 11:45:00",
+        whenStopped: "2020-06-16 18:15:00",
+        stoppedWeightOunces: 9.65,
+        notes:
+          "1/4+ inch mp, flame looks fine, maybe a touch big. jar actually fairly hot but prob fine. slightly smaller wick prob better here. fair amount of mushrooming, little bit of soot. smells incredible.",
+      },
+    ],
+    notes: "",
+  },
+  // Tobacco Half Jar Testers (6)
+  // Z96X Tobacco FC half jar
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-16 11:15:00",
+        whenStopped: "2020-06-16 18:18:00",
+        stoppedWeightOunces: 10.59,
+        notes:
+          "1/3 inch mp, flame looks great, medium mushrooming, jar got up to 170 at the worst, actually down to 140 now. scent is wonderfully sweet and fairly strong",
+      },
+    ],
+    notes: "",
+  },
+  // LLEG Tuscan Tobacco AAA half jar
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-16 11:15:00",
+        whenStopped: "2020-06-16 18:18:00",
+        stoppedWeightOunces: 10.28,
+        notes:
+          "1/4 inch mp, flame looks great, only a little mushrooming, jar not too hot not much soot. scent is great, but not obviously super strong.",
+      },
+    ],
+    notes: "",
+  },
+  // 45YB Pa's Tobacco Pipe Fillmore half jar
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-16 19:00:00",
+        whenStopped: "2020-06-17 02:40:00",
+        stoppedWeightOunces: 10.8,
+        notes:
+          "1/4 inch mp, medium mushrooming, jar not too hot, no soot, flame looks great. really smells like a pipe so i dont love this",
+      },
+    ],
+    notes: "",
+  },
+  // OPN9 Pipe Tobacco FC half jar
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-16 19:00:00",
+        whenStopped: "2020-06-17 02:40:00",
+        stoppedWeightOunces: 10.8,
+        notes:
+          "1/4 inch mp, little mushrooming, flame a bit large but prob fine considering this power burn and 1/2 har, no soot. smells pretty nice actually, but has a hint of soapiness which i dont love. still, one of the best tobaccos. and fairly strong.",
+      },
+    ],
+    notes: "",
+  },
+  // 8VDN Tabacco & Bay Leaf FC half jar
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-16 19:00:00",
+        whenStopped: "2020-06-17 02:40:00",
+        stoppedWeightOunces: 10.8,
+        notes:
+          "1/4 inch mp, little mushrooming, flame soot and jar are great. smells nice, almost like a minty tobacco. cant decide if id want to use this scent. i think i prefer the warmth of the Aztec/ AAA/ Fillmore pipe tobacco",
+      },
+    ],
+    notes: "",
+  },
+  // SP-486 + 83 test blends
+  // MXNV control: standard blend
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-22 12:00:00",
+        whenStopped: "2020-06-22 17:00:00",
+        stoppedWeightOunces: 10.91,
+        notes:
+          "1/8 inch mp, no mushrooming, flame looks wonderful no soot. how throw SEEMS surprisingly good. but cold throw not as strong as the others",
+      },
+      {
+        whenStarted: "2020-06-23 19:00:00",
+        whenStopped: "2020-06-24 00:25:00",
+        stoppedWeightOunces: 10.11,
+        notes:
+          "1/8 inch mp, flame looks great, no mushrooming, no soot, jar not too hot.",
+      },
+    ],
+    notes: "",
+  },
+  // 76D7 8% SP-486
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-22 12:00:00",
+        whenStopped: "2020-06-22 17:00:00",
+        stoppedWeightOunces: 10.71,
+        notes:
+          "1/8 inch mp, small mushrooming, flame looks wonderful no soot. how throw SEEMS surprisingly good.",
+      },
+      {
+        whenStarted: "2020-06-23 19:00:00",
+        whenStopped: "2020-06-24 00:25:00",
+        stoppedWeightOunces: 10.01,
+        notes:
+          "1/8 inch mp, flame about the same size as the 16%, and larger than the 25%. no soot, jar not too hot, tiny bit of residue all over the jar though.",
+      },
+      {
+        whenStarted: "2020-06-24 02:30:00",
+        whenStopped: "2020-06-24 19:00:00",
+        stoppedWeightOunces: 9.26,
+        notes:
+          "full shallow mp, bit of residue on the side. jar warm but not too hot, no mushrooming, flame looks healthy no soot. looks pretty good.",
+      },
+      {
+        whenStarted: "2020-06-24 02:30:00",
+        whenStopped: "2020-06-24 19:00:00",
+        stoppedWeightOunces: 9.42,
+        notes:
+          "1/8 inch mp, flame looks great, no mushrooming, jar hot but not too hot. perfect.",
+      },
+    ],
+    notes: "",
+  },
+  // G2MQ 16% SP-486
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-22 12:00:00",
+        whenStopped: "2020-06-22 17:00:00",
+        stoppedWeightOunces: 11.01,
+        notes:
+          "1/8 inch mp, no mushrooming, flame looks a bit too small. cold throw was great though.",
+      },
+      {
+        whenStarted: "2020-06-23 19:00:00",
+        whenStopped: "2020-06-24 00:25:00",
+        stoppedWeightOunces: 10.2,
+        notes:
+          "1/8 inch mp, with a tiny bit of residue all over the jar. flame a bit bigger than the 25% candle, but jar not too hot, no soot.",
+      },
+      {
+        whenStarted: "2020-06-24 02:30:00",
+        whenStopped: "2020-06-24 19:00:00",
+        stoppedWeightOunces: 9.49,
+        notes:
+          "1/4 inch mp, hardly any residue on the side. jar warm but not too hot, little bit of mushrooming, flame looks healthy no soot. looks great.",
+      },
+    ],
+    notes: "",
+  },
+  // P1QD 25% SP-486
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-22 12:00:00",
+        whenStopped: "2020-06-22 17:00:00",
+        stoppedWeightOunces: 11.17,
+        notes:
+          "1/8 inch mp, no mushrooming, flame too small. should consider a wick up. cold throw was great though.",
+      },
+      {
+        whenStarted: "2020-06-23 19:00:00",
+        whenStopped: "2020-06-24 00:25:00",
+        stoppedWeightOunces: 10.34,
+        notes:
+          "not quite 1/8 inch mp, some hangup on one side and tiny bit of residue left all over the jar. flame looks good, but probably could try a slightly larger wick. no mushrooming, jar not hot.",
+      },
+      {
+        whenStarted: "2020-06-24 02:30:00",
+        whenStopped: "2020-06-24 19:00:00",
+        stoppedWeightOunces: 9.69,
+        notes:
+          "nearly full mp, plenty of residue on the side, wick needs to be bigger, but flame is healthy etc.",
+      },
+    ],
+    notes: "",
+  },
+  // more sp-486 tests
+  // BZGJ 25% SP-486 1
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-28 14:00:00",
+        whenStopped: "2020-06-28 19:30:00",
+        stoppedWeightOunces: 10.76,
+        notes:
+          "1/8 inch mp, jar not too hot, no soot, looks like a great wick.",
+      },
+      {
+        whenStarted: "2020-06-29 10:00:00",
+        whenStopped: "2020-06-29 15:00:00",
+        stoppedWeightOunces: 10.06,
+        notes:
+          "almost 1/8 inch mp, no soot, flame looks great, small mushrooming. smells wonderful.",
+      },
+    ],
+    notes: "",
+  },
+  // BZGJ 25% SP-486 2
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // DY2P 25% SP-486 5% beeswax 1
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-28 14:00:00",
+        whenStopped: "2020-06-28 19:30:00",
+        stoppedWeightOunces: 10.88,
+        notes:
+          "almost 1/8 inch mp, jar not too hot, no soot, looks like decent wick. maybe could go slightly bigger. very hard to tell, but mayybe this has a worse HT than the others?",
+      },
+      {
+        whenStarted: "2020-06-29 10:00:00",
+        whenStopped: "2020-06-29 15:00:00",
+        stoppedWeightOunces: 10.23,
+        notes:
+          "1/8 inch mp, no soot, flame looks great, small mushrooming. smells wonderful oddly a bit burnt compared to the others..",
+      },
+    ],
+    notes: "",
+  },
+  // 5KKB 25% SP-486 5% beeswax 2
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // BZZZ 25% SP-486 5% stearic 1
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-28 14:00:00",
+        whenStopped: "2020-06-28 19:30:00",
+        stoppedWeightOunces: 10.63,
+        notes:
+          "1/8 to 1/4 inch mp--a bit more melted than the other options, jar not too hot, no soot, looks like solid wick.",
+      },
+      {
+        whenStarted: "2020-06-29 10:00:00",
+        whenStopped: "2020-06-29 15:00:00",
+        stoppedWeightOunces: 9.88,
+        notes:
+          "1/8 to 1/4 inch mp, no soot, flame looks great, small mushrooming. smells wonderful.",
+      },
+    ],
+    notes: "",
+  },
+  // 611B 25% SP-486 5% stearic 2
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // DYYN 25% SP-486 10% CNUT-1 1
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-06-28 14:00:00",
+        whenStopped: "2020-06-28 19:30:00",
+        stoppedWeightOunces: 10.76,
+        notes:
+          "almost 1/8 inch mp, jar not too hot, no soot, looks like decent wick.",
+      },
+      {
+        whenStarted: "2020-06-29 10:00:00",
+        whenStopped: "2020-06-29 15:00:00",
+        stoppedWeightOunces: 9.99,
+        notes:
+          "1/8 inch mp, no soot, flame looks great, zero mushrooming. smells wonderful.",
+      },
+    ],
+    notes: "",
+  },
+  // J22V 25% SP-486 10% CNUT-1 2
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // TW-30 First test batches
+  // LLLN 12.5% TW-30 for burn
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-03 20:00:00",
+        whenStopped: "2020-07-04 04:30:00",
+        stoppedWeightOunces: 10.56,
+        notes: "1/8 inch mp , no soot, medium mushrooming, jar not too hot.",
+      },
+      {
+        whenStarted: "2020-07-06 13:00:00",
+        whenStopped: "2020-07-06 17:40:00",
+        stoppedWeightOunces: 10.06,
+        notes:
+          "1/8 inch mp, very little mushrooming, flame looks great no soot, jar not hot.",
+      },
+    ],
+    notes: "",
+  },
+  // 455X 12.5% TW-30 for cure
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // OPPE 25% TW-30 for burn
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-03 20:00:00",
+        whenStopped: "2020-07-04 04:30:00",
+        stoppedWeightOunces: 10.05,
+        notes:
+          "1/8 inch mp, little mushrooming, no soot, jar not too hot. i think i prefer the soy 10 to this.",
+      },
+      {
+        whenStarted: "2020-07-06 13:00:00",
+        whenStopped: "2020-07-06 17:40:00",
+        stoppedWeightOunces: 9.53,
+        notes:
+          "1/8 inch mp, very little mushrooming, flame looks great no soot, jar not hot.",
+      },
+    ],
+    notes: "",
+  },
+  // 8VV5 25% TW-30 for cure
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // Soy #10 First test batches
+  // 9JJ4 12.5% Soy #10 for burn
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-03 20:00:00",
+        whenStopped: "2020-07-04 04:30:00",
+        stoppedWeightOunces: 10.58,
+        notes: "1/8 inch mp. little mushroooming, jar not too hot, no soot.",
+      },
+      {
+        whenStarted: "2020-07-06 13:00:00",
+        whenStopped: "2020-07-06 17:40:00",
+        stoppedWeightOunces: 10.06,
+        notes:
+          "nearly 1/4 inch mp, little mushrooming, flame looks great no soot, jar not hot.",
+      },
+    ],
+    notes: "",
+  },
+  // QQQJ 12.5% Soy #10 for cure
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // MXX6 25% Soy #10 for burn
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-03 20:00:00",
+        whenStopped: "2020-07-04 04:30:00",
+        stoppedWeightOunces: 10.77,
+        notes:
+          "nearly full shallow mp. no mushrooming, jar not too hot, no soot. could probably handle a slightly larger wick. i do think i prefer this candle to the tw30.",
+      },
+      {
+        whenStarted: "2020-07-06 13:00:00",
+        whenStopped: "2020-07-06 17:40:00",
+        stoppedWeightOunces: 10.29,
+        notes:
+          "1/8 inch mp, very little mushrooming, flame looks great no soot, jar not hot.",
+      },
+    ],
+    notes: "",
+  },
+  // 766G 25% Soy #10 for cure
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // Soy 10 higher percentage tests
+  // DYEN 30% Soy #10 for burn
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-09 20:00:00",
+        whenStopped: "2020-07-10 03:00:00",
+        stoppedWeightOunces: 11.05,
+        notes: "1/8 inch mp, flame looks good, no mushrooming/soot etc",
+      },
+      {
+        whenStarted: "2020-07-11 21:00:00",
+        whenStopped: "2020-07-11 02:00:00",
+        stoppedWeightOunces: 10.0,
+        notes:
+          "1/8 inch mp, flame looks good, very little mushrooming, no soot etc",
+      },
+    ],
+    notes: "",
+  },
+  // J2GV 30% Soy #10 for cure
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // X5GO 40% Soy #10 for burn
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-09 20:00:00",
+        whenStopped: "2020-07-10 03:00:00",
+        stoppedWeightOunces: 11.05,
+        notes:
+          "1/8 inch mp, flame looks good, very little mushrooming, no soot etc",
+      },
+    ],
+    notes: "",
+  },
+  // 1JE9 40% Soy #10 for cure
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // V1QB 50% Soy #10 for burn
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-09 20:00:00",
+        whenStopped: "2020-07-10 03:00:00",
+        stoppedWeightOunces: 11.05,
+        notes:
+          "1/8 inch mp, flame looks good, very little mushrooming, no soot etc",
+      },
+    ],
+    notes: "",
+  },
+  // KPD9 50% Soy #10 for cure
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // E2NY 60% Soy #10 for burn
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-09 20:00:00",
+        whenStopped: "2020-07-10 03:00:00",
+        stoppedWeightOunces: 11.05,
+        notes:
+          "1/8 inch mp, flame looks good, very little mushrooming, no soot etc",
+      },
+      {
+        whenStarted: "2020-07-11 21:00:00",
+        whenStopped: "2020-07-11 02:00:00",
+        stoppedWeightOunces: 10.0,
+        notes:
+          "1/8 inch mp, flame looks good, very little mushrooming, no soot etc",
+      },
+    ],
+    notes: "",
+  },
+  // N2GP 60% Soy #10 for cure
+  {
+    completedCandleWeightOunces: "11.63",
+    volumeOverflowPercent: "45",
     colorDescription: "whiteish",
     burns: [],
     notes: "",

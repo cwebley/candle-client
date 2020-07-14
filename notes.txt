@@ -194,11 +194,13 @@ Current Todo List:
 create a wax blend from multiple waxes. this could eventually use infinity bottle logic?
 dyePercentage of total, suggested dye amount based on that field on new-batch page
 suggested weight on new-batch page is wonky after marking finished, then re-editing to unfinish
+edit burn end point and FE integration  
 add candle name to new-batch page layer popout or something. this might need a candle hash lookup, etc
 confirmation links, msds sheets, ifra certificates, vanillin content/ ethyl vanillin, flashpoint, pthalate free
 client-api ping route or something to make sure its all connected--looks like this route already exists
 some way to save candle "recipes"
 autocomplete routes from hash_id
+Candle Weight Target instead of jar fill percentage (keep these fields linked together?)
 recent batches route
 inventory routes
 search candle route and search form by fragrance/wax/dye name etc
@@ -210,8 +212,18 @@ some way to track previous candles that a jar was used for? or at least track it
   burn graph in burn-history dialog weight vs burn-time. end points show tootips of date or something
 
 Candle todos:
-Finalize recipe for FT + Berg 777 vs 775
-Finalize recipe for GG
+compare leather from aztec fillmore and CS
+compare patchouli from aztec cs fillmore lonestar
+compare tobaccos
+  aztec tobacco 1oz
+  pa's tobacco pipe LS
+  tuscan tobacco AAA
+  Pipe tobacco FC
+  Tobacco Caramel FC
+  Tobacco and Bay Leaf FC
+Vetiver wick testing
+Citrus wick testing?
+
 Finalize CCv2?
 vetiver star anise?
 Test french vanilla vs very vanilla
@@ -271,3 +283,129 @@ Love letter
   fireside + merlot + rose
 
 
+
+performa wicks
+https://wicksunlimited.com/wicks/atkins-pearce-candle-wicks/atkins-pearce-performa-wicks/
+http://www.atkinsandpearce.com/candle-solutions/product-pages/performa/?fbclid=IwAR2a3KecN9i08ZocHqMGbnoDNC_JbYQjCMoLZirZjxwSp9ByOANf1_2UST4
+https://wicksunlimited.com/wicks/atkins-pearce-candle-wicks/atkins-pearce-performa-wicks/
+double 90
+double rrd 29
+double lx-8
+double lx-10
+
+single 60
+single 100
+
+single rrd 37
+single rrd 34
+
+cool candle jars
+https://sixteenseventeen.com/collections/west-coast-collection-1/products/west-coast-in-slate
+
+
+very vanilla half testers
+round 1:
+
+P-767
+CD-7
+LX-16
+Eco-6
+RRD 34
+RRD 37
+Performa 60
+Performa 100
+
+round 2:
+P-760
+P-765
+CD-6
+CDN-6
+LX-14
+Eco-4
+RRD-29
+Performa-90
+
+still need to try HTPs
+
+Doubles to try
+Eco 0.75
+LX-8 LX-10 LX-12
+
+
+burn 1 thoughts:
+  best seem to be CD-7/ LX-16/ RRD-34
+  want to try 
+    smaller than P-767 like P-760
+    performa 80ish x2
+    rrd 29 just to know
+    eco 4
+
+  round 3 wicks:
+  htp 93 + 104
+  Performa slightly bigger x2
+  premier smaller than 760?
+  
+
+SDS info
+  orders
+    Web confirmation link
+    Email receipt link
+    Receipt copy link
+
+
+  FOs
+    Web link
+    SDS original link
+    SDS copy
+    IFRA original link
+    IFRA copy
+    Vanillin content
+    Ethyl Vanillin content
+    Flash point
+    Specific Gravity
+
+  
+  candlescience order
+  very vanilla
+  black amber plum
+  leather if it wins the leather test
+  patchouli if it wins the patchouli test
+
+  candle todos
+
+  stearic acid:
+    control candle reg recipe
+    replace beeswax in normal recipes
+    3% stearic
+    10% stearic
+
+    75% 83 25% 486
+    80% 83 20% 486
+    70% 83 30% 486
+
+    add coconut-1 to those
+
+    25% 486 75 83
+    16 486 84 83
+    8 486 92 83
+    standard blend
+
+     more tests: each half candles and 2 of each to test cold throw and hot throw
+
+    control candle
+     25% 486 with 5% bees
+     25% 486 with 5% stearic
+     25% 486 with 10% cnut-1 just for comparison
+
+call swans and ask about future availability of 486/487
+
+Buy 1/4 and 1/8 inch tall nuts for consistent wick trimming after candle solidified
+
+room spray
+vial option from this site (you can request a sample):
+https://www.premiumvials.com/4-oz-amber-pet-boston-round-bottle-w-white-fine-mist-sprayer-20-410-case-pack-100/
+
+buy premier 785, 787, 790 if needed?
+
+batch page url doesnt update unless layers are added
+add default jar weight to url?
