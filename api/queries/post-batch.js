@@ -19,10 +19,7 @@ module.exports = function postBatch(db, data, cb) {
   console.log("DATA :", data.batchItems);
   const totalDyeWeightOunces = data.batchItems
     .filter((item) => item.type === "dye")
-    .reduce(
-      (total, dyeItem) => (total += parseFloat(dyeItem.weightOunces)),
-      0
-    );
+    .reduce((total, dyeItem) => (total += parseFloat(dyeItem.weightOunces)), 0);
 
   // begin transaction
   db.beginTransaction((err) => {
@@ -52,9 +49,7 @@ module.exports = function postBatch(db, data, cb) {
           (item) => item.type === "additives"
         );
         const waxes = data.batchItems.filter((item) => item.type === "wax");
-        const dyes = data.batchItems.filter(
-          (item) => item.type === "dye"
-        );
+        const dyes = data.batchItems.filter((item) => item.type === "dye");
 
         async.parallel(
           {
@@ -369,15 +364,23 @@ function insertBatchesAdditives(
     }
     sql += internalSelect;
 
-    let additiveLoad =
-      parseFloat(d.weightOunces) /
-      (parseFloat(totalFragranceWeightOunces) +
-        parseFloat(totalAdditiveWeightOunces) +
-        parseFloat(totalWaxWeightOunces));
+    // let additiveLoad =
+    //   parseFloat(d.weightOunces) /
+    //   (parseFloat(totalFragranceWeightOunces) +
+    //     parseFloat(totalAdditiveWeightOunces) +
+    //     parseFloat(totalWaxWeightOunces));
 
-    additiveLoad = additiveLoad || 0;
+    // const additiveLoad =
+    //   calculateAdditiveLoad({
+    //     fragranceWeightOunces: parseFloat(totalFragranceWeightOunces),
+    //     waxWeightOunces: parseFloat(totalWaxWeightOunces),
+    //   }) || 0;
 
-    params.push(batchId, d.weightOunces, d.combineId, additiveLoad, d.hashId);
+    // additiveLoad = additiveLoad || 0;
+
+    console.log("ADDITIVE DATA: ", data);
+
+    params.push(batchId, d.weightOunces, d.combineId, d.hashId);
 
     decrementCases.push("WHEN hash_id = ? THEN (remaining - ?)");
     decrementParams.push(d.hashId, d.weightOunces);

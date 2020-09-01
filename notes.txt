@@ -409,3 +409,209 @@ buy premier 785, 787, 790 if needed?
 
 batch page url doesnt update unless layers are added
 add default jar weight to url?
+
+batch page: 
+editing an additive doesnt update the total additive weight field
+auto complete of combined partner field is acting weird after editing one wax to another
+layers table columns dont align with header row without pre-weight? or in general? idk.
+
+cool jars: 
+https://www.candlemakingsupplies.net/glass--boxes--jars--lids/22-oz--paris-br-colored-glass/cate_268/p___P1059643.html?fbclid=IwAR1AKvzljhVDJCajXfXc0A_Hzec-RCAxNgVs4jVoLd_DlrLkrQub5SSMrrc
+--seems too expensive
+
+--Glassnow Lexington prices--
+clear: 141.07 for 4 dozen shipped = $2.94 a piece
+lids: 98.56 for 48 + ~$13 shipping = $2.33 a piece
+total = $5.27 a piece for clear jar + lid
+frosted or solid colors +$0.80
+transparent colors +$0.60
+electroplated silver +1.50
+
+--Glassnow 8.5oz heavy votive prices---
+clear: $133.82 for 4 dozen shipped = $2.79 a piece
+lids: $79.78 for 4 dozen shipped = $1.66 a piece
+total = $4.45 a piece
+frosted or solid colors +$0.70
+transparent colors +$0.40
+electroplated silver +0.90
+
+--Flaming Candle Oxford prices--
+oxford clear jars: 4 dozen shipped for $1.97 a piece
+lids $1.50 a piece shipped? idk
+total: $3.50 a piece
+colors: +$0.50 to $0.67 added
+electroplated = +$1.90
+
+
+--Sixteen Seventeen West Coast Collection prices--
+$209.48 for 8 cases of 4 shipped = $4.35 a piece
+$110.55 for 4 cases of 4 shipped = $4.62 a piece
+
+
+boxes
+https://www.foldaboxusa.com/collections/small-cube-luxury-folding-gift-boxes-with-snap-shut-closure-in-white-black-silver-and-kraft
+
+
+Aztec seems to have the same jars as TFC but they dont have amber
+
+P-795
+CD-8
+LX-16
+HTP-104
+
+Eco-1
+Cd-2
+Cd-3
+P-725
+LX-10
+HTP-31
+
+order more htp-31, and prob CD-10 (i dont have this) from FC
+LX-20 from CS, also Fig Tree
+
+
+cd-9 from Cal candle supply
+
+more tests
+
+single wick
+P-799 --too big
+HTP-105 --too small
+LX-18 --too small
+LX-20 --too small
+-------more--------
+LX-22
+LX-24
+Eco-12
+HTP-1212
+
+(when they arrive from TFC)
+CD-9
+CD-10
+I should probably just jump to CD-12/14
+
+double wick in larger jars:
+2 LX-10
+2 Eco-1
+2 CD-3
+
+a second round to iterate, maybe with P-725
+
+buy
+almond from aztec
+black liquid die from aztec--i hear it is strong
+stearic acid from TFC, or CCS where its cheaper?
+CD-12 from somewhere
+
+try CD-14
+
+
+Oxford jars:
+
+CD-14
+RRD-40
+Eco-14
+LX-24
+HTP-105
+P-795?
+
+CD-3
+Eco-1
+HTP-31
+LX-12
+
+Full CD-3 test
+CD-2
+HTP-41
+P-735
+Eco-0.75
+
+Singles?
+RRD-40
+LX-24? LX-22
+HTP-126? HTP-105
+CD-14? CD-12
+
+add jar weight to new-order form for jars
+
+tinwerks sick and cheap tins but need to buy in large quantities
+https://www.tinwerks.com/collections/stock
+
+cool containers for wax once cut up:
+https://www.amazon.com/gp/product/B00186RTWW/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1&fbclid=IwAR2W7DhL4eF_DSDKOE1Acwz0lLEJXlD5pz2ULoPa9QZA_QsuWynRLHOI4hE
+
+
+order
+  CS 
+    peppercorn pomander
+
+  Lonestar
+    Leather: 4oz
+
+  Aztec
+    Almond: 16oz
+
+  Flaming Candle:
+    Tobacco 16oz
+
+find wick for Very Vanilla
+find wick for Tonka and Oud
+find wick for rosemary pepper
+find wick for cinnamon stick cs 1/1/4
+find wick for red hot cinnamon 1/4
+find wick for fireside 8oz
+find wick for toasted pumpkin spice 1/1/1
+find wick for root beer
+find wick for cardamom and star anise
+find wick for wild mountain honey
+
+
+compare 
+  AAA orange spice 8oz
+  CS blood orange 8oz
+  AAA kumquat 8oz
+
+  whiskey cs
+  whiskey FC
+  apples & maple bourbon cs
+  kentucky bourbon FC
+
+  high tide
+  black sea
+  sea minerals
+  river rock
+
+cardamom star anise vetiver
+
+wick test very vanilla votive jar
+p-760
+lx-18
+htp-104
+eco-6
+rrd-29
+cd-6
+cdn-6
+
+vv lexington
+cd-4
+cdn-4
+p-730
+lx-12
+eco-1
+htp-31
+
+vanillin
+ethyl vanillin
+    total vanillin
+benzyl benzoate
+coumarin
+
+flashpoint
+density!
+product link
+msds link
+ifra link
+allergin doc link
+pthalate free
+fragrance notes
+viscocity? is that measured anywhere?

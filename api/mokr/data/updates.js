@@ -6733,7 +6733,7 @@ module.exports = [
         whenStopped: "2020-06-09 16:40:00",
         stoppedWeightOunces: 9.66,
         notes:
-          "1/8 to 1/4 inch mp, flame a bit tall and depsoting some soot on the rim of the glass. little mushrooming, jar not too hot.",
+          "1/8 to 1/4 inch mp, flame a bit tall and depositing some soot on the rim of the glass. little mushrooming, jar not too hot.",
       },
       {
         whenStarted: "2020-06-09 20:30:00",
@@ -6754,7 +6754,7 @@ module.exports = [
         whenStopped: "2020-06-11 02:15:00",
         stoppedWeightOunces: 7.42,
         notes:
-          "self extinguished with about 1/8 inch remaining. not sure hot hot the glass got, but no obvious soot deposited.",
+          "self extinguished with about 1/8 inch remaining. not sure how hot the glass got, but no obvious soot deposited.",
       },
     ],
     notes: "",
@@ -6992,7 +6992,7 @@ module.exports = [
         whenStopped: "2020-06-09 16:40:00",
         stoppedWeightOunces: 9.83,
         notes:
-          "18 inch mp, little mushrooming, flame looks great--maybe a tiny bit tall, no soot, jar not too hot.",
+          "1/8 inch mp, little mushrooming, flame looks great--maybe a tiny bit tall, no soot, jar not too hot.",
       },
       {
         whenStarted: "2020-06-09 20:30:00",
@@ -7013,7 +7013,7 @@ module.exports = [
         whenStopped: "2020-06-11 02:15:00",
         stoppedWeightOunces: 7.45,
         notes:
-          "extinguished itself with 1/8 inch remaining. not sure hot hot the glass got.",
+          "extinguished itself with 1/8 inch remaining. not sure how hot the glass got.",
       },
     ],
     notes: "",
@@ -7939,5 +7939,1230 @@ module.exports = [
     colorDescription: "whiteish",
     burns: [],
     notes: "",
+  },
+  // MX76 Fig Tree Berg 1/2 jar 50% Soy-10 2% Stearic
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-16 13:00:00",
+        whenStopped: "2020-07-16 18:00:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "not full mp, looked fine for the first hour or two, but flame got a little small. starting to tunnel",
+      },
+    ],
+    notes: "",
+  },
+  // 76NG Fig Tree Berg 1/2 jar 40% Soy-10 5% Stearic
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-16 13:00:00",
+        whenStopped: "2020-07-16 18:00:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "not full mp, looked fine for the first hour or two, but flame got a little small. starting to tunnel",
+      },
+    ],
+    notes: "",
+  },
+  // G2YN Fig Tree Berg 1/2 jar 40% Soy-10 5% Stearic 5% Cnut-1
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-16 13:00:00",
+        whenStopped: "2020-07-16 18:00:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "not full mp, looked fine for the first hour or two, but flame got a little small. starting to tunnel",
+      },
+    ],
+    notes: "",
+  },
+  // P1OM Fig Tree Berg 1/2 jar 40% Soy-10 5% Stearic
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-16 13:00:00",
+        whenStopped: "2020-07-16 18:00:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "not full mp, looked fine for the first hour or two, but flame got a little small. starting to tunnel",
+      },
+    ],
+    notes: "",
+  },
+  // more wick tests or 10% stearic and 50/50
+  // BZOZ Fig Tree Berg 1/2 jar 45% Soy-10 10% Stearic P-795
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-19 13:00:00",
+        whenStopped: "2020-07-19 17:30:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "not full mp, but pretty close. jar gets surprisingly hot though. maybe like 150",
+      },
+      {
+        whenStarted: "2020-07-20 13:00:00",
+        whenStopped: "2020-07-20 22:00:00",
+        stoppedWeightOunces: 10.0,
+        notes:
+          "again not full mp, but pretty close. not much mushrooming, but jar gets surprisingly hot though. maybe like 150. Premier-799 worth an attempt",
+      },
+    ],
+    notes: "",
+  },
+  // 61XB Fig Tree Berg 1/2 jar 45% Soy-10 10% Stearic CD-8
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-19 13:00:00",
+        whenStopped: "2020-07-19 17:30:00",
+        stoppedWeightOunces: 11.5,
+        notes: "not full mp. need to try a cd-9 or cd-10 in a future batch",
+      },
+    ],
+    notes: "",
+  },
+  // DYNN Fig Tree Berg 1/2 jar 45% Soy-10 10% Stearic LX-16
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-19 13:00:00",
+        whenStopped: "2020-07-19 17:30:00",
+        stoppedWeightOunces: 11.5,
+        notes: "not full mp. need to try an LX-18 or LX-20 in a future batch",
+      },
+    ],
+    notes: "",
+  },
+  // J26V Fig Tree Berg 1/2 jar 45% Soy-10 10% Stearic HTP-104
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-19 13:00:00",
+        whenStopped: "2020-07-19 17:30:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "not full mp but not far off. need to try an HTP-105 in a future batch",
+      },
+    ],
+    notes: "",
+  },
+  // X5PO Fig Tree Berg 1/2 jar 45% Soy-10 10% Stearic Eco-6
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-19 13:00:00",
+        whenStopped: "2020-07-19 17:30:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "not full mp. need to try an Eco-8 and maybe an eco-10 on a future batch",
+      },
+    ],
+    notes: "",
+  },
+  // Double wick test batch round 1
+  // KPZ9 Fig Tree Berg 1/2 jar 45% Soy-10 10% Stearic Double Eco-1
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-24 16:20:00",
+        whenStopped: "2020-07-24 19:00:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "actually the second burn, but the flames are a little small. on the first burn the flames were pretty large still--so this setup is just causing drowning. ",
+      },
+    ],
+    notes: "",
+  },
+  // E2PY Fig Tree Berg 1/2 jar 45% Soy-10 10% Stearic Double CD-2
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // N2OP Fig Tree Berg 1/2 jar 45% Soy-10 10% Stearic Double CD-3
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // Z9YL Fig Tree Berg 1/2 jar 45% Soy-10 10% Stearic Double P-725
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // LLJN Fig Tree Berg 1/2 jar 45% Soy-10 10% Stearic Double LX-10
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // 45JX Fig Tree Berg 1/2 jar 45% Soy-10 10% Stearic Double HTP-31
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // ProBlend 400 (+ Coco 83 batches)
+  // 8VM5 Fig Tree Berg 1/2 jar 12.5% ProBlend 400 87.5 Coco-83
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-23 17:00:00",
+        whenStopped: "2020-07-24 00:30:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "long burn, but the melt was almost the full jar. way too big of a wick.",
+      },
+    ],
+    notes: "",
+  },
+  // 9JV4 Fig Tree Berg 1/2 jar 12.5% ProBlend 400 87.5 Coco-83
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // QQGJ Fig Tree Berg 1/2 jar 25% ProBlend 400 75 Coco-83
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-23 17:00:00",
+        whenStopped: "2020-07-24 00:30:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "long burn, but the melt was almost the full jar. way too big of a wick.",
+      },
+    ],
+    notes: "",
+  },
+  // MX46 Fig Tree Berg 1/2 jar 25% ProBlend 400 75 Coco-83
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // 761G Fig Tree Berg 1/2 jar 50% ProBlend 400 50% Coco-83
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-23 17:00:00",
+        whenStopped: "2020-07-23 17:30:00",
+        stoppedWeightOunces: 11.5,
+        notes: "wayyy to big of a wick. instant heavy sooting.",
+      },
+    ],
+    notes: "",
+  },
+  // G2GN Fig Tree Berg 1/2 jar 50% ProBlend 400 50% Coco-83
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // P14M Fig Tree Berg 1/2 jar 100% ProBlend 400
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-23 17:00:00",
+        whenStopped: "2020-07-23 17:30:00",
+        stoppedWeightOunces: 11.5,
+        notes: "wayyy to big of a wick. instant heavy sooting.",
+      },
+    ],
+    notes: "",
+  },
+  // 296V Fig Tree Berg 1/2 jar 100% ProBlend 400
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [],
+    notes: "",
+  },
+  // Fig Tree Berg Single Wick test batch 2
+  // 1J89 Fig Tree Berg 1/2 jar P-799
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-24 10:20:00",
+        whenStopped: "2020-07-24 13:10:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "flame too large, plenty of soot coming off. too big--but the 795 seemed to small last time :(",
+      },
+    ],
+    notes: "",
+  },
+  // V12B Fig Tree Berg 1/2 jar HTP-105
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-24 10:20:00",
+        whenStopped: "2020-07-24 17:00:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "close to a full shallow mp but this is a half pour and a super long burn. htp-126 is much better (and probably even a touch small)",
+      },
+      {
+        whenStarted: "2020-07-27 21:00:00",
+        whenStopped: "2020-07-28 02:00:00",
+        stoppedWeightOunces: 10.5,
+        notes:
+          "full mp, only 1/8 inch deep at the largest prob. flame looks great--i just think wick may be a touch small at the top of a full jar. sad because htp-126 is a touch too big.",
+      },
+      {
+        whenStarted: "2020-07-28 13:20:00",
+        whenStopped: "2020-07-29 00:20:00",
+        stoppedWeightOunces: 9.0,
+        notes:
+          "about 1/4 inch mp, has been between shallow and 1/4 inch all day. only 1 inch wax remains. jar not hot, tiny bit of mushrooming, flame steady. not much obvious soot. seems like a pretty good option, but who knows about a full pour.",
+      },
+    ],
+    notes: "",
+  },
+  // KPM9 Fig Tree Berg 1/2 jar HTP-126
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-24 10:20:00",
+        whenStopped: "2020-07-24 20:00:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "extremely long burn, did create a full MP, but never reallly any depth. could a good candidate, but might be a little small.",
+      },
+      {
+        whenStarted: "2020-07-27 21:00:00",
+        whenStopped: "2020-07-28 02:00:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "this is just a little bit too wild of a flame. full 3/4 inch mp at this point, little bit of soot and just too tall prob. jar on the brink of too hot.",
+      },
+    ],
+    notes: "",
+  },
+  // E26Y Fig Tree Berg 1/2 jar LX-18
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-24 10:20:00",
+        whenStopped: "2020-07-24 17:00:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "even with a super long burn at half jar, its MUCH too small. Looks like I might need to try LX-22/LX-24.",
+      },
+    ],
+    notes: "",
+  },
+  // N27P Fig Tree Berg 1/2 jar LX-20
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-24 10:20:00",
+        whenStopped: "2020-07-24 20:00:00",
+        stoppedWeightOunces: 11.5,
+        notes: "extremely long burn, not a full mp--still too small",
+      },
+    ],
+    notes: "",
+  },
+  // Z9KL Fig Tree Berg 1/2 jar Eco-8
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-24 10:20:00",
+        whenStopped: "2020-07-24 17:00:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "even with a super long burn at half jar, its too small. looks like eco-12 is worth a shot.",
+      },
+    ],
+    notes: "",
+  },
+  // LLMN Fig Tree Berg 1/2 jar Eco-10
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-24 10:20:00",
+        whenStopped: "2020-07-24 19:00:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "super long burn, just not quite a full mp. eco-12 is def worth a shot in the next batch",
+      },
+    ],
+    notes: "",
+  },
+  // more test candles, single and double in the cali xl jar
+  // 45QX Fig Tree Berg 1/2 jar test LX-22
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-27 14:00:00",
+        whenStopped: "2020-07-27 21:00:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "full mp, and has been since 2 hrs in, but no depth in the pool. jar not too hot, no soot--really looks great, just wonder if it's getting drowned out slightly. will need to do a bigger jar test.",
+      },
+      {
+        whenStarted: "2020-07-28 13:20:00",
+        whenStopped: "2020-07-29 00:20:00",
+        stoppedWeightOunces: 8.0,
+        notes:
+          "about 1/8 inch mp, which is very nearly all of the wax left. has been at about this level of mp all day. flame always healthy looking and never too big. not really any obvious soot. looks great. dont think it ever got drowned out. great option.",
+      },
+    ],
+    notes: "",
+  },
+  // OP4E Fig Tree Berg 1/2 jar test LX-24
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-27 14:00:00",
+        whenStopped: "2020-07-27 17:45:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "looked the same as the LX-22 for the first 2 hours or so, but the flame is getting a little large and wild after 3 hours. a little soot and jar a little hot. 1/4 inch mp.",
+      },
+      {
+        whenStarted: "2020-07-27 21:00:00",
+        whenStopped: "2020-07-28 02:00:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "looks surpringly good, but the flame is a little bit wild. maybe a touch of soot on the glass, but with only an inch of wax left there is only a clean 1/4 inch pool and the jar is not too hot.",
+      },
+    ],
+    notes: "",
+  },
+  // 8VK5 Fig Tree Berg 1/2 jar test Eco-12
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-27 14:00:00",
+        whenStopped: "2020-07-27 21:00:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "almost full mp, but i think it had a bigger mp after 2 hours. the flame may be muted at this point. i should try an eco-14, but i worry it'll be a torch. ",
+      },
+    ],
+    notes: "",
+  },
+  // 9JK4 Fig Tree Berg 1/2 jar test HTP-1212
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-27 14:00:00",
+        whenStopped: "2020-07-27 15:00:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "huge flame, sooting lots. simply too big, this was a crazy attempt. htp-126 was probably fine.",
+      },
+    ],
+    notes: "",
+  },
+  // QQ8J Fig Tree Berg 1/2 XL Cali jar test LX-10
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-27 14:00:00",
+        whenStopped: "2020-07-27 17:45:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "started out fine, but within an hour the flames were real small. never extinguished itself, but doesn't look good",
+      },
+    ],
+    notes: "",
+  },
+  // MXM6 Fig Tree Berg 1/2 XL Cali jar test Eco-1
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-27 14:00:00",
+        whenStopped: "2020-07-27 21:00:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "looks pretty good even through a long burn. jar got up to 145 at the worst, mp about 1/2 inch+ but i think thats fine given the bottom of jar and length of burn. no soot.",
+      },
+    ],
+    notes: "",
+  },
+  // 768G Fig Tree Berg 1/2 XL Cali jar test CD-3
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-27 14:00:00",
+        whenStopped: "2020-07-27 21:00:00",
+        stoppedWeightOunces: 11.5,
+        notes:
+          "looks pretty good as well. i'm a little worried about the flames being small and will need to do more testing. but i think they are fine. mp 1/2 inch, jar 120s, no soot.",
+      },
+    ],
+    notes: "",
+  },
+  // more single wick tests for ft + berg
+  // G2VN Fig Tree Berg 1/2 jar eco-14
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "dark blueish gray",
+    burns: [
+      {
+        whenStarted: "2020-07-28 13:20:00",
+        whenStopped: "2020-07-29 00:20:00",
+        stoppedWeightOunces: 9.0,
+        notes:
+          "looked pretty great all day. at the bottom there is some hangup on the jar. during the first hour or so the jar got up to nearly 150 at the worst spot where the wick curls toward the jar. looks good, but i prefer both rrds i think. maybe should try eco-16.",
+      },
+    ],
+    notes: "",
+  },
+  // P1PM Fig Tree Berg 1/2 jar RRD-40
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "dark blueish gray",
+    burns: [
+      {
+        whenStarted: "2020-07-28 13:20:00",
+        whenStopped: "2020-07-29 00:20:00",
+        stoppedWeightOunces: 9.0,
+        notes:
+          "about 1/4 inch mp, has been all day. jar never got too hot. weirdly this looks like its a bit stronger than the rrd-47. but both are wonderful and need non-black tests.",
+      },
+    ],
+    notes: "",
+  },
+  // 298V Fig Tree Berg 1/2 jar RRD-47
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "dark blueish gray",
+    burns: [
+      {
+        whenStarted: "2020-07-28 13:20:00",
+        whenStopped: "2020-07-29 00:20:00",
+        stoppedWeightOunces: 9.0,
+        notes:
+          "about 1/4 inch mp, has been all day. jar never got too hot. weirdly this looks like its a bit weaker than the rrd-40. but its wonderful.",
+      },
+    ],
+    notes: "",
+  },
+  // even more single wick tests for ft + berg. bigger cds
+  // YPGQ Fig Tree Berg 1/2 jar cd-14
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-29 15:00:00",
+        whenStopped: "2020-07-30 00:55:00",
+        stoppedWeightOunces: 10.5,
+        notes:
+          "1/4 inch mp, was maybe a bit larger at one point, glass was fairly hot at the start, but became totally fine. bit of soot that probably was only from the first 2 hours. but its okay. maybe a cd-12 will be nicer?",
+      },
+    ],
+    notes: "",
+  },
+  // 5KJB Fig Tree Berg 1/2 jar cd-16
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-29 15:00:00",
+        whenStopped: "2020-07-30 00:55:00",
+        stoppedWeightOunces: 10.5,
+        notes:
+          "1/4 inch mp, was maybe a bit larger at one point, glass was fairly hot at the start, but became totally fine. bit of soot that probably was only from the first 2 hours. but its okay. weirdly it's not much different than the cd-14",
+      },
+    ],
+    notes: "",
+  },
+  // BZVZ Fig Tree Berg 1/2 jar cd-18
+  {
+    completedCandleWeightOunces: "12.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-07-29 15:00:00",
+        whenStopped: "2020-07-30 00:55:00",
+        stoppedWeightOunces: 10.5,
+        notes:
+          "1/2 inch mp, was maybe a bit larger at one point, glass was fairly hot at the start, but became totally fine. bit of soot that probably was only from the first 2 hours. but its okay. weirdly it's not much different than the cd-14/and cd-16.",
+      },
+    ],
+    notes: "",
+  },
+  // Oxford jar double wick tests
+  // 61OB Fig Tree Berg 1/2 Oxford jar test Double CD-3
+  {
+    completedCandleWeightOunces: "18.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-04 10:45:00",
+        whenStopped: "2020-08-04 12:45:00",
+        stoppedWeightOunces: 18.0,
+        notes:
+          "1/2 inch mp, jar pretty hot at 150+F. flames look pretty great still.",
+      },
+      {
+        whenStarted: "2020-08-04 15:45:00",
+        whenStopped: "2020-08-04 23:25:00",
+        stoppedWeightOunces: 16.4,
+        notes:
+          "looks great, slightly more than 1/2 inch mp, but jar always in the 140 range it seems. this might be perfect.",
+      },
+      {
+        whenStarted: "2020-08-05 10:30:00",
+        whenStopped: "2020-08-05 17:30:00",
+        stoppedWeightOunces: 14.9,
+        finished: true,
+        notes:
+          "jar ended up getting pretty hot with about 1 inch remaining. 160 range. mp at something like 3/4 of an inch at the most. wick self extinguished.",
+      },
+    ],
+    notes: "",
+  },
+  // DYGN Fig Tree Berg 1/2 Oxford jar test Double Eco-1
+  {
+    completedCandleWeightOunces: "18.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-04 10:45:00",
+        whenStopped: "2020-08-04 12:45:00",
+        stoppedWeightOunces: 18.0,
+        notes:
+          "1/2 inch mp, jar got pretty hot but tolerable i think. flames look pretty good still.",
+      },
+      {
+        whenStarted: "2020-08-04 15:45:00",
+        whenStopped: "2020-08-04 23:25:00",
+        stoppedWeightOunces: 16.82,
+        notes:
+          "nearly a full inch mp--the rest that remains. flames a bit big for the jar size, and the jar def got too hot at some points--170ish.",
+      },
+      {
+        whenStarted: "2020-08-05 10:30:00",
+        whenStopped: "2020-08-05 17:30:00",
+        stoppedWeightOunces: 14.9,
+        finished: true,
+        notes:
+          "nearly a full inch mp at times, jar up near 160 degrees. self extinguished.",
+      },
+    ],
+    notes: "",
+  },
+  // 5KJ9 Fig Tree Berg 1/2 Oxford jar test Double HTP-31
+  {
+    completedCandleWeightOunces: "18.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-04 10:45:00",
+        whenStopped: "2020-08-04 12:45:00",
+        stoppedWeightOunces: 18.0,
+        notes:
+          "jar never too hot, 1/3 inch mp. but flames seem to be getting continuously smaller and are too muted for my liking already.",
+      },
+      {
+        whenStarted: "2020-08-04 15:45:00",
+        whenStopped: "2020-08-04 18:00:00",
+        stoppedWeightOunces: 17.54,
+        notes: "flames totally drowned and extinguished themsevles",
+      },
+    ],
+    notes: "",
+  },
+  // BZVV Fig Tree Berg 1/2 Oxford jar test Double LX-12
+  {
+    completedCandleWeightOunces: "18.75",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-04 10:45:00",
+        whenStopped: "2020-08-04 12:45:00",
+        stoppedWeightOunces: 18.0,
+        notes:
+          "jar never too hot, 1/3 inch mp. but flames seem to be getting continuously smaller and are too muted for my liking already.",
+      },
+      {
+        whenStarted: "2020-08-04 15:45:00",
+        whenStopped: "2020-08-04 23:25:00",
+        stoppedWeightOunces: 16.82,
+        notes:
+          "looks okay. about 1/2 inch mp, and jar not too hot, but the flames are a touch muted. maybe a good candidate for some FOs where CD-3 is too much.",
+      },
+      {
+        whenStarted: "2020-08-05 10:30:00",
+        whenStopped: "2020-08-05 17:30:00",
+        stoppedWeightOunces: 14.9,
+        finished: true,
+        notes: "",
+      },
+    ],
+    notes: "",
+  },
+  // Batch 172 more oxford tests
+  // X5O2 Fig Tree Berg Full Oxford jar test Double CD-3
+  {
+    completedCandleWeightOunces: "24.30",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-06 10:45:00",
+        whenStopped: "2020-08-06 15:20:00",
+        stoppedWeightOunces: 23.7,
+        notes:
+          "not quite a full mp, and the flames are small but probably good enough. one in particular might have been trimmed a little shorter or something. definitely not bad for a 1st burn though.",
+      },
+      {
+        whenStarted: "2020-08-07 15:30:00",
+        whenStopped: "2020-08-07 18:30:00",
+        stoppedWeightOunces: 23.03,
+        notes:
+          "not a full mp--pelnty of hangup atm, but flames look great. im sure the wax will catch up with longer burns or later burns.",
+      },
+      {
+        whenStarted: "2020-08-09 14:30:00",
+        whenStopped: "2020-08-10 00:56:00",
+        stoppedWeightOunces: 20.64,
+        notes:
+          "1/8 inch mp--took many hours to get to a full melp, but it was always sort of close. i think this candle should be poured a little lower to 9oz total and this would be fine for a second burn or so.",
+      },
+      {
+        whenStarted: "2020-08-10 15:25:00",
+        whenStopped: "2020-08-10 18:15:00",
+        stoppedWeightOunces: 20.04,
+        notes: "nearly 1/4 inch mp, flames look good, jar not too hot.",
+      },
+      {
+        whenStarted: "2020-08-11 12:00:00",
+        whenStopped: "2020-08-11 15:50:00",
+        stoppedWeightOunces: 18.87,
+        notes:
+          "1/2 inch mp, 150 degrees at the hottest, flames look fine--maybe a touch big, but its been a long burn.",
+      },
+      {
+        whenStarted: "2020-08-12 12:00:00",
+        whenStopped: "2020-08-13 01:50:00",
+        stoppedWeightOunces: 15.84,
+        notes:
+          "1/2 inch wax remaining, all melted, got up to a 1 inch mp at one point and 164 degrees at the worst. ",
+      },
+    ],
+  },
+  // 1J5Z Fig Tree Berg 1/2 Oxford jar test Double CD-2
+  {
+    completedCandleWeightOunces: "19.30",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-06 10:45:00",
+        whenStopped: "2020-08-06 15:20:00",
+        stoppedWeightOunces: 18.45,
+        notes:
+          "1/4 inch mp, but flames are starting drown out. these look a little smaller than the htp-41 and the eco-0.75 even, and i think this too small.",
+      },
+      {
+        whenStarted: "2020-08-07 15:30:00",
+        whenStopped: "2020-08-07 18:30:00",
+        stoppedWeightOunces: 18.02,
+        notes:
+          "1/4+ inch mp, flames look great--little bit bigger than the P-735. might be okay though.",
+      },
+      {
+        whenStarted: "2020-08-09 14:30:00",
+        whenStopped: "2020-08-09 21:45:00",
+        stoppedWeightOunces: 16.68,
+        notes:
+          "1/4 inch mp, flames pretty small throughout most of the burn. i think they are too dim.",
+      },
+    ],
+  },
+  // V1O7 Fig Tree Berg 1/2 Oxford jar test Double HTP-41
+  {
+    completedCandleWeightOunces: "19.30",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-06 10:45:00",
+        whenStopped: "2020-08-06 15:20:00",
+        stoppedWeightOunces: 18.13,
+        notes:
+          "1/4 inch mp, but wicks quickly started drowning. i bet they would extinguish themselves with a slightly longer burn.",
+      },
+    ],
+  },
+  // KP2E Fig Tree Berg 1/2 Oxford jar test Double P-735
+  {
+    completedCandleWeightOunces: "19.30",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-06 10:45:00",
+        whenStopped: "2020-08-06 15:20:00",
+        stoppedWeightOunces: 18.45,
+        notes:
+          "1/4 inch mp, and flames are small but i think they look healthy enough. this has potential to be a useful double wick.",
+      },
+      {
+        whenStarted: "2020-08-07 15:30:00",
+        whenStopped: "2020-08-07 18:30:00",
+        stoppedWeightOunces: 17.88,
+        notes:
+          "1/4 inch mp, but flames pretty small--tinnnny bit bigger than the eco-0.75. might be okay though. maybe a P-740 would be worth trying.",
+      },
+      {
+        whenStarted: "2020-08-09 14:30:00",
+        whenStopped: "2020-08-09 21:45:00",
+        stoppedWeightOunces: 16.9,
+        notes:
+          "1/4 inch mp, flames a little small throughout most of the burn, but again--they're probably okay.",
+      },
+      {
+        whenStarted: "2020-08-12 16:30:00",
+        whenStopped: "2020-08-13 01:50:00",
+        stoppedWeightOunces: 15.38,
+        notes:
+          "1/4 inch wax reamins, all melted. got up to 1/2 inch mp. jar never above 141 it seems. might be able to handle a slightly larger wick to compensate for the initial burns? P-740 or P-745?",
+      },
+    ],
+  },
+  // E2O9 Fig Tree Berg 1/2 Oxford jar test Double E-0.75
+  {
+    completedCandleWeightOunces: "19.30",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-06 10:45:00",
+        whenStopped: "2020-08-06 15:20:00",
+        stoppedWeightOunces: 18.45,
+        notes:
+          "quickly developed a 1/3 inch mp, and got pretty hot, but after an hour or so the flames started the drown out. they look only okay now.",
+      },
+      {
+        whenStarted: "2020-08-07 15:30:00",
+        whenStopped: "2020-08-07 18:30:00",
+        stoppedWeightOunces: 18.02,
+        notes:
+          "almost 1/4 inch mp, but flames pretty small. might be okay though.",
+      },
+      {
+        whenStarted: "2020-08-09 14:30:00",
+        whenStopped: "2020-08-09 21:45:00",
+        stoppedWeightOunces: 16.61,
+        notes:
+          "1/2 inch mp+ throughout the whole burn, flames look great, and jar never got too hot. looks great with less than 1 inch left.",
+      },
+    ],
+  },
+  // Glassnow Lexington and Votive first testers
+  // LLP5 Fig Tree Berg Lexington Eco-1
+  {
+    completedCandleWeightOunces: "19.30",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-17 16:30:00",
+        whenStopped: "2020-08-17 20:45:00",
+        stoppedWeightOunces: 16.61,
+        notes:
+          "mp only as deep as 1/4 inch, and the wicks quickly got smaller. maybe a bigger wick would help, but also curious to see how this jar would do with 50% full",
+      },
+      {
+        whenStarted: "2020-08-18 11:00:00",
+        whenStopped: "2020-08-18 15:00:00",
+        stoppedWeightOunces: 16.61,
+        notes:
+          "1/8 inch mp, flames look okay but a little small. i think the pool should be bigger down here so maybe a bigger wick",
+      },
+    ],
+  },
+  // 45D2 Fig Tree Berg Votive Premier 780
+  {
+    completedCandleWeightOunces: "19.30",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-17 16:30:00",
+        whenStopped: "2020-08-17 20:45:00",
+        stoppedWeightOunces: 16.61,
+        notes:
+          "1/2 inch remaining, all melted. flame a bit large but expected at the bottom. little bit of mushrooming. i think this is perfect for the bottom of the jar here. need to try a more full candle. this or maybe a 777?",
+      },
+      {
+        whenStarted: "2020-08-18 11:00:00",
+        whenStopped: "2020-08-18 15:00:00",
+        stoppedWeightOunces: 16.61,
+        notes:
+          "1/4 wax remaining, all melted. flame a bit large and wild but no obvious soot. jar warm but totally fine. might be a perfect wick or might be a touch too large. need to try 775/777 and more full jars.",
+      },
+    ],
+  },
+  // Glassnow testers round 2
+  // 8V9Y Fig Tree Berg Lexington CD-4s
+  {
+    completedCandleWeightOunces: "19.30",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-19 12:10:00",
+        whenStopped: "2020-08-19 17:10:00",
+        stoppedWeightOunces: 16.61,
+        notes:
+          "looked great for the first couple of hours, but at about 1.5 inches left in the jar the wicks started to diminish. still looks okay, but id expect more heat at the bottom. will have to try cd-5 or other types.",
+      },
+      {
+        whenStarted: "2020-08-20 21:00:00",
+        whenStopped: "2020-08-21 01:10:00",
+        stoppedWeightOunces: 16.61,
+        notes:
+          "1/4 to 1/2 inch mp, flames look great this time, only about 1/4-1/2 inch remains. this might actually be fine. didnt trim the wicks which might have helped",
+      },
+      {
+        whenStarted: "2020-08-21 21:00:00",
+        whenStopped: "2020-08-22 03:30:00",
+        stoppedWeightOunces: 16.61,
+        notes:
+          "flames looks great, jar very warm but fine. very little wax remains but i need to sleep",
+      },
+      {
+        whenStarted: "2020-08-22 14:30:00",
+        whenStopped: "2020-08-22 18:30:00",
+        stoppedWeightOunces: 16.61,
+        notes:
+          "burned through literally all of the wax. one wick died before the other, but the jar never got hot and flames were fine all the way through.  almost no soot at all with the paper towel test.",
+      },
+    ],
+  },
+  // 9JLP Fig Tree Berg Votive P-777
+  {
+    completedCandleWeightOunces: "19.30",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-19 12:10:00",
+        whenStopped: "2020-08-19 17:10:00",
+        stoppedWeightOunces: 16.61,
+        notes:
+          "almost 1/4 inch mp, looks pretty wonderful. jar warm but never too hot.",
+      },
+      {
+        whenStarted: "2020-08-20 21:00:00",
+        whenStopped: "2020-08-21 01:10:00",
+        stoppedWeightOunces: 16.61,
+        notes:
+          "almost 1/4 inch mp, flame looks great, jar not too hot. about 1 inch of wax remains.",
+      },
+      {
+        whenStarted: "2020-08-21 21:00:00",
+        whenStopped: "2020-08-22 02:00:00",
+        stoppedWeightOunces: 16.61,
+        notes:
+          "extinguished itself with 1/4 inch remaining. never got too hot, very little soot on the glass only noticeable on finger. might be perfect. maybe 775 worth a shot.",
+      },
+    ],
+  },
+  // QQ47 Fig Tree Berg Votive Eco-6
+  {
+    completedCandleWeightOunces: "19.30",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-19 12:10:00",
+        whenStopped: "2020-08-19 17:10:00",
+        stoppedWeightOunces: 16.61,
+        notes: "not quite a full mp after a 5 hr burn. need to try eco-8.",
+      },
+      {
+        whenStarted: "2020-08-20 21:00:00",
+        whenStopped: "2020-08-21 01:10:00",
+        stoppedWeightOunces: 16.61,
+        notes: "nearly full mp, flame looks great, but need bigger wick.",
+      },
+      {
+        whenStarted: "2020-08-21 21:00:00",
+        whenStopped: "2020-08-22 03:30:00",
+        stoppedWeightOunces: 16.61,
+        notes: "not quite full mp",
+      },
+    ],
+  },
+  // MXOL Fig Tree Berg Votive LX-16
+  {
+    completedCandleWeightOunces: "19.30",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-19 12:10:00",
+        whenStopped: "2020-08-19 17:10:00",
+        stoppedWeightOunces: 16.61,
+        notes:
+          "not quite a full mp after the 5 hr burn. need to try lx-18 and lx-20 probably.",
+      },
+      {
+        whenStarted: "2020-08-20 21:00:00",
+        whenStopped: "2020-08-21 01:10:00",
+        stoppedWeightOunces: 16.61,
+        notes: "nearly full mp, flame looks great, need bigger wick.",
+      },
+      {
+        whenStarted: "2020-08-21 21:00:00",
+        whenStopped: "2020-08-22 03:30:00",
+        stoppedWeightOunces: 16.61,
+        notes: "not quite full mp",
+      },
+    ],
+  },
+  // 29QX ftb lexington full jar cd-4
+  {
+    completedCandleWeightOunces: "30.70",
+    volumeOverflowPercent: "95",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-28 21:00:00",
+        whenStopped: "2020-08-29 04:10:00",
+        stoppedWeightOunces: 29.17,
+        notes:
+          "not quite full mp, flames a little bit smaller than i'd hope for.",
+      },
+      {
+        whenStarted: "2020-08-29 14:00:00",
+        whenStopped: "2020-08-29 18:30:00",
+        stoppedWeightOunces: 28.47,
+        notes:
+          "nearly a full shallow mp. flames look fine. would love if it was a bit hotter, but cd-5s might be too much.",
+      },
+      {
+        whenStarted: "2020-08-31 12:45:00",
+        whenStopped: "2020-08-31 19:55:00",
+        stoppedWeightOunces: 27.27,
+        notes: "not quite a full mp still, flames look fine but maybe a little smaller than id expect.",
+      },
+    ],
+  },
+  // YPYV ftb votive 775
+  {
+    completedCandleWeightOunces: "17.35",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-28 21:00:00",
+        whenStopped: "2020-08-29 04:10:00",
+        stoppedWeightOunces: 16.5,
+        notes: "1/8 inch mp, looks fine. but not super hot.",
+      },
+      {
+        whenStarted: "2020-08-29 14:00:00",
+        whenStopped: "2020-08-29 18:30:00",
+        stoppedWeightOunces: 15.56,
+        notes: "1/8 inch mp, looks fine. but the 777 was probably better.",
+      },
+      {
+        whenStarted: "2020-08-31 12:45:00",
+        whenStopped: "2020-08-31 19:55:00",
+        stoppedWeightOunces: 14.64,
+        notes: "never quite a full mp, slightly prefer the 777 i think.",
+      },
+    ],
+  },
+  // 5KQ9 ftb votive lx-18
+  {
+    completedCandleWeightOunces: "19.54",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-28 21:00:00",
+        whenStopped: "2020-08-29 04:10:00",
+        stoppedWeightOunces: 15.5,
+        notes:
+          "not quite full mp, but flame looks great. i expect an lx-20 to be a better choice.",
+      },
+      {
+        whenStarted: "2020-08-29 14:00:00",
+        whenStopped: "2020-08-29 18:30:00",
+        stoppedWeightOunces: 14.78,
+        notes:
+          "about 1/8 inch mp, looks fine, but maybe should be hotter for down here. I'm thinking lx-20 would be worth trying.",
+      },
+      {
+        whenStarted: "2020-08-31 12:45:00",
+        whenStopped: "2020-08-31 19:55:00",
+        stoppedWeightOunces: 13.83,
+        notes: "never quite a full mp, but close. flame looks great, but maybe needs something bigger.",
+      },
+    ],
+  },
+  // BZPV APM cd-4 lexington half jar
+  {
+    completedCandleWeightOunces: "26.00",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-31 12:45:00",
+        whenStopped: "2020-08-31 19:55:00",
+        stoppedWeightOunces: 23.7,
+        notes:
+          "1/8 to 1/4 inch mp, has been about this depth the whole time. jar never too hot and flames look pretty great. this is about perfect it seems.",
+      },
+    ],
+  },
+  // 61YY APM p-775 votive half jar
+  {
+    completedCandleWeightOunces: "16.54",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-31 12:45:00",
+        whenStopped: "2020-08-31 19:55:00",
+        stoppedWeightOunces: 15.49,
+        notes:
+          "hard to tell how deep the mp is in the electroplated jar. but looks to be something like 1/2+ inch. flame looks great, very little mushrooming, jar at one point up to 155, but cooled down on its own.",
+      },
+    ],
+  },
+  // DYMJ APM lx-18 votive half jar
+  {
+    completedCandleWeightOunces: "16.54",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-08-31 12:45:00",
+        whenStopped: "2020-08-31 19:55:00",
+        stoppedWeightOunces: 15.84,
+        notes:
+          "just about a full shallow melt pool, but a bit of soot on the top of the glass.",
+      },
+    ],
   },
 ];
