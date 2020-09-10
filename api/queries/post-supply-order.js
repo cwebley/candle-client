@@ -40,7 +40,16 @@ module.exports = function postSupplyOrder(db, data, cb) {
 
       async.parallel(
         [
-          (done) => insertFragranceOils(db, fragranceOils, orderId, done),
+          (done) =>
+            insertFragranceOils(
+              db,
+              {
+                fragranceData: fragranceOils,
+                orderId,
+                supplierId: data.supplierId,
+              },
+              done
+            ),
           (done) => insertWaxes(db, waxes, orderId, done),
           (done) => insertAdditives(db, additives, orderId, done),
           (done) => insertBoxes(db, boxes, orderId, done),
@@ -75,25 +84,20 @@ module.exports = function postSupplyOrder(db, data, cb) {
   });
 };
 
-function addToSupplyOrderTable(db, data, cb) {
-  const sql = `
-    INSERT INTO supply_orders
-      (source, item_count, subtotal_cost, taxes_and_fees,
-        shipping_cost, total_cost, open_date, notes)
-    VALUES
-      (?, ?, ?, ?, ?, ?, ?, ?)
-  `;
+function insertSupplierReference(db, data, cb) {
+  if (data.supplierId) {
+    console.log("SUPPLIER ID ALREADY FOUND: ", data.supplierId);
+    // do nothing if we already have a supplierId
+    return cb();
+  }
 
-  const params = [
-    data.source,
-    data.items.length,
-    data.subtotalCost,
-    data.taxesAndFees,
-    data.shippingCost,
-    data.totalCost,
-    data.openDate,
-    data.notes,
-  ];
+  const sql = `
+    INSERT INTO supplier_reference
+      (name)
+    VALUES
+      (?)
+  `;
+  const params = [data.supplierName];
 
   db.query(sql, params, (err, result) => {
     if (err) {
@@ -104,49 +108,196 @@ function addToSupplyOrderTable(db, data, cb) {
       return rollback(db, err, cb);
     }
 
-    // now insert the hashId
-    const hashSql = `UPDATE supply_orders SET hash_id = ? WHERE id = ?`;
-    const hashParams = [
-      hashConfig.supplyOrders.encode(result.insertId),
-      result.insertId,
-    ];
-
-    db.query(hashSql, hashParams, (err, result) => {
-      if (err) {
-        console.error(err, {
-          sql: hashSql,
-          params: hashParams,
-        });
-        return rollback(db, err, cb);
-      }
-    });
     return cb(err, result);
   });
 }
 
-function insertFragranceOils(db, data, orderId, cb) {
+function addToSupplyOrderTable(db, data, cb) {
+  insertSupplierReference(db, data, (err, supplierRefResult) => {
+    console.log("supplier ref result: ", supplierRefResult);
+    if (err) {
+      return cb(err);
+    }
+
+    if (supplierRefResult && supplierRefResult.lastInsertId) {
+      data.supplierId = supplierRefResult.lastInsertId;
+    }
+
+    const sql = `
+    INSERT INTO supply_orders
+      (supplier_id, item_count, subtotal_cost, taxes_and_fees,
+        shipping_cost, total_cost, open_date, notes)
+    VALUES
+      (?, ?, ?, ?, ?, ?, ?, ?)
+  `;
+
+    const params = [
+      data.supplierId,
+      data.items.length,
+      data.subtotalCost,
+      data.taxesAndFees,
+      data.shippingCost,
+      data.totalCost,
+      data.openDate,
+      data.notes,
+    ];
+
+    db.query(sql, params, (err, result) => {
+      if (err) {
+        console.error(err, {
+          sql,
+          params,
+        });
+        return rollback(db, err, cb);
+      }
+
+      // now insert the hashId
+      const hashSql = `UPDATE supply_orders SET hash_id = ? WHERE id = ?`;
+      const hashParams = [
+        hashConfig.supplyOrders.encode(result.insertId),
+        result.insertId,
+      ];
+
+      db.query(hashSql, hashParams, (err, result) => {
+        if (err) {
+          console.error(err, {
+            sql: hashSql,
+            params: hashParams,
+          });
+          return rollback(db, err, cb);
+        }
+      });
+      return cb(err, result);
+    });
+  });
+}
+
+function insertFragranceOils(
+  db,
+  { fragranceData: data, orderId, supplierId },
+  cb
+) {
   if (!data.length) {
     return cb();
   }
 
-  const valueMarkers = data.map((d) => `(?, ?, ?, ?, ?, ?, ?)`);
+  // all the fragrances without a referenceId are new
+  const newFragrances = data.filter((d) => !data.referenceId);
+
+  // fragrances with a referenceId already have their basic details indexed
+  const existingFragrances = data.filter((d) => !!data.referenceId);
+
+  insertFragranceReferences(
+    db,
+    { data: newFragrances, supplierId },
+    (err, fragranceRefResult) => {
+      console.log("fragrance ref result: ", fragranceRefResult);
+      if (err) {
+        return cb(err);
+      }
+
+      // the insertId for each of the new fragranceReferences is
+      // also the `referenceId` for the fragrances
+      for (let i = 0; i < fragranceRefResult.affectedRows; i++) {
+        newFragrances[i].referenceId = fragranceRefResult.insertId + i;
+      }
+
+      console.log("new frags before being added: ", newFragrances);
+
+      const rowData = newFragrances
+        .concat(existingFragrances)
+        .map((d) => [
+          d.referenceId,
+          d.weightOunces,
+          d.remaining,
+          d.price,
+          d.shareOfShippingPercent,
+          orderId,
+          d.notes,
+        ]);
+
+      params = [rowData];
+
+      const sql = `
+      INSERT INTO fragrance_oils
+        (reference_id, weight_ounces, remaining,
+          price, share_of_shipping_percent, order_id, notes)
+      VALUES ?
+    `;
+
+      db.query(sql, [rowData], (err, result) => {
+        if (err) {
+          console.error(err, {
+            sql,
+            params,
+          });
+          return rollback(db, err, cb);
+        }
+
+        // now insert the hashIds
+        let rowIndices = [];
+        for (let i = 0; i < result.affectedRows; i++) {
+          rowIndices.push(result.insertId + i);
+        }
+
+        const updateFuncs = rowIndices.map((rowIndex, i) => {
+          return (done) => {
+            const sql = `UPDATE fragrance_oils SET hash_id = ? WHERE id = ?`;
+            const params = [
+              hashConfig.fragranceOils.encode(rowIndex),
+              rowIndex,
+            ];
+            db.query(sql, params, (err, result) => {
+              if (err) {
+                console.error(err, {
+                  sql,
+                  params,
+                });
+              }
+              done(err, result);
+            });
+          };
+        });
+        async.parallel(updateFuncs, (err, results) => {
+          if (err) {
+            return rollback(db, err, cb);
+          }
+          cb(err, results);
+        });
+      });
+    }
+  );
+}
+
+function insertFragranceReferences(db, { data, supplierId }, cb) {
+  if (!data.length) {
+    return cb();
+  }
+
   const rowData = data.map((d) => [
     d.name,
     slug(d.name, { lower: true }),
-    d.weightOunces,
-    d.remaining,
-    d.price,
-    d.shareOfShippingPercent,
-    orderId,
+    d.categoryId,
+    supplierId,
+    d.productUrl,
+    d.msdsUrl,
+    d.ifraUrl,
+    d.allerginUrl,
+    d.flashpointTemperatureFahrenheit,
+    d.specificGravity,
+    d.vanillinPercentage,
+    d.ethylVanillinPercentage,
     d.notes,
   ]);
 
   params = [rowData];
 
   const sql = `
-      INSERT INTO fragrance_oils
-        (name, slug, weight_ounces, remaining,
-          price, share_of_shipping_percent, order_id, notes)
+      INSERT INTO fragrance_reference
+        (name, slug, category_id, supplier_id, product_url,
+          msds_url, ifra_url, allergin_url, 
+          flashpoint_temperature_fahrenheit, specific_gravity,
+          vanillin_percentage, ethyl_vanillin_percentage, notes)
       VALUES ?
     `;
 
@@ -158,38 +309,7 @@ function insertFragranceOils(db, data, orderId, cb) {
       });
       return rollback(db, err, cb);
     }
-
-    // now insert the hashIds
-    let rowIndices = [];
-    for (let i = 0; i < result.affectedRows; i++) {
-      rowIndices.push(result.insertId + i);
-    }
-
-    const updateFuncs = rowIndices.map((rowIndex, i) => {
-      return (done) => {
-        const sql = `UPDATE fragrance_oils SET hash_id = ?, category_id = (SELECT id from fragrance_oil_categories WHERE slug = ?) WHERE id = ?`;
-        const params = [
-          hashConfig.fragranceOils.encode(rowIndex),
-          data[i].category,
-          rowIndex,
-        ];
-        db.query(sql, params, (err, result) => {
-          if (err) {
-            console.error(err, {
-              sql,
-              params,
-            });
-          }
-          done(err, result);
-        });
-      };
-    });
-    async.parallel(updateFuncs, (err, results) => {
-      if (err) {
-        return rollback(db, err, cb);
-      }
-      cb(err, results);
-    });
+    return cb(err, result);
   });
 }
 

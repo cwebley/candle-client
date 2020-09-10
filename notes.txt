@@ -581,6 +581,12 @@ compare
   sea minerals
   river rock
 
+  cs frasir fir
+  cs frosted juniper
+  cs blue spruce
+  cs one more
+
+
 cardamom star anise vetiver
 
 wick test very vanilla votive jar
@@ -592,13 +598,49 @@ rrd-29
 cd-6
 cdn-6
 
+votive round 2:
+p-767 --seems good
+p-770 --same as above 
+lx-20 --too hot, sooty
+htp-93  --too small
+eco-4 --too hot, sooty at the bottom
+rrd-34 --good, but not self trimming
+cd-7 -- seems fine, surprisingly not that hot
+cdn-8 --too hot
+
 vv lexington
-cd-4
+cd-4 --Good, but pretty hot at the bottom
 cdn-4
 p-730
-lx-12
+lx-12 --GREAT
 eco-1
 htp-31
+
+lexington round 2
+htp-41 --drowned
+htp-52 --drowned
+eco-0.75 --seems good
+p-740 --seems good, jar at sub 150 at the bottom.
+p-745 --seems good, jar at 150+ at the bottom though.
+cdn-6 --too hot
+cd-3 --seems good
+
+full testers round:
+  Lexington
+    LX-12
+    CD-3
+    CD-4
+    Eco-0.75
+    P-740
+    P-745
+
+    htp-62 small pour
+
+  Heavy votive
+    P-770
+
+    
+
 
 vanillin
 ethyl vanillin
@@ -608,10 +650,91 @@ coumarin
 
 flashpoint
 density!
-product link
-msds link
-ifra link
-allergin doc link
+  product link
+  msds link
+  ifra link
+  allergin doc link
 pthalate free
 fragrance notes
 viscocity? is that measured anywhere?
+
+new-fragrance?
+  fragrance_id
+  adds all that stuff. the urls and the density etc.
+  fragrance_oil
+  fragrance_index
+  
+/new-wax
+  adds all that stuff. the sds and whatever else is added later
+
+/new-additive
+  adds all that stuff. the sds and whatever else is added later
+
+
+fragrance_reference
+  id
+  category
+  urls
+  density and stuff
+
+fragrance_oils
+  id
+  hash_id
+  fragrance_reference_id
+
+wax_reference
+  id
+  type
+  msds_url
+  etc
+
+waxes
+  id
+  hash_id
+  wax_reference_id
+
+## new-order form
+  checkbox for existing fragrance?
+    fragrance_reference_id,
+    weight,
+    remaining,
+    price,
+    share of shipping,
+    notes
+  non-existing?
+    name
+    category
+    all the links and densities and stuff
+
+also additive
+
+
+
+
+
+
+  
+  
+
+candle label requirements:
+https://armatagecandlecompany.com/blog/the-candle-labels-requirements-guide/?fbclid=IwAR1CyYfv6Dhng03oEcg-XX54SkYZRcUlm3ZVDjwkOc5AWWpFRqarxBO-BTk
+
+
+App Todo
+  add jar fill percentage to each individual candle in addition to the overall default. so you can fill one tester all the way and others not.
+
+  handle wickless testers somehow
+    allow user to decrement wick count manually
+    allow different burns to have different wicks if its not anchored
+
+  log burns for multiple candles on one page
+    mark all the start times at the same time if you want
+    mark all the end times at the same time if you want
+
+paint for jars:
+Plaid craft paint multi surface
+paint the outside of the jar
+they are not flammable.. you can heat set in the oven, or they can air set for 21 days and are permanent and dishwasher safe.
+
+cool gold tins, 8oz 3.25 inch diameter:
+https://www.heartscrafts.com/shop/containers/gold-candle-tin/

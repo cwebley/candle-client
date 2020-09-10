@@ -271,16 +271,29 @@ function NewBatch({ history, enqueueSnackbar }) {
     const name = e.target.name;
     const value = e.target.value;
     const checked = e.target.checked;
+    debugger;
 
     setNewBatchItemValues((newBatchItemValues) => {
-      let formattedValues = newBatchItemValues;
+      // separate the combineId so we can remove the value if `type` is changed
+      const { combineId, ...formattedValues } = newBatchItemValues;
       if (name === "finished") {
         return {
           ...formattedValues,
+          combineId,
           [name]: checked,
         };
       }
 
+      if (name !== "type") {
+        return {
+          ...formattedValues,
+          combineId,
+          [name]: value,
+        };
+      }
+
+      // if the type is changing, make sure to clear the combineId
+      // note: the combineId will be re-added on a new increment in the editBatchItem method
       return {
         ...formattedValues,
         [name]: value,

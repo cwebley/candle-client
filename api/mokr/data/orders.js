@@ -24,7 +24,7 @@ module.exports = [
       },
       {
         type: "wax",
-        category: "earthy",
+        categoryId: 1,
         name: "Golden Brands 464 Soy Wax",
         material: "soy",
         weightPounds: "10",
@@ -198,7 +198,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Antique Sandalwood",
         weightOunces: "1",
         remaining: "0.7",
@@ -207,7 +207,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Black Currant Tea",
         weightOunces: "1",
         remaining: "0.2",
@@ -216,7 +216,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Egyptian Amber",
         weightOunces: "1",
         remaining: "0",
@@ -225,7 +225,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Very Vanilla",
         weightOunces: "1",
         remaining: "0.5",
@@ -234,7 +234,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Caramelized Pralines",
         weightOunces: "1",
         remaining: "1",
@@ -243,7 +243,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Fraser Fir",
         weightOunces: "1",
         remaining: "0",
@@ -252,7 +252,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Apples and Maple Bourbon",
         weightOunces: "1",
         remaining: "0.5",
@@ -261,7 +261,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Cinnamon Chai",
         weightOunces: "1",
         remaining: "0.5",
@@ -270,7 +270,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Garden Mint",
         weightOunces: "1",
         remaining: "0.5",
@@ -279,7 +279,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Frankincense and Myrrh",
         weightOunces: "1",
         remaining: "0",
@@ -289,7 +289,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Honeysuckle Jasmine",
         weightOunces: "0.5",
         remaining: "0",
@@ -378,7 +378,7 @@ module.exports = [
         notes: "Part of an 8 piece Dye Block Sample Pack",
       },
     ],
-    source: "Candle Science",
+    supplierName: "CandleScience",
     subtotalCost: "103.44",
     shippingCost: "33.71",
     taxesAndFees: "0",
@@ -389,7 +389,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Frankincense and Myrrh",
         weightOunces: "4",
         remaining: "2",
@@ -398,7 +398,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Coriander and Tonka",
         weightOunces: "1",
         remaining: "0",
@@ -407,7 +407,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Grapefruit and Mint",
         weightOunces: "1",
         remaining: "1",
@@ -416,7 +416,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Rain Water",
         weightOunces: "1",
         remaining: "0.5",
@@ -425,7 +425,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Sea Salt and Orchid",
         weightOunces: "1",
         remaining: "0",
@@ -435,7 +435,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Lavender",
         weightOunces: "1",
         remaining: "0.1",
@@ -443,7 +443,8 @@ module.exports = [
         shareOfShippingPercent: "12",
       },
     ],
-    source: "Candle Science",
+    supplierName: "CandleScience",
+    supplierId: 1,
     subtotalCost: "20.55",
     shippingCost: "10.65",
     taxesAndFees: "0",
@@ -598,7 +599,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Sandalwood",
         weightOunces: "1",
         remaining: "0.4",
@@ -607,7 +608,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Coriander and Tonka",
         weightOunces: "4",
         remaining: "4",
@@ -616,7 +617,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Tomato Leaf",
         weightOunces: "1",
         remaining: "0",
@@ -625,7 +626,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Blue Spruce",
         weightOunces: "1",
         remaining: "0",
@@ -646,7 +647,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Cedarwood Vanilla",
         weightOunces: "1",
         remaining: "1",
@@ -655,7 +656,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Fireside",
         weightOunces: "1",
         remaining: "0",
@@ -664,7 +665,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Hazelnut Coffee",
         weightOunces: "1",
         remaining: "1",
@@ -673,7 +674,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Orange Blossom",
         weightOunces: "1",
         remaining: "0.6",
@@ -682,7 +683,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Cool Citrus Basil",
         weightOunces: "1",
         remaining: "1",
@@ -691,7 +692,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Peppermint and Eucalyptus",
         weightOunces: "1",
         remaining: "1",
@@ -700,7 +701,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Vetiver",
         weightOunces: "1",
         remaining: "0.6",
@@ -709,7 +710,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Red Ginger Saffron",
         weightOunces: "1",
         remaining: "0",
@@ -718,7 +719,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Himalayan Bamboo",
         weightOunces: "1",
         remaining: "0.7",
@@ -727,7 +728,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Oakmoss and Amber",
         weightOunces: "1",
         remaining: "0",
@@ -736,7 +737,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Caribbean Teakwood",
         weightOunces: "1",
         remaining: "0.6",
@@ -745,7 +746,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Amber Noir",
         weightOunces: "1",
         remaining: "0.4",
@@ -754,7 +755,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Black Sea",
         weightOunces: "1",
         remaining: "1",
@@ -774,7 +775,8 @@ module.exports = [
         shareOfShippingPercent: "10",
       },
     ],
-    source: "Candle Science",
+    supplierName: "CandleScience",
+    supplierId: 1,
     subtotalCost: "92.10",
     shippingCost: "24.14",
     totalCost: "116.23",
@@ -785,7 +787,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Leather",
         weightOunces: "1",
         remaining: "0.5",
@@ -831,7 +833,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Rosemary",
         weightOunces: "1",
         remaining: "0.8",
@@ -840,7 +842,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Moon Lake Musk",
         weightOunces: "1",
         remaining: "1",
@@ -849,7 +851,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Mango And Tangerine",
         weightOunces: "1",
         remaining: "1",
@@ -858,7 +860,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Lavender Chamomile",
         weightOunces: "1",
         remaining: "0.6",
@@ -867,7 +869,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Honeysuckle Jasmine",
         weightOunces: "1",
         remaining: "1",
@@ -876,7 +878,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Fireside",
         weightOunces: "1",
         remaining: "0.8",
@@ -885,7 +887,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Cypress and Bayberry",
         weightOunces: "1",
         remaining: "1",
@@ -894,7 +896,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Day at the Spa",
         weightOunces: "1",
         remaining: "1",
@@ -903,7 +905,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Christmas Hearth",
         weightOunces: "1",
         remaining: "0",
@@ -912,7 +914,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Red Ginger Saffron",
         weightOunces: "4",
         remaining: "3.2",
@@ -921,7 +923,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Fallen Leaves",
         weightOunces: "1",
         remaining: "0.7",
@@ -930,7 +932,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Cinnamon Stick",
         weightOunces: "1",
         remaining: "0.6",
@@ -939,7 +941,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Whiskey",
         weightOunces: "4",
         remaining: "2.7",
@@ -948,7 +950,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Cinnamon and Vanilla",
         weightOunces: "1",
         remaining: "0.4",
@@ -957,7 +959,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Blue Spruce",
         weightOunces: "4",
         remaining: "4",
@@ -966,7 +968,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Toasted Pumpkin Spice",
         weightOunces: "1",
         remaining: "0.5",
@@ -974,8 +976,10 @@ module.exports = [
         shareOfShippingPercent: "5",
       },
     ],
-    source: "Candle Science",
+    supplierName: "CandleScience",
     subtotalCost: "61.13",
+    supplierId: 1,
+
     shippingCost: "16.45",
     totalCost: "77.58",
   },
@@ -984,7 +988,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Citron and Mandarin",
         weightOunces: "1",
         remaining: "0.6",
@@ -993,7 +997,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Fruit Slices",
         weightOunces: "1",
         remaining: "1",
@@ -1002,7 +1006,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Sparkling Pomelo",
         weightOunces: "1",
         remaining: "1",
@@ -1011,7 +1015,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Orange and Goji Berry",
         weightOunces: "1",
         remaining: "1",
@@ -1020,7 +1024,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Green Tea and Lemongrass",
         weightOunces: "1",
         remaining: "1",
@@ -1029,7 +1033,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Lemon Verbena",
         weightOunces: "1",
         remaining: "0.6",
@@ -1038,7 +1042,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Lemon Pound Cake",
         weightOunces: "1",
         remaining: "1",
@@ -1046,8 +1050,10 @@ module.exports = [
         shareOfShippingPercent: "14",
       },
     ],
-    source: "Candle Science",
+    supplierName: "CandleScience",
     subtotalCost: "16.87",
+    supplierId: 1,
+
     shippingCost: "13.88",
     totalCost: "30.75",
   },
@@ -1056,7 +1062,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "White Birch",
         weightOunces: "1",
         remaining: "0",
@@ -1066,7 +1072,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Oakmoss and Amber",
         weightOunces: "8",
         remaining: "7.6",
@@ -1115,8 +1121,10 @@ module.exports = [
         shareOfShippingPercent: "10",
       },
     ],
-    source: "Candle Science",
+    supplierName: "CandleScience",
     subtotalCost: "44.11",
+    supplierId: 1,
+
     shippingCost: "9.47",
     totalCost: "53.58",
   },
@@ -1125,7 +1133,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Fresh Coffee (unrevised version)",
         weightOunces: "1",
         remaining: "1",
@@ -1136,7 +1144,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Caribbean Teakwood",
         weightOunces: "4",
         remaining: "4",
@@ -1145,7 +1153,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Cardamom and Star Anise",
         weightOunces: "1",
         remaining: "0",
@@ -1154,7 +1162,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "White Birch",
         weightOunces: "4",
         remaining: "3.3",
@@ -1329,8 +1337,10 @@ module.exports = [
         notes: "I have no idea where this went or if I ever got it.",
       },
     ],
-    source: "Candle Science",
+    supplierName: "CandleScience",
     subtotalCost: "39.08",
+    supplierId: 1,
+
     shippingCost: "9.47",
     totalCost: "48.55",
   },
@@ -1339,7 +1349,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Sea Salt and Orchid",
         weightOunces: "1",
         remaining: "1",
@@ -1348,7 +1358,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Golden Rose",
         weightOunces: "1",
         remaining: "1",
@@ -1357,7 +1367,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Ocean Rose",
         weightOunces: "1",
         remaining: "0.6",
@@ -1366,7 +1376,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Hydrangea",
         weightOunces: "1",
         remaining: "1",
@@ -1410,7 +1420,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Driftwood",
         weightOunces: "1",
         remaining: "1",
@@ -1419,7 +1429,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Frasier Fir",
         weightOunces: "4",
         remaining: "2.6",
@@ -1428,7 +1438,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Holly Berry",
         weightOunces: "1",
         remaining: "0.8",
@@ -1437,7 +1447,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Honeysuckle",
         weightOunces: "1",
         remaining: "1",
@@ -1446,7 +1456,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Leather",
         weightOunces: "4",
         remaining: "4",
@@ -1455,7 +1465,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Sandalwood",
         weightOunces: "8",
         remaining: "8",
@@ -1464,7 +1474,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Vetiver",
         weightOunces: "4",
         remaining: "0",
@@ -1483,7 +1493,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Chardonnay",
         weightOunces: "1",
         remaining: "0.6",
@@ -1492,8 +1502,10 @@ module.exports = [
         notes: "This was a free sample.",
       },
     ],
-    source: "Candle Science",
+    supplierName: "CandleScience",
     subtotalCost: "88.81",
+    supplierId: 1,
+
     shippingCost: "19.63",
     totalCost: "108.44",
   },
@@ -1502,7 +1514,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Cardamom and Star Anise",
         weightOunces: "1",
         remaining: "0.4",
@@ -1612,8 +1624,10 @@ module.exports = [
         shareOfShippingPercent: "13",
       },
     ],
-    source: "Candle Science",
+    supplierName: "CandleScience",
     subtotalCost: "35.57",
+    supplierId: 1,
+
     shippingCost: "21.05",
     totalCost: "56.62",
   },
@@ -1622,7 +1636,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Blood Orange",
         weightOunces: "1",
         remaining: "1",
@@ -1632,7 +1646,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "White Sage and Lavender",
         weightOunces: "1",
         remaining: "0.9",
@@ -1641,7 +1655,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Fresh Picked Cucumber",
         weightOunces: "4",
         remaining: "4",
@@ -1650,7 +1664,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Cactus Flower and Jade",
         weightOunces: "4",
         remaining: "4",
@@ -1659,7 +1673,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Black Cherry Merlot",
         weightOunces: "1",
         remaining: "1",
@@ -1668,7 +1682,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Magnolia and Peony",
         weightOunces: "1",
         remaining: "1",
@@ -1677,7 +1691,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Hibiscus Palm",
         weightOunces: "1",
         remaining: "1",
@@ -1686,7 +1700,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Strawberry Guava",
         weightOunces: "1",
         remaining: "1",
@@ -1695,7 +1709,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Tomato Leaf",
         weightOunces: "1",
         remaining: "1",
@@ -1704,7 +1718,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Very Vanilla",
         weightOunces: "4",
         remaining: "4",
@@ -1713,7 +1727,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Lavender",
         weightOunces: "4",
         remaining: "3.6",
@@ -1743,8 +1757,10 @@ module.exports = [
         shareOfShippingPercent: "10",
       },
     ],
-    source: "Candle Science",
+    supplierName: "CandleScience",
     subtotalCost: "69.01",
+    supplierId: 1,
+
     shippingCost: "20.13",
     totalCost: "89.14",
   },
@@ -1773,7 +1789,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Vetiver",
         weightOunces: "8",
         remaining: "8",
@@ -1782,7 +1798,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Cardamom and Star Anise",
         weightOunces: "4",
         remaining: "4",
@@ -1813,7 +1829,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "English Garden",
         price: "0",
         weightOunces: "1",
@@ -1822,8 +1838,10 @@ module.exports = [
         notes: "This was a free sample",
       },
     ],
-    source: "Candle Science",
+    supplierName: "CandleScience",
     subtotalCost: "62.11",
+    supplierId: 1,
+
     shippingCost: "19.61",
     totalCost: "81.72",
   },
@@ -1832,7 +1850,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Lilac",
         weightOunces: "1",
         remaining: "1",
@@ -1841,7 +1859,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Citronella",
         weightOunces: "6",
         remaining: "6",
@@ -1860,7 +1878,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Mediterranean Fig",
         weightOunces: "1",
         remaining: "1",
@@ -1869,7 +1887,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Gardenia Tuberose",
         weightOunces: "1",
         remaining: "1",
@@ -1878,7 +1896,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Fresh Coffee",
         weightOunces: "1",
         remaining: "1",
@@ -1886,8 +1904,9 @@ module.exports = [
         shareOfShippingPercent: "10",
       },
     ],
-    source: "Candle Science",
+    supplierName: "CandleScience",
     subtotalCost: "23.18",
+    supplierId: 1,
     shippingCost: "15.84",
     totalCost: "39.02",
   },
@@ -1896,7 +1915,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Arugula",
         weightOunces: "1",
         remaining: "1",
@@ -1905,7 +1924,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Bergamot",
         weightOunces: "4",
         remaining: "3.5",
@@ -1914,7 +1933,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Black Cherry",
         weightOunces: "4",
         remaining: "3.5",
@@ -1923,7 +1942,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Bluebonnet",
         weightOunces: "1",
         remaining: "0.5",
@@ -1932,7 +1951,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Brown Sugar",
         weightOunces: "1",
         remaining: "1",
@@ -1941,7 +1960,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Butternut Pumpkin",
         weightOunces: "1",
         remaining: "1",
@@ -1950,7 +1969,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Butterscotch",
         weightOunces: "1",
         remaining: "1",
@@ -1959,7 +1978,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Cedar",
         weightOunces: "1",
         remaining: "0.5",
@@ -1968,7 +1987,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Chardonnay",
         weightOunces: "1",
         remaining: "0.5",
@@ -1977,7 +1996,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Indian Sandalwood",
         weightOunces: "1",
         remaining: "0.5",
@@ -1986,7 +2005,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Icicles",
         weightOunces: "1",
         remaining: "0.8",
@@ -1995,7 +2014,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Jasmine",
         weightOunces: "1",
         remaining: "1",
@@ -2004,7 +2023,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Lilac",
         weightOunces: "1",
         remaining: "1",
@@ -2013,7 +2032,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Nagchampa",
         weightOunces: "1",
         remaining: "1",
@@ -2022,7 +2041,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Oakmoss",
         weightOunces: "4",
         remaining: "2.5",
@@ -2031,7 +2050,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Patchouli",
         weightOunces: "4",
         remaining: "3.5",
@@ -2040,7 +2059,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Pine",
         weightOunces: "1",
         remaining: "1",
@@ -2049,7 +2068,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Pumpkin Seeds & Oud",
         weightOunces: "1",
         remaining: "1",
@@ -2058,7 +2077,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Sweet Snow",
         weightOunces: "1",
         remaining: "0.8",
@@ -2067,7 +2086,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Vanilla Bean",
         weightOunces: "1",
         remaining: "1",
@@ -2076,7 +2095,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Verbena Bamboo",
         weightOunces: "1",
         remaining: "1",
@@ -2085,7 +2104,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Zanzibar Clove",
         weightOunces: "1",
         remaining: "0.8",
@@ -2094,7 +2113,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Zanzibar Clove",
         weightOunces: "1",
         remaining: "1",
@@ -2123,7 +2142,7 @@ module.exports = [
         shareOfShippingPercent: "50",
       },
     ],
-    source: "Lone Star Candle Supply",
+    supplierName: "Lone Star Candle Supply",
     subtotalCost: "102.87",
     shippingCost: "20.48",
     taxesAndFees: "2.03",
@@ -2134,7 +2153,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Black Tea",
         weightOunces: "1",
         remaining: "1",
@@ -2143,7 +2162,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Clove",
         weightOunces: "1",
         remaining: "1",
@@ -2152,7 +2171,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Cuban Cigar",
         weightOunces: "1",
         remaining: "1",
@@ -2161,7 +2180,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Sage",
         weightOunces: "1",
         remaining: "1",
@@ -2170,7 +2189,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Thyme",
         weightOunces: "1",
         remaining: "1",
@@ -2179,7 +2198,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Whiskey",
         weightOunces: "1",
         remaining: "1",
@@ -2187,7 +2206,7 @@ module.exports = [
         shareOfShippingPercent: "17",
       },
     ],
-    source: "The Flaming Candle",
+    supplierName: "The Flaming Candle",
     subtotalCost: "14.34",
     shippingCost: "8",
     totalCost: "22.34",
@@ -2197,7 +2216,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Lemon Fresh",
         weightOunces: "2",
         remaining: "2",
@@ -2206,7 +2225,7 @@ module.exports = [
         notes: "From Amazon",
       },
     ],
-    source: "Virginia Candle Supply",
+    supplierName: "Virginia Candle Supply",
     subtotalCost: "6.35",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -2217,7 +2236,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Lemon",
         weightOunces: "1",
         remaining: "1",
@@ -2226,7 +2245,7 @@ module.exports = [
         notes: "",
       },
     ],
-    source: "P & J Trading",
+    supplierName: "P & J Trading",
     subtotalCost: "6.25",
     shippingCost: "2.95",
     taxesAndFees: "0",
@@ -2245,7 +2264,7 @@ module.exports = [
         notes: "From Amazon",
       },
     ],
-    source: "Top Grade Goods",
+    supplierName: "Top Grade Goods",
     subtotalCost: "9.39",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -2265,7 +2284,7 @@ module.exports = [
         notes: "From Amazon",
       },
     ],
-    source: "The Candlemaker's Store",
+    supplierName: "The Candlemaker's Store",
     shippingCost: "0",
     taxesAndFees: "0",
     totalCost: "23.75",
@@ -2284,7 +2303,7 @@ module.exports = [
         notes: "From Amazon",
       },
     ],
-    source: "EricX",
+    supplierName: "EricX",
     subtotalCost: "7.95",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -2305,7 +2324,8 @@ module.exports = [
         notes: "",
       },
     ],
-    source: "The Candlemaker's Store",
+    supplierName: "The Candlemaker's Store",
+    supplierId: 7,
     notes: "From Amazon",
     subtotalCost: "9.49",
     shippingCost: "0",
@@ -2325,7 +2345,8 @@ module.exports = [
         shareOfShippingPercent: "100",
       },
     ],
-    source: "The Candlemaker's Store",
+    supplierName: "The Candlemaker's Store",
+    supplierId: 7,
     subtotalCost: "23.75",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -2347,7 +2368,7 @@ module.exports = [
         shareOfShippingPercent: "100",
       },
     ],
-    source: "Mariposa CA",
+    supplierName: "Mariposa CA",
     subtotalCost: "10.50",
     notes: "From Amazon",
     shippingCost: "0",
@@ -2366,7 +2387,7 @@ module.exports = [
         shareOfShippingPercent: "100",
       },
     ],
-    source: "Forever Cases & More",
+    supplierName: "Forever Cases & More",
     notes: "From Amazon",
     subtotalCost: "9.99",
     totalCost: "9.99",
@@ -2386,7 +2407,7 @@ module.exports = [
         shareOfShippingPercent: "100",
       },
     ],
-    source: "Brandon's Candles, LLC",
+    supplierName: "Brandon's Candles, LLC",
     notes: "From Amazon",
     subtotalCost: "27.45",
     shippingCost: "0",
@@ -2407,7 +2428,8 @@ module.exports = [
         notes: "Packaged in 2 10-lb bags",
       },
     ],
-    source: "Virginia Candle Supply",
+    supplierName: "Virginia Candle Supply",
+    supplierId: 4,
     notes: "From Amazon",
     subtotalCost: "58",
     shippingCost: "0",
@@ -2427,7 +2449,7 @@ module.exports = [
         notes: "2 Temp settings: 750 and 100",
       },
     ],
-    source: "Amazon",
+    supplierName: "Amazon",
     subtotalCost: "27.85",
     notes: "From Amazon",
     shippingCost: "0",
@@ -2446,7 +2468,7 @@ module.exports = [
         shareOfShippingPercent: "100",
       },
     ],
-    source: "Lake Charles Manufacturing",
+    supplierName: "Lake Charles Manufacturing",
     subtotalCost: "8.99",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -2466,7 +2488,7 @@ module.exports = [
         shareOfShippingPercent: "100",
       },
     ],
-    source: "Greater Goods",
+    supplierName: "Greater Goods",
     notes: "From Amazon",
     subtotalCost: "12.85",
     shippingCost: "0",
@@ -2609,7 +2631,7 @@ module.exports = [
         notes: "Recycled from a farmer's market salsa",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -2628,7 +2650,7 @@ module.exports = [
         shareOfShippingPercent: "0",
       },
     ],
-    source: "The Frogs Pond",
+    supplierName: "The Frogs Pond",
     notes:
       "From Amazon, used for a wood cutting board, discovered in the cupboard so recycled, I guess",
     subtotalCost: "0",
@@ -2650,7 +2672,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Patchouli",
         weightOunces: "1",
         remaining: "1",
@@ -2659,7 +2681,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Nag Champa",
         weightOunces: "1",
         remaining: "1",
@@ -2668,7 +2690,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Green Apple",
         weightOunces: "1",
         remaining: "1",
@@ -2677,7 +2699,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Red Apple",
         weightOunces: "1",
         remaining: "1",
@@ -2686,7 +2708,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Gingerbread",
         weightOunces: "1",
         remaining: "1",
@@ -2695,7 +2717,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Grapefruit",
         weightOunces: "1",
         remaining: "1",
@@ -2704,7 +2726,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Lemon Grass",
         weightOunces: "1",
         remaining: "1",
@@ -2713,7 +2735,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "French Vanilla",
         weightOunces: "1",
         remaining: "1",
@@ -2722,7 +2744,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Coconut",
         weightOunces: "1",
         remaining: "1",
@@ -2731,7 +2753,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Orange Pekoe Tea",
         weightOunces: "1",
         remaining: "1",
@@ -2740,7 +2762,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Cocoa Therapy",
         weightOunces: "1",
         remaining: "1",
@@ -2749,7 +2771,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "French Pair",
         weightOunces: "1",
         remaining: "1",
@@ -2758,7 +2780,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Bayberry Cinnamon",
         weightOunces: "1",
         remaining: "1",
@@ -2767,7 +2789,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Clove",
         weightOunces: "1",
         remaining: "1",
@@ -2775,7 +2797,7 @@ module.exports = [
         shareOfShippingPercent: "4.5",
       },
     ],
-    source: "Fillmore Container",
+    supplierName: "Fillmore Container",
     subtotalCost: "43.00",
     shippingCost: "15.30",
     taxesAndFees: "0",
@@ -2796,7 +2818,7 @@ module.exports = [
         notes: "Ordered on Amazon",
       },
     ],
-    source: "Natural Planet",
+    supplierName: "Natural Planet",
     subtotalCost: "18.99",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -2815,7 +2837,8 @@ module.exports = [
         notes: "2 Temp Settings 750ᵒF & 1000ᵒF",
       },
     ],
-    source: "Amazon",
+    supplierName: "Amazon",
+    supplierId: 12,
     subtotalCost: "27.85",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -2870,7 +2893,8 @@ module.exports = [
         shareOfShippingPercent: "10",
       },
     ],
-    source: "Amazon",
+    supplierName: "Amazon",
+    supplierId: 12,
     subtotalCost: "76.43",
     shippingCost: "0",
     taxesAndFees: "3.67",
@@ -2881,7 +2905,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Tonka and Oud",
         weightOunces: "1",
         remaining: "1",
@@ -2890,7 +2914,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Holly Berry",
         weightOunces: "1",
         remaining: "1",
@@ -2899,7 +2923,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Cotton Tree",
         weightOunces: "1",
         remaining: "1",
@@ -2908,7 +2932,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Coconut",
         weightOunces: "1",
         remaining: "1",
@@ -2917,7 +2941,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Macintosh Apple",
         weightOunces: "1",
         remaining: "1",
@@ -2926,7 +2950,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Black Currant Absinthe",
         weightOunces: "1",
         remaining: "1",
@@ -2935,7 +2959,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Frosted Juniper",
         weightOunces: "1",
         remaining: "1",
@@ -2995,7 +3019,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Pumpkin Chai",
         weightOunces: "1",
         remaining: "1",
@@ -3004,7 +3028,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Fresh Coffee",
         weightOunces: "1",
         remaining: "1",
@@ -3013,7 +3037,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Sea Mist",
         weightOunces: "1",
         remaining: "1",
@@ -3022,7 +3046,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Red Currant",
         weightOunces: "1",
         remaining: "1",
@@ -3086,7 +3110,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Library",
         weightOunces: "1",
         remaining: "1",
@@ -3095,7 +3119,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Apple Harvest",
         weightOunces: "1",
         remaining: "1",
@@ -3104,7 +3128,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Peppermint Mocha",
         weightOunces: "1",
         remaining: "1",
@@ -3113,7 +3137,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Mull Cider and Chestnuts",
         weightOunces: "1",
         remaining: "1",
@@ -3122,7 +3146,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Peppermint and Eucalyptus",
         weightOunces: "1",
         remaining: "1",
@@ -3131,7 +3155,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Red Roses",
         weightOunces: "1",
         remaining: "1",
@@ -3140,7 +3164,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Caramel Popcorn",
         weightOunces: "1",
         remaining: "1",
@@ -3149,7 +3173,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "White Currant",
         weightOunces: "1",
         remaining: "1",
@@ -3158,7 +3182,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Peppercorn Pomander",
         weightOunces: "1",
         remaining: "1",
@@ -3167,7 +3191,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "English Garden",
         weightOunces: "1",
         remaining: "1",
@@ -3176,7 +3200,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Very Vanilla",
         weightOunces: "1",
         remaining: "1",
@@ -3185,7 +3209,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Candied Apple",
         weightOunces: "1",
         remaining: "1",
@@ -3194,7 +3218,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Garden Mint",
         weightOunces: "1",
         remaining: "1",
@@ -3203,7 +3227,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Cotton Candy",
         weightOunces: "1",
         remaining: "1",
@@ -3212,7 +3236,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "White Tea",
         weightOunces: "1",
         remaining: "1",
@@ -3221,7 +3245,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Toasted Pumpkin Spice",
         weightOunces: "1",
         remaining: "1",
@@ -3230,7 +3254,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Hot Apple Pie",
         weightOunces: "1",
         remaining: "1",
@@ -3239,7 +3263,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Fallen Leaves",
         weightOunces: "1",
         remaining: "1",
@@ -3446,8 +3470,10 @@ module.exports = [
         shareOfShippingPercent: "2",
       },
     ],
-    source: "Candle Science",
+    supplierName: "CandleScience",
     subtotalCost: "104.82",
+    supplierId: 1,
+
     shippingCost: "32.36",
     taxesAndFees: "0",
     totalCost: "137.18",
@@ -3469,7 +3495,8 @@ module.exports = [
         notes: "This is recycled, not sure from what",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -3532,7 +3559,8 @@ module.exports = [
         notes: "Recycled from something",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     notes: "These are all recycled",
     subtotalCost: "0",
     shippingCost: "0",
@@ -3569,7 +3597,8 @@ module.exports = [
         notes: "Recycled from Mark's salsa",
       },
     ],
-    source: "Recycled Salsas",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -3592,7 +3621,8 @@ module.exports = [
         notes: "Recycled from a cleaned out candle",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -3629,7 +3659,8 @@ module.exports = [
         notes: "Borosilicate Glass - Eisco Labs",
       },
     ],
-    source: "Amazon",
+    supplierName: "Amazon",
+    supplierId: 12,
     subtotalCost: "44.03",
     shippingCost: "0",
     taxesAndFees: "3.63",
@@ -3745,7 +3776,8 @@ module.exports = [
         notes: "Recycled",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -3768,7 +3800,8 @@ module.exports = [
         notes: "recycled from previous candles",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -3779,7 +3812,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Vetiver",
         weightOunces: "8",
         remaining: "8",
@@ -3788,7 +3821,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Garden Mint",
         weightOunces: "8",
         remaining: "8",
@@ -3797,7 +3830,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "White Birch",
         weightOunces: "8",
         remaining: "8",
@@ -3806,7 +3839,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Frosted Juniper",
         weightOunces: "8",
         remaining: "8",
@@ -3815,7 +3848,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Peppercorn Pomander",
         weightOunces: "4",
         remaining: "4",
@@ -3824,7 +3857,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Cypress and Bayberry",
         weightOunces: "4",
         remaining: "4",
@@ -3833,7 +3866,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Mistletoe",
         weightOunces: "4",
         remaining: "4",
@@ -3842,7 +3875,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Dragon's Blood",
         weightOunces: "4",
         remaining: "4",
@@ -3851,7 +3884,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Caramel Popcorn",
         weightOunces: "1",
         remaining: "1",
@@ -3860,8 +3893,10 @@ module.exports = [
         notes: "This was a free sample",
       },
     ],
-    source: "Candle Science",
+    supplierName: "CandleScience",
     subtotalCost: "89.23",
+    supplierId: 1,
+
     shippingCost: "20",
     totalCost: "109.23",
   },
@@ -4014,7 +4049,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Fire Roasted Marshmallow",
         weightOunces: "4",
         remaining: "4",
@@ -4023,7 +4058,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Tobacco Caramel",
         weightOunces: "4",
         remaining: "4",
@@ -4032,7 +4067,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Kentucky Bourbon",
         weightOunces: "4",
         remaining: "4",
@@ -4041,7 +4076,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Tobacco and Bay Leaf",
         weightOunces: "1",
         remaining: "1",
@@ -4050,7 +4085,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Mulled Cider",
         weightOunces: "1",
         remaining: "1",
@@ -4059,7 +4094,8 @@ module.exports = [
         notes: "this was a free sample",
       },
     ],
-    source: "The Flaming Candle",
+    supplierName: "The Flaming Candle",
+    supplierId: 3,
     subtotalCost: "39.26",
     shippingCost: "12.60",
     totalCost: "51.86",
@@ -4087,7 +4123,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Very Vanilla",
         weightOunces: "4",
         remaining: "4",
@@ -4096,7 +4132,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Blue Spruce",
         weightOunces: "4",
         remaining: "4",
@@ -4119,7 +4155,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Baby Powder",
         weightOunces: "1",
         remaining: "1",
@@ -4129,7 +4165,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Mistletoe",
         weightOunces: "1",
         remaining: "1",
@@ -4149,7 +4185,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Library",
         weightOunces: "4",
         remaining: "4",
@@ -4158,7 +4194,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Fresh Coffee",
         weightOunces: "4",
         remaining: "4",
@@ -4167,7 +4203,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Banana Nut Bread",
         weightOunces: "4",
         remaining: "4",
@@ -4208,7 +4244,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Cardamom and Star Anise",
         weightOunces: "4",
         remaining: "4",
@@ -4229,7 +4265,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Red Hot Cinnamon",
         weightOunces: "1",
         remaining: "1",
@@ -4238,7 +4274,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "English Garden",
         weightOunces: "4",
         remaining: "4",
@@ -4247,7 +4283,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Fireside",
         weightOunces: "4",
         remaining: "4",
@@ -4256,7 +4292,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Mulled Cider and Chestnuts",
         weightOunces: "4",
         remaining: "4",
@@ -4265,7 +4301,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Egyptian Amber",
         weightOunces: "4",
         remaining: "4",
@@ -4282,7 +4318,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Caribbean Teakwood",
         weightOunces: "4",
         remaining: "4",
@@ -4291,7 +4327,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Black Sea",
         weightOunces: "4",
         remaining: "4",
@@ -4309,8 +4345,10 @@ module.exports = [
         shareOfShippingPercent: "1",
       },
     ],
-    source: "Candle Science",
+    supplierName: "CandleScience",
     subtotalCost: "242.11",
+    supplierId: 1,
+
     shippingCost: "65.54",
     taxesAndFees: "0",
     totalCost: "307.65",
@@ -4320,7 +4358,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Root Beer",
         weightOunces: "1",
         remaining: "1",
@@ -4329,7 +4367,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Carrot Cake",
         weightOunces: "1",
         remaining: "1",
@@ -4338,7 +4376,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Leather",
         weightOunces: "1",
         remaining: "1",
@@ -4347,7 +4385,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Pa's Tobacco Pipe",
         weightOunces: "1",
         remaining: "1",
@@ -4381,7 +4419,8 @@ module.exports = [
         shareOfShippingPercent: "4",
       },
     ],
-    source: "Fillmore Container",
+    supplierName: "Fillmore Container",
+    supplierId: 17,
     subtotalCost: "37.50",
     shippingCost: "16.53",
     taxesAndFees: "0",
@@ -4391,7 +4430,7 @@ module.exports = [
     openDate: "2019-12-12",
     items: [
       {
-        category: "earthy",
+        categoryId: 1,
         type: "fragrance-oil",
         name: "Verbena Bamboo",
         weightOunces: "4",
@@ -4400,7 +4439,7 @@ module.exports = [
         shareOfShippingPercent: "15",
       },
       {
-        category: "food-and-drink",
+        categoryId: 2,
         type: "fragrance-oil",
         name: "Bergamot",
         weightOunces: "8",
@@ -4449,7 +4488,8 @@ module.exports = [
           "These are not nearly as organized as CS. Just kind of stuffed into a bag.",
       },
     ],
-    source: "Lone Star Candle Supply",
+    supplierName: "Lone Star Candle Supply",
+    supplierId: 2,
     subtotalCost: "38.09",
     taxesAndFees: "3.79",
     shippingCost: "7.85",
@@ -4459,7 +4499,7 @@ module.exports = [
     openDate: "2019-12-12",
     items: [
       {
-        category: "spice",
+        categoryId: "4",
         type: "fragrance-oil",
         name: "Orange Spice",
         weightOunces: "1",
@@ -4468,7 +4508,7 @@ module.exports = [
         shareOfShippingPercent: "15",
       },
       {
-        category: "flowers-and-herbs",
+        categoryId: 3,
         type: "fragrance-oil",
         name: "Eucalyptus Spearmint",
         weightOunces: "1",
@@ -4478,7 +4518,7 @@ module.exports = [
         notes: "This was a free sample",
       },
       {
-        category: "spice",
+        categoryId: "4",
         type: "fragrance-oil",
         name: "Pumpkin Spice",
         weightOunces: "1",
@@ -4487,7 +4527,7 @@ module.exports = [
         shareOfShippingPercent: "15",
       },
       {
-        category: "earthy",
+        categoryId: 1,
         type: "fragrance-oil",
         name: "Tuscan Tobacco",
         weightOunces: "1",
@@ -4496,7 +4536,7 @@ module.exports = [
         shareOfShippingPercent: "15",
       },
       {
-        category: "food-and-drink",
+        categoryId: 2,
         type: "fragrance-oil",
         name: "Kumquat",
         weightOunces: "1",
@@ -4505,7 +4545,7 @@ module.exports = [
         shareOfShippingPercent: "15",
       },
       {
-        category: "other",
+        categoryId: 5,
         type: "fragrance-oil",
         name: "Night Ice",
         weightOunces: "1",
@@ -4514,7 +4554,7 @@ module.exports = [
         shareOfShippingPercent: "15",
       },
       {
-        category: "earthy",
+        categoryId: 1,
         type: "fragrance-oil",
         name: "Patchouli",
         weightOunces: "1",
@@ -4534,7 +4574,7 @@ module.exports = [
         shareOfShippingPercent: "15",
       },
     ],
-    source: "AAA Candle Supply",
+    supplierName: "AAA Candle Supplies",
     subtotalCost: "21.95",
     shippingCost: "7.99",
     taxesAndFees: "2.47",
@@ -4557,7 +4597,8 @@ module.exports = [
         notes: "recycled",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -4601,7 +4642,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Patchouli",
         weightOunces: "1",
         remaining: "1",
@@ -4610,7 +4651,8 @@ module.exports = [
         notes: "This was a free sample",
       },
     ],
-    source: "CandleScience",
+    supplierName: "CandleScience",
+    supplierId: 1,
     subtotalCost: "25.88",
     shippingCost: "10",
     taxesAndFees: "0",
@@ -4633,7 +4675,8 @@ module.exports = [
         notes: "this is recycled from a different candle test",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -4710,7 +4753,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Plumeria",
         weightOunces: "1",
         remaining: "1",
@@ -4719,7 +4762,8 @@ module.exports = [
         notes: "Free sample",
       },
     ],
-    source: "CandleScience",
+    supplierName: "CandleScience",
+    supplierId: 1,
     subtotalCost: "47.54",
     shippingCost: "12.60",
     taxesAndFees: "4.96",
@@ -4781,7 +4825,8 @@ module.exports = [
         notes: "Recycled from old candles",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -4792,7 +4837,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Fig Tree",
         weightOunces: "8",
         remaining: "8",
@@ -4801,7 +4846,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Blood Orange",
         weightOunces: "8",
         remaining: "8",
@@ -4810,7 +4855,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Red Hot Cinnamon",
         weightOunces: "4",
         remaining: "4",
@@ -4819,7 +4864,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Chocolate Fudge",
         weightOunces: "1",
         remaining: "1",
@@ -4841,7 +4886,8 @@ module.exports = [
         notes: "this is 3 boxes of 12 combined into one set",
       },
     ],
-    source: "CandleScience",
+    supplierName: "CandleScience",
+    supplierId: 1,
     subtotalCost: "71.70",
     shippingCost: "26.37",
     taxesAndFees: "8.10",
@@ -4861,7 +4907,7 @@ module.exports = [
         notes: "",
       },
     ],
-    source: "California Candle Supply",
+    supplierName: "California Candle Supply",
     subtotalCost: "23.52",
     shippingCost: "15.30",
     taxesAndFees: "0",
@@ -4910,7 +4956,8 @@ module.exports = [
         shareOfShippingPercent: "100",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -4931,7 +4978,7 @@ module.exports = [
         shareOfShippingPercent: "100",
       },
     ],
-    source: "Bitter Creek Candle Supply",
+    supplierName: "Bitter Creek Candle Supply",
     subtotalCost: "9.49",
     shippingCost: "5.56",
     taxesAndFees: "0",
@@ -4952,7 +4999,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Tuscan Tobacco",
         weightOunces: "8",
         remaining: "8",
@@ -4961,7 +5008,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Kumquat",
         weightOunces: "8",
         remaining: "8",
@@ -4970,7 +5017,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Orange Spice",
         weightOunces: "8",
         remaining: "8",
@@ -4978,7 +5025,8 @@ module.exports = [
         shareOfShippingPercent: "7",
       },
     ],
-    source: "AAA Candle Supplies",
+    supplierName: "AAA Candle Supplies",
+    supplierId: 19,
     subtotalCost: "67.75",
     shippingCost: "17.91",
     totalCost: "92.72",
@@ -5132,7 +5180,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Bacon",
         weightOunces: "1",
         remaining: "1",
@@ -5142,7 +5190,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Flannel",
         weightOunces: "8",
         remaining: "8",
@@ -5151,7 +5199,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Thyme",
         weightOunces: "8",
         remaining: "8",
@@ -5160,7 +5208,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Cuban Cigar",
         weightOunces: "8",
         remaining: "8",
@@ -5169,7 +5217,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Pipe Tobacco",
         weightOunces: "8",
         remaining: "8",
@@ -5178,7 +5226,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Pineapple",
         weightOunces: "8",
         remaining: "8",
@@ -5186,7 +5234,8 @@ module.exports = [
         shareOfShippingPercent: "16",
       },
     ],
-    source: "The Flaming Candle",
+    supplierName: "The Flaming Candle",
+    supplierId: 3,
     subtotalCost: "83.21",
     shippingCost: "15.60",
     taxesAndFees: "0",
@@ -5206,7 +5255,8 @@ module.exports = [
         notes: "sold as 2 1-lb packages",
       },
     ],
-    source: "Amazon",
+    supplierName: "Amazon",
+    supplierId: 12,
     subtotalCost: "19.29",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -5217,7 +5267,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Lavender",
         weightOunces: "8",
         remaining: "8",
@@ -5226,7 +5276,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Very Vanilla",
         weightOunces: "16",
         remaining: "16",
@@ -5235,7 +5285,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Mint Mojito",
         weightOunces: "1",
         remaining: "1",
@@ -5245,7 +5295,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Tonka and Oud",
         weightOunces: "4",
         remaining: "4",
@@ -5254,7 +5304,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Cinnamon Chai",
         weightOunces: "4",
         remaining: "4",
@@ -5263,7 +5313,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Library",
         weightOunces: "8",
         remaining: "8",
@@ -5272,7 +5322,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Fresh Picked Cucumber",
         weightOunces: "8",
         remaining: "8",
@@ -5293,7 +5343,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Cardamom And Star Anise",
         weightOunces: "8",
         remaining: "8",
@@ -5302,7 +5352,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Cinnamon Stick",
         weightOunces: "4",
         remaining: "4",
@@ -5311,7 +5361,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Tomato Leaf",
         weightOunces: "4",
         remaining: "4",
@@ -5320,7 +5370,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "English Garden",
         weightOunces: "16",
         remaining: "16",
@@ -5329,7 +5379,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Rain Water",
         weightOunces: "8",
         remaining: "8",
@@ -5338,7 +5388,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Mediterranean Fig",
         weightOunces: "8",
         remaining: "8",
@@ -5368,7 +5418,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Sea Salt and Orchid",
         weightOunces: "8",
         remaining: "8",
@@ -5377,7 +5427,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Vetiver",
         weightOunces: "16",
         remaining: "16",
@@ -5386,7 +5436,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Black Sea",
         weightOunces: "16",
         remaining: "16",
@@ -5395,7 +5445,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Garden Mint",
         weightOunces: "8",
         remaining: "8",
@@ -5404,7 +5454,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Blood Orange",
         weightOunces: "8",
         remaining: "8",
@@ -5413,7 +5463,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Fireside",
         weightOunces: "8",
         remaining: "8",
@@ -5422,7 +5472,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Caramel Popcorn",
         weightOunces: "8",
         remaining: "8",
@@ -5442,7 +5492,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Cotton Tree",
         weightOunces: "8",
         remaining: "8",
@@ -5451,7 +5501,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Mango and Tangerine",
         weightOunces: "4",
         remaining: "4",
@@ -5460,7 +5510,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Fig Tree",
         weightOunces: "16",
         remaining: "16",
@@ -5468,8 +5518,10 @@ module.exports = [
         shareOfShippingPercent: "7",
       },
     ],
-    source: "Candle Science",
+    supplierName: "CandleScience",
     subtotalCost: "346.41",
+    supplierId: 1,
+
     taxesAndFees: "30.97",
     shippingCost: "28.39",
     totalCost: "405.77",
@@ -5479,7 +5531,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Aspen Woods",
         weightOunces: "8",
         remaining: "8",
@@ -5499,7 +5551,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Cashmere",
         weightOunces: "8",
         remaining: "8",
@@ -5508,7 +5560,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Firewood",
         weightOunces: "4",
         remaining: "4",
@@ -5517,7 +5569,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Merlot",
         weightOunces: "4",
         remaining: "4",
@@ -5526,7 +5578,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Chocolate Mint",
         weightOunces: "4",
         remaining: "4",
@@ -5534,7 +5586,8 @@ module.exports = [
         shareOfShippingPercent: "15",
       },
     ],
-    source: "Lonestar Candle Supply",
+    supplierName: "Lone Star Candle Supply",
+    supplierId: 2,
     subtotalCost: "63.70",
     shippingCost: "7.85",
     taxesAndFees: "5.90",
@@ -5554,7 +5607,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Pineapple Sherbert",
         weightOunces: "4",
         remaining: "4",
@@ -5563,7 +5616,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Roasted Pinecones",
         weightOunces: "4",
         remaining: "4",
@@ -5572,7 +5625,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Spiced Clove",
         weightOunces: "8",
         remaining: "8",
@@ -5592,7 +5645,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Amber",
         weightOunces: "4",
         remaining: "4",
@@ -5600,7 +5653,8 @@ module.exports = [
         shareOfShippingPercent: "3",
       },
     ],
-    source: "California Candle Supply",
+    supplierName: "California Candle Supply",
+    supplierId: 20,
     subtotalCost: "122.84",
     shippingCost: "36.04",
     taxesAndFees: "0",
@@ -5652,7 +5706,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Almond",
         weightOunces: "8",
         remaining: "8",
@@ -5661,7 +5715,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Jasmine",
         weightOunces: "1",
         remaining: "1",
@@ -5671,7 +5725,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Lilac",
         weightOunces: "1",
         remaining: "1",
@@ -5681,7 +5735,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Hawaiian Hibiscus BBW Type",
         weightOunces: "1",
         remaining: "1",
@@ -5691,7 +5745,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Honeysuckle Jasmine",
         weightOunces: "1",
         remaining: "1",
@@ -5701,7 +5755,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Japanese Cherry Blossom BBW Tye",
         weightOunces: "1",
         remaining: "1",
@@ -5711,7 +5765,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Fresh Cut Roses",
         weightOunces: "1",
         remaining: "1",
@@ -5721,7 +5775,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Lavender",
         weightOunces: "1",
         remaining: "1",
@@ -5731,7 +5785,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Honeysuckle",
         weightOunces: "1",
         remaining: "1",
@@ -5741,7 +5795,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Plumeria",
         weightOunces: "1",
         remaining: "1",
@@ -5751,7 +5805,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Stroll in the Garden",
         weightOunces: "1",
         remaining: "1",
@@ -5761,7 +5815,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Patchouli",
         weightOunces: "1",
         remaining: "1",
@@ -5771,7 +5825,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Tobacco",
         weightOunces: "1",
         remaining: "1",
@@ -5781,7 +5835,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Leaves",
         weightOunces: "1",
         remaining: "1",
@@ -5791,7 +5845,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Eucalyptus and Spearmint",
         weightOunces: "1",
         remaining: "1",
@@ -5801,7 +5855,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Eucalyptus",
         weightOunces: "1",
         remaining: "1",
@@ -5811,7 +5865,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Sandalwood",
         weightOunces: "1",
         remaining: "1",
@@ -5821,7 +5875,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Barn Wood",
         weightOunces: "1",
         remaining: "1",
@@ -5831,7 +5885,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Cactus and Sea Salt",
         weightOunces: "1",
         remaining: "1",
@@ -5841,7 +5895,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Lemongrass",
         weightOunces: "1",
         remaining: "1",
@@ -5851,7 +5905,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Rosemary Mint",
         weightOunces: "1",
         remaining: "1",
@@ -5861,7 +5915,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Rosemary Pepper",
         weightOunces: "1",
         remaining: "1",
@@ -5870,7 +5924,7 @@ module.exports = [
         notes: "Free sample",
       },
     ],
-    source: "Aztec Candle and Soap Supplies",
+    supplierName: "Aztec Candle & Soap Supplies",
     shippingCost: "14.45",
     subtotalCost: "53.99",
     totalCost: "",
@@ -5893,7 +5947,8 @@ module.exports = [
         notes: "Recycled from tester candles",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -5981,7 +6036,7 @@ module.exports = [
         shareOfShippingPercent: "2.5",
       },
       {
-        category: "food-and-drink",
+        categoryId: 2,
         type: "fragrance-oil",
         name: "Beer",
         weightOunces: "4",
@@ -5990,7 +6045,7 @@ module.exports = [
         shareOfShippingPercent: "17",
       },
       {
-        category: "food-and-drink",
+        categoryId: 2,
         type: "fragrance-oil",
         name: "Chocolate",
         weightOunces: "4",
@@ -5999,7 +6054,7 @@ module.exports = [
         shareOfShippingPercent: "17",
       },
       {
-        category: "food-and-drink",
+        categoryId: 2,
         type: "fragrance-oil",
         name: "Sugared Maple",
         weightOunces: "4",
@@ -6008,7 +6063,7 @@ module.exports = [
         shareOfShippingPercent: "17",
       },
       {
-        category: "food-and-drink",
+        categoryId: 2,
         type: "fragrance-oil",
         name: "Spiced Chestnut",
         weightOunces: "4",
@@ -6017,7 +6072,7 @@ module.exports = [
         shareOfShippingPercent: "17",
       },
       {
-        category: "food-and-drink",
+        categoryId: 2,
         type: "fragrance-oil",
         name: "Southern Iced Tea",
         weightOunces: "8",
@@ -6035,7 +6090,7 @@ module.exports = [
         shareOfShippingPercent: "14",
       },
       {
-        category: "flowers-and-herbs",
+        categoryId: 3,
         type: "fragrance-oil",
         name: "Rain Angelica",
         weightOunces: "1",
@@ -6045,7 +6100,8 @@ module.exports = [
         notes: "Free Sample",
       },
     ],
-    source: "The Flaming Candle",
+    supplierName: "The Flaming Candle",
+    supplierId: 3,
     subtotalCost: "80.87",
     shippingCost: "18.70",
     taxesAndFees: "0",
@@ -6068,7 +6124,8 @@ module.exports = [
         notes: "This is the second time these jars have been recycled",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -6079,7 +6136,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Watermelon",
         weightOunces: "1",
         remaining: "1",
@@ -6089,7 +6146,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Oakmoss And Amber",
         weightOunces: "16",
         remaining: "16",
@@ -6119,7 +6176,8 @@ module.exports = [
         shareOfShippingPercent: "17",
       },
     ],
-    source: "CandleScience",
+    supplierName: "CandleScience",
+    supplierId: 1,
     subtotalCost: "37.98",
     shippingCost: "10.42",
     totalCost: "52.39",
@@ -6142,7 +6200,8 @@ module.exports = [
         notes: "most recycled for the 3rd time from tests",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -6194,7 +6253,7 @@ module.exports = [
         shareOfShippingPercent: "25",
       },
     ],
-    source: "Candle Cocoon",
+    supplierName: "Candle Cocoon",
     subtotalCost: "56.95",
     shippingCost: "14.69",
     taxesAndFees: "0",
@@ -6238,7 +6297,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Mohogany Teakwood BBW Type",
         weightOunces: "8",
         remaining: "8",
@@ -6247,7 +6306,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Hot Buttered Popcorn",
         weightOunces: "8",
         remaining: "8",
@@ -6256,7 +6315,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Oud Wood",
         weightOunces: "8",
         remaining: "8",
@@ -6265,7 +6324,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Wood Sage & Sea Salt Jo Malone Type",
         weightOunces: "1",
         remaining: "1",
@@ -6275,7 +6334,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Grapefruit Mangosteen",
         weightOunces: "1",
         remaining: "1",
@@ -6284,7 +6343,8 @@ module.exports = [
         notes: "Free Sample",
       },
     ],
-    source: "Aztec Candle & Soap Supplies",
+    supplierName: "Aztec Candle & Soap Supplies",
+    supplierId: 22,
     subtotalCost: "54.52",
     shippingCost: "8.99",
     taxesAndFees: "0",
@@ -6329,7 +6389,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Brazilian Coffee & Pure Cane",
         weightOunces: "8",
         remaining: "8",
@@ -6339,7 +6399,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Strawberry",
         weightOunces: "1",
         remaining: "1",
@@ -6348,7 +6408,8 @@ module.exports = [
         price: "0",
       },
     ],
-    source: "Aztec Candle & Soap Supplies",
+    supplierName: "Aztec Candle & Soap Supplies",
+    supplierId: 22,
     subtotalCost: "35.39",
     shippingCost: "8.99",
     taxesAndFees: "0",
@@ -6384,7 +6445,8 @@ module.exports = [
         notes: "Recycled from test candles",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -6395,7 +6457,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Root Beer",
         weightOunces: "16",
         remaining: "16",
@@ -6405,7 +6467,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Carrot Cake",
         weightOunces: "16",
         remaining: "16",
@@ -6414,7 +6476,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Wild Mountain Honey",
         weightOunces: "1",
         remaining: "1",
@@ -6424,7 +6486,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "River Rock",
         weightOunces: "1",
         remaining: "1",
@@ -6443,7 +6505,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Iced Lemon Biscotti",
         weightOunces: "1",
         remaining: "1",
@@ -6452,7 +6514,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Irish Moss",
         weightOunces: "1",
         remaining: "1",
@@ -6461,7 +6523,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Sandalwood",
         weightOunces: "16",
         remaining: "16",
@@ -6470,7 +6532,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Frankincense & Myrrh",
         weightOunces: "16",
         remaining: "16",
@@ -6479,7 +6541,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Rosemary & Thyme",
         weightOunces: "1",
         remaining: "1",
@@ -6488,7 +6550,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Buttermilk Pancakes",
         weightOunces: "16",
         remaining: "16",
@@ -6496,7 +6558,8 @@ module.exports = [
         shareOfShippingPercent: "11",
       },
     ],
-    source: "Fillmore Container",
+    supplierName: "Fillmore Container",
+    supplierId: 17,
     subtotalCost: "113.25",
     shippingCost: "21.85",
     taxesAndFees: "0",
@@ -6507,7 +6570,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Bergamot",
         weightOunces: "16",
         remaining: "16",
@@ -6517,7 +6580,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Oakmoss",
         weightOunces: "16",
         remaining: "16",
@@ -6525,7 +6588,8 @@ module.exports = [
         shareOfShippingPercent: "50",
       },
     ],
-    source: "Lone Star Candle Supply",
+    supplierName: "Lone Star Candle Supply",
+    supplierId: 2,
     subtotalCost: "38.90",
     shippingCost: "7.92",
     taxesAndFees: "3.86",
@@ -6536,7 +6600,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Wassail",
         weightOunces: "1",
         remaining: "1",
@@ -6546,7 +6610,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Sweet Orange and Sriracha",
         weightOunces: "1",
         remaining: "1",
@@ -6555,7 +6619,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Watermint and Clementine",
         weightOunces: "1",
         remaining: "1",
@@ -6564,7 +6628,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Hemp",
         weightOunces: "1",
         remaining: "1",
@@ -6573,7 +6637,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Sea Minerals",
         weightOunces: "1",
         remaining: "1",
@@ -6582,7 +6646,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "High Tide",
         weightOunces: "1",
         remaining: "1",
@@ -6591,7 +6655,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Rose Petal Gelato",
         weightOunces: "1",
         remaining: "1",
@@ -6600,7 +6664,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Honeysuckle Jasmine",
         weightOunces: "1",
         remaining: "1",
@@ -6621,7 +6685,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Mediterranean Fig",
         weightOunces: "16",
         remaining: "16",
@@ -6629,8 +6693,10 @@ module.exports = [
         shareOfShippingPercent: "50",
       },
     ],
-    source: "Candle Science",
+    supplierName: "CandleScience",
     subtotalCost: "33.99",
+    supplierId: 1,
+
     shippingCost: "10.42",
     taxesAndFees: "3.66",
     totalCost: "48.07",
@@ -6640,7 +6706,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Blackstrap Molasses Type",
         weightOunces: "1",
         remaining: "1",
@@ -6650,7 +6716,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Black Sea",
         weightOunces: "1",
         remaining: "1",
@@ -6659,7 +6725,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Black Cherry",
         weightOunces: "1",
         remaining: "1",
@@ -6668,7 +6734,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Black Ice Type",
         weightOunces: "1",
         remaining: "1",
@@ -6677,7 +6743,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Light Lager",
         weightOunces: "1",
         remaining: "1",
@@ -6686,7 +6752,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Banana",
         weightOunces: "1",
         remaining: "1",
@@ -6695,7 +6761,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Carrot Cake",
         weightOunces: "1",
         remaining: "1",
@@ -6704,7 +6770,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Chocolate",
         weightOunces: "1",
         remaining: "1",
@@ -6714,7 +6780,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Cinnamon Stick",
         weightOunces: "1",
         remaining: "1",
@@ -6724,7 +6790,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Cozy Cabin",
         weightOunces: "1",
         remaining: "1",
@@ -6733,7 +6799,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Cozy Flannel",
         weightOunces: "1",
         remaining: "1",
@@ -6742,7 +6808,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Egyptian Musk",
         weightOunces: "1",
         remaining: "1",
@@ -6751,7 +6817,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Leather",
         weightOunces: "1",
         remaining: "1",
@@ -6760,7 +6826,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Sour Patch Kids Type",
         weightOunces: "1",
         remaining: "1",
@@ -6769,7 +6835,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Winter BBW Type",
         weightOunces: "1",
         remaining: "1",
@@ -6778,7 +6844,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Pumpkin Spice",
         weightOunces: "1",
         remaining: "1",
@@ -6787,7 +6853,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Rosemary Pepper",
         weightOunces: "32",
         remaining: "32",
@@ -6796,7 +6862,8 @@ module.exports = [
         notes: "Part of the spring sale",
       },
     ],
-    source: "Aztec Candle & Soap Supplies",
+    supplierName: "Aztec Candle & Soap Supplies",
+    supplierId: 22,
     subtotalCost: "35.21",
     shippingCost: "8.40",
     taxesAndFees: "0",
@@ -6807,7 +6874,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Amber and Driftwood",
         weightOunces: "1",
         remaining: "1",
@@ -6817,7 +6884,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Brown Sugar and Fig",
         weightOunces: "1",
         remaining: "1",
@@ -6826,7 +6893,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Cinnamon Buns",
         weightOunces: "1",
         remaining: "1",
@@ -6835,7 +6902,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Cinnamon Chai",
         weightOunces: "1",
         remaining: "1",
@@ -6844,7 +6911,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Nag Champa",
         weightOunces: "1",
         remaining: "1",
@@ -6853,7 +6920,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Pumpkin Pie",
         weightOunces: "1",
         remaining: "1",
@@ -6862,7 +6929,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Sea Minerals",
         weightOunces: "1",
         remaining: "1",
@@ -6871,7 +6938,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Toasted Pumpkin Spice",
         weightOunces: "1",
         remaining: "1",
@@ -6880,7 +6947,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Watermelon",
         weightOunces: "1",
         remaining: "1",
@@ -6889,7 +6956,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "High Tide",
         weightOunces: "1",
         remaining: "1",
@@ -6906,7 +6973,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Cake",
         weightOunces: "1",
         remaining: "1",
@@ -6915,7 +6982,8 @@ module.exports = [
         notes: "Free sample",
       },
     ],
-    source: "CandleScience",
+    supplierName: "CandleScience",
+    supplierId: 1,
     subtotalCost: "28.18",
     shippingCost: "10.42",
     taxesAndFees: "3.18",
@@ -6938,7 +7006,8 @@ module.exports = [
         notes: "Recycled for the 4th or 5th time",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -6949,7 +7018,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Wild Mountain Honey",
         weightOunces: "16",
         remaining: "16",
@@ -6958,7 +7027,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Balsam Clove",
         weightOunces: "1",
         remaining: "1",
@@ -6967,7 +7036,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Cinnamon Stick",
         weightOunces: "1",
         remaining: "1",
@@ -6976,7 +7045,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Strawberry",
         weightOunces: "1",
         remaining: "1",
@@ -6985,7 +7054,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Sweet Orange Chili Pepper",
         weightOunces: "1",
         remaining: "1",
@@ -6993,7 +7062,8 @@ module.exports = [
         shareOfShippingPercent: "12.5",
       },
     ],
-    source: "Fillmore Container",
+    supplierName: "Fillmore Container",
+    supplierId: 17,
     subtotalCost: "32",
     shippingCost: "16.89",
     taxesAndFees: "0",
@@ -7030,7 +7100,8 @@ module.exports = [
         notes: "recycled from test candles each used 3-4 times",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -7075,7 +7146,8 @@ module.exports = [
         notes: "",
       },
     ],
-    source: "California Candle Supply",
+    supplierName: "California Candle Supply",
+    supplierId: 20,
     subtotalCost: "49.62",
     shippingCost: "43.70",
     taxesAndFees: "0",
@@ -7106,7 +7178,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Oud",
         weightOunces: "4",
         remaining: "4",
@@ -7114,7 +7186,8 @@ module.exports = [
         shareOfShippingPercent: "4",
       },
     ],
-    source: "California Candle Supply",
+    supplierName: "California Candle Supply",
+    supplierId: 20,
     subtotalCost: "93.04",
     shippingCost: "36.98",
     taxesAndFees: "0",
@@ -7125,7 +7198,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Root Beer",
         weightOunces: "16",
         remaining: "16",
@@ -7134,7 +7207,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "French Vanilla",
         weightOunces: "16",
         remaining: "16",
@@ -7143,7 +7216,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Wild Mountain Honey",
         weightOunces: "16",
         remaining: "16",
@@ -7151,7 +7224,8 @@ module.exports = [
         shareOfShippingPercent: "33.3",
       },
     ],
-    source: "Fillmore Container",
+    supplierName: "Fillmore Container",
+    supplierId: 17,
     subtotalCost: "51.00",
     shippingCost: "13.67",
     taxesAndFees: "0",
@@ -7162,7 +7236,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Cocoa Butter Cashmere",
         weightOunces: "8",
         remaining: "8",
@@ -7171,7 +7245,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: " Palo Santo Patchouli",
         weightOunces: "8",
         remaining: "8",
@@ -7201,7 +7275,8 @@ module.exports = [
         shareOfShippingPercent: "17",
       },
     ],
-    source: "The Flaming Candle",
+    supplierName: "The Flaming Candle",
+    supplierId: 3,
     subtotalCost: "41.46",
     shippingCost: "8.85",
     taxesAndFees: "0",
@@ -7212,7 +7287,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Cotton and Iris",
         weightOunces: "1",
         remaining: "1",
@@ -7222,7 +7297,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Cedarwood Blanc",
         weightOunces: "4",
         remaining: "4",
@@ -7231,7 +7306,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "spice",
+        categoryId: "4",
         name: "Spiced Honey and Tonka",
         weightOunces: "4",
         remaining: "4",
@@ -7240,7 +7315,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Black Amber and Plum",
         weightOunces: "4",
         remaining: "4",
@@ -7249,7 +7324,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "other",
+        categoryId: 5,
         name: "Nag Champa",
         weightOunces: "16",
         remaining: "16",
@@ -7281,7 +7356,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Fig Tree",
         weightOunces: "16",
         remaining: "16",
@@ -7289,7 +7364,8 @@ module.exports = [
         shareOfShippingPercent: "25",
       },
     ],
-    source: "CandleScience",
+    supplierName: "CandleScience",
+    supplierId: 1,
     subtotalCost: "101.35",
     shippingCost: "26.19",
     taxesAndFees: "10.52",
@@ -7300,7 +7376,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Vanilla Pumpkin Marshmallow",
         weightOunces: "1",
         remaining: "1",
@@ -7309,7 +7385,8 @@ module.exports = [
         notes: "Free sample from previous order, wasn't itemized",
       },
     ],
-    source: "The Flaming Candle",
+    supplierName: "The Flaming Candle",
+    supplierId: 3,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -7331,7 +7408,7 @@ module.exports = [
         notes: "from a Facebook coconut wax group",
       },
     ],
-    source: "Teri Brown",
+    supplierName: "Teri Brown",
     subtotalCost: "18.50",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -7559,7 +7636,8 @@ module.exports = [
         notes: "Part of 4 sample sets combined into one package",
       },
     ],
-    source: "Bitter Creek Candle Supply, Inc",
+    supplierName: "Bitter Creek Candle Supply",
+    supplierId: 21,
     subtotalCost: "96.90",
     shippingCost: "15.94",
     taxesAndFees: "0",
@@ -7596,7 +7674,8 @@ module.exports = [
         notes: "Recycled for the 5th time",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -7606,7 +7685,7 @@ module.exports = [
     openDate: "2020-06-16",
     items: [
       {
-        category: "other",
+        categoryId: 5,
         type: "fragrance-oil",
         name: "Nag Champa",
         weightOunces: "16",
@@ -7615,7 +7694,7 @@ module.exports = [
         shareOfShippingPercent: "19",
       },
       {
-        category: "earthy",
+        categoryId: 1,
         type: "fragrance-oil",
         name: "Black Amber and Plum",
         weightOunces: "16",
@@ -7624,7 +7703,7 @@ module.exports = [
         shareOfShippingPercent: "19",
       },
       {
-        category: "earthy",
+        categoryId: 1,
         type: "fragrance-oil",
         name: "Black Amber and Plum",
         weightOunces: "16",
@@ -7633,7 +7712,7 @@ module.exports = [
         shareOfShippingPercent: "19",
       },
       {
-        category: "food-and-drink",
+        categoryId: 2,
         type: "fragrance-oil",
         name: "Very Vanilla",
         weightOunces: "16",
@@ -7642,7 +7721,7 @@ module.exports = [
         shareOfShippingPercent: "19",
       },
       {
-        category: "earthy",
+        categoryId: 1,
         type: "fragrance-oil",
         name: "Caribbean Teakwood",
         weightOunces: "16",
@@ -7651,7 +7730,7 @@ module.exports = [
         shareOfShippingPercent: "19",
       },
       {
-        category: "food-and-drink",
+        categoryId: 2,
         type: "fragrance-oil",
         name: "Cranberry Woods",
         weightOunces: "1",
@@ -7660,7 +7739,8 @@ module.exports = [
         shareOfShippingPercent: "5",
       },
     ],
-    source: "CandleScience",
+    supplierName: "CandleScience",
+    supplierId: 1,
     subtotalCost: "103.54",
     shippingCost: "16.72",
     taxesAndFees: "9.92",
@@ -7686,7 +7766,8 @@ module.exports = [
         shareOfShippingPercent: "50",
       },
     ],
-    source: "The Flaming Candle",
+    supplierName: "The Flaming Candle",
+    supplierId: 3,
     subtotalCost: "7.98",
     shippingCost: "8.85",
     taxesAndFees: "0",
@@ -7706,7 +7787,7 @@ module.exports = [
         notes: "",
       },
     ],
-    source: "Swans Candles",
+    supplierName: "Swans Candles",
     subtotalCost: "57.90",
     shippingCost: "19.95",
     totalCost: "77.85",
@@ -7739,7 +7820,8 @@ module.exports = [
         shareOfShippingPercent: "0",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -7750,7 +7832,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Bergamot",
         weightOunces: "16",
         remaining: "16",
@@ -7759,7 +7841,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Bergamot",
         weightOunces: "16",
         remaining: "16",
@@ -7768,7 +7850,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Black Cherry",
         weightOunces: "16",
         remaining: "16",
@@ -7776,7 +7858,8 @@ module.exports = [
         shareOfShippingPercent: "33",
       },
     ],
-    source: "Lone Star Candle Supply",
+    supplierName: "Lone Star Candle Supply",
+    supplierId: 2,
     subtotalCost: "53.85",
     shippingCost: "7.92",
     taxesAndFees: "5.10",
@@ -7804,7 +7887,8 @@ module.exports = [
         shareOfShippingPercent: "50",
       },
     ],
-    source: "California Candle Supply",
+    supplierName: "California Candle Supply",
+    supplierId: 20,
     subtotalCost: "41.49",
     shippingCost: "21.30",
     taxesAndFees: "0",
@@ -7840,7 +7924,8 @@ module.exports = [
         notes: "Some recycled several times, most for the first time",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -7881,7 +7966,8 @@ module.exports = [
         shareOfShippingPercent: "10",
       },
     ],
-    source: "The Flaming Candle",
+    supplierName: "The Flaming Candle",
+    supplierId: 3,
     subtotalCost: "24.97",
     shippingCost: "16.45",
     taxesAndFees: "0",
@@ -7916,7 +8002,8 @@ module.exports = [
         shareOfShippingPercent: "50",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     shippingCost: "0",
     taxesAndFees: "0",
@@ -7948,7 +8035,8 @@ module.exports = [
         shareOfShippingPercent: "50",
       },
     ],
-    source: "Fillmore Container",
+    supplierName: "Fillmore Container",
+    supplierId: 17,
     subtotalCost: "16.60",
     shippingCost: "16.62",
     taxesAndFees: "0",
@@ -7959,7 +8047,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Creme Brulee",
         weightOunces: "1",
         remaining: "1",
@@ -7969,7 +8057,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "earthy",
+        categoryId: 1,
         name: "Fig Tree",
         weightOunces: "16",
         remaining: "16",
@@ -7978,7 +8066,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Black Currant and Jasmine",
         weightOunces: "4",
         remaining: "4",
@@ -7987,7 +8075,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Citrus Agave",
         weightOunces: "4",
         remaining: "4",
@@ -7996,7 +8084,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "flowers-and-herbs",
+        categoryId: 3,
         name: "Calla Lilly",
         weightOunces: "4",
         remaining: "4",
@@ -8037,7 +8125,8 @@ module.exports = [
         shareOfShippingPercent: "8",
       },
     ],
-    source: "CandleScience",
+    supplierName: "CandleScience",
+    supplierId: 1,
     subtotalCost: "71.27",
     shippingCost: "10.42",
     taxesAndFees: "6.74",
@@ -8092,7 +8181,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Tobacco Caramel",
         weightOunces: "8",
         remaining: "8",
@@ -8101,7 +8190,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        category: "food-and-drink",
+        categoryId: 2,
         name: "Caramel Pumpkin Swirl",
         weightOunces: "1",
         remaining: "1",
@@ -8109,7 +8198,8 @@ module.exports = [
         shareOfShippingPercent: "4",
       },
     ],
-    source: "The Flaming Candle",
+    supplierName: "The Flaming Candle",
+    supplierId: 3,
     subtotalCost: "58.25",
     shippingCost: "20.95",
     totalCost: "79.20",
@@ -8132,7 +8222,7 @@ module.exports = [
         diameterInches: "2.875",
       },
     ],
-    source: "Sixteen Seventeen",
+    supplierName: "Sixteen Seventeen",
     subtotalCost: "23.40",
     shippingCost: "12.39",
     taxesAndFees: "0",
@@ -8201,7 +8291,7 @@ module.exports = [
         overflowVolumeOunces: "8.50",
       },
     ],
-    source: "Glassnow",
+    supplierName: "Glassnow",
     subtotalCost: "23.16",
     taxesAndFees: "2.97",
     shippingCost: "12.88",
@@ -8301,11 +8391,182 @@ module.exports = [
         overflowVolumeOunces: "8.50",
       },
     ],
-    source: "Recycled",
+    supplierName: "Recycled",
+    supplierId: 15,
     subtotalCost: "0",
     taxesAndFees: "0",
     shippingCost: "0",
     totalCost: "0",
   },
-  {"openDate":"2020-08-31","items":[{"type":"jars","name":"16oz Lexington Clear","waxToFillLineOunces":"12.50","waxToOverflowOunces":"","overflowVolumeOunces":"16","diameterInches":"3.50","color":"clear","count":"12","remaining":"12","price":"27.68","shareOfShippingPercent":"55"},{"type":"jars","name":"8.5oz Heavy Votive Clear","waxToFillLineOunces":"6.75","overflowVolumeOunces":"8.50","diameterInches":"2.75","color":"clear","count":"12","remaining":"12","price":"26.68","shareOfShippingPercent":"45"}],"source":"Glassnow","subtotalCost":"54.36","shippingCost":"14.38","taxesAndFees":"5.67","totalCost":"74.41"}
+  {
+    openDate: "2020-08-31",
+    items: [
+      {
+        type: "jars",
+        name: "16oz Lexington Clear",
+        waxToFillLineOunces: "12.50",
+        waxToOverflowOunces: "",
+        overflowVolumeOunces: "16",
+        diameterInches: "3.50",
+        color: "clear",
+        count: "12",
+        remaining: "12",
+        price: "27.68",
+        shareOfShippingPercent: "55",
+      },
+      {
+        type: "jars",
+        name: "8.5oz Heavy Votive Clear",
+        waxToFillLineOunces: "6.75",
+        overflowVolumeOunces: "8.50",
+        diameterInches: "2.75",
+        color: "clear",
+        count: "12",
+        remaining: "12",
+        price: "26.68",
+        shareOfShippingPercent: "45",
+      },
+    ],
+    supplierName: "Glassnow",
+    supplierId: 27,
+    subtotalCost: "54.36",
+    shippingCost: "14.38",
+    taxesAndFees: "5.67",
+    totalCost: "74.41",
+  },
+  {
+    openDate: "2020-09-04",
+    items: [
+      {
+        type: "jars",
+        name: "8.5oz Heavy Votive Clear",
+        waxToFillLineOunces: "6.75",
+        waxToOverflowOunces: "",
+        overflowVolumeOunces: "8.50",
+        diameterInches: "2.75",
+        color: "clear",
+        count: "7",
+        remaining: "7",
+        price: "0",
+        shareOfShippingPercent: "100",
+        notes: "Recycled testers",
+      },
+    ],
+    supplierName: "Recycled",
+    supplierId: 15,
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0",
+  },
+  {
+    openDate: "2020-09-05",
+    items: [
+      {
+        type: "jars",
+        name: "16oz Lexington Clear",
+        waxToFillLineOunces: "12.50",
+        waxToOverflowOunces: "",
+        overflowVolumeOunces: "16",
+        diameterInches: "3.50",
+        color: "clear",
+        count: "4",
+        remaining: "4",
+        price: "27.68",
+        shareOfShippingPercent: "55",
+        notes: "Recycled testers",
+      },
+    ],
+    supplierName: "Recycled",
+    supplierId: 15,
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0",
+  },
+  {
+    openDate: "2020-09-06",
+    items: [
+      {
+        type: "additives",
+        name: "Stearic Acid",
+        weightOunces: "80",
+        remaining: "80",
+        price: "9.95",
+        shareOfShippingPercent: "50",
+      },
+      {
+        type: "wicks",
+        name: 'CD-12 6" Pre-tabbed',
+        length: "6",
+        count: "50",
+        remaining: "50",
+        series: "CD",
+        size: "12",
+        price: "4.75",
+        shareOfShippingPercent: "17",
+      },
+      {
+        type: "wicks",
+        name: 'HTP-52 6" Pre-tabbed',
+        length: "6",
+        count: "50",
+        remaining: "50",
+        series: "HTP",
+        size: "52",
+        price: "4.75",
+        shareOfShippingPercent: "17",
+      },
+      {
+        type: "wicks",
+        name: 'HTP-62 6" Pre-tabbed',
+        length: "6",
+        count: "50",
+        remaining: "50",
+        series: "HTP",
+        size: "62",
+        price: "4.75",
+        shareOfShippingPercent: "17",
+      },
+      {
+        type: "wicks",
+        name: 'HTP-72 6" Pre-tabbed',
+        length: "6",
+        count: "50",
+        remaining: "50",
+        series: "HTP",
+        size: "72",
+        price: "4.75",
+        shareOfShippingPercent: "17",
+      },
+      {
+        type: "wicks",
+        name: 'HTP-83 6" Pre-tabbed',
+        length: "6",
+        count: "50",
+        remaining: "50",
+        series: "HTP",
+        size: "83",
+        price: "4.75",
+        shareOfShippingPercent: "17",
+      },
+      {
+        type: "wicks",
+        name: 'HTP-126 6" Pre-tabbed',
+        length: "6",
+        count: "50",
+        remaining: "50",
+        series: "HTP",
+        size: "126",
+        price: "4.75",
+        shareOfShippingPercent: "17",
+      },
+    ],
+    supplierName: "California Candle Supply",
+    supplierId: 20,
+    subtotalCost: "38.45",
+    shippingCost: "16.20",
+    taxesAndFees: "0",
+    totalCost: "54.65",
+  },
 ];

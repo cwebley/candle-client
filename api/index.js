@@ -5,6 +5,8 @@ const cors = require("cors");
 const connection = require("./database");
 const postSupplyOrder = require("./queries/post-supply-order");
 const getSupplyOrder = require("./queries/get-supply-order");
+const getSuppliers = require("./queries/get-suppliers");
+const getFragranceReferences = require("./queries/get-fragrance-references");
 const createBatch = require("./handlers/create-batch");
 const createCandles = require("./handlers/create-candles");
 const updateCandle = require("./handlers/update-candle");
@@ -23,11 +25,10 @@ app.get("/", (req, res) => {
   res.send("Hello World");
 });
 
-app.route("/fragrance-oil-categories").get(function(req, res, next) {
-  connection.query("SELECT * FROM `fragrance_oil_categories`", function(
+app.route("/fragrance-oil-categories").get(function (req, res, next) {
+  connection.query("SELECT * FROM `fragrance_oil_categories`", function (
     error,
-    results,
-    fields
+    results
   ) {
     if (error) {
       console.error(error);
@@ -36,11 +37,37 @@ app.route("/fragrance-oil-categories").get(function(req, res, next) {
   });
 });
 
-app.route("/resource-types").get(function(req, res, next) {
+app.route("/suppliers").get(function (req, res) {
+  getSuppliers(connection, (err, results) => {
+    if (err) {
+      res.status(500).send({ message: "Internal server error" });
+    }
+    res.status(200).json(results);
+  });
+});
+
+app.route("/fragrance-reference").get(function (req, res) {
+  let opts = {};
+  if (req.query.supplierId) {
+    opts.supplierId = req.query.supplierId.split(",")[0];
+    if (isNaN(opts.supplierId)) {
+      return res.status(400).send({ message: "supplierId must be a number" });
+    }
+  }
+
+  getFragranceReferences(connection, opts, (err, results) => {
+    if (err) {
+      res.status(500).send({ message: "Internal server error" });
+    }
+    res.status(200).json(results);
+  });
+});
+
+app.route("/resource-types").get(function (req, res, next) {
   connection.query(
     "SELECT name, slug, scope FROM `resource_types`",
     req.params.id,
-    function(error, results, fields) {
+    function (error, results, fields) {
       if (error) {
         console.error(error);
       }
@@ -49,7 +76,7 @@ app.route("/resource-types").get(function(req, res, next) {
   );
 });
 
-app.route("/supply-orders").post(function(req, res, next) {
+app.route("/supply-orders").post(function (req, res, next) {
   const orderData = req.body;
   if (!orderData.items) {
     return res.status(400).send({ message: "no items array" });
@@ -75,7 +102,7 @@ app.route("/supply-orders").post(function(req, res, next) {
   });
 });
 
-app.route("/supply-orders/:id").get(function(req, res, next) {
+app.route("/supply-orders/:id").get(function (req, res, next) {
   getSupplyOrder(connection, req.params.id, (err, results) => {
     if (err) {
       res.status(500).send({ message: "Internal server error" });

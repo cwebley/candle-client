@@ -7,6 +7,7 @@ import InputAdornment from "@material-ui/core/InputAdornment";
 import Button from "@material-ui/core/Button";
 import { Add } from "@material-ui/icons";
 
+import Autocomplete from "@material-ui/lab/Autocomplete";
 import FormControl from "@material-ui/core/FormControl";
 import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
@@ -36,78 +37,80 @@ import { withSnackbar } from "notistack";
 
 import axios from "axios";
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {
     ...theme.mixins.gutters(),
     display: "flex",
     flexFlow: "column nowrap",
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
   },
   form: {
     display: "flex",
-    flexFlow: "column nowrap"
+    flexFlow: "column nowrap",
   },
   paper: {
-    padding: theme.spacing(2)
+    padding: theme.spacing(2),
     // display: "flex",
     // justifyContent: "center",
     // flexFlow: "wrap"
   },
   textField: {
-    marginTop: "1em"
+    marginTop: "1em",
   },
   iconButton: {
-    borderRadius: 0
+    borderRadius: 0,
   },
   dialogContent: {
     display: "flex",
-    flexFlow: "column nowrap"
+    flexFlow: "column nowrap",
   },
   heading: {
-    padding: theme.spacing(2)
+    padding: theme.spacing(2),
   },
   orderInfoSection: {
     display: "flex",
     flexFlow: "row wrap",
-    justifyContent: "space-around"
+    justifyContent: "space-around",
   },
   costSection: {
     display: "flex",
     flexFlow: "row wrap",
-    justifyContent: "space-between"
+    justifyContent: "space-between",
   },
   formActions: {
     textAlign: "center",
-    marginTop: theme.spacing(2)
+    marginTop: theme.spacing(2),
   },
   submitButton: {
-    padding: theme.spacing(1)
-  }
+    padding: theme.spacing(1),
+  },
 });
 
 function NewOrder({ history, location, enqueueSnackbar, classes }) {
   const [resourceTypes, setResourceTypes] = useState([]);
   const [fragranceOilCategories, setFragranceOilCategories] = useState([]);
+  const [suppliers, setSuppliers] = useState([]);
+  const [fragranceOptions, setFragranceOptions] = useState([]);
   const [itemDialogOpen, setItemDialogOpen] = useState(false);
 
-  const removeItem = index => {
-    setValues(values => {
+  const removeItem = (index) => {
+    setValues((values) => {
       const newItems = [
         ...values.items.slice(0, index),
-        ...values.items.slice(index + 1)
+        ...values.items.slice(index + 1),
       ];
       return { ...values, items: newItems };
     });
   };
 
-  const editItem = index => {
+  const editItem = (index) => {
     setItemEditIndex(index);
     setNewItemValues(values.items[index]);
     setItemDialogOpen(true);
   };
 
-  const submitOrder = async e => {
+  const submitOrder = async (e) => {
     e.preventDefault();
     console.log("values: ", values);
 
@@ -124,7 +127,7 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
       let data = err.response && err.response.data;
       if (data && data.reasons) {
         if (data.reasons) {
-          data.reasons.forEach(r =>
+          data.reasons.forEach((r) =>
             enqueueSnackbar(r.message, { variant: "error" })
           );
           return;
@@ -139,7 +142,7 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
 
   const [values, setValues] = useState({
     openDate: currentDate(),
-    items: []
+    items: [],
   });
   const [newItemValues, setNewItemValues] = useState({});
   const [defaultNewItemValues, setDefaultNewItemValues] = useState({});
@@ -155,9 +158,9 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
         setResourceTypes(result.data);
         // add a default type to the new item options
         if (result.data[1]) {
-          setDefaultNewItemValues(defaultNewItemValues => ({
+          setDefaultNewItemValues((defaultNewItemValues) => ({
             ...defaultNewItemValues,
-            type: result.data[1].slug
+            type: result.data[1].slug,
           }));
         }
       }
@@ -169,60 +172,121 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
       if (result && result.data) {
         setFragranceOilCategories(result.data);
 
-        // add a default category to the new item options
+        // add a default categoryId to the new item options
         if (result.data[0]) {
-          setDefaultNewItemValues(defaultNewItemValues => ({
+          setDefaultNewItemValues((defaultNewItemValues) => ({
             ...defaultNewItemValues,
-            category: result.data[0].slug
+            categoryId: result.data[0].id,
           }));
         }
       }
     };
+    const fetchSuppliers = async () => {
+      const result = await axios("http://localhost:5000/suppliers");
+      if (result && result.data) {
+        setSuppliers(result.data);
+      }
+    };
     fetchResourceTypes();
     fetchFragranceOilCategories();
+    fetchSuppliers();
   }, []);
+
+  useEffect(() => {
+    if (!values.supplierId) {
+      // if supplierId is falsy, don't do anything
+      return;
+    }
+
+    const fetchFragrancesForSupplier = async () => {
+      const result = await axios(`http://localhost:5000/fragrance-reference?supplierId=${values.supplierId}`);
+      if (result && result.data) {
+        setFragranceOptions(result.data);
+      }
+    };
+
+    fetchFragrancesForSupplier();
+  }, [values.supplierId]);
 
   useEffect(() => {
     // update the new item form with the defaults fetched from the server
     setNewItemValues(defaultNewItemValues);
   }, [defaultNewItemValues]);
 
-  const handleFormValueChange = e => {
+  const handleFormValueChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
-    setValues(values => ({
+    setValues((values) => ({
       ...values,
-      [name]: value
+      [name]: value,
     }));
   };
 
-  const handleNewItemFormValueChange = e => {
+  const handleSupplierNameChange = (e, value, reason, more) => {
+    if (reason === "clear") {
+      setValues((values) => ({
+        ...values,
+        supplierName: "",
+        supplierId: null,
+      }));
+      return;
+    }
+
+    setValues((values) => {
+      const updatedValues = {
+        ...values,
+        supplierName: value.name !== undefined ? value.name : value,
+      };
+      if (value.id) {
+        updatedValues.supplierId = value.id;
+      }
+      return updatedValues;
+    });
+
+    setNewItemValues((values) => {
+      return {
+        ...values,
+        name: value,
+      };
+    });
+  };
+
+  const handleFragranceNameChange = (e, value, reason) => {
+    setNewItemValues((values) => {
+      return {
+        ...values,
+        name: value,
+      };
+    });
+  };
+
+  const handleNewItemFormValueChange = (e, more, moremore) => {
     const name = e.target.name;
     const value = e.target.value;
 
-    setNewItemValues(values => {
-      // remove the default 'category' field if we're NOT adding a new fragrance oil
-      const { category, ...rest } = values;
+    setNewItemValues((values) => {
+      // remove the default 'categoryId' field if we're NOT adding a new fragrance oil
+      const { categoryId, ...rest } = values;
       if (editItemIndex === null && name === "type") {
         if (value !== "fragrance-oil") {
           return {
             ...rest,
-            [name]: value
+            [name]: value,
           };
         }
-        // add the default category back if we ARE adding a fragrance oil
+        // add the default categoryId back if we ARE adding a fragrance oil
         else {
           return {
             ...values,
-            category: defaultNewItemValues.category,
-            [name]: value
+            categoryId: defaultNewItemValues.categoryId,
+            [name]: value,
           };
         }
       }
-      // return all the values INCLUDING the category field plus the newly changed field
+      // return all the values INCLUDING the categoryId field plus the newly changed field
       return {
         ...values,
-        [name]: value
+        [name]: value,
       };
     });
   };
@@ -256,24 +320,24 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
       >
         <DialogTitle id="form-dialog-title">New Item</DialogTitle>
         <form
-          onSubmit={e => {
+          onSubmit={(e) => {
             e.preventDefault();
 
             // if we're editing an exisiting item update array with this item
             if (editItemIndex !== null) {
-              setValues(values => ({
+              setValues((values) => ({
                 ...values,
                 items: [
                   ...values.items.slice(0, editItemIndex),
                   { ...newItemValues },
-                  ...values.items.slice(editItemIndex + 1)
-                ]
+                  ...values.items.slice(editItemIndex + 1),
+                ],
               }));
               // otherwise this is a new item so we can push to the end of the item array
             } else {
-              setValues(values => ({
+              setValues((values) => ({
                 ...values,
-                items: [...values.items, newItemValues]
+                items: [...values.items, newItemValues],
               }));
             }
 
@@ -291,10 +355,10 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
                 onChange={handleNewItemFormValueChange}
                 inputProps={{
                   name: "type",
-                  id: "item-type-selector"
+                  id: "item-type-selector",
                 }}
               >
-                {resourceTypes.map(r => (
+                {resourceTypes.map((r) => (
                   <MenuItem key={r.slug} value={r.slug}>
                     {r.name}
                   </MenuItem>
@@ -305,6 +369,7 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
               <FragranceOilForm
                 newItemValues={newItemValues}
                 onChange={handleNewItemFormValueChange}
+                onComboboxChange={handleFragranceNameChange}
                 categories={fragranceOilCategories}
               />
             )}
@@ -399,23 +464,45 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
               className={classes.textField}
               onChange={handleFormValueChange}
               InputLabelProps={{
-                shrink: true
+                shrink: true,
               }}
               inputProps={{
-                name: "openDate"
+                name: "openDate",
               }}
             />
-            <TextField
+            <Autocomplete
+              autoHighlight
+              autoSelect
+              freeSolo
+              options={suppliers}
+              getOptionLabel={(supplier) => {
+                if (supplier.name) {
+                  return supplier.name;
+                }
+                return supplier;
+              }}
+              value={values.supplierName || ""}
+              style={{ width: 300 }}
+              onChange={handleSupplierNameChange}
+              renderInput={(params) => (
+                <TextField
+                  {...params}
+                  InputProps={{ ...params.InputProps, name: "supplier" }}
+                  label="Supplier"
+                />
+              )}
+            />
+            {/* <TextField
               className={classes.textField}
               label="Source"
               autoFocus
               value={values.source || ""}
               type="text"
               inputProps={{
-                name: "source"
+                name: "source",
               }}
               onChange={handleFormValueChange}
-            />
+            /> */}
           </div>
           <IconButton
             className={classes.iconButton}
@@ -436,7 +523,7 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
             className={classes.textField}
             margin="normal"
             inputProps={{
-              name: "notes"
+              name: "notes",
             }}
             onChange={handleFormValueChange}
           />
@@ -455,8 +542,8 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
                 ),
                 inputProps: {
                   name: "subtotalCost",
-                  step: "0.01"
-                }
+                  step: "0.01",
+                },
               }}
             />
             <TextField
@@ -472,8 +559,8 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
                 ),
                 inputProps: {
                   name: "shippingCost",
-                  step: "0.01"
-                }
+                  step: "0.01",
+                },
               }}
             />
             <TextField
@@ -489,8 +576,8 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
                 ),
                 inputProps: {
                   name: "taxesAndFees",
-                  step: "0.01"
-                }
+                  step: "0.01",
+                },
               }}
             />
             <TextField
@@ -507,8 +594,8 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
                 ),
                 inputProps: {
                   name: "totalCost",
-                  step: "0.01"
-                }
+                  step: "0.01",
+                },
               }}
             />
           </div>

@@ -49,7 +49,6 @@ function BatchItemDialog({
 
   const getWeightPlaceholder = () => {
     let weightSuggestionValue = 0;
-    let weightSuggestionString = "";
 
     if (values.type === "wax") {
       weightSuggestionValue = waxWeightSuggestion;
