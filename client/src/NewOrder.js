@@ -292,12 +292,12 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
   };
 
   const calculateSubtotal = () => {
-    const asdf = values.items
+    const subtotal = values.items
       .reduce((sum, item) => (sum += parseFloat(item.price)), 0)
       .toFixed(2);
-    console.log("CALC SUB: ", asdf);
+    console.log("CALC SUB: ", subtotal);
 
-    return asdf;
+    return subtotal;
   };
 
   const calculateTotalCost = () => {

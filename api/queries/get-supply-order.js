@@ -4,11 +4,13 @@ const slug = require("slug");
 module.exports = function getSupplyOrder(db, orderId, cb) {
   const sql = `
     SELECT
-      so.id, so.hash_id AS "hashId", so.source, FORMAT(so.subtotal_cost, 2) AS "subtotalCost",
+      so.id, so.hash_id AS "hashId", so.supplier_id AS "supplierId", sr.name AS "supplierName",
+      FORMAT(so.subtotal_cost, 2) AS "subtotalCost",
       FORMAT(so.taxes_and_fees, 2) AS "taxesAndFees", FORMAT(so.shipping_cost, 2) AS "shippingCost",
       FORMAT(so.total_cost, 2) AS "totalCost", so.open_date AS "openDate", so.notes
     FROM supply_orders so
-    WHERE id = ?
+    JOIN supplier_reference sr ON so.supplier_id = sr.id
+    WHERE so.id = ?
   `;
 
   const params = [orderId];
@@ -65,12 +67,14 @@ module.exports = function getSupplyOrder(db, orderId, cb) {
 function getFragranceOils(db, orderId, cb) {
   const sql = `
     SELECT
-      fo.hash_id AS "hashId", fo.name, fo.slug, fo.category_id as "categoryId",
+      fo.hash_id AS "hashId", fo.reference_id AS "referenceId",
+      fr.name, fr.slug, fr.category_id as "categoryId",
       fo.weight_ounces AS "weightOunces", fo.remaining, FORMAT(fo.price, 2) AS "price",
       fo.share_of_shipping_percent AS "shareOfShippingPercent", fo.notes,
       foc.name AS "categoryName", foc.color AS "categoryColor"
     FROM fragrance_oils fo
-    LEFT JOIN fragrance_oil_categories foc ON foc.id = fo.category_id
+    LEFT JOIN fragrance_reference fr ON fo.reference_id = fr.id
+    LEFT JOIN fragrance_oil_categories foc ON foc.id = fr.category_id
     WHERE fo.order_id = ?
   `;
 

@@ -181,30 +181,40 @@ function insertFragranceOils(
     return cb();
   }
 
-  // all the fragrances without a referenceId are new
-  const newFragrances = data.filter((d) => !data.referenceId);
+  const newFragrances = data
+    // add the index to the object so we can update the referenceId of new-fragrances idea without looping again later
+    .map((d, index) => ({ ...d, index }))
+    // all the fragrances without a referenceId are new
+    .filter((d) => !d.referenceId);
 
   // fragrances with a referenceId already have their basic details indexed
-  const existingFragrances = data.filter((d) => !!data.referenceId);
+  const existingFragrances = data.filter((d) => !!d.referenceId);
 
   insertFragranceReferences(
     db,
     { data: newFragrances, supplierId },
     (err, fragranceRefResult) => {
-      console.log("fragrance ref result: ", fragranceRefResult);
       if (err) {
         return cb(err);
       }
 
-      // the insertId for each of the new fragranceReferences is
-      // also the `referenceId` for the fragrances
-      for (let i = 0; i < fragranceRefResult.affectedRows; i++) {
-        newFragrances[i].referenceId = fragranceRefResult.insertId + i;
+      console.log("Existing: ", existingFragrances);
+      console.log("NEW: ", newFragrances);
+
+      if (fragranceRefResult) {
+        // the insertId for each of the new fragranceReferences is
+        // also the `referenceId` for the fragrances
+        for (let i = 0; i < fragranceRefResult.affectedRows; i++) {
+          // this is a little ugly, but we want to preserve the input order of the original form submission
+          // to keep hash_ids consistent on re-runs. we've saved the original input index on the `data`,
+          // which the `newFragrances` array is a subset of. so we can now update the original data
+          // with the new referenceId.
+          data[newFragrances[i].index].referenceId =
+            fragranceRefResult.insertId + i;
+        }
       }
 
-      console.log("new frags before being added: ", newFragrances);
-
-      const rowData = newFragrances
+      const rowData = data
         .concat(existingFragrances)
         .map((d) => [
           d.referenceId,
@@ -271,24 +281,27 @@ function insertFragranceOils(
 
 function insertFragranceReferences(db, { data, supplierId }, cb) {
   if (!data.length) {
+    console.log("NO NEW FRAGS");
     return cb();
   }
 
-  const rowData = data.map((d) => [
-    d.name,
-    slug(d.name, { lower: true }),
-    d.categoryId,
-    supplierId,
-    d.productUrl,
-    d.msdsUrl,
-    d.ifraUrl,
-    d.allerginUrl,
-    d.flashpointTemperatureFahrenheit,
-    d.specificGravity,
-    d.vanillinPercentage,
-    d.ethylVanillinPercentage,
-    d.notes,
-  ]);
+  const rowData = data.map((d) => {
+    return [
+      d.name,
+      slug(d.name, { lower: true }),
+      d.categoryId,
+      supplierId,
+      d.productUrl,
+      d.msdsUrl,
+      d.ifraUrl,
+      d.allerginUrl,
+      d.flashpointTemperatureFahrenheit,
+      d.specificGravity,
+      d.vanillinPercentage,
+      d.ethylVanillinPercentage,
+      d.notes,
+    ];
+  });
 
   params = [rowData];
 

@@ -200,6 +200,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Antique Sandalwood",
+        productUrl:
+          "https://www.candlescience.com/fragrance/antique-sandalwood-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/14hovoInCWl7FwRIqpw3LRqIwYVap9MTn/view",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "208",
         weightOunces: "1",
         remaining: "0.7",
         price: "2.41",
@@ -209,6 +216,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Black Currant Tea",
+        productUrl:
+          "https://www.candlescience.com/fragrance/black-currant-tea-fragrance-oil",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Black_Currant_Tea_IFRA_Sheet.pdf",
+        vanillinPercentage: "5",
+        ethylVanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "212",
         weightOunces: "1",
         remaining: "0.2",
         price: "2.41",
@@ -217,7 +231,13 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 1,
-        name: "Egyptian Amber",
+        name: "Egyptian Amber V1",
+        productUrl:
+          "https://www.candlescience.com/fragrance/egyptian-amber-fragrance-oil-v1",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Egyptian-Amber-IFRA-Sheet.pdf",
+        vanillinPercentage: "0.01",
+        flashpointTemperatureFahrenheit: "212",
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
@@ -226,7 +246,13 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 2,
-        name: "Very Vanilla",
+        name: "Very Vanilla V1",
+        productUrl:
+          "https://www.candlescience.com/fragrance/very-vanilla-fragrance-oil-v1",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Very%20Vanilla%20IFRA.pdf",
+        vanillinPercentage: "5",
+        flashpointTemperatureFahrenheit: "212",
         weightOunces: "1",
         remaining: "0.5",
         price: "2.41",
@@ -235,7 +261,14 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 2,
-        name: "Caramelized Pralines",
+        name: "Caramelized Pralines V1",
+        productUrl:
+          "https://www.candlescience.com/fragrance/caramelized-pralines-fragrance-oil-v1",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Caramelized-Pralines-IFRA-Sheet.pdf",
+        vanillinPercentage: "0.01",
+        ethylVanillinPercentage: "5",
+        flashpointTemperatureFahrenheit: "201",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -245,6 +278,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Fraser Fir",
+        productUrl:
+          "https://www.candlescience.com/fragrance/fraser-fir-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1c55wLJvXnRaE6bDBvhy8CLsLsgRD-sGF/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/13jrZEYS9kn6rcMgrdZh7B9TdbbKJCpts/view?usp=sharing",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
+        specificGravity: "1.00019",
+        flashpointTemperatureFahrenheit: "187",
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
@@ -253,7 +296,13 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 2,
-        name: "Apples and Maple Bourbon",
+        name: "Apples and Maple Bourbon V1",
+        productUrl:
+          "https://www.candlescience.com/fragrance/apples-maple-bourbon-fragrance-oil-v1",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Apple_and_Maple_Bourbon_IFRA%20Sheet.pdf",
+        vanillinPercentage: "2.01",
+        flashpointTemperatureFahrenheit: "169",
         weightOunces: "1",
         remaining: "0.5",
         price: "2.41",
@@ -262,7 +311,13 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 2,
-        name: "Cinnamon Chai",
+        name: "Cinnamon Chai V1",
+        productUrl:
+          "https://www.candlescience.com/fragrance/cinnamon-chai-fragrance-oil-v1",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Cinnamon_Chai_IFRA_Sheet.pdf",
+        vanillinPercentage: "5",
+        flashpointTemperatureFahrenheit: "212",
         weightOunces: "1",
         remaining: "0.5",
         price: "2.41",
@@ -272,6 +327,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Garden Mint",
+        productUrl:
+          "https://www.candlescience.com/fragrance/garden-mint-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1xJFp49ROW7L4beJUUKw9Z6Mi4iddglqo/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1chBWcLt19WksEYEsm20PrjrAtsduCJ3A/view?usp=sharing",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "190",
         weightOunces: "1",
         remaining: "0.5",
         price: "2.41",
@@ -280,7 +343,13 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 1,
-        name: "Frankincense and Myrrh",
+        name: "Frankincense and Myrrh V1",
+        productUrl:
+          "https://www.candlescience.com/fragrance/frankincense-and-myrrh-fragrance-oil-v1",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Frankincense%20and%20Myrrh%20IFRA.pdf",
+        vanillinPercentage: "5",
+        flashpointTemperatureFahrenheit: "165",
         weightOunces: "1",
         remaining: "0",
         price: "0",
@@ -290,8 +359,14 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 3,
-        name: "Honeysuckle Jasmine",
-        weightOunces: "0.5",
+        name: "Honeysuckle Jasmine V1",
+        productUrl:
+          "https://www.candlescience.com/fragrance/honeysuckle-jasmine-fragrance-oil-v1",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Honeysuckle%20Jasmine%20IFRA.pdf",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "199",
+        weightOunces: "1",
         remaining: "0",
         price: "0",
         shareOfShippingPercent: "2.25",
@@ -389,8 +464,7 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        categoryId: 1,
-        name: "Frankincense and Myrrh",
+        referenceId: "10",
         weightOunces: "4",
         remaining: "2",
         price: "8.50",
@@ -400,6 +474,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Coriander and Tonka",
+        productUrl:
+          "https://www.candlescience.com/fragrance/coriander-and-tonka-fragrance-oil",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Coriander%20and%20Tonka%20IFRA.pdf",
+        vanillinPercentage: "2.01",
+        flashpointTemperatureFahrenheit: "212",
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
@@ -409,6 +489,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Grapefruit and Mint",
+        productUrl:
+          "https://www.candlescience.com/fragrance/grapefruit-and-mint-fragrance-oil",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Grapefruit%20and%20Mint%20IFRA.pdf",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "192",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -418,6 +504,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Rain Water",
+        productUrl:
+          "https://www.candlescience.com/fragrance/rain-water-fragrance-oil-v1",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Rain-Water-IFRA-Sheet.pdf",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "210",
         weightOunces: "1",
         remaining: "0.5",
         price: "2.41",
@@ -427,6 +519,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Sea Salt and Orchid",
+        productUrl:
+          "https://www.candlescience.com/fragrance/sea-salt-and-orchid-fragrance-oil",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Sea-Salt-Orchid-IFRA-Sheet.pdf",
+        vanillinPercentage: "0.01",
+        flashpointTemperatureFahrenheit: "212",
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
@@ -437,6 +535,11 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Lavender",
+        productUrl:
+          "https://www.candlescience.com/fragrance/lavender-fragrance-oil",
+        ifraUrl: "https://dpoy1j4zladj1.cloudfront.net/Lavender%20IFRA.pdf",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "172",
         weightOunces: "1",
         remaining: "0.1",
         price: "2.41",
@@ -601,6 +704,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Sandalwood",
+        productUrl:
+          "https://www.candlescience.com/fragrance/sandalwood-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1WmFUo9KSA8hlBkitweC1tHDf1yrhj2CH/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1zMs6JO_fsBCgU_IFZc_Xg0pOl1to38DG/view?usp=sharing",
+        specificGravity: "0.87142",
+        flashpointTemperatureFahrenheit: "225",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "0.4",
         price: "2.41",
@@ -608,8 +720,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: "4",
-        name: "Coriander and Tonka",
+        referenceId: "12",
         weightOunces: "4",
         remaining: "4",
         price: "8.5",
@@ -619,6 +730,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Tomato Leaf",
+        productUrl:
+          "https://www.candlescience.com/fragrance/tomato-leaf-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/12IrtAsxT4L2MzymZWUwsO_cABnC6YCsG/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1mDoEaIWyRZnLqh1JUENcxd_mG9TqzLcG/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "199",
+        specificGravity: "1.0410",
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
@@ -628,6 +747,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Blue Spruce",
+        productUrl:
+          "https://www.candlescience.com/fragrance/blue-spruce-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1zQfN-WJyxmQ6wqvOadPC1efl2tz6I5Uh/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "179",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "0",
         price: "0",
@@ -649,6 +774,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Cedarwood Vanilla",
+        productUrl:
+          "https://www.candlescience.com/fragrance/cedarwood-vanilla-fragrance-oil",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Cedarwood%20Vanilla%20IFRA.pdf",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "212",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -658,6 +789,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Fireside",
+        productUrl:
+          "https://www.candlescience.com/fragrance/fireside-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1RD1M3v2SgdQ1nQughYzKvK4oagdsrlFm/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1Y6y90HenY72Y4dwt25zFdPHcrghmpPHB/view?usp=sharing",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "225",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
@@ -666,7 +806,13 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 2,
-        name: "Hazelnut Coffee",
+        name: "Hazelnut Coffee V1",
+        productUrl:
+          "https://www.candlescience.com/fragrance/hazelnut-coffee-fragrance-oil-v1",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Hazelnut-Coffee-IFRA-Sheet.pdf",
+        vanillinPercentage: "0.01",
+        flashpointTemperatureFahrenheit: "152",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -676,6 +822,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Orange Blossom",
+        productUrl:
+          "https://www.candlescience.com/fragrance/orange-blossom-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1HyMkjkfcXA9Xd2UuAB9MkPGkg225kKgB/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1LXjvmlXkCuv8_REk3Oha7dWbJCV6KDfN/view?usp=sharing",
+        specificGravity: "0.9300",
+        flashpointTemperatureFahrenheit: "212",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "0.6",
         price: "2.41",
@@ -685,6 +841,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Cool Citrus Basil",
+        productUrl:
+          "https://www.candlescience.com/fragrance/cool-citrus-basil-fragrance-oil",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Cool%20Citrus%20Basil%20IFRA.pdf",
+        flashpointTemperatureFahrenheit: "210",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -693,7 +855,13 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 3,
-        name: "Peppermint and Eucalyptus",
+        name: "Peppermint and Eucalyptus V1",
+        productUrl:
+          "https://www.candlescience.com/fragrance/peppermint-eucalyptus-fragrance-oil-v1",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Peppermint-and-Eucalyptus-IFRA-Sheet.pdf",
+        flashpointTemperatureFahrenheit: "189",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -703,6 +871,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Vetiver",
+        productUrl:
+          "https://www.candlescience.com/fragrance/vetiver-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1sbZeeVl2YbqwQXTbfkU7Un37PoSLCG45/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1zaa1SGl12jNMX-bae-q3wF5URtvO4EDp/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "169",
+        vanillinPercentage: "0",
+        specificGravity: "0.89139",
         weightOunces: "1",
         remaining: "0.6",
         price: "2.41",
@@ -711,7 +888,13 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: "4",
-        name: "Red Ginger Saffron",
+        name: "Red Ginger Saffron V1",
+        productUrl:
+          "https://www.candlescience.com/fragrance/red-ginger-saffron-fragrance-oil-v1",
+        flashpointTemperatureFahrenheit: "225",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Red_Ginger_Saffron_IFRA_Sheet.pdf",
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
@@ -721,6 +904,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Himalayan Bamboo",
+        productUrl:
+          "https://www.candlescience.com/fragrance/himalayan-bamboo-fragrance-oil",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Himalayan%20Bamboo%20IFRA.pdf",
+        flashpointTemperatureFahrenheit: "207",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "0.7",
         price: "2.41",
@@ -729,7 +918,13 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 1,
-        name: "Oakmoss and Amber",
+        name: "Oakmoss and Amber V1",
+        productUrl:
+          "https://www.candlescience.com/fragrance/oakmoss-and-amber-fragrance-oil-v1",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "212",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Oakmoss-and-Amber-IFRA-Sheet.pdf",
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
@@ -739,6 +934,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Caribbean Teakwood",
+        productUrl:
+          "https://www.candlescience.com/fragrance/caribbean-teakwood-fragrance-oil",
+        flashpointTemperatureFahrenheit: "212",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Caribbean-Teakwood-IFRA-Sheet.pdf",
         weightOunces: "1",
         remaining: "0.6",
         price: "2.41",
@@ -748,6 +949,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Amber Noir",
+        productUrl:
+          "https://www.candlescience.com/fragrance/amber-noir-fragrance-oil",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Amber%20Noir%20IFRA%20Sheet.pdf",
+        vanillinPercentage: "0.01",
+        flashpointTemperatureFahrenheit: "225",
         weightOunces: "1",
         remaining: "0.4",
         price: "2.41",
@@ -757,6 +964,11 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Black Sea",
+        productUrl:
+          "https://www.candlescience.com/fragrance/black-sea-fragrance-oil",
+        ifraUrl: "https://dpoy1j4zladj1.cloudfront.net/Black-Sea-IFRA.pdf",
+        flashpointTemperatureFahrenheit: "205",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -789,6 +1001,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Leather",
+        productUrl:
+          "https://www.candlescience.com/fragrance/leather-fragrance-oil",
+        flashpointTemperatureFahrenheit: "225",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1AMszYbw4TD4bHmGRNjz0-530UP2fFJyq/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1ZCtZtKM9Hd5jQQ_FI0QpHJv1Y3js2co3/view?usp=sharing",
         weightOunces: "1",
         remaining: "0.5",
         price: "0",
@@ -835,6 +1055,11 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Rosemary",
+        productUrl:
+          "https://www.candlescience.com/fragrance/rosemary-fragrance-oil",
+        ifraUrl: "https://dpoy1j4zladj1.cloudfront.net/Rosemary-IFRA-Sheet.pdf",
+        vanillinPercentage: "0.01",
+        flashpointTemperatureFahrenheit: "138",
         weightOunces: "1",
         remaining: "0.8",
         price: "2.41",
@@ -844,6 +1069,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 5,
         name: "Moon Lake Musk",
+        productUrl:
+          "https://www.candlescience.com/fragrance/moon-lake-musk-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1CTQmSJXeJgdmXiM-jTXaSsBX0XaTL_iE/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -853,6 +1084,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Mango And Tangerine",
+        productUrl:
+          "https://www.candlescience.com/fragrance/mango-tangerine-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1o1ewHvVhsUK0TgMDYf9bHb9KxNV_L8Mz/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1U5HMrPsWHmHnf6q7kuAU6gRsbefYQ6Rf/view?usp=sharing",
+        specificGravity: "0.8",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -862,6 +1102,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Lavender Chamomile",
+        productUrl:
+          "https://www.candlescience.com/fragrance/lavender-chamomile-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1A7IxQwsKWvfY1W7IBZujnLJt4p22XBx-/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "0.6",
         price: "2.41",
@@ -869,8 +1115,7 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 3,
-        name: "Honeysuckle Jasmine",
+        referenceId: "10",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -878,8 +1123,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 1,
         name: "Fireside",
+        referenceId: "21",
         weightOunces: "1",
         remaining: "0.8",
         price: "2.41",
@@ -889,6 +1134,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Cypress and Bayberry",
+        productUrl:
+          "https://www.candlescience.com/fragrance/cypress-and-bayberry-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1bFFafTUB7p2wknPKb9SZxrWg824syFaZ/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1IIQ5Cid7X0hnwVb259yIpppbhTqhkbi0/view?usp=sharing",
+        specificGravity: "1.069",
+        flashpointTemperatureFahrenheit: "163",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -898,6 +1152,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 5,
         name: "Day at the Spa",
+        productUrl:
+          "https://www.candlescience.com/fragrance/day-at-the-spa-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1SvQX_vguguOgsHlwOdG_lG73HgW6ToNR/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "206",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -907,6 +1167,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 5,
         name: "Christmas Hearth",
+        productUrl:
+          "https://www.candlescience.com/fragrance/christmas-hearth-fragrance-oil",
+        msdsUrl:
+          "https://drive.google.com/file/d/1o5yX7z5VRlwCZyjhmV9TzzkYwsylqoNJ/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1qN3Xo_VWtrSRFwV9ebUK42d2VLOXg0-m/view?usp=sharing",
+        specificGravity: "0.9470",
+        flashpointTemperatureFahrenheit: "205",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
@@ -915,7 +1184,8 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: "4",
-        name: "Red Ginger Saffron",
+        name: "Red Ginger Saffron V1",
+        referenceId: "27",
         weightOunces: "4",
         remaining: "3.2",
         price: "8.98",
@@ -925,6 +1195,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Fallen Leaves",
+        productUrl:
+          "https://www.candlescience.com/fragrance/fallen-leaves-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1mfmPmTfnyJNpCHd86bNr4Io3k6eqnsU8/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1uFQy8AeVFL6gggT16CD0cgyOoE1uZCcz/view?usp=sharing",
+        specificGravity: "0.891",
+        flashpointTemperatureFahrenheit: "206",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "0.7",
         price: "2.41",
@@ -934,6 +1213,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Cinnamon Stick",
+        productUrl:
+          "https://www.candlescience.com/fragrance/cinnamon-stick-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/196D7dfEH52C1ZOqPQggbeeP7CcAShPSg/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1sZgb-YBM_os-faiI0RkLZTDhSPpNX1-T/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        specificGravity: "1.018",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "0.6",
         price: "2.41",
@@ -943,6 +1231,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Whiskey",
+        ifraUrl:
+          "https://drive.google.com/file/d/1P9U3NSK1yD79HH1EXX2EAEGj07YXZIWK/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1AEhmxqCHjgR4dFaBnESPUQYjBTp28R03/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "192",
+        vanillinPercentage: "0",
         weightOunces: "4",
         remaining: "2.7",
         price: "8.98",
@@ -952,6 +1246,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Cinnamon and Vanilla",
+        productUrl:
+          "https://www.candlescience.com/fragrance/cinnamon-and-vanilla-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1E3SE14_9bIoVn92dqaYPTzW1xCnexDEJ/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1M7TAwNKP_MUUCEm2zMRU6tkJpJDFATer/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "217",
+        vanillinPercentage: "2.01",
         weightOunces: "1",
         remaining: "0.4",
         price: "2.41",
@@ -961,6 +1263,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Blue Spruce",
+        referenceId: "19",
         weightOunces: "4",
         remaining: "4",
         price: "7.88",
@@ -970,6 +1273,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Toasted Pumpkin Spice",
+        productUrl:
+          "https://www.candlescience.com/fragrance/toasted-pumpkin-spice-fragrance-oil",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1zYBWNpaCAHSdN1ER5hfgIecKXnF4wapV/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1sQKLEg1Ssm-5J0-me-tG__WkhoCoLr8N/view?usp=sharing",
+        specificGravity: "1.0620",
+        flashpointTemperatureFahrenheit: "212",
         weightOunces: "1",
         remaining: "0.5",
         price: "2.41",
@@ -990,6 +1302,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Citron and Mandarin",
+        productUrl:
+          "https://www.candlescience.com/fragrance/citron-and-mandarin-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1myYXtNnBWr1FbU1KbRxZZqxJyvOosTaE/view?usp=sharing",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "149",
         weightOunces: "1",
         remaining: "0.6",
         price: "2.41",
@@ -999,6 +1317,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Fruit Slices",
+        productUrl:
+          "https://www.candlescience.com/fragrance/fruit-slices-fragrance-oil",
+        flashpointTemperatureFahrenheit: "145",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Fruit%20Slices%20IFRA.pdf",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1007,7 +1331,16 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 2,
-        name: "Sparkling Pomelo",
+        name: "Sparkling Grapefruit",
+        productUrl:
+          "https://www.candlescience.com/fragrance/sparkling-grapefruit-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1GA-tGye6g7pzD0ALTs0C58e3zOp0C9AJ/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/10a3rDvtZgUAZMcAwbEUfKY_gTffKrjki/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "201",
+        specificGravity: "0.937",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1017,6 +1350,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Orange and Goji Berry",
+        productUrl:
+          "https://www.candlescience.com/fragrance/orange-and-goji-berry-fragrance-oil",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "137",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Orange-and-Goji-Berries-IFRA-Sheet.pdf",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1025,7 +1364,13 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 2,
-        name: "Green Tea and Lemongrass",
+        name: "Green Tea and Lemongrass V1",
+        productUrl:
+          "https://www.candlescience.com/fragrance/green-tea-lemongrass-fragrance-oil-v1",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Green-Tea-Lemongrass-IFRA-Sheet.pdf",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "208",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1035,6 +1380,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Lemon Verbena",
+        productUrl:
+          "https://www.candlescience.com/fragrance/lemon-verbena-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1i2IsOK_NnWPdV-B1djhdvgnDpuwQ8pZJ/view?usp=sharing",
+        vanillinPercentage: "0.01",
+        flashpointTemperatureFahrenheit: "147",
         weightOunces: "1",
         remaining: "0.6",
         price: "2.41",
@@ -1043,7 +1394,13 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 2,
-        name: "Lemon Pound Cake",
+        name: "Lemon Pound Cake V1",
+        productUrl:
+          "https://www.candlescience.com/fragrance/lemon-pound-cake-fragrance-oil-v1",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Lemon%20Pound%20Cake%20IFRA.pdf",
+        vanillinPercentage: "2.01",
+        flashpointTemperatureFahrenheit: "190",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1064,6 +1421,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "White Birch",
+        productUrl:
+          "https://www.candlescience.com/fragrance/white-birch-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1A0g2FJxclezXZz3nUKANpfHYgoJL1sEU/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1tt5BzMOrYBl0xzRNCF2aXmyghMDpRTl_/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "159",
+        specificGravity: "0.9450",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "0",
         price: "0",
@@ -1074,6 +1440,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Oakmoss and Amber",
+        productUrl:
+          "https://www.candlescience.com/fragrance/oakmoss-and-amber-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1X7kJXKHlRLjmZtW2y_Ph7qSiZeOwkYX1/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1BEr5X2_kXyWTof3ZMnD7srt6REJmCd4W/view?usp=sharing",
+        specificGravity: "0.9340",
+        flashpointTemperatureFahrenheit: "208",
+        vanillinPercentage: "0",
         weightOunces: "8",
         remaining: "7.6",
         price: "12.88",
@@ -1134,7 +1509,13 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 2,
-        name: "Fresh Coffee (unrevised version)",
+        name: "Fresh Coffee V1",
+        productUrl:
+          "https://www.candlescience.com/fragrance/fresh-coffee-fragrance-oil-v1",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Fresh-Coffee-IFRA-Sheet.pdf",
+        vanillinPercentage: "2.01",
+        flashpointTemperatureFahrenheit: "195",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -1146,6 +1527,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Caribbean Teakwood",
+        referenceId: "30",
         weightOunces: "4",
         remaining: "4",
         price: "8.28",
@@ -1155,6 +1537,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Cardamom and Star Anise",
+        productUrl:
+          "https://www.candlescience.com/fragrance/cardamom-and-star-anise-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1vqjs9fTXdXj91K9zUZH4JLyFzJ3K74VY/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1JYNAE76DEBSdvE9DoxRrI2Th8fZfDrTQ/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "189",
+        specificGravity: "1.0470",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "0",
         price: "2.41",
@@ -1164,6 +1555,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "White Birch",
+        referenceId: "53",
         weightOunces: "4",
         remaining: "3.3",
         price: "8.98",
@@ -1340,7 +1732,6 @@ module.exports = [
     supplierName: "CandleScience",
     subtotalCost: "39.08",
     supplierId: 1,
-
     shippingCost: "9.47",
     totalCost: "48.55",
   },
@@ -1351,6 +1742,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Sea Salt and Orchid",
+        referenceId: "15",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1360,6 +1752,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Golden Rose",
+        productUrl:
+          "https://www.candlescience.com/fragrance/golden-rose-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1WMl2m-z07DeWAWuQRSfzIZOlX8QS_ssV/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1369,6 +1767,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Ocean Rose",
+        ifraUrl:
+          "https://drive.google.com/file/d/1tOvcmRyc6bGwBYfBEDLp9VNdy_AkWC11/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1N1NYPTYqenIRwwfhgXhleYH_CSn4Pnbt/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "225",
+        specificGravity: "0.899",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "0.6",
         price: "2.41",
@@ -1378,6 +1783,11 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Hydrangea",
+        productUrl:
+          "https://www.candlescience.com/fragrance/hydrangea-fragrance-oil",
+        ifraUrl: "https://dpoy1j4zladj1.cloudfront.net/Hydrangea%20IFRA.pdf",
+        flashpointTemperatureFahrenheit: "210",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1422,6 +1832,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Driftwood",
+        productUrl:
+          "https://www.candlescience.com/fragrance/driftwood-fragrance-oil",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Driftwood-IFRA-Sheet.pdf",
+        vanillinPercentage: "2.01",
+        flashpointTemperatureFahrenheit: "201",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1430,7 +1846,8 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 1,
-        name: "Frasier Fir",
+        name: "Fraser Fir",
+        referenceId: "6",
         weightOunces: "4",
         remaining: "2.6",
         price: "8.50",
@@ -1440,6 +1857,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Holly Berry",
+        productUrl:
+          "https://www.candlescience.com/fragrance/holly-berry-fragrance-oil",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Holly-Berry-IFRA-Sheet.pdf",
+        flashpointTemperatureFahrenheit: "212",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "0.8",
         price: "2.41",
@@ -1449,6 +1872,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Honeysuckle",
+        productUrl:
+          "https://www.candlescience.com/fragrance/honeysuckle-fragrance-oil",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Honeysuckle-IFRA-Sheet.pdf",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "170",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1458,6 +1887,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Leather",
+        referenceId: "33",
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
@@ -1467,6 +1897,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Sandalwood",
+        referenceId: "17",
         weightOunces: "8",
         remaining: "8",
         price: "12.88",
@@ -1476,6 +1907,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Vetiver",
+        referenceId: "26",
         weightOunces: "4",
         remaining: "0",
         price: "8.98",
@@ -1495,6 +1927,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Chardonnay",
+        productUrl:
+          "https://www.candlescience.com/fragrance/chardonnay-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1z07dFnpWmWdenMzhuugXL77fEv8pKZEU/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1IwnXb-k0ST3TwOIE7sOQccKdV6N6AdGX/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "0.956",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "0.6",
         price: "0",
@@ -1505,7 +1946,6 @@ module.exports = [
     supplierName: "CandleScience",
     subtotalCost: "88.81",
     supplierId: 1,
-
     shippingCost: "19.63",
     totalCost: "108.44",
   },
@@ -1516,6 +1956,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Cardamom and Star Anise",
+        referenceId: "56",
         weightOunces: "1",
         remaining: "0.4",
         price: "0",
@@ -1627,7 +2068,6 @@ module.exports = [
     supplierName: "CandleScience",
     subtotalCost: "35.57",
     supplierId: 1,
-
     shippingCost: "21.05",
     totalCost: "56.62",
   },
@@ -1638,6 +2078,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Blood Orange",
+        productUrl:
+          "https://www.candlescience.com/fragrance/blood-orange-fragrance-oil",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1k0OS71DN0NukCZQcy6rGkqLtyvjm2kjF/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1lMRhUUTsIJsiG6SLPyBLLWIHluqIojsL/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "192",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -1648,6 +2096,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "White Sage and Lavender",
+        productUrl:
+          "https://www.candlescience.com/fragrance/white-sage-and-lavender-fragrance-oil",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1EHbPKqs9c-ifp44l1okPPbi4Q7X-pEGf/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/15j9GP2PuDe9DfNWjPPLGft3bs4ntAlE7/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        specificGravity: "0.922",
         weightOunces: "1",
         remaining: "0.9",
         price: "2.41",
@@ -1657,6 +2114,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Fresh Picked Cucumber",
+        productUrl:
+          "https://www.candlescience.com/fragrance/fresh-picked-cucumber-fragrance-oil",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1qN3CA8wdb8cz39SKF2U9JdPYm_39YgPo/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1uMCwVkuo5xubFfj3MrrGoccsxird6zmM/view?usp=sharing",
+        specificGravity: "0.936",
+        flashpointTemperatureFahrenheit: "205",
         weightOunces: "4",
         remaining: "4",
         price: "8.27",
@@ -1666,6 +2132,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Cactus Flower and Jade",
+        productUrl:
+          "https://www.candlescience.com/fragrance/cactus-flower-and-jade-fragrance-oil",
+        vanillinPercentage: "0.01",
+        ifraUrl:
+          "https://drive.google.com/file/d/1bjQDDfjHbtNvhBdO_bYvVBU4JgXnqTHz/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1RmQXIv2qCRXKGxbKOaO8aHYrOca_puua/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "207",
+        specificGravity: "0.96097",
         weightOunces: "4",
         remaining: "4",
         price: "8.98",
@@ -1675,6 +2150,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Black Cherry Merlot",
+        productUrl:
+          "https://www.candlescience.com/fragrance/black-cherry-merlot-fragrance-oil",
+        vanillinPercentage: "2.01",
+        ifraUrl:
+          "https://drive.google.com/file/d/1dr93vtEmx7ayb7g_yL0OcA93gUY9GrEX/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1q4AepkkXkwCtIxAuZCzXukAZPhIrS289/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "202.8",
+        specificGravity: "0.947",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1684,6 +2168,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Magnolia and Peony",
+        productUrl:
+          "https://www.candlescience.com/fragrance/magnolia-and-peony-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1gbGb4cG-vbEfA-CWTSkxR3slxeVzOfkC/view?usp=sharing",
+        vanillinPercentage: "0.01",
+        flashpointTemperatureFahrenheit: "201",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1693,6 +2183,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Hibiscus Palm",
+        productUrl:
+          "https://www.candlescience.com/fragrance/hibiscus-palm-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1WL3Q87lr-mnQaQqGhnne3Btnh0Wi5FVA/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1702,6 +2198,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Strawberry Guava",
+        productUrl:
+          "https://www.candlescience.com/fragrance/strawberry-guava-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1Z1k98rcz34YCOslVd7gubKPalHvpEz8e/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1wy8uDsGxV6oSj7Ck9-uiIsN4gLfcNK5P/view?usp=sharing",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "162",
+        specificGravity: "1.0680",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1711,6 +2216,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Tomato Leaf",
+        referenceId: "18",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1719,7 +2225,8 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: "4",
-        name: "Very Vanilla",
+        name: "Very Vanilla V1",
+        referenceId: "4",
         weightOunces: "4",
         remaining: "4",
         price: "8.02",
@@ -1729,6 +2236,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Lavender",
+        referenceId: "16",
         weightOunces: "4",
         remaining: "3.6",
         price: "8.27",
@@ -1760,7 +2268,6 @@ module.exports = [
     supplierName: "CandleScience",
     subtotalCost: "69.01",
     supplierId: 1,
-
     shippingCost: "20.13",
     totalCost: "89.14",
   },
@@ -1791,6 +2298,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Vetiver",
+        referenceId: "26",
         weightOunces: "8",
         remaining: "8",
         price: "13.90",
@@ -1800,6 +2308,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Cardamom and Star Anise",
+        referenceId: "56",
         weightOunces: "4",
         remaining: "4",
         price: "8.5",
@@ -1831,6 +2340,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "English Garden",
+        productUrl:
+          "https://www.candlescience.com/fragrance/english-garden-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1h7hvEWMBmb-u3kDB4YeyL5U3-KwdDprQ/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1GqvyJ1tD4k10wU7om6uk7FFhs2GjW2Xc/view?usp=sharing",
+        vanillinPercentage: "0.01",
+        flashpointTemperatureFahrenheit: "198",
+        specificGravity: "0.987",
         price: "0",
         weightOunces: "1",
         remaining: "1",
@@ -1852,6 +2370,11 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Lilac",
+        productUrl:
+          "https://www.candlescience.com/fragrance/lilac-fragrance-oil",
+        ifraUrl: "https://dpoy1j4zladj1.cloudfront.net/Lilac%20IFRA.pdf",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "206",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1860,7 +2383,12 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 3,
-        name: "Citronella",
+        name: "Citronella V1",
+        productUrl:
+          "https://www.candlescience.com/fragrance/citronella-fragrance-oil-v1",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "114",
+        ifraUrl: "https://dpoy1j4zladj1.cloudfront.net/Citronella%20IFRA.pdf",
         weightOunces: "6",
         remaining: "6",
         price: "10.46",
@@ -1880,6 +2408,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Mediterranean Fig",
+        productUrl:
+          "https://www.candlescience.com/fragrance/mediterranean-fig-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1KHh8zlZRS7aqtVn0iEVRJLDwYZwd_LDm/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1DyBpbaVJeisDCr_s5Q_ncpRhA-JW1tWE/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "207",
+        specificGravity: "0.93431",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1889,6 +2426,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Gardenia Tuberose",
+        productUrl:
+          "https://www.candlescience.com/fragrance/gardenia-tuberose-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1C3YVXsH7K0C6UG79-yhV-Emh4wy9u1ko/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1vXqMdB8sGJcU7kZ2fm9H6u3LGXLawcwW/view?usp=sharing",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "212",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1898,6 +2443,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Fresh Coffee",
+        productUrl:
+          "https://www.candlescience.com/fragrance/fresh-coffee-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1klfMwCwA-cbUOelZmDsMte1JbDQ-6Zuj/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1oZjpMxt4ulSLQ8UjfO0dndDL8xAvWqN0/view?usp=sharing",
+        vanillinPercentage: "2.01",
+        flashpointTemperatureFahrenheit: "206.4",
+        specificGravity: "1.1053",
         weightOunces: "1",
         remaining: "1",
         price: "2.41",
@@ -1917,6 +2471,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Arugula",
+        productUrl: "https://www.lonestarcandlesupply.com/arugula.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1knT1B0yVu4km4xMbRzVT6lyAc3Lm1peW/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1dHOccqzba_2MkyyAR2KHeLauVZJc_wPd/view?usp=sharing",
+        specificGravity: "0.9700",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2",
@@ -1926,6 +2489,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Bergamot",
+        productUrl: "https://www.lonestarcandlesupply.com/bergamot.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1bTm4Xf76r5bqec7saCv3PFISa0tjc4qU/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1Jpi74zWFUjYrykfIV4_7s_DF9UBV-M0m/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "0.9340",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
         weightOunces: "4",
         remaining: "3.5",
         price: "6.95",
@@ -1935,6 +2507,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Black Cherry",
+        productUrl: "https://www.lonestarcandlesupply.com/black-cherry.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1DPIn7wEvXIK9L1bLd5n8V6_8eg85qQIA/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1e7FNkT9GmuhiH8KUKkA9GTKRK9M9vK3W/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "154",
+        vanillinPercentage: "2.00",
+        specificGravity: "0.9800",
+        ethylVanillinPercentage: "0",
         weightOunces: "4",
         remaining: "3.5",
         price: "6.95",
@@ -1944,6 +2525,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Bluebonnet",
+        productUrl: "https://www.lonestarcandlesupply.com/bluebonnet.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1OjrDuEvgchxgXa_1mdSXPvJEa-wLOm_B/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1i3TRa9hqEejH9TV8IA3X0cJp5aXmibtJ/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "0.9650",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "0.5",
         price: "2.50",
@@ -1953,6 +2543,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Brown Sugar",
+        productUrl: "https://www.lonestarcandlesupply.com/brown-sugar.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1qOg8OqE5XmJnrAxGgKxJUTgwV8nD9ttF/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1lQm5PXBAOd5DHlu0Nj21x5QhX7O8Rh3R/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.0990",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "2.1",
         weightOunces: "1",
         remaining: "1",
         price: "2",
@@ -1962,6 +2561,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Butternut Pumpkin",
+        productUrl:
+          "https://www.lonestarcandlesupply.com/butternut-pumpkin.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1BLOlLftWv_iU5zEG-q3Uo4wto6ukd6Cc/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1QTAQcxjV4hiIcqvTl-2LQLkWZVRs3Jrh/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.1140",
+        vanillinPercentage: "4.4",
+        ethylVanillinPercentage: "2",
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
@@ -1971,6 +2580,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Butterscotch",
+        productUrl: "https://www.lonestarcandlesupply.com/butterscotch.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/17Wpx87N7lP84q3OgBR8YaYmElDyEEBw_/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1s8szd9Wlo0WTZvbcnrNPyRdc83EI9bH7/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.0690",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "3",
         weightOunces: "1",
         remaining: "1",
         price: "2",
@@ -1980,6 +2598,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Cedar",
+        productUrl: "https://www.lonestarcandlesupply.com/cedar.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/102_X9y8RxkXU-FyZlCZBJh1RreBNsC5f/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1P3NwqvcrcvObJVFP4N8ejuxN9b5dbuXe/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "201",
+        specificGravity: "1.0620",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "0.5",
         price: "2",
@@ -1989,6 +2616,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Chardonnay",
+        productUrl: "https://www.lonestarcandlesupply.com/chardonnay.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1D1BY0sXSpMwDqieHjb8OWVEWp0hsJoHK/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/15qTSpMtiCvLmmGkVFDvQAVlC9buY8iUm/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "0.9140",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "0.5",
         price: "2.50",
@@ -1998,6 +2634,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Indian Sandalwood",
+        productUrl:
+          "https://www.lonestarcandlesupply.com/indian-sandalwood.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1ZfHmlhwwqFWxpnDKKFy5274xOgtKo439/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1mCvN7PDmCw9IKqkBSgaPxr_X3s36OG8e/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.0390",
         weightOunces: "1",
         remaining: "0.5",
         price: "2.5",
@@ -2007,6 +2651,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Icicles",
+        productUrl: "https://www.lonestarcandlesupply.com/icicles.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1m7nFusRvV4WBlK6me7t3jBhTEQufE1nz/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1Zf_mjOWIZgU3iQYcufGx_-2Y4-O1LDKq/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "0.9350",
         weightOunces: "1",
         remaining: "0.8",
         price: "2.5",
@@ -2016,6 +2667,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Jasmine",
+        productUrl: "https://www.lonestarcandlesupply.com/jasmine.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1EvJgsf3O5XplgJsfrlIxvhWI8MFwH0gL/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1j0o7lfil7GR3dSz2l8oup_tuVKt9_RMB/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.0380",
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
@@ -2025,6 +2683,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Lilac",
+        productUrl: "https://www.lonestarcandlesupply.com/lilac.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1BAnrk3D9M4yoizDIb4zrKLYBsIExS6um/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1KN60rWJi0KCzF-qDpha0sA7YVZLxafhR/view?usp=sharing",
+        specificGravity: "1.0270",
+        flashpointTemperatureFahrenheit: "200",
         weightOunces: "1",
         remaining: "1",
         price: "2",
@@ -2033,7 +2698,14 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 1,
-        name: "Nagchampa",
+        name: "Nag Champa",
+        productUrl: "https://www.lonestarcandlesupply.com/nagchampa.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1IA0Jkr87aLjr4oVNi1cNFVJSAHEauna2/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1vYV_I3xOzBo1mRzXczLVp7oV6H4Fp3PG/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.0850",
         weightOunces: "1",
         remaining: "1",
         price: "2.50",
@@ -2043,6 +2715,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Oakmoss",
+        productUrl: "https://www.lonestarcandlesupply.com/oakmoss.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/17haVDOYI-MTfFZ3kNicB9RA5biHIV_sD/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1RcUkzlNiZ2I6qfJx2FurqiZSOe0731B3/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "190",
+        specificGravity: "0.9970",
+        vanillinPercentage: "1",
         weightOunces: "4",
         remaining: "2.5",
         price: "8.95",
@@ -2052,6 +2732,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Patchouli",
+        productUrl: "https://www.lonestarcandlesupply.com/patchouli.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1drcw4Q305iT-K0KpScIx5XISTqbp9g_Q/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1VIse0KP-RTIGLyn1IEqKAx8FZ2XTYPVH/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.0180",
         weightOunces: "4",
         remaining: "3.5",
         price: "8.95",
@@ -2061,6 +2748,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Pine",
+        productUrl: "https://www.lonestarcandlesupply.com/pine.html",
+        msdsUrl:
+          "https://drive.google.com/file/d/1p1ISu0AFYPx5VdKnZ-jk7TFRSB6tyBJE/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1p1ISu0AFYPx5VdKnZ-jk7TFRSB6tyBJE/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "150",
+        specificGravity: "0.9630",
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
@@ -2070,6 +2764,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Pumpkin Seeds & Oud",
+        productUrl:
+          "https://www.lonestarcandlesupply.com/pumpkin-seeds-oud.html",
+        msdsUrl:
+          "https://drive.google.com/file/d/10AHC398ViVIfrnCs3vbqkzhrT3jPvYbP/view?usp=sharing",
+        specificGravity: "0.9460",
+        flashpointTemperatureFahrenheit: "200",
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
@@ -2079,6 +2779,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Sweet Snow",
+        productUrl: "https://www.lonestarcandlesupply.com/sweet-snow.html",
+        msdsUrl:
+          "https://drive.google.com/file/d/1VNwpDIrddlW3CZopbiGILH06qbaTlTp3/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1EEIzLJp8VIs3-OasgsUO2D-d_455wQbQ/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "1",
+        specificGravity: "1.1120",
         weightOunces: "1",
         remaining: "0.8",
         price: "2",
@@ -2088,6 +2796,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Vanilla Bean",
+        productUrl: "https://www.lonestarcandlesupply.com/vanilla-bean.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1fkIWecWfsPmsf4YcPcZdZ8PTvrQ3D0Js/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1vm1vgZlARWaT-0iX3CgjUy-ABZCJ_48C/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.1050",
+        vanillinPercentage: "2",
         weightOunces: "1",
         remaining: "1",
         price: "2",
@@ -2097,6 +2813,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Verbena Bamboo",
+        productUrl: "https://www.lonestarcandlesupply.com/verbena-bamboo.html",
+        msdsUrl:
+          "https://drive.google.com/file/d/1cJ1dwF0AT5YlGw6LJcRJluPCgIPakTSC/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1lNlUFCoQpUGsg_OJKxf4URSDwtuuMFpO/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "170",
+        specificGravity: "1.0140",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2",
@@ -2106,6 +2830,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Zanzibar Clove",
+        productUrl:
+          "https://www.lonestarcandlesupply.com/zanzibar-clove-type.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1T83f9Gf-giSGTp_g-xwe6G3NwnDfhWGM/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1qk3go0C-sifYpSV5VwDo6-wa9gyOv1L0/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "175",
+        specificGravity: "0.900",
         weightOunces: "1",
         remaining: "0.8",
         price: "2.50",
@@ -2115,6 +2847,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Zanzibar Clove",
+        referenceId: "99",
         weightOunces: "1",
         remaining: "1",
         price: "2.50",
@@ -2218,6 +2951,10 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Lemon Fresh",
+        productUrl:
+          "https://vacandlesupply.com/Lemon-Fresh-Fragrance-Oil-_p_198.html",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "150",
         weightOunces: "2",
         remaining: "2",
         price: "6.35",
@@ -2238,6 +2975,11 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Lemon",
+        vanillinPercentage: "0",
+        productUrl: "https://www.pandjtrading.com/lemon-fragrance-oil.html",
+        flashpointTemperatureFahrenheit: "200",
+        msdsUrl: "https://www.pandjtrading.com/media//sds_files/SDS_LEM.pdf",
+        specificGravity: "0.9163",
         weightOunces: "1",
         remaining: "1",
         price: "6.25",
@@ -2674,6 +3416,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Patchouli",
+        productUrl:
+          "https://www.fillmorecontainer.com/patchouli-fragrance-oil-25.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1qyU9OOTiP9XBe0aFe2C1S3SSgRKl8XiI/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1UTjwR0xgJ6JjAUhpcnqHzbIiuSS31hby/view?usp=sharing",
+        specificGravity: "0.93",
+        flashpointTemperatureFahrenheit: "210",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.50",
@@ -2683,6 +3435,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Nag Champa",
+        productUrl:
+          "https://www.fillmorecontainer.com/nag-champa-fragrance-oil-25.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1RRQA1t6twtHf1A5px2oy1qWCfZdaqzk0/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1FZ1NciO7OyeJKJ788DZRPxPE8siAtHeb/view?usp=sharing",
+        specificGravity: ".93",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.50",
@@ -2701,6 +3463,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Red Apple",
+        productUrl:
+          "https://www.fillmorecontainer.com/red-apple-fragrance-oil-25.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1vJNOkkzTP3I1yxAmwLbxyjtOK-kVmJwR/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/12ktkJsvRrb3gY_UCx8EuGxaP7scqFj4b/view?usp=sharing",
+        specificGravity: "0.94",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
@@ -2710,6 +3482,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Gingerbread",
+        productUrl:
+          "https://www.fillmorecontainer.com/gingerbread-fragrance-oil-25.html",
+        vanillinPercentage: "1",
+        ethylVanillinPercentage: "1",
+        msdsUrl:
+          "https://drive.google.com/file/d/1_qmUTl1Sc9BQfy_nR4TNd7ojKX02tNBU/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1TzqMVPSDIczGnRD97_s94JNvcM0vrDh8/view?usp=sharing",
+        specificGravity: "1.09",
+        flashpointTemperatureFahrenheit: "200",
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
@@ -2719,6 +3501,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Grapefruit",
+        productUrl:
+          "https://www.fillmorecontainer.com/grapefruit-fragrance-oil-25.html",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/115ib2wRIPH-olFzrWGV68XfHHVu0bN2q/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1cBDafA4OW5V2atBLEkMVsKOXJDO9KvJD/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "159.8",
+        specificGravity: "1.04",
         weightOunces: "1",
         remaining: "1",
         price: "2.50",
@@ -2728,6 +3520,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Lemon Grass",
+        productUrl:
+          "https://www.fillmorecontainer.com/lemon-grass-fragrance-oil-25.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1RACTGwCJDiwGjy3UVvB0DuzesIGQgJeM/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1oLC2ABBv0eEygBwRDsVblYsIeqdVmUXV/view?usp=sharing",
+        specificGravity: "1.050",
+        flashpointTemperatureFahrenheit: "140",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.50",
@@ -2737,6 +3539,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "French Vanilla",
+        productUrl:
+          "https://www.fillmorecontainer.com/french-vanilla-fragrance-oil-25.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1ZypWcJemTwbZb-2_YlQU2KWYJ_HX5LqI/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1MfJS2mDzxMknt7ElU-aDAgnEvSlswUnA/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "210",
+        specificGravity: "1.13",
+        vanillinPercentage: "7.5",
+        ethylVanillinPercentage: "7.5",
         weightOunces: "1",
         remaining: "1",
         price: "2.50",
@@ -2746,6 +3558,17 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Coconut",
+        productUrl:
+          "https://www.fillmorecontainer.com/coconut-fragrance-oil-25.html",
+        flashpointTemperatureFahrenheit: "210",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
+        msdsUrl:
+          "https://drive.google.com/file/d/1CKqw-2mBU97lUr_8Biinvk-CgAu7inIs/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "210",
+        specificGravity: "0.98",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
@@ -2755,6 +3578,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Orange Pekoe Tea",
+        productUrl:
+          "https://www.fillmorecontainer.com/orange-pekoe-tea-fragrance-oil-25.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1XFQHPuXcGtijM9X_Ixya4fWZeHaXbuta/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1-ZF4cN5VXOzNqE8rNSlGBuQq2S9WUkgU/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "160",
+        specificGravity: "0.97",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
@@ -2764,6 +3597,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Cocoa Therapy",
+        productUrl:
+          "https://www.fillmorecontainer.com/cocoa-therapy-fragrance-oil-25.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/19CgnmwhRke58i-5l72sq7mKUy_hDtect/view?usp=sharing",
+        productUrl:
+          "https://drive.google.com/file/d/1V2icYGgC3UbZUVNNXGzYJ9U7wL1XOpXS/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "160",
+        specificGravity: "1.12",
+        vanillinPercentage: "6",
+        ethylVanillinPercentage: "4",
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
@@ -2773,6 +3616,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "French Pair",
+        productUrl:
+          "https://www.fillmorecontainer.com/french-pear-fragrance-oil-25.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/13EwvcT9xPJkhs2tbzcLxsBmFt8My_g-6/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1dsQ0QJAw3FQjxDg2rYzh1pUtP8cOTMOj/view?usp=sharing",
+        specificGravity: "0.92",
+        flashpointTemperatureFahrenheit: "150",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0.8",
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
@@ -2782,6 +3635,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Bayberry Cinnamon",
+        productUrl:
+          "https://www.fillmorecontainer.com/bayberry-cinnamon-fragrance-oil-25.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1Y3RoVdCZTRrTHi3LiqcU8l2XS5Bxl3s6/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1GEcfIWffKSR_C4K8zBJNpXFZ6X5qVX42/view?usp=sharing",
+        specificGravity: "0.99",
+        flashpointTemperatureFahrenheit: "205",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
@@ -2791,6 +3654,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Clove",
+        productUrl:
+          "https://www.fillmorecontainer.com/clove-fragrance-oil-25.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1sCcB8PD9KpkZzHtawUoLBora9R2zy5uy/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/14PDXlLzcirfb4CQ8jbk3TztSjuv_1cHm/view?usp=sharing",
+        specificGravity: "0.99",
+        flashpointTemperatureFahrenheit: "210",
+        vanillinPercentage: "1",
+        ethylVanillinPercentage: "1",
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
@@ -2907,6 +3780,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Tonka and Oud",
+        productUrl:
+          "https://www.candlescience.com/fragrance/tonka-and-oud-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1EIzl6_M-FSNr1G6A2sKrZxsU8p_AXs5O/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1mpTrp4SwuapyllWx2O-1sNr-cweuQR3G/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "90.9",
+        vanillinPercentage: "5",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -2916,6 +3797,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Holly Berry",
+        productUrl:
+          "https://www.candlescience.com/fragrance/holly-berry-fragrance-oil",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Holly-Berry-IFRA-Sheet.pdf",
+        flashpointTemperatureFahrenheit: "212",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -2925,6 +3812,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Cotton Tree",
+        productUrl:
+          "https://www.candlescience.com/fragrance/cotton-tree-fragrance-oil",
+        flashpointTemperatureFahrenheit: "212",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Cotton-Tree-IFRA-Sheet.pdf",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -2934,6 +3827,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Coconut",
+        productUrl:
+          "https://www.candlescience.com/fragrance/coconut-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/15P-VdRANOXdze-CPG3g8m_TsgAUTY4Ls/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1ChAyB5YmEOSz3hR6a53Lku1BATfo5nak/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "210",
+        specificGravity: "0.975",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -2943,6 +3845,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Macintosh Apple",
+        productUrl:
+          "https://www.candlescience.com/fragrance/macintosh-apple-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1L3gjDA40zZnf6BrwFLrGFBSxlsXGHdiK/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1YTd_Onul9Deya-6EFEHV9cQlMJN0K4vI/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "160",
+        specificGravity: "0.9020",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -2952,6 +3863,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Black Currant Absinthe",
+        productUrl:
+          "https://www.candlescience.com/fragrance/black-currant-absinthe-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1yrcl8nQM9acQLA4JvTgLD16WkUuSobd3/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "180",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -2961,6 +3878,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Frosted Juniper",
+        productUrl:
+          "https://www.candlescience.com/fragrance/frosted-juniper-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1IG3hc0XM4iMai_T4FL1Ru6qtVjugg7UE/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1shhYDvpcoUWkEAmgD7hc4k-zwNj6L0R8/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "187",
+        specificGravity: "1.0310",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3021,6 +3947,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Pumpkin Chai",
+        productUrl:
+          "https://www.candlescience.com/fragrance/pumpkin-chai-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1YUQvIvgs181IMS5GNWLLp2zWkdwmPgJN/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "206",
+        vanillinPercentage: "2.01",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -3030,6 +3962,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Fresh Coffee",
+        referenceId: "77",
         weightOunces: "1",
         remaining: "1",
         price: "2.47",
@@ -3039,6 +3972,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Sea Mist",
+        productUrl:
+          "https://www.candlescience.com/fragrance/sea-mist-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1IM7BBGbGlrG-StH_d60UJO0mDTDIsFv3/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1J2XCEp7o_rolQYHCFTimT-JopVrk4ugr/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        specificGravity: "0.954",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "1",
         price: "2.47",
@@ -3048,6 +3990,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Red Currant",
+        productUrl:
+          "https://www.candlescience.com/fragrance/red-currant-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1uXJ_j9Vg3fbfHiAGo0nsxNmQbRKHh0VJ/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1cSUgiM5tmNO4aF6YLQnlG4jtFjdJ64X_/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "205",
+        specificGravity: "0.9770",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.47",
@@ -3112,6 +4063,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 5,
         name: "Library",
+        productUrl:
+          "https://www.candlescience.com/fragrance/library-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1Dw9Fj57YfON07eG91szo2cv0xsAexoEU/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1WnM_dh89eovVWDvjaKIO5k-ryHVFA2Np/view?usp=sharing",
+        specificGravity: "0.8900",
+        flashpointTemperatureFahrenheit: "212",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3121,6 +4081,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Apple Harvest",
+        productUrl:
+          "https://www.candlescience.com/fragrance/apple-harvest-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1iF4ECjC2JYsuINbV4yL_UaQw49-MPIOU/view?usp=sharing",
+        vanillinPercentage: "0.01",
+        flashpointTemperatureFahrenheit: "189",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3130,6 +4096,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Peppermint Mocha",
+        productUrl:
+          "https://www.candlescience.com/fragrance/peppermint-mocha-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1e-1l7spfxg2n3x3zsD_7gJ1iSK_2WeEU/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/18ftBdb3aQrhFHd4hvg5DRrCqUzrtW66_/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "199",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3138,7 +4112,13 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 2,
-        name: "Mull Cider and Chestnuts",
+        name: "Mulled Cider and Chestnuts",
+        productUrl:
+          "https://www.candlescience.com/fragrance/mulled-cider-and-chestnuts-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1RcNmvqk3E4Gms4HBFu6XUrl-OdT2dBX-/view?usp=sharing",
+        vanillinPercentage: "0.01",
+        flashpointTemperatureFahrenheit: "154",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3148,6 +4128,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Peppermint and Eucalyptus",
+        productUrl:
+          "https://www.candlescience.com/fragrance/peppermint-eucalyptus-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1YN_lG6N-rNlTROhw94RWRqnQVJVqGwUq/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1wQIq5SuSJVfQrAGxrEnDUaqs1ZHTmohp/view?usp=sharing",
+        specificGravity: "0.930",
+        flashpointTemperatureFahrenheit: "198",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3156,7 +4145,12 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 3,
-        name: "Red Roses",
+        name: "Red Rose",
+        productUrl:
+          "https://www.candlescience.com/fragrance/red-rose-fragrance-oil",
+        vanillinPercentage: "0",
+        ifraUrl: "https://dpoy1j4zladj1.cloudfront.net/Red%20Rose%20IFRA.pdf",
+        flashpointTemperatureFahrenheit: "207",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3166,6 +4160,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Caramel Popcorn",
+        productUrl:
+          "https://www.candlescience.com/fragrance/caramel-popcorn-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1aN1MlUofezizDbEg-QQC65cZq66V1PrZ/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1aN1MlUofezizDbEg-QQC65cZq66V1PrZ/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        vanillinPercentage: "2.01",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3175,6 +4177,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "White Currant",
+        productUrl:
+          "https://www.candlescience.com/fragrance/white-currant-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1Jx_MCm7EoUyN2ufvyQj3icrbL9Uk9ano/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1xKkODVH7oSH8BHQIHezr8F5KxURZbW38/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "163",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3184,6 +4194,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Peppercorn Pomander",
+        productUrl:
+          "https://www.candlescience.com/fragrance/peppercorn-pomander-fragrance-oil",
+        msdsUrl:
+          "https://drive.google.com/file/d/1muhH5v396wmI95fP2xMD-Ieaac5eegX9/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "163",
+        ifraUrl:
+          "https://drive.google.com/file/d/16l04ZOxKTE8dLxWSYGOGV8T0LfgmCUGO/view?usp=sharing",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3193,6 +4211,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "English Garden",
+        referenceId: "72",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3201,7 +4220,8 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: "4",
-        name: "Very Vanilla",
+        name: "Very Vanilla V1",
+        referenceId: "4",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3211,6 +4231,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Candied Apple",
+        productUrl:
+          "https://www.candlescience.com/fragrance/candied-apple-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1m_4hnYdLGkJNMAbcDfpFtlG6gRopo51r/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1ikt_tgSZDfI1-2i3AC75N6muxya2_sQb/view?usp=sharing",
+        vanillinPercentage: "2.01",
+        flashpointTemperatureFahrenheit: "201",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3220,6 +4248,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Garden Mint",
+        referenceId: "9",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3229,6 +4258,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Cotton Candy",
+        productUrl:
+          "https://www.candlescience.com/fragrance/cotton-candy-fragrance-oil",
+        ifraUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/Cotton%20Candy%20IFRA.pdf",
+        msdsUrl: "https://dpoy1j4zladj1.cloudfront.net/Cotton_Candy_SDS.pdf",
+        flashpointTemperatureFahrenheit: "212",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3238,6 +4274,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "White Tea",
+        productUrl:
+          "https://www.candlescience.com/fragrance/white-tea-fragrance-oil",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1c5dy6lksBwie-cB1PGE-9GPrs-0o8RR6/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3247,6 +4289,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Toasted Pumpkin Spice",
+        referenceId: "45",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3256,6 +4299,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Hot Apple Pie",
+        productUrl:
+          "https://www.candlescience.com/fragrance/hot-apple-pie-fragrance-oil",
+        vanillinPercentage: "2.01",
+        msdsUrl:
+          "https://drive.google.com/file/d/1cVVPBNfeFp4XsBrLzi9sL_HCmxjsoYb-/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "208",
+        ifraUrl:
+          "https://drive.google.com/file/d/1QYbFYwt8w0jEPTmuZpAQ12g1bVDhFfau/view?usp=sharing",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3265,6 +4316,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Fallen Leaves",
+        referenceId: "41",
         weightOunces: "1",
         remaining: "1",
         price: "0.99",
@@ -3814,6 +4866,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Vetiver",
+        referenceId: "26",
         weightOunces: "8",
         remaining: "8",
         price: "13.90",
@@ -3823,6 +4876,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Garden Mint",
+        referenceId: "9",
         weightOunces: "8",
         remaining: "8",
         price: "13.90",
@@ -3832,6 +4886,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "White Birch",
+        referenceId: "53",
         weightOunces: "8",
         remaining: "8",
         price: "13.90",
@@ -3841,6 +4896,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Frosted Juniper",
+        referenceId: "128",
         weightOunces: "8",
         remaining: "8",
         price: "12.88",
@@ -3850,6 +4906,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Peppercorn Pomander",
+        referenceId: "140",
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
@@ -3859,6 +4916,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Cypress and Bayberry",
+        referenceId: "38",
         weightOunces: "4",
         remaining: "4",
         price: "8.90",
@@ -3868,6 +4926,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Mistletoe",
+        productUrl:
+          "https://www.candlescience.com/fragrance/mistletoe-fragrance-oil",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "167",
+        ifraUrl:
+          "https://drive.google.com/file/d/1e1o38M7BB3XyuToH-IXhGJytsWAonHYM/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1Guoa_23U5wc-4CgOkQcd_kTyMOe1A7jG/view?usp=sharing",
+        specificGravity: "0.975",
         weightOunces: "4",
         remaining: "4",
         price: "8.98",
@@ -3877,6 +4944,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Dragon's Blood",
+        productUrl:
+          "https://www.candlescience.com/fragrance/dragons-blood-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1hAOToQkOuEN9ckjfiR2ujQPWHWHhgkTb/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1lu5ehmy7P6-irKbUDZTAKMu-RMC5ZOkn/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        specificGravity: "1.078",
+        vanillinPercentage: "0",
         weightOunces: "4",
         remaining: "4",
         price: "8.27",
@@ -3886,6 +4962,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Caramel Popcorn",
+        referenceId: "138",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -4051,6 +5128,11 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Fire Roasted Marshmallow",
+        productUrl:
+          "https://www.theflamingcandle.com/soap-making-supplies/fragrance-oils-for-soap-making/all-soap-safe-fragrance-oils/fire-roasted-marshmallows-fragrance-oil/",
+        vanillinPercentage: "0.02",
+        ethylVanillinPercentage: "5.65",
+        flashpointTemperatureFahrenheit: "200",
         weightOunces: "4",
         remaining: "4",
         price: "6.99",
@@ -4060,6 +5142,10 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Tobacco Caramel",
+        productUrl:
+          "https://www.theflamingcandle.com/soap-making-supplies/fragrance-oils-for-soap-making/all-soap-safe-fragrance-oils/tobacco-caramel-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "4.20",
         weightOunces: "4",
         remaining: "4",
         price: "7.19",
@@ -4069,6 +5155,10 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Kentucky Bourbon",
+        productUrl:
+          "https://www.theflamingcandle.com/soap-making-supplies/fragrance-oils-for-soap-making/all-soap-safe-fragrance-oils/kentucky-bourbon-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "168",
+        vanillinPercentage: "1.60",
         weightOunces: "4",
         remaining: "4",
         price: "7.19",
@@ -4078,6 +5168,11 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Tobacco and Bay Leaf",
+        productUrl:
+          "https://www.theflamingcandle.com/soap-making-supplies/fragrance-oils-for-soap-making/all-soap-safe-fragrance-oils/tobacco-bay-leaf-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "161",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.49",
@@ -4087,6 +5182,11 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Mulled Cider",
+        productUrl:
+          "https://www.theflamingcandle.com/candle-fragrance-oil/fragrance-oil-a-z/mulled-cider-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "157",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0.60",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -4124,7 +5224,8 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 2,
-        name: "Very Vanilla",
+        name: "Very Vanilla V1",
+        referenceId: "4",
         weightOunces: "4",
         remaining: "4",
         price: "8.02",
@@ -4134,6 +5235,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Blue Spruce",
+        referenceId: "19",
         weightOunces: "4",
         remaining: "4",
         price: "8.27",
@@ -4157,6 +5259,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 5,
         name: "Baby Powder",
+        productUrl:
+          "https://www.candlescience.com/fragrance/baby-powder-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1jGHIQ22gM23QIrq1luSQhDi9vq05CNEt/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1uzBC2qICxJRT0Su0Zjj8YK55Un5eNkPS/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "210",
+        specificGravity: "0.9830",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -4167,6 +5278,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Mistletoe",
+        referenceId: "145",
         weightOunces: "1",
         remaining: "1",
         price: "2.53",
@@ -4187,6 +5299,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 5,
         name: "Library",
+        referenceId: "132",
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
@@ -4196,6 +5309,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Fresh Coffee",
+        referenceId: "77",
         weightOunces: "4",
         remaining: "4",
         price: "7.81",
@@ -4205,6 +5319,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Banana Nut Bread",
+        productUrl:
+          "https://www.candlescience.com/fragrance/banana-nut-bread-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1RKDY9g_kKWamSaqKSk3HVktz1mrXn8HN/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1i-6xR679JZlTqT5_eoQ8-j4heX8GsytB/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "160",
+        specificGravity: "1.0460",
+        vanillinPercentage: "0",
         weightOunces: "4",
         remaining: "4",
         price: "7.44",
@@ -4246,6 +5369,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Cardamom and Star Anise",
+        referenceId: "56",
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
@@ -4267,6 +5391,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Red Hot Cinnamon",
+        ifraUrl:
+          "https://drive.google.com/file/d/1UYNev9V1fDk76Ke9qOlPyHEY8-OdMJBP/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1It6FxG0BxUFdWyJilpLTSEaEKCgoNr8P/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        specificGravity: "1.021",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.53",
@@ -4276,6 +5407,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "English Garden",
+        referenceId: "72",
         weightOunces: "4",
         remaining: "4",
         price: "8.27",
@@ -4285,6 +5417,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Fireside",
+        referenceId: "21",
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
@@ -4294,6 +5427,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Mulled Cider and Chestnuts",
+        referenceId: "135",
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
@@ -4302,7 +5436,8 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 1,
-        name: "Egyptian Amber",
+        name: "Egyptian Amber V1",
+        referenceId: "3",
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
@@ -4320,6 +5455,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Caribbean Teakwood",
+        referenceId: "30",
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
@@ -4329,6 +5465,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Black Sea",
+        referenceId: "32",
         weightOunces: "4",
         remaining: "4",
         price: "8.98",
@@ -4360,6 +5497,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Root Beer",
+        productUrl:
+          "https://www.fillmorecontainer.com/root-beer-fragrance-oil-25.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1HhtnyAV2w6vEeqEzFnz7fH_vqleBbx0N/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1nigRoDUii4ldwBTScW8weFxYYoBJfxGQ/view?usp=sharing",
+        specificGravity: "1.130",
+        vanillinPercentage: "3",
+        ethylVanillinPercentage: "0.0",
+        flashpointTemperatureFahrenheit: "140",
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
@@ -4369,6 +5516,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Carrot Cake",
+        productUrl:
+          "https://www.fillmorecontainer.com/carrot-cake-fragrance-oil-25.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1uzPPPYDG3XB73_AAhVXPV3qCXFPy4m-a/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1WyP0ERgbOn53EO5o-YzmgGxTQKVbaVxq/view?usp=sharing",
+        specificGravity: "0.97",
+        flashpointTemperatureFahrenheit: "210",
+        vanillinPercentage: "5",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
@@ -4378,6 +5535,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Leather",
+        productUrl:
+          "https://www.fillmorecontainer.com/leather-fragrance-oil-25.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1tKX8OwZ6iBSn_pFt9shd0l7rVGrfcNAl/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1tKX8OwZ6iBSn_pFt9shd0l7rVGrfcNAl/view?usp=sharing",
+        specificGravity: "0.93",
+        flashpointTemperatureFahrenheit: "210",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
@@ -4387,6 +5554,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Pa's Tobacco Pipe",
+        productUrl:
+          "https://www.fillmorecontainer.com/pas-tobacco-pipe-truscent-fragrance-oil-25.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1cBJ0UhjdalaoypHa6yBo0y4R2L2PU-mb/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1IFg3hoDrfGe9dQkkgGkgsdpdKroy10P0/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.07",
+        vanillinPercentage: "3",
+        ethylVanillinPercentage: "0.0",
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
@@ -4433,6 +5610,7 @@ module.exports = [
         categoryId: 1,
         type: "fragrance-oil",
         name: "Verbena Bamboo",
+        referenceId: "98",
         weightOunces: "4",
         remaining: "4",
         price: "6.95",
@@ -4442,6 +5620,7 @@ module.exports = [
         categoryId: 2,
         type: "fragrance-oil",
         name: "Bergamot",
+        referenceId: "79",
         weightOunces: "8",
         remaining: "8",
         price: "12.95",
@@ -4502,6 +5681,14 @@ module.exports = [
         categoryId: "4",
         type: "fragrance-oil",
         name: "Orange Spice",
+        productUrl:
+          "https://aaacandlesupply.com/products/orange-spice?variant=19163572502586",
+        ifraUrl:
+          "https://drive.google.com/file/d/1oyHONNN3IGhpMPY0vTlk4YbrBoqwrOqX/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/18Tu54bq7lK8q70LawNIuWrWeHEDGzXf1/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "155",
+        specificGravity: "1.0062",
         weightOunces: "1",
         remaining: "1",
         price: "2",
@@ -4511,6 +5698,14 @@ module.exports = [
         categoryId: 3,
         type: "fragrance-oil",
         name: "Eucalyptus Spearmint",
+        productUrl:
+          "https://aaacandlesupply.com/products/eucalyptus-spearmint?variant=19163654062138",
+        msdsUrl:
+          "https://drive.google.com/file/d/1jFVwWiq4IQOQ1qiM3asSRBIL4Rkpu5BK/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1nkkPbZ6gU5IYnf79Cfx1p6Ptws8BpIT9/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "184",
+        specificGravity: "1.0363",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -4521,6 +5716,11 @@ module.exports = [
         categoryId: "4",
         type: "fragrance-oil",
         name: "Pumpkin Spice",
+        productUrl:
+          "https://aaacandlesupply.com/products/pumpkin-spice?variant=19163524268090",
+        msdsUrl:
+          "https://drive.google.com/file/d/1G4h6dPsxZh8b0lcDyVUqoqSE4bmJ0Woi/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "141",
         weightOunces: "1",
         remaining: "1",
         price: "2.00",
@@ -4530,6 +5730,13 @@ module.exports = [
         categoryId: 1,
         type: "fragrance-oil",
         name: "Tuscan Tobacco",
+        productUrl:
+          "https://aaacandlesupply.com/products/tuscan-tobacco?variant=1273046761486",
+        ifraUrl:
+          "https://drive.google.com/file/d/16f4Ejv48OcRxkzy-mJbPIQ_cnXzMZzam/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1marRIYZftHaYp_8Ek-Dt-yBd_Xak0T4i/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "185",
         weightOunces: "1",
         remaining: "1",
         price: "2.00",
@@ -4539,6 +5746,12 @@ module.exports = [
         categoryId: 2,
         type: "fragrance-oil",
         name: "Kumquat",
+        productUrl:
+          "https://aaacandlesupply.com/products/kumquat?variant=19163605401658",
+        msdsUrl:
+          "https://drive.google.com/file/d/1dZRf5hIMEiJosG27aD-1qr26HyI0Lzx9/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "134",
+        specificGravity: "0.9612",
         weightOunces: "1",
         remaining: "1",
         price: "2.00",
@@ -4548,6 +5761,8 @@ module.exports = [
         categoryId: 5,
         type: "fragrance-oil",
         name: "Night Ice",
+        productUrl:
+          "https://aaacandlesupply.com/products/night-ice?variant=1273042534414",
         weightOunces: "1",
         remaining: "1",
         price: "2.00",
@@ -4557,6 +5772,13 @@ module.exports = [
         categoryId: 1,
         type: "fragrance-oil",
         name: "Patchouli",
+        productUrl:
+          "https://aaacandlesupply.com/products/patchouli?variant=19163516895290",
+        ifraUrl:
+          "https://drive.google.com/file/d/1BTFrrBPGu-9oI7R0o-srTGzQKapTsfLq/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1DHSsXBhSUrPS3tgUh5byvFYLMcMQ-Obs/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
         weightOunces: "1",
         remaining: "1",
         price: "2.00",
@@ -4644,6 +5866,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Patchouli",
+        productUrl:
+          "https://www.candlescience.com/fragrance/patchouli-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1chwEve5Fh-xxStwfKuaInf4OfGEhamfk/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1gAuwmKDbY2DfyqqLLuYKGsA-dsFe4uVE/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "225",
+        specificGravity: "0.90436",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -4755,6 +5986,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Plumeria",
+        productUrl:
+          "https://www.candlescience.com/fragrance/plumeria-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1b5-ioYLbSdWOuIx00vbgRcK7_PHWEvvX/view?usp=sharing",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "216",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -4838,7 +6075,12 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 1,
-        name: "Fig Tree",
+        name: "Fig Tree V1",
+        productUrl:
+          "https://www.candlescience.com/fragrance/fig-tree-fragrance-oil-v1",
+        ifraUrl: "https://dpoy1j4zladj1.cloudfront.net/Fig%20Tree%20IFRA.pdf",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "171",
         weightOunces: "8",
         remaining: "8",
         price: "12.72",
@@ -4848,6 +6090,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Blood Orange",
+        referenceId: "64",
         weightOunces: "8",
         remaining: "8",
         price: "13.90",
@@ -4857,6 +6100,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Red Hot Cinnamon",
+        referenceId: "154",
         weightOunces: "4",
         remaining: "4",
         price: "8.27",
@@ -4866,6 +6110,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Chocolate Fudge",
+        productUrl:
+          "https://www.candlescience.com/fragrance/chocolate-fudge-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1R56joRc1dDhUeN6wtwqGDwh2VUfvQ7OR/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1BpUfeT-HVP0JUS326ZsNUxuULxeelowQ/view?usp=sharing",
+        vanillinPercentage: "2.01",
+        flashpointTemperatureFahrenheit: "210",
+        specificGravity: "1.095",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -5001,6 +6254,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Tuscan Tobacco",
+        referenceId: "162",
         weightOunces: "8",
         remaining: "8",
         price: "9.95",
@@ -5010,6 +6264,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Kumquat",
+        referenceId: "163",
         weightOunces: "8",
         remaining: "8",
         price: "9.95",
@@ -5019,6 +6274,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Orange Spice",
+        referenceId: "159",
         weightOunces: "8",
         remaining: "8",
         price: "9.95",
@@ -5182,6 +6438,11 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Bacon",
+        productUrl:
+          "https://www.theflamingcandle.com/candle-fragrance-oil/fragrance-oil-a-z/bacon-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -5192,6 +6453,10 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 5,
         name: "Flannel",
+        productUrl:
+          "https://www.theflamingcandle.com/soap-making-supplies/fragrance-oils-for-soap-making/all-soap-safe-fragrance-oils/flannel-type-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "198",
+        vanillinPercentage: "0.50",
         weightOunces: "8",
         remaining: "8",
         price: "11.19",
@@ -5201,6 +6466,11 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Thyme",
+        productUrl:
+          "https://www.theflamingcandle.com/soap-making-supplies/fragrance-oils-for-soap-making/all-soap-safe-fragrance-oils/thyme-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "166",
+        vanillinPercentage: "0.00",
+        ethylVanillinPercentage: "0.00",
         weightOunces: "8",
         remaining: "8",
         price: "9.69",
@@ -5210,6 +6480,10 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 5,
         name: "Cuban Cigar",
+        productUrl:
+          "https://www.theflamingcandle.com/soap-making-supplies/fragrance-oils-for-soap-making/all-soap-safe-fragrance-oils/cuban-cigar-fragrance-oil/",
+        vanillinPercentage: "0.003",
+        flashpointTemperatureFahrenheit: "200",
         weightOunces: "8",
         remaining: "8",
         price: "11.19",
@@ -5219,6 +6493,11 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Pipe Tobacco",
+        productUrl:
+          "https://www.theflamingcandle.com/soap-making-supplies/fragrance-oils-for-soap-making/all-soap-safe-fragrance-oils/pipe-tobacco-fragrance-oil/",
+        vanillinPercentage: "9.00",
+        ethylVanillinPercentage: "0.00",
+        flashpointTemperatureFahrenheit: "200",
         weightOunces: "8",
         remaining: "8",
         price: "9.79",
@@ -5228,6 +6507,11 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Pineapple",
+        productUrl:
+          "https://www.theflamingcandle.com/soap-making-supplies/fragrance-oils-for-soap-making/all-soap-safe-fragrance-oils/pineapple-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "0.07",
+        ethylVanillinPercentage: "0.10",
         weightOunces: "8",
         remaining: "8",
         price: "10.59",
@@ -5267,8 +6551,8 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        categoryId: 3,
         name: "Lavender",
+        referenceId: "16",
         weightOunces: "8",
         remaining: "8",
         price: "12.04",
@@ -5276,8 +6560,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: "4",
         name: "Very Vanilla",
+        referenceId: "4",
         weightOunces: "16",
         remaining: "16",
         price: "18.82",
@@ -5287,6 +6571,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Mint Mojito",
+        productUrl:
+          "https://www.candlescience.com/fragrance/mint-mojito-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1TXFcDnbIvvjZ6aKiRfIx5_NxcDKZz_ME/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1uRbIHLDon342iyhiB2JmcUG__JLd6xmH/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "205",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -5295,8 +6587,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: "4",
         name: "Tonka and Oud",
+        referenceId: "122",
         weightOunces: "4",
         remaining: "4",
         price: "8.98",
@@ -5306,6 +6598,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Cinnamon Chai",
+        ifraUrl:
+          "https://drive.google.com/file/d/1LlclPeXZqImRwhRH7fV9AyQokcJcrKWQ/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1lexuzIcMPR--55n6tAwKgZr4RqCN-J-r/view?usp=sharing",
+        specificGravity: "0.977",
+        flashpointTemperatureFahrenheit: "212",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "1",
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
@@ -5313,8 +6613,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 5,
         name: "Library",
+        referenceId: "132",
         weightOunces: "8",
         remaining: "8",
         price: "12.66",
@@ -5322,8 +6622,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 2,
         name: "Fresh Picked Cucumber",
+        referenceId: "66",
         weightOunces: "8",
         remaining: "8",
         price: "12.77",
@@ -5343,8 +6643,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: "4",
         name: "Cardamom And Star Anise",
+        referenceId: "56",
         weightOunces: "8",
         remaining: "8",
         price: "12.86",
@@ -5352,8 +6652,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: "4",
         name: "Cinnamon Stick",
+        referenceId: "42",
         weightOunces: "4",
         remaining: "4",
         price: "8.27",
@@ -5361,8 +6661,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 3,
         name: "Tomato Leaf",
+        referenceId: "18",
         weightOunces: "4",
         remaining: "4",
         price: "8.50",
@@ -5370,8 +6670,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 3,
         name: "English Garden",
+        referenceId: "72",
         weightOunces: "16",
         remaining: "16",
         price: "18.82",
@@ -5379,8 +6679,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 5,
         name: "Rain Water",
+        referenceId: "14",
         weightOunces: "8",
         remaining: "8",
         price: "12.86",
@@ -5388,8 +6688,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 2,
         name: "Mediterranean Fig",
+        referenceId: "75",
         weightOunces: "8",
         remaining: "8",
         price: "12.61",
@@ -5418,8 +6718,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 3,
         name: "Sea Salt and Orchid",
+        referenceId: "15",
         weightOunces: "8",
         remaining: "8",
         price: "13.90",
@@ -5427,8 +6727,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 3,
         name: "Vetiver",
+        referenceId: "26",
         weightOunces: "16",
         remaining: "16",
         price: "23.06",
@@ -5436,8 +6736,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 1,
         name: "Black Sea",
+        referenceId: "32",
         weightOunces: "16",
         remaining: "16",
         price: "23.06",
@@ -5445,8 +6745,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 3,
         name: "Garden Mint",
+        referenceId: "9",
         weightOunces: "8",
         remaining: "8",
         price: "13.90",
@@ -5454,8 +6754,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 2,
         name: "Blood Orange",
+        referenceId: "64",
         weightOunces: "8",
         remaining: "8",
         price: "13.90",
@@ -5463,8 +6763,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 1,
         name: "Fireside",
+        referenceId: "21",
         weightOunces: "8",
         remaining: "8",
         price: "12.86",
@@ -5474,6 +6774,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Caramel Popcorn",
+        referenceId: "138",
         weightOunces: "8",
         remaining: "8",
         price: "11.94",
@@ -5492,8 +6793,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 1,
         name: "Cotton Tree",
+        referenceId: "124",
         weightOunces: "8",
         remaining: "8",
         price: "12.72",
@@ -5503,6 +6804,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Mango and Tangerine",
+        referenceId: "36",
         weightOunces: "4",
         remaining: "4",
         price: "8.27",
@@ -5510,8 +6812,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 1,
         name: "Fig Tree",
+        referenceId: "168",
         weightOunces: "16",
         remaining: "16",
         price: "19.97",
@@ -5533,6 +6835,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Aspen Woods",
+        productUrl: "https://www.lonestarcandlesupply.com/aspen-woods.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1JkJAvv0x5NPbGs7G_zy8x9gwSigTBhmQ/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1djBUfVpIveYgGPN8GIeNnYBCvN8P18-a/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
         weightOunces: "8",
         remaining: "8",
         price: "13.95",
@@ -5553,6 +6861,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 5,
         name: "Cashmere",
+        productUrl: "https://www.lonestarcandlesupply.com/cashmere.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1IRXypukviNs5DS8VY1YYIVttSU9N434u/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1ivJ9FoNBENNP1lXJCbsoUo90Qez7wowA/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.09",
         weightOunces: "8",
         remaining: "8",
         price: "12.95",
@@ -5562,6 +6877,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Firewood",
+        productUrl: "https://www.lonestarcandlesupply.com/firewood.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1E73X8wj3VxASd_R43ymb6-MGKlHFsigP/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1RbDHSr7lHnvJMrReGzQEijWmYrjc_v-y/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "180",
+        specificGravity: "1.0670",
         weightOunces: "4",
         remaining: "4",
         price: "9.95",
@@ -5571,6 +6893,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Merlot",
+        productUrl: "https://www.lonestarcandlesupply.com/merlot.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1FJ7P5VK9JN6vTsYKqnEeyPtdcfUgtK6Y/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1mj1u4dX4uXqiDZUtAwTFG-ed17Xh1KNa/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "195",
+        specificGravity: "0.9275",
         weightOunces: "4",
         remaining: "4",
         price: "8.95",
@@ -5580,6 +6909,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Chocolate Mint",
+        productUrl: "https://www.lonestarcandlesupply.com/chocolate-mint.html",
+        msdsUrl:
+          "https://drive.google.com/file/d/1Eeyb-zyt7W2Ih2H8FEZM1nAywgdB6pgw/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/18GCPR6EA23Llabr_BoyaZKqVkiWacWfe/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "175",
+        specificGravity: "0.8430",
         weightOunces: "4",
         remaining: "4",
         price: "8.95",
@@ -5610,6 +6946,14 @@ module.exports = [
         categoryId: 2,
         name: "Pineapple Sherbert",
         weightOunces: "4",
+        productUrl: "https://calcandlesupply.com/pineapple-sherbet-fragrance/",
+        msdsUrl:
+          "https://drive.google.com/file/d/1GmTl54UB1MgmhloV2ZgS4uOJoTzLJAxA/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/18tpYhUmSDjJ-apkJt3yw6NP66T4Pbj_P/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "156",
+        vanillinPercentage: "0.60",
+        specificGravity: "0.9262",
         remaining: "4",
         price: "8.60",
         shareOfShippingPercent: "3",
@@ -5618,6 +6962,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Roasted Pinecones",
+        productUrl: "https://calcandlesupply.com/roasted-pinecones-fragrance/",
+        flashpointTemperatureFahrenheit: "150",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1Y0JiJfwbytjnR_OwydBcZ-a90PKVP5iM/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1hCt3x5k40MlpDn1KNmJZU4d5JED8L1vd/view?usp=sharing",
+        specificGravity: "0.9668",
         weightOunces: "4",
         remaining: "4",
         price: "11.34",
@@ -5627,6 +6979,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Spiced Clove",
+        productUrl: "https://calcandlesupply.com/spiced-clove-fragrance/",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1KprHbOxHN3m5LznI4rs560Zol-P7hBd_/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1h-lxlKFn38ogT5qJv2mCX_S7ioluB0gN/view?usp=sharing",
+        specificGravity: "0.968",
         weightOunces: "8",
         remaining: "8",
         price: "12.60",
@@ -5647,6 +7007,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Amber",
+        productUrl: "https://calcandlesupply.com/amber-fragrance/",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "0.80",
+        ifraUrl:
+          "https://drive.google.com/file/d/1bnt6YMABPufgdJ5Pq13G2jI2hg6X2PcH/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1Av7yDjqmIXxaq3Nr-k0ECNfAV8kdYEM-/view?usp=sharing",
+        specificGravity: "1.0381",
         weightOunces: "4",
         remaining: "4",
         price: "8.60",
@@ -5708,6 +7076,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Almond",
+        productUrl:
+          "https://www.candlemaking.com/almond-out-of-stock-until-9-7.html",
+        flashpointTemperatureFahrenheit: "165",
+        vanillinPercentage: "1.3",
+        ifraUrl:
+          "https://drive.google.com/file/d/1IQO_Q7E25utqk9ra3MkpClXlXrGgvtJM/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1wBc5GdPfaEefv7iGK5ZtUFLjjv0TZ7bo/view?usp=sharing",
+        specificGravity: "1.0390",
         weightOunces: "8",
         remaining: "8",
         price: "10.99",
@@ -5717,6 +7094,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Jasmine",
+        productUrl: "https://www.candlemaking.com/jasmine.html.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1VdR-9aZi23HAmuwztQPs7J7VR4npEgqI/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1kYlqh5bTNGVk5fmt1S82Yeh9-vkg-pvp/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "0",
+        specificGravity: "1.0330",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5727,6 +7112,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Lilac",
+        productUrl: "https://www.candlemaking.com/lilac.html.html",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1oeEYSWcI4Y9V-bfW6bkv9AT_qGKSX68g/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/11QYKAufmEFKYlXCQvzFwmG919aFvy2A3/view?usp=sharing",
+        specificGravity: "0.9955",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5737,6 +7130,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Hawaiian Hibiscus BBW Type",
+        productUrl:
+          "https://www.candlemaking.com/hawaiian-hibiscus-bbw-type-out-of-stock-until-3-20.html",
+        flashpointTemperatureFahrenheit: "200",
+        ifraUrl:
+          "https://drive.google.com/file/d/12hJxRJhdNjGSDm2ynx4TFeaAxsrtBbzp/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1e1wlV_dXhx2L7JQztkD5WQCVvG_SmnKi/view?usp=sharing",
+        specificGravity: "1.0799",
+        vanillinPercentage: "0.02",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5747,6 +7149,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Honeysuckle Jasmine",
+        productUrl:
+          "https://www.candlemaking.com/honeysuckle-jasmine-out-of-stock-until-1-13.html",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1t_dLNoq_4KGikdNKPEBeHGkNKfhsGzHt/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1PkG2Jdf4JpqQ2-tAE_U1H8BBcIgNWqop/view?usp=sharing",
+        specificGravity: "1.0701",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5756,7 +7167,16 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 3,
-        name: "Japanese Cherry Blossom BBW Tye",
+        name: "Japanese Cherry Blossom BBW Type",
+        productUrl:
+          "https://www.candlemaking.com/japanese-cherry-blossom-bbw-type-out-of-stock-until-2-25.html",
+        vanillinPercentage: "0.35",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.0457",
+        ifraUrl:
+          "https://drive.google.com/file/d/1BLqKdsC60wh1QULB0Q-RqlcV41cuO0PZ/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1yYwI7zd4vxpxp8_5d6HY4EAH2Otak7qv/view?usp=sharing",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5766,7 +7186,16 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 3,
-        name: "Fresh Cut Roses",
+        name: "Fresh Cut Rose",
+        productUrl:
+          "https://www.candlemaking.com/fresh-cut-rose-out-of-stock-until-6-23.html",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1zqIbDmrcGMwUfddQRxsbxbDaT8TocKhE/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1LqrUjuS4k3WCcsrxaR5XmHlPqcsXQ94I/view?usp=sharing",
+        specificGravity: "1.0267",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5777,6 +7206,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Lavender",
+        productUrl: "https://www.candlemaking.com/lavender.html",
+        flashpointTemperatureFahrenheit: "140",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1u1g9Kq55mAfLiAzjF4MpKXeQ7hloDw2T/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1lXxtqOHBaik4oG--o0M61pyOB9QzphNM/view?usp=sharing",
+        specificGravity: "0.9655",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5787,6 +7224,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Honeysuckle",
+        productUrl:
+          "https://www.candlemaking.com/honeysuckle-out-of-stock-until-3-20.html",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "0",
+        specificGravity: "1.0315",
+        ifraUrl:
+          "https://drive.google.com/file/d/1vRX9hnf1jzFd_xU_785AZRzQZNu2vjo5/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1nQz99yFrh9Fs_EvvVZ_xIyVVdyckDQqR/view?usp=sharing",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5797,6 +7243,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Plumeria",
+        productUrl: "https://www.candlemaking.com/plumeria.html.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1rX3e_cf3H93pchDrpR21n3z-wWYiIMOl/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1GOvY4KjFrslKtzxe-lK_njz8aZboaZ_-/view?usp=sharing",
+        specificGravity: "0.9950",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5807,6 +7261,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Stroll in the Garden",
+        productUrl:
+          "https://www.candlemaking.com/stroll-in-the-garden-discontinued.html",
+        flashpointTemperatureFahrenheit: "138",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1bO0Ry6w6pxb7MnKIkTnuw2k1Ix6aTBx4/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1V25LTxaVV3Mlx8P4cK0FaSlVWByvN3du/view?usp=sharing",
+        specificGravity: "0.9251",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5817,6 +7280,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Patchouli",
+        productUrl:
+          "https://www.candlemaking.com/patchouli-out-of-stock-until-9-7.html",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1KL0lqDkSC5NTTJ-rw0pzHQeaqM9JSydm/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1oVFAxnhJz9HRGT0grVDsFV9TUmnptj3c/view?usp=sharing",
+        specificGravity: "1.0610",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5827,6 +7299,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Tobacco",
+        productUrl: "https://www.candlemaking.com/tobacco.html.html",
+        vanillinPercentage: "0.3",
+        flashpointTemperatureFahrenheit: "200",
+        ifraUrl:
+          "https://drive.google.com/file/d/1vXhW16dmInQkqwDJ5kO5U3_Vu5ppAKm5/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/16mWjIJO46nh6CJsDI3Xl6f7NJtXiZunf/view?usp=sharing",
+        specificGravity: "1.0810",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5837,6 +7317,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Leaves",
+        productUrl:
+          "https://www.candlemaking.com/leaves-slatkin-bbw-type-out-of-stock-until-9-14.html",
+        flashpointTemperatureFahrenheit: "172",
+        vanillinPercentage: "0.1",
+        specificGravity: "1.0515",
+        msdsUrl:
+          "https://drive.google.com/file/d/1ZBuW33Uyf8vjNx4jbP23bpydXnueClZQ/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1BKc9ISQXsGzqOnBtwh96k6cD-mwL1V9i/view?usp=sharing",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5847,6 +7336,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Eucalyptus and Spearmint",
+        productUrl:
+          "https://www.candlemaking.com/eucalyptus-and-spearmint-out-of-stock-until-8-14.html",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "0.9460",
+        ifraUrl:
+          "https://drive.google.com/file/d/1_3SSWNQcbia4IQwEXdJMELRPxdrbaPis/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1Qz9goe16IA7EO_Ik8HHh42y_Jqs2O6aN/view?usp=sharing",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5857,6 +7355,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Eucalyptus",
+        productUrl:
+          "https://www.candlemaking.com/eucalyptus-out-of-stock-until-9-23.html",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "160",
+        ifraUrl:
+          "https://drive.google.com/file/d/1thpQkAwvMomAMRaowfXeP1URNnFbNOtJ/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1wY_SgBVeVPFdV_YmOlMGYYSVwqOTeEAD/view?usp=sharing",
+        specificGravity: "0.9570",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5867,6 +7374,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Sandalwood",
+        msdsUrl:
+          "https://drive.google.com/file/d/17ZCcJDrkz0PcKlsXIp-1UKFvJudO1i0F/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1bcgCGbnkX1MQmBB1T0D_tfui2OB5hu7j/view?usp=sharing",
+        specificGravity: "0.9830",
+        flashpointTemperatureFahrenheit: "200",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5877,6 +7390,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Barn Wood",
+        productUrl: "https://www.candlemaking.com/barn-wood.html.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/12vG32moETLAvdmxvPtVvHnwzJ4NmwFvY/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1lY7q1TkS9e9A4ZLOkxUww_JqD36GvWhZ/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "199",
+        specificGravity: "1.0180",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5887,6 +7407,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Cactus and Sea Salt",
+        productUrl:
+          "https://www.candlemaking.com/cactus-sea-salt-out-of-stock-until-9-7.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/110EQHsnyBOPDBYXWdeUkHvvmLpypWeDJ/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1Xx5g4HDzpj1j8IewIvPnFWF5nG9u1XaB/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "190",
+        specificGravity: "1.0455",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5897,6 +7425,10 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Lemongrass",
+        msdsUrl:
+          "https://drive.google.com/file/d/1IHl7_KraqqScq_sF2jz8hLNu33mD4cw4/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "130",
+        specificGravity: "0.9120",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5907,6 +7439,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Rosemary Mint",
+        productUrl:
+          "https://www.candlemaking.com/rosemary-mint-aveda-type-out-of-stock-until-5-18.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1f_CJal_0nmS5ME1tqIov75adwa3CqsG-/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1ngLtUjoj0IfV7KtzaUkIB8lXiReoZPdd/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "176",
+        specificGravity: "0.9735",
         weightOunces: "1",
         remaining: "1",
         price: "1.5",
@@ -5917,6 +7457,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Rosemary Pepper",
+        productUrl: "https://www.candlemaking.com/rosemary-pepper.html.html",
+        msdsUrl:
+          "https://drive.google.com/file/d/1Iix7jJ0h28qfZ_DxDZ6nowZUOxhkidD-/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1OK5Z9ThbLnY-ynOYZotpHPbPwFk_uBtR/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "192",
+        specificGravity: "1.0541",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -6039,6 +7587,10 @@ module.exports = [
         categoryId: 2,
         type: "fragrance-oil",
         name: "Beer",
+        productUrl:
+          "https://www.theflamingcandle.com/fragrance-oil/fragrance-oil-a-z/beer-fragrance-oil/",
+        vanillinPercentage: "0.10",
+        flashpointTemperatureFahrenheit: "200",
         weightOunces: "4",
         remaining: "4",
         price: "7.39",
@@ -6048,6 +7600,10 @@ module.exports = [
         categoryId: 2,
         type: "fragrance-oil",
         name: "Chocolate",
+        productUrl:
+          "https://www.theflamingcandle.com/soap-making-supplies/fragrance-oils-for-soap-making/all-soap-safe-fragrance-oils/chocolate-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "1.30",
         weightOunces: "4",
         remaining: "4",
         price: "6.99",
@@ -6057,6 +7613,11 @@ module.exports = [
         categoryId: 2,
         type: "fragrance-oil",
         name: "Sugared Maple",
+        productUrl:
+          "https://www.theflamingcandle.com/soap-making-supplies/fragrance-oils-for-soap-making/all-soap-safe-fragrance-oils/sugared-maple-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "1.55",
+        ethylVanillinPercentage: "1.45",
         weightOunces: "4",
         remaining: "4",
         price: "7.39",
@@ -6066,6 +7627,10 @@ module.exports = [
         categoryId: 2,
         type: "fragrance-oil",
         name: "Spiced Chestnut",
+        productUrl:
+          "https://www.theflamingcandle.com/fragrance-oil/fragrance-oil-a-z/spiced-chestnut-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "214",
+        vanillinPercentage: "5.00",
         weightOunces: "4",
         remaining: "4",
         price: "7.59",
@@ -6075,6 +7640,10 @@ module.exports = [
         categoryId: 2,
         type: "fragrance-oil",
         name: "Southern Iced Tea",
+        productUrl:
+          "https://www.theflamingcandle.com/soap-making-supplies/fragrance-oils-for-soap-making/all-soap-safe-fragrance-oils/southern-iced-tea-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "0.00",
         weightOunces: "8",
         remaining: "8",
         price: "9.79",
@@ -6138,6 +7707,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Watermelon",
+        productUrl:
+          "https://www.candlescience.com/fragrance/watermelon-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1DUtpKmWyNLHBOz4GAgmdcqhmxJ-egygh/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1AEhmxqCHjgR4dFaBnESPUQYjBTp28R03/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "144",
+        specificGravity: "0.9270",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -6146,8 +7724,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 1,
         name: "Oakmoss And Amber",
+        referenceId: "54",
         weightOunces: "16",
         remaining: "16",
         price: "20.95",
@@ -6299,6 +7877,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Mohogany Teakwood BBW Type",
+        productUrl:
+          "https://www.candlemaking.com/mahogany-teakwood-bbw-type.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/16roL7VxfrMVGDDY7Cu0O6tEiviVA4VmH/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/16fRL8Hg9lz5vfXDohA2pnCQMZcg5ZF93/view?usp=sharing",
+        specificGravity: "0.9602",
+        flashpointTemperatureFahrenheit: "200",
         weightOunces: "8",
         remaining: "8",
         price: "12.99",
@@ -6308,6 +7894,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Hot Buttered Popcorn",
+        productUrl:
+          "https://www.candlemaking.com/hot-buttered-popcorn.html.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1oxSg2-0YAj50Mll7UidIrMJP-t27Bjdu/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1kJ3ge-kkYwvdy-5e5I81HEFS8t9u9NGW/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "199",
+        specificGravity: "0.9241",
         weightOunces: "8",
         remaining: "8",
         price: "9.99",
@@ -6317,6 +7911,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Oud Wood",
+        productUrl:
+          "https://www.candlemaking.com/oud-wood-out-of-stock-until-5-20.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/11bmpc4YoAgH3ETOJ-H0-p1bUd4Xa4Wkb/view?usp=sharing",
+        vanillinPercentage: "0.1",
+        flashpointTemperatureFahrenheit: "200",
         weightOunces: "8",
         remaining: "8",
         price: "9.99",
@@ -6326,6 +7926,8 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Wood Sage & Sea Salt Jo Malone Type",
+        productUrl:
+          "https://www.candlemaking.com/wood-sage-sea-salt-jo-malone-type-out-of-stock.html",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -6336,6 +7938,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Grapefruit Mangosteen",
+        productUrl:
+          "https://www.candlemaking.com/grapefruit-mangosteen.html.html",
+        flashpointTemperatureFahrenheit: "200",
+        ifraUrl:
+          "https://drive.google.com/drive/folders/1l715DMofGr9rJzNPzjHkfGKOIkWZdU6o",
+        allerginUrl:
+          "https://drive.google.com/file/d/1Qv4CLNkawL29WpyjF8IT8HhBiciGZ5NC/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/13ag2VhpfLEiVV4p2agByOud1L36C6I6B/view?usp=sharing",
+        specificGravity: "1.011",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -6457,8 +8069,8 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        categoryId: 2,
         name: "Root Beer",
+        referenceId: "155",
         weightOunces: "16",
         remaining: "16",
         price: "17.00",
@@ -6469,6 +8081,7 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Carrot Cake",
+        referenceId: "156",
         weightOunces: "16",
         remaining: "16",
         price: "14.00",
@@ -6478,6 +8091,18 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Wild Mountain Honey",
+        productUrl:
+          "https://www.fillmorecontainer.com/wild-mountian-honey-fragrance-oil.html",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "1.50",
+        ethylVanillinPercentage: "0",
+        msdsUrl:
+          "https://www.fillmorecontainer.com/wild-mountian-honey-fragrance-oil.html",
+        ifraUrl:
+          "https://www.fillmorecontainer.com/amfile/file/download/file_id/4150/product_id/43597/",
+        msdsUrl:
+          "https://www.fillmorecontainer.com/amfile/file/download/file_id/4037/product_id/43597/",
+        specificGravity: "1.0640",
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
@@ -6488,6 +8113,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "River Rock",
+        productUrl:
+          "https://www.fillmorecontainer.com/river-rock-fragrance-oil.html",
+        flashpointTemperatureFahrenheit: "203",
+        vanillinPercentage: "0.0",
+        ethylVanillinPercentage: "0.0",
+        ifraUrl:
+          "https://www.fillmorecontainer.com/amfile/file/download/file_id/4152/product_id/43649/",
+        msdsUrl:
+          "https://www.fillmorecontainer.com/amfile/file/download/file_id/4202/product_id/43649/",
+        specificGravity: "0.94",
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
@@ -6507,6 +8142,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Iced Lemon Biscotti",
+        productUrl:
+          "https://www.fillmorecontainer.com/iced-lemon-biscotti-fragrance-oil-25.html",
+        flashpointTemperatureFahrenheit: "155",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "7.2",
+        ifraUrl:
+          "https://drive.google.com/file/d/1qF34wgGrY031AHlzvtRCFz8plMGJBMyC/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1rflyOrJndqsXTB-ctdip1UVuWoZbU9hL/view?usp=sharing",
+        specificGravity: "0.99",
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
@@ -6516,6 +8161,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Irish Moss",
+        productUrl:
+          "https://www.fillmorecontainer.com/irish-moss-fragrance-oil-25.html",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0.4",
+        ifraUrl:
+          "https://drive.google.com/file/d/1fgM40-8yfNtnQGw-Tm_oJ3OzgLF2UQ3_/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/17vmvOpa7IJHIP3CIHuFnFRiRNJzWQ68e/view?usp=sharing",
+        specificGravity: "0.93",
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
@@ -6525,6 +8180,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Sandalwood",
+        productUrl:
+          "https://www.fillmorecontainer.com/sandalwood-fragrance-oil-25.html",
+        flashpointTemperatureFahrenheit: "210",
+        vanillinPercentage: "0.0",
+        ethylVanillinPercentage: "0.2",
+        ifraUrl:
+          "https://drive.google.com/file/d/1KYbKZzPqAzznRmrwru29ifDU69BMFrSS/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1jli-CYrlS4-HH0qccCI7LzA2-ivkj8at/view?usp=sharing",
+        specificGravity: "0.93",
         weightOunces: "16",
         remaining: "16",
         price: "20",
@@ -6534,6 +8199,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Frankincense & Myrrh",
+        productUrl:
+          "https://www.fillmorecontainer.com/frankincense-myrrh-fragrance-oil-25.html",
+        msdsUrl:
+          "https://drive.google.com/file/d/1ptyfWbYWLLeT54Q5hdve7S-DDwNfnV58/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1TrOQVq5eboECLZiiE9GCf6-fIqeKQMcH/view?usp=sharing",
+        specificGravity: "0.97",
+        vanillinPercentage: "0.0",
+        flashpointTemperatureFahrenheit: "200",
+        ethylVanillinPercentage: "0.0",
         weightOunces: "16",
         remaining: "16",
         price: "15",
@@ -6543,6 +8218,17 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Rosemary & Thyme",
+        productUrl:
+          "https://www.fillmorecontainer.com/rosemary-thyme-fragrance-oil-25.html",
+        flashpointTemperatureFahrenheit: "149",
+        vanillinPercentage: "0.0",
+        ethylVanillinPercentage: "0.0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1K1lDylSBAnLBHKIZdxb8LgTxs0Tz79CU/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1GMnp2M4EGDxPjC14Ti0nvAppJ7byVcFd/view?usp=sharing",
+        specificGravity: "0.93",
+        flashpointTemperatureFahrenheit: "149",
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
@@ -6552,6 +8238,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Buttermilk Pancakes",
+        productUrl:
+          "https://www.fillmorecontainer.com/buttermilk-pancakes-fragrance-oil.html",
+        flashpointTemperatureFahrenheit: "199.4",
+        vanillinPercentage: "0.0",
+        ethylVanillinPercentage: "5.00",
+        ifraUrl:
+          "https://drive.google.com/file/d/1L95pmLdKr5f5YXqDRVQImPlmJBD_nOOM/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1ZZtfq0KMrbGYiBXEb7TliaYg3YLY-ZB4/view?usp=sharing",
+        specificGravity: "1.1",
         weightOunces: "16",
         remaining: "16",
         price: "15",
@@ -6570,8 +8266,8 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        categoryId: 2,
         name: "Bergamot",
+        referenceId: "79",
         weightOunces: "16",
         remaining: "16",
         price: "17.95",
@@ -6580,8 +8276,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 1,
         name: "Oakmoss",
+        referenceId: "92",
         weightOunces: "16",
         remaining: "16",
         price: "20.95",
@@ -6602,6 +8298,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Wassail",
+        productUrl:
+          "https://www.candlescience.com/fragrance/wassail-fragrance-oil",
+        msdsUrl:
+          "https://drive.google.com/file/d/1FCAQKnP_JhyNlNkB_bphKjsNFd_df9h6/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1ngjf5h7pTN3FiTAPtg2Dqwwc0YjyH7Bh/view?usp=sharing",
+        specificGravity: "0.973",
+        flashpointTemperatureFahrenheit: "172",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -6612,6 +8317,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Sweet Orange and Sriracha",
+        productUrl:
+          "https://www.candlescience.com/fragrance/sweet-orange-and-sriracha-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1ljzdqWXo0WaX4TGRVVfds0rqXqoitNuW/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/13Zkw2pMzR6OqqX1YmiWjSesm23AaENvw/view?usp=sharing",
+        specificGravity: "0.88839",
+        flashpointTemperatureFahrenheit: "205",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -6621,6 +8335,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Watermint and Clementine",
+        productUrl:
+          "https://www.candlescience.com/fragrance/watermint-and-clementine-fragrance-oil",
+        specificGravity: "0.94529",
+        flashpointTemperatureFahrenheit: "172",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1j1DZa56TfRhIqxnH0AAiATUA7rylVjxP/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1Zu-Oz5HXJx2RqomMK7B4m7q1Zz-9rHcU/view?usp=sharing",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -6630,6 +8353,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Hemp",
+        productUrl:
+          "https://www.candlescience.com/fragrance/hemp-fragrance-oil",
+        msdsUrl:
+          "https://drive.google.com/file/d/1vX9kfwN1R_FWeS0t2ixq2VJFG9W4T_Ga/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/15iHl2x51bsrX6HNEER36QTlxrqflAAjz/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        specificGravity: "0.8880",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -6639,6 +8371,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Sea Minerals",
+        productUrl:
+          "https://www.candlescience.com/fragrance/sea-minerals-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1EiXD5MIQSIxqJIWnTeWbwP2vK4LuWTew/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1awE8WxjEypqJM3jxHTK8FSqcVz1leGXh/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        specificGravity: "0.97610",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -6648,6 +8388,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "High Tide",
+        productUrl:
+          "https://www.candlescience.com/fragrance/high-tide-fragrance-oil",
+        flashpointTemperatureFahrenheit: "192",
+        ifraUrl:
+          "https://drive.google.com/file/d/1uMpN2UofFAAF-nBsaumV-5c0xOy5TxEO/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1GfqWNYTz5FAtmta0xXooy1AZAjL39EDi/view?usp=sharing",
+        specificGravity: "0.87741",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -6657,6 +8406,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Rose Petal Gelato",
+        productUrl:
+          "https://www.candlescience.com/fragrance/rose-petal-gelato-fragrance-oil",
+        vanillinPercentage: "0.01",
+        ifraUrl:
+          "https://drive.google.com/file/d/1YO_yt9tJ9KlO-COGM026Ao50cvExhNEm/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1IdYdfESu8j9yXrfiq4UBzvh474lPmgZn/view?usp=sharing",
+        specificGravity: "0.92832",
+        flashpointTemperatureFahrenheit: "208",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -6666,6 +8424,17 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Honeysuckle Jasmine",
+        productUrl:
+          "https://www.candlescience.com/fragrance/honeysuckle-jasmine-fragrance-oil",
+        flashpointTemperatureFahrenheit: "208",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1FJuhYA3WsPgnDUunHbkt9FAs3FeK3JiJ/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1ir_NbQAY2JFfIa2X1TKNb_CNDZZKXY7M/view?usp=sharing",
+        specificGravity: "0.97424",
+        flashpointTemperatureFahrenheit: "208",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -6685,8 +8454,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 2,
         name: "Mediterranean Fig",
+        referenceId: "75",
         weightOunces: "16",
         remaining: "16",
         price: "19.74",
@@ -6708,6 +8477,17 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Blackstrap Molasses Type",
+        productUrl:
+          "https://www.candlemaking.com/blackstrap-molasesses.html.html",
+        flashpointTemperatureFahrenheit: "181",
+        vanillinPercentage: "5.50",
+        allerginUrl:
+          "https://drive.google.com/file/d/1eNImUcjhjTtBkW1hxAtTuPJPFSeBWO4K/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/10mDQD6gQRvb08fqVb4-NzkmrJrnOCvQa/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1lNdO_kt9432R0p1roWqCx1_3zQQIsr46/view?usp=sharing",
+        specificGravity: "1.0629",
         weightOunces: "1",
         remaining: "1",
         price: "1",
@@ -6718,6 +8498,17 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Black Sea",
+        productUrl:
+          "https://www.candlemaking.com/black-sea-out-of-stock-no-eta.html",
+        allerginUrl:
+          "https://drive.google.com/file/d/1KiQuzc0jjVAlSiTas07PkPlJpzimq_PP/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/13INi-deXUDl1odsMCwilcx2oq5lOy4Kj/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1iUwDnTgJbtHQXFFo5iSuigHhvp42snHZ/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.015",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "1",
@@ -6727,6 +8518,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Black Cherry",
+        productUrl:
+          "https://www.candlemaking.com/black-cherry-out-of-stock-until-9-7.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/10aTVUOVu-UF2Om-MnqObznHVhp205i1A/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1K79UpYb-ztra5e9YR9T_18PQ4etqsOoj/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "172",
+        specificGravity: "0.9810",
         weightOunces: "1",
         remaining: "1",
         price: "1",
@@ -6736,6 +8535,17 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 5,
         name: "Black Ice Type",
+        productUrl:
+          "https://www.candlemaking.com/black-ice-type-out-of-stock-no-eta.html",
+        vanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1-8FjvKeQBjKHRby2NMAmaeYr1lezBStV/view?usp=sharing",
+        allerginUrl:
+          "https://drive.google.com/file/d/1fw81q_INhF696xT2xhePhG7wdaFGF7H7/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1BdCxKQUGEFWRUYwFpuN-9uEQtRCIQ8Wz/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "183",
+        specificGravity: "0.9494",
         weightOunces: "1",
         remaining: "1",
         price: "1",
@@ -6745,6 +8555,10 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Light Lager",
+        productUrl: "https://www.candlemaking.com/beer-light-lager.html",
+        vanillinPercentage: "0.6",
+        ifraUrl:
+          "https://drive.google.com/file/d/1p0CfjLI3xw9o-gnUGVJ3lQOTfCLitBgI/view?usp=sharing",
         weightOunces: "1",
         remaining: "1",
         price: "1",
@@ -6754,6 +8568,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Banana",
+        productUrl:
+          "https://www.candlemaking.com/banana-out-of-stock-until-10-28.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1Bt_qkE1p3PpNYVqb5eDZ52QDPGO-5J1M/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1zEEKQnekTSNsoXvsZaUkS-tyBdJeowC-/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "105",
+        specificGravity: "0.9680",
         weightOunces: "1",
         remaining: "1",
         price: "1",
@@ -6763,6 +8585,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Carrot Cake",
+        productUrl: "https://www.candlemaking.com/carrot-cake.html.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1sMQ1wmJJjwBcq95rNJ7Fa5bNiLi1w4FD/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1t8XJDQV3v0YZBK-T6E_T2cIIXnJOmezZ/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "0.9940",
         weightOunces: "1",
         remaining: "1",
         price: "1",
@@ -6772,6 +8601,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Chocolate",
+        productUrl: "https://www.candlemaking.com/chocolate-out-of-stock.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/10OZO0mA38OgLDYXyf1jFCAKPh_XuiB2p/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/17PyaXJsvW4XvsH8GmY7drXJ88Ybvm27t/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.0340",
+        ethylVanillinPercentage: "2",
+        vanillinPercentage: "4.2",
         weightOunces: "1",
         remaining: "1",
         price: "1",
@@ -6782,6 +8620,14 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Cinnamon Stick",
+        productUrl: "https://www.candlemaking.com/cinnamon-stick.html.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1P1Mmr56PAaejm61m4kbANvitJEsYxdm6/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1Efov_M_qhPIyyfsZ7_70oo5t5pIqAWeS/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.0825",
+        vanillinPercentage: "2",
         weightOunces: "1",
         remaining: "1",
         price: "1",
@@ -6801,6 +8647,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 5,
         name: "Cozy Flannel",
+        productUrl:
+          "https://www.candlemaking.com/cozy-cabin-out-of-stock-until-10-16.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1YIvvmrWzxeTdRBYX6lOMpG0qymKeagZq/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1MavpR5zcB9_XTl_dCbNKkOj0ZZPL9G7w/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.0820",
+        vanillinPercentage: "2",
+        ethylVanillinPercentage: "2",
         weightOunces: "1",
         remaining: "1",
         price: "1",
@@ -6810,6 +8666,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Egyptian Musk",
+        productUrl:
+          "https://www.candlemaking.com/egyptian-musk-out-of-stock-until-9-14.html",
+        flashpointTemperatureFahrenheit: "175",
+        ifraUrl:
+          "https://drive.google.com/file/d/18kxiTYzEEmEa6UEEAUfn9zXkcBU0wOI5/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1Kkh9HpuDe_qqD5hhZlXIZmhBbfS6ITGe/view?usp=sharing",
+        specificGravity: "1.0120",
+        vanillinPercentage: "2",
+        ethylVanillinPercentage: "2",
         weightOunces: "1",
         remaining: "1",
         price: "1",
@@ -6819,6 +8685,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Leather",
+        productUrl:
+          "https://www.candlemaking.com/leather-out-of-stock-until-2-25.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1qaJWMgOlFe6LXJIF_Pn330tnBBH4YdLB/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1ef8mErgmLU-uk97hxuezD26wrsh1VCVB/view?usp=sharing",
+        allerginUrl:
+          "https://drive.google.com/file/d/163MKp5AqD80zrRCIDXz1M5GCb0Lf9ybz/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.0240",
         weightOunces: "1",
         remaining: "1",
         price: "1",
@@ -6828,6 +8704,17 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Sour Patch Kids Type",
+        productUrl:
+          "https://www.candlemaking.com/sour-patch-kids-type-out-of-stock-no-eta.html",
+        allerginUrl:
+          "https://drive.google.com/file/d/1m5N89HLvwaVUWf24-m-OpnUwfuRTCRbW/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1DP9RgemhprxYjUvueZZm83ZvBpspwJlK/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1MabNNNO_CxO9lJUbAyMMsSmxhlUbQccz/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "170",
+        specificGravity: "0.977",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "1",
@@ -6837,6 +8724,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 5,
         name: "Winter BBW Type",
+        productUrl: "https://www.candlemaking.com/winter-bbw-type.html",
+        allerginUrl:
+          "https://drive.google.com/file/d/1jo9MNu5brqPKVh-wIL-gi1lDri_L0pI6/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1pCxO2qaAKDQbFHUWv05hifTWJaUqZ_6y/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/10gwam81m3mgZf2jYW7pPJ11jsVcXyxHn/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.0851",
+        vanillinPercentage: "0.5",
         weightOunces: "1",
         remaining: "1",
         price: "1",
@@ -6846,6 +8743,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Pumpkin Spice",
+        productUrl:
+          "https://www.candlemaking.com/pumpkin-spice-out-of-stock-until-10-22.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/183Lvu_yz14mTiPIbMJs8vpOFGyXMUoMr/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1m6N1WdnS--xMTi1SjH6xyNzsjH3nzqnC/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.0750",
+        ethylVanillinPercentage: "2",
+        vanillinPercentage: "1",
         weightOunces: "1",
         remaining: "1",
         price: "1",
@@ -6853,8 +8760,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: "4",
         name: "Rosemary Pepper",
+        referenceId: "208",
         weightOunces: "32",
         remaining: "32",
         price: "19.21",
@@ -6876,6 +8783,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Amber and Driftwood",
+        productUrl:
+          "https://www.candlescience.com/fragrance/amber-and-driftwood-fragrance-oil",
+        msdsUrl:
+          "https://drive.google.com/file/d/1pQByW6Q1Q6KLI3B_EDrAd4RZrunOHrHW/view?usp=sharing",
+        specificGravity: "0.9770",
+        flashpointTemperatureFahrenheit: "212",
+        ifraUrl:
+          "https://drive.google.com/file/d/1KKtQ_CO5AFCPMVx-OH4DuMgebfs21l4w/view?usp=sharing",
+        vanillinPercentage: "2.01",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -6886,6 +8802,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Brown Sugar and Fig",
+        productUrl:
+          "https://www.candlescience.com/fragrance/brown-sugar-and-fig-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1hsYLtg-0a2fpQoHULgd2_9JUez1V54ax/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1Q3ZMUzq0KgNTb4h5xLvRawZ-E_ANxmeV/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "225",
+        vanillinPercentage: "0.01",
+        ethylVanillinPercentage: "1",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -6895,6 +8820,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Cinnamon Buns",
+        productUrl:
+          "https://www.candlescience.com/fragrance/cinnamon-buns-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1Il-2oDTInxCNq8rbWasj7bjazTGnWx8e/view?usp=sharing",
+        vanillinPercentage: "0.01",
+        flashpointTemperatureFahrenheit: "200",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -6904,6 +8835,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Cinnamon Chai",
+        productUrl:
+          "https://www.candlescience.com/fragrance/cinnamon-chai-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1n2loe6S4sroeUUNo1giotY1VYnxTC_r7/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1xLYgt2IyCCa98DegLmvLv2WXYsWneYRl/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        specificGravity: "0.977",
+        vanillinPercentage: "5",
+        ethylVanillinPercentage: "1",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -6913,6 +8854,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 5,
         name: "Nag Champa",
+        productUrl:
+          "https://www.candlescience.com/fragrance/nag-champa-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/12a4WRTi36XbqZDPBl2M-ENb1YZFAGGCe/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1msbtxogTFehBrRUD3ChV0xxmvck_eVVb/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        specificGravity: "0.957",
+        vanillinPercentage: "2.01",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -6922,6 +8872,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Pumpkin Pie",
+        productUrl:
+          "https://www.candlescience.com/fragrance/pumpkin-pie-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1OOoNI7-FZx_Q0K3zEErCzfBQ7sPfkdnA/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1AgFEWpRoJ_2Z3M3CPIguY0sVC20c5Y-9/view?usp=sharing",
+        specificGravity: "0.9690",
+        flashpointTemperatureFahrenheit: "212",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -6929,8 +8888,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 1,
         name: "Sea Minerals",
+        referenceId: "235",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -6938,8 +8897,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 5,
         name: "Toasted Pumpkin Spice",
+        referenceId: "45",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -6947,8 +8906,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 2,
         name: "Watermelon",
+        referenceId: "215",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -6956,8 +8915,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 1,
         name: "High Tide",
+        referenceId: "236",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -6975,6 +8934,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Cake",
+        productUrl:
+          "https://www.candlescience.com/fragrance/cake-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/11iy8bpMvG1zdEUjOSiSk0gGUPVZQ7S1-/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "179",
+        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -7018,8 +8983,8 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        categoryId: 2,
         name: "Wild Mountain Honey",
+        referenceId: "223",
         weightOunces: "16",
         remaining: "16",
         price: "19.00",
@@ -7029,6 +8994,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Balsam Clove",
+        productUrl:
+          "https://www.fillmorecontainer.com/balsam-clove-truscent-fragrance-oil-25.html",
+        flashpointTemperatureFahrenheit: "161",
+        vanillinPercentage: "2",
+        ethylVanillinPercentage: "0.0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1e93cVjINZcPYlCy3NP5CLBZHUJKYSx7T/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1SJ_ar4QiJwQ3oxgSpalVO8_n1vrTktXy/view?usp=sharing",
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
@@ -7038,6 +9012,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Cinnamon Stick",
+        productUrl:
+          "https://www.fillmorecontainer.com/cinnamon-stick-fragrance-oil-25.html",
+        vanillinPercentage: "0.0",
+        ethylVanillinPercentage: "0.0",
+        flashpointTemperatureFahrenheit: "210",
+        ifraUrl:
+          "https://drive.google.com/file/d/1fuCHiqDB2aTvZPCVee84rfpaWcncjmpj/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1orwR9f48jpc9zeUdA1A1LEzYnRZEeIfq/view?usp=sharing",
+        specificGravity: "1.03",
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
@@ -7047,6 +9031,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Strawberry",
+        productUrl:
+          "https://www.fillmorecontainer.com/strawberry-fragrance-oil-25.html",
+        flashpointTemperatureFahrenheit: "175",
+        vanillinPercentage: "0.0",
+        ethylVanillinPercentage: "0.0",
+        specificGravity: "1.03",
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
@@ -7056,6 +9046,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Sweet Orange Chili Pepper",
+        productUrl:
+          "https://www.fillmorecontainer.com/sweet-orange-chili-pepper-fragrance-oil-25.html",
+        flashpointTemperatureFahrenheit: "160",
+        vanillinPercentage: "0.0",
+        ethylVanillinPercentage: "0.0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1nwfP50B_xNsBka6AVoo1kks7ekv_HN-A/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1FG35EN7TnqSNL9-Jy6Y1Utrz2fciyPOR/view?usp=sharing",
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
@@ -7180,6 +9179,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Oud",
+        productUrl: "https://calcandlesupply.com/oud-fragrance/",
+        vanillinPercentage: "0",
+        flashpointTemperatureFahrenheit: "200",
+        ifraUrl:
+          "https://drive.google.com/file/d/1BLCu5IQadEJzPi19i0R95pPqVwUc8box/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/11H77OhdZ2i8OQwf1Q5CuhIUi6cVkiTjo/view?usp=sharing",
         weightOunces: "4",
         remaining: "4",
         price: "11.34",
@@ -7198,8 +9204,8 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        categoryId: 2,
         name: "Root Beer",
+        referenceId: "155",
         weightOunces: "16",
         remaining: "16",
         price: "17.00",
@@ -7207,8 +9213,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: "4",
         name: "French Vanilla",
+        referenceId: "115",
         weightOunces: "16",
         remaining: "16",
         price: "15.00",
@@ -7216,8 +9222,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 2,
         name: "Wild Mountain Honey",
+        referenceId: "223",
         weightOunces: "16",
         remaining: "16",
         price: "19.00",
@@ -7238,6 +9244,11 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 5,
         name: "Cocoa Butter Cashmere",
+        productUrl:
+          "https://www.theflamingcandle.com/fragrance-oil/fragrance-oil-a-z/cocoa-butter-cashmere-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "10.80",
         weightOunces: "8",
         remaining: "8",
         price: "11.99",
@@ -7246,7 +9257,11 @@ module.exports = [
       {
         type: "fragrance-oil",
         categoryId: 1,
-        name: " Palo Santo Patchouli",
+        name: "Palo Santo Patchouli",
+        productUrl:
+          "https://www.theflamingcandle.com/fragrance-oil/fragrance-oil-a-z/palo-santo-patchouli-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "214",
+        vanillinPercentage: "2.18",
         weightOunces: "8",
         remaining: "8",
         price: "13.79",
@@ -7289,6 +9304,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Cotton and Iris",
+        productUrl:
+          "https://www.candlescience.com/fragrance/cotton-and-iris-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1HC-KAztjTRw69UbN0fuvZSJosBraq8vm/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1xFlhwAf6OPLaV9ConS58Dvu69EP5VjOW/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        specificGravity: "1.003",
+        vanillinPercentage: "0.0",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -7299,6 +9323,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Cedarwood Blanc",
+        productUrl:
+          "https://www.candlescience.com/fragrance/cedarwood-blanc-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1-Gik804yUxY3KqJU-6JsBsN755LlG06B/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1iQL0HjtQJCdnQ5I5nCl_58iUuNK82rO2/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "190",
+        specificGravity: "0.986",
+        ethylVanillinPercentage: "1",
         weightOunces: "4",
         remaining: "4",
         price: "8.92",
@@ -7308,6 +9341,15 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: "4",
         name: "Spiced Honey and Tonka",
+        productUrl:
+          "https://www.candlescience.com/fragrance/spiced-honey-and-tonka-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1X9t4LNc91rPmz55tVOO3qDtllkWQMAtg/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1BfxS7rbQsQlCs2h8KXhmiNrmtgAt9Eow/view?usp=sharing",
+        specificGravity: "1.021",
+        flashpointTemperatureFahrenheit: "212",
+        vanillinPercentage: "2.01",
         weightOunces: "4",
         remaining: "4",
         price: "8.92",
@@ -7317,6 +9359,16 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Black Amber and Plum",
+        productUrl:
+          "https://www.candlescience.com/fragrance/black-amber-and-plum-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1FChWF9gaEGKAQAo89JUVwkjwvLM_LBK2/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1kYIrlBPpwrDA_8a-K31iclk8yVyk9MEv/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        specificGravity: "0.931",
+        ethylVanillinPercentage: "1",
+        vanillinPercentage: "0",
         weightOunces: "4",
         remaining: "4",
         price: "8.92",
@@ -7324,8 +9376,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 5,
         name: "Nag Champa",
+        referenceId: "259",
         weightOunces: "16",
         remaining: "16",
         price: "20.95",
@@ -7356,8 +9408,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 1,
-        name: "Fig Tree",
+        name: "Fig Tree V1",
+        referenceId: "168",
         weightOunces: "16",
         remaining: "16",
         price: "20.95",
@@ -7378,6 +9430,11 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Vanilla Pumpkin Marshmallow",
+        productUrl:
+          "https://www.theflamingcandle.com/soap-making-supplies/fragrance-oils-for-soap-making/all-soap-safe-fragrance-oils/vanilla-pumpkin-marshmallow-type-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "9.00",
+        ethylVanillinPercentage: "6.50",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -7685,27 +9742,27 @@ module.exports = [
     openDate: "2020-06-16",
     items: [
       {
-        categoryId: 5,
         type: "fragrance-oil",
         name: "Nag Champa",
+        referenceId: "259",
         weightOunces: "16",
         remaining: "16",
         price: "20.95",
         shareOfShippingPercent: "19",
       },
       {
-        categoryId: 1,
         type: "fragrance-oil",
         name: "Black Amber and Plum",
+        referenceId: "272",
         weightOunces: "16",
         remaining: "16",
         price: "20.95",
         shareOfShippingPercent: "19",
       },
       {
-        categoryId: 1,
         type: "fragrance-oil",
         name: "Black Amber and Plum",
+        referenceId: "272",
         weightOunces: "16",
         remaining: "16",
         price: "20.95",
@@ -7715,15 +9772,25 @@ module.exports = [
         categoryId: 2,
         type: "fragrance-oil",
         name: "Very Vanilla",
+        productUrl:
+          "https://www.candlescience.com/fragrance/very-vanilla-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1h8nhK1O43-HExnT4oBsb9F4U4RC_f89X/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1_rfogBZKXKAqn6Vl9dIpmM6XeqHjNzmU/view?usp=sharing",
+        vanillinPercentage: "5",
+        ethylVanillinPercentage: "5",
+        flashpointTemperatureFahrenheit: "212",
+        specificGravity: "1.123",
         weightOunces: "16",
         remaining: "16",
         price: "19.74",
         shareOfShippingPercent: "19",
       },
       {
-        categoryId: 1,
         type: "fragrance-oil",
         name: "Caribbean Teakwood",
+        referenceId: "30",
         weightOunces: "16",
         remaining: "16",
         price: "20.95",
@@ -7733,6 +9800,16 @@ module.exports = [
         categoryId: 2,
         type: "fragrance-oil",
         name: "Cranberry Woods",
+        productUrl:
+          "https://www.candlescience.com/fragrance/cranberry-woods-fragrance-oil",
+        flashpointTemperatureFahrenheit: "172",
+        ifraUrl:
+          "https://drive.google.com/file/d/1KzRXuzlB6Z78lErk3iAcCLD92ZkwKhyj/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1JCwxyL2kDaHuLfZ9JeR4g6EdW6gNi6AJ/view?usp=sharing",
+        specificGravity: "1.009",
+        flashpointTemperatureFahrenheit: "172",
+        vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "1",
         price: "2.65",
@@ -7832,8 +9909,8 @@ module.exports = [
     items: [
       {
         type: "fragrance-oil",
-        categoryId: 2,
         name: "Bergamot",
+        referenceId: "79",
         weightOunces: "16",
         remaining: "16",
         price: "17.95",
@@ -7841,8 +9918,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 2,
         name: "Bergamot",
+        referenceId: "79",
         weightOunces: "16",
         remaining: "16",
         price: "17.95",
@@ -7850,8 +9927,8 @@ module.exports = [
       },
       {
         type: "fragrance-oil",
-        categoryId: 2,
         name: "Black Cherry",
+        referenceId: "80",
         weightOunces: "16",
         remaining: "16",
         price: "17.95",
@@ -8049,6 +10126,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Creme Brulee",
+        productUrl: "https://www.candlescience.com/fragrance/creme-brulee-fragrance-oil",
+        ifraUrl: "https://drive.google.com/file/d/1KzZTs_vQsGK_tFULBP3ZxxxrDYAmdyDF/view?usp=sharing",
+        msdsUrl: "https://drive.google.com/file/d/12kj7ETNoaMY-k082RJbiTakZexwvoa1p/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        specificGravity: "1.063",
+        ethylVanillinPercentage: "5",
+        vanillinPercentage: "1",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -8059,6 +10143,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 1,
         name: "Fig Tree",
+        productUrl: "https://www.candlescience.com/fragrance/fig-tree-fragrance-oil",
+        ifraUrl: "https://drive.google.com/file/d/14zTqpNZg_MqggeOBRFrkcS75o7-u0Agj/view?usp=sharing",
+        msdsUrl: "https://drive.google.com/file/d/1AUnVilL6SOhoz-FfhWTnJ7bxuSMQC0Xk/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "182.2",
+        specificGravity: "0.9190",
+        vanillinPercentage: "0",
         weightOunces: "16",
         remaining: "16",
         price: "20.95",
@@ -8068,6 +10158,13 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Black Currant and Jasmine",
+        productUrl: "https://www.candlescience.com/fragrance/black-currant-and-jasmine-fragrance-oil",
+        ifraUrl: "https://drive.google.com/file/d/1lFBzXiAAciZ-BGPtkXvT2Srp3LixB6p8/view?usp=sharing",
+        msdsUrl: "https://drive.google.com/file/d/1-ywkGy2fYPiykBYdXmOoUbvfeNXg_C1L/view?usp=sharing",
+        specificGravity: "0.9470",
+        flashpointTemperatureFahrenheit: "212",
+        ethylVanillinPercentage: "1",
+        vanillinPercentage: "5",
         weightOunces: "4",
         remaining: "4",
         price: "9.42",
@@ -8077,6 +10174,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Citrus Agave",
+        productUrl: "https://www.candlescience.com/fragrance/citrus-agave-fragrance-oil",
+        ifraUrl: "https://drive.google.com/file/d/1jBxHGvO0-HzEKqLfA5yeZTKa1qapzmPE/view?usp=sharing",
+        msdsUrl: "https://drive.google.com/file/d/1upnL7YYDmf106h_LgCCD2LhLu_HXrFwt/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "181",
+        specificGravity: "0.8920",
+        vanillinPercentage: "0",
         weightOunces: "4",
         remaining: "4",
         price: "8.92",
@@ -8086,6 +10189,12 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 3,
         name: "Calla Lilly",
+        productUrl: "https://www.candlescience.com/fragrance/calla-lily-fragrance-oil",
+        ifraUrl: "https://drive.google.com/file/d/1Es_Td7V1Dr5S7gc0Eq6UoANZHGAw_AhD/view?usp=sharing",
+        msdsUrl: "https://drive.google.com/file/d/18bz4CzeyFGyHqT-Y1r6Iswgvpf1gVfYN/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "212",
+        specificGravity: "1.050",
+        vanillinPercentage: "0.01",
         weightOunces: "4",
         remaining: "4",
         price: "8.68",
@@ -8183,6 +10292,9 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Tobacco Caramel",
+        productUrl: "https://www.theflamingcandle.com/soap-making-supplies/fragrance-oils-for-soap-making/all-soap-safe-fragrance-oils/tobacco-caramel-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "4.20",
         weightOunces: "8",
         remaining: "8",
         price: "10.79",
@@ -8192,6 +10304,10 @@ module.exports = [
         type: "fragrance-oil",
         categoryId: 2,
         name: "Caramel Pumpkin Swirl",
+        productUrl: "https://www.theflamingcandle.com/fragrance-oil/fragrance-oil-a-z/caramel-pumpkin-swirl-type-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "200",
+        vanillinPercentage: "7.00",
+        ethylVanillinPercentage: "9.00",
         weightOunces: "1",
         remaining: "1",
         price: "0",
@@ -8568,5 +10684,437 @@ module.exports = [
     shippingCost: "16.20",
     taxesAndFees: "0",
     totalCost: "54.65",
+  },
+  {
+    openDate: "2020-09-10",
+    items: [
+      {
+        type: "jars",
+        name: "16oz Lexington Clear",
+        waxToFillLineOunces: "12.50",
+        overflowVolumeOunces: "16",
+        diameterInches: "3.50",
+        color: "clear",
+        count: "8",
+        remaining: "8",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "recycled testers",
+      },
+      {
+        type: "jars",
+        name: "16oz Lexington Amber",
+        waxToFillLineOunces: "12.50",
+        overflowVolumeOunces: "16",
+        diameterInches: "3.50",
+        color: "amber",
+        count: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "recycled tester",
+      },
+      {
+        type: "jars",
+        name: "8.5oz Heavy Votive Clear",
+        waxToFillLineOunces: "6.75",
+        waxToOverflowOunces: "",
+        overflowVolumeOunces: "8.50",
+        diameterInches: "2.75",
+        color: "clear",
+        count: "10",
+        remaining: "10",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "recycled testers",
+      },
+    ],
+    supplierName: "Recycled",
+    supplierId: 15,
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0",
+  },
+  {
+    openDate: "2020-09-10",
+    items: [
+      {
+        type: "fragrance-oil",
+        name: "Leather",
+        referenceId: "33",
+        weightOunces: "16",
+        remaining: "16",
+        price: "20.95",
+        shareOfShippingPercent: "15",
+      },
+      {
+        type: "fragrance-oil",
+        name: "Fraser Fir",
+        referenceId: "6",
+        weightOunces: "16",
+        remaining: "16",
+        price: "20.95",
+        shareOfShippingPercent: "15",
+      },
+      {
+        type: "fragrance-oil",
+        name: "Patchouli",
+        referenceId: "166",
+        weightOunces: "16",
+        remaining: "16",
+        price: "24.19",
+        shareOfShippingPercent: "15",
+      },
+      {
+        type: "fragrance-oil",
+        name: "Peppercorn Pomander",
+        referenceId: "140",
+        weightOunces: "16",
+        remaining: "16",
+        price: "20.95",
+        shareOfShippingPercent: "15",
+      },
+      {
+        type: "fragrance-oil",
+        name: "Very Vanilla",
+        referenceId: "274",
+        weightOunces: "16",
+        remaining: "16",
+        price: "19.74",
+        shareOfShippingPercent: "15",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 2,
+        name: "Pomegranate Bitters",
+        productUrl:
+          "https://www.candlescience.com/fragrance/pomegranate-bitters-fragrance-oil",
+        msdsUrl:
+          "https://drive.google.com/file/d/1I_OUGwCFwKg5PnAP1CwLZSPKak6g0eWG/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1s7vvLIbcTsaXqyFXEVo8dA2m02htGm49/view?usp=sharing",
+        specificGravity: "1.0090",
+        flashpointTemperatureFahrenheit: "201",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.92",
+        shareOfShippingPercent: "8",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 2,
+        name: "Dry Gin and Cypress",
+        productUrl:
+          "https://www.candlescience.com/fragrance/dry-gin-and-cypress-fragrance-oil",
+        flashpointTemperatureFahrenheit: "219",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1tF6U8Z2nt7dHOU6EjgwcTKMxnaytezd2/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1Vyk-ANhgUZAVReMv7PzTh8oQ88OUruPQ/view?usp=sharing",
+        specificGravity: "0.91634",
+        weightOunces: "4",
+        remaining: "4",
+        price: "9.42",
+        shareOfShippingPercent: "8",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 1,
+        name: "Suede and Smoke",
+        productUrl:
+          "https://www.candlescience.com/fragrance/suede-and-smoke-fragrance-oil",
+        flashpointTemperatureFahrenheit: "225",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
+        ifraUrl:
+          "https://drive.google.com/file/d/1dZ1A699Oh2W_Nkm2Tdxta3_aorRJkS-Y/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1ppGpudd6pxjFOMca-lli1Lsk6nrkphnj/view?usp=sharing",
+        specificGravity: "0.87741",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.92",
+        shareOfShippingPercent: "8",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 2,
+        name: "Pineapple Sage",
+        productUrl:
+          "https://www.candlescience.com/fragrance/pineapple-sage-fragrance-oil",
+        flashpointTemperatureFahrenheit: "171",
+        vanillinPercentage: "0.01",
+        ifraUrl:
+          "https://drive.google.com/file/d/158xrrYkKcwAS5m97FJTCdeYy6BqLsgE7/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1WxUgON18fl-ImAO3CVNwH8FEtlIVk8ws/view?usp=sharing",
+        specificGravity: "0.8930",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "4",
+        notes: "Free sample",
+      },
+    ],
+    supplierName: "CandleScience",
+    supplierId: 1,
+    subtotalCost: "134.04",
+    shippingCost: "16.72",
+    taxesAndFees: "12.44",
+    totalCost: "163.20",
+  },
+  {
+    openDate: "2020-09-10",
+    items: [
+      {
+        type: "wax",
+        name: "Soy #10",
+        material: "Soy",
+        weightPounds: "50",
+        remaining: "50",
+        price: "95.95",
+        shareOfShippingPercent: "100",
+        notes:
+          "Double charged for this, but I'll call Swan's to resolve it. Hopefully the charge doesn't reflect double shipping.",
+      },
+    ],
+    supplierName: "Swans Candles",
+    supplierId: 25,
+    subtotalCost: "95.95",
+    shippingCost: "67.88",
+    taxesAndFees: "0",
+    totalCost: "163.83",
+  },
+  {
+    openDate: "2020-09-18",
+    items: [
+      {
+        type: "jars",
+        name: "16oz Lexington Clear",
+        waxToFillLineOunces: "12.50",
+        waxToOverflowOunces: "",
+        overflowVolumeOunces: "16",
+        diameterInches: "3.50",
+        color: "clear",
+        count: "7",
+        remaining: "7",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "Recycled testers",
+      },
+      {
+        type: "jars",
+        name: "8.5oz Heavy Votive Clear",
+        waxToFillLineOunces: "6.75",
+        overflowVolumeOunces: "8.50",
+        diameterInches: "2.75",
+        color: "clear",
+        count: "3",
+        remaining: "3",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "Recycled testers",
+      },
+    ],
+    supplierName: "Recycled",
+    supplierId: 15,
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0",
+  },
+  {
+    openDate: "2020-09-28",
+    items: [
+      {
+        type: "jars",
+        name: "16oz Lexington Clear",
+        waxToFillLineOunces: "12.50",
+        overflowVolumeOunces: "16.0",
+        diameterInches: "3.50",
+        color: "clear",
+        count: "8",
+        remaining: "8",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "Recycled from testers",
+      },
+      {
+        type: "jars",
+        name: "8.5oz Heavy Votive Clear",
+        waxToFillLineOunces: "6.75",
+        overflowVolumeOunces: "8.50",
+        diameterInches: "2.75",
+        color: "clear",
+        count: "10",
+        remaining: "10",
+        shareOfShippingPercent: "0",
+        price: "0",
+        notes: "recycled testers",
+      },
+    ],
+    supplierName: "Recycled",
+    supplierId: 15,
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0",
+  },
+  {
+    openDate: "2020-10-15",
+    items: [
+      {
+        type: "jars",
+        name: "16oz Lexington Dark Amber",
+        waxToFillLineOunces: "12.50",
+        waxToOverflowOunces: "",
+        overflowVolumeOunces: "16.0",
+        diameterInches: "3.50",
+        color: "amber",
+        count: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "0",
+        notes: "",
+      },
+      {
+        type: "jars",
+        name: "16oz Lexington Clear",
+        waxToFillLineOunces: "12.50",
+        overflowVolumeOunces: "16.0",
+        diameterInches: "3.50",
+        color: "clear",
+        count: "9",
+        remaining: "9",
+        price: "0",
+        shareOfShippingPercent: "0",
+      },
+      {
+        type: "jars",
+        name: "8.5 oz Heavy Votive Silver",
+        waxToFillLineOunces: "6.75",
+        overflowVolumeOunces: "8.50",
+        diameterInches: "2.75",
+        color: "silver",
+        count: "2",
+        remaining: "2",
+        shareOfShippingPercent: "0",
+        price: "0",
+      },
+    ],
+    supplierName: "Recycled",
+    supplierId: 15,
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0",
+  },
+  {
+    openDate: "2020-10-15",
+    items: [
+      {
+        type: "wicks",
+        name: "CDN-2",
+        length: "6",
+        count: "110",
+        remaining: "110",
+        series: "CDN",
+        size: "2",
+        price: "13.75",
+        shareOfShippingPercent: "33",
+      },
+      {
+        type: "wicks",
+        name: "CDN-3",
+        length: "6",
+        count: "110",
+        remaining: "110",
+        series: "CDN",
+        size: "3",
+        price: "14.95",
+        shareOfShippingPercent: "33",
+      },
+      {
+        type: "wicks",
+        name: "CDN-5",
+        length: "6",
+        count: "110",
+        remaining: "110",
+        series: "CDN",
+        size: "5",
+        price: "15.65",
+        shareOfShippingPercent: "34",
+      },
+    ],
+    supplierName: "Sixteen Seventeen",
+    supplierId: 26,
+    subtotalCost: "44.35",
+    shippingCost: "12.18",
+    taxesAndFees: "0",
+    totalCost: "56.53",
+  },
+  {
+    openDate: "2020-10-20",
+    items: [
+      {
+        type: "jars",
+        name: "16oz Lexington Clear",
+        waxToFillLineOunces: "12.50",
+        waxToOverflowOunces: "",
+        overflowVolumeOunces: "16.0",
+        diameterInches: "3.50",
+        color: "clear",
+        count: "8",
+        remaining: "8",
+        price: "0",
+        shareOfShippingPercent: "100",
+      },
+    ],
+    supplierName: "Recycled",
+    supplierId: 15,
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0",
+  },
+  {
+    openDate: "2020-10-26",
+    items: [
+      {
+        type: "jars",
+        name: "16oz Lexington Dark Amber",
+        waxToFillLineOunces: "12.50",
+        overflowVolumeOunces: "16.0",
+        diameterInches: "3.50",
+        color: "amber",
+        count: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "12.5",
+      },
+      {
+        type: "jars",
+        name: "16oz Lexington Clear",
+        waxToFillLineOunces: "12.50",
+        overflowVolumeOunces: "16.0",
+        diameterInches: "3.50",
+        color: "clear",
+        count: "7",
+        remaining: "7",
+        price: "0",
+        shareOfShippingPercent: "87.5",
+      },
+    ],
+    supplierName: "Recycled",
+    supplierId: 15,
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0",
   },
 ];

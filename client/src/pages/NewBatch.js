@@ -271,7 +271,6 @@ function NewBatch({ history, enqueueSnackbar }) {
     const name = e.target.name;
     const value = e.target.value;
     const checked = e.target.checked;
-    debugger;
 
     setNewBatchItemValues((newBatchItemValues) => {
       // separate the combineId so we can remove the value if `type` is changed

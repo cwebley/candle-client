@@ -442,6 +442,19 @@ total: $3.50 a piece
 colors: +$0.50 to $0.67 added
 electroplated = +$1.90
 
+--22 oz Paris candlemakingsupplies.net--
+48 at $2.39 a piece--shipping is 54.96
+$3.54 a piece
+6 bucks with the lids if you order 100 of each. so something like $7 a piece with wood lid.
+so really $7 a piece with lid.
+
+--14 oz Havana candlemakingsupplies.net--
+1 case of 45 at $100.80 --shipping is 31.54
+$2.93 a piece
+rose gold lids at $2.75 a piece. 45 for $123.75
+$5.71 for jar + lid shipped (25c cheaper for silver or wood lids)
+
+
 
 --Sixteen Seventeen West Coast Collection prices--
 $209.48 for 8 cases of 4 shipped = $4.35 a piece
@@ -566,6 +579,7 @@ find wick for cardamom and star anise
 find wick for wild mountain honey
 
 
+
 compare 
   AAA orange spice 8oz
   CS blood orange 8oz
@@ -633,13 +647,123 @@ full testers round:
     Eco-0.75
     P-740
     P-745
+    htp-62
 
-    htp-62 small pour
 
   Heavy votive
+    P-767
     P-770
+    RRD-34
+ 
 
-    
+
+
+  Vanilla full testers:
+    votive
+      P-767 --great, but wick mushrooming near bottom and wick a bit large. possibly 765 worth trying.
+      P-770 --soot near the bottom. 
+      RRD-34--huge mushrooms
+
+    Lexington
+      CD-3--great
+      CD-4--prob too hot near bottom @150
+      LX-12--great
+      Eco-0.75--great
+      P-740--great--close to the cd3 but slightly hotter.
+      P-745--a bit hot near the bottom. closer to the cd-4
+      HTP-62 --way too small still. try 73/83
+
+  Rosemary Pepper testers:
+    votive
+      P-767 --drowned
+      RRD-34 --actually kind of good
+      lx-18 --a bit too small
+      htp-93 --a bit too small
+      cd-7 --a bit too small+
+
+    Lexington
+      LX-12 --nearly drowning
+      CD-3 --a bit too small. but actually not horrid.
+      P-740 --way too small, drowned.
+      eco-0.75 --drowned
+      htp-73 --drowned
+
+  Rosemary Pepper Round 2: 
+
+    votive
+      P-775 -- need slightly bigger. 780ish
+      RRD-37 -- too big
+      LX-20
+      HTP-104 -- pretty good actually
+      CD-8 -- very slightly too small
+
+    lexington
+      LX-14
+      CD-4
+      P-750
+      Eco-1
+      HTP-83
+
+  Root Beer (highest density at 1.130!)
+
+    lexington
+      Eco-1
+      LX-14
+      CD-3
+      CD-4
+      CDN-5
+      P-750
+      P-755
+      HTP-93
+
+    votive
+      P-775
+      P-780
+      LX-22
+      HTP-104
+      CD-8
+      CDN-8
+
+
+  Suede and Smoke Round 1: 
+
+    votive
+      P-775
+      P-780
+
+      RRD-34
+
+      LX-20
+      LX-22
+
+      HTP-93
+      HTP-104
+      CD-8
+
+    lexington
+      LX-12 great, touch small
+      LX-14 maybe too hot at bottom
+      CD-3 great but soot at bottom
+      CD-4
+      P-750 1 inch mp, tiny bit of soot. needs 745 or 740
+      Eco-1
+      HTP-83
+
+  root beer vanilla lexington
+    lx-12
+    lx-14
+    htp-83
+    htp-93
+
+  patchouli cs lexington
+
+    lx-12
+    cd-3
+    p-745
+    htp-83
+
+
+
 
 
 vanillin
@@ -721,6 +845,9 @@ https://armatagecandlecompany.com/blog/the-candle-labels-requirements-guide/?fbc
 
 
 App Todo
+  add additives to batch page, candle page
+  handle additives as part of wax for fo calcs on new-batch
+
   add jar fill percentage to each individual candle in addition to the overall default. so you can fill one tester all the way and others not.
 
   handle wickless testers somehow
@@ -738,3 +865,62 @@ they are not flammable.. you can heat set in the oven, or they can air set for 2
 
 cool gold tins, 8oz 3.25 inch diameter:
 https://www.heartscrafts.com/shop/containers/gold-candle-tin/
+
+DIY cement vessels using molds like https://www.amazon.com/gp/product/B0896XT7ND/ref=ppx_yo_dt_b_asin_title_o05_s01?ie=UTF8&th=1&fbclid=IwAR06L-3smFGpsvi-Hug3w2NZCepZC4tOdGS5PU2Pwy-w94TNGYubLcObjIw
+need to be sealed properly. and need to avoid inhaling cement dust
+
+
+candlescience sds needs
+  grapefruit and mint
+  https://www.candlescience.com/fragrance/grapefruit-and-mint-fragrance-oil
+  sea salt and orchid
+  https://www.candlescience.com/fragrance/sea-salt-and-orchid-fragrance-oil
+  lavender
+  https://www.candlescience.com/fragrance/lavender-fragrance-oil
+  himalayan bamboo
+  https://www.candlescience.com/fragrance/himalayan-bamboo-fragrance-oil
+  caribbean teakwodd
+  https://www.candlescience.com/fragrance/caribbean-teakwood-fragrance-oil
+  amber noir
+  https://dpoy1j4zladj1.cloudfront.net/Amber%20Noir%20IFRA%20Sheet.pdf
+  black sea
+  https://www.candlescience.com/fragrance/black-sea-fragrance-oil
+  moon lake musk
+  https://www.candlescience.com/fragrance/moon-lake-musk-fragrance-oil
+  lavender chamomile
+  https://www.candlescience.com/fragrance/lavender-chamomile-fragrance-oil
+  blue spruce
+  https://www.candlescience.com/fragrance/blue-spruce-fragrance-oil
+  day at the spa
+  https://www.candlescience.com/fragrance/day-at-the-spa-fragrance-oil
+  citron and mandarin
+  https://www.candlescience.com/fragrance/citron-and-mandarin-fragrance-oil
+  lemon Verbena
+  https://www.candlescience.com/fragrance/lemon-verbena-fragrance-oil
+  golden rose
+  https://www.candlescience.com/fragrance/golden-rose-fragrance-oil
+  black currant absinthe
+  https://www.candlescience.com/fragrance/black-currant-absinthe-fragrance-oil
+  mulled cider and chestnuts
+  https://www.candlescience.com/fragrance/mulled-cider-and-chestnuts-fragrance-oil
+
+  whiskey specific Gravity not shown
+  https://dpoy1j4zladj1.cloudfront.net/Whiskey_SDS.pdf
+  gardenia tuberose 
+
+Lone Star
+  Black cherry msds says vanillin 2-5%, but page says 0.2%
+  https://www.lonestarcandlesupply.com/black-cherry.html
+
+
+order: 
+CD-3 candlescience
+Suede and smoke if good
+
+for tealight or accurate pours:
+Confectionery Funnel With Stand from amazon for like 60 bucks
+
+
+printer?
+$279
+https://www.officedepot.com/a/products/274571/Xerox-Phaser-Color-Laser-Printer-6510DN/?cm_mmc=PLA-_-Google-_-Printers_Accessories-_-274571&utm_source=google&utm_medium=cpc&gclid=Cj0KCQjwuL_8BRCXARIsAGiC51CJa5qkSTygRnGKEYF7keGxjWWSQzshsikeVpksDrgAP_9db4qiZSEaApiYEALw_wcB&gclsrc=aw.ds

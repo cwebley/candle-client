@@ -92,6 +92,16 @@ function FragranceOilForm({
       </FormControl>
       <TextField
         className={classes.textField}
+        label="Product Link"
+        value={newItemValues.productUrl || ""}
+        type="text"
+        onChange={onChange}
+        inputProps={{
+          name: "productUrl",
+        }}
+      />
+      <TextField
+        className={classes.textField}
         label="MSDS Link"
         value={newItemValues.msdsUrl || ""}
         type="text"

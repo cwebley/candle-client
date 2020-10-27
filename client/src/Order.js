@@ -54,7 +54,7 @@ function Order({ match, classes }) {
         <div>
           <header className={classes.header}>
             <Typography align="center" variant="h2">
-              {`${orderData.source || "Unknown"} Order`}
+              {`${orderData.supplierName || "Unknown"} Order`}
             </Typography>
             <Typography variant="h5" align="right">
               {moment(orderData.openDate).format("MMMM Do YYYY")}

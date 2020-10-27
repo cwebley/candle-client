@@ -24,7 +24,7 @@ module.exports = function getBatch(db, { batchId }, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
       return cb(err);
     }
@@ -37,10 +37,10 @@ module.exports = function getBatch(db, { batchId }, cb) {
 
     async.parallel(
       {
-        ["fragranceOil"]: done => getBatchesFragranceOils(db, batchId, done),
-        ["additives"]: done => getBatchesAdditives(db, batchId, done),
-        ["wax"]: done => getBatchesWaxes(db, batchId, done),
-        ["dyes"]: done => getBatchesdyes(db, batchId, done)
+        ["fragranceOil"]: (done) => getBatchesFragranceOils(db, batchId, done),
+        ["additives"]: (done) => getBatchesAdditives(db, batchId, done),
+        ["wax"]: (done) => getBatchesWaxes(db, batchId, done),
+        ["dyes"]: (done) => getBatchesdyes(db, batchId, done),
       },
       (err, results) => {
         if (err) {
@@ -51,31 +51,33 @@ module.exports = function getBatch(db, { batchId }, cb) {
         const batchCosts = {};
 
         batchCosts.productCost = Object.keys(results)
-          .map(key =>
+          .map((key) =>
             results[key].map(
-              singleItem => singleItem.calculatedCosts.productCost
+              (singleItem) => singleItem.calculatedCosts.productCost
             )
           )
           .flat()
           .reduce((acc, v) => acc + Number(v), 0);
         batchCosts.shippingCost = Object.keys(results)
-          .map(key =>
+          .map((key) =>
             results[key].map(
-              singleItem => singleItem.calculatedCosts.shippingCost
+              (singleItem) => singleItem.calculatedCosts.shippingCost
             )
           )
           .flat()
           .reduce((acc, v) => acc + Number(v), 0);
         batchCosts.totalCost = Object.keys(results)
-          .map(key =>
-            results[key].map(singleItem => singleItem.calculatedCosts.totalCost)
+          .map((key) =>
+            results[key].map(
+              (singleItem) => singleItem.calculatedCosts.totalCost
+            )
           )
           .flat()
           .reduce((acc, v) => acc + Number(v), 0);
 
         // round the values
         Object.keys(batchCosts).forEach(
-          k => (batchCosts[k] = Math.round(100 * batchCosts[k]) / 100)
+          (k) => (batchCosts[k] = Math.round(100 * batchCosts[k]) / 100)
         );
 
         batch.calculatedCosts = batchCosts;
@@ -95,18 +97,25 @@ function getBatchesFragranceOils(db, batchId, cb) {
   const sql = `
     SELECT
       bf.weight_ounces AS "weightOunces", bf.fragrance_load AS "fragranceLoad",
-      bf.combine_id AS "combineId",
-      f.hash_id AS "hashId", f.name, f.slug,
+      bf.combine_id AS "combineId", f.hash_id AS "hashId", 
+      fr.name, fr.slug, fr.category_id AS "categoryId",
+      fr.supplier_id AS "supplierId", fr.product_url AS "productUrl",
+      fr.msds_url AS "msdsUrl", fr.ifra_url AS "ifraUrl", fr.allergin_url AS "allerginUrl",
+      fr.flashpoint_temperature_fahrenheit AS "flashpointTemperatureFahrenheit",
+      fr.specific_gravity AS "specificGravity", fr.vanillin_percentage AS "vanillinPercentage",
+      fr.ethyl_vanillin_percentage AS "ethylVanillinPercentage",
       f.order_id, f.weight_ounces AS "bottleWeightOunces",
       f.price AS "itemCost", f.share_of_shipping_percent AS "shareOfShippingPercent",
-      f.notes, so.source, so.item_count AS "orderItemCount",
+      f.notes, so.supplier_id AS "supplierId", sr.name AS "supplierName", so.item_count AS "orderItemCount",
       so.subtotal_cost AS "orderSubtotalCost", so.taxes_and_fees AS "orderTaxesAndFees",
       so.shipping_cost AS "orderShippingCost", so.total_cost AS "orderTotalCost",
       foc.name AS "categoryName", foc.slug AS "categorySlug"
     FROM batches_fragrances bf
     LEFT JOIN fragrance_oils f ON f.id = bf.fragrance_id
+    LEFT JOIN fragrance_reference fr ON fr.id = f.reference_id
     LEFT JOIN supply_orders so ON so.id = f.order_id
-    LEFT JOIN fragrance_oil_categories foc ON foc.id = f.category_id
+    LEFT JOIN supplier_reference sr ON so.supplier_id = sr.id
+    LEFT JOIN fragrance_oil_categories foc ON foc.id = fr.category_id
     WHERE bf.batch_id = ?
   `;
 
@@ -116,11 +125,11 @@ function getBatchesFragranceOils(db, batchId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
     }
 
-    result.forEach(item => {
+    result.forEach((item) => {
       item.calculatedCosts = calculateCosts({
         amountUsed: item.weightOunces,
         packageAmount: item.bottleWeightOunces,
@@ -128,7 +137,7 @@ function getBatchesFragranceOils(db, batchId, cb) {
         shareOfShippingPercent: item.shareOfShippingPercent,
         orderSubtotal: item.orderSubtotalCost,
         orderTaxesAndFees: item.orderTaxesAndFees,
-        orderShippingCost: item.orderShippingCost
+        orderShippingCost: item.orderShippingCost,
       });
 
       item.type = "fragrance-oil";
@@ -145,12 +154,13 @@ function getBatchesAdditives(db, batchId, cb) {
       a.hash_id AS "hashId", a.name, a.slug,
       a.order_id, a.weight_ounces AS "itemWeightOunces",
       a.price AS "itemCost", a.share_of_shipping_percent AS "shareOfShippingPercent",
-      a.notes, so.source, so.item_count AS "orderItemCount",
+      a.notes, so.supplier_id AS "supplierId", sr.name AS "supplierName", so.item_count AS "orderItemCount",
       so.subtotal_cost AS "orderSubtotalCost", so.taxes_and_fees AS "orderTaxesAndFees",
       so.shipping_cost AS "orderShippingCost", so.total_cost AS "orderTotalCost"
     FROM batches_additives ba
     LEFT JOIN additives a ON a.id = ba.additive_id
     LEFT JOIN supply_orders so ON so.id = a.order_id
+    LEFT JOIN supplier_reference sr ON so.supplier_id = sr.id
     WHERE ba.batch_id = ?
   `;
 
@@ -160,11 +170,11 @@ function getBatchesAdditives(db, batchId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
     }
 
-    result.forEach(item => {
+    result.forEach((item) => {
       item.calculatedCosts = calculateCosts({
         amountUsed: item.weightOunces,
         packageAmount: item.itemWeightOunces,
@@ -172,7 +182,7 @@ function getBatchesAdditives(db, batchId, cb) {
         shareOfShippingPercent: item.shareOfShippingPercent,
         orderSubtotal: item.orderSubtotalCost,
         orderTaxesAndFees: item.orderTaxesAndFees,
-        orderShippingCost: item.orderShippingCost
+        orderShippingCost: item.orderShippingCost,
       });
 
       item.type = "additive";
@@ -189,12 +199,13 @@ function getBatchesWaxes(db, batchId, cb) {
       w.order_id, w.weight_pounds AS "shipmentWeightPounds",
       w.material,
       w.price AS "itemCost", w.share_of_shipping_percent AS "shareOfShippingPercent",
-      w.notes, so.source, so.item_count AS "orderItemCount",
+      w.notes, so.supplier_id AS "supplierId", sr.name AS "supplierName", so.item_count AS "orderItemCount",
       so.subtotal_cost AS "orderSubtotalCost", so.taxes_and_fees AS "orderTaxesAndFees",
       so.shipping_cost AS "orderShippingCost", so.total_cost AS "orderTotalCost"
     FROM batches_waxes bw
     LEFT JOIN waxes w ON w.id = bw.wax_id
     LEFT JOIN supply_orders so ON so.id = w.order_id
+    LEFT JOIN supplier_reference sr ON so.supplier_id = sr.id
     WHERE bw.batch_id = ?
   `;
 
@@ -204,11 +215,11 @@ function getBatchesWaxes(db, batchId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
     }
 
-    result.forEach(item => {
+    result.forEach((item) => {
       item.calculatedCosts = calculateCosts({
         amountUsed: item.weightOunces / 16, // convert this to pounds so calculateCosts doesn't have to deal with units
         packageAmount: item.shipmentWeightPounds,
@@ -216,7 +227,7 @@ function getBatchesWaxes(db, batchId, cb) {
         shareOfShippingPercent: item.shareOfShippingPercent,
         orderSubtotal: item.orderSubtotalCost,
         orderTaxesAndFees: item.orderTaxesAndFees,
-        orderShippingCost: item.orderShippingCost
+        orderShippingCost: item.orderShippingCost,
       });
 
       item.type = "wax";
@@ -234,12 +245,13 @@ function getBatchesdyes(db, batchId, cb) {
       d.name, d.slug,
       d.order_id, d.weight_ounces AS "shipmentWeightOunces",
       d.price AS "itemCost", d.share_of_shipping_percent AS "shareOfShippingPercent",
-      d.notes, so.source, so.item_count AS "orderItemCount",
+      d.notes, so.supplier_id AS "supplierId", sr.name AS "supplierName", so.item_count AS "orderItemCount",
       so.subtotal_cost AS "orderSubtotalCost", so.taxes_and_fees AS "orderTaxesAndFees",
       so.shipping_cost AS "orderShippingCost", so.total_cost AS "orderTotalCost"
     FROM batches_dyes bdb
     LEFT JOIN dyes d ON d.id = bdb.dye_id
     LEFT JOIN supply_orders so ON so.id = d.order_id
+    LEFT JOIN supplier_reference sr ON so.supplier_id = sr.id
     WHERE bdb.batch_id = ?
   `;
 
@@ -249,11 +261,11 @@ function getBatchesdyes(db, batchId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
     }
 
-    result.forEach(item => {
+    result.forEach((item) => {
       item.calculatedCosts = calculateCosts({
         amountUsed: item.weightOunces,
         packageAmount: item.shipmentWeightOunces,
@@ -261,7 +273,7 @@ function getBatchesdyes(db, batchId, cb) {
         shareOfShippingPercent: item.shareOfShippingPercent,
         orderSubtotal: item.orderSubtotalCost,
         orderTaxesAndFees: item.orderTaxesAndFees,
-        orderShippingCost: item.orderShippingCost
+        orderShippingCost: item.orderShippingCost,
       });
 
       item.type = "dye";
@@ -293,7 +305,7 @@ function getLayers(db, batchId, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
     }
     return cb(err, result);
