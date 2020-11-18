@@ -155,6 +155,7 @@ function addToBatches(
   const fragranceLoad =
     calculateFragranceLoad({
       fragranceWeightOunces: parseFloat(totalFragranceWeightOunces),
+      additiveWeightOunces: parseFloat(totalAdditiveWeightOunces),
       waxWeightOunces: parseFloat(totalWaxWeightOunces),
     }) || 0;
 

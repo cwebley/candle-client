@@ -53,7 +53,6 @@ create table if not exists supply_orders (
   id int not null auto_increment primary key,
   hash_id varchar(255) unique,
   supplier_id int,
-  
   -- might be useful for estimating share of shipping cost etc
   item_count int,
   subtotal_cost decimal(13, 4) default 0,
@@ -89,9 +88,6 @@ create table if not exists fragrance_oils (
   id int not null auto_increment primary key,
   hash_id varchar(255) unique,
   reference_id int,
-  -- name varchar(255) not null,
-  -- slug varchar(255) not null,
-  -- category_id int,
   order_id int,
   weight_ounces decimal(9, 4),
   remaining decimal(9, 4),
@@ -100,26 +96,33 @@ create table if not exists fragrance_oils (
   price decimal(13, 4) default 0,
   share_of_shipping_percent decimal(6, 2) default 0,
   notes text,
-  -- product_url varchar(2083),
-  -- msds_url varchar(2083),
-  -- ifra_url varchar(2083),
-  -- allergin_url varchar(2083),
-  -- flashpoint_temperature_fahrenheit decimal (6, 2),
-  -- specific_gravity decimal (6, 2),
-  -- vanillin_percentage decimal (6, 2),
-  -- ethyl_vanillin_percentage decimal (6, 2),
-  -- foreign key (category_id) references fragrance_oil_categories(id),
   foreign key (order_id) references supply_orders(id),
   foreign key (reference_id) references fragrance_reference(id)
+);
+
+create table if not exists wax_reference (
+  id int not null auto_increment primary key,
+  name varchar(255) not null,
+  slug varchar(255) not null,
+  material varchar(255),
+  flashpoint_temperature_fahrenheit decimal (6, 2),
+  melting_temperature_fahrenheit decimal (6, 2),
+  supplier_id int,
+  product_url varchar(2083),
+  msds_url varchar(2083),
+  info_url varchar(2083),
+  notes text,
+  foreign key (supplier_id) references supplier_reference(id)
 );
 
 create table if not exists waxes (
   id int not null auto_increment primary key,
   hash_id varchar(255) unique,
-  name varchar(255) not null,
-  slug varchar(255) not null,
+  reference_id int,
+  -- name varchar(255) not null,
+  -- slug varchar(255) not null,
   order_id int,
-  material varchar(255),
+  -- material varchar(255),
   weight_pounds decimal(9, 4),
   remaining decimal(9, 4),
   -- confirmed to be finished/discarded
@@ -127,15 +130,33 @@ create table if not exists waxes (
   price decimal(13, 4) default 0,
   share_of_shipping_percent decimal(6, 2) default 0,
   notes text,
+  -- msds_url varchar(2083),
+  foreign key (order_id) references supply_orders(id),
+  foreign key (reference_id) references wax_reference(id)
+);
+
+create table if not exists additive_reference (
+  id int not null auto_increment primary key,
+  name varchar(255) not null,
+  slug varchar(255) not null,
+  flashpoint_temperature_fahrenheit decimal (6, 2),
+  melting_temperature_fahrenheit decimal (6, 2),
+  supplier_id int,
+  product_url varchar(2083),
   msds_url varchar(2083),
-  foreign key (order_id) references supply_orders(id)
+  info_url varchar(2083),
+  -- ifra_url varchar(2083),
+  -- allergin_url varchar(2083),
+  notes text,
+  foreign key (supplier_id) references supplier_reference(id)
 );
 
 create table if not exists additives (
   id int not null auto_increment primary key,
   hash_id varchar(255) unique,
-  name varchar(255) not null,
-  slug varchar(255) not null,
+  reference_id int,
+  -- name varchar(255) not null,
+  -- slug varchar(255) not null,
   order_id int,
   weight_ounces decimal(9, 4),
   remaining decimal(9, 4),
@@ -144,8 +165,8 @@ create table if not exists additives (
   price decimal(13, 4) default 0,
   share_of_shipping_percent decimal(6, 2) default 0,
   notes text,
-  msds_url varchar(2083),
-  foreign key (order_id) references supply_orders(id)
+  foreign key (order_id) references supply_orders(id),
+  foreign key (reference_id) references additive_reference(id)
 );
 
 create table if not exists boxes (

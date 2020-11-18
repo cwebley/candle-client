@@ -50,8 +50,26 @@ module.exports = function postSupplyOrder(db, data, cb) {
               },
               done
             ),
-          (done) => insertWaxes(db, waxes, orderId, done),
-          (done) => insertAdditives(db, additives, orderId, done),
+          (done) =>
+            insertWaxes(
+              db,
+              {
+                waxes,
+                orderId,
+                supplierId: data.supplierId,
+              },
+              done
+            ),
+          (done) =>
+            insertAdditives(
+              db,
+              {
+                additives,
+                orderId,
+                supplierId: data.supplierId,
+              },
+              done
+            ),
           (done) => insertBoxes(db, boxes, orderId, done),
           (done) => insertdyes(db, dyes, orderId, done),
           (done) => insertJars(db, jars, orderId, done),
@@ -119,8 +137,8 @@ function addToSupplyOrderTable(db, data, cb) {
       return cb(err);
     }
 
-    if (supplierRefResult && supplierRefResult.lastInsertId) {
-      data.supplierId = supplierRefResult.lastInsertId;
+    if (supplierRefResult && supplierRefResult.insertId) {
+      data.supplierId = supplierRefResult.insertId;
     }
 
     const sql = `
@@ -198,8 +216,8 @@ function insertFragranceOils(
         return cb(err);
       }
 
-      console.log("Existing: ", existingFragrances);
-      console.log("NEW: ", newFragrances);
+      // console.log("Existing frags: ", existingFragrances);
+      // console.log("NEW frags: ", newFragrances);
 
       if (fragranceRefResult) {
         // the insertId for each of the new fragranceReferences is
@@ -214,8 +232,8 @@ function insertFragranceOils(
         }
       }
 
+      console.log("DDDDDD: ", data);
       const rowData = data
-        .concat(existingFragrances)
         .map((d) => [
           d.referenceId,
           d.weightOunces,
@@ -326,28 +344,131 @@ function insertFragranceReferences(db, { data, supplierId }, cb) {
   });
 }
 
-function insertWaxes(db, data, orderId, cb) {
+function insertWaxes(db, { waxes: data, orderId, supplierId }, cb) {
   if (!data.length) {
     return cb();
   }
 
-  const rowData = data.map((d) => [
-    d.name,
-    slug(d.name, { lower: true }),
-    d.weightPounds,
-    d.material,
-    d.remaining,
-    d.price,
-    d.shareOfShippingPercent,
-    orderId,
-    d.notes,
-  ]);
+  const newWaxes = data
+    // add the index to the object so we can update the referenceId of new-waxes idea without looping again later
+    .map((d, index) => ({ ...d, index }))
+    // all the waxes without a referenceId are new
+    .filter((d) => !d.referenceId);
+
+  // waxes with a referenceId already have their basic details indexed
+  const existingWaxes = data.filter((d) => !!d.referenceId);
+
+  insertWaxReferences(
+    db,
+    { data: newWaxes, supplierId },
+    (err, waxRefResult) => {
+      if (err) {
+        return cb(err);
+      }
+
+      console.log("Existing waxes: ", existingWaxes);
+      console.log("NEW waxes: ", newWaxes);
+
+      if (waxRefResult) {
+        // the insertId for each of the new waxRef is
+        // also the `referenceId` for the waxes
+        for (let i = 0; i < waxRefResult.affectedRows; i++) {
+          // this is a little ugly, but we want to preserve the input order of the original form submission
+          // to keep hash_ids consistent on re-runs. we've saved the original input index on the `data`,
+          // which the `newWaxes` array is a subset of. so we can now update the original data
+          // with the new referenceId.
+          data[newWaxes[i].index].referenceId = waxRefResult.insertId + i;
+        }
+      }
+
+      const rowData = data
+        .map((d) => [
+          d.referenceId,
+          d.weightPounds,
+          d.remaining,
+          d.price,
+          d.shareOfShippingPercent,
+          orderId,
+          d.notes,
+        ]);
+      params = [rowData];
+
+      const sql = `
+      INSERT INTO waxes
+        (reference_id, weight_pounds, remaining,
+          price, share_of_shipping_percent, order_id, notes)
+      VALUES ?
+    `;
+
+      db.query(sql, [rowData], (err, result) => {
+        if (err) {
+          console.error(err, {
+            sql,
+            params,
+          });
+          return rollback(db, err, cb);
+        }
+
+        // now insert the hashIds
+        let rowIndices = [];
+        for (let i = 0; i < result.affectedRows; i++) {
+          rowIndices.push(result.insertId + i);
+        }
+
+        const updateFuncs = rowIndices.map((rowIndex) => {
+          return (done) => {
+            const sql = `UPDATE waxes SET hash_id = ? WHERE id = ?`;
+            const params = [hashConfig.waxes.encode(rowIndex), rowIndex];
+            db.query(sql, params, (err, result) => {
+              if (err) {
+                console.error(err, {
+                  sql,
+                  params,
+                });
+              }
+              done(err, result);
+            });
+          };
+        });
+        async.parallel(updateFuncs, (err, results) => {
+          if (err) {
+            return rollback(db, err, cb);
+          }
+          cb(err, results);
+        });
+      });
+    }
+  );
+}
+
+function insertWaxReferences(db, { data, supplierId }, cb) {
+  if (!data.length) {
+    console.log("NO NEW WAXES");
+    return cb();
+  }
+
+  const rowData = data.map((d) => {
+    return [
+      d.name,
+      slug(d.name, { lower: true }),
+      supplierId,
+      d.productUrl,
+      d.msdsUrl,
+      d.infoUrl,
+      d.flashpointTemperatureFahrenheit,
+      d.meltingTemperatureFahrenheit,
+      d.notes,
+    ];
+  });
+
   params = [rowData];
 
   const sql = `
-      INSERT INTO waxes
-        (name, slug, weight_pounds, material,
-          remaining, price, share_of_shipping_percent, order_id, notes)
+      INSERT INTO wax_reference
+        (name, slug, supplier_id, product_url,
+          msds_url, info_url,
+          flashpoint_temperature_fahrenheit, melting_temperature_fahrenheit,
+          notes)
       VALUES ?
     `;
 
@@ -359,57 +480,134 @@ function insertWaxes(db, data, orderId, cb) {
       });
       return rollback(db, err, cb);
     }
-
-    // now insert the hashIds
-    let rowIndices = [];
-    for (let i = 0; i < result.affectedRows; i++) {
-      rowIndices.push(result.insertId + i);
-    }
-
-    const updateFuncs = rowIndices.map((rowIndex) => {
-      return (done) => {
-        const sql = `UPDATE waxes SET hash_id = ? WHERE id = ?`;
-        const params = [hashConfig.waxes.encode(rowIndex), rowIndex];
-        db.query(sql, params, (err, result) => {
-          if (err) {
-            console.error(err, {
-              sql,
-              params,
-            });
-          }
-          done(err, result);
-        });
-      };
-    });
-    async.parallel(updateFuncs, (err, results) => {
-      if (err) {
-        return rollback(db, err, cb);
-      }
-      cb(err, results);
-    });
+    return cb(err, result);
   });
 }
 
-function insertAdditives(db, data, orderId, cb) {
+function insertAdditives(db, { additives: data, orderId, supplierId }, cb) {
   if (!data.length) {
     return cb();
   }
 
-  const rowData = data.map((d) => [
-    d.name,
-    slug(d.name, { lower: true }),
-    d.weightOunces,
-    d.remaining,
-    d.price,
-    d.shareOfShippingPercent,
-    orderId,
-    d.notes,
-  ]);
+  const newAdditives = data
+    // add the index to the object so we can update the referenceId of new-additives idea without looping again later
+    .map((d, index) => ({ ...d, index }))
+    // all the additives without a referenceId are new
+    .filter((d) => !d.referenceId);
+
+  // additives with a referenceId already have their basic details indexed
+  const existingAdditives = data.filter((d) => !!d.referenceId);
+
+  insertAdditiveReferences(
+    db,
+    { data: newAdditives, supplierId },
+    (err, additiveRefResult) => {
+      if (err) {
+        return cb(err);
+      }
+
+      console.log("Existing additives: ", existingAdditives);
+      console.log("NEW additives: ", newAdditives);
+
+      if (additiveRefResult) {
+        // the insertId for each of the new additiveRef is
+        // also the `referenceId` for the additives
+        for (let i = 0; i < additiveRefResult.affectedRows; i++) {
+          // this is a little ugly, but we want to preserve the input order of the original form submission
+          // to keep hash_ids consistent on re-runs. we've saved the original input index on the `data`,
+          // which the `newAdditives` array is a subset of. so we can now update the original data
+          // with the new referenceId.
+          data[newAdditives[i].index].referenceId =
+            additiveRefResult.insertId + i;
+        }
+      }
+      const rowData = data
+        .map((d) => [
+          d.referenceId,
+          d.weightOunces,
+          d.remaining,
+          d.price,
+          d.shareOfShippingPercent,
+          orderId,
+          d.notes,
+        ]);
+      params = [rowData];
+
+      const sql = `
+      INSERT INTO additives
+        (reference_id, weight_ounces, remaining, price, share_of_shipping_percent, order_id, notes)
+      VALUES ?
+    `;
+
+      db.query(sql, [rowData], (err, result) => {
+        if (err) {
+          console.error(err, {
+            sql,
+            params,
+          });
+          return rollback(db, err, cb);
+        }
+
+        // now insert the hashIds
+        let rowIndices = [];
+        for (let i = 0; i < result.affectedRows; i++) {
+          rowIndices.push(result.insertId + i);
+        }
+
+        const updateFuncs = rowIndices.map((rowIndex) => {
+          return (done) => {
+            const sql = `UPDATE additives SET hash_id = ? WHERE id = ?`;
+            const params = [hashConfig.additives.encode(rowIndex), rowIndex];
+            db.query(sql, params, (err, result) => {
+              if (err) {
+                console.error(err, {
+                  sql,
+                  params,
+                });
+              }
+              done(err, result);
+            });
+          };
+        });
+        async.parallel(updateFuncs, (err, results) => {
+          if (err) {
+            return rollback(db, err, cb);
+          }
+          cb(err, results);
+        });
+      });
+    }
+  );
+}
+
+function insertAdditiveReferences(db, { data, supplierId }, cb) {
+  if (!data.length) {
+    console.log("NO NEW ADDITIVES");
+    return cb();
+  }
+
+  const rowData = data.map((d) => {
+    return [
+      d.name,
+      slug(d.name, { lower: true }),
+      supplierId,
+      d.productUrl,
+      d.msdsUrl,
+      d.infoUrl,
+      d.flashpointTemperatureFahrenheit,
+      d.meltingTemperatureFahrenheit,
+      d.notes,
+    ];
+  });
+
   params = [rowData];
 
   const sql = `
-      INSERT INTO additives
-        (name, slug, weight_ounces, remaining, price, share_of_shipping_percent, order_id, notes)
+      INSERT INTO additive_reference
+        (name, slug, supplier_id, product_url,
+          msds_url, info_url,
+          flashpoint_temperature_fahrenheit, melting_temperature_fahrenheit,
+          notes)
       VALUES ?
     `;
 
@@ -421,34 +619,7 @@ function insertAdditives(db, data, orderId, cb) {
       });
       return rollback(db, err, cb);
     }
-
-    // now insert the hashIds
-    let rowIndices = [];
-    for (let i = 0; i < result.affectedRows; i++) {
-      rowIndices.push(result.insertId + i);
-    }
-
-    const updateFuncs = rowIndices.map((rowIndex) => {
-      return (done) => {
-        const sql = `UPDATE additives SET hash_id = ? WHERE id = ?`;
-        const params = [hashConfig.additives.encode(rowIndex), rowIndex];
-        db.query(sql, params, (err, result) => {
-          if (err) {
-            console.error(err, {
-              sql,
-              params,
-            });
-          }
-          done(err, result);
-        });
-      };
-    });
-    async.parallel(updateFuncs, (err, results) => {
-      if (err) {
-        return rollback(db, err, cb);
-      }
-      cb(err, results);
-    });
+    return cb(err, result);
   });
 }
 

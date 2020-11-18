@@ -749,19 +749,47 @@ full testers round:
       Eco-1
       HTP-83
 
-  root beer vanilla lexington
+  fraser fir lex 1.0ish sg
+    LX-12 too small
+    LX-14 fine. could be hotter.
+    HTP-83 pretty good. some soot.
+    HTP-93 probably too hot
+
+  root beer vanilla lexington 1.10 sg
+    lx-12 too cool
+    lx-14 best
+    htp-83 too cool
+    htp-93 too hot
+
+  patchouli cs lexington 0.90 sg
+    lx-12 best
+    cd-3 bad half way but good at bottom
+    p-745 drowning flames
+    htp-83 also great
+
+  nag champa cs lexington 0.95 sg
+    lx-12 fine
+    lx-14 best
+    cd-4
+    cdn-4
+
+  bergamot cs lexington 0.93 sg
+    lx-12 fine smallish flames
+    lx-14 fine smallish flames
+    cd-3 fine smallish flames
+    cdn-4 fine
+
+  almond aztec lex testers 1.04
     lx-12
     lx-14
-    htp-83
-    htp-93
-
-  patchouli cs lexington
-
+    cd-4
+    cdn-4
+  
+  black amber plum lex testers 0.93
     lx-12
+    lx-14
     cd-3
-    p-745
-    htp-83
-
+    cdn-3
 
 
 

@@ -25,9 +25,13 @@ export function formatMoment(m) {
 
 export function calculateFragranceLoadByPopularMethod({
   fragranceWeightOunces = 0,
+  additiveWeightOunces = 0,
   waxWeightOunces = 0,
 }) {
-  return ((fragranceWeightOunces / waxWeightOunces) * 100).toFixed(2);
+  return (
+    (fragranceWeightOunces / (waxWeightOunces + additiveWeightOunces)) *
+    100
+  ).toFixed(2);
 }
 
 // this method isn't used by a lot of candle makers for whatever reason
@@ -56,10 +60,7 @@ export function processAllBatchData(batchData) {
     batchData.fragranceOil,
     "fragranceOil"
   );
-  batchData.dyes = processBatchItemsByCombineId(
-    batchData.dyes,
-    "dye"
-  );
+  batchData.dyes = processBatchItemsByCombineId(batchData.dyes, "dye");
   return batchData;
 }
 

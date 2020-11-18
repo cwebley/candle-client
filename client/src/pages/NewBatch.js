@@ -932,6 +932,7 @@ function NewBatch({ history, enqueueSnackbar }) {
                       label="Fragrance Load"
                       value={calculateFragranceLoadByPopularMethod({
                         waxWeightOunces: cumulativeWeights.wax,
+                        additiveWeightOunces: cumulativeWeights.additives,
                         fragranceWeightOunces:
                           cumulativeWeights["fragrance-oil"],
                       })}

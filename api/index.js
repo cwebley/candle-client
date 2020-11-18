@@ -86,12 +86,18 @@ app.route("/supply-orders").post(function (req, res, next) {
   if (!orderData.taxesAndFees) orderData.taxesAndFees = 0;
   if (!orderData.totalCost) orderData.totalCost = 0;
   for (let i = 0; i < orderData.items.length; i++) {
-    if (orderData.items[i].type !== "fragrance-oil" && !orderData.items[i].name) {
-      return res.status(400).send({ message: "item name is required" });
+    if (
+      orderData.items[i].type !== "fragrance-oil" ||
+      orderData.items[i].type !== "wax" ||
+      orderData.items[i].type !== "additive"
+    ) {
+      if (!orderData.items[i].referenceId && !orderData.items[i].name) {
+        return res
+          .status(400)
+          .send({ message: "item name is required for fragrances without a referenceId" });
+      }
     }
-    if (orderData.items[i].type === "fragrance-oil" &&  !orderData.items[i].referenceId && !orderData.items[i].name) {
-      return res.status(400).send({ message: "fragrance-oils require a name + slug or a referenceId" });
-    }
+
     if (orderData.items[i].type === "dye" && !orderData.items[i].color) {
       return res.status(400).send({ message: "dyes require a color" });
     }

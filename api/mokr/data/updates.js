@@ -11285,7 +11285,16 @@ module.exports = [
         whenStarted: "2020-10-25 21:00:00",
         whenStarted: "2020-10-26 01:45:00",
         stoppedWeightOunces: 23.0,
-        notes: "1/4 inch mp, flames look great, jar not too hot no soot.",
+        notes:
+          "1/4 inch mp, flames look pretty good. this is probably my favorite of this bunch.",
+      },
+      // missing burn but it looked good
+      {
+        whenStarted: "2020-10-28 10:00:00",
+        whenStarted: "2020-10-28 13:30:00",
+        stoppedWeightOunces: 17.0,
+        notes:
+          "extinguished itself, very little obvious soot. looks fine. i hear htps are changing which makes me lean toward the lx-12.",
       },
     ],
   },
@@ -11302,6 +11311,20 @@ module.exports = [
         notes:
           "full shallow mp, flames a bit small. too small likely. lx-12 is the best here and maybe a smaller htp like 73",
       },
+      {
+        whenStarted: "2020-10-26 14:00:00",
+        whenStarted: "2020-10-27 02:00:00",
+        stoppedWeightOunces: 18.0,
+        notes:
+          "1/3 inch mp, flames healthy and everything looks wonderful. weird that it was too shallow at half full.",
+      },
+      {
+        whenStarted: "2020-10-28 10:00:00",
+        whenStarted: "2020-10-28 13:30:00",
+        stoppedWeightOunces: 17.0,
+        notes:
+          "extinguished itself, very little obvious soot. looks fine. i hear htps are changing which makes me lean toward the lx-12.",
+      },
     ],
   },
   // 5KV4 P-745
@@ -11317,6 +11340,20 @@ module.exports = [
         notes:
           "1/3 inch mp, flames a bit smaller than the lx-12. not my favorite but not bad.",
       },
+      {
+        whenStarted: "2020-10-26 14:00:00",
+        whenStarted: "2020-10-27 02:00:00",
+        stoppedWeightOunces: 18.0,
+        notes:
+          "1/4 inch mp, but flames are dying down and mp is sort of dark. not good.",
+      },
+      {
+        whenStarted: "2020-10-28 10:00:00",
+        whenStarted: "2020-10-28 13:30:00",
+        stoppedWeightOunces: 17.0,
+        notes:
+          "extinguished itself, very little obvious soot. looks fine. i hear htps are changing which makes me lean toward the lx-12.",
+      },
     ],
   },
   // BZM4 HTP-83
@@ -11331,6 +11368,355 @@ module.exports = [
         stoppedWeightOunces: 23.0,
         notes:
           "nearly 1/2 inch mp. flames a bit larger than id like but not bad. no obvious soot, jar 140. small amount of mushrooming on one wick. htp-73 worth trying probably.",
+      },
+      {
+        whenStarted: "2020-10-26 14:00:00",
+        whenStarted: "2020-10-27 02:00:00",
+        stoppedWeightOunces: 18.0,
+        notes: "1/3 inch mp, jar never much more than 150. looks good.",
+      },
+      {
+        whenStarted: "2020-10-28 10:00:00",
+        whenStarted: "2020-10-28 13:30:00",
+        stoppedWeightOunces: 17.0,
+        notes:
+          "extinguished itself, very little obvious soot. looks fine. i hear htps are changing which makes me lean toward the lx-12.",
+      },
+    ],
+  },
+  // Nag Champa CS Lex testers
+  // X57Y LX-12 Nag Champa CS Lex
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-10-29 12:00:00",
+        whenStarted: "2020-10-29 20:30:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "1/4 inch mp, jar under 135. looks great. but maybe the lx-14 is preferable?",
+      },
+    ],
+  },
+  // 1JDV LX-14 Nag Champa CS Lex
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-10-29 12:00:00",
+        whenStarted: "2020-10-29 20:30:00",
+        stoppedWeightOunces: 19.0,
+        notes: "1/3 inch mp, jar under 145. looks great.",
+      },
+    ],
+  },
+  // V175 CD-4 Nag Champa CS Lex
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-10-29 12:00:00",
+        whenStarted: "2020-10-29 20:30:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "1/3 inch mp, jar under 150, tiny bit of soot on the glass. mushrooms burned away on their own.",
+      },
+    ],
+  },
+  // KPVQ CDN-4 Nag Champa CS Lex
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-10-29 12:00:00",
+        whenStarted: "2020-10-29 20:30:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "1/8 inch mp, jar at 135, but started pretty slow. might be too cool of wicks for the upper half.",
+      },
+    ],
+  },
+  // Bergamot LS Lex testers
+  // LLK8 LX-12 Beragmot LS Lex
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-10-29 20:30:00",
+        whenStarted: "2020-10-30 12:40:00",
+        stoppedWeightOunces: 19.0,
+        notes: "1/4+ inch mp, but flames a bit smaller than i'd hope.",
+      },
+      {
+        whenStarted: "2020-10-30 11:00:00",
+        whenStarted: "2020-10-30 19:15:00",
+        stoppedWeightOunces: 17.0,
+        notes: "1/3 inch mp, and flames a little small but okay.",
+      },
+      {
+        whenStarted: "2020-11-01 20:30:00",
+        whenStarted: "2020-11-02 02:15:00",
+        stoppedWeightOunces: 16.0,
+        notes: "1/4 inch mp, flames look fine, jar not hot. mp a bit cloudy.",
+      },
+    ],
+  },
+  // 451Z LX-14 Beragmot LS Lex
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-10-29 20:30:00",
+        whenStarted: "2020-10-30 12:40:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "1/3+ inch mp, but flames totally under control. curious to see how this continues.",
+      },
+      {
+        whenStarted: "2020-10-30 11:00:00",
+        whenStarted: "2020-10-30 19:15:00",
+        stoppedWeightOunces: 17.0,
+        notes: "1/3 inch mp, and falmes a little small but okay.",
+      },
+      {
+        whenStarted: "2020-11-01 20:30:00",
+        whenStarted: "2020-11-02 02:15:00",
+        stoppedWeightOunces: 16.0,
+        notes: "1/4 inch mp, flames look fine, jar not hot.",
+      },
+    ],
+  },
+  // OP7O CD-3 Beragmot LS Lex
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-10-29 20:30:00",
+        whenStarted: "2020-10-30 12:40:00",
+        stoppedWeightOunces: 19.0,
+        notes: "1/3 inch mp, but flames just a touch small.",
+      },
+      {
+        whenStarted: "2020-10-30 11:00:00",
+        whenStarted: "2020-10-30 19:15:00",
+        stoppedWeightOunces: 17.0,
+        notes: "1/3 inch mp and flames look fine actually. jar not hot.",
+      },
+      {
+        whenStarted: "2020-11-01 20:30:00",
+        whenStarted: "2020-11-02 02:15:00",
+        stoppedWeightOunces: 16.0,
+        notes: "1/4 inch mp, flames look fine, jar not hot. mp a bit cloudy.",
+      },
+    ],
+  },
+  // 8VNG CDN-4 Beragmot LS Lex
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-10-29 20:30:00",
+        whenStarted: "2020-10-30 12:40:00",
+        stoppedWeightOunces: 19.0,
+        notes: "1/4 inch mp, but flames fairly small.",
+      },
+      {
+        whenStarted: "2020-10-30 11:00:00",
+        whenStarted: "2020-10-30 19:15:00",
+        stoppedWeightOunces: 17.0,
+        notes: "1/3 to 1/2 inch mp, but flames a bit muted and jar not hot.",
+      },
+      {
+        whenStarted: "2020-11-01 20:30:00",
+        whenStarted: "2020-11-02 02:15:00",
+        stoppedWeightOunces: 16.0,
+        notes: "1/3 inch mp, flames look pretty good, jar not hot",
+      },
+    ],
+  },
+  // Almond Aztec sg 1.04
+  // 76B1 LX-12 Almond Aztec Lex
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-11-04 17:00:00",
+        whenStarted: "2020-11-05 12:45:00",
+        stoppedWeightOunces: 23.0,
+        notes: "1/4 inch mp all burn. flames look fine. never super large.",
+      },
+      {
+        whenStarted: "2020-11-05 11:00:00",
+        whenStarted: "2020-11-05 17:15:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/4 inch mp, flames look fine, jar not too hot. probably great, but could be hotter?",
+      },
+    ],
+  },
+  // G2XV LX-14 Almond Aztec Lex
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-11-04 17:00:00",
+        whenStarted: "2020-11-05 12:45:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/4 inch mp the whole time, flames look fine, never super large and similar to the lx-12, but slight mushrooming. a little hotter than the lx-12 too.",
+      },
+      {
+        whenStarted: "2020-11-05 11:00:00",
+        whenStarted: "2020-11-05 17:15:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/3 inch mp, surprisingly not that hot but it was pushing 150+ at one point i believe. looks great.",
+      },
+    ],
+  },
+  // P16K CD-4 Almond Aztec Lex
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-11-04 17:00:00",
+        whenStarted: "2020-11-05 12:45:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/3 to 1/2 inch mp, jar pretty hot at 140-145. flames look fine so far though.",
+      },
+      {
+        whenStarted: "2020-11-05 11:00:00",
+        whenStarted: "2020-11-05 17:15:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "2/3 inch mp, rest of jar, was pushing 150 at one point but its okay now.",
+      },
+    ],
+  },
+  // 29OQ CDN-4 Almond Aztec Lex
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-11-04 17:00:00",
+        whenStarted: "2020-11-05 12:45:00",
+        stoppedWeightOunces: 23.0,
+        notes: "1/4 inch mp, but fairly cool the full burn.",
+      },
+      {
+        whenStarted: "2020-11-05 11:00:00",
+        whenStarted: "2020-11-05 17:15:00",
+        stoppedWeightOunces: 21.0,
+        notes: "1/4 inch mp, flames look fine but should be hotter.",
+      },
+    ],
+  },
+  // Black Amber Plum CD sg 0.93
+  // 615Q LX-12 Black Amber Plum Aztec Lex
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-11-05 11:00:00",
+        whenStarted: "2020-11-05 17:15:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/3 inch mp, flames look fine, maybe a touch small. jar under 130. definitely no soot. looks great.",
+      },
+      {
+        whenStarted: "2020-11-06 21:00:00",
+        whenStarted: "2020-11-07 03:30:00",
+        stoppedWeightOunces: 20.0,
+        notes: "1/3 inch mp, flames look fine, not too hot, no soot.",
+      },
+    ],
+  },
+  // DY65 LX-14 Black Amber Plum Aztec Lex
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-11-05 11:00:00",
+        whenStarted: "2020-11-05 17:15:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/3+ inch mp, jar at 140+, maybe a tiny bit of soot hard to say. looks fine, but a bit too hot probably.",
+      },
+      {
+        whenStarted: "2020-11-06 21:00:00",
+        whenStarted: "2020-11-07 03:30:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "1/3 inch mp, jar up to 145. flameslarge but fine. no obvious soot but maybe some on the glass?",
+      },
+    ],
+  },
+  // J2KK CD-3 Black Amber Plum Aztec Lex
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-11-05 11:00:00",
+        whenStarted: "2020-11-05 17:15:00",
+        stoppedWeightOunces: 21.0,
+        notes: "1/4 inch mp, looks great. not too hot at 130ish.",
+      },
+      {
+        whenStarted: "2020-11-06 21:00:00",
+        whenStarted: "2020-11-07 03:30:00",
+        stoppedWeightOunces: 20.0,
+        notes: "1/4 inch mp, looks great.",
+      },
+    ],
+  },
+  // X5NY CDN-3 Black Amber Plum Aztec Lex
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "45",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-11-06 11:00:00",
+        whenStarted: "2020-11-06 17:15:00",
+        stoppedWeightOunces: 23.0,
+        notes: "1/8 inch mp, but flames look great. looks fine.",
+      },
+      {
+        whenStarted: "2020-11-06 21:00:00",
+        whenStarted: "2020-11-07 03:30:00",
+        stoppedWeightOunces: 20.0,
+        notes: "1/4 inch mp, but jar is not hot enough. a bit cloudy.",
       },
     ],
   },

@@ -151,7 +151,11 @@ function getBatchesAdditives(db, batchId, cb) {
     SELECT
       ba.weight_ounces AS "weightOunces", ba.additive_load AS "additiveLoad",
       ba.combine_id AS "combineId",
-      a.hash_id AS "hashId", a.name, a.slug,
+      a.hash_id AS "hashId", ar.name, ar.slug,
+      ar.supplier_id AS "supplierId", ar.product_url AS "productUrl",
+      ar.msds_url AS "msdsUrl", ar.info_url AS "infoUrl",
+      ar.flashpoint_temperature_fahrenheit AS "flashpointTemperatureFahrenheit",
+      ar.melting_temperature_fahrenheit AS "meltingTemperatureFahrenheit",
       a.order_id, a.weight_ounces AS "itemWeightOunces",
       a.price AS "itemCost", a.share_of_shipping_percent AS "shareOfShippingPercent",
       a.notes, so.supplier_id AS "supplierId", sr.name AS "supplierName", so.item_count AS "orderItemCount",
@@ -159,6 +163,7 @@ function getBatchesAdditives(db, batchId, cb) {
       so.shipping_cost AS "orderShippingCost", so.total_cost AS "orderTotalCost"
     FROM batches_additives ba
     LEFT JOIN additives a ON a.id = ba.additive_id
+    LEFT JOIN additive_reference ar ON ar.id = a.reference_id
     LEFT JOIN supply_orders so ON so.id = a.order_id
     LEFT JOIN supplier_reference sr ON so.supplier_id = sr.id
     WHERE ba.batch_id = ?
@@ -194,16 +199,21 @@ function getBatchesAdditives(db, batchId, cb) {
 function getBatchesWaxes(db, batchId, cb) {
   const sql = `
     SELECT
-      bw.weight_ounces AS "weightOunces", w.hash_id AS "hashId", w.name, w.slug,
+      bw.weight_ounces AS "weightOunces", w.hash_id AS "hashId", wr.name, wr.slug,
       bw.combine_id AS "combineId",
       w.order_id, w.weight_pounds AS "shipmentWeightPounds",
-      w.material,
+      wr.material, wr.flashpoint_temperature_fahrenheit AS "flashpointTemperatureFahrenheit",
+      wr.melting_temperature_fahrenheit AS "meltingTemperatureFahrenheit",
+      wr.supplier_id AS "supplierId",
+      wr.product_url AS "productUrl", wr.msds_url AS "msdsUrl",
+      wr.info_url AS "infoUrl",
       w.price AS "itemCost", w.share_of_shipping_percent AS "shareOfShippingPercent",
       w.notes, so.supplier_id AS "supplierId", sr.name AS "supplierName", so.item_count AS "orderItemCount",
       so.subtotal_cost AS "orderSubtotalCost", so.taxes_and_fees AS "orderTaxesAndFees",
       so.shipping_cost AS "orderShippingCost", so.total_cost AS "orderTotalCost"
     FROM batches_waxes bw
     LEFT JOIN waxes w ON w.id = bw.wax_id
+    LEFT JOIN wax_reference wr ON wr.id = w.reference_id
     LEFT JOIN supply_orders so ON so.id = w.order_id
     LEFT JOIN supplier_reference sr ON so.supplier_id = sr.id
     WHERE bw.batch_id = ?
