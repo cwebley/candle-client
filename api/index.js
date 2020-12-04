@@ -13,6 +13,15 @@ const updateCandle = require("./handlers/update-candle");
 const getBatch = require("./handlers/get-batch");
 const getCandle = require("./handlers/get-candle");
 const getCandleWaxToFillSuggestion = require("./handlers/get-candle-wax-to-fill-suggestion");
+const createBlend = require("./handlers/create-blend");
+const getBlend = require("./handlers/get-blend");
+const addToBlend = require("./handlers/add-to-blend");
+const discardBlend = require("./handlers/discard-blend");
+const getWaxes = require("./handlers/get-waxes");
+const getAdditives = require("./handlers/get-additives");
+const getFragranceOils = require("./handlers/get-fragrance-oils");
+const getDyes = require("./handlers/get-dyes");
+const getBlends = require("./handlers/get-blends");
 
 app.use(bodyParser.json());
 app.use(cors());
@@ -94,7 +103,10 @@ app.route("/supply-orders").post(function (req, res, next) {
       if (!orderData.items[i].referenceId && !orderData.items[i].name) {
         return res
           .status(400)
-          .send({ message: "item name is required for fragrances without a referenceId" });
+          .send({
+            message:
+              "item name is required for fragrances without a referenceId",
+          });
       }
     }
 
@@ -128,6 +140,18 @@ app.route("/candles").post(createCandles);
 app.route("/batches").post(createBatch);
 
 app.route("/batches/:id").get(getBatch);
+
+app.route("/blend").post(createBlend);
+app.route("/blend/:id").post(addToBlend);
+app.route("/blend/:id").get(getBlend);
+app.route("/blend/:id").delete(discardBlend);
+
+// resource array getters for autocomplete purposes
+app.route("/waxes").get(getWaxes);
+app.route("/additives").get(getAdditives);
+app.route("/fragrance-oils").get(getFragranceOils);
+app.route("/dyes").get(getDyes);
+app.route("/blends").get(getBlends);
 
 app.route("/candles/wax-to-fill").get(getCandleWaxToFillSuggestion);
 

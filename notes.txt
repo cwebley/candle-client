@@ -364,12 +364,7 @@ SDS info
     Flash point
     Specific Gravity
 
-  
-  candlescience order
-  very vanilla
-  black amber plum
-  leather if it wins the leather test
-  patchouli if it wins the patchouli test
+
 
   candle todos
 
@@ -556,13 +551,12 @@ https://www.amazon.com/gp/product/B00186RTWW/ref=ppx_yo_dt_b_asin_title_o05_s00?
 
 order
   CS 
-    peppercorn pomander
+   cd-3
 
   Lonestar
-    Leather: 4oz
+ 
 
   Aztec
-    Almond: 16oz
 
   Flaming Candle:
     Tobacco 16oz
@@ -941,9 +935,10 @@ Lone Star
   https://www.lonestarcandlesupply.com/black-cherry.html
 
 
-order: 
+order
+candlescience order 
 CD-3 candlescience
-Suede and smoke if good
+
 
 for tealight or accurate pours:
 Confectionery Funnel With Stand from amazon for like 60 bucks
@@ -952,3 +947,11 @@ Confectionery Funnel With Stand from amazon for like 60 bucks
 printer?
 $279
 https://www.officedepot.com/a/products/274571/Xerox-Phaser-Color-Laser-Printer-6510DN/?cm_mmc=PLA-_-Google-_-Printers_Accessories-_-274571&utm_source=google&utm_medium=cpc&gclid=Cj0KCQjwuL_8BRCXARIsAGiC51CJa5qkSTygRnGKEYF7keGxjWWSQzshsikeVpksDrgAP_9db4qiZSEaApiYEALw_wcB&gclsrc=aw.ds
+
+
+Sambleberry Frisk
+
+Red Currant CS
+Cranberry Woods CS
+Very Vanilla CS
+Carrot Cake Fillmore

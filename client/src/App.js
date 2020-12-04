@@ -8,6 +8,7 @@ import RootContext from "./RootContext";
 import Home from "./Home";
 import NewOrder from "./NewOrder";
 import NewBatch from "./pages/NewBatch";
+import NewBlend from "./pages/NewBlend";
 import NewCandles from "./pages/NewCandles";
 import Batch from "./pages/Batch";
 import Order from "./Order";
@@ -35,6 +36,7 @@ class App extends Component {
                   <Route path="/new-order" component={NewOrder} />
                   <Route path="/new-batch" component={NewBatch} />
                   <Route path="/new-candles" component={NewCandles} />
+                  <Route path="/new-blend" component={NewBlend} />
                   <Route path="/batches/:id" component={Batch} />
                   <Route path="/orders/:id" component={Order} />
                   <Route path="/:id" component={Candle} />

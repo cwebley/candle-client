@@ -42,6 +42,7 @@ function Home({ history, location, classes }) {
       <Link to={{ pathname: "/new-order" }}>Add New Supply Order</Link>
       <Link to={{ pathname: "/new-candles" }}>Add New Candles</Link>
       <Link to={{ pathname: "/new-batch" }}>Add New Batch</Link>
+      <Link to={{ pathname: "/new-blend" }}>Add New Blend</Link>
     </div>
   );
 }

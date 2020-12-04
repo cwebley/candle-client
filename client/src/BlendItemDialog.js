@@ -30,81 +30,57 @@ const styles = (theme) => ({
   },
 });
 
-function BatchItemDialog({
+function BlendItemDialog({
+  additiveHashIdOptions,
   values,
   combineOptions,
   editItemIndex,
   isOpen,
   onClose,
   onChange,
+  onAutocompleteSelection,
   onAddItem,
   onEditItem,
   itemTypes,
-  waxWeightSuggestion,
-  foWeightSuggestion,
-  onAutocompleteSelection,
+  targetWeightPounds,
+  previouslySubmittedBlendItems = [],
+  //   getItemWeightSuggestion,
+  //   weightSuggestionValue,
   waxHashIdOptions,
-  additiveHashIdOptions,
-  fragranceOilHashIdOptions,
-  blendHashIdOptions,
-  dyeHashIdOptions,
   classes,
 }) {
   const [percentOfBlend, setPercentOfBlend] = useState(null);
 
-  let weightInputProps = { name: "weightOunces", step: "0.01" };
+  let weightInputProps = { name: "weightPounds", step: "0.01" };
 
-  let autocompleteOptions;
-  if (values.type === "wax") {
-    autocompleteOptions = waxHashIdOptions;
-  }
-  if (values.type === "additive") {
-    autocompleteOptions = additiveHashIdOptions;
-  }
-  if (values.type === "fragrance-oil") {
-    autocompleteOptions = fragranceOilHashIdOptions;
-  }
-  if (values.type === "blend") {
-    autocompleteOptions = blendHashIdOptions;
-  }
-  if (values.type === "dye") {
-    autocompleteOptions = dyeHashIdOptions;
-  }
-
-  const getWeightPlaceholder = () => {
-    let weightSuggestionValue = 0;
-
-    if (
-      values.type === "wax" ||
-      values.type === "blend" ||
-      values.type === "additive"
-    ) {
-      weightSuggestionValue = waxWeightSuggestion;
+  const getItemWeightSuggestion = () => {
+    if (!targetWeightPounds) {
+      return;
     }
-    if (values.type === "fragrance-oil") {
-      weightSuggestionValue = foWeightSuggestion;
-    }
+
+    let suggestedWeightPounds;
 
     const blendDecimal = parseFloat(percentOfBlend || 100) / 100;
-    weightSuggestionValue = blendDecimal * weightSuggestionValue;
-    console.log("WEIGHT SUGGESTION VAL: ", weightSuggestionValue);
+    suggestedWeightPounds = blendDecimal * targetWeightPounds;
 
     if (values.combineId) {
-      const currentWeightForCombination = combineOptions
-        .map((o) =>
-          o.combineId === values.combineId && o.hashId !== values.hashId
-            ? parseFloat(o.weightOunces)
-            : 0
-        )
+      const previousWeightOfCombination = previouslySubmittedBlendItems
+        .map((item) => {
+          return item.combineId === values.combineId &&
+            item.hashId !== values.hashId
+            ? parseFloat(item.weightPounds)
+            : 0;
+        })
         .reduce((acc, val) => (acc += val), 0);
-
-      weightSuggestionValue =
-        weightSuggestionValue - currentWeightForCombination;
+      suggestedWeightPounds =
+        suggestedWeightPounds - previousWeightOfCombination;
     }
-    if (isNaN(weightSuggestionValue)) {
+
+    if (isNaN(suggestedWeightPounds)) {
       return "";
     }
-    return weightSuggestionValue.toFixed(2);
+
+    return suggestedWeightPounds.toFixed(2);
   };
 
   const handleFormSubmit = (e) => {
@@ -116,7 +92,7 @@ function BatchItemDialog({
     onAddItem();
   };
 
-  const filteredCombineOptions = combineOptions
+  const filteredCombineOptions = previouslySubmittedBlendItems
     .filter((o) => o.type === values.type && o.hashId !== values.hashId)
     .map((o) => ({
       name: o.hashId,
@@ -150,11 +126,11 @@ function BatchItemDialog({
 
   return (
     <Dialog open={isOpen} onClose={onClose}>
-      <DialogTitle>New Batch Item</DialogTitle>
+      <DialogTitle>New Blend Item</DialogTitle>
       <form onSubmit={handleFormSubmit}>
         <DialogContent className={classes.dialogContent}>
           <FormControl>
-            <InputLabel htmlFor="batch-item-type-selector">
+            <InputLabel htmlFor="blend-item-type-selector">
               Item Type
             </InputLabel>
             <Select
@@ -163,7 +139,7 @@ function BatchItemDialog({
               onChange={onChange}
               inputProps={{
                 name: "type",
-                id: "batch-item-type-selector",
+                id: "blend-item-type-selector",
               }}
             >
               {itemTypes.map((t) => (
@@ -177,12 +153,11 @@ function BatchItemDialog({
             autoHighlight
             autoSelect
             freeSolo
-            options={autocompleteOptions}
+            options={
+              values.type === "wax" ? waxHashIdOptions : additiveHashIdOptions
+            }
             getOptionLabel={(option) => {
               if (option.hashId) {
-                if (values.type === "blend") {
-                  return `${option.hashId}-${option.name}`;
-                }
                 return `${option.hashId}-${option.name}-${option.supplierName}`;
               }
               return option;
@@ -200,11 +175,7 @@ function BatchItemDialog({
           />
           <TextField
             className={classes.textField}
-            label={
-              values.type === "wax" || values.type === "additive"
-                ? "% of w + a mix"
-                : "% of type"
-            }
+            label="% of blend"
             value={percentOfBlend || ""}
             type="number"
             onChange={(e) => {
@@ -218,13 +189,13 @@ function BatchItemDialog({
           <TextField
             className={classes.textField}
             label="Weight"
-            value={values.weightOunces || ""}
+            value={values.weightPounds || ""}
             type="number"
             required
             onChange={onChange}
-            placeholder={getWeightPlaceholder()}
+            placeholder={getItemWeightSuggestion()}
             InputProps={{
-              endAdornment: <InputAdornment position="end">oz</InputAdornment>,
+              endAdornment: <InputAdornment position="end">lbs</InputAdornment>,
               inputProps: weightInputProps,
             }}
           />
@@ -276,4 +247,4 @@ function BatchItemDialog({
   );
 }
 
-export default withStyles(styles)(BatchItemDialog);
+export default withStyles(styles)(BlendItemDialog);

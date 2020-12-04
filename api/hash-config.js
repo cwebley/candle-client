@@ -19,5 +19,6 @@ module.exports = {
   wickStickers: new hashIds("wick strickers", hashMinimumSize, hashCharacters),
   batches: new hashIds("batches", hashMinimumSize, hashCharacters),
   layers: new hashIds("layers", hashMinimumSize, hashCharacters),
-  candles: new hashIds("candles", hashMinimumSize, hashCharacters)
+  candles: new hashIds("candles", hashMinimumSize, hashCharacters),
+  blends: new hashIds("blends", hashMinimumSize, hashCharacters),
 };

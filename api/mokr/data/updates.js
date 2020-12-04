@@ -11720,4 +11720,91 @@ module.exports = [
       },
     ],
   },
+  // Sambleberry Test Batch 1
+  // E2D7 CD-3 Sambleberry Lex
+  {
+    completedCandleWeightOunces: "23.84",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-04 09:00:00",
+        whenStarted: "2020-12-04 14:21:00",
+        stoppedWeightOunces: 23.28,
+        notes: "1/4 inch mp, no mushrooming, looks fine. maybe a bit cool",
+      },
+    ],
+  },
+  // N25D CD-4 Sambleberry Lex
+  {
+    completedCandleWeightOunces: "24.48",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-04 09:00:00",
+        whenStarted: "2020-12-04 14:21:00",
+        stoppedWeightOunces: 23.28,
+        notes: "1/2 inch mp, jar near 150, lots of mushrooming, too hot.",
+      },
+    ],
+  },
+  // Z95Z CDN-4 Sambleberry Lex
+  {
+    completedCandleWeightOunces: "24.62",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-04 09:00:00",
+        whenStarted: "2020-12-04 14:21:00",
+        stoppedWeightOunces: 23.28,
+        notes:
+          "1/4 inch mp, looks great. no mushrooming. probably as good as lx-12",
+      },
+    ],
+  },
+  // LLN8 CDN-5 Sambleberry Lex
+  {
+    completedCandleWeightOunces: "25.04",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-04 09:00:00",
+        whenStarted: "2020-12-04 14:21:00",
+        stoppedWeightOunces: 23.28,
+        notes: "1/2 inch mp, a bit hot. some mushrooming.",
+      },
+    ],
+  },
+  // 45OZ LX-12 Sambleberry Lex
+  {
+    completedCandleWeightOunces: "25.19",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-04 09:00:00",
+        whenStarted: "2020-12-04 14:21:00",
+        stoppedWeightOunces: 23.28,
+        notes:
+          "1/3 inch mp, jar up to near 140 at the worst. looks excellent. best of the bunch on this first burn.",
+      },
+    ],
+  },
+  // OPBO LX-14 Sambleberry Lex
+  {
+    completedCandleWeightOunces: "24.73",
+    volumeOverflowPercent: "50",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-04 09:00:00",
+        whenStarted: "2020-12-04 14:21:00",
+        stoppedWeightOunces: 23.28,
+        notes: "1/2 inch mp, jar up to 140. looks fine, maybe a bit hot.",
+      },
+    ],
+  },
 ];

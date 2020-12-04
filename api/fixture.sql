@@ -33,8 +33,9 @@ insert into
 values
   ("wax", "wax", "batch"),
   ("fragrance oil", "fragrance-oil", "batch"),
-  ("additives", "additives", "batch"),
+  ("additive", "additive", "batch"),
   ("dye", "dye", "batch"),
+  ("blend", "blend", "batch"),
   ("jars", "jars", "candle"),
   ("lids", "lids", "candle"),
   ("boxes", "boxes", "candle"),
@@ -42,7 +43,9 @@ values
   ("wick tabs", "wick-tabs", "candle"),
   ("wick stickers", "wick-stickers", "candle"),
   ("warning labels", "warning-labels", "candle"),
-  ("misc equipment", "misc-equipment", "candle");
+  ("misc equipment", "misc-equipment", "candle"),
+  ("wax", "wax", "blend"),
+  ("additive", "additive", "blend");
 
 create table if not exists supplier_reference (
   id int not null auto_increment primary key,
@@ -145,8 +148,6 @@ create table if not exists additive_reference (
   product_url varchar(2083),
   msds_url varchar(2083),
   info_url varchar(2083),
-  -- ifra_url varchar(2083),
-  -- allergin_url varchar(2083),
   notes text,
   foreign key (supplier_id) references supplier_reference(id)
 );
@@ -169,6 +170,36 @@ create table if not exists additives (
   foreign key (reference_id) references additive_reference(id)
 );
 
+create table if not exists dye_reference (
+  id int not null auto_increment primary key,
+  name varchar(255) not null,
+  slug varchar(255) not null,
+  color varchar(255) not null,
+  supplier_id int,
+  product_url varchar(2083),
+  msds_url varchar(2083),
+  info_url varchar(2083),
+  notes text,
+  foreign key (supplier_id) references supplier_reference(id)
+);
+
+create table if not exists dyes (
+  id int not null auto_increment primary key,
+  hash_id varchar(255) unique,
+  reference_id int,
+  color varchar(255),
+  order_id int,
+  weight_ounces decimal(9, 4),
+  remaining decimal(9, 4),
+  -- confirmed to be finished/discarded
+  finished tinyint(1) default 0,
+  price decimal(13, 4) default 0,
+  share_of_shipping_percent decimal(6, 2) default 0,
+  notes text,
+  msds_url varchar(2083),
+  foreign key (order_id) references supply_orders(id)
+);
+
 create table if not exists boxes (
   id int not null auto_increment primary key,
   hash_id varchar(255) unique,
@@ -182,24 +213,6 @@ create table if not exists boxes (
   price decimal(13, 4) default 0,
   share_of_shipping_percent decimal(6, 2) default 0,
   notes text,
-  foreign key (order_id) references supply_orders(id)
-);
-
-create table if not exists dyes (
-  id int not null auto_increment primary key,
-  hash_id varchar(255) unique,
-  name varchar(255) not null,
-  slug varchar(255) not null,
-  color varchar(255) not null,
-  order_id int,
-  weight_ounces decimal(9, 4),
-  remaining decimal(9, 4),
-  -- confirmed to be finished/discarded
-  finished tinyint(1) default 0,
-  price decimal(13, 4) default 0,
-  share_of_shipping_percent decimal(6, 2) default 0,
-  notes text,
-  msds_url varchar(2083),
   foreign key (order_id) references supply_orders(id)
 );
 
@@ -455,6 +468,44 @@ create table if not exists batches_dyes (
   combine_id int,
   foreign key (batch_id) references batches(id),
   foreign key (dye_id) references dyes(id)
+);
+
+create table if not exists blends (
+  id int not null auto_increment primary key,
+  hash_id varchar(255) unique,
+  name varchar(255),
+  slug varchar(255),
+  total_wax_weight_ounces decimal(9, 4),
+  total_additive_weight_ounces decimal(9, 4),
+  remaining_ounces decimal(9, 4),
+  when_created datetime,
+  last_updated datetime,
+  finished tinyint(1) default 0,
+  notes text
+);
+
+create table if not exists blends_waxes (
+  id int not null auto_increment primary key,
+  blend_id int not null,
+  wax_id int not null,
+  weight_ounces decimal(9, 4),
+  -- items with the same combine_id are meant to be displayed as combined
+  combine_id int,
+  when_added datetime,
+  foreign key (blend_id) references blends(id),
+  foreign key (wax_id) references waxes(id)
+);
+
+create table if not exists blends_additives (
+  id int not null auto_increment primary key,
+  blend_id int not null,
+  additive_id int not null,
+  weight_ounces decimal(9, 4),
+  -- items with the same combine_id are meant to be displayed as combined
+  combine_id int,
+  when_added datetime,
+  foreign key (blend_id) references blends(id),
+  foreign key (additive_id) references additives(id)
 );
 
 create table if not exists candles_burns (

@@ -130,6 +130,14 @@ function NewBatch({ history, enqueueSnackbar }) {
     roomHumidity || ""
   );
 
+  const [waxHashIdOptions, setWaxHashIdOptions] = useState([]);
+  const [additiveHashIdOptions, setAdditiveHashIdOptions] = useState([]);
+  const [blendHashIdOptions, setBlendHashIdOptions] = useState([]);
+  const [dyeHashIdOptions, setDyeHashIdOptions] = useState([]);
+  const [fragranceOilHashIdOptions, setfragranceOilHashIdOptions] = useState(
+    []
+  );
+
   // the values placed in a newly added layer depend on the default values
   // so this fn is memoized each time those values change
   const addLayer = useCallback(
@@ -229,7 +237,64 @@ function NewBatch({ history, enqueueSnackbar }) {
         handleApiError(err, enqueueSnackbar);
       }
     };
+    const fetchWaxOptions = async () => {
+      try {
+        const result = await axios(api.waxesUrl);
+        if (result.data) {
+          setWaxHashIdOptions(result.data);
+        }
+      } catch (err) {
+        handleApiError(err, enqueueSnackbar);
+      }
+    };
+
+    const fetchAdditiveOptions = async () => {
+      try {
+        const result = await axios(api.additivesUrl);
+        if (result.data) {
+          setAdditiveHashIdOptions(result.data);
+        }
+      } catch (err) {
+        handleApiError(err, enqueueSnackbar);
+      }
+    };
+    const fetchFragranceOptions = async () => {
+      try {
+        const result = await axios(api.fragranceOilsUrl);
+        if (result.data) {
+          setfragranceOilHashIdOptions(result.data);
+        }
+      } catch (err) {
+        handleApiError(err, enqueueSnackbar);
+      }
+    };
+    const fetchDyeOptions = async () => {
+      try {
+        const result = await axios(api.dyesUrl);
+        if (result.data) {
+          setDyeHashIdOptions(result.data);
+        }
+      } catch (err) {
+        handleApiError(err, enqueueSnackbar);
+      }
+    };
+    const fetchBlendOptions = async () => {
+      try {
+        const result = await axios(api.blendsUrl);
+        if (result.data) {
+          setBlendHashIdOptions(result.data);
+        }
+      } catch (err) {
+        handleApiError(err, enqueueSnackbar);
+      }
+    };
+
     fetchResourceTypes();
+    fetchWaxOptions();
+    fetchAdditiveOptions();
+    fetchFragranceOptions();
+    fetchDyeOptions();
+    fetchBlendOptions();
   }, [enqueueSnackbar]);
 
   useEffect(() => {
@@ -297,6 +362,32 @@ function NewBatch({ history, enqueueSnackbar }) {
         ...formattedValues,
         [name]: value,
       };
+    });
+  };
+
+  const handleHashIdSelection = (e, value, reason, more) => {
+    if (reason === "clear") {
+      setNewBatchItemValues((values) => {
+        const {
+          hashId,
+          hashIdSelectionString,
+          ...valuesWithoutHashId
+        } = values;
+        // remove the hashId and the associated description string
+        return valuesWithoutHashId;
+      });
+      return;
+    }
+
+    setNewBatchItemValues((values) => {
+      const updatedValues = {
+        ...values,
+        hashIdSelectionString: values.name !== undefined ? values.name : value,
+      };
+      if (value.hashId) {
+        updatedValues.hashId = value.hashId;
+      }
+      return updatedValues;
     });
   };
 
@@ -503,7 +594,9 @@ function NewBatch({ history, enqueueSnackbar }) {
       return;
     }
     const totalWaxWeightOunces = batchValues.batchItems
-      .filter((b) => b.type === "wax")
+      .filter(
+        (b) => b.type === "wax" || b.type === "additive" || b.type === "blend"
+      )
       .reduce((sum, w) => sum + parseFloat(w.weightOunces), 0);
 
     const fragranceLoadTargetDecimal = parseFloat(fragranceLoadTarget) / 100;
@@ -620,10 +713,16 @@ function NewBatch({ history, enqueueSnackbar }) {
             combineOptions={batchValues.batchItems}
             values={newBatchItemValues}
             itemTypes={resourceTypes.filter((r) => r.scope === "batch")}
+            additiveHashIdOptions={additiveHashIdOptions}
+            waxHashIdOptions={waxHashIdOptions}
+            blendHashIdOptions={blendHashIdOptions}
+            fragranceOilHashIdOptions={fragranceOilHashIdOptions}
+            dyeHashIdOptions={dyeHashIdOptions}
             waxWeightSuggestion={waxSuggestionGivenJarFill}
             foWeightSuggestion={getFoWeightSuggestion()}
             isOpen={batchItemDialogOpen}
             onChange={handleBatchItemFormChange}
+            onAutocompleteSelection={handleHashIdSelection}
             onClose={() => clearBatchItemDialogState()}
             editItemIndex={editItemIndex}
             onAddItem={addBatchItem}

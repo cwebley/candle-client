@@ -38,7 +38,14 @@ const styles = (theme) => ({
   },
 });
 
-function BatchItemTable({ itemData, onDeleteClick, onEditClick, classes }) {
+function BatchItemTable({
+  amountKey,
+  amountUnit,
+  itemData,
+  onDeleteClick,
+  onEditClick,
+  classes,
+}) {
   let groupCombineData = [];
   let combineClassCount = 0;
 
@@ -80,7 +87,10 @@ function BatchItemTable({ itemData, onDeleteClick, onEditClick, classes }) {
         </TableHead>
         <TableBody>
           {groupCombineData.map((item, i) => {
-            let itemAmount = item.weightOunces;
+            let itemAmount =
+              amountKey && amountKey === "weightPounds"
+                ? item.weightPounds
+                : item.weightOunces;
             return (
               <TableRow
                 key={i}
@@ -104,7 +114,9 @@ function BatchItemTable({ itemData, onDeleteClick, onEditClick, classes }) {
                 )}
                 <TableCell>{item.type}</TableCell>
                 <TableCell align="right">{item.hashId}</TableCell>
-                <TableCell align="right">{itemAmount}</TableCell>
+                <TableCell align="right">{`${itemAmount} ${
+                  amountUnit || "oz"
+                }`}</TableCell>
               </TableRow>
             );
           })}

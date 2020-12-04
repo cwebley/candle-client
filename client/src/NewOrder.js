@@ -199,7 +199,9 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
     }
 
     const fetchFragrancesForSupplier = async () => {
-      const result = await axios(`http://localhost:5000/fragrance-reference?supplierId=${values.supplierId}`);
+      const result = await axios(
+        `http://localhost:5000/fragrance-reference?supplierId=${values.supplierId}`
+      );
       if (result && result.data) {
         setFragranceOptions(result.data);
       }

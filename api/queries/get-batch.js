@@ -252,7 +252,7 @@ function getBatchesdyes(db, batchId, cb) {
       bdb.weight_ounces AS "weightOunces",
       d.hash_id AS "hashId",
       bdb.combine_id AS "combineId",
-      d.name, d.slug,
+      dr.name, dr.slug, dr.color,
       d.order_id, d.weight_ounces AS "shipmentWeightOunces",
       d.price AS "itemCost", d.share_of_shipping_percent AS "shareOfShippingPercent",
       d.notes, so.supplier_id AS "supplierId", sr.name AS "supplierName", so.item_count AS "orderItemCount",
@@ -260,6 +260,7 @@ function getBatchesdyes(db, batchId, cb) {
       so.shipping_cost AS "orderShippingCost", so.total_cost AS "orderTotalCost"
     FROM batches_dyes bdb
     LEFT JOIN dyes d ON d.id = bdb.dye_id
+    LEFT JOIN dye_reference dr ON dr.id = d.reference_id
     LEFT JOIN supply_orders so ON so.id = d.order_id
     LEFT JOIN supplier_reference sr ON so.supplier_id = sr.id
     WHERE bdb.batch_id = ?

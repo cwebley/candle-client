@@ -4,19 +4,23 @@ const async = require("neo-async");
 
 module.exports.dependsOn = ["orders"];
 
-module.exports.up = function(state, dependencies, next) {
-  const seriesFuncs = candlesData.map(candleGroup => done =>
+module.exports.up = function (state, dependencies, next) {
+  const seriesFuncs = candlesData.map((candleGroup) => (done) =>
     request(
       {
         method: "POST",
         url: "http://localhost:5000/candles",
         json: true,
-        body: candleGroup
+        body: candleGroup,
       },
       (err, resp, body) => {
         if (!err && resp.statusCode >= 300) {
           err = new Error(
-            `Non 200 response: ${resp.statusCode}. req.body: ${JSON.stringify(candleGroup, null, 4)}`
+            `Non 200 response: ${resp.statusCode}. req.body: ${JSON.stringify(
+              candleGroup,
+              null,
+              4
+            )}`
           );
         }
         console.log("SAVING BODY TO STATE ", this, body);
@@ -31,6 +35,6 @@ module.exports.up = function(state, dependencies, next) {
   });
 };
 
-module.exports.down = function(state, dependencies, next) {
+module.exports.down = function (state, dependencies, next) {
   next();
 };

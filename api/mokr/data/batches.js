@@ -5118,7 +5118,6 @@ module.exports = [
       {
         type: "wax",
         hashId: "3EZ3",
-        finished: true,
         combineId: 1,
         weightOunces: "11.73",
       },
@@ -6762,7 +6761,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "2.59", combineId: 1 },
       { type: "wax", hashId: "1DM2", weightOunces: "2.59", combineId: 2 },
-      { type: "additives", hashId: "7NK7", weightOunces: "0.10", combineId: 3 },
+      { type: "additive", hashId: "7NK7", weightOunces: "0.10", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "4NNN",
@@ -6796,7 +6795,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "2.51", combineId: 1 },
       { type: "wax", hashId: "1DM2", weightOunces: "2.51", combineId: 2 },
-      { type: "additives", hashId: "7NK7", weightOunces: "0.26", combineId: 3 },
+      { type: "additive", hashId: "7NK7", weightOunces: "0.26", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "4NNN",
@@ -6831,7 +6830,7 @@ module.exports = [
       { type: "wax", hashId: "3EZ3", weightOunces: "2.38", combineId: 1 },
       { type: "wax", hashId: "1DM2", weightOunces: "2.38", combineId: 6 },
       { type: "wax", hashId: "3RO3", weightOunces: "0.26", combineId: 3 },
-      { type: "additives", hashId: "7NK7", weightOunces: "0.26", combineId: 4 },
+      { type: "additive", hashId: "7NK7", weightOunces: "0.26", combineId: 4 },
       {
         type: "fragrance-oil",
         hashId: "4NNN",
@@ -6865,7 +6864,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "2.38", combineId: 1 },
       { type: "wax", hashId: "1DM2", weightOunces: "2.38", combineId: 4 },
-      { type: "additives", hashId: "7NK7", weightOunces: "0.52", combineId: 3 },
+      { type: "additive", hashId: "7NK7", weightOunces: "0.52", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "4NNN",
@@ -6899,7 +6898,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "10.89", combineId: 1 },
       { type: "wax", hashId: "1DM2", weightOunces: "10.89", combineId: 2 },
-      { type: "additives", hashId: "7NK7", weightOunces: "2.42", combineId: 3 },
+      { type: "additive", hashId: "7NK7", weightOunces: "2.42", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "4NNN",
@@ -6972,7 +6971,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "11.88", combineId: 1 },
       { type: "wax", hashId: "1DM2", weightOunces: "11.88", combineId: 2 },
-      { type: "additives", weightOunces: "2.64", hashId: "7NK7", combineId: 3 },
+      { type: "additive", weightOunces: "2.64", hashId: "7NK7", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "GM8D",
@@ -7210,7 +7209,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "14.69", combineId: 1 },
       { type: "wax", hashId: "1DM2", weightOunces: "14.69", combineId: 2 },
-      { type: "additives", hashId: "7NK7", weightOunces: "3.26", combineId: 3 },
+      { type: "additive", hashId: "7NK7", weightOunces: "3.26", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "GM8D",
@@ -7298,7 +7297,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "11.16", combineId: 1 },
       { type: "wax", hashId: "1DM2", weightOunces: "11.16", combineId: 2 },
-      { type: "additives", hashId: "7NK7", weightOunces: "2.48", combineId: 3 },
+      { type: "additive", hashId: "7NK7", weightOunces: "2.48", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "GM8D",
@@ -7386,7 +7385,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "4.75", combineId: 1 },
       { type: "wax", hashId: "1DM2", weightOunces: "4.75", combineId: 2 },
-      { type: "additives", hashId: "7NK7", weightOunces: "1.06", combineId: 3 },
+      { type: "additive", hashId: "7NK7", weightOunces: "1.06", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "GM8D",
@@ -7441,7 +7440,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "4.94", combineId: 3 },
       { type: "wax", hashId: "1DM2", weightOunces: "4.94", combineId: 4 },
-      { type: "additives", hashId: "7NK7", weightOunces: "1.10", combineId: 5 },
+      { type: "additive", hashId: "7NK7", weightOunces: "1.10", combineId: 5 },
       {
         type: "fragrance-oil",
         hashId: "GM8D",
@@ -7501,7 +7500,7 @@ module.exports = [
       { type: "wax", hashId: "3EZ3", weightOunces: "6.62", combineId: 1 },
       { type: "wax", hashId: "1DM2", weightOunces: "6.62", combineId: 2 },
       {
-        type: "additives",
+        type: "additive",
         hashId: "7NK7",
         weightOunces: "1.39",
         combineId: 3,
@@ -7519,7 +7518,7 @@ module.exports = [
         weightOunces: "0.80",
         combineId: 5,
       },
-      { type: "additives", hashId: "3Z17", combineId: 3, weightOunces: "0.08" },
+      { type: "additive", hashId: "3Z17", combineId: 3, weightOunces: "0.08" },
     ],
     layers: [
       {
@@ -7568,7 +7567,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "11.28", combineId: 1 },
       { type: "wax", hashId: "1DM2", weightOunces: "11.28", combineId: 2 },
-      { type: "additives", hashId: "7NK7", weightOunces: "2.51", combineId: 3 },
+      { type: "additive", hashId: "7NK7", weightOunces: "2.51", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "GM8D",
@@ -7638,7 +7637,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "2.52", combineId: 1 },
       { type: "wax", hashId: "1DM2", weightOunces: "2.52", combineId: 2 },
-      { type: "additives", hashId: "7NK7", weightOunces: "0.56", combineId: 3 },
+      { type: "additive", hashId: "7NK7", weightOunces: "0.56", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "GM8D",
@@ -7679,7 +7678,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "5.84", combineId: 1 },
       { type: "wax", hashId: "1DM2", weightOunces: "5.84", combineId: 2 },
-      { type: "additives", weightOunces: "1.30", hashId: "7NK7", combineId: 3 },
+      { type: "additive", weightOunces: "1.30", hashId: "7NK7", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "GM8D",
@@ -7746,7 +7745,7 @@ module.exports = [
         weightOunces: "7.72",
         combineId: 2,
       },
-      { type: "additives", hashId: "7NK7", weightOunces: "1.72", combineId: 3 },
+      { type: "additive", hashId: "7NK7", weightOunces: "1.72", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "GM8D",
@@ -7798,7 +7797,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "5.15", combineId: 1 },
       { type: "wax", hashId: "1DM2", weightOunces: "5.15", combineId: 2 },
-      { type: "additives", hashId: "7NK7", weightOunces: "1.14", combineId: 3 },
+      { type: "additive", hashId: "7NK7", weightOunces: "1.14", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "422K",
@@ -7857,7 +7856,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "10.29", combineId: 1 },
       { type: "wax", hashId: "1DM2", weightOunces: "10.29", combineId: 2 },
-      { type: "additives", hashId: "7NK7", weightOunces: "2.29", combineId: 3 },
+      { type: "additive", hashId: "7NK7", weightOunces: "2.29", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "OPKY",
@@ -7939,7 +7938,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "14.85", combineId: 1 },
       { type: "wax", hashId: "1DM2", weightOunces: "14.85", combineId: 2 },
-      { type: "additives", hashId: "7NK7", weightOunces: "3.30", combineId: 3 },
+      { type: "additive", hashId: "7NK7", weightOunces: "3.30", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "OPKY",
@@ -8012,7 +8011,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "10.69", combineId: 1 },
       { type: "wax", hashId: "1DM2", weightOunces: "10.69", combineId: 2 },
-      { type: "additives", hashId: "7NK7", weightOunces: "2.38", combineId: 3 },
+      { type: "additive", hashId: "7NK7", weightOunces: "2.38", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "OPKY",
@@ -8104,13 +8103,12 @@ module.exports = [
       {
         type: "wax",
         hashId: "3EZ3",
-        finished: false,
         weightOunces: "10.29",
         combineId: 1,
       },
       { type: "wax", hashId: "1DM2", weightOunces: "10.29", combineId: 2 },
       {
-        type: "additives",
+        type: "additive",
         hashId: "7NK7",
         weightOunces: "0.15",
         combineId: 3,
@@ -8123,7 +8121,7 @@ module.exports = [
         weightOunces: "2.47",
         combineId: 4,
       },
-      { type: "additives", hashId: "7VP7", combineId: 3, weightOunces: "2.14" },
+      { type: "additive", hashId: "7VP7", combineId: 3, weightOunces: "2.14" },
     ],
     layers: [
       {
@@ -8207,7 +8205,7 @@ module.exports = [
         finished: true,
         combineId: 4,
       },
-      { type: "additives", hashId: "7VP7", weightOunces: "3.30", combineId: 3 },
+      { type: "additive", hashId: "7VP7", weightOunces: "3.30", combineId: 3 },
       { type: "wax", hashId: "1645", weightOunces: "14.39", combineId: 4 },
       {
         type: "fragrance-oil",
@@ -8254,7 +8252,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "14.85", combineId: 1 },
       { type: "wax", hashId: "1645", weightOunces: "14.85", combineId: 2 },
-      { type: "additives", hashId: "7VP7", weightOunces: "3.30", combineId: 3 },
+      { type: "additive", hashId: "7VP7", weightOunces: "3.30", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "4257",
@@ -8300,7 +8298,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "12.97", combineId: 1 },
       { type: "wax", hashId: "1645", weightOunces: "12.97", combineId: 2 },
-      { type: "additives", hashId: "7VP7", weightOunces: "2.88", combineId: 3 },
+      { type: "additive", hashId: "7VP7", weightOunces: "2.88", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "4257",
@@ -8355,7 +8353,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "12.38", combineId: 1 },
       { type: "wax", hashId: "1645", weightOunces: "12.38", combineId: 2 },
-      { type: "additives", hashId: "7VP7", weightOunces: "2.75", combineId: 3 },
+      { type: "additive", hashId: "7VP7", weightOunces: "2.75", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "41Q2",
@@ -8419,7 +8417,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "6.68", combineId: 1 },
       { type: "wax", hashId: "1645", weightOunces: "6.68", combineId: 2 },
-      { type: "additives", hashId: "7VP7", weightOunces: "1.49", combineId: 3 },
+      { type: "additive", hashId: "7VP7", weightOunces: "1.49", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "41Q2",
@@ -8483,7 +8481,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "12.38", combineId: 1 },
       { type: "wax", hashId: "1645", weightOunces: "12.38", combineId: 2 },
-      { type: "additives", hashId: "7VP7", weightOunces: "2.75", combineId: 3 },
+      { type: "additive", hashId: "7VP7", weightOunces: "2.75", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "41Q2",
@@ -8547,7 +8545,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "6.68", combineId: 1 },
       { type: "wax", hashId: "1645", weightOunces: "6.68", combineId: 2 },
-      { type: "additives", hashId: "7VP7", weightOunces: "1.49", combineId: 3 },
+      { type: "additive", hashId: "7VP7", weightOunces: "1.49", combineId: 3 },
       {
         type: "fragrance-oil",
         hashId: "41Q2",
@@ -8612,7 +8610,7 @@ module.exports = [
       { type: "wax", hashId: "3EZ3", weightOunces: "14.90", combineId: 6 },
       { type: "wax", hashId: "1645", weightOunces: "14.90", combineId: 7 },
       {
-        type: "additives",
+        type: "additive",
         hashId: "7VP7",
         weightOunces: "3.31",
         combineId: 11,
@@ -8699,7 +8697,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "8.91", combineId: 1 },
       { type: "wax", hashId: "1645", weightOunces: "8.91", combineId: 2 },
-      { type: "additives", hashId: "7VP7", weightOunces: "1.98", combineId: 5 },
+      { type: "additive", hashId: "7VP7", weightOunces: "1.98", combineId: 5 },
       {
         type: "fragrance-oil",
         hashId: "GZ6B",
@@ -8754,7 +8752,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "8.91", combineId: 1 },
       { type: "wax", hashId: "1645", weightOunces: "8.91", combineId: 2 },
-      { type: "additives", hashId: "7VP7", weightOunces: "1.98", combineId: 5 },
+      { type: "additive", hashId: "7VP7", weightOunces: "1.98", combineId: 5 },
       {
         type: "fragrance-oil",
         hashId: "GWJ5",
@@ -8817,7 +8815,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "6.68", combineId: 1 },
       { type: "wax", hashId: "1645", weightOunces: "6.68", combineId: 2 },
-      { type: "additives", hashId: "7VP7", weightOunces: "1.49", combineId: 5 },
+      { type: "additive", hashId: "7VP7", weightOunces: "1.49", combineId: 5 },
       {
         type: "fragrance-oil",
         hashId: "G7P7",
@@ -8872,7 +8870,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "9.90", combineId: 1 },
       { type: "wax", hashId: "1645", weightOunces: "9.90", combineId: 2 },
-      { type: "additives", hashId: "7VP7", weightOunces: "2.20", combineId: 6 },
+      { type: "additive", hashId: "7VP7", weightOunces: "2.20", combineId: 6 },
       {
         type: "fragrance-oil",
         hashId: "GWJ5",
@@ -8933,7 +8931,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "9.90", combineId: 1 },
       { type: "wax", hashId: "1645", weightOunces: "9.90", combineId: 2 },
-      { type: "additives", hashId: "7VP7", weightOunces: "2.20", combineId: 5 },
+      { type: "additive", hashId: "7VP7", weightOunces: "2.20", combineId: 5 },
       {
         type: "fragrance-oil",
         hashId: "41P2",
@@ -8988,7 +8986,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "9.90", combineId: 1 },
       { type: "wax", hashId: "1645", weightOunces: "9.90", combineId: 2 },
-      { type: "additives", hashId: "7VP7", weightOunces: "2.20", combineId: 5 },
+      { type: "additive", hashId: "7VP7", weightOunces: "2.20", combineId: 5 },
       {
         type: "fragrance-oil",
         hashId: "ODR2",
@@ -9043,7 +9041,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "9.90", combineId: 1 },
       { type: "wax", hashId: "1645", weightOunces: "9.90", combineId: 2 },
-      { type: "additives", hashId: "7VP7", weightOunces: "2.20", combineId: 5 },
+      { type: "additive", hashId: "7VP7", weightOunces: "2.20", combineId: 5 },
       {
         type: "fragrance-oil",
         hashId: "4L58",
@@ -9098,7 +9096,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "9.90", combineId: 1 },
       { type: "wax", hashId: "1645", weightOunces: "9.90", combineId: 2 },
-      { type: "additives", hashId: "7VP7", weightOunces: "2.20", combineId: 5 },
+      { type: "additive", hashId: "7VP7", weightOunces: "2.20", combineId: 5 },
       {
         type: "fragrance-oil",
         hashId: "4L58",
@@ -9153,7 +9151,7 @@ module.exports = [
     batchItems: [
       { type: "wax", hashId: "3EZ3", weightOunces: "9.90", combineId: 1 },
       { type: "wax", hashId: "1645", weightOunces: "9.90", combineId: 2 },
-      { type: "additives", hashId: "7VP7", weightOunces: "2.20", combineId: 5 },
+      { type: "additive", hashId: "7VP7", weightOunces: "2.20", combineId: 5 },
       {
         type: "fragrance-oil",
         hashId: "GV7R",
@@ -9200,5 +9198,162 @@ module.exports = [
       },
     ],
     name: "Black Amber Plum Testers",
+  },
+  {
+    whenCreated: "2020-12-02",
+    items: [
+      {
+        type: "wax",
+        hashIdSelectionString: "3EZ3-Coco-83-California Candle Supply",
+        hashId: "3EZ3",
+        combineId: 1,
+        finished: true,
+        weightOunces: 62.88,
+      },
+      {
+        type: "wax",
+        hashIdSelectionString: "39NO-Accu-Pure 83-Swans Candles",
+        hashId: "39NO",
+        finished: false,
+        combineId: 1,
+        weightOunces: 45.12,
+      },
+      {
+        type: "additive",
+        hashIdSelectionString: "7VP7-Stearic Acid-California Candle Supply",
+        hashId: "7VP7",
+        combineId: 2,
+        weightOunces: 24,
+      },
+      {
+        type: "wax",
+        hashIdSelectionString: "1645-Soy #10-Swans Candles",
+        hashId: "1645",
+        combineId: 3,
+        weightOunces: 108,
+      },
+    ],
+    name: "Coco83 S10 SA 1",
+    createBlend: true,
+  },
+  {
+    whenCreated: "2020-12-02",
+    fragranceAddTemperatureFahrenheit: "205",
+    dyeAddTemperatureFahrenheit: null,
+    batchItems: [
+      {
+        type: "blend",
+        hashIdSelectionString: "3P1O-Coco83 S10 SA 1",
+        hashId: "3P1O",
+        weightOunces: "33.00",
+        combineId: 1,
+      },
+      {
+        type: "fragrance-oil",
+        hashIdSelectionString: "4N6N-Carrot Cake-Fillmore Container",
+        hashId: "4N6N",
+        weightOunces: "0.99",
+        combineId: 2,
+      },
+      {
+        type: "fragrance-oil",
+        hashIdSelectionString: "4J2Q-Cranberry Woods-CandleScience",
+        hashId: "4J2Q",
+        weightOunces: "0.99",
+        combineId: 3,
+      },
+      {
+        type: "fragrance-oil",
+        hashIdSelectionString: {
+          hashId: "OD12",
+          weightOunces: 4,
+          remaining: 4,
+          finished: 0,
+          name: "Pomegranate Bitters",
+          slug: "pomegranate-bitters",
+          referenceId: 283,
+          flashpointTemperatureFahrenHeit: 201,
+          specificGravity: 1.01,
+          productUrl:
+            "https://www.candlescience.com/fragrance/pomegranate-bitters-fragrance-oil",
+          msdsUrl:
+            "https://drive.google.com/file/d/1I_OUGwCFwKg5PnAP1CwLZSPKak6g0eWG/view?usp=sharing",
+          ifraUrl:
+            "https://drive.google.com/file/d/1s7vvLIbcTsaXqyFXEVo8dA2m02htGm49/view?usp=sharing",
+          allerginUrl: null,
+          vanillinPercentage: 0,
+          ethylVanillinPercentage: 0,
+          supplierId: 1,
+          supplierName: "CandleScience",
+        },
+        hashId: "OD12",
+        weightOunces: "0.99",
+        combineId: 4,
+      },
+      {
+        type: "fragrance-oil",
+        hashIdSelectionString: "4257-Very Vanilla-CandleScience",
+        hashId: "4257",
+        weightOunces: "0.99",
+        combineId: 5,
+      },
+    ],
+    layers: [
+      {
+        candleHashId: "E2D7",
+        whenPoured: "2020-12-02T20:42:28",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "37",
+        coolingRoomTemperatureFahrenheit: "70",
+        containerTemperatureFahrenheit: "70",
+        preppedContainerWeightOunces: "18.59",
+      },
+      {
+        candleHashId: "N25D",
+        whenPoured: "2020-12-02T20:42:28",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "37",
+        coolingRoomTemperatureFahrenheit: "70",
+        containerTemperatureFahrenheit: "70",
+        preppedContainerWeightOunces: "18.59",
+      },
+      {
+        candleHashId: "Z95Z",
+        whenPoured: "2020-12-02T20:42:28",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "37",
+        coolingRoomTemperatureFahrenheit: "70",
+        containerTemperatureFahrenheit: "70",
+        preppedContainerWeightOunces: "18.59",
+      },
+      {
+        candleHashId: "LLN8",
+        whenPoured: "2020-12-02T20:42:28",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "37",
+        coolingRoomTemperatureFahrenheit: "70",
+        containerTemperatureFahrenheit: "70",
+        preppedContainerWeightOunces: "18.59",
+      },
+      {
+        candleHashId: "45OZ",
+        whenPoured: "2020-12-02T20:42:28",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "37",
+        coolingRoomTemperatureFahrenheit: "70",
+        containerTemperatureFahrenheit: "70",
+        preppedContainerWeightOunces: "18.59",
+      },
+      {
+        candleHashId: "OPBO",
+        whenPoured: "2020-12-02T20:42:28",
+        pourTemperatureFahrenheit: "185",
+        coolingRoomHumidityPercent: "37",
+        coolingRoomTemperatureFahrenheit: "70",
+        containerTemperatureFahrenheit: "70",
+        preppedContainerWeightOunces: "18.59",
+      },
+    ],
+    name: "Sambleberry Test Batch",
   },
 ];

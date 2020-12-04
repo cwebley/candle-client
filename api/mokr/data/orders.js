@@ -27,9 +27,12 @@ module.exports = [
         categoryId: 1,
         name: "Golden Brands 464 Soy Wax",
         material: "soy",
-        productUrl: "https://www.candlescience.com/wax/golden-brands-464-soy-wax",
-        msdsUrl: "https://drive.google.com/file/d/1GyyiwjTrB-thmdbe4Omj95yDVdNorhL9/view?usp=sharing",
-        infoUrl: "https://drive.google.com/file/d/1HEBFLvjiLgNPBUkGKJqTg0da-UT6Nxun/view?usp=sharing",
+        productUrl:
+          "https://www.candlescience.com/wax/golden-brands-464-soy-wax",
+        msdsUrl:
+          "https://drive.google.com/file/d/1GyyiwjTrB-thmdbe4Omj95yDVdNorhL9/view?usp=sharing",
+        infoUrl:
+          "https://drive.google.com/file/d/1HEBFLvjiLgNPBUkGKJqTg0da-UT6Nxun/view?usp=sharing",
         meltingTemperatureFahrenheit: "113",
         weightPounds: "10",
         remaining: "0",
@@ -473,7 +476,7 @@ module.exports = [
         remaining: "2",
         price: "8.50",
         shareOfShippingPercent: "38",
-      },  
+      },
       {
         type: "fragrance-oil",
         categoryId: "4",
@@ -3021,7 +3024,8 @@ module.exports = [
       {
         type: "wax",
         name: "Natural Soy 464 Wax",
-        productUrl: "https://thecandlemakersstore.com/candle-making/candle-wax-and-gel/464-ups-shipping-friendly-package-natural-soy-464-golden-wax-464-5702-02-77gw-wax.html",
+        productUrl:
+          "https://thecandlemakersstore.com/candle-making/candle-wax-and-gel/464-ups-shipping-friendly-package-natural-soy-464-golden-wax-464-5702-02-77gw-wax.html",
         meltingTemperatureFahrenheit: "125",
         material: "soy",
         weightPounds: "10",
@@ -3412,9 +3416,12 @@ module.exports = [
         type: "wax",
         name: "NatureWax Coconut 1",
         material: "coconut",
-        productUrl: "https://www.fillmorecontainer.com/naturewax-coconut-1-50-case.html",
-        infoUrl: "https://drive.google.com/file/d/1UoR_Cpc1ky5MAKaiWsjtSVzRN2skTiar/view?usp=sharing",
-        msdsUrl: "https://drive.google.com/file/d/1fCADfc-VkTuPtq4GXhsgzj0RXHT09UM6/view?usp=sharing",
+        productUrl:
+          "https://www.fillmorecontainer.com/naturewax-coconut-1-50-case.html",
+        infoUrl:
+          "https://drive.google.com/file/d/1UoR_Cpc1ky5MAKaiWsjtSVzRN2skTiar/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1fCADfc-VkTuPtq4GXhsgzj0RXHT09UM6/view?usp=sharing",
         flashpointTemperatureFahrenheit: "500",
         meltingTemperatureFahrenheit: "90",
         weightPounds: "2",
@@ -3694,7 +3701,8 @@ module.exports = [
         name:
           "Your Natural Planet Cosmetic Grade All Natural White Beeswax Pellets",
         material: "beeswax",
-        productUrl: "https://www.amazon.com/gp/product/B07DR2L8D1/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1",
+        productUrl:
+          "https://www.amazon.com/gp/product/B07DR2L8D1/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1",
         weightPounds: "2",
         remaining: "2",
         price: "18.99",
@@ -6165,9 +6173,12 @@ module.exports = [
         type: "wax",
         name: "Coco-83",
         material: "Coconut",
-        productUrl: "https://calcandlesupply.com/coconut-83-wax-all-natural-coconut-wax/",
-        msdsUrl: "https://drive.google.com/file/d/1Vo5zftN8FJZlSkxRMOWsyQMHVem4C9hr/view?usp=sharing",
-        infoUrl: "https://drive.google.com/file/d/1vzUYxbOgvsx0XUSQISdi3N52_2RjQ08T/view?usp=sharing",
+        productUrl:
+          "https://calcandlesupply.com/coconut-83-wax-all-natural-coconut-wax/",
+        msdsUrl:
+          "https://drive.google.com/file/d/1Vo5zftN8FJZlSkxRMOWsyQMHVem4C9hr/view?usp=sharing",
+        infoUrl:
+          "https://drive.google.com/file/d/1vzUYxbOgvsx0XUSQISdi3N52_2RjQ08T/view?usp=sharing",
         flashpointTemperatureFahrenheit: "450",
         meltingTemperatureFahrenheit: "124",
         weightPounds: "12",
@@ -6261,9 +6272,12 @@ module.exports = [
         type: "wax",
         name: "Golden 464 Soy Wax",
         material: "Soy",
-        productUrl: "https://aaacandlesupply.com/collections/soy-vegetable-blends/products/golden-brands-464-soy-wax",
-        infoUrl: "https://drive.google.com/file/d/17FSBCqhgWX902wVj6_IEe-ME-B2SiZEb/view?usp=sharing",
-        msdsUrl: "https://drive.google.com/file/d/17AxdEtDirxei9q3suFnJCVBu7ID7Hb0a/view?usp=sharing",
+        productUrl:
+          "https://aaacandlesupply.com/collections/soy-vegetable-blends/products/golden-brands-464-soy-wax",
+        infoUrl:
+          "https://drive.google.com/file/d/17FSBCqhgWX902wVj6_IEe-ME-B2SiZEb/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/17AxdEtDirxei9q3suFnJCVBu7ID7Hb0a/view?usp=sharing",
         meltingTemperatureFahrenheit: "113",
         weightPounds: "20",
         remaining: "20",
@@ -9850,7 +9864,8 @@ module.exports = [
       {
         type: "additives",
         name: "Stearic Acid",
-        productUrl: "https://www.theflamingcandle.com/candle-making-supplies/additives/palm-stearic-acid/",
+        productUrl:
+          "https://www.theflamingcandle.com/candle-making-supplies/additives/palm-stearic-acid/",
         weightOunces: "16",
         remaining: "16",
         price: "3.99",
@@ -9880,8 +9895,10 @@ module.exports = [
         type: "wax",
         name: "SP-486",
         material: "Palm",
-        productUrl: "https://www.swanscandles.com/store/soy_blends_natural_waxes.html",
-        msdsUrl: "https://drive.google.com/file/d/1dxbCHhZw1_5dAN_GkihMQOfOZTca6ZpC/view?usp=sharing",
+        productUrl:
+          "https://www.swanscandles.com/store/soy_blends_natural_waxes.html",
+        msdsUrl:
+          "https://drive.google.com/file/d/1dxbCHhZw1_5dAN_GkihMQOfOZTca6ZpC/view?usp=sharing",
         meltingTemperatureFahrenheit: "130",
         weightPounds: "20",
         remaining: "20",
@@ -9974,8 +9991,10 @@ module.exports = [
       {
         type: "wax",
         name: "Tart Wax TW-30",
-        productUrl: "https://calcandlesupply.com/tart-wax-tw-30-all-natural-soy-wax-for-wax-melts/",
-        infoUrl: "https://drive.google.com/file/d/1L0W6YT0udpaN6pUQ_R2kfIpuiciYlD1E/view?usp=sharing",
+        productUrl:
+          "https://calcandlesupply.com/tart-wax-tw-30-all-natural-soy-wax-for-wax-melts/",
+        infoUrl:
+          "https://drive.google.com/file/d/1L0W6YT0udpaN6pUQ_R2kfIpuiciYlD1E/view?usp=sharing",
         meltingTemperatureFahrenheit: "130",
         material: "Soy",
         weightPounds: "10",
@@ -9987,10 +10006,13 @@ module.exports = [
         type: "wax",
         name: "Soy #10",
         material: "Soy",
-        productUrl: "https://calcandlesupply.com/soy-10-wax-all-natural-soy-wax/",
+        productUrl:
+          "https://calcandlesupply.com/soy-10-wax-all-natural-soy-wax/",
         meltingTemperatureFahrenheit: "124",
-        infoUrl: "https://drive.google.com/file/d/1oXOucnT1mFxcp4wAiwFOckQeT4MzQpeh/view?usp=sharing",
-        msdsUrl: "https://drive.google.com/file/d/1esBYnCAvLBeAkZQqes700mbTwB41o39S/view?usp=sharing",
+        infoUrl:
+          "https://drive.google.com/file/d/1oXOucnT1mFxcp4wAiwFOckQeT4MzQpeh/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1esBYnCAvLBeAkZQqes700mbTwB41o39S/view?usp=sharing",
         flashpointTemperatureFahrenheit: "450",
         weightPounds: "11",
         remaining: "11",
@@ -10927,7 +10949,8 @@ module.exports = [
         type: "wax",
         name: "Soy #10",
         material: "Soy",
-        productUrl: "https://www.swanscandles.com/store/soy_blends_natural_waxes.html",
+        productUrl:
+          "https://www.swanscandles.com/store/soy_blends_natural_waxes.html",
         meltingTemperatureFahrenheit: "124",
         flashpointTemperatureFahrenheit: "450",
         weightPounds: "50",
@@ -11241,5 +11264,26 @@ module.exports = [
     shippingCost: "0",
     taxesAndFees: "0",
     totalCost: "0",
+  },
+  {
+    openDate: "2020-12-02",
+    items: [
+      {
+        type: "wax",
+        name: "Accu-Pure 83",
+        material: "Coconut",
+        productUrl: "https://www.swanscandles.com/store/soy_blends_natural_waxes.html",
+        weightPounds: "40",
+        remaining: "40",
+        price: "95",
+        shareOfShippingPercent: "53.80",
+      },
+    ],
+    supplierName: "Swans Candles",
+    supplierId: 25,
+    subtotalCost: "95.00",
+    shippingCost: "53.80",
+    taxesAndFees: "0",
+    totalCost: "148.80",
   },
 ];

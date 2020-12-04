@@ -94,11 +94,12 @@ function getFragranceOils(db, orderId, cb) {
 function getWaxes(db, orderId, cb) {
   const sql = `
     SELECT
-      hash_id AS "hashId", name, slug, material,
-      weight_pounds AS "weightPounds", remaining, FORMAT(price, 2) AS "price",
-      share_of_shipping_percent AS "shareOfShippingPercent", notes
-    FROM waxes
-    WHERE order_id = ?
+      w.hash_id AS "hashId", wr.name, wr.slug, wr.material,
+      w.weight_pounds AS "weightPounds", w.remaining, FORMAT(w.price, 2) AS "price",
+      w.share_of_shipping_percent AS "shareOfShippingPercent", w.notes
+    FROM waxes w
+    LEFT JOIN wax_reference wr ON wr.id = w.reference_id
+    WHERE w.order_id = ?
   `;
 
   const params = [orderId];
@@ -117,11 +118,12 @@ function getWaxes(db, orderId, cb) {
 function getAdditives(db, orderId, cb) {
   const sql = `
     SELECT
-      hash_id AS "hashId", name, slug,
-      weight_ounces AS "weightOunces", remaining, FORMAT(price, 2) AS "price",
-      share_of_shipping_percent AS "shareOfShippingPercent", notes
-    FROM additives
-    WHERE order_id = ?
+      a.hash_id AS "hashId", ar.name, ar.slug,
+      a.weight_ounces AS "weightOunces", a.remaining, FORMAT(a.price, 2) AS "price",
+      a.share_of_shipping_percent AS "shareOfShippingPercent", a.notes
+    FROM additives a
+    LEFT JOIN additive_reference ar ON ar.id = a.reference_id
+    WHERE a.order_id = ?
   `;
 
   const params = [orderId];
@@ -163,12 +165,13 @@ function getBoxes(db, orderId, cb) {
 function getDyes(db, orderId, cb) {
   const sql = `
     SELECT
-      hash_id AS "hashId", name, slug,
-      color, weight_ounces AS "weightOunces",
-      remaining, FORMAT(price, 2) AS "price",
-      share_of_shipping_percent AS "shareOfShippingPercent", notes
-    FROM dyes
-    WHERE order_id = ?
+      d.hash_id AS "hashId", dr.name, dr.slug,
+      dr.color, d.weight_ounces AS "weightOunces",
+      d.remaining, FORMAT(d.price, 2) AS "price",
+      d.share_of_shipping_percent AS "shareOfShippingPercent", d.notes
+    FROM dyes d
+    LEFT JOIN dye_reference dr ON dr.id = d.reference_id
+    WHERE d.order_id = ?
   `;
 
   const params = [orderId];

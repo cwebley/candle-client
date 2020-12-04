@@ -70,8 +70,17 @@ module.exports = function postSupplyOrder(db, data, cb) {
               },
               done
             ),
+          (done) =>
+            insertDyes(
+              db,
+              {
+                dyes,
+                orderId,
+                supplierId: data.supplierId,
+              },
+              done
+            ),
           (done) => insertBoxes(db, boxes, orderId, done),
-          (done) => insertdyes(db, dyes, orderId, done),
           (done) => insertJars(db, jars, orderId, done),
           (done) => insertLids(db, lids, orderId, done),
           (done) => insertMiscEquipment(db, miscEquipment, orderId, done),
@@ -233,16 +242,15 @@ function insertFragranceOils(
       }
 
       console.log("DDDDDD: ", data);
-      const rowData = data
-        .map((d) => [
-          d.referenceId,
-          d.weightOunces,
-          d.remaining,
-          d.price,
-          d.shareOfShippingPercent,
-          orderId,
-          d.notes,
-        ]);
+      const rowData = data.map((d) => [
+        d.referenceId,
+        d.weightOunces,
+        d.remaining,
+        d.price,
+        d.shareOfShippingPercent,
+        orderId,
+        d.notes,
+      ]);
 
       params = [rowData];
 
@@ -381,16 +389,15 @@ function insertWaxes(db, { waxes: data, orderId, supplierId }, cb) {
         }
       }
 
-      const rowData = data
-        .map((d) => [
-          d.referenceId,
-          d.weightPounds,
-          d.remaining,
-          d.price,
-          d.shareOfShippingPercent,
-          orderId,
-          d.notes,
-        ]);
+      const rowData = data.map((d) => [
+        d.referenceId,
+        d.weightPounds,
+        d.remaining,
+        d.price,
+        d.shareOfShippingPercent,
+        orderId,
+        d.notes,
+      ]);
       params = [rowData];
 
       const sql = `
@@ -521,16 +528,15 @@ function insertAdditives(db, { additives: data, orderId, supplierId }, cb) {
             additiveRefResult.insertId + i;
         }
       }
-      const rowData = data
-        .map((d) => [
-          d.referenceId,
-          d.weightOunces,
-          d.remaining,
-          d.price,
-          d.shareOfShippingPercent,
-          orderId,
-          d.notes,
-        ]);
+      const rowData = data.map((d) => [
+        d.referenceId,
+        d.weightOunces,
+        d.remaining,
+        d.price,
+        d.shareOfShippingPercent,
+        orderId,
+        d.notes,
+      ]);
       params = [rowData];
 
       const sql = `
@@ -685,28 +691,126 @@ function insertBoxes(db, data, orderId, cb) {
   });
 }
 
-function insertdyes(db, data, orderId, cb) {
+function insertDyes(db, { dyes: data, orderId, supplierId }, cb) {
   if (!data.length) {
     return cb();
   }
 
-  const rowData = data.map((d) => [
-    d.name,
-    slug(d.name, { lower: true }),
-    d.color,
-    orderId,
-    d.weightOunces,
-    d.remaining,
-    d.price,
-    d.shareOfShippingPercent,
-    d.notes,
-  ]);
+  const newDyes = data
+    // add the index to the object so we can update the referenceId of new-additives idea without looping again later
+    .map((d, index) => ({ ...d, index }))
+    // all the dyes without a referenceId are new
+    .filter((d) => !d.referenceId);
+
+  // additives with a referenceId already have their basic details indexed
+  const existingDyes = data.filter((d) => !!d.referenceId);
+
+  insertDyeReferences(
+    db,
+    { data: newDyes, supplierId },
+    (err, dyeRefResult) => {
+      if (err) {
+        return cb(err);
+      }
+
+      console.log("Existing dyes: ", existingDyes);
+      console.log("NEW dyes: ", newDyes);
+
+      if (dyeRefResult) {
+        // the insertId for each of the new additiveRef is
+        // also the `referenceId` for the additives
+        for (let i = 0; i < dyeRefResult.affectedRows; i++) {
+          // this is a little ugly, but we want to preserve the input order of the original form submission
+          // to keep hash_ids consistent on re-runs. we've saved the original input index on the `data`,
+          // which the `newDyes` array is a subset of. so we can now update the original data
+          // with the new referenceId.
+          data[newDyes[i].index].referenceId = dyeRefResult.insertId + i;
+        }
+      }
+
+      const rowData = data.map((d) => [
+        d.referenceId,
+        d.weightOunces,
+        d.remaining,
+        d.price,
+        d.shareOfShippingPercent,
+        orderId,
+        d.notes,
+      ]);
+      params = [rowData];
+
+      const sql = `
+      INSERT INTO dyes
+        (reference_id, weight_ounces, remaining, price, share_of_shipping_percent, order_id, notes)
+      VALUES ?
+    `;
+
+      db.query(sql, [rowData], (err, result) => {
+        if (err) {
+          console.error(err, {
+            sql,
+            params,
+          });
+          return rollback(db, err, cb);
+        }
+
+        // now insert the hashIds
+        let rowIndices = [];
+        for (let i = 0; i < result.affectedRows; i++) {
+          rowIndices.push(result.insertId + i);
+        }
+
+        const updateFuncs = rowIndices.map((rowIndex) => {
+          return (done) => {
+            const sql = `UPDATE dyes SET hash_id = ? WHERE id = ?`;
+            const params = [hashConfig.dyes.encode(rowIndex), rowIndex];
+            db.query(sql, params, (err, result) => {
+              if (err) {
+                console.error(err, {
+                  sql,
+                  params,
+                });
+              }
+              done(err, result);
+            });
+          };
+        });
+        async.parallel(updateFuncs, (err, results) => {
+          if (err) {
+            return rollback(db, err, cb);
+          }
+          cb(err, results);
+        });
+      });
+    }
+  );
+}
+
+function insertDyeReferences(db, { data, supplierId }, cb) {
+  if (!data.length) {
+    return cb();
+  }
+
+  const rowData = data.map((d) => {
+    return [
+      d.name,
+      slug(d.name, { lower: true }),
+      d.color,
+      supplierId,
+      d.productUrl,
+      d.msdsUrl,
+      d.infoUrl,
+      d.notes,
+    ];
+  });
+
   params = [rowData];
 
   const sql = `
-      INSERT INTO dyes
-        (name, slug, color, order_id,
-          weight_ounces, remaining, price, share_of_shipping_percent, notes)
+      INSERT INTO dye_reference
+        (name, slug, color, supplier_id, product_url,
+          msds_url, info_url,
+          notes)
       VALUES ?
     `;
 
@@ -718,34 +822,7 @@ function insertdyes(db, data, orderId, cb) {
       });
       return rollback(db, err, cb);
     }
-
-    // now insert the hashIds
-    let rowIndices = [];
-    for (let i = 0; i < result.affectedRows; i++) {
-      rowIndices.push(result.insertId + i);
-    }
-
-    const updateFuncs = rowIndices.map((rowIndex) => {
-      return (done) => {
-        const sql = `UPDATE dyes SET hash_id = ? WHERE id = ?`;
-        const params = [hashConfig.dyes.encode(rowIndex), rowIndex];
-        db.query(sql, params, (err, result) => {
-          if (err) {
-            console.error(err, {
-              sql,
-              params,
-            });
-          }
-          done(err, result);
-        });
-      };
-    });
-    async.parallel(updateFuncs, (err, results) => {
-      if (err) {
-        return rollback(db, err, cb);
-      }
-      cb(err, results);
-    });
+    return cb(err, result);
   });
 }
 
