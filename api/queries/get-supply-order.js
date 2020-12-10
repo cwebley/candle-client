@@ -190,13 +190,14 @@ function getDyes(db, orderId, cb) {
 function getJars(db, orderId, cb) {
   const sql = `
     SELECT
-      hash_id AS "hashId", name, slug, color, wax_to_fill_line_ounces AS "waxToFillLineOunces",
-      wax_to_overflow_ounces AS "waxToOverflowOunces",
-      overflow_volume_ounces AS "overflowVolumeOunces", diameter_inches AS "diamterInches",
-      count, remaining, FORMAT(price, 2) AS "price",
-      share_of_shipping_percent AS "shareOfShippingPercent", notes
-    FROM jars
-    WHERE order_id = ?
+      j.hash_id AS "hashId", jr.name, jr.slug, j.color, jr.wax_to_fill_line_ounces AS "waxToFillLineOunces",
+      jr.wax_to_overflow_ounces AS "waxToOverflowOunces",
+      jr.overflow_volume_ounces AS "overflowVolumeOunces", diameter_inches AS "diamterInches",
+      j.count, j.remaining, FORMAT(j.price, 2) AS "price",
+      j.share_of_shipping_percent AS "shareOfShippingPercent", j.notes
+    FROM jars j
+    LEFT JOIN jar_reference jr ON jr.id = j.reference_id
+    WHERE j.order_id = ?
   `;
 
   const params = [orderId];
@@ -285,11 +286,12 @@ function getWarningLabels(db, orderId, cb) {
 function getWicks(db, orderId, cb) {
   const sql = `
     SELECT
-      hash_id AS "hashId", name, slug,
-      count, remaining, length, series, size, FORMAT(price, 2) AS "price",
-      share_of_shipping_percent AS "shareOfShippingPercent", notes
-    FROM wicks
-    WHERE order_id = ?
+      w.hash_id AS "hashId", wr.name, wr.slug,
+      w.count, w.remaining, w.length, wr.series, wr.size, FORMAT(w.price, 2) AS "price",
+      w.share_of_shipping_percent AS "shareOfShippingPercent", w.notes
+    FROM wicks w
+    LEFT JOIN wick_reference wr ON wr.id = w.reference_id
+    WHERE w.order_id = ?
   `;
 
   const params = [orderId];

@@ -15,11 +15,11 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
       c.wick_count AS "wickCount", c.wick_layout AS "wickLayout",
       c.finished, c.owner_id, c.notes,
 
-      j.hash_id AS "jarHashId", j.name AS "jarName", j.slug AS "jarSlug",
-      j.color AS "jarColor", j.overflow_volume_ounces AS "jarOverflowVolumeOunces",
-      j.wax_to_fill_line_ounces AS "jarWaxToFillLineOunces",
-      j.wax_to_overflow_ounces AS "jarWaxToOverflowOunces",
-      j.diameter_inches AS "jarDiameterInches",
+      j.reference_id AS "jarReferenceId", j.hash_id AS "jarHashId", jr.name AS "jarName", jr.slug AS "jarSlug",
+      j.color AS "jarColor", jr.overflow_volume_ounces AS "jarOverflowVolumeOunces",
+      jr.wax_to_fill_line_ounces AS "jarWaxToFillLineOunces",
+      jr.wax_to_overflow_ounces AS "jarWaxToOverflowOunces",
+      jr.diameter_inches AS "jarDiameterInches",
       j.count AS "jarCollectionCount", j.price AS "jarPrice",
       j.share_of_shipping_percent AS "jarShareOfShippingPercent",
       jso.subtotal_cost AS "jarSubtotalCost",
@@ -46,10 +46,10 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
       wlso.shipping_cost AS "warningLabelShippingCost",
       wlso.total_cost AS "warningLabelTotalCost",
 
-      w.hash_id AS "wickHashId", w.name AS "wickName",
-      w.slug AS "wickSlug", w.count AS "wickCollectionCount",
+      w.hash_id AS "wickHashId", wr.name AS "wickName",
+      wr.slug AS "wickSlug", w.count AS "wickCollectionCount",
       w.price AS "wickPrice", w.length AS "wickLength",
-      w.series AS "wickSeries", w.size AS "wickSize",
+      wr.series AS "wickSeries", wr.size AS "wickSize",
       w.share_of_shipping_percent AS "wickShareOfShippingPercent",
       wso.subtotal_cost AS "wickSubtotalCost",
       wso.taxes_and_fees AS "wickTaxesAndFees",
@@ -92,12 +92,14 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
 
     FROM candles c
     LEFT JOIN jars j ON j.id = c.jar_id
+    LEFT JOIN jar_reference jr ON jr.id = j.reference_id
     LEFT JOIN supply_orders jso ON j.order_id = jso.id
     LEFT JOIN lids l ON l.id = c.lid_id
     LEFT JOIN supply_orders lso ON l.order_id = lso.id
     LEFT JOIN warning_labels wl ON c.warning_label_id = wl.id
     LEFT JOIN supply_orders wlso ON wl.order_id = wlso.id
     LEFT JOIN wicks w ON c.wick_id = w.id
+    LEFT JOIN wick_reference wr ON wr.id = w.reference_id
     LEFT JOIN supply_orders wso ON w.order_id = wso.id
     LEFT JOIN boxes bx ON c.box_id = bx.id
     LEFT JOIN supply_orders bso ON bx.order_id = bso.id

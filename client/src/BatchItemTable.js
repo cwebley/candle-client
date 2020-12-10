@@ -40,6 +40,7 @@ const styles = (theme) => ({
 
 function BatchItemTable({
   amountKey,
+  disabledKey,
   amountUnit,
   itemData,
   onDeleteClick,
@@ -101,12 +102,18 @@ function BatchItemTable({
                 {(onDeleteClick || onEditClick) && (
                   <TableCell padding="none">
                     {onDeleteClick && (
-                      <IconButton onClick={() => onDeleteClick(i)}>
+                      <IconButton
+                        disabled={item[disabledKey]}
+                        onClick={() => onDeleteClick(i)}
+                      >
                         <DeleteIcon />
                       </IconButton>
                     )}
                     {onEditClick && (
-                      <IconButton onClick={() => onEditClick(i)}>
+                      <IconButton
+                        disabled={item[disabledKey]}
+                        onClick={() => onEditClick(i)}
+                      >
                         <EditIcon />
                       </IconButton>
                     )}

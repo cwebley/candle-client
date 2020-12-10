@@ -1,8 +1,9 @@
 module.exports = function getWaxToFillQuery(db, candles, cb) {
   const sql = `
-    SELECT SUM(j.wax_to_fill_line_ounces) as total
+    SELECT SUM(jr.wax_to_fill_line_ounces) as total
     FROM candles c
     JOIN jars j ON j.id = c.jar_id
+    JOIN jar_reference jr ON jr.id = j.reference_id
     WHERE c.hash_id IN (?)
   `;
 

@@ -65,9 +65,8 @@ function BlendItemDialog({
 
     if (values.combineId) {
       const previousWeightOfCombination = previouslySubmittedBlendItems
-        .map((item) => {
-          return item.combineId === values.combineId &&
-            item.hashId !== values.hashId
+        .map((item, index) => {
+          return item.combineId === values.combineId && index !== editItemIndex
             ? parseFloat(item.weightPounds)
             : 0;
         })
@@ -93,7 +92,7 @@ function BlendItemDialog({
   };
 
   const filteredCombineOptions = previouslySubmittedBlendItems
-    .filter((o) => o.type === values.type && o.hashId !== values.hashId)
+    .filter((o, index) => o.type === values.type && index !== editItemIndex)
     .map((o) => ({
       name: o.hashId,
       value: o.combineId,
@@ -162,7 +161,7 @@ function BlendItemDialog({
               }
               return option;
             }}
-            value={values.hashIdSelectionString || values.hashId || ""}
+            value={values.hashId || ""}
             style={{ width: 300 }}
             onChange={onAutocompleteSelection}
             renderInput={(params) => (

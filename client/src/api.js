@@ -14,5 +14,6 @@ const api = {
   fragranceOilsUrl: "http://localhost:5000/fragrance-oils",
   dyesUrl: "http://localhost:5000/dyes",
   blendsUrl: "http://localhost:5000/blends",
+  candlesUrl: "http://localhost:5000/candles?incomplete=true",
 };
 export default api;

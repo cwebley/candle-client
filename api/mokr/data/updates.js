@@ -11733,6 +11733,13 @@ module.exports = [
         stoppedWeightOunces: 23.28,
         notes: "1/4 inch mp, no mushrooming, looks fine. maybe a bit cool",
       },
+      {
+        whenStarted: "2020-12-04 09:00:00",
+        whenStarted: "2020-12-04 14:21:00",
+        stoppedWeightOunces: 23.28,
+        notes:
+          "1/2 inch mp, jar up to 145+. its okay. but a bit hot surprisingly.",
+      },
     ],
   },
   // N25D CD-4 Sambleberry Lex
@@ -11746,6 +11753,12 @@ module.exports = [
         whenStarted: "2020-12-04 14:21:00",
         stoppedWeightOunces: 23.28,
         notes: "1/2 inch mp, jar near 150, lots of mushrooming, too hot.",
+      },
+      {
+        whenStarted: "2020-12-04 09:00:00",
+        whenStarted: "2020-12-04 14:21:00",
+        stoppedWeightOunces: 23.28,
+        notes: "1/2 inch mp, jar up to 150+. some soot. too hot.",
       },
     ],
   },
@@ -11762,6 +11775,13 @@ module.exports = [
         notes:
           "1/4 inch mp, looks great. no mushrooming. probably as good as lx-12",
       },
+      {
+        whenStarted: "2020-12-04 09:00:00",
+        whenStarted: "2020-12-04 14:21:00",
+        stoppedWeightOunces: 23.28,
+        notes:
+          "1/4 inch mp, jar under 140. looks great. this. and the lx-12 are best. this may even be better down here.",
+      },
     ],
   },
   // LLN8 CDN-5 Sambleberry Lex
@@ -11775,6 +11795,12 @@ module.exports = [
         whenStarted: "2020-12-04 14:21:00",
         stoppedWeightOunces: 23.28,
         notes: "1/2 inch mp, a bit hot. some mushrooming.",
+      },
+      {
+        whenStarted: "2020-12-04 09:00:00",
+        whenStarted: "2020-12-04 14:21:00",
+        stoppedWeightOunces: 23.28,
+        notes: "1/3 inch mp, jar 140 all around. a bit hot.",
       },
     ],
   },
@@ -11791,6 +11817,12 @@ module.exports = [
         notes:
           "1/3 inch mp, jar up to near 140 at the worst. looks excellent. best of the bunch on this first burn.",
       },
+      {
+        whenStarted: "2020-12-04 09:00:00",
+        whenStarted: "2020-12-04 14:21:00",
+        stoppedWeightOunces: 23.28,
+        notes: "1/3 inch mp, jar up to 140+. looks great.",
+      },
     ],
   },
   // OPBO LX-14 Sambleberry Lex
@@ -11804,6 +11836,68 @@ module.exports = [
         whenStarted: "2020-12-04 14:21:00",
         stoppedWeightOunces: 23.28,
         notes: "1/2 inch mp, jar up to 140. looks fine, maybe a bit hot.",
+      },
+      {
+        whenStarted: "2020-12-04 09:00:00",
+        whenStarted: "2020-12-05 14:21:00",
+        stoppedWeightOunces: 23.28,
+        notes: "1/2 inch mp, jar up to 150. probably a bit hot still",
+      },
+    ],
+  },
+  // 9JNE LX-12 Sambleberry Lex with some dye
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-09 11:00:00",
+        whenStarted: "2020-12-10 01:30:00",
+        stoppedWeightOunces: 23.28,
+        notes: "",
+      },
+    ],
+  },
+  // QQKQ CDN-4 Sambleberry Lex with some dye
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-09 11:00:00",
+        whenStarted: "2020-12-10 01:30:00",
+        stoppedWeightOunces: 23.28,
+        notes: "",
+      },
+    ],
+  },
+  // MXJ7 LX-12 Sambleberry Lex with some dye
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-09 11:00:00",
+        whenStarted: "2020-12-10 01:30:00",
+        stoppedWeightOunces: 23.28,
+        notes: "",
+      },
+    ],
+  },
+  // 76K1 CDN-4 Sambleberry Lex with some dye
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-09 11:00:00",
+        whenStarted: "2020-12-10 01:30:00",
+        stoppedWeightOunces: 23.28,
+        notes: "",
       },
     ],
   },

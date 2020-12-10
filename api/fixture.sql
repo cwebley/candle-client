@@ -31,6 +31,18 @@ create table if not exists resource_types (
 insert into
   resource_types (`name`, `slug`, `scope`)
 values
+  ("wax", "wax", "order"),
+  ("fragrance oil", "fragrance-oil", "order"),
+  ("additive", "additive", "order"),
+  ("dye", "dye", "order"),
+  ("jars", "jars", "order"),
+  ("lids", "lids", "order"),
+  ("boxes", "boxes", "order"),
+  ("wicks", "wicks", "order"),
+  ("wick tabs", "wick-tabs", "order"),
+  ("wick stickers", "wick-stickers", "order"),
+  ("warning labels", "warning-labels", "order"),
+  ("misc equipment", "misc-equipment", "order"),
   ("wax", "wax", "batch"),
   ("fragrance oil", "fragrance-oil", "batch"),
   ("additive", "additive", "batch"),
@@ -219,14 +231,9 @@ create table if not exists boxes (
 create table if not exists jars (
   id int not null auto_increment primary key,
   hash_id varchar(255) unique,
-  name varchar(255) not null,
-  slug varchar(255) not null,
+  reference_id int,
   color varchar(255),
   order_id int,
-  overflow_volume_ounces decimal(9, 4),
-  wax_to_fill_line_ounces decimal(9, 4),
-  wax_to_overflow_ounces decimal(9, 4),
-  diameter_inches decimal(9, 4),
   count int,
   remaining int,
   -- confirmed to be finished/discarded
@@ -235,6 +242,22 @@ create table if not exists jars (
   share_of_shipping_percent decimal(6, 2) default 0,
   notes text,
   foreign key (order_id) references supply_orders(id)
+);
+
+create table if not exists jar_reference (
+  id int not null auto_increment primary key,
+  name varchar(255) not null,
+  slug varchar(255) not null,
+  overflow_volume_ounces decimal(9, 4),
+  wax_to_fill_line_ounces decimal(9, 4),
+  wax_to_overflow_ounces decimal(9, 4),
+  diameter_inches decimal(9, 4),
+  supplier_id int,
+  product_url varchar(2083),
+  msds_url varchar(2083),
+  info_url varchar(2083),
+  notes text,
+  foreign key (supplier_id) references supplier_reference(id)
 );
 
 create table if not exists lids (
@@ -290,21 +313,32 @@ create table if not exists warning_labels (
 
 create table if not exists wicks (
   id int not null auto_increment primary key,
+  reference_id int,
   hash_id varchar(255) unique,
-  name varchar(255) not null,
-  slug varchar(255) not null,
   order_id int,
+  length decimal(9, 4),
   count int,
   remaining int,
   -- confirmed to be finished/discarded
   finished tinyint(1) default 0,
-  length decimal(9, 4),
-  series varchar(255),
-  size varchar(255),
   price decimal(13, 4) default 0,
   share_of_shipping_percent decimal(6, 2) default 0,
   notes text,
   foreign key (order_id) references supply_orders(id)
+);
+
+create table if not exists wick_reference (
+  id int not null auto_increment primary key,
+  name varchar(255) not null,
+  slug varchar(255) not null,
+  series varchar(255),
+  size varchar(255),
+  supplier_id int,
+  product_url varchar(2083),
+  msds_url varchar(2083),
+  info_url varchar(2083),
+  notes text,
+  foreign key (supplier_id) references supplier_reference(id)
 );
 
 create table if not exists wick_tabs (

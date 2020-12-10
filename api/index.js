@@ -7,21 +7,27 @@ const postSupplyOrder = require("./queries/post-supply-order");
 const getSupplyOrder = require("./queries/get-supply-order");
 const getSuppliers = require("./queries/get-suppliers");
 const getFragranceReferences = require("./queries/get-fragrance-references");
+const getJarReferences = require("./queries/get-jar-references");
+const getWickReferences = require("./queries/get-wick-references");
 const createBatch = require("./handlers/create-batch");
 const createCandles = require("./handlers/create-candles");
 const updateCandle = require("./handlers/update-candle");
 const getBatch = require("./handlers/get-batch");
 const getCandle = require("./handlers/get-candle");
+const getCandles = require("./handlers/get-candles");
 const getCandleWaxToFillSuggestion = require("./handlers/get-candle-wax-to-fill-suggestion");
 const createBlend = require("./handlers/create-blend");
 const getBlend = require("./handlers/get-blend");
-const addToBlend = require("./handlers/add-to-blend");
+const editBlend = require("./handlers/edit-blend");
 const discardBlend = require("./handlers/discard-blend");
 const getWaxes = require("./handlers/get-waxes");
 const getAdditives = require("./handlers/get-additives");
 const getFragranceOils = require("./handlers/get-fragrance-oils");
 const getDyes = require("./handlers/get-dyes");
 const getBlends = require("./handlers/get-blends");
+const getJars = require("./handlers/get-jars");
+const getWicks = require("./handlers/get-wicks");
+const getWickStickers = require("./handlers/get-wick-stickers");
 
 app.use(bodyParser.json());
 app.use(cors());
@@ -65,6 +71,40 @@ app.route("/fragrance-reference").get(function (req, res) {
   }
 
   getFragranceReferences(connection, opts, (err, results) => {
+    if (err) {
+      res.status(500).send({ message: "Internal server error" });
+    }
+    res.status(200).json(results);
+  });
+});
+
+app.route("/jar-reference").get(function (req, res) {
+  let opts = {};
+  if (req.query.supplierId) {
+    opts.supplierId = req.query.supplierId.split(",")[0];
+    if (isNaN(opts.supplierId)) {
+      return res.status(400).send({ message: "supplierId must be a number" });
+    }
+  }
+
+  getJarReferences(connection, opts, (err, results) => {
+    if (err) {
+      res.status(500).send({ message: "Internal server error" });
+    }
+    res.status(200).json(results);
+  });
+});
+
+app.route("/wick-reference").get(function (req, res) {
+  let opts = {};
+  if (req.query.supplierId) {
+    opts.supplierId = req.query.supplierId.split(",")[0];
+    if (isNaN(opts.supplierId)) {
+      return res.status(400).send({ message: "supplierId must be a number" });
+    }
+  }
+
+  getWickReferences(connection, opts, (err, results) => {
     if (err) {
       res.status(500).send({ message: "Internal server error" });
     }
@@ -142,7 +182,7 @@ app.route("/batches").post(createBatch);
 app.route("/batches/:id").get(getBatch);
 
 app.route("/blend").post(createBlend);
-app.route("/blend/:id").post(addToBlend);
+app.route("/blend/:id").patch(editBlend);
 app.route("/blend/:id").get(getBlend);
 app.route("/blend/:id").delete(discardBlend);
 
@@ -152,9 +192,13 @@ app.route("/additives").get(getAdditives);
 app.route("/fragrance-oils").get(getFragranceOils);
 app.route("/dyes").get(getDyes);
 app.route("/blends").get(getBlends);
+app.route("/jars").get(getJars);
+app.route("/wicks").get(getWicks);
+app.route("/wick-stickers").get(getWickStickers);
 
 app.route("/candles/wax-to-fill").get(getCandleWaxToFillSuggestion);
 
+app.route("/candles").get(getCandles);
 app.route("/candles/:id").get(getCandle);
 app.route("/candles/:id").put(updateCandle);
 

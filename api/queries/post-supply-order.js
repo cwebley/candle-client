@@ -81,11 +81,21 @@ module.exports = function postSupplyOrder(db, data, cb) {
               done
             ),
           (done) => insertBoxes(db, boxes, orderId, done),
-          (done) => insertJars(db, jars, orderId, done),
+          (done) =>
+            insertJars(
+              db,
+              { jars, orderId, supplierId: data.supplierId },
+              done
+            ),
           (done) => insertLids(db, lids, orderId, done),
           (done) => insertMiscEquipment(db, miscEquipment, orderId, done),
           (done) => insertWarningLabels(db, warningLabels, orderId, done),
-          (done) => insertWicks(db, wicks, orderId, done),
+          (done) =>
+            insertWicks(
+              db,
+              { wicks, orderId, supplierId: data.supplierId },
+              done
+            ),
           (done) => insertWickTabs(db, wickTabs, orderId, done),
           (done) => insertWickStickers(db, wickStickers, orderId, done),
         ],
@@ -322,9 +332,9 @@ function insertFragranceReferences(db, { data, supplierId }, cb) {
       d.ifraUrl,
       d.allerginUrl,
       d.flashpointTemperatureFahrenheit,
-      d.specificGravity,
-      d.vanillinPercentage,
-      d.ethylVanillinPercentage,
+      d.specificGravity || null,
+      d.vanillinPercentage || null,
+      d.ethylVanillinPercentage || null,
       d.notes,
     ];
   });
@@ -717,8 +727,8 @@ function insertDyes(db, { dyes: data, orderId, supplierId }, cb) {
       console.log("NEW dyes: ", newDyes);
 
       if (dyeRefResult) {
-        // the insertId for each of the new additiveRef is
-        // also the `referenceId` for the additives
+        // the insertId for each of the new dyeRef is
+        // also the `referenceId` for the dyes
         for (let i = 0; i < dyeRefResult.affectedRows; i++) {
           // this is a little ugly, but we want to preserve the input order of the original form submission
           // to keep hash_ids consistent on re-runs. we've saved the original input index on the `data`,
@@ -826,34 +836,143 @@ function insertDyeReferences(db, { data, supplierId }, cb) {
   });
 }
 
-function insertJars(db, data, orderId, cb) {
+function insertJars(db, { jars: data, supplierId, orderId }, cb) {
   if (!data.length) {
     return cb();
   }
 
-  const rowData = data.map((d) => [
-    d.name,
-    slug(d.name, { lower: true }),
-    d.color,
-    orderId,
-    d.waxToFillLineOunces || null,
-    d.waxToOverflowOunces || null,
-    d.overflowVolumeOunces,
-    d.diameterInches,
-    d.count,
-    d.remaining,
-    d.price,
-    d.shareOfShippingPercent,
-    d.notes,
-  ]);
+  const newJars = data
+    // add the index to the object so we can update the referenceId of new-jars idea without looping again later
+    .map((d, index) => ({ ...d, index }))
+    // all the jars without a referenceId are new
+    .filter((d) => !d.referenceId);
+
+  // jars with a referenceId already have their basic details indexed
+  const existingJars = data.filter((d) => !!d.referenceId);
+
+  insertJarReferences(
+    db,
+    { data: newJars, supplierId },
+    (err, jarRefResult) => {
+      if (err) {
+        return cb(err);
+      }
+
+      console.log("Existing jars: ", existingJars);
+      console.log("NEW jars: ", newJars);
+
+      if (jarRefResult) {
+        // the insertId for each of the new jarRef is
+        // also the `referenceId` for the jars
+        for (let i = 0; i < jarRefResult.affectedRows; i++) {
+          console.log(
+            "AFFECTED ROW: ",
+            jarRefResult,
+            " i: ",
+            i,
+            "should be ref: ",
+            jarRefResult.insertId + i
+          );
+          // this is a little ugly, but we want to preserve the input order of the original form submission
+          // to keep hash_ids consistent on re-runs. we've saved the original input index on the `data`,
+          // which the `newJars` array is a subset of. so we can now update the original data
+          // with the new referenceId.
+          data[newJars[i].index].referenceId = jarRefResult.insertId + i;
+        }
+      }
+
+      console.log("DATA: ", data);
+
+      const rowData = data.map((d) => [
+        d.referenceId,
+        d.color,
+        orderId,
+        d.count,
+        d.remaining,
+        d.price,
+        d.shareOfShippingPercent,
+        d.notes,
+      ]);
+      params = [rowData];
+
+      const sql = `
+      INSERT INTO jars
+        (reference_id, color, order_id,
+          count,
+          remaining, price, share_of_shipping_percent, notes)
+      VALUES ?
+    `;
+
+      db.query(sql, params, (err, result) => {
+        if (err) {
+          console.error(err, {
+            sql,
+            params,
+          });
+          return rollback(db, err, cb);
+        }
+
+        // now insert the hashIds
+        let rowIndices = [];
+        for (let i = 0; i < result.affectedRows; i++) {
+          rowIndices.push(result.insertId + i);
+        }
+
+        const updateFuncs = rowIndices.map((rowIndex) => {
+          return (done) => {
+            const sql = `UPDATE jars SET hash_id = ? WHERE id = ?`;
+            const params = [hashConfig.jars.encode(rowIndex), rowIndex];
+            db.query(sql, params, (err, result) => {
+              if (err) {
+                console.error(err, {
+                  sql,
+                  params,
+                });
+              }
+              done(err, result);
+            });
+          };
+        });
+        async.parallel(updateFuncs, (err, results) => {
+          if (err) {
+            return rollback(db, err, cb);
+          }
+          cb(err, results);
+        });
+      });
+    }
+  );
+}
+
+function insertJarReferences(db, { data, supplierId }, cb) {
+  if (!data.length) {
+    return cb();
+  }
+
+  const rowData = data.map((d) => {
+    return [
+      d.name,
+      slug(d.name, { lower: true }),
+      d.overflowVolumeOunces || null,
+      d.waxToFillLineOunces || null,
+      d.waxToOverflowOunces || null,
+      d.diameterInches,
+      supplierId,
+      d.productUrl,
+      d.msdsUrl,
+      d.infoUrl,
+      d.notes,
+    ];
+  });
+
   params = [rowData];
 
   const sql = `
-      INSERT INTO jars
-        (name, slug, color, order_id,
-          wax_to_fill_line_ounces, wax_to_overflow_ounces,
-          overflow_volume_ounces, diameter_inches, count,
-          remaining, price, share_of_shipping_percent, notes)
+      INSERT INTO jar_reference
+        (name, slug, overflow_volume_ounces, wax_to_fill_line_ounces,
+          wax_to_overflow_ounces, diameter_inches, supplier_id, product_url,
+          msds_url, info_url,
+          notes)
       VALUES ?
     `;
 
@@ -865,34 +984,7 @@ function insertJars(db, data, orderId, cb) {
       });
       return rollback(db, err, cb);
     }
-
-    // now insert the hashIds
-    let rowIndices = [];
-    for (let i = 0; i < result.affectedRows; i++) {
-      rowIndices.push(result.insertId + i);
-    }
-
-    const updateFuncs = rowIndices.map((rowIndex) => {
-      return (done) => {
-        const sql = `UPDATE jars SET hash_id = ? WHERE id = ?`;
-        const params = [hashConfig.jars.encode(rowIndex), rowIndex];
-        db.query(sql, params, (err, result) => {
-          if (err) {
-            console.error(err, {
-              sql,
-              params,
-            });
-          }
-          done(err, result);
-        });
-      };
-    });
-    async.parallel(updateFuncs, (err, results) => {
-      if (err) {
-        return rollback(db, err, cb);
-      }
-      cb(err, results);
-    });
+    return cb(err, result);
   });
 }
 
@@ -1089,30 +1181,133 @@ function insertWarningLabels(db, data, orderId, cb) {
   });
 }
 
-function insertWicks(db, data, orderId, cb) {
+function insertWicks(db, { wicks: data, supplierId, orderId }, cb) {
   if (!data.length) {
     return cb();
   }
 
-  const rowData = data.map((d) => [
-    d.name,
-    slug(d.name, { lower: true }),
-    orderId,
-    d.count,
-    d.remaining,
-    d.length,
-    d.series,
-    d.size,
-    d.price,
-    d.shareOfShippingPercent,
-    d.notes,
-  ]);
+  const newWicks = data
+    // add the index to the object so we can update the referenceId of new-wicks idea without looping again later
+    .map((d, index) => ({ ...d, index }))
+    // all the wicks without a referenceId are new
+    .filter((d) => !d.referenceId);
+
+  // wicks with a referenceId already have their basic details indexed
+  const existingWicks = data.filter((d) => !!d.referenceId);
+
+  insertWickReferences(
+    db,
+    { data: newWicks, supplierId },
+    (err, wickRefResult) => {
+      if (err) {
+        return cb(err);
+      }
+
+      console.log("Existing wicks: ", existingWicks);
+      console.log("NEW wicks: ", newWicks);
+
+      if (wickRefResult) {
+        // the insertId for each of the new jarRef is
+        // also the `referenceId` for the wicks
+        for (let i = 0; i < wickRefResult.affectedRows; i++) {
+          // this is a little ugly, but we want to preserve the input order of the original form submission
+          // to keep hash_ids consistent on re-runs. we've saved the original input index on the `data`,
+          // which the `newWicks` array is a subset of. so we can now update the original data
+          // with the new referenceId.
+          data[newWicks[i].index].referenceId = wickRefResult.insertId + i;
+        }
+      }
+
+      console.log("DATA: ", data);
+
+      const rowData = data.map((d) => [
+        d.referenceId,
+        d.hash_id,
+        orderId,
+        d.count,
+        d.remaining,
+        d.length,
+        d.price,
+        d.shareOfShippingPercent,
+        d.notes,
+      ]);
+      params = [rowData];
+
+      const sql = `
+      INSERT INTO wicks
+        (reference_id, hash_id, order_id, count,
+          remaining, length, price, share_of_shipping_percent, notes)
+      VALUES ?
+    `;
+
+      db.query(sql, [rowData], (err, result) => {
+        if (err) {
+          console.error(err, {
+            sql,
+            params,
+          });
+          return rollback(db, err, cb);
+        }
+
+        // now insert the hashIds
+        let rowIndices = [];
+        for (let i = 0; i < result.affectedRows; i++) {
+          rowIndices.push(result.insertId + i);
+        }
+
+        const updateFuncs = rowIndices.map((rowIndex) => {
+          return (done) => {
+            const sql = `UPDATE wicks SET hash_id = ? WHERE id = ?`;
+            const params = [hashConfig.wicks.encode(rowIndex), rowIndex];
+            db.query(sql, params, (err, result) => {
+              if (err) {
+                console.error(err, {
+                  sql,
+                  params,
+                });
+              }
+              done(err, result);
+            });
+          };
+        });
+        async.parallel(updateFuncs, (err, results) => {
+          if (err) {
+            return rollback(db, err, cb);
+          }
+          cb(err, results);
+        });
+      });
+    }
+  );
+}
+
+function insertWickReferences(db, { data, supplierId }, cb) {
+  if (!data.length) {
+    return cb();
+  }
+
+  const rowData = data.map((d) => {
+    return [
+      d.name,
+      slug(d.name, { lower: true }),
+      d.series,
+      d.size,
+      supplierId,
+      d.productUrl,
+      d.msdsUrl,
+      d.infoUrl,
+      d.notes,
+    ];
+  });
+
   params = [rowData];
 
   const sql = `
-      INSERT INTO wicks
-        (name, slug, order_id, count,
-          remaining, length, series, size, price, share_of_shipping_percent, notes)
+      INSERT INTO wick_reference
+        (name, slug, series,
+          size, supplier_id, product_url,
+          msds_url, info_url,
+          notes)
       VALUES ?
     `;
 
@@ -1124,34 +1319,7 @@ function insertWicks(db, data, orderId, cb) {
       });
       return rollback(db, err, cb);
     }
-
-    // now insert the hashIds
-    let rowIndices = [];
-    for (let i = 0; i < result.affectedRows; i++) {
-      rowIndices.push(result.insertId + i);
-    }
-
-    const updateFuncs = rowIndices.map((rowIndex) => {
-      return (done) => {
-        const sql = `UPDATE wicks SET hash_id = ? WHERE id = ?`;
-        const params = [hashConfig.wicks.encode(rowIndex), rowIndex];
-        db.query(sql, params, (err, result) => {
-          if (err) {
-            console.error(err, {
-              sql,
-              params,
-            });
-          }
-          done(err, result);
-        });
-      };
-    });
-    async.parallel(updateFuncs, (err, results) => {
-      if (err) {
-        return rollback(db, err, cb);
-      }
-      cb(err, results);
-    });
+    return cb(err, result);
   });
 }
 

@@ -92,6 +92,8 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
   const [fragranceOilCategories, setFragranceOilCategories] = useState([]);
   const [suppliers, setSuppliers] = useState([]);
   const [fragranceOptions, setFragranceOptions] = useState([]);
+  const [jarOptions, setJarOptions] = useState([]);
+  const [wickOptions, setWickOptions] = useState([]);
   const [itemDialogOpen, setItemDialogOpen] = useState(false);
 
   const removeItem = (index) => {
@@ -112,8 +114,6 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
 
   const submitOrder = async (e) => {
     e.preventDefault();
-    console.log("values: ", values);
-
     try {
       const result = await axios.post(
         "http://localhost:5000/supply-orders",
@@ -147,20 +147,22 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
   const [newItemValues, setNewItemValues] = useState({});
   const [defaultNewItemValues, setDefaultNewItemValues] = useState({});
   const [editItemIndex, setItemEditIndex] = useState(null);
+  const [recycledSupplierId, setRecycledSupplierId] = useState(null);
 
-  console.log("values: ", values);
+  // console.log("values: ", values);
 
   // fetch one time data from the server
   useEffect(() => {
     const fetchResourceTypes = async () => {
       const result = await axios("http://localhost:5000/resource-types");
       if (result && result.data) {
-        setResourceTypes(result.data);
+        const filteredResults = result.data.filter((r) => r.scope === "order");
+        setResourceTypes(filteredResults);
         // add a default type to the new item options
-        if (result.data[1]) {
+        if (filteredResults[1]) {
           setDefaultNewItemValues((defaultNewItemValues) => ({
             ...defaultNewItemValues,
-            type: result.data[1].slug,
+            type: filteredResults[1].slug,
           }));
         }
       }
@@ -185,6 +187,12 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
       const result = await axios("http://localhost:5000/suppliers");
       if (result && result.data) {
         setSuppliers(result.data);
+        const recycledSupplier = result.data.filter(
+          (s) => s.name === "Recycled"
+        );
+        if (recycledSupplier && recycledSupplier.length) {
+          setRecycledSupplierId(recycledSupplier[0].id);
+        }
       }
     };
     fetchResourceTypes();
@@ -194,20 +202,47 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
 
   useEffect(() => {
     if (!values.supplierId) {
-      // if supplierId is falsy, don't do anything
+      // if supplierId is falsey, don't do anything
       return;
     }
+    const supplierFilterQuery = `?supplierId=${values.supplierId}`;
 
     const fetchFragrancesForSupplier = async () => {
-      const result = await axios(
-        `http://localhost:5000/fragrance-reference?supplierId=${values.supplierId}`
-      );
+      let fragranceRefUrl = "http://localhost:5000/fragrance-reference";
+      if (values.supplierId !== recycledSupplierId) {
+        fragranceRefUrl += supplierFilterQuery;
+      }
+      const result = await axios(fragranceRefUrl);
       if (result && result.data) {
         setFragranceOptions(result.data);
       }
     };
 
+    const fetchJarReferencesForSupplier = async () => {
+      let jarReferenceUrl = "http://localhost:5000/jar-reference";
+      if (values.supplierId !== recycledSupplierId) {
+        jarReferenceUrl += supplierFilterQuery;
+      }
+      const result = await axios(jarReferenceUrl);
+      if (result && result.data) {
+        setJarOptions(result.data);
+      }
+    };
+
+    const fetchWickReferencesForSupplier = async () => {
+      let wickReferenceUrl = "http://localhost:5000/wick-reference";
+      if (values.supplierId !== recycledSupplierId) {
+        wickReferenceUrl += supplierFilterQuery;
+      }
+      const result = await axios(wickReferenceUrl);
+      if (result && result.data) {
+        setWickOptions(result.data);
+      }
+    };
+
     fetchFragrancesForSupplier();
+    fetchJarReferencesForSupplier();
+    fetchWickReferencesForSupplier();
   }, [values.supplierId]);
 
   useEffect(() => {
@@ -244,20 +279,63 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
       }
       return updatedValues;
     });
-
-    setNewItemValues((values) => {
-      return {
-        ...values,
-        name: value,
-      };
-    });
   };
 
-  const handleFragranceNameChange = (e, value, reason) => {
-    setNewItemValues((values) => {
+  const handleAutocompleteNameChange = (e, value, reason) => {
+    if (!value) {
+      setNewItemValues((itemFormValues) => {
+        const {
+          name,
+          referenceId,
+          productUrl,
+          msdsUrl,
+          ifraUrl,
+          allerginUrl,
+
+          // fragrance stuff
+          categoryId,
+          flashpointTemperatureFahrenheit,
+          specificGravity,
+          vanillinPercentage,
+          ethylVanillinPercentage,
+          
+          // jar stuff
+          diameterInches,
+          overflowVolumeOunces,
+          waxToFillLineOunces,
+          waxToOverflowOunces,
+
+          ...itemValsWithoutPreselection
+        } = itemFormValues;
+        return itemValsWithoutPreselection;
+      });
+      return;
+    }
+
+    // handle the case where a selction isn't being made from the list
+    if (!value.name) {
+      // handle no change--this happens on blur
+      if (newItemValues.name === value) {
+        return;
+      }
+      setNewItemValues((itemFormValues) => {
+        return {
+          ...itemFormValues,
+          name: value,
+        };
+      });
+      return;
+    }
+    let formattedValues = {
+      ...value,
+    };
+    delete formattedValues.id;
+    formattedValues.referenceId = value.id;
+
+    setNewItemValues((itemFormValues) => {
       return {
-        ...values,
-        name: value,
+        ...itemFormValues,
+        ...formattedValues,
       };
     });
   };
@@ -297,7 +375,7 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
     const subtotal = values.items
       .reduce((sum, item) => (sum += parseFloat(item.price)), 0)
       .toFixed(2);
-    console.log("CALC SUB: ", subtotal);
+    // console.log("CALC SUB: ", subtotal);
 
     return subtotal;
   };
@@ -324,6 +402,7 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
         <form
           onSubmit={(e) => {
             e.preventDefault();
+            console.log("VALUE AFTER SUBMIT: ", values);
 
             // if we're editing an exisiting item update array with this item
             if (editItemIndex !== null) {
@@ -370,8 +449,9 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
             {newItemValues.type === "fragrance-oil" && (
               <FragranceOilForm
                 newItemValues={newItemValues}
+                itemOptions={fragranceOptions}
                 onChange={handleNewItemFormValueChange}
-                onComboboxChange={handleFragranceNameChange}
+                onComboboxChange={handleAutocompleteNameChange}
                 categories={fragranceOilCategories}
               />
             )}
@@ -381,7 +461,7 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
                 onChange={handleNewItemFormValueChange}
               />
             )}
-            {newItemValues.type === "additives" && (
+            {newItemValues.type === "additive" && (
               <AdditiveForm
                 newItemValues={newItemValues}
                 onChange={handleNewItemFormValueChange}
@@ -390,7 +470,9 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
             {newItemValues.type === "jars" && (
               <JarForm
                 newItemValues={newItemValues}
+                itemOptions={jarOptions}
                 onChange={handleNewItemFormValueChange}
+                onComboboxChange={handleAutocompleteNameChange}
               />
             )}
             {newItemValues.type === "lids" && (
@@ -414,6 +496,8 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
             {newItemValues.type === "wicks" && (
               <WickForm
                 newItemValues={newItemValues}
+                itemOptions={wickOptions}
+                onComboboxChange={handleAutocompleteNameChange}
                 onChange={handleNewItemFormValueChange}
               />
             )}

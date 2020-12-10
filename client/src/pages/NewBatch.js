@@ -74,6 +74,7 @@ function NewBatch({ history, enqueueSnackbar }) {
     dyeTemp,
     foTemp,
     jarTemp,
+    preWeight,
     pourTemp,
     roomTemp,
     roomHumidity,
@@ -111,6 +112,7 @@ function NewBatch({ history, enqueueSnackbar }) {
       coolingRoomHumidityPercent: roomHumidity,
       coolingRoomTemperatureFahrenheit: roomTemp,
       containerTemperatureFahrenheit: jarTemp,
+      preppedContainerWeightOunces: preWeight,
     })),
   });
   const [candleHashIds, setCandleHashIds] = useState(initialCandleHashIds);
@@ -124,6 +126,7 @@ function NewBatch({ history, enqueueSnackbar }) {
   );
   const [cumulativeWeights, setCumulativeWeights] = useState({});
   const [defaultJarTemp, setDefaultJarTemp] = useState(jarTemp || "");
+  const [defaultPreWeight, setDefaultPreWeight] = useState(preWeight || "");
   const [defaultPourTemp, setDefaultPourTemp] = useState(pourTemp || "");
   const [defaultRoomTemp, setDefaultRoomTemp] = useState(roomTemp || "");
   const [defaultRoomHumidity, setDefaultRoomHumidity] = useState(
@@ -137,6 +140,7 @@ function NewBatch({ history, enqueueSnackbar }) {
   const [fragranceOilHashIdOptions, setfragranceOilHashIdOptions] = useState(
     []
   );
+  const [candleOptions, setCandleOptions] = useState([]);
 
   // the values placed in a newly added layer depend on the default values
   // so this fn is memoized each time those values change
@@ -187,6 +191,9 @@ function NewBatch({ history, enqueueSnackbar }) {
       if (defaultJarTemp) {
         url += `&jarTemp=${defaultJarTemp}`;
       }
+      if (defaultPreWeight) {
+        url += `&preWeight=${defaultPreWeight}`;
+      }
       if (fragranceLoadTarget) {
         url += `&foTarget=${fragranceLoadTarget}`;
       }
@@ -211,6 +218,7 @@ function NewBatch({ history, enqueueSnackbar }) {
     batchValues.dyeAddTemperatureFahrenheit,
     jarFillPercentage,
     defaultJarTemp,
+    defaultPreWeight,
     defaultPourTemp,
     defaultRoomTemp,
     defaultRoomHumidity,
@@ -288,6 +296,16 @@ function NewBatch({ history, enqueueSnackbar }) {
         handleApiError(err, enqueueSnackbar);
       }
     };
+    const fetchCandleOptions = async () => {
+      try {
+        const result = await axios(api.candlesUrl);
+        if (result.data) {
+          setCandleOptions(result.data);
+        }
+      } catch (err) {
+        handleApiError(err, enqueueSnackbar);
+      }
+    };
 
     fetchResourceTypes();
     fetchWaxOptions();
@@ -295,6 +313,7 @@ function NewBatch({ history, enqueueSnackbar }) {
     fetchFragranceOptions();
     fetchDyeOptions();
     fetchBlendOptions();
+    fetchCandleOptions();
   }, [enqueueSnackbar]);
 
   useEffect(() => {
@@ -368,11 +387,7 @@ function NewBatch({ history, enqueueSnackbar }) {
   const handleHashIdSelection = (e, value, reason, more) => {
     if (reason === "clear") {
       setNewBatchItemValues((values) => {
-        const {
-          hashId,
-          hashIdSelectionString,
-          ...valuesWithoutHashId
-        } = values;
+        const { hashId, itemName, ...valuesWithoutHashId } = values;
         // remove the hashId and the associated description string
         return valuesWithoutHashId;
       });
@@ -380,14 +395,11 @@ function NewBatch({ history, enqueueSnackbar }) {
     }
 
     setNewBatchItemValues((values) => {
-      const updatedValues = {
+      return {
         ...values,
-        hashIdSelectionString: values.name !== undefined ? values.name : value,
+        hashId: value.hashId ? value.hashId : value,
+        itemName: value.name ? value.name : "",
       };
-      if (value.hashId) {
-        updatedValues.hashId = value.hashId;
-      }
-      return updatedValues;
     });
   };
 
@@ -398,6 +410,25 @@ function NewBatch({ history, enqueueSnackbar }) {
       return {
         ...newLayerValues,
         [name]: value,
+      };
+    });
+  };
+
+  const handleCandleAutocompleteChange = (e, value, reason, more) => {
+    if (reason === "clear") {
+      setNewLayerValues((values) => {
+        const { candleHashId, candleName, ...valuesWithoutHashId } = values;
+        // remove the hashId and the associated description string
+        return valuesWithoutHashId;
+      });
+      return;
+    }
+
+    setNewLayerValues((values) => {
+      return {
+        ...values,
+        candleHashId: value.hashId ? value.hashId : value,
+        candleName: value.name ? value.name : "",
       };
     });
   };
@@ -610,6 +641,26 @@ function NewBatch({ history, enqueueSnackbar }) {
     return (fragranceLoadTargetDecimal * totalWaxWeightOunces).toFixed(2);
   };
 
+  const updateDefaultPreWeight = (value) => {
+    const previousVal = defaultPreWeight;
+    setDefaultPreWeight(value);
+    setBatchValues({
+      ...batchValues,
+      layers: batchValues.layers.map((l) => {
+        if (
+          l.preppedContainerWeightOunces &&
+          l.preppedContainerWeightOunces !== previousVal
+        ) {
+          return l;
+        }
+        return {
+          ...l,
+          preppedContainerWeightOunces: value,
+        };
+      }),
+    });
+  };
+
   const updateDefaultJarTemp = (value) => {
     const previousVal = defaultJarTemp;
     setDefaultJarTemp(value);
@@ -732,6 +783,8 @@ function NewBatch({ history, enqueueSnackbar }) {
             values={newLayerValues}
             isOpen={layerDialogOpen}
             onChange={handleLayerFormChange}
+            candleOptions={candleOptions}
+            onCandleAutocompleteChange={handleCandleAutocompleteChange}
             onClose={() => {
               setLayerDialogOpen(false);
               setLayerEditIndex(null);
@@ -958,6 +1011,27 @@ function NewBatch({ history, enqueueSnackbar }) {
                       inputProps: {
                         name: "jarFillPercentage",
                         step: "1",
+                      },
+                    }}
+                  />
+                </Grid>
+                <Grid item xs={6} sm={4}>
+                  <TextField
+                    label="Default Jar Weight"
+                    className={classes.textField}
+                    value={defaultPreWeight}
+                    type="number"
+                    onChange={(e) => {
+                      const value = e.target.value;
+                      updateDefaultPreWeight(value);
+                    }}
+                    InputProps={{
+                      endAdornment: (
+                        <InputAdornment position="end">oz</InputAdornment>
+                      ),
+                      inputProps: {
+                        name: "jarFillPercentage",
+                        step: "0.1",
                       },
                     }}
                   />

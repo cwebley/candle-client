@@ -187,7 +187,7 @@ function BatchItemDialog({
               }
               return option;
             }}
-            value={values.hashIdSelectionString || values.hashId || ""}
+            value={values.hashId || ""}
             style={{ width: 300 }}
             onChange={onAutocompleteSelection}
             renderInput={(params) => (

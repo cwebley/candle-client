@@ -7,6 +7,7 @@ import DialogContent from "@material-ui/core/DialogContent";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Button from "@material-ui/core/Button";
+import Autocomplete from "@material-ui/lab/Autocomplete";
 
 import { withStyles } from "@material-ui/core/styles";
 
@@ -30,8 +31,14 @@ function NewCandle({
   isOpen,
   onClose,
   onChange,
+  handleJarChange,
+  handleWickChange,
+  handleWickStickerChange,
   onAddCandle,
   onEditCandle,
+  jarOptions = [],
+  wickOptions = [],
+  wickStickerOptions = [],
   classes,
 }) {
   return (
@@ -50,7 +57,7 @@ function NewCandle({
               name: "name",
             }}
           />
-          <TextField
+          {/* <TextField
             className={classes.textField}
             label="Jar Hash Id"
             value={values.jarHashId || ""}
@@ -60,6 +67,31 @@ function NewCandle({
               name: "jarHashId",
               maxLength: 4,
             }}
+          /> */}
+          <Autocomplete
+            autoHighlight
+            autoSelect
+            freeSolo
+            options={jarOptions}
+            getOptionLabel={(jarOption) => {
+              if (jarOption.hashId) {
+                return `${jarOption.hashId}-${jarOption.supplierName}-${jarOption.name}`;
+              }
+              return jarOption;
+            }}
+            value={values.jarHashId || ""}
+            style={{ width: 300 }}
+            onChange={handleJarChange}
+            renderInput={(params) => (
+              <TextField
+                {...params}
+                InputProps={{
+                  ...params.InputProps,
+                  name: "jarHashId",
+                }}
+                label="Jar Hash Id"
+              />
+            )}
           />
           <FormControlLabel
             control={
@@ -72,7 +104,7 @@ function NewCandle({
             }
             label="Finished"
           />
-          <TextField
+          {/* <TextField
             className={classes.textField}
             label="Wick Hash Id"
             value={values.wickHashId || ""}
@@ -82,6 +114,31 @@ function NewCandle({
               name: "wickHashId",
               maxLength: 4,
             }}
+          /> */}
+          <Autocomplete
+            autoHighlight
+            autoSelect
+            freeSolo
+            options={wickOptions}
+            getOptionLabel={(wickOption) => {
+              if (wickOption.hashId) {
+                return `${wickOption.hashId}-${wickOption.supplierName}-${wickOption.name}`;
+              }
+              return wickOption;
+            }}
+            value={values.wickHashId || ""}
+            style={{ width: 300 }}
+            onChange={handleWickChange}
+            renderInput={(params) => (
+              <TextField
+                {...params}
+                InputProps={{
+                  ...params.InputProps,
+                  name: "wickHashId",
+                }}
+                label="Wick Hash Id"
+              />
+            )}
           />
           <FormControlLabel
             control={
@@ -115,7 +172,7 @@ function NewCandle({
               name: "wickLayout",
             }}
           />
-          <TextField
+          {/* <TextField
             className={classes.textField}
             label="Wick Sticker Hash Id"
             value={values.wickStickerHashId || ""}
@@ -125,6 +182,31 @@ function NewCandle({
               name: "wickStickerHashId",
               maxLength: 4,
             }}
+          /> */}
+          <Autocomplete
+            autoHighlight
+            autoSelect
+            freeSolo
+            options={wickStickerOptions}
+            getOptionLabel={(wickStickerOption) => {
+              if (wickStickerOption.hashId) {
+                return `${wickStickerOption.hashId}-${wickStickerOption.name}`;
+              }
+              return wickStickerOption;
+            }}
+            value={values.wickStickerHashId || ""}
+            style={{ width: 300 }}
+            onChange={handleWickStickerChange}
+            renderInput={(params) => (
+              <TextField
+                {...params}
+                InputProps={{
+                  ...params.InputProps,
+                  name: "wickStickerHashId",
+                }}
+                label="Wick Sticker Hash Id"
+              />
+            )}
           />
           <FormControlLabel
             control={

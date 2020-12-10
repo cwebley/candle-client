@@ -23,34 +23,28 @@ const styles = (theme) => ({
   },
 });
 
-const fragranceIndex = [
-  { name: "Fig Tree", source: "Candle Science" },
-  { name: "Very Vanilla", source: "Candle Science" },
-  { name: "Coconut", source: "Candle Science" },
-  { name: "Bergamot", source: "LoneStar Candle" },
-  { name: "Tobacco", source: "The Flaming Candle" },
-  { name: "Flannel", source: "The Flaming Candle" },
-  { name: "Wild Mountain Honey", source: "Fillmore Container" },
-];
-
 function FragranceOilForm({
   categories,
+  itemOptions = [],
   newItemValues,
   onChange,
   onComboboxChange,
   classes,
 }) {
-  // TODO grouped by category?
-  // TODO asynchronous request example
-
-  console.log("NEW ITEM VALS: ", newItemValues);
   return (
     <div className={classes.root}>
       <Autocomplete
         autoHighlight
         autoSelect
         freeSolo
-        options={fragranceIndex.map((fragrance) => fragrance.name)}
+        options={itemOptions}
+        getOptionLabel={(option) => {
+          if (!option.name) {
+            return option;
+          }
+          return option.name;
+        }}
+        value={newItemValues.name || ""}
         style={{ width: 300 }}
         onChange={onComboboxChange}
         renderInput={(params) => (
@@ -61,22 +55,11 @@ function FragranceOilForm({
           />
         )}
       />
-      {/* <TextField
-        className={classes.textField}
-        label="Name"
-        autoFocus
-        required
-        value={newItemValues.name || ""}
-        type="text"
-        inputProps={{
-          name: "name"
-        }}
-        onChange={onChange}
-      /> */}
       <FormControl className={classes.formControl}>
         <InputLabel htmlFor="oil-category">Category</InputLabel>
         <Select
-          value={newItemValues.categoryId}
+          value={newItemValues.categoryId || ""}
+          disabled={!!newItemValues.referenceId}
           onChange={onChange}
           inputProps={{
             name: "categoryId",
@@ -93,6 +76,7 @@ function FragranceOilForm({
       <TextField
         className={classes.textField}
         label="Product Link"
+        disabled={!!newItemValues.referenceId}
         value={newItemValues.productUrl || ""}
         type="text"
         onChange={onChange}
@@ -103,6 +87,7 @@ function FragranceOilForm({
       <TextField
         className={classes.textField}
         label="MSDS Link"
+        disabled={!!newItemValues.referenceId}
         value={newItemValues.msdsUrl || ""}
         type="text"
         onChange={onChange}
@@ -113,6 +98,7 @@ function FragranceOilForm({
       <TextField
         className={classes.textField}
         label="IFRA Link"
+        disabled={!!newItemValues.referenceId}
         value={newItemValues.ifraUrl || ""}
         type="text"
         onChange={onChange}
@@ -123,6 +109,7 @@ function FragranceOilForm({
       <TextField
         className={classes.textField}
         label="Allergin Link"
+        disabled={!!newItemValues.referenceId}
         value={newItemValues.allerginUrl || ""}
         type="text"
         onChange={onChange}
@@ -133,6 +120,7 @@ function FragranceOilForm({
       <TextField
         className={classes.textField}
         label="Flashpoint"
+        disabled={!!newItemValues.referenceId}
         value={newItemValues.flashpointTemperatureFahrenheit || ""}
         type="number"
         onChange={onChange}
@@ -147,6 +135,7 @@ function FragranceOilForm({
       <TextField
         className={classes.textField}
         label="Specific Gravity"
+        disabled={!!newItemValues.referenceId}
         value={newItemValues.specificGravity || ""}
         type="number"
         onChange={onChange}
@@ -161,6 +150,7 @@ function FragranceOilForm({
       <TextField
         className={classes.textField}
         label="Vanillin Percentage"
+        disabled={!!newItemValues.referenceId}
         value={newItemValues.vanillinPercentage || ""}
         type="number"
         onChange={onChange}
@@ -176,6 +166,7 @@ function FragranceOilForm({
       <TextField
         className={classes.textField}
         label="Ethyl Vanillin Percentage"
+        disabled={!!newItemValues.referenceId}
         value={newItemValues.ethylVanillinPercentage || ""}
         type="number"
         onChange={onChange}

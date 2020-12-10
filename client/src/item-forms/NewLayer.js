@@ -6,21 +6,22 @@ import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import Button from "@material-ui/core/Button";
+import Autocomplete from "@material-ui/lab/Autocomplete";
 
 import { withStyles } from "@material-ui/core/styles";
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {
     display: "flex",
-    flexFlow: "column nowrap"
+    flexFlow: "column nowrap",
   },
   textField: {
-    marginTop: "1em"
+    marginTop: "1em",
   },
   dialogContent: {
     display: "flex",
-    flexFlow: "column nowrap"
-  }
+    flexFlow: "column nowrap",
+  },
 });
 
 function NewLayer({
@@ -29,16 +30,18 @@ function NewLayer({
   isOpen,
   onClose,
   onChange,
+  candleOptions = [],
+  onCandleAutocompleteChange,
   onAddLayer,
   onEditLayer,
-  classes
+  classes,
 }) {
-  const handleAddLayer = e => {
+  const handleAddLayer = (e) => {
     e.preventDefault(); // prevent the form submission and page reload
     onAddLayer(values);
   };
 
-  const handleEditLayer = e => {
+  const handleEditLayer = (e) => {
     e.preventDefault(); // prevent the form submission and page reload
     onEditLayer(values);
   };
@@ -57,10 +60,10 @@ function NewLayer({
             onChange={onChange}
             inputProps={{
               name: "whenPoured",
-              step: "1"
+              step: "1",
             }}
           />
-          <TextField
+          {/* <TextField
             className={classes.textField}
             label="Candle Hash Id"
             autoFocus
@@ -71,6 +74,30 @@ function NewLayer({
               name: "candleHashId",
               maxLength: 4
             }}
+          /> */}
+          <Autocomplete
+            autoHighlight
+            autoSelect
+            freeSolo
+            options={candleOptions}
+            getOptionLabel={(option) => {
+              if (option.hashId) {
+                return `${option.hashId}-${option.name}`;
+              }
+              return option;
+            }}
+            value={
+              values.candleHashId || ""
+            }
+            style={{ width: 300 }}
+            onChange={onCandleAutocompleteChange}
+            renderInput={(params) => (
+              <TextField
+                {...params}
+                InputProps={{ ...params.InputProps, name: "candleHashId" }}
+                label="Candle Hash ID"
+              />
+            )}
           />
           <TextField
             className={classes.textField}
@@ -82,8 +109,8 @@ function NewLayer({
               endAdornment: <InputAdornment position="end">oz</InputAdornment>,
               inputProps: {
                 name: "preppedContainerWeightOunces",
-                step: "0.01"
-              }
+                step: "0.01",
+              },
             }}
           />
           <TextField
@@ -96,8 +123,8 @@ function NewLayer({
               endAdornment: <InputAdornment position="end">°F</InputAdornment>,
               inputProps: {
                 name: "containerTemperatureFahrenheit",
-                step: "1"
-              }
+                step: "1",
+              },
             }}
           />
           <TextField
@@ -110,8 +137,8 @@ function NewLayer({
               endAdornment: <InputAdornment position="end">°F</InputAdornment>,
               inputProps: {
                 name: "pourTemperatureFahrenheit",
-                step: "1"
-              }
+                step: "1",
+              },
             }}
           />
           <TextField
@@ -124,8 +151,8 @@ function NewLayer({
               endAdornment: <InputAdornment position="end">°F</InputAdornment>,
               inputProps: {
                 name: "coolingRoomTemperatureFahrenheit",
-                step: "1"
-              }
+                step: "1",
+              },
             }}
           />
           <TextField
@@ -138,8 +165,8 @@ function NewLayer({
               endAdornment: <InputAdornment position="end">%</InputAdornment>,
               inputProps: {
                 name: "coolingRoomHumidityPercent",
-                step: "1"
-              }
+                step: "1",
+              },
             }}
           />
         </DialogContent>

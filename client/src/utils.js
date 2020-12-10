@@ -186,6 +186,15 @@ export function processBatchItemsByCombineId(batchItemArray, type) {
   });
 }
 
+// used to find a unique combineId given imported data
+export function findUniqueInteger(testInt, collisionSet = []) {
+  if (collisionSet.find((cId) => cId === testInt)) {
+    testInt += 1;
+    return findUniqueInteger(testInt, collisionSet);
+  }
+  return testInt;
+}
+
 export default function handleApiError(err, enqueueSnackFunction) {
   const data = err.response && err.response.data;
   if (data && data.reasons) {

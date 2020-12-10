@@ -9,6 +9,7 @@ module.exports = function getFragranceReferences(db, { supplierId }, cb) {
 
   let sql = `
       SELECT fr.id, fr.name, fr.slug, fr.category_id AS "categoryId", fc.name AS "categoryName",
+        fr.supplier_id AS "supplierId",
         fr.product_url AS "productUrl", fr.msds_url AS "msdsUrl", fr.ifra_url AS "ifraUrl",
         fr.allergin_url AS "allerginUrl",
         fr.flashpoint_temperature_fahrenheit AS "flashpointTemperatureFahrenheit", 

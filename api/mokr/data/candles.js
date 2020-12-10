@@ -5159,4 +5159,38 @@ module.exports = [
       wickStickerHashId: "3NOB",
     },
   ],
+  [
+    {
+      name: "Sambleberry Lex LX-12 Full Tester",
+      jarHashId: "MRKR",
+      wickHashId: "NL1V",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "3NOB",
+    },
+    {
+      name: "Sambleberry Lex CDN-4 Full Tester",
+      jarHashId: "MRKR",
+      wickHashId: "DOO4",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "3NOB",
+    },
+    {
+      name: "Sambleberry Lex LX-12 Full Tester 2",
+      jarHashId: "MRKR",
+      wickHashId: "NL1V",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "3NOB",
+    },
+    {
+      name: "Sambleberry Lex CDN-4 Full Tester 2",
+      jarHashId: "MRKR",
+      wickHashId: "DOO4",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "3NOB",
+    },
+  ],
 ];

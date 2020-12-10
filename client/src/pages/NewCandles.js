@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import moment from "moment";
 import axios from "axios";
 import { withSnackbar } from "notistack";
@@ -39,7 +39,41 @@ function NewCandles({ enqueueSnackbar }) {
   const [newCandleValues, setNewCandleValues] = useState({});
   const [editCandleIndex, setCandleEditIndex] = useState(null);
   const [candles, setCandles] = useState([]);
+  const [jarOptions, setJarOptions] = useState([]);
+  const [wickOptions, setWickOptions] = useState([]);
+  const [wickStickerOptions, setWickStickerOptions] = useState([]);
   const classes = useStyles();
+
+  // fetch autocomplete options from server on page load
+  useEffect(() => {
+    const fetchJarOptions = async () => {
+      let jarOptionUrl = "http://localhost:5000/jars";
+      const result = await axios(jarOptionUrl);
+      if (result && result.data) {
+        setJarOptions(result.data);
+      }
+    };
+
+    const fetchWickOptions = async () => {
+      let wickOptionUrl = "http://localhost:5000/wicks";
+      const result = await axios(wickOptionUrl);
+      if (result && result.data) {
+        setWickOptions(result.data);
+      }
+    };
+
+    const fetchWickStickerOptions = async () => {
+      let wickStickerOptionUrl = "http://localhost:5000/wick-stickers";
+      const result = await axios(wickStickerOptionUrl);
+      if (result && result.data) {
+        setWickStickerOptions(result.data);
+      }
+    };
+
+    fetchJarOptions();
+    fetchWickOptions();
+    fetchWickStickerOptions();
+  }, []);
 
   const handleCandleFormChange = (e) => {
     const name = e.target.name;
@@ -54,9 +88,86 @@ function NewCandles({ enqueueSnackbar }) {
     });
   };
 
+  const handleJarChange = (e, value, reason, more) => {
+    if (!value) {
+      setNewCandleValues((newCandleValues) => ({
+        ...newCandleValues,
+        jarHashId: "",
+      }));
+      return;
+    }
+    if (!value.hashId) {
+      if (value === newCandleValues.jarHashId) {
+        console.log("Jar ALREADY SELECTED");
+        return;
+      }
+      setNewCandleValues((newCandleValues) => ({
+        ...newCandleValues,
+        jarHashId: value,
+      }));
+      return;
+    }
+
+    setNewCandleValues((newCandleValues) => ({
+      ...newCandleValues,
+      jarHashId: value.hashId,
+    }));
+  };
+
+  const handleWickChange = (e, value, reason, more) => {
+    if (!value) {
+      setNewCandleValues((newCandleValues) => ({
+        ...newCandleValues,
+        wickHashId: "",
+      }));
+      return;
+    }
+    if (!value.hashId) {
+      if (value === newCandleValues.jarHashId) {
+        console.log("WICK ALREADY SELECTED");
+        return;
+      }
+      setNewCandleValues((newCandleValues) => ({
+        ...newCandleValues,
+        wickHashId: value,
+      }));
+      return;
+    }
+
+    setNewCandleValues((newCandleValues) => ({
+      ...newCandleValues,
+      wickHashId: value.hashId,
+    }));
+  };
+
+  const handleWickStickerChange = (e, value, reason, more) => {
+    if (!value) {
+      setNewCandleValues((newCandleValues) => ({
+        ...newCandleValues,
+        wickStickerHashId: "",
+      }));
+      return;
+    }
+    if (!value.hashId) {
+      if (value === newCandleValues.jarHashId) {
+        console.log("WICK Sticker ALREADY SELECTED");
+        return;
+      }
+      setNewCandleValues((newCandleValues) => ({
+        ...newCandleValues,
+        wickStickerHashId: value,
+      }));
+      return;
+    }
+
+    setNewCandleValues((newCandleValues) => ({
+      ...newCandleValues,
+      wickStickerHashId: value.hashId,
+    }));
+  };
+
   const addCandle = (e) => {
     e.preventDefault();
-
     setCandles((candles) => [...candles, { ...newCandleValues }]);
     setNewCandleValues({});
     setCandleDialogOpen(false);
@@ -162,6 +273,9 @@ function NewCandles({ enqueueSnackbar }) {
           values={newCandleValues}
           isOpen={candleDialogOpen}
           onChange={handleCandleFormChange}
+          handleJarChange={handleJarChange}
+          handleWickChange={handleWickChange}
+          handleWickStickerChange={handleWickStickerChange}
           onClose={() => {
             setCandleDialogOpen(false);
             setCandleEditIndex(null);
@@ -169,6 +283,9 @@ function NewCandles({ enqueueSnackbar }) {
           editCandleIndex={editCandleIndex}
           onAddCandle={addCandle}
           onEditCandle={editCandle}
+          jarOptions={jarOptions}
+          wickOptions={wickOptions}
+          wickStickerOptions={wickStickerOptions}
         />
         <form onSubmit={submitCandles} className={classes.form}>
           <CandleTable

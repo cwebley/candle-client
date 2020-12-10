@@ -42,6 +42,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'Eco 2 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/eco-2",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO2_LX_CSN_Wick_SDS.pdf",
         length: "6",
         count: "10",
         remaining: "10",
@@ -63,6 +66,8 @@ module.exports = [
       {
         type: "jars",
         name: "8 oz. Candle Tin",
+        productUrl: "https://www.candlescience.com/containers/8oz-candle-tin",
+        msdsUrl: "https://dpoy1j4zladj1.cloudfront.net/Candle_Tin8_SDS.pdf",
         waxToFillLineOunces: "5",
         overflowVolumeOunces: "8.5",
         waxToOverflowOunces: "",
@@ -76,6 +81,7 @@ module.exports = [
       {
         type: "jars",
         name: "8 oz. Jelly Jar",
+        productUrl: "https://www.candlescience.com/containers/8oz-jelly-jar",
         waxToFillLineOunces: "6.2",
         waxToOverflowOunces: "",
         overflowVolumeOunces: "8.3",
@@ -89,6 +95,8 @@ module.exports = [
       {
         type: "jars",
         name: "8 oz. Apothecary Jar",
+        productUrl:
+          "https://www.candlescience.com/containers/8oz-apothecary-jar",
         waxToFillLineOunces: "9.9",
         waxToOverflowOunces: "",
         overflowVolumeOunces: "14.5",
@@ -102,6 +110,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'Eco 4 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/eco-4",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO4_LX_CSN_Wick_SDS.pdf",
         length: "6",
         count: "10",
         remaining: "7",
@@ -115,6 +126,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'Eco 6 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/eco-6",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO6_LX_CSN_Wick_SDS.pdf",
         length: "6",
         count: "10",
         remaining: "4",
@@ -128,6 +142,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'Eco 8 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/eco-8",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO8_LX_CSN_Wick_SDS.pdf",
         length: "6",
         count: "10",
         remaining: "0",
@@ -141,6 +158,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'Eco 10 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/eco-10",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO10_LX_CSN_Wick_SDS.pdf",
         length: "6",
         count: "10",
         remaining: "0",
@@ -154,6 +174,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'Eco 12 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/eco-12",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO12_LX_CSN_Wick_SDS.pdf",
         length: "6",
         count: "10",
         remaining: "1",
@@ -167,6 +190,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'Eco 14 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/eco-14",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO14_LX_CSN_Wick_SDS.pdf",
         length: "6",
         count: "10",
         remaining: "0",
@@ -180,6 +206,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'Eco 16 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/eco-16",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO16_LX_CSN_Wick_SDS.pdf",
         length: "6",
         count: "10",
         remaining: "3",
@@ -193,6 +222,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'Eco 1 3" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/eco-1-tealight",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO11_LX_CSN_Wick_SDS.pdf",
         length: "3",
         count: "10",
         remaining: "10",
@@ -566,6 +598,7 @@ module.exports = [
       {
         type: "wicks",
         notes: "Part of the ECO Wick Sample Kit.",
+        referenceId: "9",
         name: 'ECO 1 3" Pretabbed Wick',
         length: "3",
         count: "5",
@@ -578,6 +611,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'ECO 2 6" Pretabbed Wick',
+        referenceId: "1",
         length: "6",
         count: "5",
         remaining: "5",
@@ -590,6 +624,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'ECO 4 6" Pretabbed Wick',
+        referenceId: "2",
         length: "6",
         count: "5",
         remaining: "5",
@@ -602,6 +637,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'ECO 6 6" Pretabbed Wick',
+        referenceId: "3",
         length: "6",
         count: "5",
         remaining: "5",
@@ -614,6 +650,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'ECO 8 6" Pretabbed Wick',
+        referenceId: "4",
         length: "6",
         count: "5",
         remaining: "4",
@@ -626,6 +663,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'ECO 10 6" Pretabbed Wick',
+        referenceId: "5",
         length: "6",
         count: "5",
         remaining: "3",
@@ -638,6 +676,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'ECO 12 6" Pretabbed Wick',
+        referenceId: "6",
         length: "6",
         count: "5",
         remaining: "0",
@@ -650,6 +689,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'ECO 14 6" Pretabbed Wick',
+        referenceId: "7",
         length: "6",
         count: "5",
         remaining: "3",
@@ -662,6 +702,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'ECO 16 6" Pretabbed Wick',
+        referenceId: "8",
         length: "6",
         count: "5",
         remaining: "3",
@@ -674,9 +715,7 @@ module.exports = [
       {
         type: "jars",
         name: "8 oz. Candle Tin",
-        diameterInches: "2.95",
-        waxToFillLineOunces: "5",
-        overflowVolumeOunces: "8.5",
+        referenceId: "1",
         color: "gray",
         count: "12",
         remaining: "0",
@@ -686,9 +725,7 @@ module.exports = [
       {
         type: "jars",
         name: "8 oz. Jelly Jar",
-        diameterInches: "2.5",
-        waxToFillLineOunces: "6.2",
-        overflowVolumeOunces: "8.3",
+        referenceId: "2",
         color: "clear",
         count: "12",
         remaining: "0",
@@ -698,9 +735,7 @@ module.exports = [
       {
         type: "jars",
         name: "8 oz. Apothecary Jar",
-        waxToFillLineOunces: "9.9",
-        overflowVolumeOunces: "14.5",
-        diameterInches: "4",
+        referenceId: "3",
         color: "clear",
         count: "12",
         remaining: "0",
@@ -769,6 +804,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'ECO .75 1" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/eco-75-tealight",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO.75_LX_CSN_Wick_SDS.pdf",
         length: "1",
         count: "100",
         remaining: "58",
@@ -1464,6 +1502,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'ECO 14 6" Pretabbed Wick',
+        referenceId: "7",
         length: "6",
         count: "100",
         remaining: "80",
@@ -1475,6 +1514,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'ECO 10 6" Pretabbed Wick',
+        referenceId: "5",
         length: "6",
         count: "100",
         remaining: "90",
@@ -1486,6 +1526,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'ECO 12 6" Pretabbed Wick',
+        referenceId: "6",
         length: "6",
         count: "100",
         remaining: "90",
@@ -1803,6 +1844,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'ECO 8 6" Pretabbed Wicks',
+        referenceId: "4",
         length: "6",
         count: "100",
         remaining: "41",
@@ -1814,9 +1856,7 @@ module.exports = [
       {
         type: "jars",
         name: "8 oz. Apothecary Jar",
-        waxToFillLineOunces: "9.9",
-        overflowVolumeOunces: "14.5",
-        diameterInches: "4",
+        referenceId: "3",
         color: "clear",
         count: "12",
         remaining: "7",
@@ -1826,9 +1866,7 @@ module.exports = [
       {
         type: "jars",
         name: "8 oz. Candle Tin",
-        waxToFillLineOunces: "5",
-        overflowVolumeOunces: "8.5",
-        diameterInches: "2.95",
+        referenceId: "1",
         color: "gray",
         count: "12",
         remaining: "3",
@@ -2061,9 +2099,7 @@ module.exports = [
       {
         type: "jars",
         name: "8 oz. Candle Tin",
-        waxToFillLineOunces: "5",
-        overflowVolumeOunces: "8.5",
-        diameterInches: "2.95",
+        referenceId: "1",
         color: "gray",
         count: "12",
         remaining: "0",
@@ -2251,6 +2287,8 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler (Libbey)",
+        productUrl:
+          "https://www.candlescience.com/containers/straight-sided-tumbler-jar-libbey",
         waxToFillLineOunces: "10.0",
         overflowVolumeOunces: "11.16",
         diameterInches: "3.06",
@@ -2283,9 +2321,7 @@ module.exports = [
       {
         type: "jars",
         name: "Clear Plastic Tealight Cup",
-        waxToFillLineOunces: "0.5",
-        overflowVolumeOunces: "1",
-        diameterInches: "1.5",
+        referenceId: "4",
         color: "clear",
         count: "100",
         remaining: "80",
@@ -2323,12 +2359,11 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler Black",
-        diameterInches: "3.06",
+        productUrl:
+          "https://www.candlescience.com/containers/straight-sided-tumbler-jar-black",
         color: "black",
         count: "12",
         remaining: "12",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
         price: "16.51",
         shareOfShippingPercent: "30",
       },
@@ -2870,6 +2905,8 @@ module.exports = [
       {
         type: "jars",
         name: "Libbey Cube 14oz",
+        productUrl:
+          "https://www.lonestarcandlesupply.com/libbey-cube-14oz.html",
         diameterInches: "3.5",
         waxToFillLineOunces: "9.2",
         waxToOverflowOunces: "11.6",
@@ -3319,9 +3356,7 @@ module.exports = [
       {
         type: "jars",
         name: "Libby Cube",
-        waxToFillLineOunces: "10.1",
-        overflowVolumeOunces: "13.5",
-        diameterInches: "3.44",
+        referenceId: "7",
         color: "clear",
         count: "3",
         remaining: "3",
@@ -3332,10 +3367,7 @@ module.exports = [
       {
         type: "jars",
         name: "8 oz. Apothecary Jar",
-        waxToFillLineOunces: "9.9",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "14.5",
-        diameterInches: "4",
+        referenceId: "3",
         color: "clear",
         count: "3",
         remaining: "3",
@@ -3932,6 +3964,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'CD 16 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/cd-16",
         length: "6",
         count: "12",
         remaining: "12",
@@ -3943,6 +3976,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'CD 18 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/cd-18",
         length: "6",
         count: "12",
         remaining: "12",
@@ -3954,6 +3988,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'CD 20 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/cd-20",
         length: "6",
         count: "12",
         remaining: "12",
@@ -4026,6 +4061,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'CD 26 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/cd-26",
         length: "6",
         count: "12",
         remaining: "12",
@@ -4037,6 +4073,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'CD 24 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/cd-24",
         length: "6",
         count: "12",
         remaining: "12",
@@ -4048,6 +4085,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'CD 22 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/cd-22",
         length: "6",
         count: "12",
         remaining: "12",
@@ -4059,6 +4097,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'CD 14 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/cd-14",
         length: "6",
         count: "12",
         remaining: "12",
@@ -4070,6 +4109,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'CD 12 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/cd-12",
         length: "6",
         count: "12",
         remaining: "12",
@@ -4344,6 +4384,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 12 3" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/search?q=lx%2012",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO_LX12_CSN_Wick_SDS.pdf",
         length: "3",
         count: "5",
         remaining: "5",
@@ -4356,6 +4399,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 14 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/lx-14",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO_LX14_CSN_Wick_SDS.pdf",
         length: "6",
         count: "5",
         remaining: "5",
@@ -4367,6 +4413,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 16 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/lx-16",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO_LX16_CSN_Wick_SDS.pdf",
         length: "6",
         count: "5",
         remaining: "5",
@@ -4378,6 +4427,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 18 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/lx-18",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO_LX18_CSN_Wick_SDS.pdf",
         length: "6",
         count: "5",
         remaining: "5",
@@ -4389,6 +4441,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 20 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/lx-20",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO_LX20_CSN_Wick_SDS.pdf",
         length: "6",
         count: "5",
         remaining: "5",
@@ -4400,6 +4455,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 22 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/lx-22",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO_LX22_CSN_Wick_SDS.pdf",
         length: "6",
         count: "5",
         remaining: "5",
@@ -4411,6 +4469,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 24 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/lx-24",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO_LX24_CSN_Wick_SDS.pdf",
         length: "6",
         count: "5",
         remaining: "5",
@@ -4422,6 +4483,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 26 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/lx-26",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO_LX26_CSN_Wick_SDS.pdf",
         length: "6",
         count: "5",
         remaining: "5",
@@ -4433,6 +4497,9 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 28 6" Pretabbed Wick',
+        productUrl: "https://www.candlescience.com/wick/lx-28",
+        msdsUrl:
+          "https://dpoy1j4zladj1.cloudfront.net/ECO_LX28_CSN_Wick_SDS.pdf",
         length: "6",
         count: "5",
         remaining: "5",
@@ -4444,6 +4511,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 12 3" Pretabbed Wick',
+        referenceId: "21",
         length: "3",
         count: "5",
         remaining: "5",
@@ -4455,6 +4523,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 14 6" Pretabbed Wick',
+        referenceId: "22",
         length: "6",
         count: "5",
         remaining: "5",
@@ -4466,6 +4535,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 16 6" Pretabbed Wick',
+        referenceId: "23",
         length: "6",
         count: "5",
         remaining: "5",
@@ -4477,6 +4547,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 18 6" Pretabbed Wick',
+        referenceId: "24",
         length: "6",
         count: "5",
         remaining: "5",
@@ -4488,6 +4559,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 20 6" Pretabbed Wick',
+        referenceId: "25",
         length: "6",
         count: "5",
         remaining: "5",
@@ -4499,6 +4571,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 22 6" Pretabbed Wick',
+        referenceId: "26",
         length: "6",
         count: "5",
         remaining: "5",
@@ -4510,6 +4583,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 24 6" Pretabbed Wick',
+        referenceId: "27",
         length: "6",
         count: "5",
         remaining: "5",
@@ -4521,6 +4595,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 26 6" Pretabbed Wick',
+        referenceId: "28",
         length: "6",
         count: "5",
         remaining: "5",
@@ -4532,6 +4607,7 @@ module.exports = [
       {
         type: "wicks",
         name: 'LX 28 6" Pretabbed Wick',
+        referenceId: "29",
         length: "6",
         count: "5",
         remaining: "5",
@@ -4555,9 +4631,7 @@ module.exports = [
       {
         type: "jars",
         name: "Ball Mason Wide Mouth",
-        waxToFillLineOunces: "11.84",
-        overflowVolumeOunces: "16",
-        diameterInches: "3",
+        referenceId: "15",
         color: "clear",
         count: "1",
         remaining: "1",
@@ -4579,10 +4653,7 @@ module.exports = [
       {
         type: "jars",
         name: "Mason Thin Screw Lid",
-        diameterInches: "3",
-        waxToFillLineOunces: "11.8",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "16",
+        referenceId: "8",
         color: "clear",
         count: "3",
         remaining: "3",
@@ -4593,9 +4664,7 @@ module.exports = [
       {
         type: "jars",
         name: "Mason no marking",
-        waxToFillLineOunces: "11.8",
-        overflowVolumeOunces: "16",
-        diameterInches: "3",
+        referenceId: "10",
         color: "clear",
         count: "2",
         remaining: "2",
@@ -4606,9 +4675,7 @@ module.exports = [
       {
         type: "jars",
         name: "Ball Mason Wide Mouth",
-        waxToFillLineOunces: "11.84",
-        overflowVolumeOunces: "16",
-        diameterInches: "3",
+        referenceId: "11",
         color: "clear",
         count: "1",
         remaining: "1",
@@ -4619,9 +4686,7 @@ module.exports = [
       {
         type: "jars",
         name: "Large Ball Mason",
-        waxToFillLineOunces: "30",
-        overflowVolumeOunces: "42",
-        diameterInches: "3",
+        referenceId: "12",
         color: "clear",
         count: "1",
         remaining: "1",
@@ -4644,9 +4709,7 @@ module.exports = [
       {
         type: "jars",
         name: "Mason Thin Screw Lid",
-        waxToFillLineOunces: "11.8",
-        overflowVolumeOunces: "16",
-        diameterInches: "3",
+        referenceId: "8",
         color: "clear",
         count: "1",
         remaining: "1",
@@ -4657,9 +4720,7 @@ module.exports = [
       {
         type: "jars",
         name: "Mason no marking",
-        waxToFillLineOunces: "11.8",
-        overflowVolumeOunces: "16",
-        diameterInches: "3",
+        referenceId: "10",
         color: "clear",
         count: "8",
         remaining: "8",
@@ -4681,9 +4742,7 @@ module.exports = [
       {
         type: "jars",
         name: "8 oz. Apothecary Jar",
-        waxToFillLineOunces: "9.9",
-        overflowVolumeOunces: "14.5",
-        diameterInches: "4",
+        referenceId: "3",
         color: "clear",
         count: "1",
         remaining: "1",
@@ -4743,10 +4802,7 @@ module.exports = [
       {
         type: "jars",
         name: "8 oz. Apothecary Jar",
-        waxToFillLineOunces: "9.9",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "14.5",
-        diameterInches: "4",
+        referenceId: "3",
         color: "clear",
         count: "2",
         remaining: "2",
@@ -4757,9 +4813,7 @@ module.exports = [
       {
         type: "jars",
         name: "8 oz Candle Tin",
-        waxToFillLineOunces: "5",
-        overflowVolumeOunces: "8.5",
-        diameterInches: "2.95",
+        referenceId: "1",
         color: "silver",
         count: "4",
         remaining: "4",
@@ -4770,9 +4824,7 @@ module.exports = [
       {
         type: "jars",
         name: "8 oz. Jelly Jar",
-        waxToFillLineOunces: "6.2",
-        overflowVolumeOunces: "8.3",
-        diameterInches: "2.5",
+        referenceId: "2",
         color: "clear",
         count: "5",
         remaining: "5",
@@ -4783,10 +4835,7 @@ module.exports = [
       {
         type: "jars",
         name: "Libby Cube 14 oz",
-        waxToFillLineOunces: "9.2",
-        waxToOverflowOunces: "11.6",
-        overflowVolumeOunces: "14",
-        diameterInches: "3.5",
+        referenceId: "7",
         color: "clear",
         count: "5",
         remaining: "5",
@@ -4797,10 +4846,7 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler (Libbey)",
-        waxToFillLineOunces: "10.0",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "5",
         color: "clear",
         count: "1",
         remaining: "1",
@@ -4810,10 +4856,8 @@ module.exports = [
       },
       {
         type: "jars",
-        name: "Mason Thin Screw Lid",
-        waxToFillLineOunces: "11.8",
-        overflowVolumeOunces: "16",
-        diameterInches: "3",
+        name: "Mason Thin Screw",
+        referenceId: "8",
         color: "clear",
         count: "4",
         remaining: "4",
@@ -4824,10 +4868,7 @@ module.exports = [
       {
         type: "jars",
         name: "Mason No Marking",
-        waxToFillLineOunces: "11.8",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "16",
-        diameterInches: "3",
+        referenceId: "10",
         color: "clear",
         count: "1",
         remaining: "1",
@@ -4860,9 +4901,7 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler (Libbey)",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "5",
         color: "clear",
         count: "4",
         remaining: "4",
@@ -5001,6 +5040,7 @@ module.exports = [
     items: [
       {
         type: "wicks",
+        // TODO
         name: "HTP 31",
         length: "6",
         count: "10",
@@ -5263,6 +5303,8 @@ module.exports = [
       {
         type: "jars",
         name: "Small Straight Sided Jar (Threaded)",
+        productUrl:
+          "https://www.candlescience.com/containers/small_straight_sided_jar",
         waxToFillLineOunces: "3.40",
         waxToOverflowOunces: "",
         overflowVolumeOunces: "4.6",
@@ -5363,9 +5405,7 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler (Black)",
-        diameterInches: "3.06",
-        overflowVolumeOunces: "11.16",
-        waxToFillLineOunces: "10.0",
+        referenceId: "6",
         color: "black",
         count: "12",
         remaining: "12",
@@ -5375,9 +5415,8 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler (Amber)",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        productUrl:
+          "https://www.candlescience.com/containers/straight-sided-tumbler-jar-amber",
         color: "amber",
         count: "12",
         remaining: "12",
@@ -5397,9 +5436,8 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Side Tumbler (White)",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        productUrl:
+          "https://www.candlescience.com/containers/straight-sided-tumbler-jar-white",
         color: "white",
         count: "12",
         remaining: "12",
@@ -5828,9 +5866,7 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler Clear",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        productUrl: "5",
         color: "clear",
         count: "2",
         remaining: "2",
@@ -5915,9 +5951,7 @@ module.exports = [
       {
         type: "jars",
         name: "Amber Straight Tumbler",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "14",
         color: "amber",
         count: "1",
         remaining: "1",
@@ -6031,6 +6065,7 @@ module.exports = [
     items: [
       {
         type: "jars",
+        referenceId: "14",
         name: "Amber Straight Tumbler",
         waxToFillLineOunces: "10.0",
         overflowVolumeOunces: "11.16",
@@ -6044,10 +6079,8 @@ module.exports = [
       },
       {
         type: "jars",
+        referenceId: "6",
         name: "Black Straight Tumbler",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
         color: "black",
         count: "1",
         remaining: "1",
@@ -6058,9 +6091,7 @@ module.exports = [
       {
         type: "jars",
         name: "Clear Straight Tumbler",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "5",
         color: "clear",
         count: "1",
         remaining: "1",
@@ -6071,9 +6102,7 @@ module.exports = [
       {
         type: "jars",
         name: "Apothecary Jar 8 oz",
-        waxToFillLineOunces: "9.9",
-        overflowVolumeOunces: "14.5",
-        diameterInches: "4",
+        referenceId: "3",
         color: "clear",
         count: "4",
         remaining: "4",
@@ -6148,9 +6177,7 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler (Libbey)",
-        waxToFillLineOunces: "10",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "5",
         color: "clear",
         count: "36",
         remaining: "36",
@@ -6200,9 +6227,7 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler Black",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "6",
         color: "black",
         count: "11",
         remaining: "11",
@@ -6214,9 +6239,7 @@ module.exports = [
       {
         type: "jars",
         name: "Amber Straight Sided Tumbler",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "14",
         color: "amber",
         count: "3",
         remaining: "3",
@@ -6227,9 +6250,7 @@ module.exports = [
       {
         type: "jars",
         name: "Clear Straight Sided Tumbler",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "5",
         color: "clear",
         count: "3",
         remaining: "3",
@@ -6667,9 +6688,7 @@ module.exports = [
       {
         type: "jars",
         name: "Amber Straight Tumbler",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "14",
         color: "amber",
         count: "12",
         remaining: "12",
@@ -7519,9 +7538,7 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler Clear",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "5",
         color: "clear",
         count: "25",
         remaining: "25",
@@ -7717,9 +7734,7 @@ module.exports = [
       {
         type: "jars",
         name: "Clear Straight Sided Tumbler",
-        waxToFillLineOunces: "10.00",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "5",
         color: "clear",
         count: "21",
         remaining: "21",
@@ -7802,9 +7817,7 @@ module.exports = [
       {
         type: "jars",
         name: "Clear Straight Sided Tumbler",
-        waxToFillLineOunces: "10",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "5",
         color: "clear",
         count: "25",
         remaining: "25",
@@ -8068,9 +8081,7 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler Clear",
-        waxToFillLineOunces: "10",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "5",
         color: "clear",
         count: "30",
         remaining: "30",
@@ -8081,9 +8092,7 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler Amber",
-        waxToFillLineOunces: "10",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "14",
         color: "amber",
         count: "2",
         remaining: "2",
@@ -8995,9 +9004,7 @@ module.exports = [
       {
         type: "jars",
         name: "Clear Straight Sided Tumbler",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "5",
         color: "clear",
         count: "24",
         remaining: "24",
@@ -9109,9 +9116,7 @@ module.exports = [
       {
         type: "jars",
         name: "Clear Straight Sided Tumbler",
-        waxToFillLineOunces: "10.0",
-        waxToOverflowOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "5",
         color: "clear",
         count: "21",
         remaining: "21",
@@ -9122,10 +9127,7 @@ module.exports = [
       {
         type: "jars",
         name: "Amber Straight Tumbler",
-        waxToFillLineOunces: "10.0",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "14",
         color: "amber",
         count: "2",
         remaining: "2",
@@ -9158,6 +9160,9 @@ module.exports = [
       {
         type: "jars",
         name: "13.5 oz Clear Cali Jar w/Black Lid",
+        productUrl: "https://calcandlesupply.com/13-5-oz-clear-cali-jar-w-lid/",
+        infoUrl:
+          "https://calcandlesupply.com/content/Prop65ComplianceReport.pdf",
         waxToFillLineOunces: "13.5",
         diameterInches: "3.25",
         color: "clear",
@@ -9170,6 +9175,9 @@ module.exports = [
       {
         type: "jars",
         name: "6 oz Clear Cali Jar w/ Natural Wood Lid",
+        productUrl: "https://calcandlesupply.com/6-oz-clear-cali-jar-w-lid/",
+        infoUrl:
+          "https://calcandlesupply.com/content/Prop65ComplianceReport.pdf",
         waxToFillLineOunces: "6.0",
         diameterInches: "2.50",
         color: "clear",
@@ -9421,6 +9429,8 @@ module.exports = [
       {
         type: "jars",
         name: "Silver Tumbler",
+        productUrl:
+          "https://www.candlescience.com/containers/silver-tumbler-jar",
         waxToFillLineOunces: "8",
         overflowVolumeOunces: "10.8",
         diameterInches: "2.9",
@@ -9741,9 +9751,7 @@ module.exports = [
       {
         type: "jars",
         name: "Clear Straight Sided Tumbler",
-        waxToFillLineOunces: "10",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "11.16",
+        referenceId: "5",
         diameterInches: "3.06",
         color: "clear",
         count: "20",
@@ -9755,9 +9763,7 @@ module.exports = [
       {
         type: "jars",
         name: "Amber Straight Tumbler",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "14",
         color: "amber",
         count: "1",
         remaining: "1",
@@ -9918,9 +9924,7 @@ module.exports = [
       {
         type: "jars",
         name: "Clear Straight Sided Tumbler",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "5",
         color: "clear",
         count: "20",
         remaining: "20",
@@ -9930,9 +9934,7 @@ module.exports = [
       {
         type: "jars",
         name: "Amber Straight Sided Tumbler",
-        waxToFillLineOunces: "10",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "14",
         color: "amber",
         count: "4",
         remaining: "4",
@@ -10033,9 +10035,7 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler Clear",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "5",
         color: "clear",
         count: "10",
         remaining: "10",
@@ -10046,9 +10046,7 @@ module.exports = [
       {
         type: "jars",
         name: "Straight Sided Tumbler Amber",
-        waxToFillLineOunces: "10.0",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "14",
         color: "Amber",
         count: "9",
         remaining: "9",
@@ -10112,9 +10110,7 @@ module.exports = [
       {
         type: "jars",
         name: "Clear Straight Sided Tumbler",
-        waxToFillLineOunces: "10.0",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "11.16",
+        referenceId: "5",
         diameterInches: "3.06",
         color: "clear",
         count: "8",
@@ -10125,9 +10121,7 @@ module.exports = [
       {
         type: "jars",
         name: "Amber Straight Sided Tumbler",
-        waxToFillLineOunces: "10.6",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "14",
         color: "amber",
         count: "9",
         remaining: "9",
@@ -10318,6 +10312,8 @@ module.exports = [
       {
         type: "jars",
         name: "Oxford Clear Large",
+        productUrl:
+          "https://www.theflamingcandle.com/candle-making-supplies/candle-containers/oxford-candle-jars/oxford-candle-jars-large/oxford-clear-large-jars-1-dozen/",
         waxToFillLineOunces: "8.8",
         overflowVolumeOunces: "13.0",
         diameterInches: "3.125",
@@ -10398,7 +10394,9 @@ module.exports = [
     items: [
       {
         type: "jars",
-        name: "West Coast Collection Slate",
+        name: "West Coast Collection",
+        productUrl:
+          "https://sixteenseventeen.com/collections/west-coast-collection-1",
         color: "slate",
         count: "6",
         remaining: "6",
@@ -10442,7 +10440,8 @@ module.exports = [
       },
       {
         type: "jars",
-        name: "16oz Lexington Dark Amber",
+        name: "16oz Lexington",
+        productUrl: "https://www.glassnow.com/16oz-lexington-glass-container",
         color: "dark amber",
         count: "2",
         remaining: "2",
@@ -10455,7 +10454,8 @@ module.exports = [
       },
       {
         type: "jars",
-        name: "8.5 oz Heavy Votive Clear",
+        name: "8.5 oz Heavy Votive",
+        productUrl: "https://www.glassnow.com/8-5oz-heavy-glass-votive",
         color: "clear",
         diameterInches: "2.75",
         count: "2",
@@ -10468,7 +10468,8 @@ module.exports = [
       },
       {
         type: "jars",
-        name: "8.5 oz Heavy Votive Silver",
+        name: "8.5 oz Heavy Votive",
+        referenceId: "24",
         diameterInches: "2.75",
         color: "silver",
         count: "2",
@@ -10492,10 +10493,7 @@ module.exports = [
       {
         type: "jars",
         name: "Clear Straight Sided Tumbler",
-        waxToFillLineOunces: "10.0",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "5",
         color: "clear",
         count: "8",
         remaining: "8",
@@ -10505,10 +10503,7 @@ module.exports = [
       {
         type: "jars",
         name: "Amber Straight Sided Tumbler",
-        waxToFillLineOunces: "10.0",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "14",
         color: "amber",
         count: "12",
         remaining: "12",
@@ -10518,10 +10513,7 @@ module.exports = [
       {
         type: "jars",
         name: "White Straight Sided Tumbler",
-        waxToFillLineOunces: "10.0",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "11.16",
-        diameterInches: "3.06",
+        referenceId: "15",
         color: "white",
         count: "2",
         remaining: "2",
@@ -10531,6 +10523,7 @@ module.exports = [
       {
         type: "jars",
         name: "Oxford Clear Large",
+        referenceId: "21",
         waxToFillLineOunces: "8.8",
         overflowVolumeOunces: "13.0",
         diameterInches: "3.125",
@@ -10542,7 +10535,8 @@ module.exports = [
       },
       {
         type: "jars",
-        name: "16oz Lexington Dark Amber",
+        name: "16oz Lexington",
+        referenceId: "23",
         color: "dark amber",
         count: "2",
         remaining: "2",
@@ -10556,28 +10550,24 @@ module.exports = [
       {
         type: "jars",
         name: "8.5 oz Heavy Votive Clear",
+        referenceId: "24",
         color: "clear",
-        diameterInches: "2.75",
         count: "2",
         remaining: "2",
         price: "4.44",
         shareOfShippingPercent: "16",
         notes: "jar weight:  about 13.5oz",
-        waxToFillLineOunces: "6.75",
-        overflowVolumeOunces: "8.50",
       },
       {
         type: "jars",
         name: "8.5 oz Heavy Votive Silver",
-        diameterInches: "2.75",
+        referenceId: "24",
         color: "silver",
         count: "2",
         remaining: "2",
         price: "6.24",
         shareOfShippingPercent: "16",
         notes: "jar weight: about 13.50oz",
-        waxToFillLineOunces: "6.75",
-        overflowVolumeOunces: "8.50",
       },
     ],
     supplierName: "Recycled",
@@ -10593,10 +10583,7 @@ module.exports = [
       {
         type: "jars",
         name: "16oz Lexington Clear",
-        waxToFillLineOunces: "12.50",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "16",
-        diameterInches: "3.50",
+        referenceId: "23",
         color: "clear",
         count: "12",
         remaining: "12",
@@ -10606,9 +10593,7 @@ module.exports = [
       {
         type: "jars",
         name: "8.5oz Heavy Votive Clear",
-        waxToFillLineOunces: "6.75",
-        overflowVolumeOunces: "8.50",
-        diameterInches: "2.75",
+        referenceId: "24",
         color: "clear",
         count: "12",
         remaining: "12",
@@ -10629,10 +10614,7 @@ module.exports = [
       {
         type: "jars",
         name: "8.5oz Heavy Votive Clear",
-        waxToFillLineOunces: "6.75",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "8.50",
-        diameterInches: "2.75",
+        referenceId: "24",
         color: "clear",
         count: "7",
         remaining: "7",
@@ -10654,10 +10636,7 @@ module.exports = [
       {
         type: "jars",
         name: "16oz Lexington Clear",
-        waxToFillLineOunces: "12.50",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "16",
-        diameterInches: "3.50",
+        referenceId: "23",
         color: "clear",
         count: "4",
         remaining: "4",
@@ -10765,6 +10744,7 @@ module.exports = [
       {
         type: "jars",
         name: "16oz Lexington Clear",
+        referenceId: "23",
         waxToFillLineOunces: "12.50",
         overflowVolumeOunces: "16",
         diameterInches: "3.50",
@@ -10778,9 +10758,7 @@ module.exports = [
       {
         type: "jars",
         name: "16oz Lexington Amber",
-        waxToFillLineOunces: "12.50",
-        overflowVolumeOunces: "16",
-        diameterInches: "3.50",
+        referenceId: "23",
         color: "amber",
         count: "1",
         remaining: "1",
@@ -10791,10 +10769,7 @@ module.exports = [
       {
         type: "jars",
         name: "8.5oz Heavy Votive Clear",
-        waxToFillLineOunces: "6.75",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "8.50",
-        diameterInches: "2.75",
+        referenceId: "24",
         color: "clear",
         count: "10",
         remaining: "10",
@@ -10974,10 +10949,7 @@ module.exports = [
       {
         type: "jars",
         name: "16oz Lexington Clear",
-        waxToFillLineOunces: "12.50",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "16",
-        diameterInches: "3.50",
+        referenceId: "23",
         color: "clear",
         count: "7",
         remaining: "7",
@@ -10988,6 +10960,7 @@ module.exports = [
       {
         type: "jars",
         name: "8.5oz Heavy Votive Clear",
+        referenceId: "24",
         waxToFillLineOunces: "6.75",
         overflowVolumeOunces: "8.50",
         diameterInches: "2.75",
@@ -11012,9 +10985,7 @@ module.exports = [
       {
         type: "jars",
         name: "16oz Lexington Clear",
-        waxToFillLineOunces: "12.50",
-        overflowVolumeOunces: "16.0",
-        diameterInches: "3.50",
+        referenceId: "23",
         color: "clear",
         count: "8",
         remaining: "8",
@@ -11025,9 +10996,7 @@ module.exports = [
       {
         type: "jars",
         name: "8.5oz Heavy Votive Clear",
-        waxToFillLineOunces: "6.75",
-        overflowVolumeOunces: "8.50",
-        diameterInches: "2.75",
+        referenceId: "24",
         color: "clear",
         count: "10",
         remaining: "10",
@@ -11049,10 +11018,7 @@ module.exports = [
       {
         type: "jars",
         name: "16oz Lexington Dark Amber",
-        waxToFillLineOunces: "12.50",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "16.0",
-        diameterInches: "3.50",
+        referenceId: "23",
         color: "amber",
         count: "1",
         remaining: "1",
@@ -11063,9 +11029,7 @@ module.exports = [
       {
         type: "jars",
         name: "16oz Lexington Clear",
-        waxToFillLineOunces: "12.50",
-        overflowVolumeOunces: "16.0",
-        diameterInches: "3.50",
+        referenceId: "23",
         color: "clear",
         count: "9",
         remaining: "9",
@@ -11075,9 +11039,7 @@ module.exports = [
       {
         type: "jars",
         name: "8.5 oz Heavy Votive Silver",
-        waxToFillLineOunces: "6.75",
-        overflowVolumeOunces: "8.50",
-        diameterInches: "2.75",
+        referenceId: "24",
         color: "silver",
         count: "2",
         remaining: "2",
@@ -11142,10 +11104,7 @@ module.exports = [
       {
         type: "jars",
         name: "16oz Lexington Clear",
-        waxToFillLineOunces: "12.50",
-        waxToOverflowOunces: "",
-        overflowVolumeOunces: "16.0",
-        diameterInches: "3.50",
+        referenceId: "23",
         color: "clear",
         count: "8",
         remaining: "8",
@@ -11166,9 +11125,7 @@ module.exports = [
       {
         type: "jars",
         name: "16oz Lexington Dark Amber",
-        waxToFillLineOunces: "12.50",
-        overflowVolumeOunces: "16.0",
-        diameterInches: "3.50",
+        referenceId: "23",
         color: "amber",
         count: "1",
         remaining: "1",
@@ -11178,9 +11135,7 @@ module.exports = [
       {
         type: "jars",
         name: "16oz Lexington Clear",
-        waxToFillLineOunces: "12.50",
-        overflowVolumeOunces: "16.0",
-        diameterInches: "3.50",
+        referenceId: "23",
         color: "clear",
         count: "7",
         remaining: "7",
@@ -11201,9 +11156,7 @@ module.exports = [
       {
         type: "jars",
         name: "16oz Lexington Dark Amber",
-        waxToFillLineOunces: "12.50",
-        overflowVolumeOunces: "16.0",
-        diameterInches: "3.50",
+        referenceId: "23",
         color: "amber",
         count: "1",
         remaining: "1",
@@ -11213,9 +11166,7 @@ module.exports = [
       {
         type: "jars",
         name: "16oz Lexington Clear",
-        waxToFillLineOunces: "12.50",
-        overflowVolumeOunces: "16.0",
-        diameterInches: "3.50",
+        referenceId: "23",
         color: "clear",
         count: "7",
         remaining: "7",
@@ -11236,9 +11187,7 @@ module.exports = [
       {
         type: "jars",
         name: "16oz Lexington Dark Amber",
-        waxToFillLineOunces: "12.50",
-        overflowVolumeOunces: "16.0",
-        diameterInches: "3.50",
+        referenceId: "23",
         color: "amber",
         count: "1",
         remaining: "1",
@@ -11248,9 +11197,7 @@ module.exports = [
       {
         type: "jars",
         name: "16oz Lexington Clear",
-        waxToFillLineOunces: "12.50",
-        overflowVolumeOunces: "16.0",
-        diameterInches: "3.50",
+        referenceId: "23",
         color: "clear",
         count: "11",
         remaining: "11",
@@ -11272,7 +11219,8 @@ module.exports = [
         type: "wax",
         name: "Accu-Pure 83",
         material: "Coconut",
-        productUrl: "https://www.swanscandles.com/store/soy_blends_natural_waxes.html",
+        productUrl:
+          "https://www.swanscandles.com/store/soy_blends_natural_waxes.html",
         weightPounds: "40",
         remaining: "40",
         price: "95",
@@ -11285,5 +11233,422 @@ module.exports = [
     shippingCost: "53.80",
     taxesAndFees: "0",
     totalCost: "148.80",
+  },
+  {
+    openDate: "2020-12-07",
+    items: [
+      {
+        type: "misc-equipment",
+        name: "Fragrance Blotter Strips",
+        count: "200",
+        remaining: "200",
+        price: "9.92",
+        shareOfShippingPercent: "5",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 2,
+        name: "Cranberry Woods",
+        slug: "cranberry-woods",
+        categoryName: "food and drink",
+        supplierId: 1,
+        productUrl:
+          "https://www.candlescience.com/fragrance/cranberry-woods-fragrance-oil",
+        msdsUrl:
+          "https://drive.google.com/file/d/1JCwxyL2kDaHuLfZ9JeR4g6EdW6gNi6AJ/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1KzRXuzlB6Z78lErk3iAcCLD92ZkwKhyj/view?usp=sharing",
+        allerginUrl: null,
+        flashpointTemperatureFahrenheit: 172,
+        specificGravity: 1.01,
+        vanillinPercentage: 0.01,
+        ethylVanillinPercentage: null,
+        notes: null,
+        referenceId: 275,
+        weightOunces: "16",
+        remaining: "16",
+        price: "19.74",
+        shareOfShippingPercent: "25",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 2,
+        name: "Red Currant",
+        slug: "red-currant",
+        categoryName: "food and drink",
+        supplierId: 1,
+        productUrl:
+          "https://www.candlescience.com/fragrance/red-currant-fragrance-oil",
+        msdsUrl:
+          "https://drive.google.com/file/d/1cSUgiM5tmNO4aF6YLQnlG4jtFjdJ64X_/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1uXJ_j9Vg3fbfHiAGo0nsxNmQbRKHh0VJ/view?usp=sharing",
+        allerginUrl: null,
+        flashpointTemperatureFahrenheit: 205,
+        specificGravity: 0.98,
+        vanillinPercentage: 0,
+        ethylVanillinPercentage: null,
+        notes: null,
+        referenceId: 131,
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.92",
+        shareOfShippingPercent: "5",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 2,
+        name: "Very Vanilla",
+        slug: "very-vanilla",
+        categoryName: "food and drink",
+        supplierId: 1,
+        productUrl:
+          "https://www.candlescience.com/fragrance/very-vanilla-fragrance-oil",
+        msdsUrl:
+          "https://drive.google.com/file/d/1_rfogBZKXKAqn6Vl9dIpmM6XeqHjNzmU/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1h8nhK1O43-HExnT4oBsb9F4U4RC_f89X/view?usp=sharing",
+        allerginUrl: null,
+        flashpointTemperatureFahrenheit: 212,
+        specificGravity: 1.12,
+        vanillinPercentage: 5,
+        ethylVanillinPercentage: 5,
+        notes: null,
+        referenceId: 274,
+        weightOunces: "16",
+        remaining: "16",
+        price: "19.74",
+        shareOfShippingPercent: "25",
+      },
+      {
+        type: "fragrance-oil",
+        name: "Blueberry Cobbler",
+        categoryId: 2,
+        productUrl:
+          "https://www.candlescience.com/fragrance/blueberry-cobbler-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1BUnmYWGRRYuMQMjJ9z_u94YgU8EYqp6u/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1ZskMSIFmAg4fJVivPypcUrbu9XbygNlu/view?usp=sharing",
+        specificGravity: "1.101",
+        flashpointTemperatureFahrenheit: "212",
+        vanillinPercentage: "5",
+        weightOunces: "1",
+        remaining: "1",
+        price: "0",
+        shareOfShippingPercent: "2",
+        notes: "Free sample",
+      },
+      {
+        type: "fragrance-oil",
+        name: "Mahogany Shea",
+        categoryId: 1,
+        productUrl:
+          "https://www.candlescience.com/fragrance/mahogany-shea-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1XGoPplmARuo4w6PmbaHDF4Gq0fLDV0ln/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1f-rgXpgti_KvAPNtOD_D1Cyns3XO8bGw/view?usp=sharing",
+        specificGravity: "0.9160",
+        flashpointTemperatureFahrenheit: "212",
+        vanillinPercentage: "0",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.92",
+        shareOfShippingPercent: "8",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 2,
+        name: "Pomegranate Bitters",
+        slug: "pomegranate-bitters",
+        categoryName: "food and drink",
+        supplierId: 1,
+        productUrl:
+          "https://www.candlescience.com/fragrance/pomegranate-bitters-fragrance-oil",
+        msdsUrl:
+          "https://drive.google.com/file/d/1I_OUGwCFwKg5PnAP1CwLZSPKak6g0eWG/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1s7vvLIbcTsaXqyFXEVo8dA2m02htGm49/view?usp=sharing",
+        allerginUrl: null,
+        flashpointTemperatureFahrenheit: 201,
+        specificGravity: 1.01,
+        vanillinPercentage: 0,
+        ethylVanillinPercentage: 0,
+        notes: null,
+        referenceId: 283,
+        weightOunces: "16",
+        remaining: "16",
+        price: "20.95",
+        shareOfShippingPercent: "25",
+      },
+    ],
+    supplierName: "CandleScience",
+    supplierId: 1,
+    subtotalCost: "88.19",
+    shippingCost: "10.82",
+    taxesAndFees: "8.17",
+    totalCost: "107.18",
+  },
+  {
+    openDate: "2020-12-07",
+    items: [
+      {
+        type: "fragrance-oil",
+        categoryId: 2,
+        name: "Bergamot",
+        slug: "bergamot",
+        categoryName: "food and drink",
+        supplierId: 2,
+        productUrl: "https://www.lonestarcandlesupply.com/bergamot.html",
+        msdsUrl:
+          "https://drive.google.com/file/d/1Jpi74zWFUjYrykfIV4_7s_DF9UBV-M0m/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1bTm4Xf76r5bqec7saCv3PFISa0tjc4qU/view?usp=sharing",
+        allerginUrl: null,
+        flashpointTemperatureFahrenheit: 200,
+        specificGravity: 0.93,
+        vanillinPercentage: 0,
+        ethylVanillinPercentage: 0,
+        notes: null,
+        referenceId: 79,
+        weightOunces: "16",
+        remaining: "16",
+        price: "17.95",
+        shareOfShippingPercent: "28",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 2,
+        name: "Bergamot",
+        slug: "bergamot",
+        categoryName: "food and drink",
+        supplierId: 2,
+        productUrl: "https://www.lonestarcandlesupply.com/bergamot.html",
+        msdsUrl:
+          "https://drive.google.com/file/d/1Jpi74zWFUjYrykfIV4_7s_DF9UBV-M0m/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1bTm4Xf76r5bqec7saCv3PFISa0tjc4qU/view?usp=sharing",
+        allerginUrl: null,
+        flashpointTemperatureFahrenheit: 200,
+        specificGravity: 0.93,
+        vanillinPercentage: 0,
+        ethylVanillinPercentage: 0,
+        notes: null,
+        referenceId: 79,
+        weightOunces: "16",
+        remaining: "16",
+        price: "17.95",
+        shareOfShippingPercent: "28",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 3,
+        name: "Bluebonnet",
+        slug: "bluebonnet",
+        categoryName: "flowers and herbs",
+        supplierId: 2,
+        productUrl: "https://www.lonestarcandlesupply.com/bluebonnet.html",
+        msdsUrl:
+          "https://drive.google.com/file/d/1i3TRa9hqEejH9TV8IA3X0cJp5aXmibtJ/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1OjrDuEvgchxgXa_1mdSXPvJEa-wLOm_B/view?usp=sharing",
+        allerginUrl: null,
+        flashpointTemperatureFahrenheit: 200,
+        specificGravity: 0.97,
+        vanillinPercentage: 0,
+        ethylVanillinPercentage: 0,
+        notes: null,
+        referenceId: 81,
+        weightOunces: "16",
+        remaining: "16",
+        price: "19.95",
+        shareOfShippingPercent: "28",
+      },
+      {
+        type: "fragrance-oil",
+        name: "Leather",
+        categoryId: 1,
+        productUrl: "https://www.lonestarcandlesupply.com/leather.html",
+        ifraUrl:
+          "https://drive.google.com/file/d/1dy0WSRbLvf8UoS6qsKmB-ZY_AYv8rJX5/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/19oKZx90HlcinQBp5G3dTMYciRBBCbyov/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        weightOunces: "8",
+        remaining: "8",
+        price: "14.50",
+        shareOfShippingPercent: "17",
+      },
+    ],
+    supplierName: "Lone Star Candle Supply",
+    supplierId: 2,
+    subtotalCost: "70.35",
+    shippingCost: "8.32",
+    taxesAndFees: "5.91",
+    totalCost: "77.54",
+    notes: "there was a 10% discount on this order for $7.04",
+  },
+  {
+    openDate: "2020-12-07",
+    items: [
+      {
+        type: "fragrance-oil",
+        categoryId: 5,
+        name: "Denim",
+        productUrl: "https://www.naturesgardencandles.com/denim-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1Nu9vAeMXWBmjzq677yldAXtMHNMCJTmA/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/144l0GyavLdcx0uMjJrjM4gBdxFF7hRyQ/view?usp=sharing",
+        allerginUrl:
+          "https://drive.google.com/file/d/19ixpbwyXXVK9At9oaSZh2ThO1n8J-r0t/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "0.9365",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.25",
+        shareOfShippingPercent: "25",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 5,
+        name: "Green Irish",
+        productUrl:
+          "https://www.naturesgardencandles.com/green-irish-tweed-type-fragrance-oil",
+        ifraUrl:
+          "https://drive.google.com/file/d/1QCSvDVxxiZ6caP4vpxXchIS37lguvyPc/view?usp=sharing",
+        allerginUrl:
+          "https://drive.google.com/file/d/10P03B8iwmnidSi_2aciw6tyn0KjEH_0M/view?usp=sharing",
+        msdsUrl:
+          "https://drive.google.com/file/d/1fEXOK5QHJdFkq81OUancJMaGiT-6t7Pf/view?usp=sharing",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "1.0075",
+        vanillinPercentage: "0",
+        weightOunces: "4",
+        remaining: "4",
+        price: "8.99",
+        shareOfShippingPercent: "25",
+      },
+      {
+        type: "dye",
+        name: "Blue Spectrum Liquid Dye",
+        productUrl: "https://www.naturesgardencandles.com/spectrum-blue-liquid-candle-dye",
+        msdsUrl: "https://drive.google.com/file/d/1198_YcZyuFiBS3h5fJ-1kbwa_6vvsg4S/view?usp=sharing",
+        weightOunces: "1",
+        remaining: "1",
+        color: "blue",
+        price: "4.88",
+        shareOfShippingPercent: "2.5",
+      },
+      {
+        type: "dye",
+        name: "Yellow Spectrum Liquid Dye",
+        productUrl: "https://www.naturesgardencandles.com/spectrum-yellow-liquid-candle-dye",
+        msdsUrl: "https://drive.google.com/file/d/1Jo4qMPtGqgY77Qf0uC8tNDuZIwFpq4vV/view?usp=sharing",
+        weightOunces: "1",
+        remaining: "1",
+        color: "Yellow",
+        price: "4.88",
+        shareOfShippingPercent: "2.5",
+      },
+      {
+        type: "dye",
+        name: "Brown Spectrum Liquid Dye",
+        productUrl: "https://www.naturesgardencandles.com/spectrum-brown-liquid-candle-dye",
+        msdsUrl: "https://drive.google.com/file/d/1aF3Lp7nPKf_MZPORotm3POQkslWCoBns/view?usp=sharing",
+        weightOunces: "1",
+        remaining: "1",
+        color: "brown",
+        price: "4.88",
+        shareOfShippingPercent: "2.5",
+      },
+      {
+        type: "dye",
+        name: "Green Spectrum Liquid Dye",
+        productUrl: "https://www.naturesgardencandles.com/spectrum-green-liquid-candle-dye",
+        msdsUrl: "https://drive.google.com/file/d/18R9SC-Q8gy4EFfTlsBhj9Ok_56YibQM-/view?usp=sharing",
+        weightOunces: "1",
+        remaining: "1",
+        color: "green",
+        price: "4.88",
+        shareOfShippingPercent: "2.5",
+      },
+      {
+        type: "dye",
+        name: "Black Spectrum Liquid Dye",
+        productUrl: "https://www.naturesgardencandles.com/spectrum-black-liquid-candle-dye",
+        msdsUrl: "https://drive.google.com/file/d/1kvvjDwOAH0RJxGFigE9_9-eJ5elj1scg/view?usp=sharing",
+        weightOunces: "1",
+        remaining: "1",
+        color: "black",
+        price: "4.88",
+        shareOfShippingPercent: "2.5",
+      },
+      {
+        type: "dye",
+        name: "Orange Spectrum Liquid Dye",
+        productUrl: "https://www.naturesgardencandles.com/spectrum-orange-liquid-candle-dye",
+        msdsUrl: "https://drive.google.com/file/d/1t0mxVhP975MvFOj2bs47CrpvHvJTNb_t/view?usp=sharing",
+        weightOunces: "1",
+        remaining: "1",
+        color: "orange",
+        price: "4.88",
+        shareOfShippingPercent: "2.5",
+      },
+      {
+        type: "dye",
+        name: "Purple Spectrum Liquid Dye",
+        productUrl: "https://www.naturesgardencandles.com/spectrum-purple-liquid-candle-dye",
+        msdsUrl: "https://drive.google.com/file/d/1limtz1jjhnjKQ2BiBkyuMyiqtAcgwOA5/view?usp=sharing",
+        weightOunces: "1",
+        remaining: "1",
+        color: "purple",
+        price: "4.88",
+        shareOfShippingPercent: "2.5",
+      },
+      {
+        type: "dye",
+        name: "Red Spectrum Liquid Dye",
+        productUrl: "https://www.naturesgardencandles.com/spectrum-red-liquid-candle-dye",
+        msdsUrl: "https://drive.google.com/file/d/1z1ssrW4pAZxqjcOMlQmMIa2t1a1uvKKy/view?usp=sharing",
+        weightOunces: "1",
+        remaining: "1",
+        color: "red",
+        price: "4.88",
+        shareOfShippingPercent: "2.5",
+      },
+      {
+        type: "dye",
+        name: "Burgundy Spectrum Liquid Dye",
+        productUrl: "https://www.naturesgardencandles.com/spectrum-burgundy-liquid-candle-dye",
+        msdsUrl: "https://drive.google.com/file/d/1MbYqbp-lFOMP7PyHtIgbb8bAxwtF-Wde/view?usp=sharing",
+        weightOunces: "1",
+        remaining: "1",
+        color: "burgundy",
+        price: "4.88",
+        shareOfShippingPercent: "2.5",
+        notes: "",
+      },
+      {
+        type: "dye",
+        name: "Teal Spectrum Liquid Dye",
+        productUrl: "https://www.naturesgardencandles.com/spectrum-teal-liquid-candle-dye",
+        msdsUrl: "https://drive.google.com/file/d/15yzEL3Jw0C_fI82HHvQfepL7uLEMVa9n/view?usp=sharing",
+        weightOunces: "1",
+        remaining: "1",
+        color: "teal",
+        price: "4.88",
+        shareOfShippingPercent: "2.5",
+      },
+    ],
+    supplierName: "Nature's Garden",
+    supplierId: null,
+    subtotalCost: "66.04",
+    shippingCost: "12.08",
+    taxesAndFees: "6.25",
+    totalCost: "84.37",
   },
 ];

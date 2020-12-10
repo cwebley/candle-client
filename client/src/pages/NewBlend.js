@@ -19,8 +19,17 @@ import BlendItemDialog from "../BlendItemDialog";
 import BatchItemTable from "../BatchItemTable";
 import DataList from "../display-items/DataList.js";
 import DataLabel from "../display-items/DataLabel.js";
-import handleApiError, { currentDate, currentDateTime } from "../utils";
+import handleApiError, {
+  currentDate,
+  currentDateTime,
+  findUniqueInteger,
+} from "../utils";
 import api from "../api";
+import Select from "@material-ui/core/Select";
+import FormControl from "@material-ui/core/FormControl";
+import FormControlLabel from "@material-ui/core/FormControlLabel";
+import MenuItem from "@material-ui/core/MenuItem";
+import InputLabel from "@material-ui/core/InputLabel";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -56,6 +65,9 @@ const useStyles = makeStyles((theme) => ({
   submitButton: {
     padding: theme.spacing(1),
   },
+  formControl: {
+    width: "100%",
+  },
 }));
 
 // blendItems all get a combineId that is unique
@@ -69,9 +81,11 @@ function NewBlend({ history, enqueueSnackbar }) {
   const [newBlendItemValues, setNewBlendItemValues] = useState({});
   const [blendItemDialogOpen, setBlendItemDialogOpen] = useState(false);
   const [editItemIndex, setItemEditIndex] = useState(null);
+  const [editBlendId, setEditBlendId] = useState(null);
   const [targetWeightPounds, setTargetWeightPounds] = useState(null);
   const [waxHashIdOptions, setWaxHashIdOptions] = useState([]);
   const [additiveHashIdOptions, setAdditiveHashIdOptions] = useState([]);
+  const [editBlendOptions, setEditBlendOptions] = useState([]);
   const [blendValues, setBlendValues] = useState({
     whenCreated: currentDate(),
     items: [],
@@ -121,19 +135,105 @@ function NewBlend({ history, enqueueSnackbar }) {
       }
     };
 
+    const fetchEditBlendOptions = async () => {
+      try {
+        const result = await axios(api.blendsUrl);
+        if (result.data) {
+          setEditBlendOptions(result.data);
+        }
+      } catch (err) {
+        handleApiError(err, enqueueSnackbar);
+      }
+    };
+
     fetchResourceTypes();
     fetchWaxOptions();
     fetchAdditiveOptions();
+    fetchEditBlendOptions();
   }, [enqueueSnackbar]);
 
-  const handleHashIdSelection = (e, value, reason, more) => {
+  // if we're editing a blend, we need the full details of that blend
+  useEffect(() => {
+    // const fetchResourceTypes = async () => {
+    //   try {
+    //     const result = await axios(api.resourceTypesUrl);
+    //     if (result.data) {
+    //       setResourceTypes(result.data);
+    //       if (result.data.length) {
+    //         let blendResources = result.data.filter((r) => r.scope === "blend");
+    //         if (blendResources.length) {
+    //           setNewBlendItemValues((newBlendItemValues) => ({
+    //             ...newBlendItemValues,
+    //             type: blendResources[0].slug,
+    //           }));
+    //         }
+    //       }
+    //     }
+    //   } catch (err) {
+    //     handleApiError(err, enqueueSnackbar);
+    //   }
+    // };
+    if (!editBlendId) {
+      console.log("UE NO EDIT BLEND HASH ID FOUND");
+      return;
+    }
+
+    const fetchBlendDetails = async () => {
+      try {
+        const result = await axios(api.getBlendUrl(editBlendId));
+        if (result.data) {
+          setBlendValues((blendValues) => {
+            const existingWaxes = result.data.wax.map((w) => {
+              return {
+                ...w,
+                weightPounds: w.weightPounds
+                  ? w.weightPounds
+                  : (w.weightOunces / 16).toFixed(3),
+                // tell the app this item is already in an existing blend
+                // and it cannot be edited
+                existingItem: true,
+              };
+            });
+            const existingAdditives = result.data.additives.map((a) => {
+              return {
+                ...a,
+                weightPounds: a.weightPounds
+                  ? a.weightPounds
+                  : (a.weightOunces / 16).toFixed(3),
+
+                // tell the app this item is already in an existing blend
+                // and it cannot be edited
+                existingItem: true,
+              };
+            });
+            return {
+              ...blendValues,
+              name: result.data.name,
+              notes: result.data.notes,
+              items: [
+                ...blendValues.items,
+                ...existingWaxes,
+                ...existingAdditives,
+              ],
+            };
+          });
+        }
+      } catch (err) {
+        handleApiError(err, enqueueSnackbar);
+      }
+    };
+
+    fetchBlendDetails();
+  }, [enqueueSnackbar, editBlendId]);
+
+  const handleEditBlendSelectorChange = (e, value, reason, more) => {
+    setEditBlendId(e.target.value);
+  };
+
+  const handleHashIdSelection = (e, value, reason) => {
     if (reason === "clear") {
       setNewBlendItemValues((values) => {
-        const {
-          hashId,
-          hashIdSelectionString,
-          ...valuesWithoutHashId
-        } = values;
+        const { hashId, itemName, ...valuesWithoutHashId } = values;
         // remove the hashId and the associated description string
         return valuesWithoutHashId;
       });
@@ -141,14 +241,11 @@ function NewBlend({ history, enqueueSnackbar }) {
     }
 
     setNewBlendItemValues((values) => {
-      const updatedValues = {
+      return {
         ...values,
-        hashIdSelectionString: values.name !== undefined ? values.name : value,
+        hashId: value.hashId ? value.hashId : value,
+        itemName: value.name ? value.name : "",
       };
-      if (value.hashId) {
-        updatedValues.hashId = value.hashId;
-      }
-      return updatedValues;
     });
   };
 
@@ -188,8 +285,20 @@ function NewBlend({ history, enqueueSnackbar }) {
   const addBlendItem = (e) => {
     const newBlendItem = { ...newBlendItemValues };
     if (!newBlendItem.combineId) {
-      newBlendItem.combineId = combineIdCounter;
-      combineIdCounter++;
+      // make sure that none of the blendItems already have that combineId
+      // (this can happen when editing a blend)
+      const otherCombineIds = blendValues.items.map((item) => item.combineId);
+      const uniqueCombineId = findUniqueInteger(
+        combineIdCounter,
+        otherCombineIds
+      );
+
+      newBlendItem.combineId = uniqueCombineId;
+      console.log("COMBINE ID: ", newBlendItem.combineId);
+      //   debugger;
+
+      // start the next test where we left off here
+      combineIdCounter = uniqueCombineId + 1;
     }
     setBlendValues((blendValues) => {
       return {
@@ -263,6 +372,41 @@ function NewBlend({ history, enqueueSnackbar }) {
     submitBlendData(blendValues);
   };
 
+  const editBlend = async (e) => {
+    e.preventDefault();
+    const editBlendData = async (data) => {
+      // this is only here to aid the fixtures and help with
+      // batch + blend creation. this can be removed at some point
+      data.editBlend = true;
+
+      // filter out all of the items that existed in the blend prior to this edit
+      data.items = data.items.filter((item) => !item.existingItem);
+
+      data.whenCreated = data.lastUpdated;
+      delete data.whenCreated;
+
+      try {
+        const result = await axios.patch(api.getBlendUrl(editBlendId), data);
+        if (result && result.data) {
+          enqueueSnackbar(`Blend ${result.data.blendId} successfully edited`, {
+            variant: "success",
+          });
+        }
+      } catch (err) {
+        handleApiError(err, enqueueSnackbar);
+      }
+    };
+
+    // convert pounds to ounces for the api
+    blendValues.items.forEach((item) => {
+      if (item.weightPounds) {
+        item.weightOunces = 16 * parseFloat(item.weightPounds);
+      }
+      delete item.weightPounds;
+    });
+    editBlendData(blendValues);
+  };
+
   const editBlendItem = (e) => {
     const newBlendItem = { ...newBlendItemValues };
     if (!newBlendItem.combineId) {
@@ -294,6 +438,10 @@ function NewBlend({ history, enqueueSnackbar }) {
   };
 
   console.log("BLEND DATA: ", blendValues);
+  console.log(
+    "C IDS: ",
+    blendValues.items.map((item) => item.combineId)
+  );
 
   return (
     <div className={classes.root}>
@@ -322,7 +470,10 @@ function NewBlend({ history, enqueueSnackbar }) {
             onAddItem={addBlendItem}
             onEditItem={editBlendItem}
           />
-          <form onSubmit={submitBlend} className={classes.form}>
+          <form
+            onSubmit={editBlendId ? editBlend : submitBlend}
+            className={classes.form}
+          >
             <Paper className={classes.paper}>
               <Grid container spacing={3} justify="space-around">
                 <Grid item xs={6} sm={4}>
@@ -389,6 +540,29 @@ function NewBlend({ history, enqueueSnackbar }) {
                     }}
                   />
                 </Grid>
+                <Grid item xs={6} sm={4}>
+                  <FormControl className={classes.formControl}>
+                    <InputLabel htmlFor="edit-blend-selector">
+                      Existing Blend
+                    </InputLabel>
+                    <Select
+                      autoFocus
+                      onChange={handleEditBlendSelectorChange}
+                      value={editBlendId || ""}
+                      inputProps={{
+                        name: "editBlendId",
+                        id: "edit-blend-selector",
+                      }}
+                    >
+                      <MenuItem value={""}>New Blend</MenuItem>
+                      {editBlendOptions.map((b) => (
+                        <MenuItem key={b.id} value={b.id}>
+                          {`${b.id}-${b.name}`}
+                        </MenuItem>
+                      ))}
+                    </Select>
+                  </FormControl>
+                </Grid>
                 <Grid item xs={6} sm={6}>
                   <TextField
                     label="Notes"
@@ -440,6 +614,7 @@ function NewBlend({ history, enqueueSnackbar }) {
                 <BatchItemTable
                   itemData={blendValues.items}
                   amountKey="weightPounds"
+                  disabledKey="existingItem"
                   amountUnit="lbs"
                   onDeleteClick={deleteBlendItem}
                   onEditClick={showEditBlendItem}
