@@ -9067,27 +9067,27 @@ module.exports = [
       },
       {
         whenStarted: "2020-09-01 11:55:00",
-        whenStarted: "2020-09-01 17:05:00",
+        whenStopped: "2020-09-01 17:05:00",
         stoppedWeightOunces: 26.0,
         notes: "1/8 inch mp, flames look great, glass not too hot.",
       },
       {
         whenStarted: "2020-09-01 19:45:00",
-        whenStarted: "2020-09-02 02:00:00",
+        whenStopped: "2020-09-02 02:00:00",
         stoppedWeightOunces: 24.55,
         notes:
           "nearly 1/4 inch mp, jar not hot, flames look okay, but i accidentally put the candle out when moving it to the scale. maybe a touch too cool?",
       },
       {
         whenStarted: "2020-09-04 20:00:00",
-        whenStarted: "2020-09-05 05:20:00",
+        whenStopped: "2020-09-05 05:20:00",
         stoppedWeightOunces: 19.89,
         notes:
           " 1/4 inch mp, flames look great, no mushrooming, or soot. jar not too hot. hot throw just not that strong for this blend it seems.",
       },
       {
         whenStarted: "2020-09-08 21:00:00",
-        whenStarted: "2020-09-09 01:45:00",
+        whenStopped: "2020-09-09 01:45:00",
         stoppedWeightOunces: 21.48,
         notes:
           "1/3 inch mp, flames looked great, no mushrooming, but jar got to 150 which is a bit hotter than i'd like. probably a great option, but would like to try lx-12, p-740/745",
@@ -9120,7 +9120,7 @@ module.exports = [
       },
       {
         whenStarted: "2020-09-01 11:55:00",
-        whenStarted: "2020-09-01 14:15:00",
+        whenStopped: "2020-09-01 14:15:00",
         stoppedWeightOunces: 14.57,
         notes: "extinguished itself.",
       },
@@ -9155,7 +9155,7 @@ module.exports = [
       },
       {
         whenStarted: "2020-09-01 11:55:00",
-        whenStarted: "2020-09-01 15:05:00",
+        whenStopped: "2020-09-01 15:05:00",
         stoppedWeightOunces: 13.23,
         notes: "extinguished itself.",
       },
@@ -9176,21 +9176,21 @@ module.exports = [
       },
       {
         whenStarted: "2020-09-01 11:55:00",
-        whenStarted: "2020-09-01 17:05:00",
+        whenStopped: "2020-09-01 17:05:00",
         stoppedWeightOunces: 22.22,
         notes:
           "1/3 inch mp, flames on the larger side, but actually seem okay. tiny bit of soot on the sides, but jar not too hot.",
       },
       {
         whenStarted: "2020-09-04 20:00:00",
-        whenStarted: "2020-09-05 05:20:00",
+        whenStopped: "2020-09-05 05:20:00",
         stoppedWeightOunces: 19.89,
         notes:
           "1/4 inch + mp, but this is the bottom of the jar.  jar got as hot as 150+, but seems okay. i'd like to compare with LX-12. but this is probably an okay wick setup.",
       },
       {
         whenStarted: "2020-09-08 21:00:00",
-        whenStarted: "2020-09-09 01:25:00",
+        whenStopped: "2020-09-09 01:25:00",
         stoppedWeightOunces: 18.91,
         finished: true,
         notes:
@@ -9213,14 +9213,14 @@ module.exports = [
       },
       {
         whenStarted: "2020-09-01 11:55:00",
-        whenStarted: "2020-09-01 17:05:00",
+        whenStopped: "2020-09-01 17:05:00",
         stoppedWeightOunces: 14.57,
         notes:
           "1/3+ mp and thats all the wax. fair amount of soot on the sides.",
       },
       {
         whenStarted: "2020-09-08 21:00:00",
-        whenStarted: "2020-09-09 01:25:00",
+        whenStopped: "2020-09-09 01:25:00",
         stoppedWeightOunces: 13.69,
         notes:
           "hard to tell the mp depth but we're right at the bottom of the jar. jar up to 140 which is pretty hot, but okay. some soot seems to be deposited on the glass, but the flame looks good, no mushrooming. 770 or 767 possibly better future options.",
@@ -9242,14 +9242,14 @@ module.exports = [
       },
       {
         whenStarted: "2020-09-01 11:55:00",
-        whenStarted: "2020-09-01 17:05:00",
+        whenStopped: "2020-09-01 17:05:00",
         stoppedWeightOunces: 15.03,
         notes:
           "full mp, not super deep. maybe 1/4 inch tops but hard to tell. jar not hot. little bit of soot on one side.",
       },
       {
         whenStarted: "2020-09-08 21:00:00",
-        whenStarted: "2020-09-09 01:25:00",
+        whenStopped: "2020-09-09 01:25:00",
         stoppedWeightOunces: 18.91,
         notes:
           "looks pretty great. hard to tell the mp depth, but jar not too hot. there was once a big mushroom, but it fell off naturally and flame looks fine at the bottom of the jar. jar not too hot but a tiny bit of soot coming off the flame. very little soot deposited on the glass.",
@@ -9265,14 +9265,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-02 11:45:00",
-        whenStarted: "2020-09-02 16:40:00",
+        whenStopped: "2020-09-02 16:40:00",
         stoppedWeightOunces: 16.3,
         notes:
           "not quite full mp, and flame a bit small. no mushrooming at all though. should skip 765 and try 767/770/775",
       },
       {
         whenStarted: "2020-09-03 12:45:00",
-        whenStarted: "2020-09-03 19:20:00",
+        whenStopped: "2020-09-03 19:20:00",
         stoppedWeightOunces: 15.84,
         notes:
           "not quite full mp, little mushrooming, flame looks great no soot. ",
@@ -9287,21 +9287,21 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-02 11:45:00",
-        whenStarted: "2020-09-02 16:40:00",
+        whenStopped: "2020-09-02 16:40:00",
         stoppedWeightOunces: 16.6,
         notes:
           "not quite full mp, need a hotter wick. very little mushrooming. try lx-20 and lx-22",
       },
       {
         whenStarted: "2020-09-03 12:45:00",
-        whenStarted: "2020-09-03 19:20:00",
+        whenStopped: "2020-09-03 19:20:00",
         stoppedWeightOunces: 15.84,
         notes:
           "1/8 to 1/4 inch mp, no mushrooming or soot but flame sort of large. not sure about this one. bigger might be too hot...",
       },
       {
         whenStarted: "2020-09-04 10:15:00",
-        whenStarted: "2020-09-04 19:50:00",
+        whenStopped: "2020-09-04 19:50:00",
         stoppedWeightOunces: 13.6,
         notes:
           "self extinguished. only trimmed off the small mushroom, so this was a long wick, the flame was large for this whole burn and produced a tiny bit of soot. lx wicks may need bits of trimming.",
@@ -9316,14 +9316,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-02 11:45:00",
-        whenStarted: "2020-09-02 16:40:00",
+        whenStopped: "2020-09-02 16:40:00",
         stoppedWeightOunces: 16.26,
         notes:
           "jar on the brink of too hot--flame big because wick isn't trimming itself. 1/8 inch mp which looks good, and no soot and not really any noticeably mushrooming. maybe a more trimmed htp-104 would work, but should try htp-93.",
       },
       {
         whenStarted: "2020-09-03 12:45:00",
-        whenStarted: "2020-09-03 19:20:00",
+        whenStopped: "2020-09-03 19:20:00",
         stoppedWeightOunces: 15.84,
         notes:
           "1/4 inch mp, jar a bit hot and a bit of mushrooming. wick long and flame big with some soot coming off of it. should try an htp-93.",
@@ -9338,14 +9338,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-02 11:45:00",
-        whenStarted: "2020-09-02 16:40:00",
+        whenStopped: "2020-09-02 16:40:00",
         stoppedWeightOunces: 16.4,
         notes:
           "1/4 inch mp, but jar too hot, flame too big, and some soot on the sides. will try a more trimmed wick, but my hunch is that eco-4 will be too small.",
       },
       {
         whenStarted: "2020-09-03 12:45:00",
-        whenStarted: "2020-09-03 19:20:00",
+        whenStopped: "2020-09-03 19:20:00",
         stoppedWeightOunces: 15.84,
         notes:
           "1/4 inch mp, jar a bit hot and a bit of mushrooming. wick long and flame big with some soot coming off of it. maybe could try an eco-4 but might be too small.",
@@ -9360,14 +9360,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-02 11:45:00",
-        whenStarted: "2020-09-02 16:40:00",
+        whenStopped: "2020-09-02 16:40:00",
         stoppedWeightOunces: 16.4,
         notes:
           "not quite a full mp. need something a bit hotter. very little mushrooming. rrd-34/37 worth trying.",
       },
       {
         whenStarted: "2020-09-03 12:45:00",
-        whenStarted: "2020-09-03 19:20:00",
+        whenStopped: "2020-09-03 19:20:00",
         stoppedWeightOunces: 15.84,
         notes:
           "full shallow mp, little bit of mushrooming. probably need to try the rrd-34.",
@@ -9382,21 +9382,21 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-02 11:45:00",
-        whenStarted: "2020-09-02 16:40:00",
+        whenStopped: "2020-09-02 16:40:00",
         stoppedWeightOunces: 16.51,
         notes:
           "not full mp. even after 4 hours. i'd expect something much hotter for this small jar half way down. no soot flame looks good. very little mushroomign, cd-7 or cd-8 worth trying.",
       },
       {
         whenStarted: "2020-09-03 12:45:00",
-        whenStarted: "2020-09-03 19:20:00",
+        whenStopped: "2020-09-03 19:20:00",
         stoppedWeightOunces: 15.84,
         notes:
           "1/8 inch mp, jar a bit hot and a bit of mushrooming. But i also think it should probably melt a little faster. CD-7 worth trying but might be too hot.",
       },
       {
         whenStarted: "2020-09-04 10:15:00",
-        whenStarted: "2020-09-04 18:50:00",
+        whenStopped: "2020-09-04 18:50:00",
         stoppedWeightOunces: 13.6,
         notes:
           "self extinguished. only trimmed off the small mushroom, so this was a long wick, the flame was large for this whole burn and produced plenty of soot. looks like cd wicks will need to be trimmed dilligently. jar hot but never too hot.",
@@ -9411,14 +9411,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-02 11:45:00",
-        whenStarted: "2020-09-02 16:40:00",
+        whenStopped: "2020-09-02 16:40:00",
         stoppedWeightOunces: 16.65,
         notes:
           "not quite full mp. sort of close after 4 hours, but i'd expect something hotter for this small jar half way down. no soot flame looks good. very little mushrooming cdn-8 worth trying.",
       },
       {
         whenStarted: "2020-09-03 12:45:00",
-        whenStarted: "2020-09-03 19:20:00",
+        whenStopped: "2020-09-03 19:20:00",
         stoppedWeightOunces: 15.84,
         notes:
           "nearly a full mp, and flame looks great with no soot and mushrooming, but probably should melt faster. CDN-8 worth trying.",
@@ -9434,21 +9434,21 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-03 20:00:00",
-        whenStarted: "2020-09-04 01:10:00",
+        whenStopped: "2020-09-04 01:10:00",
         stoppedWeightOunces: 23.21,
         notes:
           "1/4 inch mp, jar not too hot, flames a bit wild but look fine for the most part. jar not too hot no mushrooming. seems about perfect.",
       },
       {
         whenStarted: "2020-09-04 10:15:00",
-        whenStarted: "2020-09-04 19:00:00",
+        whenStopped: "2020-09-04 19:00:00",
         stoppedWeightOunces: 20.64,
         notes:
           "1/2 inch mp, jar up to 160, flames a bit wild. but better than the eco-1. technically i think this is fine. but its a touch hotter than id hope. no mushrooming, no soot.",
       },
       {
         whenStarted: "2020-09-08 13:30:00",
-        whenStarted: "2020-09-08 20:00:00",
+        whenStopped: "2020-09-08 20:00:00",
         stoppedWeightOunces: 18.55,
         notes:
           "1/4 inch+, jar up to 155 at the worst, but no soot and looks pretty great. lx-12 maybe slightly preferrable. extiguished itself one wick then the other.",
@@ -9463,13 +9463,13 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-03 20:00:00",
-        whenStarted: "2020-09-04 01:10:00",
+        whenStopped: "2020-09-04 01:10:00",
         stoppedWeightOunces: 24.34,
         notes: "very nearly full mp. flames just too small. need to try cdn-6",
       },
       {
         whenStarted: "2020-09-04 10:15:00",
-        whenStarted: "2020-09-04 19:00:00",
+        whenStopped: "2020-09-04 19:00:00",
         stoppedWeightOunces: 22.89,
         notes:
           "1/4 inch mp, and flames look fine. but i think this should be a little hotter given the length of burn. no mushrooming no soot. i prefer the lx-12 andmaybe even the much hotter cd-4.",
@@ -9484,14 +9484,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-03 20:00:00",
-        whenStarted: "2020-09-04 01:10:00",
+        whenStopped: "2020-09-04 01:10:00",
         stoppedWeightOunces: 24.37,
         notes:
           "flames too small, not a full mp. likely need something like 745s.",
       },
       {
         whenStarted: "2020-09-04 10:15:00",
-        whenStarted: "2020-09-04 19:00:00",
+        whenStopped: "2020-09-04 19:00:00",
         stoppedWeightOunces: 22.82,
         notes:
           "1/4 inch mp, flames look surprisingly good down here, maybe it is worth trying 740s. no soot, no mushrooming, jar not hot.",
@@ -9506,21 +9506,21 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-03 20:00:00",
-        whenStarted: "2020-09-04 01:10:00",
+        whenStopped: "2020-09-04 01:10:00",
         stoppedWeightOunces: 23.25,
         notes:
           "1/8 to 1/4 inch mp, jar not too hot, flames look great, no mushrooming or soot. could be perfect for safe long burns. but also could be too small at the top.",
       },
       {
         whenStarted: "2020-09-04 10:15:00",
-        whenStarted: "2020-09-04 19:00:00",
+        whenStopped: "2020-09-04 19:00:00",
         stoppedWeightOunces: 21.6,
         notes:
           "1/3 to 1/2 inch mp, jar at 150 tops, flames look great, no soot no mushroomigng. this is definitely the best of the bunch for this low in the jar.",
       },
       {
         whenStarted: "2020-09-08 13:30:00",
-        whenStarted: "2020-09-08 23:45:00",
+        whenStopped: "2020-09-08 23:45:00",
         stoppedWeightOunces: 19.15,
         notes:
           "1/4 inch mp+, jar up to 150 but no soot and flames look healthy at the bottom. looks great. extinguished itself but 1 wick at a time.",
@@ -9535,14 +9535,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-03 20:00:00",
-        whenStarted: "2020-09-04 01:10:00",
+        whenStopped: "2020-09-04 01:10:00",
         stoppedWeightOunces: 22.72,
         notes:
           "1/4 inch mp, jar fairly hot but okay. flames a bit wild but no soot and no mushrooming. probably fine but could be too hot if the wicks were any closer to the sides. no mushrooming.",
       },
       {
         whenStarted: "2020-09-04 10:15:00",
-        whenStarted: "2020-09-04 19:00:00",
+        whenStopped: "2020-09-04 19:00:00",
         stoppedWeightOunces: 19.82,
         notes:
           "mp was more than 1/2 inch the full time. now near the bottom of the jar. jar at 170 degrees, and flames too wild.",
@@ -9557,7 +9557,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-03 20:00:00",
-        whenStarted: "2020-09-04 01:10:00",
+        whenStopped: "2020-09-04 01:10:00",
         stoppedWeightOunces: 23.21,
         notes:
           "flames way too small and not nearly a full mp. need to try something like htp 51s.",
@@ -9573,28 +9573,28 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-05 13:00:00",
-        whenStarted: "2020-09-05 19:10:00",
+        whenStopped: "2020-09-05 19:10:00",
         stoppedWeightOunces: 16.79,
         notes:
           "full shallow mp, 1/8 inch or less. flame looks great, no real mushrooming, no soot. seems fine, but jar not hot at all. maybe could handle more heat. will be interesting to see how it does near the bottom compared to the 770.",
       },
       {
         whenStarted: "2020-09-06 22:00:00",
-        whenStarted: "2020-09-07 04:00:00",
+        whenStopped: "2020-09-07 04:00:00",
         stoppedWeightOunces: 15.66,
         notes:
           "1/8 inch mp, oddly a bit hotter than the 770, but could be explained by wick length. jar temp and mushrooming all look good. another great option.",
       },
       {
         whenStarted: "2020-09-07 13:30:00",
-        whenStarted: "2020-09-07 18:30:00",
+        whenStopped: "2020-09-07 18:30:00",
         stoppedWeightOunces: 14.71,
         notes:
           "1/8 inch mp, little mushrooming, tiny bit of soot on the glass. but jar not too hot looks great.",
       },
       {
         whenStarted: "2020-09-08 13:30:00",
-        whenStarted: "2020-09-08 18:30:00",
+        whenStopped: "2020-09-08 18:30:00",
         stoppedWeightOunces: 14.18,
         notes:
           "extinguished itself with 1/8 inch left, little soot on the glass but looks good. jar never too hot.",
@@ -9609,28 +9609,28 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-05 13:00:00",
-        whenStarted: "2020-09-05 19:10:00",
+        whenStopped: "2020-09-05 19:10:00",
         stoppedWeightOunces: 17.14,
         notes:
           "full shallow mp, 1/8 inch or less. flame looks great, just like the 767. No real mushrooming, no soot. seems fine, but jar not hot at all. maybe could handle more heat. will be interesting to see how it does near the bottom compared to the 767 because right now it seems about the same, just very slightly warmer.",
       },
       {
         whenStarted: "2020-09-06 22:00:00",
-        whenStarted: "2020-09-07 04:00:00",
+        whenStopped: "2020-09-07 04:00:00",
         stoppedWeightOunces: 15.91,
         notes:
           "1/8 inch mp, tiny ball of mushrooming, but flame, temp, and soot look good. probably a great option.",
       },
       {
         whenStarted: "2020-09-07 13:30:00",
-        whenStarted: "2020-09-07 18:30:00",
+        whenStopped: "2020-09-07 18:30:00",
         stoppedWeightOunces: 14.99,
         notes:
           "1/4 inch mp, nearly all of the wax melted now. not much mushrooming, not much soot, jar not too hot. looks wonderful.",
       },
       {
         whenStarted: "2020-09-08 13:30:00",
-        whenStarted: "2020-09-08 18:30:00",
+        whenStopped: "2020-09-08 18:30:00",
         stoppedWeightOunces: 14.74,
         notes:
           "extinguished itself with 1/8+ inch left, little soot on the glass but looks good. jar never too hot. really so similar to the 767 that idk which I should try full jar on. maybe this hotter one?",
@@ -9645,21 +9645,21 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-05 13:00:00",
-        whenStarted: "2020-09-05 19:10:00",
+        whenStopped: "2020-09-05 19:10:00",
         stoppedWeightOunces: 16.58,
         notes:
           "1/4 inch mp, flame seems a bit too large and a bit of soot coming off of it. jar getting fairly hot.",
       },
       {
         whenStarted: "2020-09-06 22:00:00",
-        whenStarted: "2020-09-07 04:00:00",
+        whenStopped: "2020-09-07 04:00:00",
         stoppedWeightOunces: 15.1,
         notes:
           "1/4 inch mp, flame seems a bit too large and a bit of soot coming off of it. jar getting fairly hot.",
       },
       {
         whenStarted: "2020-09-07 13:30:00",
-        whenStarted: "2020-09-07 18:30:00",
+        whenStopped: "2020-09-07 18:30:00",
         stoppedWeightOunces: 13.97,
         notes:
           "much too hot. rest of wax is melted, 1/4 inch remains, but flame is large, and sooty.",
@@ -9674,7 +9674,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-05 13:00:00",
-        whenStarted: "2020-09-05 19:10:00",
+        whenStopped: "2020-09-05 19:10:00",
         stoppedWeightOunces: 17.11,
         notes:
           "not quite a full mp, no mushrooming, flame looks great actually, but i would hope for a full mp at half way down the jar on a 6 hour burn.",
@@ -9689,28 +9689,28 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-05 13:00:00",
-        whenStarted: "2020-09-05 19:10:00",
+        whenStopped: "2020-09-05 19:10:00",
         stoppedWeightOunces: 17.32,
         notes:
           "full shallow mp. flame a bit large, but not really any mushrooming or soot. seems pretty great actually.",
       },
       {
         whenStarted: "2020-09-06 22:00:00",
-        whenStarted: "2020-09-07 04:00:00",
+        whenStopped: "2020-09-07 04:00:00",
         stoppedWeightOunces: 15.1,
         notes:
           "full shallow mp, no mushrooming, but possibly a little soot coming off the flame--none on the the glass yet. flame looks pretty good and jar not too hot. seems okay.",
       },
       {
         whenStarted: "2020-09-07 13:30:00",
-        whenStarted: "2020-09-07 18:30:00",
+        whenStopped: "2020-09-07 18:30:00",
         stoppedWeightOunces: 15.03,
         notes:
           "seems too hot. flame a bit large, some soot deposited on glass, jar getting pretty hot.",
       },
       {
         whenStarted: "2020-09-08 10:30:00",
-        whenStarted: "2020-09-08 15:00:00",
+        whenStopped: "2020-09-08 15:00:00",
         stoppedWeightOunces: 14.18,
         notes: "flame too large, some soot. i extinguished this one as a fail.",
       },
@@ -9724,21 +9724,21 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-05 13:00:00",
-        whenStarted: "2020-09-05 19:10:00",
+        whenStopped: "2020-09-05 19:10:00",
         stoppedWeightOunces: 17.07,
         notes:
           "full shallow mp, little ball of mushrooming, but flame looks great. seems okay so far.",
       },
       {
         whenStarted: "2020-09-06 22:00:00",
-        whenStarted: "2020-09-07 04:00:00",
+        whenStopped: "2020-09-07 04:00:00",
         stoppedWeightOunces: 15.94,
         notes:
           "nearly 1/8 inch mp, small ball of mushrooming causes the flame to be a bit fat, but looks good otherwise. no soot, jar not too hot.",
       },
       {
         whenStarted: "2020-09-08 13:30:00",
-        whenStarted: "2020-09-08 19:30:00",
+        whenStopped: "2020-09-08 19:30:00",
         stoppedWeightOunces: 14.03,
         notes:
           "1/8 inch mp, no real mushrooming, some soot depositedcd, jar not too hot. looks good.",
@@ -9753,21 +9753,21 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-05 13:00:00",
-        whenStarted: "2020-09-05 19:10:00",
+        whenStopped: "2020-09-05 19:10:00",
         stoppedWeightOunces: 17.64,
         notes:
           "full shallow mp, little bit of mushrooming, but looks great so far. i think this will need to be trimmed dilligently based on the cd-6's performance at the bottom of the jar though.",
       },
       {
         whenStarted: "2020-09-06 22:00:00",
-        whenStarted: "2020-09-07 04:00:00",
+        whenStopped: "2020-09-07 04:00:00",
         stoppedWeightOunces: 16.51,
         notes:
           "nearly 1/8 inch mp, looks pretty good. not much mushrooming, no soot, jar not too hot.",
       },
       {
         whenStarted: "2020-09-08 13:30:00",
-        whenStarted: "2020-09-08 23:30:00",
+        whenStopped: "2020-09-08 23:30:00",
         stoppedWeightOunces: 14.5,
         finished: true,
         notes:
@@ -9783,21 +9783,21 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-05 13:00:00",
-        whenStarted: "2020-09-05 19:10:00",
+        whenStopped: "2020-09-05 19:10:00",
         stoppedWeightOunces: 17.04,
         notes:
           "1/8 inch mp, but lots of mushrooming and bits of soot coming off the flame. this is probably just too big.",
       },
       {
         whenStarted: "2020-09-06 22:00:00",
-        whenStarted: "2020-09-07 04:00:00",
+        whenStopped: "2020-09-07 04:00:00",
         stoppedWeightOunces: 15.7,
         notes:
           "shallow mp, 1/8 inch max. flame getting a bit large but seems fine and jar not  too hot. no soot. seems good actually.",
       },
       {
         whenStarted: "2020-09-08 13:30:00",
-        whenStarted: "2020-09-08 18:30:00",
+        whenStopped: "2020-09-08 18:30:00",
         stoppedWeightOunces: 14.67,
         notes:
           "too hot. flame large, some soot, 160 degree jar, medium mushrooming.",
@@ -9813,7 +9813,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-07 20:00:00",
-        whenStarted: "2020-09-08 01:45:00",
+        whenStopped: "2020-09-08 01:45:00",
         stoppedWeightOunces: 20.49,
         notes: "flames too small for the whole burn. full mp though.",
       },
@@ -9827,7 +9827,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-07 20:00:00",
-        whenStarted: "2020-09-08 01:45:00",
+        whenStopped: "2020-09-08 01:45:00",
         stoppedWeightOunces: 20.49,
         notes: "flames too small for the whole burn. full mp though.",
       },
@@ -9841,7 +9841,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-07 20:00:00",
-        whenStarted: "2020-09-08 01:45:00",
+        whenStopped: "2020-09-08 01:45:00",
         stoppedWeightOunces: 20.49,
         notes:
           "this looks surprisingly good also. up to 1/3 inch mp, and flames have looked healthy for the whole burn.",
@@ -9856,14 +9856,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-07 20:00:00",
-        whenStarted: "2020-09-08 01:45:00",
+        whenStopped: "2020-09-08 01:45:00",
         stoppedWeightOunces: 20.49,
         notes:
           "looks great, 1/4 inch mp, flames healthy, but i suspect it'll be too small at the top. test the 745 with a larger pour first.",
       },
       {
         whenStarted: "2020-09-08 11:30:00",
-        whenStarted: "2020-09-08 17:30:00",
+        whenStopped: "2020-09-08 17:30:00",
         stoppedWeightOunces: 19.75,
         notes:
           "1/4 inch mp, jar up to 145ish+, extinguished itself. looks pretty good.",
@@ -9878,14 +9878,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-07 20:00:00",
-        whenStarted: "2020-09-08 01:45:00",
+        whenStopped: "2020-09-08 01:45:00",
         stoppedWeightOunces: 20.49,
         notes:
           "1/3 inch mp, flames look great and jar not too hot. this is perfect and needs to be tested in a larger pour.",
       },
       {
         whenStarted: "2020-09-08 11:30:00",
-        whenStarted: "2020-09-08 18:30:00",
+        whenStopped: "2020-09-08 18:30:00",
         stoppedWeightOunces: 19.75,
         notes:
           "1/4+ inch mp, jar up to 155ish, extinguished itself. looks pretty good. a bit hot at the bottom.",
@@ -9900,7 +9900,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-07 20:00:00",
-        whenStarted: "2020-09-08 01:45:00",
+        whenStopped: "2020-09-08 01:45:00",
         stoppedWeightOunces: 20.49,
         notes: "flames too large, jar too hot. no soot though.",
       },
@@ -9914,14 +9914,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-07 20:00:00",
-        whenStarted: "2020-09-08 01:45:00",
+        whenStopped: "2020-09-08 01:45:00",
         stoppedWeightOunces: 20.49,
         notes:
           "looks surprisingly good and might be worth testing a larger jar. flames were slightly smaller than id hope for a little bit but they recovered at the bottom of the jar. jar not too hot, no soot, small mushrooming.",
       },
       {
         whenStarted: "2020-09-08 11:30:00",
-        whenStarted: "2020-09-08 18:30:00",
+        whenStopped: "2020-09-08 18:30:00",
         stoppedWeightOunces: 19.75,
         notes:
           "1/4 inch mp, jar up to 150ish, extinguished itself. looks pretty good. will be interesting to see how it does at the top.",
@@ -9937,40 +9937,40 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-11 10:50:00",
-        whenStarted: "2020-09-11 16:30:00",
+        whenStopped: "2020-09-11 16:30:00",
         stoppedWeightOunces: 29.56,
         notes: "nearly a full mp some mushrooming, but looks great.",
       },
       {
         whenStarted: "2020-09-11 21:00:00",
-        whenStarted: "2020-09-12 03:45:00",
+        whenStopped: "2020-09-12 03:45:00",
         stoppedWeightOunces: 27.48,
         notes: "not quite a full mp, but flames look good and no mushrooming.",
       },
       {
         whenStarted: "2020-09-12 20:00:00",
-        whenStarted: "2020-09-13 04:00:00",
+        whenStopped: "2020-09-13 04:00:00",
         stoppedWeightOunces: 25.5,
         notes:
           "1/16 to 1/8 inch mp. flames look great. no mushrooming jar not too hot.",
       },
       {
         whenStarted: "2020-09-14 10:00:00",
-        whenStarted: "2020-09-14 15:45:00",
+        whenStopped: "2020-09-14 15:45:00",
         stoppedWeightOunces: 23.99,
         notes:
           "1/3 inch mp. flames look good--maybe a little large. no soot. no mushrooming. jar up to 140 degrees. this is a pretty strong contender.",
       },
       {
         whenStarted: "2020-09-15 10:00:00",
-        whenStarted: "2020-09-15 15:00:00",
+        whenStopped: "2020-09-15 15:00:00",
         stoppedWeightOunces: 22.265,
         notes:
           "1/3 inch mp, jar up to 135, no mushrooming or soot. looks about perfect.",
       },
       {
         whenStarted: "2020-09-16 10:00:00",
-        whenStarted: "2020-09-17 00:30:00",
+        whenStopped: "2020-09-17 00:30:00",
         stoppedWeightOunces: 18.78,
         finished: true,
         notes:
@@ -9986,42 +9986,42 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-11 10:50:00",
-        whenStarted: "2020-09-11 16:30:00",
+        whenStopped: "2020-09-11 16:30:00",
         stoppedWeightOunces: 29.7,
         notes:
           "nearly a full mp some mushrooming, but looks great. actually slightly prefer this to the lx-12 first burn so far.",
       },
       {
         whenStarted: "2020-09-11 21:00:00",
-        whenStarted: "2020-09-12 03:45:00",
+        whenStopped: "2020-09-12 03:45:00",
         stoppedWeightOunces: 27.44,
         notes:
           "1/8 inch mp, flames look great but a little larger than i'd hope. No mushrooming.",
       },
       {
         whenStarted: "2020-09-12 20:00:00",
-        whenStarted: "2020-09-13 04:00:00",
+        whenStopped: "2020-09-13 04:00:00",
         stoppedWeightOunces: 25.11,
         notes:
           "1/8 inch mp, no mushrooming, flames look great. jar not too hot. this is excellent so far.",
       },
       {
         whenStarted: "2020-09-14 10:00:00",
-        whenStarted: "2020-09-14 15:45:00",
+        whenStopped: "2020-09-14 15:45:00",
         stoppedWeightOunces: 23.56,
         notes:
           "1/3 inch mp-. no mushrooming, flames a bit large, but fine. jar at 142. this is very similar to the cd-4 but probably slightly safer.",
       },
       {
         whenStarted: "2020-09-15 10:00:00",
-        whenStarted: "2020-09-15 15:00:00",
+        whenStopped: "2020-09-15 15:00:00",
         stoppedWeightOunces: 22.29,
         notes:
           "1/3 inch mp, jar up to 135, no mushrooming or soot. not too hot, flames look good. this is about perfect.",
       },
       {
         whenStarted: "2020-09-16 10:00:00",
-        whenStarted: "2020-09-16 23:10:00",
+        whenStopped: "2020-09-16 23:10:00",
         stoppedWeightOunces: 18.78,
         finished: true,
         notes:
@@ -10037,41 +10037,41 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-11 10:50:00",
-        whenStarted: "2020-09-11 16:30:00",
+        whenStopped: "2020-09-11 16:30:00",
         stoppedWeightOunces: 28.61,
         notes:
           "1/8 inch mp, plenty of mushrooming on one of the wicks. likes too hot for the top of the jar. but we'll see.",
       },
       {
         whenStarted: "2020-09-11 21:00:00",
-        whenStarted: "2020-09-12 03:45:00",
+        whenStopped: "2020-09-12 03:45:00",
         stoppedWeightOunces: 26.31,
         notes: "1/4 inch mp, flames look a little bit large, no mushrooming.",
       },
       {
         whenStarted: "2020-09-12 20:00:00",
-        whenStarted: "2020-09-13 04:00:00",
+        whenStopped: "2020-09-13 04:00:00",
         stoppedWeightOunces: 25.11,
         notes:
           "1/4 inch mp, no mushrooming, flames look a bit large maybe but its a long burn. jar not too hot.",
       },
       {
         whenStarted: "2020-09-14 10:00:00",
-        whenStarted: "2020-09-14 15:45:00",
+        whenStopped: "2020-09-14 15:45:00",
         stoppedWeightOunces: 22.1,
         notes:
           "1/3 inch mp, jar at 142+. flames look a bit larger than id like but no soot or mushrooming. seems fine.",
       },
       {
         whenStarted: "2020-09-15 10:00:00",
-        whenStarted: "2020-09-15 15:00:00",
+        whenStopped: "2020-09-15 15:00:00",
         stoppedWeightOunces: 22.29,
         notes:
           "1/2 inch mp, jar up to 150, but no mushrooming or soot. flames a bit large. probably too hot considering the cd-3 looks fine and is smaller.",
       },
       {
         whenStarted: "2020-09-16 10:00:00",
-        whenStarted: "2020-09-16 16:40:00",
+        whenStopped: "2020-09-16 16:40:00",
         stoppedWeightOunces: 18.66,
         notes:
           "mp over 1/2 inch. self extinguished. jar up to 150+, small amounts of soot deposited on the glass. probably okay, but not the best performer. prefer cd-3, p-740, lx-12.",
@@ -10087,42 +10087,42 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-11 10:50:00",
-        whenStarted: "2020-09-11 16:30:00",
+        whenStopped: "2020-09-11 16:30:00",
         stoppedWeightOunces: 29.14,
         notes:
           "full shallow mp, flames look great. slightly more melted than the cd-3.",
       },
       {
         whenStarted: "2020-09-11 21:00:00",
-        whenStarted: "2020-09-12 03:45:00",
+        whenStopped: "2020-09-12 03:45:00",
         stoppedWeightOunces: 27.23,
         notes:
           "1/8- inch mp, flames look great, no mushrooming. similar mp to the p-740",
       },
       {
         whenStarted: "2020-09-12 20:00:00",
-        whenStarted: "2020-09-13 04:00:00",
+        whenStopped: "2020-09-13 04:00:00",
         stoppedWeightOunces: 25.11,
         notes:
           "1/4 inch mp, no mushrooming, flames look great. jar not too hot.",
       },
       {
         whenStarted: "2020-09-14 10:00:00",
-        whenStarted: "2020-09-14 15:45:00",
+        whenStopped: "2020-09-14 15:45:00",
         stoppedWeightOunces: 23.74,
         notes:
           "1/3 to 1/2 inch mp, jar at 140+ degrees. no mushrooming, flames look good, no soot. very similar to the p-745 and p-740 but slightly less hot. this is excellent so far.",
       },
       {
         whenStarted: "2020-09-15 10:00:00",
-        whenStarted: "2020-09-15 15:00:00",
+        whenStopped: "2020-09-15 15:00:00",
         stoppedWeightOunces: 22.47,
         notes:
           "1/3 inch mp, jar up to 140, no mushrooming or soot. seems pretty great.",
       },
       {
         whenStarted: "2020-09-16 10:00:00",
-        whenStarted: "2020-09-17 00:30:00",
+        whenStopped: "2020-09-17 00:30:00",
         stoppedWeightOunces: 18.78,
         finished: true,
         notes:
@@ -10138,41 +10138,41 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-11 10:50:00",
-        whenStarted: "2020-09-11 16:30:00",
+        whenStopped: "2020-09-11 16:30:00",
         stoppedWeightOunces: 29.24,
         notes: "full shallow mp, flames look fine",
       },
       {
         whenStarted: "2020-09-11 21:00:00",
-        whenStarted: "2020-09-12 03:45:00",
+        whenStopped: "2020-09-12 03:45:00",
         stoppedWeightOunces: 27.48,
         notes:
           "1/8 inch mp, flames look great, no mushrooming. slightly shorter mp than the 745 but still good.",
       },
       {
         whenStarted: "2020-09-12 20:00:00",
-        whenStarted: "2020-09-13 04:00:00",
+        whenStopped: "2020-09-13 04:00:00",
         stoppedWeightOunces: 24.94,
         notes:
           "1/4 inch mp, no mushrooming, flames look great. jar not too hot. looks great.",
       },
       {
         whenStarted: "2020-09-14 10:00:00",
-        whenStarted: "2020-09-14 15:45:00",
+        whenStopped: "2020-09-14 15:45:00",
         stoppedWeightOunces: 23.95,
         notes:
           "1/3 to 1/2 inch mp, jar at 150 degrees. no mushrooming, flames look good, no soot. very similar to the p-745. p-735 is probably worth trying.",
       },
       {
         whenStarted: "2020-09-15 10:00:00",
-        whenStarted: "2020-09-15 15:00:00",
+        whenStopped: "2020-09-15 15:00:00",
         stoppedWeightOunces: 22.65,
         notes:
           "1/3 inch mp, jar up to 145, but no mushrooming or soot. like the 145, this MIGHT be a bit too hot. next couple of burns will be key. p-135 probably worth trying.",
       },
       {
         whenStarted: "2020-09-16 10:00:00",
-        whenStarted: "2020-09-16 20:00:00",
+        whenStopped: "2020-09-16 20:00:00",
         stoppedWeightOunces: 19.68,
         finished: true,
         notes:
@@ -10188,41 +10188,41 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-11 10:50:00",
-        whenStarted: "2020-09-11 16:30:00",
+        whenStopped: "2020-09-11 16:30:00",
         stoppedWeightOunces: 29.31,
         notes:
           "full shallow mp, flames look fine--a bit hotter than the 740 but in a good way.",
       },
       {
         whenStarted: "2020-09-11 21:00:00",
-        whenStarted: "2020-09-12 03:45:00",
+        whenStopped: "2020-09-12 03:45:00",
         stoppedWeightOunces: 27.2,
         notes: "1/8 inch mp, flames look great, no mushrooming.",
       },
       {
         whenStarted: "2020-09-12 20:00:00",
-        whenStarted: "2020-09-13 04:00:00",
+        whenStopped: "2020-09-13 04:00:00",
         stoppedWeightOunces: 24.94,
         notes:
           "1/4 inch mp, no mushrooming, but flames a bit large. jar up to upper 130s. maybe okay but possible a sign of too hot later. then again--long burn.",
       },
       {
         whenStarted: "2020-09-14 10:00:00",
-        whenStarted: "2020-09-14 15:45:00",
+        whenStopped: "2020-09-14 15:45:00",
         stoppedWeightOunces: 23.53,
         notes:
           "1/3 to 1/2 inch mp, jar at 150 degrees. no mushrooming, flames look good, no soot.",
       },
       {
         whenStarted: "2020-09-15 10:00:00",
-        whenStarted: "2020-09-15 15:00:00",
+        whenStopped: "2020-09-15 15:00:00",
         stoppedWeightOunces: 22.29,
         notes:
           "1/3 inch mp, jar up to 150, but no mushrooming or soot. likely a bit too hot. next couple of burns will be key.",
       },
       {
         whenStarted: "2020-09-16 10:00:00",
-        whenStarted: "2020-09-16 23:00:00",
+        whenStopped: "2020-09-16 23:00:00",
         stoppedWeightOunces: 18.66,
         finished: true,
         notes:
@@ -10239,28 +10239,28 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-11 10:50:00",
-        whenStarted: "2020-09-12 16:30:00",
+        whenStopped: "2020-09-12 16:30:00",
         stoppedWeightOunces: 29.59,
         notes:
           "not quite a full mp, flames a bit smaller than the other testers but okay for now.",
       },
       {
         whenStarted: "2020-09-11 21:00:00",
-        whenStarted: "2020-09-12 03:45:00",
+        whenStopped: "2020-09-12 03:45:00",
         stoppedWeightOunces: 27.2,
         notes:
           "not quite full mp, i feel like this might start tunneling in a couple burns. flames look fine and no mushrooming.",
       },
       {
         whenStarted: "2020-09-12 20:00:00",
-        whenStarted: "2020-09-13 04:00:00",
+        whenStopped: "2020-09-13 04:00:00",
         stoppedWeightOunces: 26.81,
         notes:
           "not quite full mp, flames a bit too small. this is just not hot enough. fail.",
       },
       {
         whenStarted: "2020-09-14 10:00:00",
-        whenStarted: "2020-09-14 15:45:00",
+        whenStopped: "2020-09-14 15:45:00",
         stoppedWeightOunces: 25.96,
         notes:
           "not full mp, flames too small. maybe htp73 or 83 would be worth trying. but who knows. fail.",
@@ -10275,33 +10275,33 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-11 21:00:00",
-        whenStarted: "2020-09-12 03:45:00",
+        whenStopped: "2020-09-12 03:45:00",
         stoppedWeightOunces: 18.52,
         notes: "full shallow mp, no mushrooming, flame looks good.",
       },
       {
         whenStarted: "2020-09-12 20:00:00",
-        whenStarted: "2020-09-13 04:00:00",
+        whenStopped: "2020-09-13 04:00:00",
         stoppedWeightOunces: 16.79,
         notes:
           "1/8 inch mp, not much mushrooming, jar not too hot, flame looks good.",
       },
       {
         whenStarted: "2020-09-14 10:00:00",
-        whenStarted: "2020-09-14 15:45:00",
+        whenStopped: "2020-09-14 15:45:00",
         stoppedWeightOunces: 15.8,
         notes:
           "1/8 inch mp-, jar up to 140 degrees. small mushrooming, but looks fine. no soot. slightly prefer this to the 770 just because of the jar temp. 765 probably worth trying even.",
       },
       {
         whenStarted: "2020-09-15 10:00:00",
-        whenStarted: "2020-09-15 15:00:00",
+        whenStopped: "2020-09-15 15:00:00",
         stoppedWeightOunces: 14.89,
         notes: "1/8+ inch mp, no soot, jar at 130, no mushrooming.",
       },
       {
         whenStarted: "2020-09-16 10:00:00",
-        whenStarted: "2020-09-16 18:00:00",
+        whenStopped: "2020-09-16 18:00:00",
         stoppedWeightOunces: 13.58,
         finished: true,
         notes:
@@ -10317,27 +10317,27 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-11 21:00:00",
-        whenStarted: "2020-09-12 03:45:00",
+        whenStopped: "2020-09-12 03:45:00",
         stoppedWeightOunces: 18.45,
         notes: "1/8 inch mp, no real mushrooming, flame looks good.",
       },
       {
         whenStarted: "2020-09-12 20:00:00",
-        whenStarted: "2020-09-13 04:00:00",
+        whenStopped: "2020-09-13 04:00:00",
         stoppedWeightOunces: 16.79,
         notes:
           "1/8 inch mp, not much mushrooming, jar not too hot, flame looks good.",
       },
       {
         whenStarted: "2020-09-14 10:00:00",
-        whenStarted: "2020-09-14 15:45:00",
+        whenStopped: "2020-09-14 15:45:00",
         stoppedWeightOunces: 15.73,
         notes:
           "1/8 inch mp+, but jar up to 150 degrees. some mushrooming, but mostly looks fine. no soot.",
       },
       {
         whenStarted: "2020-09-15 10:00:00",
-        whenStarted: "2020-09-15 15:00:00",
+        whenStopped: "2020-09-15 15:00:00",
         stoppedWeightOunces: 14.71,
         notes:
           "1/4 inch mp, a little bit of soot coming off the flame and deposited on the glass. jar at 135, medium mushrooming. stopping this test since the 767 is better",
@@ -10352,14 +10352,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-11 21:00:00",
-        whenStarted: "2020-09-12 03:45:00",
+        whenStopped: "2020-09-12 03:45:00",
         stoppedWeightOunces: 18.66,
         notes:
           "1/4 inch mp, jar getting fairly hot, GINORMOUS mushroom. like YUGE. probably a straight fail based on that alone.",
       },
       {
         whenStarted: "2020-09-12 20:00:00",
-        whenStarted: "2020-09-13 04:00:00",
+        whenStopped: "2020-09-13 04:00:00",
         stoppedWeightOunces: 17.0,
         notes:
           "1/3 inch mp, ginormous mushroom again. this is a fail at this point.",
@@ -10375,7 +10375,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-21 10:30:00",
-        whenStarted: "2020-09-21 23:59:59",
+        whenStopped: "2020-09-21 23:59:59",
         stoppedWeightOunces: 22.58,
         notes: "never quite full mp, flames too small. lx-14 worth trying.",
       },
@@ -10389,7 +10389,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-21 10:30:00",
-        whenStarted: "2020-09-21 23:59:59",
+        whenStopped: "2020-09-21 23:59:59",
         stoppedWeightOunces: 22.47,
         notes:
           "1/8 inch mp, but it took a while and there were periods of small flamess. flames a bit small now but actually tolerable. cd-4 might do better.",
@@ -10404,7 +10404,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-21 10:30:00",
-        whenStarted: "2020-09-21 23:59:59",
+        whenStopped: "2020-09-21 23:59:59",
         stoppedWeightOunces: 23.07,
         notes:
           "flames way too small and one self extinguished after drowning. these are nowhere close. maybe p-750+?",
@@ -10419,7 +10419,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-21 10:30:00",
-        whenStarted: "2020-09-21 23:59:59",
+        whenStopped: "2020-09-21 23:59:59",
         stoppedWeightOunces: 23.63,
         notes: "never quite full mp, flames way too small. eco-1 worth trying.",
       },
@@ -10433,7 +10433,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-21 10:30:00",
-        whenStarted: "2020-09-21 23:59:59",
+        whenStopped: "2020-09-21 23:59:59",
         stoppedWeightOunces: 23.07,
         notes: "never quite full mp, flames too small. htp-83s worth trying.",
       },
@@ -10448,7 +10448,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-21 10:30:00",
-        whenStarted: "2020-09-21 23:59:59",
+        whenStopped: "2020-09-21 23:59:59",
         stoppedWeightOunces: 15.56,
         notes:
           "tunneling, flame small. maybe a p-775 or p-780. skip the 770 bc this isn't even close.",
@@ -10463,7 +10463,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-21 10:30:00",
-        whenStarted: "2020-09-21 23:59:59",
+        whenStopped: "2020-09-21 23:59:59",
         stoppedWeightOunces: 14.71,
         notes:
           "1/8 inch mp, this has actually looked pretty good all burn. no mushrooming or soot glass not too hot. ",
@@ -10478,7 +10478,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-21 10:30:00",
-        whenStarted: "2020-09-21 23:59:59",
+        whenStopped: "2020-09-21 23:59:59",
         stoppedWeightOunces: 14.78,
         notes:
           "never quite a full mp, tunneling a bit. maybe an lx-20 or lx-22 would be better.",
@@ -10493,7 +10493,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-21 10:30:00",
-        whenStarted: "2020-09-21 23:59:59",
+        whenStopped: "2020-09-21 23:59:59",
         stoppedWeightOunces: 14.67,
         notes:
           "1/8 inch mp, flame looks fine, but this was a huge burn and it took a while to reach full mp. maybe an htp-104?",
@@ -10508,7 +10508,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-21 10:30:00",
-        whenStarted: "2020-09-21 23:59:59",
+        whenStopped: "2020-09-21 23:59:59",
         stoppedWeightOunces: 15.52,
         notes:
           "never quite a full mp even after a huge burn. flame looks okay though. so maybe a cd-8 or 9 would do better.",
@@ -10524,14 +10524,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-22 09:45:00",
-        whenStarted: "2020-09-22 17:35:00",
+        whenStopped: "2020-09-22 17:35:00",
         stoppedWeightOunces: 23.92,
         notes:
           "1/4 inch mp, but flames pretty small and one extinguished just moving the jar to the scale. probably a fail.",
       },
       {
         whenStarted: "2020-09-23 21:30:00",
-        whenStarted: "2020-09-24 02:05:00",
+        whenStopped: "2020-09-24 02:05:00",
         stoppedWeightOunces: 23.0,
         notes:
           "1/8 inch mp, but flames pretty small and one extinguished just moving the jar to the scale. confirmed fail.",
@@ -10546,14 +10546,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-22 09:45:00",
-        whenStarted: "2020-09-22 17:35:00",
+        whenStopped: "2020-09-22 17:35:00",
         stoppedWeightOunces: 22.3,
         notes:
           "1/3 inch mp, but flames a touch small to be ideal. looks okay, and a little bit better than th htp-83 even but very similar. maybe could benefit from less fo, or a cdn-5 or something?",
       },
       {
         whenStarted: "2020-09-23 21:30:00",
-        whenStarted: "2020-09-24 02:05:00",
+        whenStopped: "2020-09-24 02:05:00",
         stoppedWeightOunces: 22.19,
         notes: "1/4 inch mp, flames look pretty good. jar not hot, no soot.",
       },
@@ -10567,14 +10567,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-22 09:45:00",
-        whenStarted: "2020-09-22 17:35:00",
+        whenStopped: "2020-09-22 17:35:00",
         stoppedWeightOunces: 23.7,
         notes:
           "1/4 inch mp, but flames very small and the potential to drown is pretty high. probably a fail. the htp is similar but still much healthier flames so that one is okay.",
       },
       {
         whenStarted: "2020-09-23 21:30:00",
-        whenStarted: "2020-09-24 02:05:00",
+        whenStopped: "2020-09-24 02:05:00",
         stoppedWeightOunces: 22.88,
         notes:
           "1/4 inch mp, but flames extremely small and self extinguished whem moving to the scale. confirmed fail.",
@@ -10589,13 +10589,13 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-22 09:45:00",
-        whenStarted: "2020-09-22 17:35:00",
+        whenStopped: "2020-09-22 17:35:00",
         stoppedWeightOunces: 23.67,
         notes: "not a full mp, flames extremely small and drowning, fail.",
       },
       {
         whenStarted: "2020-09-23 21:30:00",
-        whenStarted: "2020-09-24 02:05:00",
+        whenStopped: "2020-09-24 02:05:00",
         stoppedWeightOunces: 22.88,
         notes: "not quite a full mp, and flames much too small. fail.",
       },
@@ -10609,14 +10609,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-22 09:45:00",
-        whenStarted: "2020-09-22 17:35:00",
+        whenStopped: "2020-09-22 17:35:00",
         stoppedWeightOunces: 22.3,
         notes:
           "1/3 inch mp, but flames a touch small to be ideal. looks okay, but maybe could benefit from less FO or something.",
       },
       {
         whenStarted: "2020-09-23 21:30:00",
-        whenStarted: "2020-09-24 02:05:00",
+        whenStopped: "2020-09-24 02:05:00",
         stoppedWeightOunces: 21.31,
         notes:
           "1/4 inch mp, but flames a little too small. the cd-4 is slightly better here. maybe an htp-93 is worth trying.",
@@ -10631,14 +10631,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-22 09:45:00",
-        whenStarted: "2020-09-22 17:35:00",
+        whenStopped: "2020-09-22 17:35:00",
         stoppedWeightOunces: 15.77,
         notes:
           "full shallow mp, flame looks great, no mushroom or soot. may need 777 or 780",
       },
       {
         whenStarted: "2020-09-23 21:30:00",
-        whenStarted: "2020-09-24 02:05:00",
+        whenStopped: "2020-09-24 02:05:00",
         stoppedWeightOunces: 15.13,
         notes:
           "not quite full mp, but flame looks good. bigger wick needed. 777 or 780.",
@@ -10653,14 +10653,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-22 09:45:00",
-        whenStarted: "2020-09-22 17:35:00",
+        whenStopped: "2020-09-22 17:35:00",
         stoppedWeightOunces: 15.77,
         notes:
           "full shallow mp, flame looks great, no mushroom, very tiny bit of soot from early in the burn but fine afterwards.",
       },
       {
         whenStarted: "2020-09-23 21:30:00",
-        whenStarted: "2020-09-24 02:05:00",
+        whenStopped: "2020-09-24 02:05:00",
         stoppedWeightOunces: 14.46,
         notes:
           "1/3 inch mp, flame a bit large at the bottom and bit of soot deposited. this is slightly overkill but maybe could be maintained with more active trimming.",
@@ -10675,14 +10675,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-22 09:45:00",
-        whenStarted: "2020-09-22 17:35:00",
+        whenStopped: "2020-09-22 17:35:00",
         stoppedWeightOunces: 15.38,
         notes:
           "1/8 inch mp, flame looks great, tiny bit of mushrooming no soot.",
       },
       {
         whenStarted: "2020-09-23 21:30:00",
-        whenStarted: "2020-09-24 02:05:00",
+        whenStopped: "2020-09-24 02:05:00",
         stoppedWeightOunces: 14.53,
         notes:
           "full shallow mp, flame looks good no soot. but i think i'd expect a deeper mp down here at the bottom after 4 hours.",
@@ -10697,14 +10697,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-22 09:45:00",
-        whenStarted: "2020-09-22 17:35:00",
+        whenStopped: "2020-09-22 17:35:00",
         stoppedWeightOunces: 15.8,
         notes:
           "1/8 inch mp, looks pretty good. tiny bit of mushrooming but flame looks great and no soot.",
       },
       {
         whenStarted: "2020-09-23 21:30:00",
-        whenStarted: "2020-09-24 02:05:00",
+        whenStopped: "2020-09-24 02:05:00",
         stoppedWeightOunces: 15.1,
         notes:
           "1/8 to 1/4 inch mp, flame looks great, no soot. this is a decent option.",
@@ -10719,14 +10719,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-22 09:45:00",
-        whenStarted: "2020-09-22 17:35:00",
+        whenStopped: "2020-09-22 17:35:00",
         stoppedWeightOunces: 15.77,
         notes:
           "full shallow mp, flame looks great, no mushroom or soot. may need a cd-9?",
       },
       {
         whenStarted: "2020-09-23 21:30:00",
-        whenStarted: "2020-09-24 02:05:00",
+        whenStopped: "2020-09-24 02:05:00",
         stoppedWeightOunces: 15.17,
         notes:
           "full shallow mp, flame looks good but prob should be hotter this far down. cdn-9, cd-9? maybe cdn-10? idk.",
@@ -10742,14 +10742,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-29 09:45:00",
-        whenStarted: "2020-09-29 18:45:00",
+        whenStopped: "2020-09-29 18:45:00",
         stoppedWeightOunces: 21.38,
         notes:
           "nearly an inch mp, all that remains. flames look fine--even a bit small. this is just like the lx-14 but was a little cooler throughout and now the flames are a bit smaller. cd-3 is the best prob. ",
       },
       {
         whenStarted: "2020-10-13 14:00:00",
-        whenStarted: "2020-10-13 11:00:00",
+        whenStopped: "2020-10-13 11:00:00",
         stoppedWeightOunces: 17.0,
         notes:
           "extinguished itself, mp less than 1/4 inch. great candle. no soot.",
@@ -10764,14 +10764,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-29 09:45:00",
-        whenStarted: "2020-09-29 18:45:00",
+        whenStopped: "2020-09-29 18:45:00",
         stoppedWeightOunces: 21.38,
         notes:
           "nearly an inch mp, all that remains. flames look fine and jar isn't too hot. but def can go a bit smaller here.",
       },
       {
         whenStarted: "2020-10-13 14:00:00",
-        whenStarted: "2020-10-13 11:00:00",
+        whenStopped: "2020-10-13 11:00:00",
         stoppedWeightOunces: 17.0,
         notes: "extinguished itself, mp 1/3 inch. soot on the glass. too hot.",
       },
@@ -10785,14 +10785,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-29 09:45:00",
-        whenStarted: "2020-09-29 18:45:00",
+        whenStopped: "2020-09-29 18:45:00",
         stoppedWeightOunces: 21.38,
         notes:
           "1/2+ inch mp, flames look great. probably better than the cd-4 and probably the best of all of them.",
       },
       {
         whenStarted: "2020-10-13 14:00:00",
-        whenStarted: "2020-10-13 11:00:00",
+        whenStopped: "2020-10-13 11:00:00",
         stoppedWeightOunces: 17.0,
         notes:
           "extinguished itself, mp less than 1/4 inch. fair amount of soot on the glass though.",
@@ -10807,14 +10807,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-29 09:45:00",
-        whenStarted: "2020-09-29 18:45:00",
+        whenStopped: "2020-09-29 18:45:00",
         stoppedWeightOunces: 21.38,
         notes:
           "3/4 inch mp, all that remains. flames look fine. jar hot but not that bad.",
       },
       {
         whenStarted: "2020-10-13 14:00:00",
-        whenStarted: "2020-10-13 11:00:00",
+        whenStopped: "2020-10-13 11:00:00",
         stoppedWeightOunces: 17.0,
         notes:
           "extinguished itself, mp 1/4 inch. too hot. cd-3 better. soot on the glass.",
@@ -10829,14 +10829,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-29 09:45:00",
-        whenStarted: "2020-09-29 18:45:00",
+        whenStopped: "2020-09-29 18:45:00",
         stoppedWeightOunces: 21.38,
         notes:
           "nearly an inch mp, just about all that remains. flames look wonderful, jar temp not too hot but was once hotter i believe. probably can go 745 or lower.",
       },
       {
         whenStarted: "2020-10-13 14:00:00",
-        whenStarted: "2020-10-13 11:00:00",
+        whenStopped: "2020-10-13 11:00:00",
         stoppedWeightOunces: 17.0,
         notes:
           "didn't quite finish burning, but jar did get too hot. needs a 745 or 740. this jar has a tiny bit of soot on the glass.",
@@ -10851,14 +10851,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-29 09:45:00",
-        whenStarted: "2020-09-29 18:45:00",
+        whenStopped: "2020-09-29 18:45:00",
         stoppedWeightOunces: 21.38,
         notes:
           "1/4 inch mp and flames look fine--just a bit smaller than expected. i think this is fine just could be hotter.",
       },
       {
         whenStarted: "2020-10-13 14:00:00",
-        whenStarted: "2020-10-13 11:00:00",
+        whenStopped: "2020-10-13 11:00:00",
         stoppedWeightOunces: 17.0,
         notes: "extinguished itself, mp about 1/3 inch. no soot.",
       },
@@ -10872,14 +10872,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-09-29 09:45:00",
-        whenStarted: "2020-09-29 18:45:00",
+        whenStopped: "2020-09-29 18:45:00",
         stoppedWeightOunces: 21.38,
         notes:
           "nearly an inch mp, all that remains. flames look fine and jar isn't too hot. but def can go a bit smaller here. htp-73?",
       },
       {
         whenStarted: "2020-10-13 14:00:00",
-        whenStarted: "2020-10-13 11:00:00",
+        whenStopped: "2020-10-13 11:00:00",
         stoppedWeightOunces: 17.0,
         notes: "extinguished itself, mp less than 1/4 inch. no soot.",
       },
@@ -10894,14 +10894,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-16 14:00:00",
-        whenStarted: "2020-10-16 17:45:00",
+        whenStopped: "2020-10-16 17:45:00",
         stoppedWeightOunces: 21.0,
         notes:
           "1/4 inch mp, flames a bit large and some soot, but wicks are leaning and were re-lit once. should wait to see how this does on the next burn. some soot coming off flame.",
       },
       {
         whenStarted: "2020-10-19 18:00:00",
-        whenStarted: "2020-10-20 02:10:00",
+        whenStopped: "2020-10-20 02:10:00",
         stoppedWeightOunces: 14.0,
         notes: "lots of soot. not good.",
       },
@@ -10915,21 +10915,21 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-16 14:00:00",
-        whenStarted: "2020-10-16 17:45:00",
+        whenStopped: "2020-10-16 17:45:00",
         stoppedWeightOunces: 21.0,
         notes:
           "1/4 inch mp, flames a tiny bit smaller than expected but looks pretty great.",
       },
       {
         whenStarted: "2020-10-18 21:30:00",
-        whenStarted: "2020-10-19 02:30:00",
+        whenStopped: "2020-10-19 02:30:00",
         stoppedWeightOunces: 19.0,
         notes:
           "1/4 inch mp, looks pretty good but flames a bit smaller than i'd like. the cdn-5 and the htp-93 are my favorites this burn.",
       },
       {
         whenStarted: "2020-10-19 18:00:00",
-        whenStarted: "2020-10-20 02:10:00",
+        whenStopped: "2020-10-20 02:10:00",
         stoppedWeightOunces: 14.0,
         notes:
           "bottom of the jar. looked pretty good throughout. flames never too big and jar never too hot. would be okay if it was a touch hotter tho.",
@@ -10944,7 +10944,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-16 14:00:00",
-        whenStarted: "2020-10-16 17:45:00",
+        whenStopped: "2020-10-16 17:45:00",
         stoppedWeightOunces: 21.0,
         notes:
           "not quite full mp, flames very small. fail. need bigger wick for dense fos like this?",
@@ -10959,19 +10959,19 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-16 14:00:00",
-        whenStarted: "2020-10-16 17:45:00",
+        whenStopped: "2020-10-16 17:45:00",
         stoppedWeightOunces: 21.0,
         notes: "1/4 inch mp to 1/3 inch mp, looks great. jar not too hot.",
       },
       {
         whenStarted: "2020-10-18 21:30:00",
-        whenStarted: "2020-10-19 02:30:00",
+        whenStopped: "2020-10-19 02:30:00",
         stoppedWeightOunces: 19.0,
         notes: "1/8 inch mp, flames a bit small and mp cloudy. too small.",
       },
       {
         whenStarted: "2020-10-19 18:00:00",
-        whenStarted: "2020-10-20 02:10:00",
+        whenStopped: "2020-10-20 02:10:00",
         stoppedWeightOunces: 14.0,
         notes:
           "bottom of the jar. had a period of muted flames before they picked back up. wasn't even trimmed before this burn. something not quite right about that.",
@@ -10986,19 +10986,19 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-16 14:00:00",
-        whenStarted: "2020-10-16 17:45:00",
+        whenStopped: "2020-10-16 17:45:00",
         stoppedWeightOunces: 21.0,
         notes: "1/3 inch mp, looks great.",
       },
       {
         whenStarted: "2020-10-18 21:30:00",
-        whenStarted: "2020-10-19 02:30:00",
+        whenStopped: "2020-10-19 02:30:00",
         stoppedWeightOunces: 19.0,
         notes: "1/4 inch mp, looks great. this and the htp-93",
       },
       {
         whenStarted: "2020-10-19 18:00:00",
-        whenStarted: "2020-10-20 02:10:00",
+        whenStopped: "2020-10-20 02:10:00",
         stoppedWeightOunces: 14.0,
         notes:
           "bottom of the jar. had a long period of muted flames before they picked back up. wasn't even trimmed before this burn. something not quite right about that.",
@@ -11013,14 +11013,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-16 14:00:00",
-        whenStarted: "2020-10-16 17:45:00",
+        whenStopped: "2020-10-16 17:45:00",
         stoppedWeightOunces: 21.0,
         notes:
           "1/3 inch mp, flames a bit large and jar on cusp of being too hot probably.",
       },
       {
         whenStarted: "2020-10-18 21:30:00",
-        whenStarted: "2020-10-19 02:30:00",
+        whenStopped: "2020-10-19 02:30:00",
         stoppedWeightOunces: 19.0,
         notes: "1/3 inch mp, a bit too hot and flames a bit too large",
       },
@@ -11034,14 +11034,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-16 14:00:00",
-        whenStarted: "2020-10-16 17:45:00",
+        whenStopped: "2020-10-16 17:45:00",
         stoppedWeightOunces: 21.0,
         notes:
           "1/3 inch mp, flames a bit large and jar on cusp of being too hot probably. this has a bit of soot.",
       },
       {
         whenStarted: "2020-10-18 21:30:00",
-        whenStarted: "2020-10-19 02:30:00",
+        whenStopped: "2020-10-19 02:30:00",
         stoppedWeightOunces: 19.0,
         notes: "1/2 inch mp, too hot. big flames. no soot tho.",
       },
@@ -11055,21 +11055,21 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-16 14:00:00",
-        whenStarted: "2020-10-16 17:45:00",
+        whenStopped: "2020-10-16 17:45:00",
         stoppedWeightOunces: 21.0,
         notes:
           "1/4 inch mp, looks great. flames look fine but maybe will be too large on future burns. TWT",
       },
       {
         whenStarted: "2020-10-18 21:30:00",
-        whenStarted: "2020-10-19 02:30:00",
+        whenStopped: "2020-10-19 02:30:00",
         stoppedWeightOunces: 19.0,
         notes:
           "1/4 inch mp, jar not too hot, looks perfect. this and the cdn-5 are the best it seems.",
       },
       {
         whenStarted: "2020-10-19 18:00:00",
-        whenStarted: "2020-10-20 02:10:00",
+        whenStopped: "2020-10-20 02:10:00",
         stoppedWeightOunces: 14.0,
         notes:
           "looked good throughout. this was the best tester for root beer in the lexington. no soot, not too hot, but healthy flames and 1/4+ inch mp.",
@@ -11085,14 +11085,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-23 10:00:00",
-        whenStarted: "2020-10-23 17:00:00",
+        whenStopped: "2020-10-23 17:00:00",
         stoppedWeightOunces: 17.0,
         notes:
           "1/8 inch mp throughout. jar never too hot. probably a bit small.",
       },
       {
         whenStarted: "2020-10-23 21:10:00",
-        whenStarted: "2020-10-24 02:15:00",
+        whenStopped: "2020-10-24 02:15:00",
         stoppedWeightOunces: 15.0,
         notes:
           "less than 1/8 inch mp. flames look fine, but mp somehow not deep enough. ideally should be hotter. maybe cd-4/cdn-5 would be better.",
@@ -11107,14 +11107,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-23 10:00:00",
-        whenStarted: "2020-10-23 17:00:00",
+        whenStopped: "2020-10-23 17:00:00",
         stoppedWeightOunces: 17.0,
         notes:
           "1/8 inch+ mp throughout. jar never too hot. probably a bit small also. not much different than the LX-12.",
       },
       {
         whenStarted: "2020-10-23 21:10:00",
-        whenStarted: "2020-10-24 02:15:00",
+        whenStopped: "2020-10-24 02:15:00",
         stoppedWeightOunces: 15.0,
         notes:
           "1/8 inch mp, even smaller at the bottom of the jar. flames look okay, but somehow it's just not hot enough.",
@@ -11129,14 +11129,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-23 10:00:00",
-        whenStarted: "2020-10-23 17:00:00",
+        whenStopped: "2020-10-23 17:00:00",
         stoppedWeightOunces: 17.0,
         notes:
           "1/3 inch mp throughout. jar up to 155 at the worst which is probably okay. not much different than the htp-93, weirdly hotter at times but maybe due to wick spacing.",
       },
       {
         whenStarted: "2020-10-23 21:10:00",
-        whenStarted: "2020-10-24 02:15:00",
+        whenStopped: "2020-10-24 02:15:00",
         stoppedWeightOunces: 15.0,
         notes:
           "1/3 inch mp max, high 150s jar. some soot but okay. this wasn't trimmed while the 93 was a bit which probably explains the descrepancy.",
@@ -11151,14 +11151,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-23 10:00:00",
-        whenStarted: "2020-10-23 17:00:00",
+        whenStopped: "2020-10-23 17:00:00",
         stoppedWeightOunces: 17.0,
         notes:
           "1/3 inch mp throughout. jar up to 155 at the worst which is probably okay. not much different than the htp-83",
       },
       {
         whenStarted: "2020-10-23 21:10:00",
-        whenStarted: "2020-10-24 02:15:00",
+        whenStopped: "2020-10-24 02:15:00",
         stoppedWeightOunces: 15.0,
         notes: "1/3 inch mp max, high 150+ jar. maybe a touch of soot.",
       },
@@ -11173,19 +11173,19 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-22 14:00:00",
-        whenStarted: "2020-10-22 19:00:00",
+        whenStopped: "2020-10-22 19:00:00",
         stoppedWeightOunces: 23.0,
         notes: "1/8 inch mp, flames okay, but a tiny bit smaller than expected",
       },
       {
         whenStarted: "2020-10-23 18:00:00",
-        whenStarted: "2020-10-24 02:05:00",
+        whenStopped: "2020-10-24 02:05:00",
         stoppedWeightOunces: 19.0,
         notes: "1/4 inch mp, looks good, not too hot",
       },
       {
         whenStarted: "2020-10-23 15:00:00",
-        whenStarted: "2020-10-24 18:50:00",
+        whenStopped: "2020-10-24 18:50:00",
         stoppedWeightOunces: 17.0,
         notes: "1/4 inch mp-, flames a bit small. too cool.",
       },
@@ -11199,20 +11199,20 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-22 14:00:00",
-        whenStarted: "2020-10-22 19:00:00",
+        whenStopped: "2020-10-22 19:00:00",
         stoppedWeightOunces: 23.0,
         notes: "1/4 inch mp, looks good. not too hot.",
       },
       {
         whenStarted: "2020-10-23 18:00:00",
-        whenStarted: "2020-10-24 02:05:00",
+        whenStopped: "2020-10-24 02:05:00",
         stoppedWeightOunces: 19.0,
         notes:
           "1/4 inch mp, looks good, not too hot--maybe very slightly better than the lx-12",
       },
       {
         whenStarted: "2020-10-23 15:00:00",
-        whenStarted: "2020-10-24 18:50:00",
+        whenStopped: "2020-10-24 18:50:00",
         stoppedWeightOunces: 17.0,
         notes:
           "1/4 inch mp, flames look good though. jar not hot. this is the best and its a pretty strong option.",
@@ -11227,20 +11227,20 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-22 14:00:00",
-        whenStarted: "2020-10-22 19:00:00",
+        whenStopped: "2020-10-22 19:00:00",
         stoppedWeightOunces: 23.0,
         notes: "1/3 inch mp, looks good, not too hot.",
       },
       {
         whenStarted: "2020-10-23 18:00:00",
-        whenStarted: "2020-10-24 02:05:00",
+        whenStopped: "2020-10-24 02:05:00",
         stoppedWeightOunces: 19.0,
         notes:
           "1/4 inch mp, looks good, not too hot. more like the lx-12 than the lx-14. slightly cooler than id like.",
       },
       {
         whenStarted: "2020-10-23 15:00:00",
-        whenStarted: "2020-10-24 18:50:00",
+        whenStopped: "2020-10-24 18:50:00",
         stoppedWeightOunces: 17.0,
         notes: "1/4 inch mp, flames a bit small. too cool.",
       },
@@ -11254,20 +11254,20 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-22 14:00:00",
-        whenStarted: "2020-10-22 19:00:00",
+        whenStopped: "2020-10-22 19:00:00",
         stoppedWeightOunces: 23.0,
         notes: "1/3 inch mp, looks good, not too hot.",
       },
       {
         whenStarted: "2020-10-23 18:00:00",
-        whenStarted: "2020-10-24 02:05:00",
+        whenStopped: "2020-10-24 02:05:00",
         stoppedWeightOunces: 19.0,
         notes:
           "1/3 inch mp, looks good, flames a bit wild but its near the bottom. no soot but jar at 160. wicks were trimmed also. a bit too hot IMO",
       },
       {
         whenStarted: "2020-10-24 15:00:00",
-        whenStarted: "2020-10-24 18:50:00",
+        whenStopped: "2020-10-24 18:50:00",
         stoppedWeightOunces: 17.0,
         notes:
           "1/3 inch mp, bit of soot on the glass and jar up to 170. wicks were trimmed prior to lighting. too hot.",
@@ -11283,7 +11283,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-25 21:00:00",
-        whenStarted: "2020-10-26 01:45:00",
+        whenStopped: "2020-10-26 01:45:00",
         stoppedWeightOunces: 23.0,
         notes:
           "1/4 inch mp, flames look pretty good. this is probably my favorite of this bunch.",
@@ -11291,7 +11291,7 @@ module.exports = [
       // missing burn but it looked good
       {
         whenStarted: "2020-10-28 10:00:00",
-        whenStarted: "2020-10-28 13:30:00",
+        whenStopped: "2020-10-28 13:30:00",
         stoppedWeightOunces: 17.0,
         notes:
           "extinguished itself, very little obvious soot. looks fine. i hear htps are changing which makes me lean toward the lx-12.",
@@ -11306,21 +11306,21 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-25 21:00:00",
-        whenStarted: "2020-10-26 01:45:00",
+        whenStopped: "2020-10-26 01:45:00",
         stoppedWeightOunces: 23.0,
         notes:
           "full shallow mp, flames a bit small. too small likely. lx-12 is the best here and maybe a smaller htp like 73",
       },
       {
         whenStarted: "2020-10-26 14:00:00",
-        whenStarted: "2020-10-27 02:00:00",
+        whenStopped: "2020-10-27 02:00:00",
         stoppedWeightOunces: 18.0,
         notes:
           "1/3 inch mp, flames healthy and everything looks wonderful. weird that it was too shallow at half full.",
       },
       {
         whenStarted: "2020-10-28 10:00:00",
-        whenStarted: "2020-10-28 13:30:00",
+        whenStopped: "2020-10-28 13:30:00",
         stoppedWeightOunces: 17.0,
         notes:
           "extinguished itself, very little obvious soot. looks fine. i hear htps are changing which makes me lean toward the lx-12.",
@@ -11335,21 +11335,21 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-25 21:00:00",
-        whenStarted: "2020-10-26 01:45:00",
+        whenStopped: "2020-10-26 01:45:00",
         stoppedWeightOunces: 23.0,
         notes:
           "1/3 inch mp, flames a bit smaller than the lx-12. not my favorite but not bad.",
       },
       {
         whenStarted: "2020-10-26 14:00:00",
-        whenStarted: "2020-10-27 02:00:00",
+        whenStopped: "2020-10-27 02:00:00",
         stoppedWeightOunces: 18.0,
         notes:
           "1/4 inch mp, but flames are dying down and mp is sort of dark. not good.",
       },
       {
         whenStarted: "2020-10-28 10:00:00",
-        whenStarted: "2020-10-28 13:30:00",
+        whenStopped: "2020-10-28 13:30:00",
         stoppedWeightOunces: 17.0,
         notes:
           "extinguished itself, very little obvious soot. looks fine. i hear htps are changing which makes me lean toward the lx-12.",
@@ -11364,20 +11364,20 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-25 21:00:00",
-        whenStarted: "2020-10-26 01:45:00",
+        whenStopped: "2020-10-26 01:45:00",
         stoppedWeightOunces: 23.0,
         notes:
           "nearly 1/2 inch mp. flames a bit larger than id like but not bad. no obvious soot, jar 140. small amount of mushrooming on one wick. htp-73 worth trying probably.",
       },
       {
         whenStarted: "2020-10-26 14:00:00",
-        whenStarted: "2020-10-27 02:00:00",
+        whenStopped: "2020-10-27 02:00:00",
         stoppedWeightOunces: 18.0,
         notes: "1/3 inch mp, jar never much more than 150. looks good.",
       },
       {
         whenStarted: "2020-10-28 10:00:00",
-        whenStarted: "2020-10-28 13:30:00",
+        whenStopped: "2020-10-28 13:30:00",
         stoppedWeightOunces: 17.0,
         notes:
           "extinguished itself, very little obvious soot. looks fine. i hear htps are changing which makes me lean toward the lx-12.",
@@ -11393,7 +11393,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-29 12:00:00",
-        whenStarted: "2020-10-29 20:30:00",
+        whenStopped: "2020-10-29 20:30:00",
         stoppedWeightOunces: 19.0,
         notes:
           "1/4 inch mp, jar under 135. looks great. but maybe the lx-14 is preferable?",
@@ -11408,7 +11408,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-29 12:00:00",
-        whenStarted: "2020-10-29 20:30:00",
+        whenStopped: "2020-10-29 20:30:00",
         stoppedWeightOunces: 19.0,
         notes: "1/3 inch mp, jar under 145. looks great.",
       },
@@ -11422,7 +11422,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-29 12:00:00",
-        whenStarted: "2020-10-29 20:30:00",
+        whenStopped: "2020-10-29 20:30:00",
         stoppedWeightOunces: 19.0,
         notes:
           "1/3 inch mp, jar under 150, tiny bit of soot on the glass. mushrooms burned away on their own.",
@@ -11437,7 +11437,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-29 12:00:00",
-        whenStarted: "2020-10-29 20:30:00",
+        whenStopped: "2020-10-29 20:30:00",
         stoppedWeightOunces: 19.0,
         notes:
           "1/8 inch mp, jar at 135, but started pretty slow. might be too cool of wicks for the upper half.",
@@ -11453,19 +11453,19 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-29 20:30:00",
-        whenStarted: "2020-10-30 12:40:00",
+        whenStopped: "2020-10-30 12:40:00",
         stoppedWeightOunces: 19.0,
         notes: "1/4+ inch mp, but flames a bit smaller than i'd hope.",
       },
       {
         whenStarted: "2020-10-30 11:00:00",
-        whenStarted: "2020-10-30 19:15:00",
+        whenStopped: "2020-10-30 19:15:00",
         stoppedWeightOunces: 17.0,
         notes: "1/3 inch mp, and flames a little small but okay.",
       },
       {
         whenStarted: "2020-11-01 20:30:00",
-        whenStarted: "2020-11-02 02:15:00",
+        whenStopped: "2020-11-02 02:15:00",
         stoppedWeightOunces: 16.0,
         notes: "1/4 inch mp, flames look fine, jar not hot. mp a bit cloudy.",
       },
@@ -11479,20 +11479,20 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-29 20:30:00",
-        whenStarted: "2020-10-30 12:40:00",
+        whenStopped: "2020-10-30 12:40:00",
         stoppedWeightOunces: 19.0,
         notes:
           "1/3+ inch mp, but flames totally under control. curious to see how this continues.",
       },
       {
         whenStarted: "2020-10-30 11:00:00",
-        whenStarted: "2020-10-30 19:15:00",
+        whenStopped: "2020-10-30 19:15:00",
         stoppedWeightOunces: 17.0,
         notes: "1/3 inch mp, and falmes a little small but okay.",
       },
       {
         whenStarted: "2020-11-01 20:30:00",
-        whenStarted: "2020-11-02 02:15:00",
+        whenStopped: "2020-11-02 02:15:00",
         stoppedWeightOunces: 16.0,
         notes: "1/4 inch mp, flames look fine, jar not hot.",
       },
@@ -11506,19 +11506,19 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-29 20:30:00",
-        whenStarted: "2020-10-30 12:40:00",
+        whenStopped: "2020-10-30 12:40:00",
         stoppedWeightOunces: 19.0,
         notes: "1/3 inch mp, but flames just a touch small.",
       },
       {
         whenStarted: "2020-10-30 11:00:00",
-        whenStarted: "2020-10-30 19:15:00",
+        whenStopped: "2020-10-30 19:15:00",
         stoppedWeightOunces: 17.0,
         notes: "1/3 inch mp and flames look fine actually. jar not hot.",
       },
       {
         whenStarted: "2020-11-01 20:30:00",
-        whenStarted: "2020-11-02 02:15:00",
+        whenStopped: "2020-11-02 02:15:00",
         stoppedWeightOunces: 16.0,
         notes: "1/4 inch mp, flames look fine, jar not hot. mp a bit cloudy.",
       },
@@ -11532,19 +11532,19 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-10-29 20:30:00",
-        whenStarted: "2020-10-30 12:40:00",
+        whenStopped: "2020-10-30 12:40:00",
         stoppedWeightOunces: 19.0,
         notes: "1/4 inch mp, but flames fairly small.",
       },
       {
         whenStarted: "2020-10-30 11:00:00",
-        whenStarted: "2020-10-30 19:15:00",
+        whenStopped: "2020-10-30 19:15:00",
         stoppedWeightOunces: 17.0,
         notes: "1/3 to 1/2 inch mp, but flames a bit muted and jar not hot.",
       },
       {
         whenStarted: "2020-11-01 20:30:00",
-        whenStarted: "2020-11-02 02:15:00",
+        whenStopped: "2020-11-02 02:15:00",
         stoppedWeightOunces: 16.0,
         notes: "1/3 inch mp, flames look pretty good, jar not hot",
       },
@@ -11559,13 +11559,13 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-11-04 17:00:00",
-        whenStarted: "2020-11-05 12:45:00",
+        whenStopped: "2020-11-05 12:45:00",
         stoppedWeightOunces: 23.0,
         notes: "1/4 inch mp all burn. flames look fine. never super large.",
       },
       {
         whenStarted: "2020-11-05 11:00:00",
-        whenStarted: "2020-11-05 17:15:00",
+        whenStopped: "2020-11-05 17:15:00",
         stoppedWeightOunces: 21.0,
         notes:
           "1/4 inch mp, flames look fine, jar not too hot. probably great, but could be hotter?",
@@ -11580,14 +11580,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-11-04 17:00:00",
-        whenStarted: "2020-11-05 12:45:00",
+        whenStopped: "2020-11-05 12:45:00",
         stoppedWeightOunces: 23.0,
         notes:
           "1/4 inch mp the whole time, flames look fine, never super large and similar to the lx-12, but slight mushrooming. a little hotter than the lx-12 too.",
       },
       {
         whenStarted: "2020-11-05 11:00:00",
-        whenStarted: "2020-11-05 17:15:00",
+        whenStopped: "2020-11-05 17:15:00",
         stoppedWeightOunces: 21.0,
         notes:
           "1/3 inch mp, surprisingly not that hot but it was pushing 150+ at one point i believe. looks great.",
@@ -11602,14 +11602,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-11-04 17:00:00",
-        whenStarted: "2020-11-05 12:45:00",
+        whenStopped: "2020-11-05 12:45:00",
         stoppedWeightOunces: 23.0,
         notes:
           "1/3 to 1/2 inch mp, jar pretty hot at 140-145. flames look fine so far though.",
       },
       {
         whenStarted: "2020-11-05 11:00:00",
-        whenStarted: "2020-11-05 17:15:00",
+        whenStopped: "2020-11-05 17:15:00",
         stoppedWeightOunces: 21.0,
         notes:
           "2/3 inch mp, rest of jar, was pushing 150 at one point but its okay now.",
@@ -11624,13 +11624,13 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-11-04 17:00:00",
-        whenStarted: "2020-11-05 12:45:00",
+        whenStopped: "2020-11-05 12:45:00",
         stoppedWeightOunces: 23.0,
         notes: "1/4 inch mp, but fairly cool the full burn.",
       },
       {
         whenStarted: "2020-11-05 11:00:00",
-        whenStarted: "2020-11-05 17:15:00",
+        whenStopped: "2020-11-05 17:15:00",
         stoppedWeightOunces: 21.0,
         notes: "1/4 inch mp, flames look fine but should be hotter.",
       },
@@ -11645,14 +11645,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-11-05 11:00:00",
-        whenStarted: "2020-11-05 17:15:00",
+        whenStopped: "2020-11-05 17:15:00",
         stoppedWeightOunces: 21.0,
         notes:
           "1/3 inch mp, flames look fine, maybe a touch small. jar under 130. definitely no soot. looks great.",
       },
       {
         whenStarted: "2020-11-06 21:00:00",
-        whenStarted: "2020-11-07 03:30:00",
+        whenStopped: "2020-11-07 03:30:00",
         stoppedWeightOunces: 20.0,
         notes: "1/3 inch mp, flames look fine, not too hot, no soot.",
       },
@@ -11666,14 +11666,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-11-05 11:00:00",
-        whenStarted: "2020-11-05 17:15:00",
+        whenStopped: "2020-11-05 17:15:00",
         stoppedWeightOunces: 21.0,
         notes:
           "1/3+ inch mp, jar at 140+, maybe a tiny bit of soot hard to say. looks fine, but a bit too hot probably.",
       },
       {
         whenStarted: "2020-11-06 21:00:00",
-        whenStarted: "2020-11-07 03:30:00",
+        whenStopped: "2020-11-07 03:30:00",
         stoppedWeightOunces: 20.0,
         notes:
           "1/3 inch mp, jar up to 145. flameslarge but fine. no obvious soot but maybe some on the glass?",
@@ -11688,13 +11688,13 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-11-05 11:00:00",
-        whenStarted: "2020-11-05 17:15:00",
+        whenStopped: "2020-11-05 17:15:00",
         stoppedWeightOunces: 21.0,
         notes: "1/4 inch mp, looks great. not too hot at 130ish.",
       },
       {
         whenStarted: "2020-11-06 21:00:00",
-        whenStarted: "2020-11-07 03:30:00",
+        whenStopped: "2020-11-07 03:30:00",
         stoppedWeightOunces: 20.0,
         notes: "1/4 inch mp, looks great.",
       },
@@ -11708,13 +11708,13 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-11-06 11:00:00",
-        whenStarted: "2020-11-06 17:15:00",
+        whenStopped: "2020-11-06 17:15:00",
         stoppedWeightOunces: 23.0,
         notes: "1/8 inch mp, but flames look great. looks fine.",
       },
       {
         whenStarted: "2020-11-06 21:00:00",
-        whenStarted: "2020-11-07 03:30:00",
+        whenStopped: "2020-11-07 03:30:00",
         stoppedWeightOunces: 20.0,
         notes: "1/4 inch mp, but jar is not hot enough. a bit cloudy.",
       },
@@ -11729,13 +11729,13 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-12-04 09:00:00",
-        whenStarted: "2020-12-04 14:21:00",
+        whenStopped: "2020-12-04 14:21:00",
         stoppedWeightOunces: 23.28,
         notes: "1/4 inch mp, no mushrooming, looks fine. maybe a bit cool",
       },
       {
         whenStarted: "2020-12-04 09:00:00",
-        whenStarted: "2020-12-04 14:21:00",
+        whenStopped: "2020-12-04 14:21:00",
         stoppedWeightOunces: 23.28,
         notes:
           "1/2 inch mp, jar up to 145+. its okay. but a bit hot surprisingly.",
@@ -11750,13 +11750,13 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-12-04 09:00:00",
-        whenStarted: "2020-12-04 14:21:00",
+        whenStopped: "2020-12-04 14:21:00",
         stoppedWeightOunces: 23.28,
         notes: "1/2 inch mp, jar near 150, lots of mushrooming, too hot.",
       },
       {
         whenStarted: "2020-12-04 09:00:00",
-        whenStarted: "2020-12-04 14:21:00",
+        whenStopped: "2020-12-04 14:21:00",
         stoppedWeightOunces: 23.28,
         notes: "1/2 inch mp, jar up to 150+. some soot. too hot.",
       },
@@ -11770,14 +11770,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-12-04 09:00:00",
-        whenStarted: "2020-12-04 14:21:00",
+        whenStopped: "2020-12-04 14:21:00",
         stoppedWeightOunces: 23.28,
         notes:
           "1/4 inch mp, looks great. no mushrooming. probably as good as lx-12",
       },
       {
         whenStarted: "2020-12-04 09:00:00",
-        whenStarted: "2020-12-04 14:21:00",
+        whenStopped: "2020-12-04 14:21:00",
         stoppedWeightOunces: 23.28,
         notes:
           "1/4 inch mp, jar under 140. looks great. this. and the lx-12 are best. this may even be better down here.",
@@ -11792,13 +11792,13 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-12-04 09:00:00",
-        whenStarted: "2020-12-04 14:21:00",
+        whenStopped: "2020-12-04 14:21:00",
         stoppedWeightOunces: 23.28,
         notes: "1/2 inch mp, a bit hot. some mushrooming.",
       },
       {
         whenStarted: "2020-12-04 09:00:00",
-        whenStarted: "2020-12-04 14:21:00",
+        whenStopped: "2020-12-04 14:21:00",
         stoppedWeightOunces: 23.28,
         notes: "1/3 inch mp, jar 140 all around. a bit hot.",
       },
@@ -11812,14 +11812,14 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-12-04 09:00:00",
-        whenStarted: "2020-12-04 14:21:00",
+        whenStopped: "2020-12-04 14:21:00",
         stoppedWeightOunces: 23.28,
         notes:
           "1/3 inch mp, jar up to near 140 at the worst. looks excellent. best of the bunch on this first burn.",
       },
       {
         whenStarted: "2020-12-04 09:00:00",
-        whenStarted: "2020-12-04 14:21:00",
+        whenStopped: "2020-12-04 14:21:00",
         stoppedWeightOunces: 23.28,
         notes: "1/3 inch mp, jar up to 140+. looks great.",
       },
@@ -11833,13 +11833,13 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-12-04 09:00:00",
-        whenStarted: "2020-12-04 14:21:00",
+        whenStopped: "2020-12-04 14:21:00",
         stoppedWeightOunces: 23.28,
         notes: "1/2 inch mp, jar up to 140. looks fine, maybe a bit hot.",
       },
       {
         whenStarted: "2020-12-04 09:00:00",
-        whenStarted: "2020-12-05 14:21:00",
+        whenStopped: "2020-12-05 14:21:00",
         stoppedWeightOunces: 23.28,
         notes: "1/2 inch mp, jar up to 150. probably a bit hot still",
       },
@@ -11853,7 +11853,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-12-09 11:00:00",
-        whenStarted: "2020-12-10 02:30:00",
+        whenStopped: "2020-12-10 02:30:00",
         stoppedWeightOunces: 27.2,
         notes:
           "full mp within first 4 hours, never much deeper than 1/4 inch, jar never hot and flames always look healthy. this is great. the dye on this candle was much more diffuse on top because it was added when the wax was still liquid.",
@@ -11868,7 +11868,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-12-09 11:00:00",
-        whenStarted: "2020-12-10 02:30:00",
+        whenStopped: "2020-12-10 02:30:00",
         stoppedWeightOunces: 28.25,
         notes:
           "never quite a full mp, but the flames are fine and this isn't so bad. this had much more dye than the one above on the top. it may perform better tomorrow.",
@@ -11883,7 +11883,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-12-09 11:00:00",
-        whenStarted: "2020-12-10 02:30:00",
+        whenStopped: "2020-12-10 02:30:00",
         stoppedWeightOunces: 29.24,
         notes:
           "never a full mp, tunneling. way too much dye on the top clogging things. flames pretty muted.",
@@ -11898,7 +11898,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-12-09 11:00:00",
-        whenStarted: "2020-12-10 02:30:00",
+        whenStopped: "2020-12-10 02:30:00",
         stoppedWeightOunces: 27.48,
         notes:
           "never quite full mp, but getting close. this one had too much dye on the top but less than the second lx-12 and the other cdn-4. this is probably going to turn out fine.",
