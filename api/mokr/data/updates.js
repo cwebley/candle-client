@@ -11853,9 +11853,10 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-12-09 11:00:00",
-        whenStarted: "2020-12-10 01:30:00",
-        stoppedWeightOunces: 23.28,
-        notes: "",
+        whenStarted: "2020-12-10 02:30:00",
+        stoppedWeightOunces: 27.2,
+        notes:
+          "full mp within first 4 hours, never much deeper than 1/4 inch, jar never hot and flames always look healthy. this is great. the dye on this candle was much more diffuse on top because it was added when the wax was still liquid.",
       },
     ],
   },
@@ -11867,9 +11868,10 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-12-09 11:00:00",
-        whenStarted: "2020-12-10 01:30:00",
-        stoppedWeightOunces: 23.28,
-        notes: "",
+        whenStarted: "2020-12-10 02:30:00",
+        stoppedWeightOunces: 28.25,
+        notes:
+          "never quite a full mp, but the flames are fine and this isn't so bad. this had much more dye than the one above on the top. it may perform better tomorrow.",
       },
     ],
   },
@@ -11881,9 +11883,10 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-12-09 11:00:00",
-        whenStarted: "2020-12-10 01:30:00",
-        stoppedWeightOunces: 23.28,
-        notes: "",
+        whenStarted: "2020-12-10 02:30:00",
+        stoppedWeightOunces: 29.24,
+        notes:
+          "never a full mp, tunneling. way too much dye on the top clogging things. flames pretty muted.",
       },
     ],
   },
@@ -11895,9 +11898,10 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-12-09 11:00:00",
-        whenStarted: "2020-12-10 01:30:00",
-        stoppedWeightOunces: 23.28,
-        notes: "",
+        whenStarted: "2020-12-10 02:30:00",
+        stoppedWeightOunces: 27.48,
+        notes:
+          "never quite full mp, but getting close. this one had too much dye on the top but less than the second lx-12 and the other cdn-4. this is probably going to turn out fine.",
       },
     ],
   },
