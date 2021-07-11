@@ -42,6 +42,7 @@ function BlendItemDialog({
   onAddItem,
   onEditItem,
   itemTypes,
+  targetWeightOunces,
   targetWeightPounds,
   previouslySubmittedBlendItems = [],
   //   getItemWeightSuggestion,
@@ -51,23 +52,23 @@ function BlendItemDialog({
 }) {
   const [percentOfBlend, setPercentOfBlend] = useState(null);
 
-  let weightInputProps = { name: "weightPounds", step: "0.01" };
+  let weightInputProps = { name: "weightOunces", step: "0.01" };
 
   const getItemWeightSuggestion = () => {
-    if (!targetWeightPounds) {
+    if (!targetWeightOunces) {
       return;
     }
 
     let suggestedWeightPounds;
 
     const blendDecimal = parseFloat(percentOfBlend || 100) / 100;
-    suggestedWeightPounds = blendDecimal * targetWeightPounds;
+    suggestedWeightPounds = blendDecimal * targetWeightOunces;
 
     if (values.combineId) {
       const previousWeightOfCombination = previouslySubmittedBlendItems
         .map((item, index) => {
           return item.combineId === values.combineId && index !== editItemIndex
-            ? parseFloat(item.weightPounds)
+            ? parseFloat(item.weightOunces)
             : 0;
         })
         .reduce((acc, val) => (acc += val), 0);
@@ -188,13 +189,13 @@ function BlendItemDialog({
           <TextField
             className={classes.textField}
             label="Weight"
-            value={values.weightPounds || ""}
+            value={values.weightOunces || ""}
             type="number"
             required
             onChange={onChange}
             placeholder={getItemWeightSuggestion()}
             InputProps={{
-              endAdornment: <InputAdornment position="end">lbs</InputAdornment>,
+              endAdornment: <InputAdornment position="end">oz</InputAdornment>,
               inputProps: weightInputProps,
             }}
           />

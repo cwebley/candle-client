@@ -8,16 +8,16 @@ module.exports = function getCandle(req, res) {
     {
       hashId: req.params.id,
     },
-    (err, candles) => {
+    (err, candleResult) => {
       if (err) {
         return res.status(500).send({ message: "Internal service error" });
       }
-      if (!candles || !candles.length) {
+      if (!candleResult) {
         return res
           .status(404)
           .send({ message: `Candle ${req.params.id} not found` });
       }
-      const candleResult = candles[0];
+      // const candleResult = candles[0];
 
       getCandleBurns(req.db, { candleId: candleResult.id }, (err, burns) => {
         if (err) {
@@ -123,7 +123,8 @@ module.exports = function getCandle(req, res) {
                 layerToBatchPercentage
               );
               db.layerWeightOunces =
-                Math.round(100 * db.weightOunces * layerToBatchPercentage) / 100;
+                Math.round(100 * db.weightOunces * layerToBatchPercentage) /
+                100;
             });
 
             l.calculatedCosts = {

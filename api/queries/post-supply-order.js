@@ -21,7 +21,7 @@ module.exports = function postSupplyOrder(db, data, cb) {
         (item) => item.type === "fragrance-oil"
       );
       const waxes = data.items.filter((item) => item.type === "wax");
-      const additives = data.items.filter((item) => item.type === "additives");
+      const additives = data.items.filter((item) => item.type === "additives" || item.type === "additive");
       const boxes = data.items.filter((item) => item.type === "boxes");
       const dyes = data.items.filter((item) => item.type === "dye");
       const jars = data.items.filter((item) => item.type === "jars");

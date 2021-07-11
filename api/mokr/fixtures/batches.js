@@ -33,6 +33,31 @@ module.exports.up = function (state, dependencies, next) {
         }
       );
     }
+    if (fixtureData.editBlend) {
+      return request(
+        {
+          method: "PATCH",
+          url: `http://localhost:5000/blend/${fixtureData.blendId}`,
+          json: true,
+          body: fixtureData,
+        },
+        (err, resp, body) => {
+          console.log("RESPONSEE: ", resp);
+          if (!err && resp.statusCode >= 300) {
+            err = new Error(
+              `Non 200 response: ${resp.statusCode}. req.body: ${JSON.stringify(
+                fixtureData,
+                null,
+                4
+              )}`
+            );
+            console.log("BLEND DATA: ", fixtureData);
+          }
+          console.log("SAVING BODY TO STATE ", this, body);
+          return done(err, body);
+        }
+      );
+    }
     return request(
       {
         method: "POST",

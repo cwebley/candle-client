@@ -19,6 +19,8 @@ module.exports = function postBatch(db, data, cb) {
       if (err) {
         return rollback(db, err, cb);
       }
+
+      console.log("BLENDRESULTS: ", blendsResults);
       if (!blendsResults) {
         blendsResults = [];
       }
@@ -33,6 +35,9 @@ module.exports = function postBatch(db, data, cb) {
       const additiveWeightFromBlends = blendsResults
         .map((blend) => blend.additivesUsedThisBatch)
         .reduce((acc, val) => (acc += val), 0);
+
+      console.log("WAX FROM BLEND: ", waxWeightFromBlends);
+      console.log("ADDITIVE FROM BLEND: ", additiveWeightFromBlends);
 
       const totalWaxWeightOunces = data.batchItems
         .filter((item) => item.type === "wax")
@@ -227,15 +232,24 @@ function updateBlendTables(db, data, cb) {
     return (done) => {
       // fetch the blend info
       getBlendQuery(db, { blendHashId: blendItem.hashId }, (err, blendData) => {
-        console.log(
-          "RESULT FROM GET BELND FOR ",
-          blendItem.hashId,
-          " results: ",
-          blendData
-        );
+        // console.log(
+        //   "RESULT FROM GET BLEND FOR ",
+        //   blendItem.hashId,
+        //   " results: ",
+        //   blendData
+        // );
         if (err) {
           return cb(err);
         }
+        if (!blendData) {
+          const noBlendErr = new Error(
+            `BlendData for Blend ${blendItem.hashId} not found`
+          );
+          return cb(noBlendErr);
+        }
+
+        const fixedRemainingOunces =
+          blendData.remainingOunces > 0 ? blendData.remainingOunces : 0;
         // return cb(null, blendData);
         let fractionOfBlendUsed =
           parseFloat(blendItem.weightOunces) / blendData.remainingOunces;
@@ -244,8 +258,12 @@ function updateBlendTables(db, data, cb) {
         if (fractionOfBlendUsed > 1) {
           fractionOfBlendUsed = 1;
         }
+        if (fractionOfBlendUsed < 0) {
+          fractionOfBlendUsed = 0;
+        }
         console.log("FRACTION USED: ", fractionOfBlendUsed);
         console.log("WEIGHT OUNCES: ", blendItem.weightOunces);
+        console.log("FixedRemaining OZ: ", fixedRemainingOunces);
         console.log("REMAINING OZ: ", blendData.remainingOunces);
         const totalWaxUsed =
           fractionOfBlendUsed * blendData.totalWaxWeightOunces;
@@ -293,14 +311,15 @@ function updateBlendTables(db, data, cb) {
         // using an insert into + on duplicate syntax here to handle updating multiple fields in one query
         const blendsTableSql = `
           INSERT INTO blends
-            (id, total_wax_weight_ounces, total_additive_weight_ounces, remaining_ounces, last_updated)
+            (id, total_wax_weight_ounces, total_additive_weight_ounces, remaining_ounces, last_updated, finished)
           VALUES
-            (?, ?, ?, ?, ?)
+            (?, ?, ?, ?, ?, ?)
           ON DUPLICATE KEY UPDATE
             total_wax_weight_ounces = VALUES(total_wax_weight_ounces),
             total_additive_weight_ounces = VALUES(total_additive_weight_ounces),
             remaining_ounces = VALUES(remaining_ounces),
-            last_updated = VALUES(last_updated)
+            last_updated = VALUES(last_updated),
+            finished = VALUES(finished)
        `;
         const blendsTableParams = [
           blendData.id,
@@ -308,6 +327,7 @@ function updateBlendTables(db, data, cb) {
           blendData.totalAdditiveWeightOunces - totalAdditiveUsed,
           blendData.remainingOunces - blendItem.weightOunces,
           data.whenCreated,
+          !!blendItem.finished
         ];
         // now update the blends_waxes and blends_additives tables to reflect the amound used
 
@@ -417,6 +437,13 @@ function addToBatches(
       waxWeightOunces: parseFloat(totalWaxWeightOunces),
     }) || 0;
 
+  console.log(
+    "FL: ",
+    totalFragranceWeightOunces,
+    totalAdditiveWeightOunces,
+    totalWaxWeightOunces
+  );
+
   const sql = `
     INSERT INTO batches
       (name, slug, total_wax_weight_ounces, total_fragrance_weight_ounces, total_additive_weight_ounces, total_dye_weight_ounces,
@@ -514,7 +541,12 @@ function insertBatchesFragranceOils(
         parseFloat(totalWaxWeightOunces));
 
     fragranceLoad = fragranceLoad || 0;
-
+    if (fragranceLoad > 1) {
+      fragranceLoad = 1;
+    }
+    if (fragranceLoad < 0) {
+      fragranceLoad = 0;
+    }
     params.push(batchId, d.weightOunces, d.combineId, fragranceLoad, d.hashId);
 
     decrementCases.push("WHEN hash_id = ? THEN (remaining - ?)");
@@ -1066,7 +1098,14 @@ function addBlendBatchesAdditives(
   const usedCombineIds = otherAdditiveItems.map((item) => item.combineId);
   console.log("USED COMBINE IDS Additives: ", usedCombineIds);
 
-  blendBatchesAdditivesItems.forEach((blendItem) => {
+  let sql = `
+      INSERT INTO batches_additives
+        (batch_id, weight_ounces, combine_id, additive_id)
+    `;
+  let valuesStatementArray = [`VALUES (?, ?, ?, ?)`];
+  let params = [];
+
+  blendBatchesAdditivesItems.forEach((blendItem, index) => {
     const initialCombineId = blendItem.combineId;
 
     const newUniqueCombineId = findUniqueInteger(
@@ -1082,14 +1121,10 @@ function addBlendBatchesAdditives(
         b2.combineId = newUniqueCombineId;
       }
     });
+    if (index !== 0) {
+      valuesStatementArray.push(`(?, ?, ?, ?)`);
+    }
   });
-
-  let sql = `
-      INSERT INTO batches_additives
-        (batch_id, weight_ounces, combine_id, additive_id)
-      VALUES (?, ?, ?, ?)
-    `;
-  let params = [];
 
   blendBatchesAdditivesItems.forEach((blendItem) => {
     params.push(
@@ -1099,6 +1134,8 @@ function addBlendBatchesAdditives(
       blendItem.additiveId
     );
   });
+
+  sql += valuesStatementArray.join(",");
 
   db.query(sql, params, (err, blendBatchesAdditivesResults) => {
     if (err) {

@@ -1,4 +1,25 @@
-module.exports = function getCandles(db, { incomplete = false }, cb) {
+const async = require("neo-async");
+const getCandle = require("./get-candle");
+
+module.exports = function getCandles(
+  db,
+  { incomplete = false, candles = [], detailed = false },
+  cb
+) {
+  if (detailed && candles.length) {
+    // fetch the detailed candle data for each candle if requested
+    const getCandleDetailsFns = candles.map((hashId) => (done) =>
+      getCandle(db, { hashId }, done)
+    );
+    return async.parallel(getCandleDetailsFns, (err, results) => {
+      if (err) {
+        return cb(err);
+      }
+      return cb(null, results);
+    });
+  }
+  // otherwise just fetch the top level candle info for all candles needed in one query
+  let params = [];
   let sql = `
           SELECT c.hash_id AS "hashId", c.name, c.slug,
           c.completed_candle_weight_ounces AS "completedCandleWeightOunces",
@@ -13,16 +34,22 @@ module.exports = function getCandles(db, { incomplete = false }, cb) {
           FROM candles c
         `;
 
-  if (incomplete) {
-    sql += ` WHERE completed_candle_weight_ounces IS NULL`;
+  if (candles.length) {
+    console.log("DEF ADDING IT");
+    sql += ` WHERE c.hash_id IN (?)`;
+    params.push(candles);
+  }
+  if (!candles.length && incomplete) {
+    sql += ` WHERE c.finished != true`;
   }
 
   sql += ` ORDER BY id DESC`;
 
-  db.query(sql, [], (err, result) => {
+  db.query(sql, params, (err, result) => {
     if (err) {
       console.error(err, {
         sql,
+        params,
       });
       return cb(err);
     }

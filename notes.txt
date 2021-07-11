@@ -955,3 +955,53 @@ Red Currant CS
 Cranberry Woods CS
 Very Vanilla CS
 Carrot Cake Fillmore
+
+
+sambleberry testers for improvement
+
+lexington: 
+  htp-72 pretty good
+  htp-83 pretty good with trimming
+  
+
+  test:
+  p-740
+  p-745
+  eco-1
+  cdn-5?
+
+  full htp-72
+  full htp-83
+
+  votive
+    cd-7 pretty good but could be hotter
+    p-767 probably about the right temp but needs to be trimmed actively prob
+  
+  test:
+    htp-93
+    htp-104
+    eco-6
+    lx-16
+
+new coco83 seller with similar price + shipping to calcandlesupply https://hiveandhoneycandleco.com/
+
+
+post batch 241: get blend, if blend id not found, crashes.
+
+
+new-batch, updating the candle hash-id doesn't update the url.
+
+lonestar has a great plain lime fragrance apparently
+
+edit-blend page needs to default a whenCreated--it's missing on some submissions apparently.
+
+5/11
+28.50oz of blend left
+
+
+Buy from Northstar
+  Fireplace
+  Sandalwood
+  Sweet orange chili pepper
+
+  

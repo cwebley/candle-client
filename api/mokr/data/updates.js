@@ -7351,7 +7351,7 @@ module.exports = [
         whenStopped: "2020-06-16 19:15:00",
         stoppedWeightOunces: 9.63,
         notes:
-          "1/4 to 1/3 inch mp, medium mushroomign, flame a bit large, but prob fine for this deep in the jar. maybe a touch of soot but not a ton. jar not too hot. smell is not my fav, still getting that plasticity",
+          "1/4 to 1/3 inch mp, medium mushrooming, flame a bit large, but prob fine for this deep in the jar. maybe a touch of soot but not a ton. jar not too hot. smell is not my fav, still getting that plasticity",
       },
     ],
     notes: "",
@@ -9186,7 +9186,7 @@ module.exports = [
         whenStopped: "2020-09-05 05:20:00",
         stoppedWeightOunces: 19.89,
         notes:
-          "1/4 inch + mp, but this is the bottom of the jar.  jar got as hot as 150+, but seems okay. i'd like to compare with LX-12. but this is probably an okay wick setup.",
+          "1/4 inch+ mp, but this is the bottom of the jar.  jar got as hot as 150+, but seems okay. i'd like to compare with LX-12. but this is probably an okay wick setup.",
       },
       {
         whenStarted: "2020-09-08 21:00:00",
@@ -11488,7 +11488,7 @@ module.exports = [
         whenStarted: "2020-10-30 11:00:00",
         whenStopped: "2020-10-30 19:15:00",
         stoppedWeightOunces: 17.0,
-        notes: "1/3 inch mp, and falmes a little small but okay.",
+        notes: "1/3 inch mp, and flames a little small but okay.",
       },
       {
         whenStarted: "2020-11-01 20:30:00",
@@ -11559,7 +11559,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-11-04 17:00:00",
-        whenStopped: "2020-11-05 12:45:00",
+        whenStopped: "2020-11-05 00:45:00",
         stoppedWeightOunces: 23.0,
         notes: "1/4 inch mp all burn. flames look fine. never super large.",
       },
@@ -11580,7 +11580,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-11-04 17:00:00",
-        whenStopped: "2020-11-05 12:45:00",
+        whenStopped: "2020-11-05 00:45:00",
         stoppedWeightOunces: 23.0,
         notes:
           "1/4 inch mp the whole time, flames look fine, never super large and similar to the lx-12, but slight mushrooming. a little hotter than the lx-12 too.",
@@ -11602,7 +11602,7 @@ module.exports = [
     burns: [
       {
         whenStarted: "2020-11-04 17:00:00",
-        whenStopped: "2020-11-05 12:45:00",
+        whenStopped: "2020-11-05 00:45:00",
         stoppedWeightOunces: 23.0,
         notes:
           "1/3 to 1/2 inch mp, jar pretty hot at 140-145. flames look fine so far though.",
@@ -11637,7 +11637,7 @@ module.exports = [
     ],
   },
   // Black Amber Plum CD sg 0.93
-  // 615Q LX-12 Black Amber Plum Aztec Lex
+  // 615Q LX-12 Black Amber Plum CS Lex
   {
     completedCandleWeightOunces: "24.00",
     volumeOverflowPercent: "45",
@@ -11658,7 +11658,7 @@ module.exports = [
       },
     ],
   },
-  // DY65 LX-14 Black Amber Plum Aztec Lex
+  // DY65 LX-14 Black Amber Plum Lex
   {
     completedCandleWeightOunces: "24.00",
     volumeOverflowPercent: "45",
@@ -11676,11 +11676,11 @@ module.exports = [
         whenStopped: "2020-11-07 03:30:00",
         stoppedWeightOunces: 20.0,
         notes:
-          "1/3 inch mp, jar up to 145. flameslarge but fine. no obvious soot but maybe some on the glass?",
+          "1/3 inch mp, jar up to 145. flames large but fine. no obvious soot but maybe some on the glass?",
       },
     ],
   },
-  // J2KK CD-3 Black Amber Plum Aztec Lex
+  // J2KK CD-3 Black Amber Plum Lex
   {
     completedCandleWeightOunces: "24.00",
     volumeOverflowPercent: "45",
@@ -11700,7 +11700,7 @@ module.exports = [
       },
     ],
   },
-  // X5NY CDN-3 Black Amber Plum Aztec Lex
+  // X5NY CDN-3 Black Amber Plum Lex
   {
     completedCandleWeightOunces: "24.00",
     volumeOverflowPercent: "45",
@@ -11755,8 +11755,8 @@ module.exports = [
         notes: "1/2 inch mp, jar near 150, lots of mushrooming, too hot.",
       },
       {
-        whenStarted: "2020-12-04 09:00:00",
-        whenStopped: "2020-12-04 14:21:00",
+        whenStarted: "2020-12-05 09:00:00",
+        whenStopped: "2020-12-05 14:21:00",
         stoppedWeightOunces: 23.28,
         notes: "1/2 inch mp, jar up to 150+. some soot. too hot.",
       },
@@ -11776,8 +11776,8 @@ module.exports = [
           "1/4 inch mp, looks great. no mushrooming. probably as good as lx-12",
       },
       {
-        whenStarted: "2020-12-04 09:00:00",
-        whenStopped: "2020-12-04 14:21:00",
+        whenStarted: "2020-12-05 09:00:00",
+        whenStopped: "2020-12-05 14:21:00",
         stoppedWeightOunces: 23.28,
         notes:
           "1/4 inch mp, jar under 140. looks great. this. and the lx-12 are best. this may even be better down here.",
@@ -11797,8 +11797,8 @@ module.exports = [
         notes: "1/2 inch mp, a bit hot. some mushrooming.",
       },
       {
-        whenStarted: "2020-12-04 09:00:00",
-        whenStopped: "2020-12-04 14:21:00",
+        whenStarted: "2020-12-05 09:00:00",
+        whenStopped: "2020-12-05 14:21:00",
         stoppedWeightOunces: 23.28,
         notes: "1/3 inch mp, jar 140 all around. a bit hot.",
       },
@@ -11818,8 +11818,8 @@ module.exports = [
           "1/3 inch mp, jar up to near 140 at the worst. looks excellent. best of the bunch on this first burn.",
       },
       {
-        whenStarted: "2020-12-04 09:00:00",
-        whenStopped: "2020-12-04 14:21:00",
+        whenStarted: "2020-12-05 09:00:00",
+        whenStopped: "2020-12-05 14:21:00",
         stoppedWeightOunces: 23.28,
         notes: "1/3 inch mp, jar up to 140+. looks great.",
       },
@@ -11838,7 +11838,7 @@ module.exports = [
         notes: "1/2 inch mp, jar up to 140. looks fine, maybe a bit hot.",
       },
       {
-        whenStarted: "2020-12-04 09:00:00",
+        whenStarted: "2020-12-05 09:00:00",
         whenStopped: "2020-12-05 14:21:00",
         stoppedWeightOunces: 23.28,
         notes: "1/2 inch mp, jar up to 150. probably a bit hot still",
@@ -11858,6 +11858,27 @@ module.exports = [
         notes:
           "full mp within first 4 hours, never much deeper than 1/4 inch, jar never hot and flames always look healthy. this is great. the dye on this candle was much more diffuse on top because it was added when the wax was still liquid.",
       },
+      {
+        whenStarted: "2020-12-10 11:00:00",
+        whenStopped: "2020-12-10 19:30:00",
+        stoppedWeightOunces: 25.08,
+        notes:
+          "1/4 in mp+, flames look great, jar not too hot. this is excellent so far.",
+      },
+      {
+        whenStarted: "2020-12-11 14:00:00",
+        whenStopped: "2020-12-12 03:45:00",
+        stoppedWeightOunces: 21.45,
+        notes:
+          "nearly 1/2 inch mp. about 1/2 inch left. flames look good and jar never too hot. dye seems concetrated down here and the candle smells more like dye which is not great.",
+      },
+      {
+        whenStarted: "2020-12-13 18:30:00",
+        whenStopped: "2020-12-14 02:00:00",
+        stoppedWeightOunces: 19.08,
+        notes:
+          "extinguished itself with about 3/4 inch remaining. flames and mp looked good. not much soot.",
+      },
     ],
   },
   // QQKQ CDN-4 Sambleberry Lex with some dye
@@ -11872,6 +11893,20 @@ module.exports = [
         stoppedWeightOunces: 28.25,
         notes:
           "never quite a full mp, but the flames are fine and this isn't so bad. this had much more dye than the one above on the top. it may perform better tomorrow.",
+      },
+      {
+        whenStarted: "2020-12-10 11:00:00",
+        whenStopped: "2020-12-10 19:30:00",
+        stoppedWeightOunces: 26.74,
+        notes:
+          "not quite full mp, but the flames are doing okay and it may recover.",
+      },
+      {
+        whenStarted: "2020-12-11 14:00:00",
+        whenStopped: "2020-12-12 03:45:00",
+        stoppedWeightOunces: 23.88,
+        notes:
+          "up to 1/4 inch mp, flames a bit small but it's recovering from the slow start.",
       },
     ],
   },
@@ -11888,6 +11923,19 @@ module.exports = [
         notes:
           "never a full mp, tunneling. way too much dye on the top clogging things. flames pretty muted.",
       },
+      {
+        whenStarted: "2020-12-10 11:00:00",
+        whenStopped: "2020-12-10 19:30:00",
+        stoppedWeightOunces: 27.94,
+        notes:
+          "still tunneling beacuse of the slow start. the flames are doing slightly better but still a bit small",
+      },
+      {
+        whenStarted: "2020-12-11 14:00:00",
+        whenStopped: "2020-12-12 03:45:00",
+        stoppedWeightOunces: 25.04,
+        notes: "1/8 inch mp, no longer tunneling. flames look great.",
+      },
     ],
   },
   // 76K1 CDN-4 Sambleberry Lex with some dye
@@ -11902,6 +11950,3277 @@ module.exports = [
         stoppedWeightOunces: 27.48,
         notes:
           "never quite full mp, but getting close. this one had too much dye on the top but less than the second lx-12 and the other cdn-4. this is probably going to turn out fine.",
+      },
+      {
+        whenStarted: "2020-12-10 11:00:00",
+        whenStopped: "2020-12-10 19:30:00",
+        stoppedWeightOunces: 25.68,
+        notes: "1/8+ inch mp, flames look great. this will do fine.",
+      },
+      {
+        whenStarted: "2020-12-11 14:00:00",
+        whenStopped: "2020-12-12 03:45:00",
+        stoppedWeightOunces: 21.45,
+        notes: "1/4+ inch mp, flames look great.",
+      },
+      {
+        whenStarted: "2020-12-13 18:30:00",
+        whenStopped: "2020-12-14 02:30:00",
+        stoppedWeightOunces: 18.87,
+        notes:
+          "1/8+ inch mp, very nearly bottom of the jar here. flames look great, ht seems strong. is this better than the lx-12?",
+      },
+    ],
+  },
+  // YP8J LX-12 Sambleberry Lex batch 200 3 drops dye few minutes after pour
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-13 18:30:00",
+        whenStopped: "2020-12-14 02:30:00",
+        stoppedWeightOunces: 27.27,
+        notes:
+          "nearly full mp. flames look fine though. i'm wondering if cdn-4 is still worth trying this week before i finalize these on wednesday/thursday or if i should just stick to lx-12",
+      },
+      {
+        whenStarted: "2020-12-14 12:00:00",
+        whenStopped: "2020-12-15 02:30:00",
+        stoppedWeightOunces: 25.54,
+        notes:
+          "1/4 inch mp tops, but definitely sat around a bareful full mp for most of the day. this actually isn't super hot. slightly hotter would be better.",
+      },
+      {
+        whenStarted: "2020-12-15 12:00:00",
+        whenStopped: "2020-12-16 03:00:00",
+        stoppedWeightOunces: 21.94,
+        notes:
+          "1/3 inch mp at the deepest, but generally under 1/4 inch, including late in the burn. flames look fine, but i'd expect something slightly hotter still.",
+      },
+      {
+        whenStarted: "2020-12-21 14:00:00",
+        whenStopped: "2020-12-22 02:00:00",
+        stoppedWeightOunces: 15.94,
+        notes:
+          "1/3 inch mp tops, but again, a super long burn. finished with a long flame in the final hour and a tiny bit of soot. but stayed very clean for most of the time otherwise. good, but never too hot and could use more heat i think.",
+      },
+    ],
+  },
+  // 5K14 P-767 Sambleberry Heavy Votive test batch 201
+  {
+    completedCandleWeightOunces: "18.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-13 18:30:00",
+        whenStopped: "2020-12-14 02:30:00",
+        stoppedWeightOunces: 15.94,
+        notes:
+          "1/3+ inch mp, flame a bit large and jar a bit too hot. should try 765/760 and be more careful with undiluted dye",
+      },
+    ],
+  },
+  // BZ94 P-775 Sambleberry Heavy Votive test batch 201
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-13 18:30:00",
+        whenStopped: "2020-12-14 02:30:00",
+        stoppedWeightOunces: 16.68,
+        notes:
+          "1/4+ inch mp, flame a bit large and jar a bit too hot. lots of mushrooming. should try 765/760 and be more careful with undiluted dye",
+      },
+    ],
+  },
+  // 61VQ CD-7 Sambleberry Heavy Votive test batch 201
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-13 18:30:00",
+        whenStopped: "2020-12-14 02:30:00",
+        stoppedWeightOunces: 17.71,
+        notes:
+          "1/8 inch mp, flame looks great and jar not hot. maybe could try something like a cdn-8 considering this is halfway down the jar and took a while for a full mp.",
+      },
+      {
+        whenStarted: "2020-12-14 12:00:00",
+        whenStopped: "2020-12-15 02:30:00",
+        stoppedWeightOunces: 14.87,
+        notes:
+          "this was pretty good. some soot left at the end, but it was a pretty healthy burn all the way down. and this wasnt trimmed",
+      },
+    ],
+  },
+  // DY95 LX-18 Sambleberry Heavy Votive test batch 201
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-13 18:30:00",
+        whenStopped: "2020-12-14 02:30:00",
+        stoppedWeightOunces: 15.94,
+        notes:
+          "1/3+ inch mp, flame a bit large and jar a bit too hot lots of mushrooming. could maybe try a smaller lx but that might be too small.",
+      },
+    ],
+  },
+  // 61VL LX-12 Sambleberry Frisk Lex
+  {
+    completedCandleWeightOunces: "31.10",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-21 14:00:00",
+        whenStopped: "2020-12-22 02:00:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/8 inch mp, took over 4 hours to even reach a shallow mp. flames look fine though, but def could be hotter.",
+      },
+      {
+        whenStarted: "2020-12-22 11:30:00",
+        whenStopped: "2020-12-22 18:30:00",
+        stoppedWeightOunces: 15.0,
+        notes:
+          "1/8 inch mp, clean steady burn. could be slightly hotter though.",
+      },
+      {
+        whenStarted: "2020-12-22 21:30:00",
+        whenStopped: "2020-12-23 02:30:00",
+        stoppedWeightOunces: 14.0,
+        notes:
+          "1/8 inch mp, flames look fine, no soot, jar not too hot. seems fine actually. but the throw may be better on the htp-72 and htp-83",
+      },
+      {
+        whenStarted: "2020-12-23 15:00:00",
+        whenStopped: "2020-12-24 02:45:00",
+        stoppedWeightOunces: 22.26,
+        notes:
+          "1/4 inch mp, no soot, flames look good and candle has looked pretty great all day. jar probably 145ish at worst.",
+      },
+    ],
+  },
+  // DY9L LX-12 Sambleberry Frisk Lex
+  // gifted to sam
+  {
+    completedCandleWeightOunces: "31.10",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // J2BM LX-12 Sambleberry Frisk Lex
+  // gifted to sam
+  {
+    completedCandleWeightOunces: "31.10",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // X5YZ CDN-4 Sambleberry Frisk Lex
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-21 14:00:00",
+        whenStopped: "2020-12-22 02:00:00",
+        stoppedWeightOunces: 32.0,
+        notes:
+          "never quite a full shallow mp, flames look good but needs to be hotter. cdn-5?",
+      },
+      {
+        whenStarted: "2020-12-22 11:30:00",
+        whenStopped: "2020-12-22 18:30:00",
+        stoppedWeightOunces: 29.0,
+        notes:
+          "1/8 inch mp, flames look good and burn super clean. but probably not quite hot enough.",
+      },
+      {
+        whenStarted: "2020-12-22 21:30:00",
+        whenStopped: "2020-12-23 02:30:00",
+        stoppedWeightOunces: 25.0,
+        notes: "1/8 inch mp, flames look great, no soot jar not hot.",
+      },
+      {
+        whenStarted: "2020-12-23 15:00:00",
+        whenStopped: "2020-12-24 02:45:00",
+        stoppedWeightOunces: 23.1,
+        notes:
+          "1/4 inch mp, good flames. has looked great all day. no soot. jar probably like 140ish-",
+      },
+    ],
+  },
+  // 1J6N HTP-72 Sambleberry Frisk Lex
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-21 14:00:00",
+        whenStopped: "2020-12-22 02:00:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/8 inch mp, but hotter than the lx-12 but also only a 60% tester. pretty good probably.",
+      },
+      {
+        whenStarted: "2020-12-22 11:30:00",
+        whenStopped: "2020-12-22 18:30:00",
+        stoppedWeightOunces: 15.0,
+        notes:
+          "1/4 inch mp, no soot. don't think this was trimmed. looks great. curious to see how it'd do with a full pour. maybe the htp-83 is better despite the faults?",
+      },
+      {
+        whenStarted: "2020-12-22 21:30:00",
+        whenStopped: "2020-12-23 02:30:00",
+        stoppedWeightOunces: 14.0,
+        notes:
+          "very bottom of the candle. looks pretty good. this may well be better than the lx-12",
+      },
+    ],
+  },
+  // V18V HTP-83 Sambleberry Frisk Lex
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-21 14:00:00",
+        whenStopped: "2020-12-22 02:00:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/4 inch mp, tiny bit of soot, and jar hotter than the htp-82 and lx-12. probably pretty good actually considering the long burn.",
+      },
+      {
+        whenStarted: "2020-12-22 11:30:00",
+        whenStopped: "2020-12-22 18:30:00",
+        stoppedWeightOunces: 15.0,
+        notes:
+          "1/3 inch mp, tiny bit of soot on the top but seems pretty good. and this is near the bottom. this is a strong candidate alongside of the htp-72. jar up to 150 though. this wick was trimmed slightly. the 72 wasn't.",
+      },
+      {
+        whenStarted: "2020-12-22 21:30:00",
+        whenStopped: "2020-12-23 02:30:00",
+        stoppedWeightOunces: 14.0,
+        notes:
+          "very bottom of the candle. one wick self extinguished, looks great actually, no soot really. flame looks fine, not too hot but idk when the wick went out.",
+      },
+    ],
+  },
+  // KP6O CD-7 Sambleberry Frisk Votive
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-21 14:00:00",
+        whenStopped: "2020-12-22 02:00:00",
+        stoppedWeightOunces: 16.0,
+        notes:
+          "1/8 inch mp, looks good, but probably could be a bit hotter. cd-8?",
+      },
+      {
+        whenStarted: "2020-12-22 11:30:00",
+        whenStopped: "2020-12-22 18:30:00",
+        stoppedWeightOunces: 15.0,
+        notes:
+          "1/8 inch mp, looks great. wish it was slightly deeper and hotter. tiny bit of mushrooming. pretty sure cd-8 will be too much unless diligently trimmed.",
+      },
+      {
+        whenStarted: "2020-12-22 21:30:00",
+        whenStopped: "2020-12-23 02:30:00",
+        stoppedWeightOunces: 14.0,
+        notes:
+          "1/8 inch mp, looks good. guess i'd hope for something hotter still, but its a decent enough candle.",
+      },
+    ],
+  },
+  // E29V CDN-8 Sambleberry Frisk Votive
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-21 14:00:00",
+        whenStopped: "2020-12-22 02:00:00",
+        stoppedWeightOunces: 16.0,
+        notes:
+          "1/8 inch mp, maybe slightly hotter than the cd-7, but big mushroom.",
+      },
+      {
+        whenStarted: "2020-12-22 11:30:00",
+        whenStopped: "2020-12-22 18:30:00",
+        stoppedWeightOunces: 15.0,
+        notes:
+          "1/4 inch mp, some soot, needs to be trimmed a bit. seems okay, but would need to be diligently trimmed which isn't idea.",
+      },
+      {
+        whenStarted: "2020-12-22 21:30:00",
+        whenStopped: "2020-12-23 02:30:00",
+        stoppedWeightOunces: 14.0,
+        notes:
+          "very bottom of the candle. some mushrooming, fair amount of soot on the top.",
+      },
+    ],
+  },
+  // N2X4 P-765 Sambleberry Frisk Votive
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-21 14:00:00",
+        whenStopped: "2020-12-22 02:00:00",
+        stoppedWeightOunces: 16.0,
+        notes:
+          "full shallow mp, not quite hot enough. might need to retry the 767/770 candles.",
+      },
+      {
+        whenStarted: "2020-12-22 11:30:00",
+        whenStopped: "2020-12-22 18:30:00",
+        stoppedWeightOunces: 15.0,
+        notes:
+          "1/8 inch mp, bit any soot, looks fine fine. wick just may need to be trimmed slightly. still, should likely be deeper. 767 and trimming?",
+      },
+      {
+        whenStarted: "2020-12-22 21:30:00",
+        whenStopped: "2020-12-23 02:30:00",
+        stoppedWeightOunces: 14.0,
+        notes:
+          "very bottom of the candle. some mushrooming and large flame leading to a bit of soot. still seems fine though.",
+      },
+    ],
+  },
+  // Z9M7 P-760 Sambleberry Frisk Votive
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-21 14:00:00",
+        whenStopped: "2020-12-22 02:00:00",
+        stoppedWeightOunces: 16.0,
+        notes: "1/8 inch mp, lots of mushrooming, but not hot enough.",
+      },
+      {
+        whenStarted: "2020-12-22 11:30:00",
+        whenStopped: "2020-12-22 18:30:00",
+        stoppedWeightOunces: 15.0,
+        notes:
+          "nearing the bottom. 1/8 inch mp, hardly any soot, looks fine way down here, but prob should be deeper.",
+      },
+      {
+        whenStarted: "2020-12-22 21:30:00",
+        whenStopped: "2020-12-23 02:30:00",
+        stoppedWeightOunces: 14.0,
+        notes:
+          "very bottom of the candle. some mushrooming, little bit of soot on the top. jar nearly 150 bc the flame is large.",
+      },
+    ],
+  },
+  // QQZ4 P-740 Sambleberry Frisk Lex Half Tester
+  {
+    completedCandleWeightOunces: "28.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-26 19:30:00",
+        whenStopped: "2020-12-27 02:00:00",
+        stoppedWeightOunces: 25.5,
+        notes: "1/8 inch mp, not hot enough for mid jar probably.",
+      },
+    ],
+  },
+  // MXVD P-745 Sambleberry Frisk Lex Half Tester
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-26 19:30:00",
+        whenStopped: "2020-12-27 02:00:00",
+        stoppedWeightOunces: 25.15,
+        notes:
+          "1/4 inch mp, a little better for mid jar, but still this was a longish burn. maybe its fine.",
+      },
+      {
+        whenStarted: "2020-12-28 19:30:00",
+        whenStopped: "2020-12-29 02:00:00",
+        stoppedWeightOunces: 23.28,
+        notes:
+          "1/4 inch mp, flames look great, no soot. looks pretty good. would be curious to see how it compares to lx-12 and htp-72",
+      },
+    ],
+  },
+  // 764X E-0.75 Sambleberry Frisk Lex Half Tester
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-26 19:30:00",
+        whenStopped: "2020-12-27 02:00:00",
+        stoppedWeightOunces: 25.82,
+        notes:
+          "full shallow mp. not hot enough for mid jar. 1 of the wicks in this candle is not secure at bottom so i prob wont burn this anymore.",
+      },
+    ],
+  },
+  // G2B8 E-1 Sambleberry Frisk Lex Half Tester
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-26 19:30:00",
+        whenStopped: "2020-12-27 02:00:00",
+        stoppedWeightOunces: 25.5,
+        notes:
+          "1/8 inch mp, not hot enough for mid jar probably. looks like the p-745 is very slightly hotter.",
+      },
+      {
+        whenStarted: "2020-12-28 19:30:00",
+        whenStopped: "2020-12-29 02:00:00",
+        stoppedWeightOunces: 23.28,
+        notes: "1/4 inch mp, looks great. no soot etc.",
+      },
+    ],
+  },
+  // P1NL CDN-5 Sambleberry Frisk Lex Half Tester
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-26 19:30:00",
+        whenStopped: "2020-12-27 02:00:00",
+        stoppedWeightOunces: 25.5,
+        notes:
+          "1/4 inch mp, but possibly not hot enough for mid jar. took probably the full 3+ hours to get to full mp, but maybe that is okay.",
+      },
+      {
+        whenStarted: "2020-12-28 19:30:00",
+        whenStopped: "2020-12-29 02:00:00",
+        stoppedWeightOunces: 23.46,
+        notes:
+          "1/4 inch mp, flames look great, but with only 1/3 left of the candle this might not be hot enough.",
+      },
+    ],
+  },
+  // 29YM HTP-72 Sambleberry Frisk Lex Full Tester
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-26 19:30:00",
+        whenStopped: "2020-12-27 02:00:00",
+        stoppedWeightOunces: 29.52,
+        notes:
+          "1/8 inch mp, wicks a little dim and small mushrooms at the top though. maybe just a trimming issue.",
+      },
+      {
+        whenStarted: "2020-12-28 19:30:00",
+        whenStopped: "2020-12-29 02:00:00",
+        stoppedWeightOunces: 27.58,
+        notes:
+          "1/4 inch mp flames look great, no mushrooming. not quite as good of a throw as the 83, but prob better long run.",
+      },
+    ],
+  },
+  // YPX7 HTP-83 Sambleberry Frisk Lex Full Tester
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-26 19:30:00",
+        whenStopped: "2020-12-27 02:00:00",
+        stoppedWeightOunces: 29.0,
+        notes:
+          "1/3 inch mp, small mushrooms at top of wicks. looks great now, but may prove too hot farther down with long burns.",
+      },
+      {
+        whenStarted: "2020-12-28 19:30:00",
+        whenStopped: "2020-12-29 02:00:00",
+        stoppedWeightOunces: 27.23,
+        notes:
+          "1/4+ inch mp, not too hot, flames look fine, bit of mushrooming but totally fine so far.",
+      },
+    ],
+  },
+  // 5KZM HTP-93 Sambleberry Frisk Votive Half Tester
+  {
+    completedCandleWeightOunces: "19.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-26 19:30:00",
+        whenStopped: "2020-12-27 02:00:00",
+        stoppedWeightOunces: 17.81,
+        notes: "not quite full mp. not hot enough. wont continue burning.",
+      },
+    ],
+  },
+  // BZ89 HTP-104 Sambleberry Frisk Votive Half Tester
+  {
+    completedCandleWeightOunces: "17.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-26 19:30:00",
+        whenStopped: "2020-12-27 02:00:00",
+        stoppedWeightOunces: 17.81,
+        notes:
+          "1/8 inch mp, but flame probably too large. maybe with diligent trimming this would be good, but it could easily be too big.",
+      },
+      {
+        whenStarted: "2020-12-28 19:30:00",
+        whenStopped: "2020-12-29 02:00:00",
+        stoppedWeightOunces: 15.59,
+        notes:
+          "1/4 inch mp, wick curling and flame a touch large, but looks pretty good actually. this was trimmed prior to lighting. and def some soot on glass. so not perfect",
+      },
+    ],
+  },
+  // 61LL E-6 Sambleberry Frisk Votive Half Tester
+  {
+    completedCandleWeightOunces: "17.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-26 19:30:00",
+        whenStopped: "2020-12-27 02:00:00",
+        stoppedWeightOunces: 17.81,
+        notes:
+          "1/8 inch mp, flame looks a bit large atm and slight mushrooming, but i think this took a long time to reach full mp. maybe its okay though.",
+      },
+      {
+        whenStarted: "2020-12-28 19:30:00",
+        whenStopped: "2020-12-29 02:00:00",
+        stoppedWeightOunces: 16.01,
+        notes:
+          "1/8 inch mp, tall flame and maybe even a bit of soot. somehow this is both too big of a flame and not big enough",
+      },
+    ],
+  },
+  // DY8L LX-16 Sambleberry Frisk Votive Half Tester
+  {
+    completedCandleWeightOunces: "17.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2020-12-26 19:30:00",
+        whenStopped: "2020-12-27 02:00:00",
+        stoppedWeightOunces: 17.81,
+        notes: "full shallow mp. but prob not hot enough.",
+      },
+    ],
+  },
+  // Bluebonnet LS Lex testers specific gravity 0.97
+  // KPXO LX-12 Bluebonnet Lex Half Tester
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-08 10:30:00",
+        whenStopped: "2021-01-08 18:10:00",
+        stoppedWeightOunces: 23.5,
+        notes:
+          "1/4 inch mp. looks good took about 3 hrs to reach full mp of a half jar, but could be hotter.",
+      },
+      {
+        whenStarted: "2021-01-09 14:00:00",
+        whenStopped: "2021-01-09 18:15:00",
+        stoppedWeightOunces: 22.89,
+        notes: "1/3 inch mp, looks great.",
+      },
+      {
+        whenStarted: "2021-01-10 20:00:00",
+        whenStopped: "2021-01-11 02:00:00",
+        stoppedWeightOunces: 21.5,
+        notes: "1/4 inch mp, jar at 145. looks great",
+      },
+      {
+        whenStarted: "2021-01-11 13:00:00",
+        whenStopped: "2021-01-11 18:15:00",
+        stoppedWeightOunces: 19.5,
+        notes: "",
+      },
+    ],
+  },
+  // E28V LX-14 Bluebonnet Lex Half Tester
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-08 10:30:00",
+        whenStopped: "2021-01-08 18:10:00",
+        stoppedWeightOunces: 23.5,
+        notes:
+          "full mp in about 1.5 hrs, 1/3 inch at this point. not too hot. tiny bit of soot, but looks great actually.",
+      },
+      {
+        whenStarted: "2021-01-09 14:00:00",
+        whenStopped: "2021-01-09 18:15:00",
+        stoppedWeightOunces: 22.89,
+        notes:
+          "1/3 inch mp, looks great. similar to the lx-12 but slightly larger flames and maybe a tiny bit of soot. wicks weren't trimmed for this.",
+      },
+      {
+        whenStarted: "2021-01-10 20:00:00",
+        whenStopped: "2021-01-11 02:00:00",
+        stoppedWeightOunces: 21.5,
+        notes: "1/4 inch mp, jar at 140. looks great",
+      },
+      {
+        whenStarted: "2021-01-11 13:00:00",
+        whenStopped: "2021-01-11 18:15:00",
+        stoppedWeightOunces: 19.5,
+        notes: "",
+      },
+    ],
+  },
+  // N2K4 CD-4 Bluebonnet Lex Half Tester
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-08 10:30:00",
+        whenStopped: "2021-01-08 18:10:00",
+        stoppedWeightOunces: 23.5,
+        notes:
+          "1/3 inch mp, bit hotter than the lx-14, okay. but maybe a bit too hot? less soot possibly though.",
+      },
+      {
+        whenStarted: "2021-01-09 14:00:00",
+        whenStopped: "2021-01-09 18:15:00",
+        stoppedWeightOunces: 22.89,
+        notes:
+          "1/3 inch mp, small mushrooms, looks great. wicks were trimmed slightly for this.",
+      },
+      {
+        whenStarted: "2021-01-10 20:00:00",
+        whenStopped: "2021-01-11 02:00:00",
+        stoppedWeightOunces: 21.5,
+        notes: "1/4 inch mp, jar at 145. looks great",
+      },
+      {
+        whenStarted: "2021-01-11 13:00:00",
+        whenStopped: "2021-01-11 18:15:00",
+        stoppedWeightOunces: 19.5,
+        notes:
+          "1/3 inch mp, jar at 150. plenty of soot. this is a bit too hot and sooty.",
+      },
+    ],
+  },
+  // Z925 CDN-4 Bluebonnet Lex Half Tester
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-08 10:30:00",
+        whenStopped: "2021-01-08 18:10:00",
+        stoppedWeightOunces: 23.5,
+        notes: "took about 4 hrs to reach full mp in half jar. bit too cool",
+      },
+      {
+        whenStarted: "2021-01-09 14:00:00",
+        whenStopped: "2021-01-09 18:15:00",
+        stoppedWeightOunces: 22.89,
+        notes:
+          "1/4 inch mp, looks fine but a bit too small of flames probably.",
+      },
+    ],
+  },
+  // LLXE HTP-72 Bluebonnet Lex Half Tester
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "90",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-08 10:30:00",
+        whenStopped: "2021-01-08 18:10:00",
+        stoppedWeightOunces: 23.5,
+        notes:
+          "full mp in a couple hours at half jar, 1/3 inch at this point, not too hot not soot. looks good.",
+      },
+      {
+        whenStarted: "2021-01-09 14:00:00",
+        whenStopped: "2021-01-09 18:15:00",
+        stoppedWeightOunces: 22.89,
+        notes:
+          "1/4 inch mp, flames a bit small but wicks were trimmed prior to this burn.",
+      },
+      {
+        whenStarted: "2021-01-10 20:00:00",
+        whenStopped: "2021-01-11 02:00:00",
+        stoppedWeightOunces: 21.5,
+        notes: "1/3 inch mp, looks great. maybe could be hotter this far down.",
+      },
+      {
+        whenStarted: "2021-01-11 13:00:00",
+        whenStopped: "2021-01-11 19:15:00",
+        stoppedWeightOunces: 19.5,
+        notes:
+          "extinguished itself, looked pretty good. never deeper or hotter than either lx though. closer to the lx-12 than the 14.",
+      },
+    ],
+  },
+  // CS Leather Lex half testers
+  // 8V5M LX-12
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-12 12:45:00",
+        whenStopped: "2021-01-12 19:15:00",
+        stoppedWeightOunces: 23.5,
+        notes:
+          "flames too small, but had consistent 1/4 inch mp. this is prob a fail",
+      },
+    ],
+  },
+  // 9JBK LX-14
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-12 12:45:00",
+        whenStopped: "2021-01-12 21:00:00",
+        stoppedWeightOunces: 23.5,
+        notes:
+          "looks pretty good. 1/3 inch mp at some point, but settled at 1/4 inch for the last 6 hours. jar never above 150. cooler in the end. not much mushrooming.",
+      },
+      {
+        whenStarted: "2021-01-13 11:30:00",
+        whenStopped: "2021-01-13 18:00:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "1/4 inch mp full burn, flames looked healthy the whole time. jar under 140 or so. this and the cd-4 great. cd-4 maybe slightly better.",
+      },
+    ],
+  },
+  // QQN4 CD-4
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-12 12:45:00",
+        whenStopped: "2021-01-12 01:15:00",
+        stoppedWeightOunces: 20.5,
+        notes:
+          "this was surprisingly the best. 1/4 to 1/3 inch mp the whole time. settled in at 1/4 inch for the last 6 hours or so. cooler jar temp than the lx-14",
+      },
+      {
+        whenStarted: "2021-01-13 11:30:00",
+        whenStopped: "2021-01-13 18:00:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "1/4 inch mp full burn, flames looked healthy the whole time. jar under 140 or so.",
+      },
+    ],
+  },
+  // MX1D CDN-5
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-12 12:45:00",
+        whenStopped: "2021-01-12 21:00:00",
+        stoppedWeightOunces: 23.5,
+        notes:
+          "pretty good option. 1/4 inch mp the full burn. never too hot. cd-4 and lx-14 are great, this is almost as good.",
+      },
+      {
+        whenStarted: "2021-01-13 11:30:00",
+        whenStopped: "2021-01-13 18:00:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "flames small to medium, jar def under 130. looks okay, but flames got a little small at some point.",
+      },
+    ],
+  },
+  // 767X HTP-72
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-12 12:45:00",
+        whenStopped: "2021-01-12 21:00:00",
+        stoppedWeightOunces: 23.5,
+        notes:
+          "pretty good option. 1/4 inch mp the full burn. never too hot. cd-4 and lx-14 are great, this is fine too. small bits of carbon in the wax.",
+      },
+      {
+        whenStarted: "2021-01-13 11:30:00",
+        whenStopped: "2021-01-13 18:00:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "bottom bit of the jar but wicks becoming too cool and starting to drown it seems. end of life: looks pretty good, flames small to medium. jar def under 130.",
+      },
+    ],
+  },
+  // G258 HTP-83
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-12 12:45:00",
+        whenStopped: "2021-01-12 19:15:00",
+        stoppedWeightOunces: 23.5,
+        notes: "too hot, too much carbon. fail.",
+      },
+    ],
+  },
+  // P1EL P-745
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-12 12:45:00",
+        whenStopped: "2021-01-12 19:15:00",
+        stoppedWeightOunces: 23.5,
+        notes: "too cool, barely better than full mp at some point.",
+      },
+      {
+        whenStarted: "2021-01-13 11:30:00",
+        whenStopped: "2021-01-13 15:30:00",
+        stoppedWeightOunces: 21.5,
+        notes: "too cool, wicks starting to drown.",
+      },
+    ],
+  },
+  // Amber Plum Musk Prediction Tester
+  // 297M LX-14
+  {
+    completedCandleWeightOunces: "26.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-14 19:30:00",
+        whenStopped: "2021-01-15 03:00:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/3 inch mp, jar at about 150-. flames a little large and small amount of mushrooming, but its pretty good given 8 hours and mid jar. this might be a solid target",
+      },
+      {
+        whenStarted: "2021-01-14 19:30:00",
+        whenStopped: "2021-01-15 03:00:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/3+ inch mp, jar at about 150-. flames are super healthy for bottom of jar, no soot obvious. this is great.",
+      },
+      {
+        whenStarted: "2021-01-18 19:00:00",
+        whenStopped: "2021-01-19 01:00:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "1/3 inch mp all day, strong throw, no soot, flames look great. this is perfect. jar prob 140.",
+      },
+    ],
+  },
+  // Black Sea Testers 1.015
+  // YPD7 CD-4
+  {
+    completedCandleWeightOunces: "26.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-14 11:30:00",
+        whenStopped: "2021-01-14 19:00:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/4 inch mp all day, about 1/3 jar left. flames look great and jar is not too hot. looks great so far.",
+      },
+      {
+        whenStarted: "2021-01-15 11:00:00",
+        whenStopped: "2021-01-15 18:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/8 to 1/4 inch mp, looks great. tiny bit of soot on the glass but great option. lx-14 may be the choice here, but cd-5, cd-4, htp-72 are all great.",
+      },
+      {
+        whenStarted: "2021-01-18 13:00:00",
+        whenStopped: "2021-01-19 01:00:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "1/4 inch mp- all day, flames look fine, jar never too hot. very similar to the lx-14. several good but not great options for this fragrance. maybe mixed it'd do better",
+      },
+    ],
+  },
+  // 5K7M CDN-5
+  {
+    completedCandleWeightOunces: "26.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-14 11:30:00",
+        whenStopped: "2021-01-14 19:00:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/4 inch mp all day. flames look good, some bits of carbon in the wax is the only thing keeping it from being as good as the cd-4.",
+      },
+      {
+        whenStarted: "2021-01-15 11:00:00",
+        whenStopped: "2021-01-15 18:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/4 inch most of the day. looks great. flames healthy, but jar still cool.",
+      },
+      {
+        whenStarted: "2021-01-18 13:00:00",
+        whenStopped: "2021-01-19 01:00:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "1/4 to 1/8 inch mp all day. bit of soot on the glass, but great option. this, the lx-14, htp-72 and the cd-4 are all good but could be hotter even.",
+      },
+    ],
+  },
+  // BZN9 LX-12
+  {
+    completedCandleWeightOunces: "26.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-14 11:30:00",
+        whenStopped: "2021-01-14 19:00:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/4 inch mp all day, about 1/3 jar left. wicks okay, but a bit smaller than id like. lx-14 very slightly better, cd-4 maybe best",
+      },
+      {
+        whenStarted: "2021-01-15 11:00:00",
+        whenStopped: "2021-01-15 18:00:00",
+        stoppedWeightOunces: 22.0,
+        notes: "1/8 inch most of the day.",
+      },
+      {
+        whenStarted: "2021-01-18 13:00:00",
+        whenStopped: "2021-01-19 01:00:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "1/8 inch mp all day. jar never hot, flames look fine, could be hotter.",
+      },
+    ],
+  },
+  // 617L LX-14
+  {
+    completedCandleWeightOunces: "26.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-14 11:30:00",
+        whenStopped: "2021-01-14 19:00:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/4 inch mp all day, about 1/3 jar left. flames pretty good. jar fairly cool. this and the cd-4 may be the best but they're all pretty good so far.",
+      },
+      {
+        whenStarted: "2021-01-15 11:00:00",
+        whenStopped: "2021-01-15 18:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/4 inch most of the day. glass fairly cool. looks very similar to the lx-12 with a slightly deeper mp. tiny bit of mushrooming, but great candle.",
+      },
+      {
+        whenStarted: "2021-01-18 13:00:00",
+        whenStopped: "2021-01-19 01:00:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "1/8 to 1/4 inch mp all day, flames fine but could be bigger. sightly better than the lx-12, this is still a good option, just burned a little cooler than 100% ideal.",
+      },
+    ],
+  },
+  // DYLL HTP-72
+  {
+    completedCandleWeightOunces: "26.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-14 11:30:00",
+        whenStopped: "2021-01-14 19:00:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/4 inch mp all day, about 1/3 jar left. flames look pretty good. this is a strong option. really they all are. maybe the lx-12 is the worst and all other are good.",
+      },
+      {
+        whenStarted: "2021-01-15 11:00:00",
+        whenStopped: "2021-01-15 18:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/4 inch most of the day. some soot on glass but not much. looks good.",
+      },
+      {
+        whenStarted: "2021-01-18 13:00:00",
+        whenStopped: "2021-01-19 19:00:00",
+        stoppedWeightOunces: 20.0,
+        finshed: true,
+        notes:
+          "1/8 to 1/4 inch mp all day. jar never too hot, tiny bit of soot on the glass. good option.",
+      },
+    ],
+  },
+  // Blamber P With Sam
+  // 1J7N LX-14
+  {
+    completedCandleWeightOunces: "30.72",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-21 19:00:00",
+        whenStopped: "2021-01-22 02:00:00",
+        stoppedWeightOunces: 29.0,
+        notes:
+          "1/8+ inch mp. flames look good after several hours, but were fairly small for the first few. looks fine. if only the top is an issue, maybe this is best filled to only 90% or something. smells lovely  ",
+      },
+      {
+        whenStarted: "2021-01-22 11:00:00",
+        whenStopped: "2021-01-23 02:00:00",
+        stoppedWeightOunces: 27.0,
+        notes:
+          "1/4 inch mp, flames look great, but fair amount of mushrooming.",
+      },
+      {
+        whenStarted: "2021-01-24 20:00:00",
+        whenStopped: "2021-01-25 02:00:00",
+        stoppedWeightOunces: 25.0,
+        notes:
+          "1/8 inch mp, took about 3 hours to reach full pool. this may be slightly under wicked based on that? some mushrooming again and bits have fallen into the wax. still okay.",
+      },
+      {
+        whenStarted: "2021-01-28 13:00:00",
+        whenStopped: "2021-01-28 16:45:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/8 inch all day, flames look fine, jar not too hot. only possible issue is medium mushrooming.",
+      },
+      {
+        whenStarted: "2021-02-11 18:00:00",
+        whenStopped: "2021-02-12 02:00:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/3 inch mp, smells wonderfully fragrant. jar 155, flames medium to large and medium mushrooming. wicks def need to be trimmed and might be too hot.",
+      },
+      {
+        whenStarted: "2021-02-12 18:00:00",
+        whenStopped: "2021-02-13 02:00:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/3+ inch mp, jar 155+, flames large-, some soot during drafts but no obvious build up. just a bit too hot. the lx-14 is def shedding carbon in the melt pool too. would like to see this with cd-4",
+      },
+      {
+        whenStarted: "2021-02-13 18:00:00",
+        whenStopped: "2021-02-14 02:00:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/3 inch mp, flames medium, bit of soot on the glass but not bad. jar 150-, smells wonderful. pretty good candle.",
+      },
+    ],
+  },
+  // V15V LX-14
+  {
+    completedCandleWeightOunces: "30.72",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // Whiskey Lex Testers
+  // E24V LX-12
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-19 12:30:00",
+        whenStopped: "2021-01-19 18:30:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/8 to 1/4 inch mp all day. jar never too hot. flames started small for the first couple hours, but look healthy now. good but lx-14 prob better",
+      },
+      {
+        whenStarted: "2021-01-20 12:30:00",
+        whenStopped: "2021-01-20 18:30:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/4 inch mp all day. no mushrooming, jar at 130. looks good. i prefer the heat of the lx-14, but it comes at a cost of medium mushrooms.",
+      },
+      {
+        whenStarted: "2021-01-21 19:00:00",
+        whenStopped: "2021-01-22 02:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "light soot buildup in th eifnal few hours. flames large but fine. jar 140ish.",
+      },
+    ],
+  },
+  // N2V4 LX-14
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-19 12:30:00",
+        whenStopped: "2021-01-19 18:30:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/8 to 1/4 inch mp all day. jar never too hot. flames started a little small but have been healthy for most of the burn. this is a great candle.",
+      },
+      {
+        whenStarted: "2021-01-20 12:30:00",
+        whenStopped: "2021-01-20 18:30:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/4 inch mp all day. fairly moderate mushrooming, but no soot on the glass. jar 140-. looks great aside from the mushroom.",
+      },
+      {
+        whenStarted: "2021-01-21 19:00:00",
+        whenStopped: "2021-01-22 02:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "light to moderate soot buildup in the final few hours. flames fairly large but probably fine for the bottom of a candle. jar 150-",
+      },
+    ],
+  },
+  // Z9J7 HTP-72
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-19 12:30:00",
+        whenStopped: "2021-01-19 18:30:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/4 to 1/3 inch mp all day. flames healthy throughtout full burn. little bit of soot on the glass but that is likely from me moving the glass. 150ish jar temp. excellent candle. probably the best, but a bit of mushrooming. and all good.",
+      },
+      {
+        whenStarted: "2021-01-20 12:30:00",
+        whenStopped: "2021-01-20 18:30:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/4 inch mp all day. bit of mushrooming and some soot build on the glass. jar 145. looks pretty good but a bit more soot than id like. all candles were trimmed prior to burn also.",
+      },
+      {
+        whenStarted: "2021-01-21 19:00:00",
+        whenStopped: "2021-01-21 23:00:00",
+        stoppedWeightOunces: 20.0,
+        finished: true,
+        notes: "small amount of soot on the glass, jar never above 150.",
+      },
+    ],
+  },
+  // LL5E CD-4
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-19 12:30:00",
+        whenStopped: "2021-01-19 18:30:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/4 to 1/3 inch mp, lots of mushrooming surprisingly. jar 150 degrees. decent, but to omuch mushrooming.",
+      },
+      {
+        whenStarted: "2021-01-20 12:30:00",
+        whenStopped: "2021-01-20 18:30:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/3 inch mp all day, little bit of mushrooming and some soot on the glass. jar 150. a bit more soo and mushrooming than id like but okay.",
+      },
+      {
+        whenStarted: "2021-01-21 19:00:00",
+        whenStopped: "2021-01-22 02:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "moderate soot buildup in the final few hours. flames fairly large but probably fine for the bottom of a candle. jar 160-",
+      },
+    ],
+  },
+  // 45K5 CDN-5
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-19 12:30:00",
+        whenStopped: "2021-01-19 18:30:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/4 inch mp all day, flames look healthy and no mushrooming. this is very similar to the lx-14.",
+      },
+      {
+        whenStarted: "2021-01-20 12:30:00",
+        whenStarted: "2021-01-20 18:30:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/4 inch mp all day. bit of soot on the glass, but flames look good and only small amount of mushrooming. still pretty good. jar probably 140.",
+      },
+      {
+        whenStarted: "2021-01-21 19:00:00",
+        whenStopped: "2021-01-21 23:00:00",
+        stoppedWeightOunces: 20.0,
+        finished: true,
+        notes:
+          "moderate soot on glass. self extinguished, never much above 150.",
+      },
+    ],
+  },
+  // 45K5 CS Sandalwood Tester LX-14
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-25 12:30:00",
+        whenStopped: "2021-01-26 03:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "1/8 inch- all day. slightly prefer the fillmore both for throw and scent. but both are only okay and not extremely strong.",
+      },
+    ],
+  },
+  // 45K5 Fillmore Sandalwood Tester LX-14
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-25 12:30:00",
+        whenStopped: "2021-01-26 03:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "1/8 inch all day. no mushrooming. slightly prefer this to the cs. but not by much.",
+      },
+    ],
+  },
+  // 76ZX Market (APM) full lex tester LX-14
+  {
+    completedCandleWeightOunces: "31.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-30 19:00:00",
+        whenStopped: "2021-01-31 02:30:00",
+        stoppedWeightOunces: 28.0,
+        notes:
+          "1/8- inch mp for most of the burn. flames look great, no mushrooming.",
+      },
+      {
+        whenStarted: "2021-01-31 14:00:00",
+        whenStopped: "2021-02-01 01:30:00",
+        stoppedWeightOunces: 25.0,
+        notes:
+          "1/8 to 1/4- inch mp all day. flames look healthy, not much mushrooming. this is still just great.",
+      },
+      {
+        whenStarted: "2021-02-01 17:00:00",
+        whenStopped: "2021-02-02 03:00:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/4 to 1/3 inch mp, flames moderate sized, and a tiny bit of soot on the lip of the glass. but this was a long burn and the wicks werent trimmed. this is still perfect probably. should trim the wicks for the next one. not much mushrooming.",
+      },
+      {
+        whenStarted: "2021-02-02 19:30:00",
+        whenStopped: "2021-02-03 03:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/4 to 1/3 inch mp. flames moderate to large, a bit sooty if the candle is disturbed but probably fine. jar under 140. wicks were trimmed slightly before this, but could be trimmed more. small mushroomign. still great.",
+      },
+      {
+        whenStarted: "2021-02-03 20:00:00",
+        whenStopped: "2021-02-04 02:00:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/4 to 1/3 inch mp. flames moderate to larege, not much mushrooming, tiny bit of soot coming off of them, but not building up. jar under 150.",
+      },
+    ],
+  },
+  // Lavender Lex Half testers
+  // G2Q8 Lavender Half Tester CD-4
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-30 19:00:00",
+        whenStopped: "2021-01-31 02:30:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/8- inch mp for most of the burn. flames look great, no mushrooming.",
+      },
+      {
+        whenStarted: "2021-01-31 14:00:00",
+        whenStopped: "2021-02-01 01:30:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/8 inch mp all day. but wicks and flames look fine. could be a little hotter.",
+      },
+      {
+        whenStarted: "2021-02-01 17:00:00",
+        whenStopped: "2021-02-02 03:00:00",
+        stoppedWeightOunces: 19.5,
+        notes:
+          "1/8 mp, looks fine but candle is fairly cool. something slightly bigger would be preferable for this fragrance. maybe this is slightly hotter than the htp-72 and lx-14, but still too cool. similar to the cdn-5.",
+      },
+    ],
+  },
+  // P1JL Lavender Half Tester LX-12
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-30 19:00:00",
+        whenStopped: "2021-01-31 02:30:00",
+        stoppedWeightOunces: 23.0,
+        notes: "not quite full mp. def not hot enough.",
+      },
+      {
+        whenStarted: "2021-01-31 14:00:00",
+        whenStopped: "2021-02-01 01:30:00",
+        stoppedWeightOunces: 21.0,
+        notes: "full shallow mp, but not hot enough.",
+      },
+    ],
+  },
+  // 291M Lavender Half Tester LX-14
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-30 19:00:00",
+        whenStopped: "2021-01-31 02:30:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "full shallow mp, flames a bit small. need something a little hotter. lx-16? the cd-4, cdn-5, htp-72 are a little better.",
+      },
+      {
+        whenStarted: "2021-01-31 14:00:00",
+        whenStopped: "2021-02-01 01:30:00",
+        stoppedWeightOunces: 21.0,
+        notes: "full shallow mp, def not hot enough either.",
+      },
+      {
+        whenStarted: "2021-02-01 17:00:00",
+        whenStopped: "2021-02-02 03:00:00",
+        stoppedWeightOunces: 19.5,
+        notes:
+          "1/8 mp, looks fine but candle is fairly cool. something slightly bigger would be preferable for this fragrance.",
+      },
+    ],
+  },
+  // YP47 Lavender Half Tester CDN-5
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-30 19:00:00",
+        whenStopped: "2021-01-31 02:30:00",
+        stoppedWeightOunces: 28.0,
+        notes:
+          "1/8- inch mp all burn. flames look good and no mushrooming, but could be slightly hotter.",
+      },
+      {
+        whenStarted: "2021-01-31 14:00:00",
+        whenStopped: "2021-02-01 01:30:00",
+        stoppedWeightOunces: 21.0,
+        notes: "1/8 inch mp. prob not quite hot enough for a super long burn.",
+      },
+      {
+        whenStarted: "2021-02-01 17:00:00",
+        whenStopped: "2021-02-02 03:00:00",
+        stoppedWeightOunces: 19.5,
+        notes:
+          "1/8 mp, looks fine but candle is fairly cool. something slightly bigger would be preferable for this fragrance. this one might be very slightly better than the htp-72 and the lx-14, but still too cool. could try cdn-6, cd-5, lx-16?",
+      },
+    ],
+  },
+  // 5KEM Lavender Half Tester HTP-72
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-01-30 19:00:00",
+        whenStopped: "2021-01-31 02:30:00",
+        stoppedWeightOunces: 28.0,
+        notes:
+          "1/8 inch mp, flames look great, no mushrooming. looks good. could try the htp-83 though.",
+      },
+      {
+        whenStarted: "2021-01-31 14:00:00",
+        whenStopped: "2021-02-01 01:30:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/8 mp, not quite hot enough for an all day burn. no mushrooming etc.",
+      },
+      {
+        whenStarted: "2021-02-01 17:00:00",
+        whenStopped: "2021-02-02 03:00:00",
+        stoppedWeightOunces: 19.5,
+        notes:
+          "1/8 mp, looks fine but candle is fairly cool. something slightly bigger would be preferable for this fragrance.",
+      },
+    ],
+  },
+  // Fillmore Container Wild Mountain Honey Lex Testers
+  // 61NL Wild Mountain Honey LX-14
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-05 11:00:00",
+        whenStopped: "2021-02-05 18:50:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/3 inch mp, flames fairly large, moderate mushrooming, jar above 155ish. probably too big, but maybe if trimmed shorter it has a better shot. lx-12 likely a decent option though.",
+      },
+      {
+        whenStarted: "2021-02-08 21:30:00",
+        whenStopped: "2021-02-09 03:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/3 inch mp, jar at 150-, medium mushroomming, flames medium to large, but looks fine. a touch on the big side, but still good.",
+      },
+      {
+        whenStarted: "2021-02-09 14:00:00",
+        whenStopped: "2021-02-09 16:30:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/4 to 1/3 inch mp, flames medium, everything looks great. no mushrooming",
+      },
+    ],
+  },
+  // DYQL Wild Mountain Honey CD-4
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-05 11:00:00",
+        whenStopped: "2021-02-05 18:50:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/4 to 1/3 inch mp, flames medium to large, no mushrooming, and jar probably 145ish. fairly good option for a long burn mid jar. may be too hot going lower.",
+      },
+      {
+        whenStarted: "2021-02-08 21:30:00",
+        whenStopped: "2021-02-09 03:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/4 inch mp, no mushrooming, jar under 140, flames look great. this is excellent.",
+      },
+      {
+        whenStarted: "2021-02-09 14:00:00",
+        whenStopped: "2021-02-09 16:30:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/4 to 1/3 inch mp, flames medium to small--barely starting to dim, but look fine. jar fairly cool but this is okay still.",
+      },
+    ],
+  },
+  // J2MM Wild Mountain Honey CDN-5
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-05 11:00:00",
+        whenStopped: "2021-02-05 18:50:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/4 to 1/3 inch mp, flames medium to large, no mushrooming, jar 140ish. looks very similar to the cd-4 and likely a tiny bit too large, but may be okay.",
+      },
+      {
+        whenStarted: "2021-02-08 21:30:00",
+        whenStopped: "2021-02-09 03:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/3- inch mp, no mushrooming, jar under 140, medi,um to large flames, looks a lot like the cd-4 and its great.",
+      },
+      {
+        whenStarted: "2021-02-09 14:00:00",
+        whenStopped: "2021-02-09 16:30:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/3 inch mp, flames medium sized, everything looks fine. jar not too hot no mushrooming.",
+      },
+    ],
+  },
+  // X5LZ Wild Mountain Honey HTP-72
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-05 11:00:00",
+        whenStopped: "2021-02-05 18:50:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/3+ inch mp. flames medium to large, medium mushrooming. jar 145ish. a bit too large prob.",
+      },
+      {
+        whenStarted: "2021-02-08 21:30:00",
+        whenStopped: "2021-02-09 03:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/3- inch mp, no mushrooming, jar under 140, medium to large flames, looks a lot like the cd-4 and its great.",
+      },
+      {
+        whenStarted: "2021-02-09 14:00:00",
+        whenStopped: "2021-02-09 16:30:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/3 inch mp, flames totally fine, not much mushrooming, not too hot. looks great for the bottom of jar.",
+      },
+    ],
+  },
+  // Fillmore Container Sandalwood Lex Testers
+  // 1JXN Sandalwood LX-14
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-05 20:30:00",
+        whenStopped: "2021-02-06 02:30:00",
+        stoppedWeightOunces: 23.0,
+        notes: "1/4 inch mp, no mushrooming, flames look great. jar under 140.",
+      },
+      {
+        whenStarted: "2021-02-08 15:00:00",
+        whenStopped: "2021-02-08 21:00:00",
+        stoppedWeightOunces: 22.0,
+        notes: "1/3 inch mp, fair amount of mushrooming and soot. too hot.",
+      },
+    ],
+  },
+  // V1NV Sandalwood CD-4
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-05 20:30:00",
+        whenStopped: "2021-02-06 02:30:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/4 to 1/3 inch mp, no mushrooming, flames look great. jar under 140. slightly deeper mp than the lx-14",
+      },
+      {
+        whenStarted: "2021-02-08 15:00:00",
+        whenStopped: "2021-02-08 21:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/3 inch mp, fair amount of mushrooming and soot. also too hot.",
+      },
+    ],
+  },
+  // KPQO Sandalwood CDN-5
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-05 20:30:00",
+        whenStopped: "2021-02-06 02:30:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/4 to 1/3 inch mp. no mushrooming, flames look great. very similar to the cd-4, but maybe slightly cooler.",
+      },
+      {
+        whenStarted: "2021-02-08 15:00:00",
+        whenStopped: "2021-02-08 21:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/3- inch mp, no mushrooming but fair amount of soot. too hot still.",
+      },
+    ],
+  },
+  // E2QV Sandalwood HTP-72
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-05 20:30:00",
+        whenStopped: "2021-02-06 02:30:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/3+ inch mp, flames look fine but maybe a touch large. tiny bit of carbon build up, and def the hottest of the bunch at about 140+. still fine.",
+      },
+      {
+        whenStarted: "2021-02-08 15:00:00",
+        whenStopped: "2021-02-08 21:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/3- inch mp, no real mushrooming, tiny bit of soot. jar 150ish. this is the best of the bunch, bunch, but could try cd-3, lx-12, cdn-4 too",
+      },
+    ],
+  },
+  // Coffee Trial
+  // QQJ4 CS Fresh Coffee LX-14
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-09 20:00:00",
+        whenStopped: "2021-02-10 01:30:00",
+        stoppedWeightOunces: 24.5,
+        notes:
+          "wicks immediately started drowning. somehow this doesnt work at all. the smell is fine, but seems especially bitter. like strong stale coffee.",
+      },
+      {
+        whenStarted: "2021-02-10 14:00:00",
+        whenStopped: "2021-02-11 01:30:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "flames still too small, but it has reached a full mp. wick def terrible here, but the coffee smell is not my favorite either. smells too burnt. i like the description of stale coffee above.",
+      },
+    ],
+  },
+  // MX5D Aztec Brazilian Coffee LX-14
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-09 20:00:00",
+        whenStopped: "2021-02-10 01:30:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/8 inch mp, flames medium to small. jar cool. looks good but could be hotter. smells much more like a natural cup of coffee. but maybe the scent could be stronger.",
+      },
+      {
+        whenStarted: "2021-02-10 14:00:00",
+        whenStopped: "2021-02-11 01:30:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "flames medium to large, jar under 150 all day, tiny bit of soot. great wick. fragrance hard to pinpoint strength next to the mw espresso, but the coffee smell is much more natural. this is the best of the coffies.",
+      },
+    ],
+  },
+  // 762X Midwest Espresso LX-14
+  {
+    completedCandleWeightOunces: "31.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-09 20:00:00",
+        whenStopped: "2021-02-10 01:30:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/8+ inch mp, flames medium to small, tiny bit of mushrooming. this is a bit hotter than the aztec brazilian coffee. smells sweeter, like a tiramisu or coffee cake.",
+      },
+      {
+        whenStarted: "2021-02-10 14:00:00",
+        whenStopped: "2021-02-11 01:30:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "flames large all day, fair amount of soot on the glass, but it was a long burn. little bit of mushrooming, jar 150ish, maybe a touch more at some point. pretty good but a bit too hot. this candle is super fragrant, but def smells like a coffee cake vs a coffee.",
+      },
+    ],
+  },
+  // Market First Batch of 3 completed
+  // G278 Market Final LX-14 1/3
+  {
+    completedCandleWeightOunces: "31.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // P1DL Market Final LX-14 2/3
+  {
+    completedCandleWeightOunces: "31.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // 292M Market Final LX-14 3/3
+  {
+    completedCandleWeightOunces: "31.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-05-09 19:00:00",
+        whenStopped: "2021-05-10 02:00:00",
+        stoppedWeightOunces: 30.0,
+        notes:
+          "not quite full mp, tunneling slightly but it will clear up. still, i should revisit this with larger wicks. cdn-7/cdn-8",
+      },
+      {
+        whenStarted: "2021-05-10 17:30:00",
+        whenStopped: "2021-05-11 02:00:00",
+        stoppedWeightOunces: 27.0,
+        notes:
+          "1/8 inch mp, fairly hot and fragrant. this is actually great. strange the the first burn isn't ideal though. little bit of mushrooming but but looks great.",
+      },
+      {
+        whenStarted: "2021-06-31 21:30:00",
+        whenStopped: "2021-07-01 01:00:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/3 inch mp, jar pretty hot at 155+. flames medium to large and a small amount of soot. maybe this isn't the best wick, but its definitely not the worst either.",
+      },
+    ],
+  },
+  // English Garden CS Lex Testers
+  // YPL7 English Garden CS LX-14
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-14 18:00:00",
+        whenStopped: "2021-02-15 02:00:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/8 inch mp, jar 130ish. flames small. not hot enough. even a touch cooler than the htp-72",
+      },
+      {
+        whenStarted: "2021-02-14 18:00:00",
+        whenStopped: "2021-02-15 02:00:00",
+        stoppedWeightOunces: 24.0,
+        notes: "1/8 to 1/4 inch mp, very small flames. way too cool.",
+      },
+    ],
+  },
+  // 5K2M English Garden CS CD-4
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-14 18:00:00",
+        whenStopped: "2021-02-15 02:00:00",
+        stoppedWeightOunces: 24.0,
+        notes: "1/4 to 1/3 inch mp, jar 150ish. this is about perfect.",
+      },
+      {
+        whenStarted: "2021-02-14 18:00:00",
+        whenStopped: "2021-02-15 02:00:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/4 inch mp, flames small to medium. jar 130ish. this burn this cd-4 is simlar to the the htp-72. both okay, but a touch too small prob.",
+      },
+    ],
+  },
+  // BZ79 English Garden CS CDN-5
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-14 18:00:00",
+        whenStopped: "2021-02-15 02:00:00",
+        stoppedWeightOunces: 24.0,
+        notes: "1/8 inch mp, jar 130ish. flames small. not hot enough.",
+      },
+      {
+        whenStarted: "2021-02-14 18:00:00",
+        whenStopped: "2021-02-15 02:00:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/4 inch mp, flames small to medium. prob not quite hot enough. fairly similar to the cd-4 and htp-72",
+      },
+    ],
+  },
+  // 612L English Garden CS HTP-72
+  {
+    completedCandleWeightOunces: "25.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-14 18:00:00",
+        whenStopped: "2021-02-15 02:00:00",
+        stoppedWeightOunces: 24.0,
+        notes:
+          "1/4 inch mp, flames small to medium. prob not quite hot enough.",
+      },
+      {
+        whenStarted: "2021-02-15 18:00:00",
+        whenStopped: "2021-02-15 02:00:00",
+        stoppedWeightOunces: 23.0,
+        notes: "1/4 inch mp, flames small to medium. too cool.",
+      },
+    ],
+  },
+  // DY7K Golden Garden Wick Guess Lex CDN-5
+  {
+    completedCandleWeightOunces: "34.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-17 18:00:00",
+        whenStopped: "2021-02-18 02:00:00",
+        stoppedWeightOunces: 33.0,
+        notes:
+          "tunneling! i hoped the cdn-5 being too big for sandalwood and wmh would counter it being too small for english garden, but it looks like i was totally wrong. small flames, not even that close to a full mp. needs a cdn-6, cd-6, lx-16, who knows?",
+      },
+      {
+        whenStarted: "2021-02-18 18:00:00",
+        whenStopped: "2021-02-19 02:00:00",
+        stoppedWeightOunces: 32.0,
+        notes:
+          "basically a full shallow mp. the jar is about 60% full now, flames look small to medium. this is probably okay when all is said and done, but would love it to be hotter up top here. the next testers will be interesting (cdn-6, cd-4, htp-83 etc)",
+      },
+    ],
+  },
+  // Golden Garden Half Jar Big Wick Testers
+  // J274 Golden Garden  Lex Tester CD-4
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-18 18:00:00",
+        whenStopped: "2021-02-19 02:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "jar 150, 1/3 inch mp, flames medium to large. 3/4 jar depth. looks pretty good as a candidate this far down.",
+      },
+      {
+        whenStarted: "2021-02-21 19:00:00",
+        whenStopped: "2021-02-22 02:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "1/4 inch+ mp, jar 140. flames medium to large, not much soot. looks great, but might not be hot enough at the top.",
+      },
+    ],
+  },
+  // X5ZX Golden Garden  Lex Tester CDN-6
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-18 18:00:00",
+        whenStopped: "2021-02-19 02:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "jar 150-, 1/4 inch mp, flames medium to large. looks like a great candidate. curious about the top half.",
+      },
+      {
+        whenStarted: "2021-02-21 19:00:00",
+        whenStopped: "2021-02-22 02:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "up to 1/3 inch mp, jar 160-, little bit of soot built up but wicks weren't trimmed prior to lighting. its hot, but this is probably fine. i like this and the lx-16 the best.",
+      },
+    ],
+  },
+  // 1J2Y Golden Garden  Lex Tester HTP-83
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // V1EZ Golden Garden  Lex Tester P-750
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // KP5G Golden Garden  Lex Tester LX-16
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-18 18:00:00",
+        whenStopped: "2021-02-19 02:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/4 to 1/3 inch mp, jar 150. flames large-. looks like a great candidate.",
+      },
+      {
+        whenStarted: "2021-02-21 19:00:00",
+        whenStopped: "2021-02-22 02:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "final bit of jar full 1/8 inch mp, flames medium to large, not much soot at all jar 150+. looks pretty good. ",
+      },
+    ],
+  },
+  // E2L2 Golden Garden  Lex Tester Eco-1
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "55",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-18 18:00:00",
+        whenStopped: "2021-02-19 02:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/8 inch mp, flames medium look fine down here. but i presume it's a little too shallow for a full jar first burxn.",
+      },
+      {
+        whenStarted: "2021-02-21 19:00:00",
+        whenStopped: "2021-02-22 02:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "1/4 inch+ mp, jar 150+. flames large but fine. bit of soot built up but wicks werent trimmed before the burn. this is fine",
+      },
+    ],
+  },
+  // Z98Y Golden Garden Full Lex Tester CDN-6
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-02-22 19:00:00",
+        whenStopped: "2021-02-23 02:00:00",
+        stoppedWeightOunces: 32.0,
+        notes:
+          "1/8 inch mp, flames medium. looks great for a first long burn. was a full shallow mp pretty quickly and stayed there most of the burn.",
+      },
+      {
+        whenStarted: "2021-02-23 19:00:00",
+        whenStopped: "2021-02-24 02:00:00",
+        stoppedWeightOunces: 27.0,
+        notes:
+          "1/4 inch mp, flames medium to large. but no soot on the glass, no mushrooming, jar not too hot. looks great still. wicks were trimmed slightly before burn but this was a long one. candle at half full still.",
+      },
+      {
+        whenStarted: "2021-02-24 19:00:00",
+        whenStopped: "2021-02-25 02:30:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/3 inch mp, flames large but still okay. jar 155-. no obvious soot built up on the jar, but it soots a bit with drafts. this is still great. also a long burn. was trimmed tho",
+      },
+      {
+        whenStarted: "2021-02-25 14:00:00",
+        whenStopped: "2021-02-26 01:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "1/3 inch mp at biggest, little bit of soot on the jar but not terrible. this is a pretty great candle despite the small amount of soot. can prob recommend trimming it more or less long burns and it'll be even better.",
+      },
+    ],
+  },
+  // LLBM CS Palo Santo Lex Tester
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-03-01 15:30:00",
+        whenStopped: "2021-03-01 11:45:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/8 inch mp, flames medium-. def needs to be hotter. love the scent. ",
+      },
+      {
+        whenStarted: "2021-03-02 15:30:00",
+        whenStopped: "2021-03-03 01:30:00",
+        stoppedWeightOunces: 21.0,
+        notes: "1/8 inch mp, flames medium-. needs to be hotter.",
+      },
+    ],
+  },
+  // 454D CS Black Coral and Moss Lex Tester
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-03-01 15:30:00",
+        whenStopped: "2021-03-01 11:45:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/4- mp, flames medium. could stand to be a bit hotter this far down in the jar though. scent is masculine, wintery, and fairly strong.",
+      },
+    ],
+  },
+  // OPJX CS Neroli and White Jasmine Lex Tester
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-03-01 15:30:00",
+        whenStopped: "2021-03-01 11:45:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/4- inch mp, flames medium-. could be hotter this deep in the jar. the jasmine is super accurate and reminds me of a really fancy tea. and strong. this is excellent.",
+      },
+      {
+        whenStarted: "2021-03-02 15:30:00",
+        whenStopped: "2021-03-03 01:30:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/8 inch mp, flames small to medium. smells great and strong though.",
+      },
+    ],
+  },
+  // 8VQ1 CS Pink Sugar Crystals Lex Tester
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-03-01 15:30:00",
+        whenStopped: "2021-03-01 11:45:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/8 inch mp, flames medium-. needs something hotter. scent is fairly strong and nice. sort of like a watermelon candy. might be nice for mixing.",
+      },
+      {
+        whenStarted: "2021-03-02 15:30:00",
+        whenStopped: "2021-03-03 01:30:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/8 inch mp, flames medium-. smells strong, maybe good in a mix.",
+      },
+    ],
+  },
+  // 9J56 CS Santal and Coconut Lex Tester
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-03-01 15:30:00",
+        whenStopped: "2021-03-01 11:45:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/8 inch mp, flames medium-. could stand to be hotter. scent is amazing--thought this would be weak but its surprisingly strong. would like to compare this to coconut straight up.",
+      },
+      {
+        whenStarted: "2021-03-02 15:30:00",
+        whenStopped: "2021-03-03 01:30:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/8 inch mp, flames medium. could be hotter. great scent though.",
+      },
+    ],
+  },
+  // QQ1L CS Apple Peppercorn Lex Tester
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-03-01 15:30:00",
+        whenStopped: "2021-03-01 11:45:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/8 inch mp, flames medium-. could stand to be hotter. definitely apply and spicy, fairly strong. great as a fall option.",
+      },
+      {
+        whenStarted: "2021-03-02 15:30:00",
+        whenStopped: "2021-03-03 01:30:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/8 inch mp, flames medium-. smells strong fosho, def belongs in a fall-ish candle.",
+      },
+    ],
+  },
+  // MX6G CS Lavender Driftwood Lex Tester
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-03-01 15:30:00",
+        whenStopped: "2021-03-01 11:45:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "full shallow mp, flames small. not nearly hot enough. may need something like the cdn-6. really nice and strong scent.",
+      },
+      {
+        whenStarted: "2021-03-02 15:30:00",
+        whenStopped: "2021-03-03 01:30:00",
+        stoppedWeightOunces: 21.0,
+        notes: "1/8 inch mp, flames small to medium. smells great and strong",
+      },
+    ],
+  },
+  // Lavender Comparison
+  // 769E CS Lavender CDN-6
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // G2OX CS Lavender Driftwood CDN-6
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // Palo Santo Comparison
+  // P1XV CS Palo Santo CDN-6
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // 29ZY TFC Palo Santo Patchouli LX-14
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // Coconut Comparison
+  // YPOD CS Coconut LX-14
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // 5KYE CS Santal Coconut CDN-6
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // CS White Birch Lex Testers
+  // 6188 CS White Birch LX-14
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-03-11 19:00:00",
+        whenStopped: "2021-03-12 02:30:00",
+        stoppedWeightOunces: 21.0,
+        notes: "full shallow mp, not hot enough.",
+      },
+    ],
+  },
+  // DYZK CS White Birch CD-4
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-03-11 19:00:00",
+        whenStopped: "2021-03-12 02:30:00",
+        stoppedWeightOunces: 21.0,
+        notes: "full shallow mp, not hot enough.",
+      },
+    ],
+  },
+  // J2Q4 CS White Birch CDN-5
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-03-11 19:00:00",
+        whenStopped: "2021-03-12 02:30:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "full shallow mp, not hot enough. surprisingly slightly hotter than the cdn-6, but prob bc of wick trimming or something.",
+      },
+    ],
+  },
+  // X54X CS White Birch CDN-6
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-03-11 19:00:00",
+        whenStopped: "2021-03-12 02:30:00",
+        stoppedWeightOunces: 21.0,
+        notes: "full shallow mp, not hot enough.",
+      },
+    ],
+  },
+  // 1JNY CS White Birch HTP-72
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-03-11 19:00:00",
+        whenStopped: "2021-03-12 02:30:00",
+        stoppedWeightOunces: 21.0,
+        notes: "full shallow mp, not hot enough.",
+      },
+    ],
+  },
+  // White Birch Heavier Wicks
+  // E2E2 White Birch Lex CD-6
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-03-23 15:00:00",
+        whenStopped: "2021-03-24 02:30:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/4 inch cloudy mp, jar not too hot, flames look great. but this is now 1/4 full after a long burn, guess id expect even hotter. cdn-8 seems very slightly better.",
+      },
+    ],
+  },
+  // N2YG White Birch Lex CDN-8
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-03-23 15:00:00",
+        whenStopped: "2021-03-24 02:30:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/4 inch clear mp, flames medium to large and healthy. jar not too hot, no soot. this is great.",
+      },
+    ],
+  },
+  // Z9ZY White Birch Lex LX-16
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-03-23 15:00:00",
+        whenStopped: "2021-03-24 02:30:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/4 inch cloudy mp, jar temp great--not too hot, and flames look great. but maybe id expect hotter for a long burn.",
+      },
+    ],
+  },
+  // LL9M White Birch Lex HTP-83
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-03-23 15:00:00",
+        whenStopped: "2021-03-24 02:30:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/4 inch clear mp, flames only medium. fine but could be hotter. cdn-8 prob the best slightly.",
+      },
+    ],
+  },
+  // 45GD White Birch Lex Eco-2
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-03-23 15:00:00",
+        whenStopped: "2021-03-24 02:30:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "flames dimming, not full mp. not hot enough or ecos just dont work.",
+      },
+    ],
+  },
+  // Suede and Smoke Testers 2
+  // 9JG6 Suede and Smoke Lex CD-3
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-13 16:00:00",
+        whenStopped: "2021-04-14 01:00:00",
+        stoppedWeightOunces: 21.0,
+        notes: "not quite full mp, cd-4 worth a shot, and probably cdn-6",
+      },
+    ],
+  },
+  // QQ6L Suede and Smoke Lex CDN-5
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-13 16:00:00",
+        whenStopped: "2021-04-14 01:00:00",
+        stoppedWeightOunces: 21.0,
+        notes: "1/8 inch mp, should be bigger. should try cdn-6.",
+      },
+    ],
+  },
+  // Santal Coconut Lex Testers
+  // 76GE Santal and Coconut Lex CDN-6
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-19 20:30:00",
+        whenStopped: "2021-04-20 01:20:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/8 inch mp, looks good but could be a little hotter. Need to try CDN-7.",
+      },
+    ],
+  },
+  // G2ZX Santal and Coconut Lex CDN-8
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-19 20:30:00",
+        whenStopped: "2021-04-20 01:20:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/4 inch mp, maybe a bit hot at 140+ with tiny bits of soot as jar shifts. Looks good. CDN-7 definitely worth trying next batch.",
+      },
+      {
+        whenStarted: "2021-04-20 16:00:00",
+        whenStopped: "2021-04-21 01:40:00",
+        stoppedWeightOunces: 17.0,
+        notes:
+          "jar 160, flames a bit large and plenty of soot on the glass. this was trimmed also. should try cdn-7 which may be a sweet spot. but htp-83 and cd-6 are good candidates.",
+      },
+    ],
+  },
+  // P1BV Santal and Coconut Lex CD-4
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-19 20:30:00",
+        whenStopped: "2021-04-20 01:20:00",
+        stoppedWeightOunces: 21.0,
+        notes: "1/8 inch mp, not quite hot enough.",
+      },
+    ],
+  },
+  // 29GY Santal and Coconut Lex CD-6
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-19 20:30:00",
+        whenStopped: "2021-04-20 01:20:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/8 to 1/4 inch mp. Looks great. Flames medium to large but so far its great. Not quite too hot. Best of the batch with LX-16. But also need to try CDN-7.",
+      },
+      {
+        whenStarted: "2021-04-20 16:00:00",
+        whenStopped: "2021-04-21 01:40:00",
+        stoppedWeightOunces: 17.0,
+        notes:
+          "1/3 inch mp, jar 150, bit of soot on the glass but not too bad. these wicks were not trimmed either. this and the htp-83 are great considering its such a long burn. would love to try the cdn-7 though.",
+      },
+    ],
+  },
+  // YPND Santal and Coconut Lex LX-14
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-19 20:30:00",
+        whenStopped: "2021-04-20 01:20:00",
+        stoppedWeightOunces: 21.0,
+        notes: "1/8 inch cloudy mp, not hot enough.",
+      },
+    ],
+  },
+  // 5KGE Santal and Coconut Lex LX-16
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-19 20:30:00",
+        whenStopped: "2021-04-20 01:20:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/4 inch mp, flames medium to large, jar hot but not too hot. looks great so far. may or may not be too hot or sooty on future burns.",
+      },
+      {
+        whenStarted: "2021-04-20 16:00:00",
+        whenStopped: "2021-04-21 01:40:00",
+        stoppedWeightOunces: 17.0,
+        notes:
+          "1/3 inch mp, only 1/8 inch left though. jar 160+, plenty of soot on the glass. bit too large of a wick for a long burn, was sooting a bit the whole time too. these were trimmed also. too hot.",
+      },
+    ],
+  },
+  // BZ17 Santal and Coconut Lex HTP-83
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-19 20:30:00",
+        whenStopped: "2021-04-20 01:20:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/8 to 1/4 inch mp, flames medium. Looks great. This is slightly less hot vs the CDN-8, the CD-6, and the LX-16. But it is still a good candidate.",
+      },
+      {
+        whenStarted: "2021-04-20 16:00:00",
+        whenStopped: "2021-04-21 01:40:00",
+        stoppedWeightOunces: 17.0,
+        notes:
+          "1/3 inch mp, jar up to 160. no real soot on the glass. this wasn't trimmed either. best of the bunch, and this was a long burn for the bottom of the jar. this is great. id love to see the cdn-7 too.",
+      },
+    ],
+  },
+  // Vetiver Lex Testers
+  // 61G8 Vetiver Lex LX-14
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-21 12:00:00",
+        whenStopped: "2021-04-21 17:00:00",
+        stoppedWeightOunces: 21.0,
+        notes: "not quite full mp, flames small. wick too small.",
+      },
+    ],
+  },
+  // DYKK Vetiver Lex HTP-83
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-21 12:00:00",
+        whenStopped: "2021-04-21 17:00:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/8 to 1/4 inch mp, flames medium and look great. jar well under 140. looks great. could even be slightly hotter. this and the cdn-8 are great.",
+      },
+      {
+        whenStarted: "2021-04-22 17:00:00",
+        whenStopped: "2021-04-23 03:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "1/8 inch mp, flames medium jar 150 degrees. looks great. i slightly prefer the larger flames of the cdn-8 down this far in the jar, but this is fine.",
+      },
+    ],
+  },
+  // J2O4 Vetiver Lex CDN-6
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-21 12:00:00",
+        whenStopped: "2021-04-21 17:00:00",
+        stoppedWeightOunces: 21.0,
+        notes: "not quite full mp, flames small. wick too small.",
+      },
+      {
+        whenStarted: "2021-04-22 17:00:00",
+        whenStopped: "2021-04-22 19:00:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "not quite full mp, ending this one early. its too small. cdn-8 seems great and htp-83 is okay but could be slightly hotter. those will keep burning.",
+      },
+    ],
+  },
+  // X5EX Vetiver Lex CDN-8
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-21 12:00:00",
+        whenStopped: "2021-04-21 17:00:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/8 to 1/4 inch mp, flames medium and look great. jar well under 140. looks great. could even be slightly hotter. this and the htp-83 are great.",
+      },
+      {
+        whenStarted: "2021-04-22 17:00:00",
+        whenStopped: "2021-04-23 03:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "1/4 inch mp, flames medium+ jar 150 degrees. looks great. this is about perfect for this scent.",
+      },
+    ],
+  },
+  // Black Coral Moss Lex Testers
+  // 1JGY Black Coral Moss Lex LX-14
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-21 12:00:00",
+        whenStopped: "2021-04-21 17:00:00",
+        stoppedWeightOunces: 21.0,
+        notes: "not quite full mp, flames small. wick too small.",
+      },
+    ],
+  },
+  // V1VZ Black Coral Moss Lex HTP-83
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-21 12:00:00",
+        whenStopped: "2021-04-21 17:00:00",
+        stoppedWeightOunces: 21.0,
+        notes: "1/4 inch mp, jar 150 at highest, flames medium. looks great.",
+      },
+      {
+        whenStarted: "2021-04-22 17:00:00",
+        whenStopped: "2021-04-23 03:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "1/8+ inch mp, flames medium jar 150 degrees. looks fine. this is a solid option, but i slightly prefer the cdn-8.",
+      },
+    ],
+  },
+  // KPOG Black Coral Moss Lex CDN-6
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-21 12:00:00",
+        whenStopped: "2021-04-21 17:00:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/8 inch mp, flames medium-. looks great, could be slightly hotter.",
+      },
+      {
+        whenStarted: "2021-04-22 17:00:00",
+        whenStopped: "2021-04-23 03:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "1/8 inch mp, flames medium. looks good. probably could afford to be hotter this far down.",
+      },
+    ],
+  },
+  // E2K2 Black Coral Moss Lex CDN-8
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-21 12:00:00",
+        whenStopped: "2021-04-21 17:00:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "1/4 inch mp, flames medium+. tiny bit of mushrooming and jar 154 at the worst. looks great. could be slightly cooler.",
+      },
+      {
+        whenStarted: "2021-04-22 17:00:00",
+        whenStopped: "2021-04-23 03:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "1/4 inch mp, flames medium+ jar 150+ degrees. looks great. this is about perfect for this scent. tiny bit of soot on the side though, but this is the very bottom.",
+      },
+    ],
+  },
+  // QQ5L Goliath with Suede Tester
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-24 12:00:00",
+        whenStopped: "2021-04-24 15:00:00",
+        stoppedWeightOunces: 19.0,
+        notes: "1/4- inch mp, flames medium",
+      },
+      {
+        whenStarted: "2021-04-25 15:00:00",
+        whenStopped: "2021-04-26 02:00:00",
+        stoppedWeightOunces: 18.0,
+        notes: "1/8+ inch mp, flames medium looks good but could be hotter.",
+      },
+    ],
+  },
+  // MXYG Goliath with Whiskey Tester
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-24 12:00:00",
+        whenStopped: "2021-04-24 15:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          " 1/4 inch mp after 3 hour burn, flames medium but bit medium mushrooming. looks good.",
+      },
+      {
+        whenStarted: "2021-04-25 15:00:00",
+        whenStopped: "2021-04-26 02:00:00",
+        stoppedWeightOunces: 18.0,
+        notes: "1/8 inch mp, flames medium looks good but could be hotter.",
+      },
+    ],
+  },
+  // 76PE Goliath with Patchouli Tester
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-24 12:00:00",
+        whenStopped: "2021-04-24 15:00:00",
+        stoppedWeightOunces: 19.0,
+        notes: "1/4 inch mp after 3 hour burn, flames medium+. looks great.",
+      },
+      {
+        whenStarted: "2021-04-25 15:00:00",
+        whenStopped: "2021-04-26 02:00:00",
+        stoppedWeightOunces: 18.0,
+        notes: "1/8 inch mp, flames medium looks good but could be hotter.",
+      },
+    ],
+  },
+  // G2NX Goliath with Black Sea Tester
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-24 12:00:00",
+        whenStopped: "2021-04-24 15:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          " 1/4 inch mp after 3 hour burn, flames medium-. looks good, but prob could be cdn-8.  black sea too strong, i should tone this down even though it smells wonderful.",
+      },
+    ],
+  },
+  // 5KPE Goliath with 16% Suede CDN-7 Half Jar
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-26 17:00:00",
+        whenStopped: "2021-04-27 03:00:00",
+        stoppedWeightOunces: 22.0,
+        notes: "1/8 inch mp, flames medium. could be hotter. CDN-8 better.",
+      },
+      {
+        whenStarted: "2021-04-27 12:00:00",
+        whenStopped: "2021-04-28 02:00:00",
+        stoppedWeightOunces: 20.0,
+        notes: "1/8 inch mp, jar under 140, flames medium. could be hotter.",
+      },
+    ],
+  },
+  // BZX7 Goliath with 16% Suede CDN-8 Half Jar
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-26 17:00:00",
+        whenStopped: "2021-04-27 03:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/8+ inch mp, flames large. tiny bit of soot depositted but this was an especially long burn. i think its good. no mushrooming. jar 150-.",
+      },
+      {
+        whenStarted: "2021-04-27 12:00:00",
+        whenStopped: "2021-04-27 10:00:00",
+        stoppedWeightOunces: 19.4,
+        finished: true,
+        notes:
+          "extinguished itself. flames large at the bottom, fair amount of soot deposited. but jar never above 150 and wicks prob could be trimmed or burn could be shorter. soot isn't idea, but seems fine.",
+      },
+    ],
+  },
+  // 61P8 Goliath with 16% Suede CDN-7 Full Jar
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-26 17:00:00",
+        whenStopped: "2021-04-27 03:00:00",
+        stoppedWeightOunces: 31.0,
+        notes: "not full mp, tunneling. not hot enough.",
+      },
+      {
+        whenStarted: "2021-04-27 12:00:00",
+        whenStopped: "2021-04-28 02:00:00",
+        stoppedWeightOunces: 27.0,
+        notes: "almost full mp, flames medium-. too cool.",
+      },
+    ],
+  },
+  // DYVK Goliath with 16% Suede CDN-8 Full Jar
+  {
+    completedCandleWeightOunces: "33.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-04-26 17:00:00",
+        whenStopped: "2021-04-27 03:00:00",
+        stoppedWeightOunces: 31.0,
+        notes:
+          "1/8 inch mp, flames medium. looks great. started with medium mushrooming, but those burnt off. one piece fell in the wax, but the wick may have been slightly long. jar not too hot.",
+      },
+      {
+        whenStarted: "2021-04-27 12:00:00",
+        whenStopped: "2021-04-28 02:00:00",
+        stoppedWeightOunces: 25.0,
+        notes:
+          "1/4 inch mp, flames medium+. no soot, looks and smells great. jar well under 150 probably. at about 40% remaining.",
+      },
+      {
+        whenStarted: "2021-04-28 12:00:00",
+        whenStopped: "2021-04-28 17:00:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/4 inch mp, flames medium+. tiny bit of soot, but not much. jar well under 140. looks great. wicks were trimmed.",
+      },
+      {
+        whenStarted: "2021-05-02 21:00:00",
+        whenStopped: "2021-05-03 01:30:00",
+        stoppedWeightOunces: 21.0,
+        notes: "1/4- inch mp, flames medium+, looks great. jar under 150.",
+      },
+    ],
+  },
+  // Goliath Off Rail Batch 1 5/1/2021
+  // V1XZ Goliath Off Rail 1/3
+  {
+    completedCandleWeightOunces: "31.25",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // KP4G Goliath Off Rail 2/3
+  {
+    completedCandleWeightOunces: "30.97",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // E2V2 Goliath Off Rail 3/3
+  {
+    completedCandleWeightOunces: "31.18",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // Goliath Off Rail Batch 2 5/1/2021
+  // N29G Goliath Off Rail 1/3
+  {
+    completedCandleWeightOunces: "31.04",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // Z9VY Goliath Off Rail 2/3
+  {
+    completedCandleWeightOunces: "31.46",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // LLYM Goliath Off Rail 3/3
+  {
+    completedCandleWeightOunces: "31.01",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [],
+  },
+  // Goliath CDN vs 2 new HTPs batch of 3
+  // OPQX Goliath Off Rail CDN-8
+
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-05-04 13:00:00",
+        whenStopped: "2021-05-04 17:00:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "1/8 inch mp, flames medium. looks great. probably could be hotter even but i know it gets sooty at the bottom. def still the best here.",
+      },
+    ],
+  },
+  // 8V81 Goliath Off Rail HTP-73-2021
+
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-05-04 13:00:00",
+        whenStopped: "2021-05-04 16:00:00",
+        stoppedWeightOunces: 23.5,
+        notes: "not full mp, wont ever be. too small.",
+      },
+    ],
+  },
+  // 9J96 Goliath Off Rail HTP-83-2021
+  {
+    completedCandleWeightOunces: "24.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-05-04 13:00:00",
+        whenStopped: "2021-05-04 17:00:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "almost full shallow mp. needs a bigger wick. should try htp-93-2021",
+      },
+    ],
+  },
+  // Sweet Orange Chili Comparisons
+  // QQ7L AAA Orange Spice CDN-7
+  {
+    completedCandleWeightOunces: "23.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-05-13 19:00:00",
+        whenStopped: "2021-05-14 01:30:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/3 inch mp, flames medium+ and jar something like 145+. smells great but reminds me a lot of CS patchouli. Or maybe like an Orange Chocolate. It's nice. Great wick for this scent too.",
+      },
+      {
+        whenStarted: "2021-06-01 21:00:00",
+        whenStopped: "2021-06-02 02:30:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "1/3 inch mp, flames medium. looks pretty good. smells like an orange patchouli. not really the same as the others. i prefer the northstar the most. this is great though.  and probably the right wick.",
+      },
+    ],
+  },
+  // MX8G Natures Garden Sweet Orange Chili Pepper CDN-7
+  {
+    completedCandleWeightOunces: "23.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-05-13 19:00:00",
+        whenStopped: "2021-05-14 01:30:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "full shallow mp, but flames small and easily drowns when jar moved. scent is fine but a bit faint. not the best.",
+      },
+      {
+        whenStarted: "2021-06-01 21:00:00",
+        whenStopped: "2021-06-02 02:30:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "full shallow mp, but tiny flames. scent is less spicy and more sweet than the northstar. not quite as nice.",
+      },
+    ],
+  },
+  // 76OE  Northstar Sweet Orange Chili Pepper CDN-7
+  {
+    completedCandleWeightOunces: "23.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-05-13 19:00:00",
+        whenStopped: "2021-05-14 01:30:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/4 inch mp, flames medium or medium-. cdn-8 would probably be perfect for this. scent is much more orangey than the AAA orange spice. This is super nice.",
+      },
+      {
+        whenStarted: "2021-06-01 21:00:00",
+        whenStopped: "2021-06-02 02:30:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "1/4 inch mp, flames medium. looks pretty good. still might be able to handle a cdn-8. smells great. this is my favorite of the 3 now.",
+      },
+    ],
+  },
+  // Fireside Comparisons
+  // G2EX CS Fireside CDN-7
+  {
+    completedCandleWeightOunces: "23.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-05-14 19:00:00",
+        whenStopped: "2021-05-15 04:15:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/8 inch mp, flames medium but a tiny bit of soot--could be from a draft. cdn-8 prob worth trying. definitely a smokey neutral fire smell.",
+      },
+    ],
+  },
+  // P1MV Northstar Fireplace CDN-7
+  {
+    completedCandleWeightOunces: "23.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-05-14 19:00:00",
+        whenStopped: "2021-05-15 04:15:00",
+        stoppedWeightOunces: 22.0,
+        notes:
+          "1/3 inch mp, flames medium+ but looks like a great wick. jar 150+ but long burn near bottom. smell is much warmer and sweeter than cs firewood. i think i prefer it. also stronger. medium mushrooming.",
+      },
+    ],
+  },
+  // Sandalwood Comparisons
+  // 29EY Northstar Sandalwood CDN-7
+  {
+    completedCandleWeightOunces: "23.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-05-15 13:00:00",
+        whenStopped: "2021-05-15 15:20:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "not full mp (but not full 4 hour burn), flame muted. wicks need to be way bigger or different. smells wonderful though--a little floraly.",
+      },
+      {
+        whenStarted: "2021-05-17 21:00:00",
+        whenStopped: "2021-05-18 02:00:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "wick way too small, flames super dim. scent is stronger than the filmore container sandalwood i think, but more floral.",
+      },
+    ],
+  },
+  // YP1D Fillmore Container Sandalwood HTP-73
+  {
+    completedCandleWeightOunces: "23.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-05-15 13:00:00",
+        whenStopped: "2021-05-15 15:20:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "wick could probably be slightly larger, but 1/8 inch mp and not a full 4 hour burn. smells great and neutral.",
+      },
+      {
+        whenStarted: "2021-05-17 21:00:00",
+        whenStopped: "2021-05-18 02:00:00",
+        stoppedWeightOunces: 23.0,
+        notes:
+          "flames medium-, needs a bigger wick. tiny bit of mushrooming, and full shallow mp. scent is nice and neutral. still my preference over the Nortstar.",
+      },
+    ],
+  },
+  // AAAA Brazilian Coffee LX-14
+  {
+    completedCandleWeightOunces: "22.00",
+    volumeOverflowPercent: "40",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-07-05 21:00:00",
+        whenStopped: "2021-07-06 01:00:00",
+        stoppedWeightOunces: 21.0,
+        notes: "not quite full mp. this wick is too small",
+      },
+    ],
+  },
+  // AAAA Brazilian Coffee CDN-4
+  {
+    completedCandleWeightOunces: "22.00",
+    volumeOverflowPercent: "40",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-07-05 21:00:00",
+        whenStopped: "2021-07-06 01:00:00",
+        stoppedWeightOunces: 21.0,
+        notes: "not quite full mp. this wick is too small",
+      },
+    ],
+  },
+  // AAAA Brazilian Coffee CDN-5
+  {
+    completedCandleWeightOunces: "22.00",
+    volumeOverflowPercent: "40",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-07-05 21:00:00",
+        whenStopped: "2021-07-06 01:00:00",
+        stoppedWeightOunces: 21.0,
+        notes: "not quite full mp. this wick is too small",
+      },
+    ],
+  },
+  // AAAA Brazilian Coffee CDN-6
+  {
+    completedCandleWeightOunces: "22.00",
+    volumeOverflowPercent: "40",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-07-05 21:00:00",
+        whenStopped: "2021-07-06 01:00:00",
+        stoppedWeightOunces: 21.0,
+        notes: "not quite full mp. this wick is too small. try cdn-8?",
+      },
+      {
+        whenStarted: "2021-07-07 12:30:00",
+        whenStopped: "2021-07-07 14:00:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "not quite full mp but a super short burn. not sure why this is not doing as well as the cdn-6 repeat in the next batch with the new blend...",
+      },
+    ],
+  },
+  // AAAA Mahagony Shea Coffee CDN-6
+  {
+    completedCandleWeightOunces: "22.00",
+    volumeOverflowPercent: "40",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-07-06 21:00:00",
+        whenStopped: "2021-07-07 01:00:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "not quite full mp. this wick is too small. but oddly a bit better than the cdn-7. fragrance isn't very strong so this isn't a keeper",
+      },
+    ],
+  },
+  // AAAA Mahagony Shea Coffee CDN-7
+  {
+    completedCandleWeightOunces: "22.00",
+    volumeOverflowPercent: "40",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-07-06 21:00:00",
+        whenStopped: "2021-07-07 01:00:00",
+        stoppedWeightOunces: 21.0,
+        notes:
+          "not quite full mp. this wick is too small. but oddly a bit smaller than the cdn-6. fragrance isn't very strong so this isn't a keeper",
+      },
+    ],
+  },
+  // AAAA Brazilian Coffee CDN-6
+  {
+    completedCandleWeightOunces: "23.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-07-07 12:30:00",
+        whenStopped: "2021-07-07 14:00:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "1/4 inch mp, tiny bit of mushrooming. looks good, cdn-7 better maybe tho.",
+      },
+      {
+        whenStarted: "2021-07-07 16:30:00",
+        whenStopped: "2021-07-08 01:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "1/3 inch mp, flames medium to large, tiny bit of soot and medium mushrooming. jar 150-. this is plenty of heat. although it wasn't trimmed and the cdn-7 isn't awful either."
+      },
+    ],
+  },
+  // AAAA Brazilian Coffee CDN-7
+  {
+    completedCandleWeightOunces: "23.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-07-07 12:30:00",
+        whenStopped: "2021-07-07 14:00:00",
+        stoppedWeightOunces: 20.0,
+        notes: "1/4+ inch mp, small mushrooming. looks great.",
+      },
+      {
+        whenStarted: "2021-07-07 16:30:00",
+        whenStopped: "2021-07-08 01:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "1/3 inch mp, flames meidum to large, medium to large mushrooming. tiny bit of soot. this is probably okay for a long burn without a trim. maybe its slightly better than the cdn-6."
+      },
+    ],
+  },
+  // AAAA Brazilian Coffee CDN-8
+  {
+    completedCandleWeightOunces: "23.00",
+    volumeOverflowPercent: "100",
+    colorDescription: "whiteish",
+    burns: [
+      {
+        whenStarted: "2021-07-07 12:30:00",
+        whenStopped: "2021-07-07 14:00:00",
+        stoppedWeightOunces: 20.0,
+        notes:
+          "1/3 inch mp, medium mushrooming. looks good. but cdn-7 prob better bc of the mushroom and jar heat.",
+      },
+      {
+        whenStarted: "2021-07-07 16:30:00",
+        whenStopped: "2021-07-08 01:00:00",
+        stoppedWeightOunces: 19.0,
+        notes:
+          "1/3 inch mp, flames medium to large, medium soot and large mushrooming. jar 150+. this is too hot."
       },
     ],
   },

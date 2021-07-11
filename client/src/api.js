@@ -13,7 +13,10 @@ const api = {
   additivesUrl: "http://localhost:5000/additives?availableOnly=true",
   fragranceOilsUrl: "http://localhost:5000/fragrance-oils",
   dyesUrl: "http://localhost:5000/dyes",
-  blendsUrl: "http://localhost:5000/blends",
-  candlesUrl: "http://localhost:5000/candles?incomplete=true",
+  blendsUrl: "http://localhost:5000/blends?availableOnly=true",
+  candlesUrl: "http://localhost:5000/candles",
+  // getCandleListUrl: (hashIds) =>
+  // `http://localhost:5000/candle-list?candle=${hashIds.split(",")}`,
+  // candleListUrl: "http://localhost:5000/candles",
 };
 export default api;

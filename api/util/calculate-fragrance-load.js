@@ -5,5 +5,12 @@ module.exports = function calculateFragranceLoad({
   additiveWeightOunces = 0,
   waxWeightOunces = 0,
 }) {
-  return fragranceWeightOunces / (waxWeightOunces + additiveWeightOunces);
+  let fl = fragranceWeightOunces / (waxWeightOunces + additiveWeightOunces);
+  if (fl > 1) {
+    fl = 1;
+  }
+  if (fl < 0) {
+    fl = 0;
+  }
+  return fl;
 };

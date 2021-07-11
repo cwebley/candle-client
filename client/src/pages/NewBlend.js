@@ -1,4 +1,4 @@
-import React, { useCallback, useState, useEffect } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import moment from "moment";
 import axios from "axios";
 import { withRouter, useLocation } from "react-router-dom";
@@ -154,25 +154,6 @@ function NewBlend({ history, enqueueSnackbar }) {
 
   // if we're editing a blend, we need the full details of that blend
   useEffect(() => {
-    // const fetchResourceTypes = async () => {
-    //   try {
-    //     const result = await axios(api.resourceTypesUrl);
-    //     if (result.data) {
-    //       setResourceTypes(result.data);
-    //       if (result.data.length) {
-    //         let blendResources = result.data.filter((r) => r.scope === "blend");
-    //         if (blendResources.length) {
-    //           setNewBlendItemValues((newBlendItemValues) => ({
-    //             ...newBlendItemValues,
-    //             type: blendResources[0].slug,
-    //           }));
-    //         }
-    //       }
-    //     }
-    //   } catch (err) {
-    //     handleApiError(err, enqueueSnackbar);
-    //   }
-    // };
     if (!editBlendId) {
       console.log("UE NO EDIT BLEND HASH ID FOUND");
       return;
@@ -378,6 +359,7 @@ function NewBlend({ history, enqueueSnackbar }) {
       // this is only here to aid the fixtures and help with
       // batch + blend creation. this can be removed at some point
       data.editBlend = true;
+      data.blendId = editBlendId; // this too
 
       // filter out all of the items that existed in the blend prior to this edit
       data.items = data.items.filter((item) => !item.existingItem);
@@ -462,6 +444,7 @@ function NewBlend({ history, enqueueSnackbar }) {
             additiveHashIdOptions={additiveHashIdOptions}
             waxHashIdOptions={waxHashIdOptions}
             targetWeightPounds={targetWeightPounds}
+            targetWeightOunces={targetWeightPounds && targetWeightPounds * 16}
             isOpen={blendItemDialogOpen}
             onChange={handleBlendItemFormChange}
             onAutocompleteSelection={handleHashIdSelection}
@@ -598,13 +581,23 @@ function NewBlend({ history, enqueueSnackbar }) {
               <Paper className={classes.paper}>
                 <DataList>
                   {blendValues.items.length && (
+                    <Fragment>
+
                     <DataLabel
                       label="Total Weight"
                       value={blendValues.items
-                        .map((item) => parseFloat(item.weightPounds) || 0)
+                        .map((item) => parseFloat(item.weightOunces) / 16 || 0)
                         .reduce((acc, val) => acc + val, 0)}
                       unit="lbs"
                     />
+                     <DataLabel
+                      label="Total Weight"
+                      value={blendValues.items
+                        .map((item) => parseFloat(item.weightOunces) || 0)
+                        .reduce((acc, val) => acc + val, 0)}
+                      unit="oz"
+                    />
+                    </Fragment>
                   )}
                 </DataList>
               </Paper>
@@ -613,9 +606,9 @@ function NewBlend({ history, enqueueSnackbar }) {
               <div className={classes.tableWrapper}>
                 <BatchItemTable
                   itemData={blendValues.items}
-                  amountKey="weightPounds"
+                  amountKey="weightOunces"
                   disabledKey="existingItem"
-                  amountUnit="lbs"
+                  amountUnit="oz"
                   onDeleteClick={deleteBlendItem}
                   onEditClick={showEditBlendItem}
                 />

@@ -71,8 +71,6 @@ function insertBurnSessions(db, candleHashId, burns, cb) {
     );
   });
 
-  console.log("SQL PARAMS: ", sql, params);
-
   db.query(sql, params, (err, result) => {
     if (err) {
       console.error(err, {

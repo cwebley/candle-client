@@ -135,6 +135,7 @@ function CandleLayer({ data, isTopLayer, classes }) {
         <Grid container spacing={8}>
           {processedBatchData.wax &&
             processedBatchData.wax.map((w) => {
+              console.log("W: ", w);
               if (w.subItems) {
                 return (
                   <Grid item key={`w-${w.hashId}`} xs={12} sm={6} m={4}>

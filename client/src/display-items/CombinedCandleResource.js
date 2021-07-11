@@ -38,7 +38,7 @@ const styles = (theme) => ({
   itemPrice: {},
 });
 
-function CombineCandleRes({
+function CombinedCandleResource({
   itemType,
   name,
   source,
@@ -139,7 +139,7 @@ function CombineCandleRes({
         }
         return (
           <ExpansionPanelDetails
-            key={`${subItem.type}-${subItem.hashId}`}
+            key={`${subItem.type}-${subItem.hashId}-${i}`}
             className={classes.subItemPanel}
             id={subItemIds[i]}
           >
@@ -202,4 +202,4 @@ function CombineCandleRes({
   );
 }
 
-export default withStyles(styles)(CombineCandleRes);
+export default withStyles(styles)(CombinedCandleResource);

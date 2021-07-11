@@ -2,6 +2,7 @@ const slug = require("slug");
 const calculateCosts = require("../util/calculate-costs");
 
 module.exports = function getCandle(db, { batchId, hashId }, cb) {
+  console.log("GET CANDLE: ", hashId);
   let sql = `
     SELECT
       c.id, c.hash_id AS "hashId", c.name, c.slug,
@@ -128,14 +129,14 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
     if (err) {
       console.error(err, {
         sql,
-        params
+        params,
       });
     }
     if (!results || !results.length) {
       return cb();
     }
 
-    results.forEach(candle => {
+    results.forEach((candle) => {
       console.log("TOP OF A BUNCH OF MATH");
       candle.calculatedVolumePouredOunces = (
         (candle.volumeOverflowPercent * candle.jarOverflowVolumeOunces) /
@@ -149,7 +150,7 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
         shareOfShippingPercent: candle.jarShareOfShippingPercent,
         orderSubtotal: candle.jarSubtotalCost,
         orderTaxesAndFees: candle.jarTaxesAndFees,
-        orderShippingCost: candle.jarShippingCost
+        orderShippingCost: candle.jarShippingCost,
       });
       candle.lidCalculatedCosts = calculateCosts({
         amountUsed: candle.lidHashId ? 1 : 0,
@@ -158,7 +159,7 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
         shareOfShippingPercent: candle.lidShareOfShippingPercent,
         orderSubtotal: candle.lidSubtotalCost,
         orderTaxesAndFees: candle.lidTaxesAndFees,
-        orderShippingCost: candle.lidShippingCost
+        orderShippingCost: candle.lidShippingCost,
       });
       candle.warningLabelCalculatedCosts = calculateCosts({
         amountUsed: candle.warningLabelHashId ? 1 : 0,
@@ -167,7 +168,7 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
         shareOfShippingPercent: candle.warningLabelShareOfShippingPercent,
         orderSubtotal: candle.warningLabelSubtotalCost,
         orderTaxesAndFees: candle.warningLabelTaxesAndFees,
-        orderShippingCost: candle.warningLabelTotalCost
+        orderShippingCost: candle.warningLabelTotalCost,
       });
       candle.wickCalculatedCosts = calculateCosts({
         amountUsed: candle.wickCount,
@@ -176,7 +177,7 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
         shareOfShippingPercent: candle.wickShareOfShippingPercent,
         orderSubtotal: candle.wickSubtotalCost,
         orderTaxesAndFees: candle.wickTaxesAndFees,
-        orderShippingCost: candle.wickShippingCost
+        orderShippingCost: candle.wickShippingCost,
       });
       candle.boxCalculatedCosts = calculateCosts({
         amountUsed: candle.boxHashId ? 1 : 0,
@@ -185,7 +186,7 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
         shareOfShippingPercent: candle.boxShareOfShippingPercent,
         orderSubtotal: candle.boxSubtotalCost,
         orderTaxesAndFees: candle.boxTaxesAndFees,
-        orderShippingCost: candle.boxShippingCost
+        orderShippingCost: candle.boxShippingCost,
       });
       candle.wickStickerCalculatedCosts = calculateCosts({
         amountUsed:
@@ -195,7 +196,7 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
         shareOfShippingPercent: candle.wickStickerShareOfShippingPercent,
         orderSubtotal: candle.wickStickerSubtotalCost,
         orderTaxesAndFees: candle.wickStickerTaxesAndFees,
-        orderShippingCost: candle.wickStickerShippingCost
+        orderShippingCost: candle.wickStickerShippingCost,
       });
       candle.wickTabCalculatedCosts = calculateCosts({
         amountUsed:
@@ -205,7 +206,7 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
         shareOfShippingPercent: candle.wickTabShareOfShippingPercent,
         orderSubtotal: candle.wickTabSubtotalCost,
         orderTaxesAndFees: candle.wickTabTaxesAndFees,
-        orderShippingCost: candle.wickTabShippingCost
+        orderShippingCost: candle.wickTabShippingCost,
       });
       candle.calculatedCosts = {
         productCost: (
@@ -243,11 +244,11 @@ module.exports = function getCandle(db, { batchId, hashId }, cb) {
           parseFloat(candle.wickStickerCalculatedCosts.totalCost) +
           parseFloat(candle.wickTabCalculatedCosts.totalCost) +
           parseFloat(candle.boxCalculatedCosts.totalCost)
-        ).toFixed(2)
+        ).toFixed(2),
       };
     });
 
     console.log("RETURNING AFTER THE MATH");
-    return cb(err, results);
+    return cb(err, results && results[0]);
   });
 };

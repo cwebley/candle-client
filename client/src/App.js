@@ -12,6 +12,7 @@ import NewBlend from "./pages/NewBlend";
 import NewCandles from "./pages/NewCandles";
 import Batch from "./pages/Batch";
 import Order from "./Order";
+import EditCandles from "./pages/EditCandles";
 import Candle from "./pages/Candle";
 import { SnackbarProvider } from "notistack";
 import { MuiPickersUtilsProvider } from "@material-ui/pickers";
@@ -39,6 +40,7 @@ class App extends Component {
                   <Route path="/new-blend" component={NewBlend} />
                   <Route path="/batches/:id" component={Batch} />
                   <Route path="/orders/:id" component={Order} />
+                  <Route path="/edit-candles" component={EditCandles} />
                   <Route path="/:id" component={Candle} />
                   <Route path="/" component={Home} />
                 </Switch>

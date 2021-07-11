@@ -150,9 +150,9 @@ function updateBlends(
         (?, ${nameSlugValues} ?, ?, ?, ${notesValues} ?)
       ON DUPLICATE KEY UPDATE
         ${nameSlugUpdate}
-        total_wax_weight_ounces = VALUES(total_wax_weight_ounces),
-        total_additive_weight_ounces = VALUES(total_additive_weight_ounces),
-        remaining_ounces = VALUES(remaining_ounces),
+        total_wax_weight_ounces = total_wax_weight_ounces + VALUES(total_wax_weight_ounces),
+        total_additive_weight_ounces = total_additive_weight_ounces + VALUES(total_additive_weight_ounces),
+        remaining_ounces = remaining_ounces + VALUES(remaining_ounces),
         ${notesUpdate}
         last_updated = VALUES(last_updated)
     `;
