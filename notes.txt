@@ -767,7 +767,7 @@ full testers round:
     cd-4
     cdn-4
 
-  bergamot cs lexington 0.93 sg
+  bergamot ls lexington 0.93 sg
     lx-12 fine smallish flames
     lx-14 fine smallish flames
     cd-3 fine smallish flames
@@ -1004,4 +1004,10 @@ Buy from Northstar
   Sandalwood
   Sweet orange chili pepper
 
-  
+
+  CS
+  Cashmere plum--looks like i dont own it and the SS group love it
+
+edit-blend doesn't take into account remaining into the total calculation
+http://localhost:3002/new-blend
+

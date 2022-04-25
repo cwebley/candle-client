@@ -1,0 +1,637 @@
+candle party fragrances
+
+Bluebonnet LS:
+    LX-14 maybe best. LX-12/HTP-72 fine. CD-4 too hot.
+
+Black Amber Plum
+    aug 2021 redo:
+        CDN-6 best
+        CDN-7 a tiny bit hot and sooty
+        CDN-5 basically the same as CDN-6
+        LX-14 great also
+
+    old one:
+    CD-3 good, LX-14 fine. LX-12 too small
+
+Almond
+    LX-14 best, CD-4 a bit hot but okay. LX-12 too small
+
+LS Bergamot 0.93
+    LX-14 best
+
+CS Nag Champa 0.957
+    LX-14 good
+
+CS Patchouli 0.90436
+    LX-12 good, LX-14 not tested. HTP-83 good also.
+
+CS Fraser Fir 1.00019
+    HTP-83 bit too hot.
+    LX-14 somehow too small
+    should try cd-4/cdn-5
+
+Fillmore Root Beer 1.130
+    HTP-93 best, CDN-5 good, CD-4 too small
+
+CS Suede and Smoke 0.87741
+    Try CDN-6, CD-4
+    update 4/13/2021, cd-4 and cdn-6 need to be tried. cd-3 not nearly hot enough and cdn-5 isnt quite hot enough either.
+    This is outdated and doesnt match current numbers: CD-3 best, LX-12 too hot.
+
+Aztec Rosemary Pepper 1.0541
+    HTP-83 too small, CD-4 best. LX-14 flames too small
+
+CS Very Vanilla 1.123
+    P-745 too hot. P-740 better. CD-3 good and LX-12 a bit small but fine.
+
+CS Leather 1.0240
+    CD-4 best, LX-14 fine but a bit hot. CDN-5 also great but a bit small. HTP-72 okay. HTP-83 too big
+
+CS Black Sea 1.015
+    LX-14 great, CD-4 great--tiny bit of soot, CDN-5 great, HTP-72 great--tiny bit of soot
+    lots of great options that could all be slightly hotter even. might do well mixed.
+
+CS Whiskey sg unknown
+    HTP-72 maybe best but on the brink of too hot., LX-14 and CDN-5 great with plenty of heat overhead to spare. CD-4 too much mushrooming
+
+CS Lavender
+    CD-4 a bit too cool but probably okay. LX-14 def too cool and shallow. CDN-5 a bit too cool. HTP-72 a bit too cool
+
+Fillmore Wild Mountain Honey
+    LX-14 great. HTP-72 and CDN-5 great, CD-4 also great but a bit dim at the bottom somehow.
+
+CS English Garden
+    CD-4 best, still a bit too cool, and htp-72 and cdn-5 are both okay but even cooler. lx-14 def too cool.
+
+Fillmore Sandalwood
+    More recent than below: New HTP-73 not hot enough. try 83, cdn-5/cdn-6/cdn-7 etc.
+    HTP-72 prob the best, maybe a tiny tiny bit hot. CDN-5 too hot. CD-4 a bit too hot with some soot, LX-14 def too hot with lots of soot.
+    
+
+AAA Orange spice
+    this smells like orange chocolate or cs patchouli
+    cdn-7 is perfect if not a touch hot.
+
+Northstar Sweet orange chili pepper
+    cdn-7 a bit small. cdn-8 probably great.
+
+NG Strawberry Patch
+
+Aztec Brazilian Coffee
+
+    cdn-7 best. some mushrooming though at the end
+    lx-14, but this is pretty good. a bit on the hot side with a tiny bit of soot.
+
+CS Fresh Coffee
+    only tested LX-14 but it was wayyy too cool. tunneling.
+    Aztec brazilian is better anyway
+
+CS White Birch
+    CDN-8 is great, LX-16 okay, cd-6, htp-83 okay as well, but could be slightly hotter.
+    CD-4 too small
+    LX-14 too xmall
+    CDN-6 too small
+    HTP-72 too small
+
+CS Santal Coconut
+    Need to try CDN-7
+    but htp-83 (best) and cd-6 (second best) are great. cdn-8 and lx-16 are too hot and sooty at the bottom.
+
+CS Vetiver
+    CDN-8 great. Could be super slightly hotter.
+    HTP-83 great, could be slightly hotter even.
+    CDN-6 too small.
+    LX-14 too small.
+    
+
+CS Black Coral and Moss
+    HTP-83 great
+    CDN-6 very slightly small
+    CDN-8 maybe slightly big but great.
+    Try CDN-7
+    LX-14 too small.
+
+
+CS Mahagony Shea
+    fragrance too subtle. not a keeper.
+
+Peppercorn Pomander
+
+midwest fragrances Cedar Musk and Lavender from Midwest Fragrance Company is supposed to be great
+
+
+Goliath Offrail Prediction Tester
+    Testing LX-14 CDN-6 CDN-7 CDN-8 HTP-83
+    S & S: CDN-6 or CDN-7
+    Leather: CDN-6
+    BCM: CDN-8
+    Vetiver CDN-8
+
+    With Suede
+        tied for best
+        1/4- inch mp, flames medium
+    With Patchouli
+        tied for best
+        1/4 inch mp after 3 hour burn, flames medium+. looks great.
+
+    With Whiskey
+        1/4 inch mp after 3 hour burn, flames medium but bit medium mushrooming. looks good.
+
+    With Black Sea
+        black sea too strong, i should tone this down even though it smells wonderful
+        1/4 inch mp after 3 hour burn, flames medium-. looks good, but prob could be cdn-8
+
+
+
+
+Golden Garden Prediction tester?
+CDN-5. Too hot for sandalwood, a bit on the hot side for WMH, but a bit cool for English Garden. Balance?
+Turns out CDN-5 is too cool. Does the coolest fragrance dominate?
+
+half jars:
+cd-4
+cdn-6
+htp-83
+p-750?
+lx-16?
+
+
+Wick heirarchy:
+
+hottest
+
+CD-4
+CDN-5
+P-745
+HTP-83
+LX-14
+HTP-72
+P-740
+CD-3
+Eco-1
+LX-12
+Eco-0.75
+
+coolest
+
+night market testers:
+CD-4
+CDN-5
+CDN-6
+CDN-7
+
+Sambleberry testers:
+CDN-4
+CDN-5
+
+Aztec Brazilian Coffee
+    LX-14
+    CDN-4
+    CDN-5
+    CDN-6
+
+Frasir Fir
+    try
+    CDN-5 CDN-6 CDN-7
+    since LX-14 too small and HTP-83 too hot
+
+Mahagony Shea
+    CDN-6
+    CDN-7
+
+Market
+LX-14
+CDN-5
+CDN-6
+CDN-7
+
+Finished Candles
+    Market
+        CDN-7 best
+        CDN-6 okay
+        LX-14 good from old test--little bit of soot
+
+Buy
+Northstar
+    Sandalwood
+Aztec
+    Brazilian Coffee
+
+    Black Violet Saffron
+        CDN-6 a hot but good with a wick trim, cdn-5 probably ideal. cdn-7 bit too hot.
+
+    Ginger Spice
+        CDN-6 great. even a very tiny bit too hot.
+        CDN-7 too hot
+
+    Sugared chestnuts
+        CDN-6 too hot. try CDN-5. CDN-7 def too hot.
+
+    Nordic night
+        CDN-7 best. CDN-6 a bit cool but probably okay.
+    Alpine Balsam
+        cdn-6 fine, somehow slightly hotter than cdn-7. this scent is a little more interesting that nordic.
+
+    Smoked Oud
+        CDN-5! CDN-6 and 7 are both too hot.
+
+
+
+Favs for a party
+    Alpine Balsam
+    Ginger Spice
+    Black Violet Saffron
+    Neroli White Jasmine
+    Lavender
+    Vetiver
+
+
+
+
+More Testing
+Brazilian Coffee CDN-7, CDN-8?
+River Rock
+
+fig tree
+cdn 5/6/7
+
+bergamot
+cdn 5/6/7
+
+honey
+cdn 5/6/7
+
+fraser fir
+Vetiver
+pachouli
+
+
+Bergamot: CDN-6 may be the best, bc CDN-7 has a tiny tiny bit of soot. Both great. CDN-6+
+Wild Mountain Honey: CDN-5 best but a bit hot at the bottom. CDN-4 could be tried. CDN-5-
+Fraser Fir: CDN-7 best, tallish flames low down in the jar though. CDN-6 totally fine too, but could be hotter. CDN-6+
+Santal Coconut: CDN-6 best, CDN-7 basically equal though. CDN-6+
+Very Vanilla: CDN-5 best. CDN-6 great with tiny tiny bit of soot. CDN-7 def too much soot. CDN-5
+Fig Tree V2: CDN-5 best, but CDN-6 and CDN-7 also are great. CDN-5-
+Almond: CDN-4 best, CDN-5 too hot but probably OK. CDN-4
+Black Amber Plum: CDN-4 and CDN-5 best, cdn-6 great too. CDN-7 too hot. CDN-4+
+Ginger & Spice: CDN-5 slightly too hot. CDN-4+
+Bluebonnet: CDN-5 perfect until bottom then a bit hot. CDN-6 too a bit sooty. CDN-4+
+Neroli White Jasmine: cdn-5
+Vetiver: cdn-7
+Black Cherry: cdn-5-
+Whiskey: CDN-4. does soot a fair amount at the bottom though, need to maintain wick.
+Tomato Leaf: CDN-4
+Apricot Grove: CDN-5+
+Leather CS: CDN-5.
+Leather LS: CDN-5+. Definitely more farmy smelling, but i think would make a better blender. also seems to be a little stronger.
+Lavender: CDN-5+
+Patchouli: CDN-7-
+White Tea: CDN-6
+White Currant: CDN-5
+Red Currant: CDN-6
+Peppercorn Pomander: CDN-4+
+Pomegranate Bitters: CDN-5-
+
+
+Simplified ===========
+
+
+Bergamot: CDN-6+
+Wild Mountain Honey: CDN-4
+Fraser Fir: CDN-6+
+Santal Coconut: CDN-6+
+Very Vanilla: CDN-5
+Fig Tree V2: CDN-5-
+Almond: CDN-4
+Black Amber Plum: CDN-4+
+Ginger & Spice: CDN-4+
+Bluebonnet: CDN-4+
+Neroli White Jasmine: CDN-5
+Vetiver: CDN-7
+Black Cherry: CDN-5
+Whiskey: CDN-4
+Tomato Leaf: CDN-4
+Apricot Grove: CDN-5+
+Leather CS: CDN-5
+Leather LS: CDN-5+
+Lavender: CDN-5+
+Patchouli: CDN-7-
+White Tea: CDN-6
+White Currant: CDN-5
+Red Currant: CDN-6
+Peppercorn Pomander: CDN-5
+Pomegranate Bitters: CDN-4
+High Tide: CDN-6+
+Sea Minerals: CDN-6+
+Sel De Mer: CDN-6+
+Pineapple Sage: CDN-6+
+Brazilian Coffee And Pure Cane: CDN-6/CDN-7
+
+Wick Tests:
+
+TL + Honey + Vetiver CDN-5 75% tester
+Brazilian Coffee CDN-6/7
+Black Violet Saffron CDN-4/5/6
+Arugula CDN-4/5/6
+
+
+
+pre-party measurements 4/15
+=========
+Bergamot 4L58 6.680
+Bergamot 48MJ 16.17
+Wild Mountain Honey GR73 17.38
+Wild Mountain Honey 4LK8 21.23
+Bluebonnet GZ8L 11.08
+Fraser Fir G7P7 9.514
+Fraser Fir GXKX 17.304
+Fig Tree 4NZ9 12.05
+Santal Coconut GRDZ 10.32
+Santal Coconut 43YL 16.09
+Vetiver GXX6 2.04
+Vetiver ODN6 15.22
+Whiskey 43XL 9.633
+Whiskey OPMP 17.37
+Tomato Leaf 42YB 15.27
+Apricot Grove OEKV 17.25
+Leather LS 8oz 4NW9 6.923
+Leather LS GYWB 17.06 (Leather CS 46PB 1.61)
+Lavender 46NX 11.28
+White Tea GQED 17.33
+Pomegranate Bitters 11.71
+--
+Neroli White Jasmine 46ZX 15.24
+Ginger and Spice GBDV 16.41
+Peppercorn Pomander 43P1 15.34
+Patchouli 41P2 12.00
+
+
+Greg - blue - 6 - lav/ FF/ bluebonnet
+CC - frost - 6 - vet / ft
+Bob - frost - 6 - SC / ft / ff
+Rachel - amber - 6 - SC / lav 
+Kandice - amber - 6 - FF / wt / SC
+Laura - amber - Vetiver/ FF/ Ag - 6
+Zain - blue - fig tree bergamot leather - 6
+Dani - frost - santal and ag -6
+Nash - blue - SC/ ft/ ft/ PB - 5
+Luke - frost - 6 - leather whiskey SC SC
+Cara - amber - 5 - PB/ tl/ ag
+Devin - blue - 6. SC/ SC / ag
+Sam - amber - ft / ft / tl / PB/ leather - 5
+
+Next Experiments For May 16
+
+Sel De Mer
+High Tide
+Sea Minerals
+Pineapple Sage
+Brazilian Coffee & Pure Cane
+
+
+
+Bergamot
+Wild Mountain Honey
+Bluebonnet
+Fraser Fir
+Fig Tree
+Santal Coconut
+
+Vetiver
+Whiskey
+Tomato Leaf
+Apricot Grove
+Leather LS
+Lavender
+
+White Tea
+Pomegranate Bitters / Peppercorn Pomander
+
+Need:
+Fraser Fir
+Leather CS or LS
+White Tea
+Whiskey
+Apricot Grove
+
+
+
+- Black Cherry
+- Neroli White Jasmine
+- Ginger Spice
+- Black Amber Plum
+- Almond
+- VV
+
+Party 1:
+=======
+Vanilla
+Santal Coconut
+Bluebonnet
+Jasmine
+Bergamot
+Whiskey
+
+Black Cherry
+Fig Tree
+Fraser Fir
+Almond
+Ginger Spice
+Vetiver
+
+Party 2:
+=======
+Honey
+Santal Coco?
+Bluebonnet
+Lavender
+Bergamot
+Whiskey
+
+Tomato Leaf
+Apricot Grove
+White Tea/Currant
+Leather
+Vetiver
+Fig Tree
+
+
+
+
+Buttermilk Pancakes: No obvious answer, 5/6 get muted, 7 is a bit sooty but less muted at the end. No CDN.
+
+For the party?
+    Bergamot
+    Fig Tree / Fraser Fir
+    Vetiver
+    Santal Coconut
+    Honey / Vanilla
+    Blamber Plum / Black cherry
+    Ginger Spice / Almond
+    Neroili White Jasmine
+
+
+Black Sea V2:
+
+Bluebonnet:
+Ginger Spice:
+Neroli White Jasmine:
+
+Pancakes:
+
+
+Person Setup * 12
+    - Mixing jar
+    - Stirring spoon
+    - Label (pre-written hash-id)
+    - Wick sticker * 2
+    - Mason Jars and beakers
+    - Wick stabilizer * 2
+    - Phone Calculator app
+    - Wine glass?
+
+Community setups
+    - Fragrance oils in tealights, labeled
+    - Fragrance oils in mason jars
+    - Fragrance blotter strips
+    - Pipettes
+    - Small scales for fragrance measuring
+    - Permanent markers for label
+    - Wicks that i'll hand out to each person, pre-trimmed cdn-6?
+
+Party setup
+    - Wax melter
+    - Big scale for wax
+    - Jars of multiple colors
+    - Cooling racks
+    - Post-its for quick labeling of each candle while they work on their label
+
+
+Data collection
+    - pre-weigh fragrance bottles before everything
+    - jar color
+    - fragrances
+    - wicks used
+    - wick
+
+
+make a chart on printer
+or i walk around with notes telling peole how mcuh of each
+
+Pre-weight everyone's fragrance jar! and tell them how much it weighs?idk
+
+
+Instructions:
+
+    Welcome drank/snack as people arrive
+
+   5m - Pick your jar and pick your spot
+   30m - Test fragrances, find your blend
+   *5m - Use pipettes to measure your fragrances into mason jar. 1.32 oz total
+   *5m - Get wicks from Cam
+   5m - wait for everyone together: stick wicks to bottom of jar. get help as needed.
+   2m - Get wax from melter: 11oz
+   2m - Add fragrance and stir for 30s
+   1m - Pour into candle
+   1m - Straighten wicks with stabilizer
+   1m - Set on cooling rack
+   0m - Use post-it to keep track of your candle while you decorate the label
+   15m - Decorate the label
+
+
+
+Cleanup
+    - turn off and unplug wax melter
+    - pipette/funnel remaining fragrance from tealights into bottles
+    - pipette/funnel remaining fragrance from mason jars into bottles
+
+need
+    - mason jars
+
+
+Find High Tide, Sea Minerals, white currant single, order black sea v2
+Make 12 candle batch with HT, SM, SdM, Black Sea
+9 more batch: Tomato Leaf / Apricot Grove / Whiskey
+9 more batch: Leather CS / Leather LS / Lavender CS
+Next 9 batch:
+White tea/ red currant/ white currant
+
+ - Leather CS / Leather LS?
+ - White Tea
+ - Red Currant
+ - White Currant
+ - Patchouli
+ - Lavender
+
+
+Fill wax melter for party
+
+
+
+good example: https://www.soaringeaglecandleco.com/
+
+Candle Care Card
+
+== Clock or hourglass icon. or stop hand.
+- Let the candle cure for at least 4 days
+    - This gives the wax a chance to settle and locks in the fragrance
+
+== Clock or hourglass. or candle with dashed melt pool. screenshot on desktop 4/11/22
+- Allow the melt pool to reach the edge of the glass
+    - Plan to keep the candle burning for at least 2 hours each burn, and up to 4 hours on the first burn.
+    - This helps prevents tunneling
+
+== Wick + flame icon
+- Keep the wick healthy!
+    - Trim wick to 1/4 inch before each burn
+    - Pluck off any excess carbon buildup from the tip
+    - To extinguish, dip the wicks into the wax, then restraighten the wick
+
+== Brain icon. or no pets/babies/wind
+-Be mindful! 
+    - Keep a burning candle away from pets, kids, drafts, and flamable materials.    
+    - Don't leave a burning candle unattended
+
+
+Notes From First Candle party
+
+Need?
+ - more labels from online labels
+ - 1 extra cooling rack
+ - extra markers/pens
+ - stencil for wick sticker placement
+
+Mixing bowl
+    - warning label
+    - blank reg label
+    - wick sitckers
+    - pen/marker for labels
+
+Fragrances on metal baking dish--easy to carry, pre-poured, pre-labeled
+
+Signs saying how much of each fragrance needed based on how many you have: 2/3/4/5
+Helper with measuring
+
+Cooling racks set up 
+
+
+
+
+
+
+
+
+
+Candle Party Round 2
+
+90% recipes
+Weigh fragrance bottles? Only give one of each bottle until they're empty
+Pippette at each fragrance jar?
+Cards saying how much of each if you have 1/2/3/4 fragrances
+Card saying how much wax at the melter
+
+Fragrance measure table
+ - bring your wicked lex jar + fragrance + pitcher to the wax melter and measure wax
+ - grab stirring spoon from next to wax melter, add fragrance and stir and walk
+Cooling rack table
+
