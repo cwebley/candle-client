@@ -17891,6 +17891,13 @@ module.exports = [
         notes:
           "1/8 inch mp, flames m. look only okay...could be hotter. need to try cdn-7",
       },
+      {
+        whenStarted: "2022-04-25 20:30:00",
+        whenStopped: "2022-04-25 11:59:00",
+        stoppedWeightOunces: 21,
+        notes:
+          "1/4 inch mp, flames m. needs to be a bit hotter. i prefer this one to the other salties, but sam hates it...",
+      },
     ],
   },
   // Sea Minerals CDN Testers
@@ -17948,6 +17955,13 @@ module.exports = [
         stoppedWeightOunces: 21,
         notes:
           "1/8 inch mp, flames m. look good but could be hotter. need to try cdn-7",
+      },
+      {
+        whenStarted: "2022-04-25 20:30:00",
+        whenStopped: "2022-04-25 11:59:00",
+        stoppedWeightOunces: 21,
+        notes:
+          "1/3 inch mp, flames m+. this is perfect down here and better wicked than the others. sam prefers this one.",
       },
     ],
   },
@@ -18007,6 +18021,12 @@ module.exports = [
         notes:
           "1/8 inch mp, flames m. could be hotter actually. need to try cdn-7, but this is definitely OK.",
       },
+      {
+        whenStarted: "2022-04-25 20:30:00",
+        whenStopped: "2022-04-25 11:59:00",
+        stoppedWeightOunces: 21,
+        notes: "1/4+ inch mp, flames m. could be hotter. need to try cdn-7.",
+      },
     ],
   },
   // Pineapple Sage CDN Testers
@@ -18033,7 +18053,7 @@ module.exports = [
       {
         whenStarted: "2022-04-23 22:00:00",
         whenStopped: "2022-04-24 03:00:00",
-        stoppedWeightOunces: 22,
+        stoppedWeightOunces: 23,
         notes:
           "1/8 inch mp and a super long burn. flames m and looks okay now but must need more heat.",
       },
@@ -18052,62 +18072,180 @@ module.exports = [
         notes:
           "1/4 inch mp, flames m, looks good. could prob use a little more heat bc this was a long burn. would like to try cdn-7. but i'll say cdn-6+ right now.",
       },
+      {
+        whenStarted: "2022-05-08 15:00:00",
+        whenStopped: "2022-05-08 20:00:00",
+        stoppedWeightOunces: 22,
+        notes:
+          "1/8 inch mp, flames m. this is good but could be slightly hotter. cdn-6+. smells wonderful.",
+      },
     ],
   },
   // | ZPXJ    | Brazilian Coffee & Pure Cane CDN-5                                     |
   {
-    completedCandleWeightOunces: "24",
+    completedCandleWeightOunces: "28",
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2022-04-25 10:50:00",
+        whenStopped: "2022-04-25 19:00:00",
+        stoppedWeightOunces: 27,
+        notes:
+          "1/8 inch mp, flames m, tiny bit of mushrooming. actually looks pretty good, but took over 4 hours to get to full mp. this is probably about right but i can compare with the cdn-6 i made today.",
+      },
+    ],
   },
   // | OY2J    | Spring Blend Wick Test                                                 |
   {
-    completedCandleWeightOunces: "24",
+    completedCandleWeightOunces: "27",
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2022-04-28 19:00:00",
+        whenStopped: "2022-04-28 23:00:00",
+        stoppedWeightOunces: 26,
+        notes:
+          "1/3 inch mp, little bit of mushrooming. probably a bit too hot.",
+      },
+      {
+        whenStarted: "2022-04-29 19:00:00",
+        whenStopped: "2022-04-29 23:00:00",
+        stoppedWeightOunces: 25,
+        notes:
+          "1/3 inch mp, def a bit too hot, some sooting. need to try cdn-4",
+      },
+      {
+        whenStarted: "2022-04-30 19:00:00",
+        whenStopped: "2022-04-30 23:00:00",
+        stoppedWeightOunces: 24,
+        notes:
+          "same as above. steady amount of soot coming off the candle. needs to be cdn-4 probably.",
+      },
+      {
+        whenStarted: "2022-05-02 19:00:00",
+        whenStopped: "2022-05-02 23:00:00",
+        stoppedWeightOunces: 23,
+        notes:
+          "1/3+ inch mp, flames l-, some soot coming off the flame. def smells nice so i keep burning this, but it needs a cdn-4.",
+      },
+    ],
   },
   // | 8J1Y    | Brazilian Coffee CDN-6 Tester                                          |
   {
     completedCandleWeightOunces: "24",
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2022-05-07 19:30:00",
+        whenStopped: "2022-05-08 02:45:00",
+        stoppedWeightOunces: 23,
+        notes:
+          "2/3 inch mp, flames m. no soot. looks great, but surpsrisingly deep melt pool. more testing needed",
+      },
+    ],
   },
   // | 9XZP    | Black Violet Saffron CDN-5                                             |
   {
     completedCandleWeightOunces: "24",
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2022-05-06 21:00:00",
+        whenStopped: "2022-05-07 01:00:00",
+        stoppedWeightOunces: 23,
+        notes:
+          "1/4 inch mp, flames l-. looks pretty good, but could be a touch hot. no soot. no mushrooming. smells great.",
+      },
+      {
+        whenStarted: "2022-05-08 15:00:00",
+        whenStopped: "2022-05-08 20:00:00",
+        stoppedWeightOunces: 22,
+        notes:
+          "1/4 inch mp flames l-, bit of soot. this is a tiny bit too hot. probably okay, but cdn-5- is the rec",
+      },
+    ],
   },
   // | QVE7    | Black Violet Saffron CDN-6                                             |
   {
     completedCandleWeightOunces: "24",
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2022-05-06 21:00:00",
+        whenStopped: "2022-05-07 01:00:00",
+        stoppedWeightOunces: 23,
+        notes:
+          "1/4+ inch mp, flames l and sooting a fair amount. this is too hot.",
+      },
+      {
+        whenStarted: "2022-05-08 15:00:00",
+        whenStopped: "2022-05-08 20:00:00",
+        stoppedWeightOunces: 23,
+        notes:
+          "1/4+ inch mp, flames l and sooting a fair amount. this is too hot.",
+      },
+    ],
   },
   // | M72L    | Arugula CDN-4                                                          |
   {
     completedCandleWeightOunces: "24",
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2022-05-06 12:00:00",
+        whenStopped: "2022-05-06 18:00:00",
+        stoppedWeightOunces: 23,
+        notes:
+          "1/8 inch mp, flames m. looks great now, but took a long time to get here. this could be slightly hotter but not much.",
+      },
+      {
+        whenStarted: "2022-05-07 12:00:00",
+        whenStopped: "2022-05-07 17:00:00",
+        stoppedWeightOunces: 22,
+        notes:
+          "full shallow mp, flames m. looks good, but the cdn-5 is a bit better.",
+      },
+    ],
   },
   // | 7NXM    | Arugula CDN-5                                                          |
   {
     completedCandleWeightOunces: "24",
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2022-05-06 12:00:00",
+        whenStopped: "2022-05-06 18:00:00",
+        stoppedWeightOunces: 23,
+        notes: "1/4 inch mp, flames m+. looks great.",
+      },
+      {
+        whenStarted: "2022-05-07 12:00:00",
+        whenStopped: "2022-05-07 17:00:00",
+        stoppedWeightOunces: 22,
+        notes: "1/8 inch mp, flames m. looks perfect.",
+      },
+    ],
   },
   // | GY8M    | Arugula CDN-6                                                          |
   {
     completedCandleWeightOunces: "24",
     volumeOverflowPercent: "50",
     colorDescription: "whiteish",
-    burns: [],
+    burns: [
+      {
+        whenStarted: "2022-05-06 12:00:00",
+        whenStopped: "2022-05-06 18:00:00",
+        stoppedWeightOunces: 23,
+        notes:
+          "1/4 inch mp, flames m+. looks great. very tiny bit of soot on the jar.",
+      },
+    ],
   },
 ];

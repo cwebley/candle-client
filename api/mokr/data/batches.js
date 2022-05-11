@@ -16797,7 +16797,7 @@ module.exports = [
         preppedContainerWeightOunces: "18.90",
       },
     ],
-    name: "Sprint Blend Wick Test",
+    name: "Spring Blend Wick Test",
   },
   {
     whenCreated: "2022-04-25",

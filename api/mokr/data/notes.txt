@@ -325,13 +325,15 @@ High Tide: CDN-6+
 Sea Minerals: CDN-6+
 Sel De Mer: CDN-6+
 Pineapple Sage: CDN-6+
+Black Violet Saffron: CDN-5
 Brazilian Coffee And Pure Cane: CDN-6/CDN-7
+Arugula: CDN-5. but 4/5/6 all work probably...
 
 Wick Tests:
 
 TL + Honey + Vetiver CDN-5 75% tester
-Brazilian Coffee CDN-6/7
-Black Violet Saffron CDN-4/5/6
+Brazilian Coffee CDN-6
+Black Violet Saffron CDN-5/6
 Arugula CDN-4/5/6
 
 
@@ -456,6 +458,11 @@ Vetiver
 Fig Tree
 
 
+Party 3:
+==========
+Order in June when avail;
+    -lavender
+    -pineapple Sage
 
 
 Buttermilk Pancakes: No obvious answer, 5/6 get muted, 7 is a bit sooty but less muted at the end. No CDN.

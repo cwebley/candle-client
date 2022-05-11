@@ -26,6 +26,7 @@
     "slug": "^1.1.0"
   },
   "devDependencies": {
+    "eslint": "^8.15.0",
     "mokr": "^1.4.0",
     "request": "^2.88.0"
   }
