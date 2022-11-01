@@ -1,0 +1,1643 @@
+[
+    {
+        "__comments": "9J56 CS Santal and Coconut Lex Tester",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-03-01 15:30:00",
+                "whenStopped": "2021-03-01 11:45:00",
+                "stoppedWeightOunces": 23,
+                "notes": "1/8 inch mp, flames medium-. could stand to be hotter. scent is amazing--thought this would be weak but its surprisingly strong. would like to compare this to coconut straight up."
+            },
+            {
+                "whenStarted": "2021-03-02 15:30:00",
+                "whenStopped": "2021-03-03 01:30:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/8 inch mp, flames medium. could be hotter. great scent though."
+            }
+        ]
+    },
+    {
+        "__comments": "QQ1L CS Apple Peppercorn Lex Tester",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-03-01 15:30:00",
+                "whenStopped": "2021-03-01 11:45:00",
+                "stoppedWeightOunces": 23,
+                "notes": "1/8 inch mp, flames medium-. could stand to be hotter. definitely apply and spicy, fairly strong. great as a fall option."
+            },
+            {
+                "whenStarted": "2021-03-02 15:30:00",
+                "whenStopped": "2021-03-03 01:30:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/8 inch mp, flames medium-. smells strong fosho, def belongs in a fall-ish candle."
+            }
+        ]
+    },
+    {
+        "__comments": "MX6G CS Lavender Driftwood Lex Tester",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-03-01 15:30:00",
+                "whenStopped": "2021-03-01 11:45:00",
+                "stoppedWeightOunces": 23,
+                "notes": "full shallow mp, flames small. not nearly hot enough. may need something like the cdn-6. really nice and strong scent."
+            },
+            {
+                "whenStarted": "2021-03-02 15:30:00",
+                "whenStopped": "2021-03-03 01:30:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/8 inch mp, flames small to medium. smells great and strong"
+            }
+        ]
+    },
+    {
+        "__comments": "Lavender Comparison // 769E CS Lavender CDN-6",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    },
+    {
+        "__comments": "G2OX CS Lavender Driftwood CDN-6",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    },
+    {
+        "__comments": "Palo Santo Comparison // P1XV CS Palo Santo CDN-6",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    },
+    {
+        "__comments": "29ZY TFC Palo Santo Patchouli LX-14",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    },
+    {
+        "__comments": "Coconut Comparison // YPOD CS Coconut LX-14",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    },
+    {
+        "__comments": "5KYE CS Santal Coconut CDN-6",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    },
+    {
+        "__comments": "CS White Birch Lex Testers // 6188 CS White Birch LX-14",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-03-11 19:00:00",
+                "whenStopped": "2021-03-12 02:30:00",
+                "stoppedWeightOunces": 21,
+                "notes": "full shallow mp, not hot enough."
+            }
+        ]
+    },
+    {
+        "__comments": "DYZK CS White Birch CD-4",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-03-11 19:00:00",
+                "whenStopped": "2021-03-12 02:30:00",
+                "stoppedWeightOunces": 21,
+                "notes": "full shallow mp, not hot enough."
+            }
+        ]
+    },
+    {
+        "__comments": "J2Q4 CS White Birch CDN-5",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-03-11 19:00:00",
+                "whenStopped": "2021-03-12 02:30:00",
+                "stoppedWeightOunces": 21,
+                "notes": "full shallow mp, not hot enough. surprisingly slightly hotter than the cdn-6, but prob bc of wick trimming or something."
+            }
+        ]
+    },
+    {
+        "__comments": "X54X CS White Birch CDN-6",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-03-11 19:00:00",
+                "whenStopped": "2021-03-12 02:30:00",
+                "stoppedWeightOunces": 21,
+                "notes": "full shallow mp, not hot enough."
+            }
+        ]
+    },
+    {
+        "__comments": "1JNY CS White Birch HTP-72",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-03-11 19:00:00",
+                "whenStopped": "2021-03-12 02:30:00",
+                "stoppedWeightOunces": 21,
+                "notes": "full shallow mp, not hot enough."
+            }
+        ]
+    },
+    {
+        "__comments": "White Birch Heavier Wicks // E2E2 White Birch Lex CD-6",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-03-23 15:00:00",
+                "whenStopped": "2021-03-24 02:30:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/4 inch cloudy mp, jar not too hot, flames look great. but this is now 1/4 full after a long burn, guess id expect even hotter. cdn-8 seems very slightly better."
+            }
+        ]
+    },
+    {
+        "__comments": "N2YG White Birch Lex CDN-8",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-03-23 15:00:00",
+                "whenStopped": "2021-03-24 02:30:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/4 inch clear mp, flames medium to large and healthy. jar not too hot, no soot. this is great."
+            }
+        ]
+    },
+    {
+        "__comments": "Z9ZY White Birch Lex LX-16",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-03-23 15:00:00",
+                "whenStopped": "2021-03-24 02:30:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/4 inch cloudy mp, jar temp great--not too hot, and flames look great. but maybe id expect hotter for a long burn."
+            }
+        ]
+    },
+    {
+        "__comments": "LL9M White Birch Lex HTP-83",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-03-23 15:00:00",
+                "whenStopped": "2021-03-24 02:30:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/4 inch clear mp, flames only medium. fine but could be hotter. cdn-8 prob the best slightly."
+            }
+        ]
+    },
+    {
+        "__comments": "45GD White Birch Lex Eco-2",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-03-23 15:00:00",
+                "whenStopped": "2021-03-24 02:30:00",
+                "stoppedWeightOunces": 21,
+                "notes": "flames dimming, not full mp. not hot enough or ecos just dont work."
+            }
+        ]
+    },
+    {
+        "__comments": "Suede and Smoke Testers 2 // 9JG6 Suede and Smoke Lex CD-3",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-13 16:00:00",
+                "whenStopped": "2021-04-14 01:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "not quite full mp, cd-4 worth a shot, and probably cdn-6"
+            }
+        ]
+    },
+    {
+        "__comments": "QQ6L Suede and Smoke Lex CDN-5",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-13 16:00:00",
+                "whenStopped": "2021-04-14 01:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/8 inch mp, should be bigger. should try cdn-6."
+            }
+        ]
+    },
+    {
+        "__comments": "Santal Coconut Lex Testers // 76GE Santal and Coconut Lex CDN-6",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-19 20:30:00",
+                "whenStopped": "2021-04-20 01:20:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/8 inch mp, looks good but could be a little hotter. Need to try CDN-7."
+            }
+        ]
+    },
+    {
+        "__comments": "G2ZX Santal and Coconut Lex CDN-8",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-19 20:30:00",
+                "whenStopped": "2021-04-20 01:20:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/4 inch mp, maybe a bit hot at 140+ with tiny bits of soot as jar shifts. Looks good. CDN-7 definitely worth trying next batch."
+            },
+            {
+                "whenStarted": "2021-04-20 16:00:00",
+                "whenStopped": "2021-04-21 01:40:00",
+                "stoppedWeightOunces": 17,
+                "notes": "jar 160, flames a bit large and plenty of soot on the glass. this was trimmed also. should try cdn-7 which may be a sweet spot. but htp-83 and cd-6 are good candidates."
+            }
+        ]
+    },
+    {
+        "__comments": "P1BV Santal and Coconut Lex CD-4",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-19 20:30:00",
+                "whenStopped": "2021-04-20 01:20:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/8 inch mp, not quite hot enough."
+            }
+        ]
+    },
+    {
+        "__comments": "29GY Santal and Coconut Lex CD-6",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-19 20:30:00",
+                "whenStopped": "2021-04-20 01:20:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/8 to 1/4 inch mp. Looks great. Flames medium to large but so far its great. Not quite too hot. Best of the batch with LX-16. But also need to try CDN-7."
+            },
+            {
+                "whenStarted": "2021-04-20 16:00:00",
+                "whenStopped": "2021-04-21 01:40:00",
+                "stoppedWeightOunces": 17,
+                "notes": "1/3 inch mp, jar 150, bit of soot on the glass but not too bad. these wicks were not trimmed either. this and the htp-83 are great considering its such a long burn. would love to try the cdn-7 though."
+            }
+        ]
+    },
+    {
+        "__comments": "YPND Santal and Coconut Lex LX-14",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-19 20:30:00",
+                "whenStopped": "2021-04-20 01:20:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/8 inch cloudy mp, not hot enough."
+            }
+        ]
+    },
+    {
+        "__comments": "5KGE Santal and Coconut Lex LX-16",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-19 20:30:00",
+                "whenStopped": "2021-04-20 01:20:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/4 inch mp, flames medium to large, jar hot but not too hot. looks great so far. may or may not be too hot or sooty on future burns."
+            },
+            {
+                "whenStarted": "2021-04-20 16:00:00",
+                "whenStopped": "2021-04-21 01:40:00",
+                "stoppedWeightOunces": 17,
+                "notes": "1/3 inch mp, only 1/8 inch left though. jar 160+, plenty of soot on the glass. bit too large of a wick for a long burn, was sooting a bit the whole time too. these were trimmed also. too hot."
+            }
+        ]
+    },
+    {
+        "__comments": "BZ17 Santal and Coconut Lex HTP-83",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-19 20:30:00",
+                "whenStopped": "2021-04-20 01:20:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/8 to 1/4 inch mp, flames medium. Looks great. This is slightly less hot vs the CDN-8, the CD-6, and the LX-16. But it is still a good candidate."
+            },
+            {
+                "whenStarted": "2021-04-20 16:00:00",
+                "whenStopped": "2021-04-21 01:40:00",
+                "stoppedWeightOunces": 17,
+                "notes": "1/3 inch mp, jar up to 160. no real soot on the glass. this wasn't trimmed either. best of the bunch, and this was a long burn for the bottom of the jar. this is great. id love to see the cdn-7 too."
+            }
+        ]
+    },
+    {
+        "__comments": "Vetiver Lex Testers // 61G8 Vetiver Lex LX-14",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-21 12:00:00",
+                "whenStopped": "2021-04-21 17:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "not quite full mp, flames small. wick too small."
+            }
+        ]
+    },
+    {
+        "__comments": "DYKK Vetiver Lex HTP-83",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-21 12:00:00",
+                "whenStopped": "2021-04-21 17:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/8 to 1/4 inch mp, flames medium and look great. jar well under 140. looks great. could even be slightly hotter. this and the cdn-8 are great."
+            },
+            {
+                "whenStarted": "2021-04-22 17:00:00",
+                "whenStopped": "2021-04-23 03:00:00",
+                "stoppedWeightOunces": 19,
+                "notes": "1/8 inch mp, flames medium jar 150 degrees. looks great. i slightly prefer the larger flames of the cdn-8 down this far in the jar, but this is fine."
+            }
+        ]
+    },
+    {
+        "__comments": "J2O4 Vetiver Lex CDN-6",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-21 12:00:00",
+                "whenStopped": "2021-04-21 17:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "not quite full mp, flames small. wick too small."
+            },
+            {
+                "whenStarted": "2021-04-22 17:00:00",
+                "whenStopped": "2021-04-22 19:00:00",
+                "stoppedWeightOunces": 20,
+                "notes": "not quite full mp, ending this one early. its too small. cdn-8 seems great and htp-83 is okay but could be slightly hotter. those will keep burning."
+            }
+        ]
+    },
+    {
+        "__comments": "X5EX Vetiver Lex CDN-8",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-21 12:00:00",
+                "whenStopped": "2021-04-21 17:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/8 to 1/4 inch mp, flames medium and look great. jar well under 140. looks great. could even be slightly hotter. this and the htp-83 are great."
+            },
+            {
+                "whenStarted": "2021-04-22 17:00:00",
+                "whenStopped": "2021-04-23 03:00:00",
+                "stoppedWeightOunces": 19,
+                "notes": "1/4 inch mp, flames medium+ jar 150 degrees. looks great. this is about perfect for this scent."
+            }
+        ]
+    },
+    {
+        "__comments": "Black Coral Moss Lex Testers // 1JGY Black Coral Moss Lex LX-14",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-21 12:00:00",
+                "whenStopped": "2021-04-21 17:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "not quite full mp, flames small. wick too small."
+            }
+        ]
+    },
+    {
+        "__comments": "V1VZ Black Coral Moss Lex HTP-83",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-21 12:00:00",
+                "whenStopped": "2021-04-21 17:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/4 inch mp, jar 150 at highest, flames medium. looks great."
+            },
+            {
+                "whenStarted": "2021-04-22 17:00:00",
+                "whenStopped": "2021-04-23 03:00:00",
+                "stoppedWeightOunces": 19,
+                "notes": "1/8+ inch mp, flames medium jar 150 degrees. looks fine. this is a solid option, but i slightly prefer the cdn-8."
+            }
+        ]
+    },
+    {
+        "__comments": "KPOG Black Coral Moss Lex CDN-6",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-21 12:00:00",
+                "whenStopped": "2021-04-21 17:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/8 inch mp, flames medium-. looks great, could be slightly hotter."
+            },
+            {
+                "whenStarted": "2021-04-22 17:00:00",
+                "whenStopped": "2021-04-23 03:00:00",
+                "stoppedWeightOunces": 19,
+                "notes": "1/8 inch mp, flames medium. looks good. probably could afford to be hotter this far down."
+            }
+        ]
+    },
+    {
+        "__comments": "E2K2 Black Coral Moss Lex CDN-8",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-21 12:00:00",
+                "whenStopped": "2021-04-21 17:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/4 inch mp, flames medium+. tiny bit of mushrooming and jar 154 at the worst. looks great. could be slightly cooler."
+            },
+            {
+                "whenStarted": "2021-04-22 17:00:00",
+                "whenStopped": "2021-04-23 03:00:00",
+                "stoppedWeightOunces": 19,
+                "notes": "1/4 inch mp, flames medium+ jar 150+ degrees. looks great. this is about perfect for this scent. tiny bit of soot on the side though, but this is the very bottom."
+            }
+        ]
+    },
+    {
+        "__comments": "QQ5L Goliath with Suede Tester",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-24 12:00:00",
+                "whenStopped": "2021-04-24 15:00:00",
+                "stoppedWeightOunces": 19,
+                "notes": "1/4- inch mp, flames medium"
+            },
+            {
+                "whenStarted": "2021-04-25 15:00:00",
+                "whenStopped": "2021-04-26 02:00:00",
+                "stoppedWeightOunces": 18,
+                "notes": "1/8+ inch mp, flames medium looks good but could be hotter."
+            }
+        ]
+    },
+    {
+        "__comments": "MXYG Goliath with Whiskey Tester",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-24 12:00:00",
+                "whenStopped": "2021-04-24 15:00:00",
+                "stoppedWeightOunces": 19,
+                "notes": " 1/4 inch mp after 3 hour burn, flames medium but bit medium mushrooming. looks good."
+            },
+            {
+                "whenStarted": "2021-04-25 15:00:00",
+                "whenStopped": "2021-04-26 02:00:00",
+                "stoppedWeightOunces": 18,
+                "notes": "1/8 inch mp, flames medium looks good but could be hotter."
+            }
+        ]
+    },
+    {
+        "__comments": "76PE Goliath with Patchouli Tester",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-24 12:00:00",
+                "whenStopped": "2021-04-24 15:00:00",
+                "stoppedWeightOunces": 19,
+                "notes": "1/4 inch mp after 3 hour burn, flames medium+. looks great."
+            },
+            {
+                "whenStarted": "2021-04-25 15:00:00",
+                "whenStopped": "2021-04-26 02:00:00",
+                "stoppedWeightOunces": 18,
+                "notes": "1/8 inch mp, flames medium looks good but could be hotter."
+            }
+        ]
+    },
+    {
+        "__comments": "G2NX Goliath with Black Sea Tester",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-24 12:00:00",
+                "whenStopped": "2021-04-24 15:00:00",
+                "stoppedWeightOunces": 19,
+                "notes": " 1/4 inch mp after 3 hour burn, flames medium-. looks good, but prob could be cdn-8.  black sea too strong, i should tone this down even though it smells wonderful."
+            }
+        ]
+    },
+    {
+        "__comments": "5KPE Goliath with 16% Suede CDN-7 Half Jar",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-26 17:00:00",
+                "whenStopped": "2021-04-27 03:00:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/8 inch mp, flames medium. could be hotter. CDN-8 better."
+            },
+            {
+                "whenStarted": "2021-04-27 12:00:00",
+                "whenStopped": "2021-04-28 02:00:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/8 inch mp, jar under 140, flames medium. could be hotter."
+            }
+        ]
+    },
+    {
+        "__comments": "BZX7 Goliath with 16% Suede CDN-8 Half Jar",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-26 17:00:00",
+                "whenStopped": "2021-04-27 03:00:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/8+ inch mp, flames large. tiny bit of soot depositted but this was an especially long burn. i think its good. no mushrooming. jar 150-."
+            },
+            {
+                "whenStarted": "2021-04-27 12:00:00",
+                "whenStopped": "2021-04-27 10:00:00",
+                "stoppedWeightOunces": 19.4,
+                "finished": true,
+                "notes": "extinguished itself. flames large at the bottom, fair amount of soot deposited. but jar never above 150 and wicks prob could be trimmed or burn could be shorter. soot isn't idea, but seems fine."
+            }
+        ]
+    },
+    {
+        "__comments": "61P8 Goliath with 16% Suede CDN-7 Full Jar",
+        "completedCandleWeightOunces": "33.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-26 17:00:00",
+                "whenStopped": "2021-04-27 03:00:00",
+                "stoppedWeightOunces": 31,
+                "notes": "not full mp, tunneling. not hot enough."
+            },
+            {
+                "whenStarted": "2021-04-27 12:00:00",
+                "whenStopped": "2021-04-28 02:00:00",
+                "stoppedWeightOunces": 27,
+                "notes": "almost full mp, flames medium-. too cool."
+            }
+        ]
+    },
+    {
+        "__comments": "DYVK Goliath with 16% Suede CDN-8 Full Jar",
+        "completedCandleWeightOunces": "33.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-04-26 17:00:00",
+                "whenStopped": "2021-04-27 03:00:00",
+                "stoppedWeightOunces": 31,
+                "notes": "1/8 inch mp, flames medium. looks great. started with medium mushrooming, but those burnt off. one piece fell in the wax, but the wick may have been slightly long. jar not too hot."
+            },
+            {
+                "whenStarted": "2021-04-27 12:00:00",
+                "whenStopped": "2021-04-28 02:00:00",
+                "stoppedWeightOunces": 25,
+                "notes": "1/4 inch mp, flames medium+. no soot, looks and smells great. jar well under 150 probably. at about 40% remaining."
+            },
+            {
+                "whenStarted": "2021-04-28 12:00:00",
+                "whenStopped": "2021-04-28 17:00:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/4 inch mp, flames medium+. tiny bit of soot, but not much. jar well under 140. looks great. wicks were trimmed."
+            },
+            {
+                "whenStarted": "2021-05-02 21:00:00",
+                "whenStopped": "2021-05-03 01:30:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/4- inch mp, flames medium+, looks great. jar under 150."
+            }
+        ]
+    },
+    {
+        "__comments": "Goliath Off Rail Batch 1 5/1/2021 // V1XZ Goliath Off Rail 1/3",
+        "completedCandleWeightOunces": "31.25",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    },
+    {
+        "__comments": "KP4G Goliath Off Rail 2/3",
+        "completedCandleWeightOunces": "30.97",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    },
+    {
+        "__comments": "E2V2 Goliath Off Rail 3/3",
+        "completedCandleWeightOunces": "31.18",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    },
+    {
+        "__comments": "Goliath Off Rail Batch 2 5/1/2021 // N29G Goliath Off Rail 1/3",
+        "completedCandleWeightOunces": "31.04",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    },
+    {
+        "__comments": "Z9VY Goliath Off Rail 2/3",
+        "completedCandleWeightOunces": "31.46",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    },
+    {
+        "__comments": "LLYM Goliath Off Rail 3/3",
+        "completedCandleWeightOunces": "31.01",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    },
+    {
+        "__comments": "Goliath CDN vs 2 new HTPs batch of 3 // OPQX Goliath Off Rail CDN-",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-05-04 13:00:00",
+                "whenStopped": "2021-05-04 17:00:00",
+                "stoppedWeightOunces": 23,
+                "notes": "1/8 inch mp, flames medium. looks great. probably could be hotter even but i know it gets sooty at the bottom. def still the best here."
+            }
+        ]
+    },
+    {
+        "__comments": "8V81 Goliath Off Rail HTP-73-202",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-05-04 13:00:00",
+                "whenStopped": "2021-05-04 16:00:00",
+                "stoppedWeightOunces": 23.5,
+                "notes": "not full mp, wont ever be. too small."
+            }
+        ]
+    },
+    {
+        "__comments": "9J96 Goliath Off Rail HTP-83-2021",
+        "completedCandleWeightOunces": "24.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-05-04 13:00:00",
+                "whenStopped": "2021-05-04 17:00:00",
+                "stoppedWeightOunces": 23,
+                "notes": "almost full shallow mp. needs a bigger wick. should try htp-93-2021"
+            }
+        ]
+    },
+    {
+        "__comments": "Sweet Orange Chili Comparisons // QQ7L AAA Orange Spice CDN-7",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-05-13 19:00:00",
+                "whenStopped": "2021-05-14 01:30:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/3 inch mp, flames medium+ and jar something like 145+. smells great but reminds me a lot of CS patchouli. Or maybe like an Orange Chocolate. It's nice. Great wick for this scent too."
+            },
+            {
+                "whenStarted": "2021-06-01 21:00:00",
+                "whenStopped": "2021-06-02 02:30:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/3 inch mp, flames medium. looks pretty good. smells like an orange patchouli. not really the same as the others. i prefer the northstar the most. this is great though.  and probably the right wick."
+            }
+        ]
+    },
+    {
+        "__comments": "MX8G Natures Garden Sweet Orange Chili Pepper CDN-7",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-05-13 19:00:00",
+                "whenStopped": "2021-05-14 01:30:00",
+                "stoppedWeightOunces": 22,
+                "notes": "full shallow mp, but flames small and easily drowns when jar moved. scent is fine but a bit faint. not the best."
+            },
+            {
+                "whenStarted": "2021-06-01 21:00:00",
+                "whenStopped": "2021-06-02 02:30:00",
+                "stoppedWeightOunces": 20,
+                "notes": "full shallow mp, but tiny flames. scent is less spicy and more sweet than the northstar. not quite as nice."
+            }
+        ]
+    },
+    {
+        "__comments": "76OE  Northstar Sweet Orange Chili Pepper CDN-7",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-05-13 19:00:00",
+                "whenStopped": "2021-05-14 01:30:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/4 inch mp, flames medium or medium-. cdn-8 would probably be perfect for this. scent is much more orangey than the AAA orange spice. This is super nice."
+            },
+            {
+                "whenStarted": "2021-06-01 21:00:00",
+                "whenStopped": "2021-06-02 02:30:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/4 inch mp, flames medium. looks pretty good. still might be able to handle a cdn-8. smells great. this is my favorite of the 3 now."
+            }
+        ]
+    },
+    {
+        "__comments": "Fireside Comparisons // G2EX CS Fireside CDN-7",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-05-14 19:00:00",
+                "whenStopped": "2021-05-15 04:15:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/8 inch mp, flames medium but a tiny bit of soot--could be from a draft. cdn-8 prob worth trying. definitely a smokey neutral fire smell."
+            }
+        ]
+    },
+    {
+        "__comments": "P1MV Northstar Fireplace CDN-7",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-05-14 19:00:00",
+                "whenStopped": "2021-05-15 04:15:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/3 inch mp, flames medium+ but looks like a great wick. jar 150+ but long burn near bottom. smell is much warmer and sweeter than cs firewood. i think i prefer it. also stronger. medium mushrooming."
+            }
+        ]
+    },
+    {
+        "__comments": "Sandalwood Comparisons // 29EY Northstar Sandalwood CDN-7",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-05-15 13:00:00",
+                "whenStopped": "2021-05-15 15:20:00",
+                "stoppedWeightOunces": 23,
+                "notes": "not full mp (but not full 4 hour burn), flame muted. wicks need to be way bigger or different. smells wonderful though--a little floraly."
+            },
+            {
+                "whenStarted": "2021-05-17 21:00:00",
+                "whenStopped": "2021-05-18 02:00:00",
+                "stoppedWeightOunces": 23,
+                "notes": "wick way too small, flames super dim. scent is stronger than the filmore container sandalwood i think, but more floral."
+            }
+        ]
+    },
+    {
+        "__comments": "YP1D Fillmore Container Sandalwood HTP-73",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-05-15 13:00:00",
+                "whenStopped": "2021-05-15 15:20:00",
+                "stoppedWeightOunces": 23,
+                "notes": "wick could probably be slightly larger, but 1/8 inch mp and not a full 4 hour burn. smells great and neutral."
+            },
+            {
+                "whenStarted": "2021-05-17 21:00:00",
+                "whenStopped": "2021-05-18 02:00:00",
+                "stoppedWeightOunces": 23,
+                "notes": "flames medium-, needs a bigger wick. tiny bit of mushrooming, and full shallow mp. scent is nice and neutral. still my preference over the Nortstar."
+            }
+        ]
+    },
+    {
+        "__comments": "AAAA Brazilian Coffee LX-14",
+        "completedCandleWeightOunces": "22.00",
+        "volumeOverflowPercent": "40",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-07-05 21:00:00",
+                "whenStopped": "2021-07-06 01:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "not quite full mp. this wick is too small"
+            }
+        ]
+    },
+    {
+        "__comments": "AAAA Brazilian Coffee CDN-4",
+        "completedCandleWeightOunces": "22.00",
+        "volumeOverflowPercent": "40",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-07-05 21:00:00",
+                "whenStopped": "2021-07-06 01:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "not quite full mp. this wick is too small"
+            }
+        ]
+    },
+    {
+        "__comments": "AAAA Brazilian Coffee CDN-5",
+        "completedCandleWeightOunces": "22.00",
+        "volumeOverflowPercent": "40",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-07-05 21:00:00",
+                "whenStopped": "2021-07-06 01:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "not quite full mp. this wick is too small"
+            }
+        ]
+    },
+    {
+        "__comments": "AAAA Brazilian Coffee CDN-6",
+        "completedCandleWeightOunces": "22.00",
+        "volumeOverflowPercent": "40",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-07-05 21:00:00",
+                "whenStopped": "2021-07-06 01:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "not quite full mp. this wick is too small. try cdn-8?"
+            },
+            {
+                "whenStarted": "2021-07-07 12:30:00",
+                "whenStopped": "2021-07-07 14:00:00",
+                "stoppedWeightOunces": 20,
+                "notes": "not quite full mp but a super short burn. not sure why this is not doing as well as the cdn-6 repeat in the next batch with the new blend..."
+            }
+        ]
+    },
+    {
+        "__comments": "AAAA Mahagony Shea CDN-6",
+        "completedCandleWeightOunces": "22.00",
+        "volumeOverflowPercent": "40",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-07-06 21:00:00",
+                "whenStopped": "2021-07-07 01:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "not quite full mp. this wick is too small. but oddly a bit better than the cdn-7. fragrance isn't very strong so this isn't a keeper"
+            }
+        ]
+    },
+    {
+        "__comments": "AAAA Mahagony Shea CDN-7",
+        "completedCandleWeightOunces": "22.00",
+        "volumeOverflowPercent": "40",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-07-06 21:00:00",
+                "whenStopped": "2021-07-07 01:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "not quite full mp. this wick is too small. but oddly a bit smaller than the cdn-6. fragrance isn't very strong so this isn't a keeper"
+            }
+        ]
+    },
+    {
+        "__comments": "AAAA Brazilian Coffee CDN-6",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-07-07 12:30:00",
+                "whenStopped": "2021-07-07 14:00:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/4 inch mp, tiny bit of mushrooming. looks good, cdn-7 better maybe tho."
+            },
+            {
+                "whenStarted": "2021-07-07 16:30:00",
+                "whenStopped": "2021-07-08 01:00:00",
+                "stoppedWeightOunces": 19,
+                "notes": "1/3 inch mp, flames medium to large, tiny bit of soot and medium mushrooming. jar 150-. this is plenty of heat. although it wasn't trimmed and the cdn-7 isn't awful either."
+            }
+        ]
+    },
+    {
+        "__comments": "AAAA Brazilian Coffee CDN-7",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-07-07 12:30:00",
+                "whenStopped": "2021-07-07 14:00:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/4+ inch mp, small mushrooming. looks great."
+            },
+            {
+                "whenStarted": "2021-07-07 16:30:00",
+                "whenStopped": "2021-07-08 01:00:00",
+                "stoppedWeightOunces": 19,
+                "notes": "1/3 inch mp, flames medium to large, medium to large mushrooming. tiny bit of soot. this is probably okay for a long burn without a trim. maybe its slightly better than the cdn-6."
+            }
+        ]
+    },
+    {
+        "__comments": "AAAA Brazilian Coffee CDN-8",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-07-07 12:30:00",
+                "whenStopped": "2021-07-07 14:00:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/3 inch mp, medium mushrooming. looks good. but cdn-7 prob better bc of the mushroom and jar heat."
+            },
+            {
+                "whenStarted": "2021-07-07 16:30:00",
+                "whenStopped": "2021-07-08 01:00:00",
+                "stoppedWeightOunces": 19,
+                "notes": "1/3 inch mp, flames medium to large, medium soot and large mushrooming. jar 150+. this is too hot."
+            }
+        ]
+    },
+    {
+        "__comments": "1JYE Black Amber Plum LX-14",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-08-03 11:00:00",
+                "whenStopped": "2021-08-03 16:00:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/4 inch mp, looks great. no mushrooming, great flame size. maybe could be a tiny bit hotter given half jar"
+            },
+            {
+                "whenStarted": "2021-08-04 13:00:00",
+                "whenStopped": "2021-08-04 18:15:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/4 inch mp, flames medium+, tiny bit of soot on the top but almost none. this is about right."
+            },
+            {
+                "whenStarted": "2021-08-09 20:00:00",
+                "whenStopped": "2021-08-10 01:00:00",
+                "stoppedWeightOunces": 19,
+                "notes": "1/4 inch mp, flames medium, tiny bit of soot. looks good. prob could be hotter this fall down."
+            }
+        ]
+    },
+    {
+        "__comments": "V1PG Black Amber Plum CDN-5",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-08-03 11:00:00",
+                "whenStopped": "2021-08-03 16:00:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/4 inch mp, tiny bit of mushroomign, about the same flame size and heat as the lx-14. looks fine. could be tiny tiny bit hotter. these wicks werent trimmed and all 3 cdn wicks were."
+            },
+            {
+                "whenStarted": "2021-08-04 13:00:00",
+                "whenStopped": "2021-08-04 18:15:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/4+ inch mp, flames medium. no soot. slightly better mp than the lx-14. wicks were slightly trimmed."
+            },
+            {
+                "whenStarted": "2021-08-09 20:00:00",
+                "whenStopped": "2021-08-10 01:00:00",
+                "stoppedWeightOunces": 19,
+                "notes": "1/4 inch mp, flames medium, no soot. looks good. prob could be hotter this fall down. this is slightly better than then lx-14 in heat and soot."
+            }
+        ]
+    },
+    {
+        "__comments": "KPNM Black Amber Plum CDN-6",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-08-03 11:00:00",
+                "whenStopped": "2021-08-03 16:00:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/4+ inch mp, not really any mushrooming, great flame size. jar could be hotter i suppose, but this is the best of the 4. cdn-7 may be a bit too hot with mushrooming."
+            },
+            {
+                "whenStarted": "2021-08-04 13:00:00",
+                "whenStopped": "2021-08-04 18:15:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/4+ inch mp, flames medium+. not really any soot. this is about the same as the cdn-5. i presume its slightly better. maybe the best option all things considered."
+            },
+            {
+                "whenStarted": "2021-08-09 20:00:00",
+                "whenStopped": "2021-08-10 01:00:00",
+                "stoppedWeightOunces": 19,
+                "notes": "1/4+ inch mp, flames medium+, bit of soot. looks good. its between this and the cdn-5 for the best it seems."
+            }
+        ]
+    },
+    {
+        "__comments": "E2JO Black Amber Plum CDN-7",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-08-03 11:00:00",
+                "whenStopped": "2021-08-03 16:00:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/3+ inch mp, large mushrooming, jar 150+. this might be a little bit too hot, but it was a long burn. dont like the mushrooming though."
+            },
+            {
+                "whenStarted": "2021-08-04 13:00:00",
+                "whenStopped": "2021-08-04 18:15:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/3 inch mp, flames medium+ small amount of soot. jar not too hot. looks great, but cdn-6 is probably fine."
+            },
+            {
+                "whenStarted": "2021-08-09 20:00:00",
+                "whenStopped": "2021-08-10 01:00:00",
+                "stoppedWeightOunces": 19,
+                "notes": "1/4+ inch mp, flames medium, fair amount of soot. otherwise looks good. cdn-6 is probably the best, but cdn-5 is also fine down here, as is this. kinda depends on the top."
+            }
+        ]
+    },
+    {
+        "__comments": "N24J Market LX-14",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-08-03 18:00:00",
+                "whenStopped": "2021-08-04 01:15:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/4 inch mp, flames look great, no mushrooming. after this long of a burn at half jar, it could take a bit more heat, but not a ton. this is great still."
+            },
+            {
+                "whenStarted": "2021-08-05 18:00:00",
+                "whenStopped": "2021-08-06 01:15:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/4 inch mp, a fair amount of soot, but still looks fine. flames medium only and jar def not too hot. this is a good choice but with some soot and wicks were trimmed."
+            }
+        ]
+    },
+    {
+        "__comments": "Z9DX Market CDN-5",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-08-03 18:00:00",
+                "whenStopped": "2021-08-04 01:15:00",
+                "stoppedWeightOunces": 22,
+                "notes": "about the same as the lx-14. maybe a tiny bit cooler. 1/4 inch mp, flames great, but could be a bit larger."
+            },
+            {
+                "whenStarted": "2021-08-05 18:00:00",
+                "whenStopped": "2021-08-06 01:15:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/4 inch mp, a fair amount of soot, but still looks fine. exactly like the lx-14. flames medium only and jar def not too hot. this is a good choice but with some soot and wicks were trimmed."
+            }
+        ]
+    },
+    {
+        "__comments": "LLZG Market CDN-6",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-08-03 18:00:00",
+                "whenStopped": "2021-08-04 01:15:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/4+ inch mp, flames look excellent--a tiny bit hotter than the cdn-5 and lx-14. but could still stand to be a bit hotter given the long test burn at half jar."
+            },
+            {
+                "whenStarted": "2021-08-05 18:00:00",
+                "whenStopped": "2021-08-06 01:15:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/8 inch mp, a fair amount of soot, more wax consumed than the lx-14 and the cdn-5 but still looks fine. flames medium+ and jar 145+. this is a good choice but with some soot and wicks were trimmed."
+            }
+        ]
+    },
+    {
+        "__comments": "45EB Market CDN-7",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-08-03 18:00:00",
+                "whenStopped": "2021-08-04 01:15:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/3 inch mp, flames look great. this is the best of the bunch and was the first to reach full mp. no mushroming, flames medium+ but healthy and no obvious soot. this is a winner so far."
+            },
+            {
+                "whenStarted": "2021-08-05 18:00:00",
+                "whenStopped": "2021-08-06 01:15:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/8 inch mp, same amount of wax consumed as the cdn-6, flames medium and somehow less soot than the cdn-6. wicks were trimmed on all these testers. jar 140-, looks the best and slightly less soot than the cdn-6."
+            }
+        ]
+    },
+    {
+        "__comments": "P18D Black Violet Saffron Tester CDN-6",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-10-12 14:00:00",
+                "whenStopped": "2021-10-12 21:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/4 inch mp, flames medium. looks great, but the cdn-7 might be slightly better if i prefer slightly hotter."
+            },
+            {
+                "whenStarted": "2021-10-18 13:00:00",
+                "whenStopped": "2021-10-18 20:30:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/2 inch mp, bit of soot. jar not too hot. this is actually a little too hot but not bad. could be trimmed to be kept in check probably."
+            }
+        ]
+    },
+    {
+        "__comments": "29VZ Black Violet Saffron Tester CDN-7",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-10-12 14:00:00",
+                "whenStopped": "2021-10-12 21:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/3+ inch mp, flames medium+, no soot. looks great actually."
+            },
+            {
+                "whenStarted": "2021-10-18 13:00:00",
+                "whenStopped": "2021-10-18 20:30:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/2+ inch mp, bit of soot. jar too hot. some soot. cdn-6 is better. and cdn-5 is probably even better but not tested."
+            }
+        ]
+    },
+    {
+        "__comments": "YP6N Ginger Spice Tester CDN-6",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-10-12 14:00:00",
+                "whenStopped": "2021-10-12 21:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/3 inch mp, flames medium+. jar not too hot, no soot. this is about right it seems. could end up being too hot after a long burn who knows."
+            },
+            {
+                "whenStarted": "2021-10-19 12:00:00",
+                "whenStopped": "2021-10-19 18:00:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/3 inch mp, flames medium+ no soot. this is about perfect. but these were trimmed."
+            }
+        ]
+    },
+    {
+        "__comments": "5KNP Ginger Spice Tester CDN-7",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-10-12 14:00:00",
+                "whenStopped": "2021-10-12 21:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/2 inch mp, flames medium+ bit hotter than the cdn-6, still okay. but cdn-6 prob better and even that might be too hot."
+            },
+            {
+                "whenStarted": "2021-10-19 12:00:00",
+                "whenStopped": "2021-10-19 18:00:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/3 inch mp, flames large, bit of soot. these were trimmed too."
+            }
+        ]
+    },
+    {
+        "__comments": "BZBJ Alpine Balsam Tester CDN-6",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-10-08 20:00:00",
+                "whenStopped": "2021-10-09 02:15:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/2 inch mp, a bit too hot prob. flames large but manageable and not much soot. cdn-5 probably better."
+            },
+            {
+                "whenStarted": "2021-10-13 14:00:00",
+                "whenStopped": "2021-10-13 19:00:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/3 inch mp, flames medium. no soot. this is perfect."
+            },
+            {
+                "whenStarted": "2021-11-05 11:00:00",
+                "whenStopped": "2021-11-05 15:00:00",
+                "stoppedWeightOunces": 19,
+                "notes": "1/4 inch mp, flames medium+ no soot. olooks good"
+            }
+        ]
+    },
+    {
+        "__comments": "61ZZ Alpine Balsam Tester CDN-7",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-10-08 20:00:00",
+                "whenStopped": "2021-10-09 02:15:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/3 inch mp, jar 140ish prob. flames medium and not much soot. somehow not as hot as the cdn-6."
+            },
+            {
+                "whenStarted": "2021-10-12 14:00:00",
+                "whenStopped": "2021-10-12 21:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/3 inch mp, flames medium. this looks the same as the cdn-6 and is great. but there was more mushrooming at the beginning so theres a tiny bit of soot on the jar."
+            },
+            {
+                "whenStarted": "2021-10-13 14:00:00",
+                "whenStopped": "2021-10-13 19:00:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/8 inch mp, flames medium, no soot. looks fine, but somehow the cdn-6 is hotter."
+            }
+        ]
+    },
+    {
+        "__comments": "DYDP Sugared Chestnut Tester CDN-6",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-10-12 14:00:00",
+                "whenStopped": "2021-10-12 21:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/3 inch mp, flames m/l but no soot. this is about the right wick size."
+            },
+            {
+                "whenStarted": "2021-10-19 18:00:00",
+                "whenStopped": "2021-10-20 01:00:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/3 inch mp, flames large, bit of soot and was trimmed. this is a little hot. cdn-5 worth a shot but this isn't bad."
+            }
+        ]
+    },
+    {
+        "__comments": "J2N9 Sugared Chestnut Tester CDN-7",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-10-12 14:00:00",
+                "whenStopped": "2021-10-12 21:00:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/2 inch mp, flames large, bit of soot. bit too big of a wick."
+            },
+            {
+                "whenStarted": "2021-10-19 18:00:00",
+                "whenStopped": "2021-10-20 01:00:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/3+ inch mp, flames large and good amoutn of soot. too hot."
+            }
+        ]
+    },
+    {
+        "__comments": "More // LLOG Smoked Oud Tester CDN-6",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-10-20 15:00:00",
+                "whenStopped": "2021-10-20 18:00:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/4- inch mp, flames medium, bit of mushrooming. looks like its about the right size."
+            },
+            {
+                "whenStarted": "2021-11-03 15:15:00",
+                "whenStopped": "2021-11-03 18:05:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/3 inch mp, flames large, some mushrooming and some soot. this needs to be cdn-5! this is too big."
+            }
+        ]
+    },
+    {
+        "__comments": "45LB Smoked Oud Tester CDN-7",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-10-20 15:00:00",
+                "whenStopped": "2021-10-20 18:00:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/3 inch mp, flames medium to large, fair amount of mushrooming. looks a bit too hot"
+            },
+            {
+                "whenStarted": "2021-11-03 15:15:00",
+                "whenStopped": "2021-11-03 18:05:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/2 inch mp, flames large, lots of mushrooming and lots of soot. this needs to be cdn-5! this is way too big."
+            }
+        ]
+    },
+    {
+        "__comments": "OPG9 Red Plum Baklava Tester CDN-6",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-10-21 10:10:00",
+                "whenStopped": "2021-10-21 14:10:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/4 inch mp, tiny bit of mushrooming, no soot at all. looks great. hard to distinguish between this and the cdn-7"
+            },
+            {
+                "whenStarted": "2021-11-03 18:10:00",
+                "whenStopped": "2021-11-04 02:10:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/4+ inch mp, flames medium+, no soot at all. no mushrooming but the tips burnt off from prev burn. looks great. smells wonderful."
+            }
+        ]
+    },
+    {
+        "__comments": "8VGN Red Plum Baklava Tester CDN-7",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-10-21 10:10:00",
+                "whenStopped": "2021-10-21 14:10:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/4 inch mp, no mushrooming, no soot at all. looks great. hard to distinguish between this and the cdn-6"
+            },
+            {
+                "whenStarted": "2021-11-03 18:10:00",
+                "whenStopped": "2021-11-04 02:10:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/4 inch mp, flames medium-, no soot. somehow less hot than the cdn-6. but looks pretty good. oddly prefer the cdn-6 here because its hotter. need another burn."
+            }
+        ]
+    },
+    {
+        "__comments": "9J2D Cashmere Plum Tester CDN-6",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-10-21 18:10:00",
+                "whenStopped": "2021-10-22 01:10:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/4+ inch mp, tiny bit of soot, but looks great."
+            },
+            {
+                "whenStarted": "2021-11-03 18:10:00",
+                "whenStopped": "2021-11-04 02:10:00",
+                "stoppedWeightOunces": 19,
+                "notes": "1/4 inch mp, tiny bit of soot. looks pretty good. smells wonderful. maybe a small hint of something synthetic makes me prefer the red plum baklava to this. but its really nice."
+            }
+        ]
+    },
+    {
+        "__comments": "QQBK Cashmere Plum Tester CDN-7",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-10-21 10:10:00",
+                "whenStopped": "2021-10-21 14:10:00",
+                "stoppedWeightOunces": 22,
+                "notes": "1/4+ inch mp, little bit more of soot but still looks fine. cdn-6 better."
+            },
+            {
+                "whenStarted": "2021-11-03 18:10:00",
+                "whenStopped": "2021-11-04 02:10:00",
+                "stoppedWeightOunces": 19,
+                "notes": "1/3 inch mp, bit amount of soot, flames medium. cdn-6 is probably fine, but this is also okay."
+            }
+        ]
+    },
+    {
+        "__comments": "OPG9 Nordic Night Tester CDN-6",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-10-24 18:00:00",
+                "whenStopped": "2021-10-25 01:20:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/4 inch mp, flames medium. looks great, but can actually handle a bit more heat. smells great--would love to compare to alpine balsam."
+            },
+            {
+                "whenStarted": "2021-10-13 14:00:00",
+                "whenStopped": "2021-10-13 19:00:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/4 inch mp, flames medium no soot. looks good. cdn-7 is better tho."
+            }
+        ]
+    },
+    {
+        "__comments": "8VGN Nordic Night Tester CDN-7",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-10-24 18:00:00",
+                "whenStopped": "2021-10-25 01:20:00",
+                "stoppedWeightOunces": 21,
+                "notes": "1/3 inch mp, flames medium. looks perfect. this is the right size. but can actually handle a bit more heat. smells great--would love to compare to alpine balsam."
+            },
+            {
+                "whenStarted": "2021-10-13 14:00:00",
+                "whenStopped": "2021-10-13 19:00:00",
+                "stoppedWeightOunces": 20,
+                "notes": "1/4 inch mp, no soot flames medium. looks the same as the cdn-6. so maybe this is better based on the other burn."
+            }
+        ]
+    },
+    {
+        "__comments": "G2JQ Moroccan Cashmere Tester CDN-6",
+        "completedCandleWeightOunces": "23.00",
+        "volumeOverflowPercent": "50",
+        "colorDescription": "whiteish",
+        "burns": [
+            {
+                "whenStarted": "2021-10-26 20:00:00",
+                "whenStopped": "2021-10-26 23:00:00",
+                "stoppedWeightOunces": 22,
+                "notes": "not quite full mp, flames small+. smells great, but def needs a much bigger wick. cdn-7 or cdn-8 even. unfortunatley i dont have testers."
+            }
+        ]
+    },
+    {
+        "__comments": "DYPP Goliath Christmas Batch of 6: #1",
+        "completedCandleWeightOunces": "31.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    },
+    {
+        "__comments": "J6PP Goliath Christmas Batch of 6: #2",
+        "completedCandleWeightOunces": "31.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    },
+    {
+        "__comments": "XG16 Goliath Christmas Batch of 6: #3",
+        "completedCandleWeightOunces": "31.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    },
+    {
+        "__comments": "1EME Goliath Christmas Batch of 6: #4",
+        "completedCandleWeightOunces": "31.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    },
+    {
+        "__comments": "VQJG Goliath Christmas Batch of 6: #5",
+        "completedCandleWeightOunces": "31.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    },
+    {
+        "__comments": "KDGM Goliath Christmas Batch of 6: #6",
+        "completedCandleWeightOunces": "31.00",
+        "volumeOverflowPercent": "100",
+        "colorDescription": "whiteish",
+        "burns": []
+    }
+]

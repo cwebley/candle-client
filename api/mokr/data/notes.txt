@@ -368,6 +368,9 @@ Peppercorn Pomander 43P1 15.34
 Patchouli 41P2 12.00
 
 
+
+
+
 Greg - blue - 6 - lav/ FF/ bluebonnet
 CC - frost - 6 - vet / ft
 Bob - frost - 6 - SC / ft / ff
@@ -382,7 +385,40 @@ Cara - amber - 5 - PB/ tl/ ag
 Devin - blue - 6. SC/ SC / ag
 Sam - amber - ft / ft / tl / PB/ leather - 5
 
+
+# Dallas Party
+
+Tomato Leaf 42YB 14.34
+Vetiver CDN6 14.50
+Jasmine 46ZX: 15.04
+Arugula 4J6R 15.39
+Santal Coconut GRDZ 6.60
+Santal Coconut 43YL 16.13
+
+Fraser Fir G7P7 7.773
+Fraser Fir GXKX 17.35
+WMH GR73 17.315
+WMH 4LK8 20.86
+Leather 4NW9 5.842
+Leather GYWB 17.10
+White Tea GQED 16.868
+Whiskey 9.219
+
+Bergamot 4L5E 6.199
+Bergamot 16.205
+Apricot Grove 15.329
+Lavender 10.233
+Pom Bitters 10.695
+Ginger Spice 16.445
+
+Patchouli 12.028
+Fig Tree 4NZ9 9.465
+
+Bluebonnet GZ8L 10.623
+
+
 Next Experiments For May 16
+
 
 Sel De Mer
 High Tide
