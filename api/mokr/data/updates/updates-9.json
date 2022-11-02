@@ -1,468 +1,587 @@
 [
-    {
-        "__comments": "| ENZ9    | Oberon Candle Party: CC                                                |",
-        "completedCandleWeightOunces": "31.20",
-        "volumeOverflowPercent": "91",
-        "colorDescription": "whiteish",
-        "burns": []
-    },
-    {
-        "__comments": "| NGJK    | Oberon Candle Party: Bob                                               |",
-        "completedCandleWeightOunces": "31.20",
-        "volumeOverflowPercent": "91",
-        "colorDescription": "whiteish",
-        "burns": []
-    },
-    {
-        "__comments": "| ZPNJ    | Oberon Candle Party: Rachel                                            |",
-        "completedCandleWeightOunces": "31.20",
-        "volumeOverflowPercent": "91",
-        "colorDescription": "whiteish",
-        "burns": []
-    },
-    {
-        "__comments": "| L465    | Oberon Candle Party: Kandice                                           |",
-        "completedCandleWeightOunces": "31.20",
-        "volumeOverflowPercent": "91",
-        "colorDescription": "whiteish",
-        "burns": []
-    },
-    {
-        "__comments": "| 49V2    | Oberon Candle Party: Laura                                             |",
-        "completedCandleWeightOunces": "31.20",
-        "volumeOverflowPercent": "91",
-        "colorDescription": "whiteish",
-        "burns": []
-    },
-    {
-        "__comments": "| OYXJ    | Oberon Candle Party: Zain                                              |",
-        "completedCandleWeightOunces": "31.20",
-        "volumeOverflowPercent": "91",
-        "colorDescription": "whiteish",
-        "burns": []
-    },
-    {
-        "__comments": "| 8JZY    | Oberon Candle Party: Dani                                              |",
-        "completedCandleWeightOunces": "31.20",
-        "volumeOverflowPercent": "91",
-        "colorDescription": "whiteish",
-        "burns": []
-    },
-    {
-        "__comments": "| 9X7P    | Oberon Candle Party: Nash                                              |",
-        "completedCandleWeightOunces": "31.20",
-        "volumeOverflowPercent": "91",
-        "colorDescription": "whiteish",
-        "burns": []
-    },
-    {
-        "__comments": "| QVY7    | Oberon Candle Party: Luke                                              |",
-        "completedCandleWeightOunces": "31.20",
-        "volumeOverflowPercent": "91",
-        "colorDescription": "whiteish",
-        "burns": []
-    },
-    {
-        "__comments": "| M7DL    | Oberon Candle Party: Cara                                              |",
-        "completedCandleWeightOunces": "31.20",
-        "volumeOverflowPercent": "91",
-        "colorDescription": "whiteish",
-        "burns": []
-    },
-    {
-        "__comments": "| 7NVM    | Oberon Candle Party: Devin                                             |",
-        "completedCandleWeightOunces": "31.20",
-        "volumeOverflowPercent": "91",
-        "colorDescription": "whiteish",
-        "burns": []
-    },
-    {
-        "__comments": "| GYKM    | Oberon Candle Party: Sam                                               |",
-        "completedCandleWeightOunces": "31.20",
-        "volumeOverflowPercent": "91",
-        "colorDescription": "whiteish",
-        "burns": []
-    },
-    {
-        "__comments": "High Tide CDN Testers // | YMJV    | High Tide Tester CDN-4                                                 |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-04-23 13:30:00",
-                "whenStopped": "2022-04-23 17:15:00",
-                "stoppedWeightOunces": 22,
-                "notes": "not full mp, flames small. too cool."
-            }
-        ]
-    },
-    {
-        "__comments": "| 55D9    | High Tide Tester CDN-5                                                 |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-04-23 13:30:00",
-                "whenStopped": "2022-04-23 17:15:00",
-                "stoppedWeightOunces": 22,
-                "notes": "1/3 inch mp, flames m. looks good. about the same as the cdn-6."
-            },
-            {
-                "whenStarted": "2022-04-24 15:00:00",
-                "whenStopped": "2022-04-24 21:00:00",
-                "stoppedWeightOunces": 21,
-                "notes": "full shallow mp, flames m-. needs to be hotter"
-            }
-        ]
-    },
-    {
-        "__comments": "| B26V    | High Tide Tester CDN-6                                                 |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-04-23 13:30:00",
-                "whenStopped": "2022-04-23 17:15:00",
-                "stoppedWeightOunces": 22,
-                "notes": "1/3 inch mp, flames m. looks good, but about the same as the cdn-5. could probably handle a bit more heat."
-            },
-            {
-                "whenStarted": "2022-04-24 15:00:00",
-                "whenStopped": "2022-04-24 21:00:00",
-                "stoppedWeightOunces": 21,
-                "notes": "1/8 inch mp, flames m. look only okay...could be hotter. need to try cdn-7"
-            },
-            {
-                "whenStarted": "2022-04-25 20:30:00",
-                "whenStopped": "2022-04-25 11:59:00",
-                "stoppedWeightOunces": 21,
-                "notes": "1/4 inch mp, flames m. needs to be a bit hotter. i prefer this one to the other salties, but sam hates it..."
-            }
-        ]
-    },
-    {
-        "__comments": "Sea Minerals CDN Testers // | 6BJY    | Sea Minerals Tester CDN-4                                              |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-04-23 13:30:00",
-                "whenStopped": "2022-04-23 17:15:00",
-                "stoppedWeightOunces": 22,
-                "notes": "full shallow mp, flames small. too cool."
-            }
-        ]
-    },
-    {
-        "__comments": "| DEJJ    | Sea Minerals Tester CDN-5                                              |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-04-23 13:30:00",
-                "whenStopped": "2022-04-23 17:15:00",
-                "stoppedWeightOunces": 22,
-                "notes": "1/8 inch mp, flames m. looks fine, could a touch hotter probably."
-            },
-            {
-                "whenStarted": "2022-04-24 15:00:00",
-                "whenStopped": "2022-04-24 21:00:00",
-                "stoppedWeightOunces": 21,
-                "notes": "1/8- inch mp, flames m-. needs to be a little hotter."
-            }
-        ]
-    },
-    {
-        "__comments": "| JGY8    | Sea Minerals Tester CDN-6                                              |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-04-23 13:30:00",
-                "whenStopped": "2022-04-23 17:15:00",
-                "stoppedWeightOunces": 22,
-                "notes": "1/4+ inch mp, flames m. looks great. could probably handle more heat too. i am torn mostly between this and high tide. high tide seems much saltier."
-            },
-            {
-                "whenStarted": "2022-04-24 15:00:00",
-                "whenStopped": "2022-04-24 21:00:00",
-                "stoppedWeightOunces": 21,
-                "notes": "1/8 inch mp, flames m. look good but could be hotter. need to try cdn-7"
-            },
-            {
-                "whenStarted": "2022-04-25 20:30:00",
-                "whenStopped": "2022-04-25 11:59:00",
-                "stoppedWeightOunces": 21,
-                "notes": "1/3 inch mp, flames m+. this is perfect down here and better wicked than the others. sam prefers this one."
-            }
-        ]
-    },
-    {
-        "__comments": "Sel De Mer CDN Testers // | XGD2    | Sel De Mer Tester CDN-4                                                |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-04-23 13:30:00",
-                "whenStopped": "2022-04-23 17:15:00",
-                "stoppedWeightOunces": 22,
-                "notes": "not a full mp, too cool."
-            }
-        ]
-    },
-    {
-        "__comments": "| 1EQZ    | Sel De Mer Tester CDN-5                                                |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-04-23 13:30:00",
-                "whenStopped": "2022-04-23 17:15:00",
-                "stoppedWeightOunces": 22,
-                "notes": "1/4 inch mp, flames m-. should be hotter."
-            },
-            {
-                "whenStarted": "2022-04-24 15:00:00",
-                "whenStopped": "2022-04-24 21:00:00",
-                "stoppedWeightOunces": 21,
-                "notes": "1/8+ inch mp, flames m. could be hottter. but looks the same as the cdn-6 somehow."
-            }
-        ]
-    },
-    {
-        "__comments": "| VQB7    | Sel De Mer Tester CDN-6                                                |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-04-23 13:30:00",
-                "whenStopped": "2022-04-23 17:15:00",
-                "stoppedWeightOunces": 22,
-                "notes": "1/4+ inch mp, flames m. looks good. could probably handle more heat though."
-            },
-            {
-                "whenStarted": "2022-04-24 15:00:00",
-                "whenStopped": "2022-04-24 21:00:00",
-                "stoppedWeightOunces": 21,
-                "notes": "1/8 inch mp, flames m. could be hotter actually. need to try cdn-7, but this is definitely OK."
-            },
-            {
-                "whenStarted": "2022-04-25 20:30:00",
-                "whenStopped": "2022-04-25 11:59:00",
-                "stoppedWeightOunces": 21,
-                "notes": "1/4+ inch mp, flames m. could be hotter. need to try cdn-7."
-            }
-        ]
-    },
-    {
-        "__comments": "Pineapple Sage CDN Testers // | KDKE    | Pineapple Sage CDN-4                                                   |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-04-23 22:00:00",
-                "whenStopped": "2022-04-24 03:00:00",
-                "stoppedWeightOunces": 22,
-                "notes": "not quite full mp and a super long burn. not hot enough."
-            }
-        ]
-    },
-    {
-        "__comments": "| ENX9    | Pineapple Sage CDN-5                                                   |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-04-23 22:00:00",
-                "whenStopped": "2022-04-24 03:00:00",
-                "stoppedWeightOunces": 23,
-                "notes": "1/8 inch mp and a super long burn. flames m and looks okay now but must need more heat."
-            }
-        ]
-    },
-    {
-        "__comments": "| NGEK    | Pineapple Sage CDN-6                                                   |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-04-23 22:00:00",
-                "whenStopped": "2022-04-24 03:00:00",
-                "stoppedWeightOunces": 22,
-                "notes": "1/4 inch mp, flames m, looks good. could prob use a little more heat bc this was a long burn. would like to try cdn-7. but i'll say cdn-6+ right now."
-            },
-            {
-                "whenStarted": "2022-05-08 15:00:00",
-                "whenStopped": "2022-05-08 20:00:00",
-                "stoppedWeightOunces": 22,
-                "notes": "1/8 inch mp, flames m. this is good but could be slightly hotter. cdn-6+. smells wonderful."
-            }
-        ]
-    },
-    {
-        "__comments": "| ZPXJ    | Brazilian Coffee & Pure Cane CDN-5                                     |",
-        "completedCandleWeightOunces": "28",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-04-25 10:50:00",
-                "whenStopped": "2022-04-25 19:00:00",
-                "stoppedWeightOunces": 27,
-                "notes": "1/8 inch mp, flames m, tiny bit of mushrooming. actually looks pretty good, but took over 4 hours to get to full mp. this is probably about right but i can compare with the cdn-6 i made today."
-            }
-        ]
-    },
-    {
-        "__comments": "| OY2J    | Spring Blend Wick Test                                                 |",
-        "completedCandleWeightOunces": "27",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-04-28 19:00:00",
-                "whenStopped": "2022-04-28 23:00:00",
-                "stoppedWeightOunces": 26,
-                "notes": "1/3 inch mp, little bit of mushrooming. probably a bit too hot."
-            },
-            {
-                "whenStarted": "2022-04-29 19:00:00",
-                "whenStopped": "2022-04-29 23:00:00",
-                "stoppedWeightOunces": 25,
-                "notes": "1/3 inch mp, def a bit too hot, some sooting. need to try cdn-4"
-            },
-            {
-                "whenStarted": "2022-04-30 19:00:00",
-                "whenStopped": "2022-04-30 23:00:00",
-                "stoppedWeightOunces": 24,
-                "notes": "same as above. steady amount of soot coming off the candle. needs to be cdn-4 probably."
-            },
-            {
-                "whenStarted": "2022-05-02 19:00:00",
-                "whenStopped": "2022-05-02 23:00:00",
-                "stoppedWeightOunces": 23,
-                "notes": "1/3+ inch mp, flames l-, some soot coming off the flame. def smells nice so i keep burning this, but it needs a cdn-4."
-            }
-        ]
-    },
-    {
-        "__comments": "| 8J1Y    | Brazilian Coffee CDN-6 Tester                                          |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-05-07 19:30:00",
-                "whenStopped": "2022-05-08 02:45:00",
-                "stoppedWeightOunces": 23,
-                "notes": "2/3 inch mp, flames m. no soot. looks great, but surpsrisingly deep melt pool. more testing needed"
-            }
-        ]
-    },
-    {
-        "__comments": "| 9XZP    | Black Violet Saffron CDN-5                                             |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-05-06 21:00:00",
-                "whenStopped": "2022-05-07 01:00:00",
-                "stoppedWeightOunces": 23,
-                "notes": "1/4 inch mp, flames l-. looks pretty good, but could be a touch hot. no soot. no mushrooming. smells great."
-            },
-            {
-                "whenStarted": "2022-05-08 15:00:00",
-                "whenStopped": "2022-05-08 20:00:00",
-                "stoppedWeightOunces": 22,
-                "notes": "1/4 inch mp flames l-, bit of soot. this is a tiny bit too hot. probably okay, but cdn-5- is the rec"
-            }
-        ]
-    },
-    {
-        "__comments": "| QVE7    | Black Violet Saffron CDN-6                                             |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-05-06 21:00:00",
-                "whenStopped": "2022-05-07 01:00:00",
-                "stoppedWeightOunces": 23,
-                "notes": "1/4+ inch mp, flames l and sooting a fair amount. this is too hot."
-            },
-            {
-                "whenStarted": "2022-05-08 15:00:00",
-                "whenStopped": "2022-05-08 20:00:00",
-                "stoppedWeightOunces": 23,
-                "notes": "1/4+ inch mp, flames l and sooting a fair amount. this is too hot."
-            }
-        ]
-    },
-    {
-        "__comments": "| M72L    | Arugula CDN-4                                                          |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-05-06 12:00:00",
-                "whenStopped": "2022-05-06 18:00:00",
-                "stoppedWeightOunces": 23,
-                "notes": "1/8 inch mp, flames m. looks great now, but took a long time to get here. this could be slightly hotter but not much."
-            },
-            {
-                "whenStarted": "2022-05-07 12:00:00",
-                "whenStopped": "2022-05-07 17:00:00",
-                "stoppedWeightOunces": 22,
-                "notes": "full shallow mp, flames m. looks good, but the cdn-5 is a bit better."
-            }
-        ]
-    },
-    {
-        "__comments": "| 7NXM    | Arugula CDN-5                                                          |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-05-06 12:00:00",
-                "whenStopped": "2022-05-06 18:00:00",
-                "stoppedWeightOunces": 23,
-                "notes": "1/4 inch mp, flames m+. looks great."
-            },
-            {
-                "whenStarted": "2022-05-07 12:00:00",
-                "whenStopped": "2022-05-07 17:00:00",
-                "stoppedWeightOunces": 22,
-                "notes": "1/8 inch mp, flames m. looks perfect."
-            }
-        ]
-    },
-    {
-        "__comments": "| GY8M    | Arugula CDN-6                                                          |",
-        "completedCandleWeightOunces": "24",
-        "volumeOverflowPercent": "50",
-        "colorDescription": "whiteish",
-        "burns": [
-            {
-                "whenStarted": "2022-05-06 12:00:00",
-                "whenStopped": "2022-05-06 18:00:00",
-                "stoppedWeightOunces": 23,
-                "notes": "1/4 inch mp, flames m+. looks great. very tiny bit of soot on the jar."
-            }
-        ]
-    }
+  {
+    "__comments": "| ENZ9    | Oberon Candle Party: CC                                                |",
+    "completedCandleWeightOunces": "31.20",
+    "volumeOverflowPercent": "91",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "| NGJK    | Oberon Candle Party: Bob                                               |",
+    "completedCandleWeightOunces": "31.20",
+    "volumeOverflowPercent": "91",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "| ZPNJ    | Oberon Candle Party: Rachel                                            |",
+    "completedCandleWeightOunces": "31.20",
+    "volumeOverflowPercent": "91",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "| L465    | Oberon Candle Party: Kandice                                           |",
+    "completedCandleWeightOunces": "31.20",
+    "volumeOverflowPercent": "91",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "| 49V2    | Oberon Candle Party: Laura                                             |",
+    "completedCandleWeightOunces": "31.20",
+    "volumeOverflowPercent": "91",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "| OYXJ    | Oberon Candle Party: Zain                                              |",
+    "completedCandleWeightOunces": "31.20",
+    "volumeOverflowPercent": "91",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "| 8JZY    | Oberon Candle Party: Dani                                              |",
+    "completedCandleWeightOunces": "31.20",
+    "volumeOverflowPercent": "91",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "| 9X7P    | Oberon Candle Party: Nash                                              |",
+    "completedCandleWeightOunces": "31.20",
+    "volumeOverflowPercent": "91",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "| QVY7    | Oberon Candle Party: Luke                                              |",
+    "completedCandleWeightOunces": "31.20",
+    "volumeOverflowPercent": "91",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "| M7DL    | Oberon Candle Party: Cara                                              |",
+    "completedCandleWeightOunces": "31.20",
+    "volumeOverflowPercent": "91",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "| 7NVM    | Oberon Candle Party: Devin                                             |",
+    "completedCandleWeightOunces": "31.20",
+    "volumeOverflowPercent": "91",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "| GYKM    | Oberon Candle Party: Sam                                               |",
+    "completedCandleWeightOunces": "31.20",
+    "volumeOverflowPercent": "91",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "High Tide CDN Testers // | YMJV    | High Tide Tester CDN-4                                                 |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-04-23 13:30:00",
+        "whenStopped": "2022-04-23 17:15:00",
+        "stoppedWeightOunces": 22,
+        "notes": "not full mp, flames small. too cool."
+      }
+    ]
+  },
+  {
+    "__comments": "| 55D9    | High Tide Tester CDN-5                                                 |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-04-23 13:30:00",
+        "whenStopped": "2022-04-23 17:15:00",
+        "stoppedWeightOunces": 22,
+        "notes": "1/3 inch mp, flames m. looks good. about the same as the cdn-6."
+      },
+      {
+        "whenStarted": "2022-04-24 15:00:00",
+        "whenStopped": "2022-04-24 21:00:00",
+        "stoppedWeightOunces": 21,
+        "notes": "full shallow mp, flames m-. needs to be hotter"
+      }
+    ]
+  },
+  {
+    "__comments": "| B26V    | High Tide Tester CDN-6                                                 |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-04-23 13:30:00",
+        "whenStopped": "2022-04-23 17:15:00",
+        "stoppedWeightOunces": 22,
+        "notes": "1/3 inch mp, flames m. looks good, but about the same as the cdn-5. could probably handle a bit more heat."
+      },
+      {
+        "whenStarted": "2022-04-24 15:00:00",
+        "whenStopped": "2022-04-24 21:00:00",
+        "stoppedWeightOunces": 21,
+        "notes": "1/8 inch mp, flames m. look only okay...could be hotter. need to try cdn-7"
+      },
+      {
+        "whenStarted": "2022-04-25 20:30:00",
+        "whenStopped": "2022-04-25 11:59:00",
+        "stoppedWeightOunces": 21,
+        "notes": "1/4 inch mp, flames m. needs to be a bit hotter. i prefer this one to the other salties, but sam hates it..."
+      }
+    ]
+  },
+  {
+    "__comments": "Sea Minerals CDN Testers // | 6BJY    | Sea Minerals Tester CDN-4                                              |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-04-23 13:30:00",
+        "whenStopped": "2022-04-23 17:15:00",
+        "stoppedWeightOunces": 22,
+        "notes": "full shallow mp, flames small. too cool."
+      }
+    ]
+  },
+  {
+    "__comments": "| DEJJ    | Sea Minerals Tester CDN-5                                              |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-04-23 13:30:00",
+        "whenStopped": "2022-04-23 17:15:00",
+        "stoppedWeightOunces": 22,
+        "notes": "1/8 inch mp, flames m. looks fine, could a touch hotter probably."
+      },
+      {
+        "whenStarted": "2022-04-24 15:00:00",
+        "whenStopped": "2022-04-24 21:00:00",
+        "stoppedWeightOunces": 21,
+        "notes": "1/8- inch mp, flames m-. needs to be a little hotter."
+      }
+    ]
+  },
+  {
+    "__comments": "| JGY8    | Sea Minerals Tester CDN-6                                              |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-04-23 13:30:00",
+        "whenStopped": "2022-04-23 17:15:00",
+        "stoppedWeightOunces": 22,
+        "notes": "1/4+ inch mp, flames m. looks great. could probably handle more heat too. i am torn mostly between this and high tide. high tide seems much saltier."
+      },
+      {
+        "whenStarted": "2022-04-24 15:00:00",
+        "whenStopped": "2022-04-24 21:00:00",
+        "stoppedWeightOunces": 21,
+        "notes": "1/8 inch mp, flames m. look good but could be hotter. need to try cdn-7"
+      },
+      {
+        "whenStarted": "2022-04-25 20:30:00",
+        "whenStopped": "2022-04-25 11:59:00",
+        "stoppedWeightOunces": 21,
+        "notes": "1/3 inch mp, flames m+. this is perfect down here and better wicked than the others. sam prefers this one."
+      }
+    ]
+  },
+  {
+    "__comments": "Sel De Mer CDN Testers // | XGD2    | Sel De Mer Tester CDN-4                                                |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-04-23 13:30:00",
+        "whenStopped": "2022-04-23 17:15:00",
+        "stoppedWeightOunces": 22,
+        "notes": "not a full mp, too cool."
+      }
+    ]
+  },
+  {
+    "__comments": "| 1EQZ    | Sel De Mer Tester CDN-5                                                |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-04-23 13:30:00",
+        "whenStopped": "2022-04-23 17:15:00",
+        "stoppedWeightOunces": 22,
+        "notes": "1/4 inch mp, flames m-. should be hotter."
+      },
+      {
+        "whenStarted": "2022-04-24 15:00:00",
+        "whenStopped": "2022-04-24 21:00:00",
+        "stoppedWeightOunces": 21,
+        "notes": "1/8+ inch mp, flames m. could be hottter. but looks the same as the cdn-6 somehow."
+      }
+    ]
+  },
+  {
+    "__comments": "| VQB7    | Sel De Mer Tester CDN-6                                                |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-04-23 13:30:00",
+        "whenStopped": "2022-04-23 17:15:00",
+        "stoppedWeightOunces": 22,
+        "notes": "1/4+ inch mp, flames m. looks good. could probably handle more heat though."
+      },
+      {
+        "whenStarted": "2022-04-24 15:00:00",
+        "whenStopped": "2022-04-24 21:00:00",
+        "stoppedWeightOunces": 21,
+        "notes": "1/8 inch mp, flames m. could be hotter actually. need to try cdn-7, but this is definitely OK."
+      },
+      {
+        "whenStarted": "2022-04-25 20:30:00",
+        "whenStopped": "2022-04-25 11:59:00",
+        "stoppedWeightOunces": 21,
+        "notes": "1/4+ inch mp, flames m. could be hotter. need to try cdn-7."
+      }
+    ]
+  },
+  {
+    "__comments": "Pineapple Sage CDN Testers // | KDKE    | Pineapple Sage CDN-4                                                   |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-04-23 22:00:00",
+        "whenStopped": "2022-04-24 03:00:00",
+        "stoppedWeightOunces": 22,
+        "notes": "not quite full mp and a super long burn. not hot enough."
+      }
+    ]
+  },
+  {
+    "__comments": "| ENX9    | Pineapple Sage CDN-5                                                   |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-04-23 22:00:00",
+        "whenStopped": "2022-04-24 03:00:00",
+        "stoppedWeightOunces": 23,
+        "notes": "1/8 inch mp and a super long burn. flames m and looks okay now but must need more heat."
+      }
+    ]
+  },
+  {
+    "__comments": "| NGEK    | Pineapple Sage CDN-6                                                   |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-04-23 22:00:00",
+        "whenStopped": "2022-04-24 03:00:00",
+        "stoppedWeightOunces": 22,
+        "notes": "1/4 inch mp, flames m, looks good. could prob use a little more heat bc this was a long burn. would like to try cdn-7. but i'll say cdn-6+ right now."
+      },
+      {
+        "whenStarted": "2022-05-08 15:00:00",
+        "whenStopped": "2022-05-08 20:00:00",
+        "stoppedWeightOunces": 22,
+        "notes": "1/8 inch mp, flames m. this is good but could be slightly hotter. cdn-6+. smells wonderful."
+      }
+    ]
+  },
+  {
+    "__comments": "| ZPXJ    | Brazilian Coffee & Pure Cane CDN-5                                     |",
+    "completedCandleWeightOunces": "28",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-04-25 10:50:00",
+        "whenStopped": "2022-04-25 19:00:00",
+        "stoppedWeightOunces": 27,
+        "notes": "1/8 inch mp, flames m, tiny bit of mushrooming. actually looks pretty good, but took over 4 hours to get to full mp. this is probably about right but i can compare with the cdn-6 i made today."
+      }
+    ]
+  },
+  {
+    "__comments": "| OY2J    | Spring Blend Wick Test                                                 |",
+    "completedCandleWeightOunces": "27",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-04-28 19:00:00",
+        "whenStopped": "2022-04-28 23:00:00",
+        "stoppedWeightOunces": 26,
+        "notes": "1/3 inch mp, little bit of mushrooming. probably a bit too hot."
+      },
+      {
+        "whenStarted": "2022-04-29 19:00:00",
+        "whenStopped": "2022-04-29 23:00:00",
+        "stoppedWeightOunces": 25,
+        "notes": "1/3 inch mp, def a bit too hot, some sooting. need to try cdn-4"
+      },
+      {
+        "whenStarted": "2022-04-30 19:00:00",
+        "whenStopped": "2022-04-30 23:00:00",
+        "stoppedWeightOunces": 24,
+        "notes": "same as above. steady amount of soot coming off the candle. needs to be cdn-4 probably."
+      },
+      {
+        "whenStarted": "2022-05-02 19:00:00",
+        "whenStopped": "2022-05-02 23:00:00",
+        "stoppedWeightOunces": 23,
+        "notes": "1/3+ inch mp, flames l-, some soot coming off the flame. def smells nice so i keep burning this, but it needs a cdn-4."
+      }
+    ]
+  },
+  {
+    "__comments": "| 8J1Y    | Brazilian Coffee CDN-6 Tester                                          |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-05-07 19:30:00",
+        "whenStopped": "2022-05-08 02:45:00",
+        "stoppedWeightOunces": 23,
+        "notes": "2/3 inch mp, flames m. no soot. looks great, but surpsrisingly deep melt pool. more testing needed"
+      }
+    ]
+  },
+  {
+    "__comments": "| 9XZP    | Black Violet Saffron CDN-5                                             |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-05-06 21:00:00",
+        "whenStopped": "2022-05-07 01:00:00",
+        "stoppedWeightOunces": 23,
+        "notes": "1/4 inch mp, flames l-. looks pretty good, but could be a touch hot. no soot. no mushrooming. smells great."
+      },
+      {
+        "whenStarted": "2022-05-08 15:00:00",
+        "whenStopped": "2022-05-08 20:00:00",
+        "stoppedWeightOunces": 22,
+        "notes": "1/4 inch mp flames l-, bit of soot. this is a tiny bit too hot. probably okay, but cdn-5- is the rec"
+      }
+    ]
+  },
+  {
+    "__comments": "| QVE7    | Black Violet Saffron CDN-6                                             |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-05-06 21:00:00",
+        "whenStopped": "2022-05-07 01:00:00",
+        "stoppedWeightOunces": 23,
+        "notes": "1/4+ inch mp, flames l and sooting a fair amount. this is too hot."
+      },
+      {
+        "whenStarted": "2022-05-08 15:00:00",
+        "whenStopped": "2022-05-08 20:00:00",
+        "stoppedWeightOunces": 23,
+        "notes": "1/4+ inch mp, flames l and sooting a fair amount. this is too hot."
+      }
+    ]
+  },
+  {
+    "__comments": "| M72L    | Arugula CDN-4                                                          |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-05-06 12:00:00",
+        "whenStopped": "2022-05-06 18:00:00",
+        "stoppedWeightOunces": 23,
+        "notes": "1/8 inch mp, flames m. looks great now, but took a long time to get here. this could be slightly hotter but not much."
+      },
+      {
+        "whenStarted": "2022-05-07 12:00:00",
+        "whenStopped": "2022-05-07 17:00:00",
+        "stoppedWeightOunces": 22,
+        "notes": "full shallow mp, flames m. looks good, but the cdn-5 is a bit better."
+      }
+    ]
+  },
+  {
+    "__comments": "| 7NXM    | Arugula CDN-5                                                          |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-05-06 12:00:00",
+        "whenStopped": "2022-05-06 18:00:00",
+        "stoppedWeightOunces": 23,
+        "notes": "1/4 inch mp, flames m+. looks great."
+      },
+      {
+        "whenStarted": "2022-05-07 12:00:00",
+        "whenStopped": "2022-05-07 17:00:00",
+        "stoppedWeightOunces": 22,
+        "notes": "1/8 inch mp, flames m. looks perfect."
+      }
+    ]
+  },
+  {
+    "__comments": "| GY8M    | Arugula CDN-6                                                          |",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "50",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2022-05-06 12:00:00",
+        "whenStopped": "2022-05-06 18:00:00",
+        "stoppedWeightOunces": 23,
+        "notes": "1/4 inch mp, flames m+. looks great. very tiny bit of soot on the jar."
+      }
+    ]
+  },
+  {
+    "__comments": "POZ1 Marry Heath Candle Party",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "90",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "2X4X Francois Heath Candle Party",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "90",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "YMEV Sandra Heath Candle Party",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "90",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "5549 Dylan Heath Candle Party",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "90",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "B2DV Kristyn Heath Candle Party",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "90",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "6BMY Chris Heath Candle Party",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "90",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "DEXJ Emily Heath Candle Party",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "90",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "JG88 Prabhjot Heath Candle Party",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "90",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "XGQ2 Sam Heath Candle Party",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "90",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "L4G5 CDN-4 Ginger Honey Mer Tester",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "49M2 CDN-5 Ginger Honey Mer Tester",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "OYZJ CDN-6 Ginger Honey Mer Tester",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "8JBY Full CDN-5 Ginger Honey Mer Tester",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "9X6P CDN-4 Pom Fig Berg",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "QVO7 CDN-5 Pom Fig Berg",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "M7PL CDN-6 Pom Fig Berg",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "7N5M Full CDN-5 Pom Fig Berg",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
 ]

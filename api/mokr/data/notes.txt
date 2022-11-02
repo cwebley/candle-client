@@ -324,10 +324,13 @@ Pomegranate Bitters: CDN-4
 High Tide: CDN-6+
 Sea Minerals: CDN-6+
 Sel De Mer: CDN-6+
-Pineapple Sage: CDN-6+
 Black Violet Saffron: CDN-5
-Brazilian Coffee And Pure Cane: CDN-6/CDN-7
+Brazilian Coffee: CDN-6/CDN-7
 Arugula: CDN-5. but 4/5/6 all work probably...
+Pineapple Sage: CDN-6+
+
+need to order:
+Pineapple Sage: CDN-6+
 
 Wick Tests:
 
@@ -336,6 +339,12 @@ Brazilian Coffee CDN-6
 Black Violet Saffron CDN-5/6
 Arugula CDN-4/5/6
 
+
+11/1/22
+candles for cam
+
+Honey 4 / Ginger Spice 4+ / Sel de Mer 6+ = 5/4/6
+Fig Tree 5- / Bergamot 6+ / Pom Bitters 4 = 5/6/4
 
 
 pre-party measurements 4/15
@@ -386,10 +395,10 @@ Devin - blue - 6. SC/ SC / ag
 Sam - amber - ft / ft / tl / PB/ leather - 5
 
 
-# Dallas Party
+# Dallas Party Leung House Heath
 
 Tomato Leaf 42YB 14.34
-Vetiver CDN6 14.50
+Vetiver ODN6 14.50
 Jasmine 46ZX: 15.04
 Arugula 4J6R 15.39
 Santal Coconut GRDZ 6.60
@@ -404,12 +413,12 @@ Leather GYWB 17.10
 White Tea GQED 16.868
 Whiskey 9.219
 
-Bergamot 4L5E 6.199
+Bergamot 4L58 6.199
 Bergamot 16.205
-Apricot Grove 15.329
-Lavender 10.233
-Pom Bitters 10.695
-Ginger Spice 16.445
+Apricot Grove OEKV 15.329
+Lavender 46NX 10.233
+Pom Bitters 4LN8 10.695
+Ginger Spice GBDV 16.445
 
 Patchouli 12.028
 Fig Tree 4NZ9 9.465
