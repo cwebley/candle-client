@@ -8082,4 +8082,39 @@ module.exports = [
       wickStickerHashId: "BE9B",
     },
   ],
+  [
+
+    {
+      name: "Pom Fig Berg Tester CDN-5 2 week cure",
+      jarHashId: "MDJR",
+      wickHashId: "5EKQ",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BE9B",
+    },
+    {
+      name: "Pom Fig Berg Tester CDN-5 2 week cure",
+      jarHashId: "MDJR",
+      wickHashId: "5EKQ",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BE9B",
+    },
+    {
+      name: "Honey Ginger Sel CDN-4 2 week cure",
+      jarHashId: "MDJR",
+      wickHashId: "DOO4",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BE9B",
+    },
+    {
+      name: "Honey Ginger Sel CDN-4 2 week cure",
+      jarHashId: "MDJR",
+      wickHashId: "DOO4",
+      wickCount: "2",
+      wickLayout: "line",
+      wickStickerHashId: "BE9B",
+    },
+  ]
 ];

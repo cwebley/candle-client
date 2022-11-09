@@ -13876,7 +13876,6 @@ module.exports = [
         price: "13.75",
         shareOfShippingPercent: "50",
       },
-     
     ],
     supplierName: "Hive and Honey",
     subtotalCost: "27.75",
@@ -14395,5 +14394,85 @@ module.exports = [
     shippingCost: "0",
     taxesAndFees: "0",
     totalCost: "0",
+  },
+  {
+    openDate: "2022-05-12",
+    items: [
+      {
+        categoryId: 1,
+        type: "fragrance-oil",
+        name: "Sel de Mer",
+        slug: "sel-de-mer",
+        categoryName: "earthy",
+        supplierId: 1,
+        productUrl:
+          "https://www.candlescience.com/fragrance/sel-de-mer-fragrance-oil/",
+        msdsUrl:
+          "https://drive.google.com/file/d/1NfRkS_RJUcItiZSiuCrTE2ICk_fnol8x/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/1GOcNFd-1Qt9G_IbLa7zDXBbXUY4RYsMs/view?usp=sharing",
+        allerginUrl: null,
+        flashpointTemperatureFahrenheit: 191,
+        specificGravity: 0.94,
+        vanillinPercentage: 0,
+        ethylVanillinPercentage: 0,
+        notes: "",
+        referenceId: 337,
+        weightOunces: "16",
+        remaining: "16",
+        price: "25.40",
+        shareOfShippingPercent: "80",
+      },
+      {
+        categoryId: 1,
+        type: "fragrance-oil",
+        name: "Egyptian Amber",
+        productUrl:
+          "https://www.candlescience.com/fragrance/egyptian-amber-fragrance-oil/",
+        msdsUrl:
+          "https://drive.google.com/file/d/1jBr9zkWfDSku7oCzZxKvSiCgtqxHuURX/view?usp=share_link",
+        ifraUrl:
+          "https://drive.google.com/file/d/1guw5nY3r6XrOZiCJ6rqt214dcF6h95Zj/view?usp=share_link",
+        flashpointTemperatureFahrenheit: "212",
+        specificGravity: "0.95",
+        vanillinPercentage: "1",
+        ethylVanillinPercentage: "3",
+        weightOunces: "2",
+        remaining: "2",
+        price: "5.30",
+        shareOfShippingPercent: "10",
+      },
+      {
+        type: "fragrance-oil",
+        slug: "rain-water",
+        categoryName: "earthy",
+        supplierId: 1,
+        notes:
+          "one of these is a free sample but i'm not counting it as one except in the order total",
+        name: "Rain Water V2",
+        categoryId: 1,
+        productUrl:
+          "https://www.candlescience.com/fragrance/rain-water-fragrance-oil/",
+        msdsUrl:
+          "https://drive.google.com/file/d/1OHrC0W0N0WJ-ve63p-jbvjVOujPSrykw/view?usp=share_link",
+        ifraUrl:
+          "https://drive.google.com/file/d/1CeQw2FL428AC3uystRDr2qpxCfg3CxGQ/view?usp=share_link",
+        flashpointTemperatureFahrenheit: "212",
+        specificGravity: "1.003",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0.01",
+        weightOunces: "2",
+        remaining: "2",
+        price: "5.30",
+        shareOfShippingPercent: "10",
+      },
+    ],
+    supplierName: "CandleScience",
+    supplierId: 1,
+    notes: "total is subtotal - discounted free sample cost",
+    subtotalCost: "36.00",
+    shippingCost: "11.55",
+    taxesAndFees: "3.70",
+    totalCost: "48.60",
   },
 ];
