@@ -594,7 +594,6 @@
   {
     "__comments": "JGX8 CDN-5 Pom Fig Berg 2 week cure",
     "completedCandleWeightOunces": "24",
-    "completedCandleWeightOunces": "24",
     "volumeOverflowPercent": "60",
     "colorDescription": "whiteish",
     "burns": []
@@ -613,4 +612,81 @@
     "colorDescription": "whiteish",
     "burns": []
   },
+  {
+    "__comments": "VQ45 CDN-4 Honey Ginger Sel 2 week cure",
+    "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "8JOG CDN-2 4 oz black tin",
+    "completedCandleWeightOunces": "6",
+    "volumeOverflowPercent": "85",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "9XME CDN-3 4 oz black tin",
+    "completedCandleWeightOunces": "6",
+    "volumeOverflowPercent": "85",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "QVPQ CDN-4 4 oz black tin",
+    "completedCandleWeightOunces": "6",
+    "volumeOverflowPercent": "85",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "M7E7 CDN-5 4 oz black tin",
+    "completedCandleWeightOunces": "6",
+    "volumeOverflowPercent": "85",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "7NE1 CDN-2 cs mini white tin",
+    "completedCandleWeightOunces": "6",
+    "volumeOverflowPercent": "85",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "GYDV CDN-3 cs mini white tin",
+    "completedCandleWeightOunces": "6",
+    "volumeOverflowPercent": "85",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "POGK CDN-4 cs mini white tin",
+    "completedCandleWeightOunces": "6",
+    "volumeOverflowPercent": "85",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "2XJQ CDN-5 cs mini white tin",
+    "completedCandleWeightOunces": "6",
+    "volumeOverflowPercent": "85",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "YM7J CDN-4 black 4 oz tin",
+    "completedCandleWeightOunces": "6",
+    "volumeOverflowPercent": "85",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "55V4 CDN-4 cs mini white tin",
+    "completedCandleWeightOunces": "6",
+    "volumeOverflowPercent": "85",
+    "colorDescription": "whiteish",
+    "burns": []
+  }
 ]

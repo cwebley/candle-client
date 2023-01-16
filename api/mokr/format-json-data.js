@@ -20,8 +20,7 @@ const logProgramOptions = (prog) => {
   }
 };
 
-
-const formatJsonData = ( { chunkSize = 250 } ) => {
+const formatJsonData = ({ chunkSize = 250 }) => {
   console.log("formatjsondata: ", chunkSize);
 
   const updatesDataPath = path.join(__dirname, "data", "updates");
@@ -79,18 +78,25 @@ const handleIntegerArg = (value) => {
   console.log("handle integer arg: ", value);
 
   const parsedValue = parseInt(value, 10);
-   if (isNaN(parsedValue)) {
-    throw new commander.InvalidArgumentError('chunkSize needs to be an integer');
+  if (isNaN(parsedValue)) {
+    throw new commander.InvalidArgumentError(
+      "chunkSize needs to be an integer"
+    );
   }
 
   return parsedValue;
-}
+};
 
-program.option("-c, --chunkSize <number>", "chunk size for file writes", handleIntegerArg)
+program
+  .option(
+    "-c, --chunkSize <number>",
+    "chunk size for file writes",
+    handleIntegerArg
+  )
   .action(() => {
-  logProgramOptions(program);
-  formatJsonData(program.opts());
-});
+    logProgramOptions(program);
+    formatJsonData(program.opts());
+  });
 
 // eslint-disable-next-line no-undef
 program.parse(process.argv);

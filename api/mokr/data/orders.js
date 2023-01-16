@@ -1,5 +1,3 @@
-const faker = require("faker");
-
 module.exports = [
   {
     openDate: "2018-01-05",
@@ -3613,10 +3611,7 @@ module.exports = [
         ethylVanillinPercentage: "0",
         msdsUrl:
           "https://drive.google.com/file/d/1CKqw-2mBU97lUr_8Biinvk-CgAu7inIs/view?usp=sharing",
-        flashpointTemperatureFahrenheit: "210",
         specificGravity: "0.98",
-        vanillinPercentage: "0",
-        ethylVanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "2.5",
@@ -3649,7 +3644,7 @@ module.exports = [
           "https://www.fillmorecontainer.com/cocoa-therapy-fragrance-oil-25.html",
         ifraUrl:
           "https://drive.google.com/file/d/19CgnmwhRke58i-5l72sq7mKUy_hDtect/view?usp=sharing",
-        productUrl:
+        msdsUrl:
           "https://drive.google.com/file/d/1V2icYGgC3UbZUVNNXGzYJ9U7wL1XOpXS/view?usp=sharing",
         flashpointTemperatureFahrenheit: "160",
         specificGravity: "1.12",
@@ -8137,8 +8132,6 @@ module.exports = [
         flashpointTemperatureFahrenheit: "200",
         vanillinPercentage: "1.50",
         ethylVanillinPercentage: "0",
-        msdsUrl:
-          "https://www.fillmorecontainer.com/wild-mountian-honey-fragrance-oil.html",
         ifraUrl:
           "https://www.fillmorecontainer.com/amfile/file/download/file_id/4150/product_id/43597/",
         msdsUrl:
@@ -8269,7 +8262,6 @@ module.exports = [
         msdsUrl:
           "https://drive.google.com/file/d/1GMnp2M4EGDxPjC14Ti0nvAppJ7byVcFd/view?usp=sharing",
         specificGravity: "0.93",
-        flashpointTemperatureFahrenheit: "149",
         weightOunces: "1",
         remaining: "1",
         price: "3.25",
@@ -8474,8 +8466,6 @@ module.exports = [
         msdsUrl:
           "https://drive.google.com/file/d/1ir_NbQAY2JFfIa2X1TKNb_CNDZZKXY7M/view?usp=sharing",
         specificGravity: "0.97424",
-        flashpointTemperatureFahrenheit: "208",
-        vanillinPercentage: "0",
         weightOunces: "1",
         remaining: "1",
         price: "1.33",
@@ -9846,7 +9836,6 @@ module.exports = [
         msdsUrl:
           "https://drive.google.com/file/d/1JCwxyL2kDaHuLfZ9JeR4g6EdW6gNi6AJ/view?usp=sharing",
         specificGravity: "1.009",
-        flashpointTemperatureFahrenheit: "172",
         vanillinPercentage: "0.01",
         weightOunces: "1",
         remaining: "1",
@@ -14474,5 +14463,227 @@ module.exports = [
     shippingCost: "11.55",
     taxesAndFees: "3.70",
     totalCost: "48.60",
+  },
+  {
+    openDate: "2022-11-30",
+    items: [
+      {
+        type: "jars",
+        name: "16oz Lexington",
+        slug: "16oz-lexington",
+        productUrl: "https://www.glassnow.com/16oz-lexington-glass-container",
+        msdsUrl: null,
+        infoUrl: null,
+        overflowVolumeOunces: 16,
+        waxToFillLineOunces: 12.5,
+        waxToOverflowOunces: null,
+        notes: "jar weight: about 19.0oz",
+        referenceId: 23,
+        color: "clear",
+        count: "12",
+        remaining: "12",
+        price: "0",
+        shareOfShippingPercent: "100",
+      },
+    ],
+    supplierName: "Recycled",
+    supplierId: 15,
+    subtotalCost: "0",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "0",
+  },
+  {
+    openDate: "2023-01-09",
+    items: [
+      {
+        type: "jars",
+        name: "Mini Infinity Tin",
+        productUrl:
+          "https://www.candlescience.com/containers/mini-white-infinity-tin/",
+        notes: "",
+        diameterInches: "2.25",
+        overflowVolumeOunces: "4.4",
+        waxToFillLineOunces: "3.0",
+        color: "white",
+        count: "12",
+        remaining: "12",
+        price: "14.55",
+        shareOfShippingPercent: "50",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 1,
+        name: "Sweet Tobacco",
+        productUrl:
+          "https://www.candlescience.com/fragrance/sweet-tobacco-fragrance-oil/",
+        msdsUrl:
+          "https://drive.google.com/file/d/1XJbNEs5Ovm-os2KDuLAGcHO5F1cLMXkG/view?usp=share_link",
+        ifraUrl:
+          "https://drive.google.com/file/d/1XJbNEs5Ovm-os2KDuLAGcHO5F1cLMXkG/view?usp=share_link",
+        flashpointTemperatureFahrenheit: "225",
+        specificGravity: "0.9181",
+        vanillinPercentage: "0.01",
+        ethylVanillinPercentage: "1",
+        weightOunces: "4",
+        remaining: "4",
+        price: "10.75",
+        shareOfShippingPercent: "10",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 1,
+        name: "Petrichor",
+        msdsUrl:
+          "https://drive.google.com/file/d/1fo3qZBgDTa6fZbEsPIhLmc62P2A4ndt7/view?usp=share_link",
+        ifraUrl:
+          "https://drive.google.com/file/d/1xBUMRwHnTlocrWJwororUSzoUgUhVJR3/view?usp=share_link",
+        productUrl:
+          "https://www.candlescience.com/fragrance/petrichor-fragrance-oil/",
+        flashpointTemperatureFahrenheit: "270",
+        specificGravity: "1.088",
+        vanillinPercentage: "0",
+        ethylVanillinPercentage: "0",
+        weightOunces: "4",
+        remaining: "4",
+        price: "10.75",
+        shareOfShippingPercent: "10",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 2,
+        name: "Black Cardamom and Cream",
+        productUrl:
+          "https://www.candlescience.com/fragrance/black-cardamom-and-cream-fragrance-oil/",
+        ifraUrl:
+          "https://drive.google.com/file/d/1lu9MuwQTVI0KC8p5_WiZ2_14y5QrhWch/view?usp=share_link",
+        msdsUrl:
+          "https://drive.google.com/file/d/1HAL8v_JE7pgqmptHp61YcZen74WcZ5oL/view?usp=share_link",
+        flashpointTemperatureFahrenheit: "225",
+        specificGravity: "1.0432",
+        vanillinPercentage: "5",
+        ethylVanillinPercentage: "1",
+        weightOunces: "4",
+        remaining: "2",
+        price: "2.92",
+        shareOfShippingPercent: "3",
+        notes: "includes a 1oz free sample",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 1,
+        name: "Sage and Cypress",
+        productUrl:
+          "https://www.candlescience.com/fragrance/sage-and-cypress-fragrance-oil/",
+        msdsUrl:
+          "https://drive.google.com/file/d/1iCcDf9yKkRkh3cvgNYXAdMVFV6TVAidy/view?usp=share_link",
+        ifraUrl:
+          "https://drive.google.com/file/d/1iCcDf9yKkRkh3cvgNYXAdMVFV6TVAidy/view?usp=share_link",
+        flashpointTemperatureFahrenheit: "200",
+        specificGravity: "0.953",
+        vanillinPercentage: "0.01",
+        ethylVanillinPercentage: "0",
+        weightOunces: "4",
+        remaining: "4",
+        price: "10.28",
+        shareOfShippingPercent: "10",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 1,
+        productUrl:
+          "https://www.candlescience.com/fragrance/golden-santal-fragrance-oil/",
+        name: "Golden Santal",
+        vanillinPercentage: "0.01",
+        msdsUrl:
+          "https://drive.google.com/file/d/1RZptxp8hb3Lb3T8oB-t3ZFqzlPX0JCzU/view?usp=share_link",
+        ifraUrl:
+          "https://drive.google.com/file/d/1JoIBj6UHWLesZC_376UOiohMRAi2nKp9/view?usp=share_link",
+        flashpointTemperatureFahrenheit: "223",
+        specificGravity: "0.9818",
+        ethylVanillinPercentage: "0",
+        weightOunces: "4",
+        remaining: "4",
+        price: "11.10",
+        shareOfShippingPercent: "10",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 2,
+        name: "Toasted Coconut",
+        productUrl:
+          "https://www.candlescience.com/fragrance/toasted-coconut-fragrance-oil/",
+        ifraUrl:
+          "https://drive.google.com/file/d/1LduBLcoe14RjcTHDIkW_PT77fLvNP37r/view?usp=share_link",
+        msdsUrl:
+          "https://drive.google.com/file/d/1h0GIcy93j3qluMY2YzmyrW9ocOpRVsBM/view?usp=share_link",
+        flashpointTemperatureFahrenheit: "223",
+        specificGravity: "0.8913",
+        vanillinPercentage: "0.01",
+        ethylVanillinPercentage: "0",
+        weightOunces: "2",
+        remaining: "2",
+        price: "5.84",
+        shareOfShippingPercent: "5",
+      },
+      {
+        type: "fragrance-oil",
+        categoryId: 1,
+        name: "Fig Tree",
+        slug: "fig-tree",
+        categoryName: "earthy",
+        supplierId: 1,
+        productUrl:
+          "https://www.candlescience.com/fragrance/fig-tree-fragrance-oil",
+        msdsUrl:
+          "https://drive.google.com/file/d/1AUnVilL6SOhoz-FfhWTnJ7bxuSMQC0Xk/view?usp=sharing",
+        ifraUrl:
+          "https://drive.google.com/file/d/14zTqpNZg_MqggeOBRFrkcS75o7-u0Agj/view?usp=sharing",
+        allerginUrl: null,
+        flashpointTemperatureFahrenheit: 182.2,
+        specificGravity: 0.92,
+        vanillinPercentage: 0,
+        ethylVanillinPercentage: null,
+        notes: null,
+        referenceId: 277,
+        weightOunces: "16",
+        remaining: "16",
+        price: "25.12",
+        shareOfShippingPercent: "25",
+      },
+    ],
+    supplierName: "CandleScience",
+    supplierId: 1,
+    notes: "https://www.candlescience.com/account/orders/R995420114/",
+    subtotalCost: "91.31",
+    shippingCost: "16.53",
+    taxesAndFees: "8.89",
+    totalCost: "116.73",
+  },
+  {
+    openDate: "2023-01-09",
+    items: [
+      {
+        type: "jars",
+        name: "4 oz Black Candle Tin",
+        productUrl:
+          "https://www.amazon.com/dp/B0BDW97H5D?psc=1&ref=ppx_yo2ov_dt_b_product_details",
+        overflowVolumeOunces: "4.5",
+        waxToFillLineOunces: "2.85",
+        diameterInches: "2.25",
+        color: "white",
+        count: "12",
+        remaining: "12",
+        shareOfShippingPercent: "100",
+        price: "18.99",
+        waxToOverflowOunces: "3",
+      },
+    ],
+    supplierName: "Sonviitins",
+    supplierId: null,
+    subtotalCost: "18.99",
+    shippingCost: "0",
+    taxesAndFees: "0",
+    totalCost: "18.99",
   },
 ];

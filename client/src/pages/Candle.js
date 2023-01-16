@@ -14,25 +14,25 @@ import Candle from "../display-items/Candle";
 import handleApiError from "../utils";
 import api from "../api";
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {
     ...theme.mixins.gutters(),
     display: "flex",
     flexFlow: "row wrap",
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
   },
   paper: {
-    padding: theme.spacing(2)
+    padding: theme.spacing(2),
   },
   header: {
-    padding: theme.spacing(2)
+    padding: theme.spacing(2),
   },
   batchSummary: {},
   fragranceSummary: {},
   resourceTypeTitle: {
-    padding: theme.spacing(2)
-  }
+    padding: theme.spacing(2),
+  },
 });
 
 function CandlePage({ match, enqueueSnackbar, history, classes }) {
@@ -41,9 +41,9 @@ function CandlePage({ match, enqueueSnackbar, history, classes }) {
   const [updateBurns, setUpdateBurns] = useState([]);
   const [pageEditable, setPageEditable] = useState(null);
 
-  const handleUpdateCandle = async e => {
+  const handleUpdateCandle = async (e) => {
     e.preventDefault();
-    const updateCandle = async data => {
+    const updateCandle = async (data) => {
       try {
         const result = await axios.put(
           api.getUpdateCandleUrl(match.params.id),
@@ -51,7 +51,7 @@ function CandlePage({ match, enqueueSnackbar, history, classes }) {
         );
         if (result && result.data) {
           enqueueSnackbar(`Candle ${match.params.id} successfully updated`, {
-            variant: "success"
+            variant: "success",
           });
           setUpdateData(null);
         }
@@ -63,29 +63,29 @@ function CandlePage({ match, enqueueSnackbar, history, classes }) {
     fetchCandle();
   };
 
-  const handleCandleFormChange = e => {
+  const handleCandleFormChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
-    setCandle(candleData => ({
+    setCandle((candleData) => ({
       ...candleData,
-      [name]: value
+      [name]: value,
     }));
-    setUpdateData(updateData => ({
+    setUpdateData((updateData) => ({
       ...updateData,
-      [name]: value
+      [name]: value,
     }));
   };
 
-  const handleAddCandleComponent = data => {
-    setUpdateData(updateData => ({
+  const handleAddCandleComponent = (data) => {
+    setUpdateData((updateData) => ({
       ...updateData,
-      ...data
+      ...data,
     }));
   };
 
-  const handleAddBurn = data => {
+  const handleAddBurn = (data) => {
     console.log("ADD BURN: ", data);
-    setUpdateBurns(updateBurns => [
+    setUpdateBurns((updateBurns) => [
       ...updateBurns,
       {
         id: data.id,
@@ -93,15 +93,14 @@ function CandlePage({ match, enqueueSnackbar, history, classes }) {
         whenStopped: data.whenStopped.format("YYYY-MM-DD HH:mm:ss"),
         stoppedWeightOunces: data.stoppedWeightOunces,
         finished: data.finished,
-        notes: data.notes
-      }
+        notes: data.notes,
+      },
     ]);
   };
 
   const fetchCandle = useCallback(async () => {
     const result = await axios(api.getCandleUrl(match.params.id));
     if (result && result.data) {
-      
       setCandle(result.data);
     }
   }, [match.params.id]);
