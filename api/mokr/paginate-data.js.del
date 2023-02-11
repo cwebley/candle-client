@@ -1,0 +1,47 @@
+const path = require("path");
+const fs = require("fs");
+const async = require("neo-async");
+
+// eslint-disable-next-line no-undef
+const directoryPath = path.join(__dirname, "updates");
+const dataFileRegExp = new RegExp("[0-9].js");
+
+module.exports.consolidateData = function (err, cb) {
+  fs.readdir(directoryPath, (err, files) => {
+    console.log("files ", files);
+    const filteredFiles = files.filter((f) => dataFileRegExp.test(f));
+
+    filteredFiles.sort((a, b) => {
+      const aPageNumber = Number(a.split("-")[1].split(".")[0]);
+      const bPageNumber = Number(b.split("-")[1].split(".")[0]);
+
+      console.log("A : ", aPageNumber, " B : ", bPageNumber);
+      return bPageNumber > aPageNumber ? -1 : 1;
+    });
+    console.log("sorted files ", filteredFiles);
+
+    const fileReadCalls = filteredFiles.map((fileName) => {
+      return function (done) {
+        fs.readFile(`${directoryPath}/${fileName}`, (err, data) => {
+          let parsedData;
+          try {
+            parsedData = JSON.parse(data);
+          } catch (err) {
+            console.error("parse err, ", err);
+          }
+          done(err, parsedData ? parsedData : null);
+        });
+      };
+    });
+
+    async.parallel(fileReadCalls, (err, results) => {
+      if (err) {
+        console.error("async file read failed: ", err);
+        return cb();
+      }
+      const nonNullResults = results.filter((r) => r && results.length);
+      const combinedData = nonNullResults[0].concat(...nonNullResults.slice(1));
+      return cb(null, combinedData);
+    });
+  });
+};
