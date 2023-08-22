@@ -10434,7 +10434,8 @@ module.exports = [
         price: "5.84",
         shareOfShippingPercent: "30",
         diameterInches: "3.50",
-        notes: "jar weight: about 19.0oz",
+        notes:
+          "jar weight: about 19.0oz, actually needs like 11.5oz wax (plus the 12% fo)",
         waxToFillLineOunces: "12.50",
         overflowVolumeOunces: "16.0",
       },
@@ -14930,5 +14931,67 @@ module.exports = [
     shippingCost: "0",
     taxesAndFees: "0",
     totalCost: "150.04",
+  },
+  {
+    openDate: "2023-08-17",
+    items: [
+      {
+        type: "jars",
+        name: "Paris Candle Vessel",
+        productUrl:
+          "https://www.candlemakingsupplies.net/shop/vessel/paris-clear-candle-vessel",
+        waxToFillLineOunces: "16.5",
+        waxToOverflowOunces: "17",
+        overflowVolumeOunces: "24",
+        diameterInches: "5",
+        color: "clear",
+        count: "4",
+        remaining: "4",
+        price: "11.96",
+        shareOfShippingPercent: "100",
+        notes:
+          "15 oz wax (or less\u0021?) to fit the wood cap. 16.5 can fit the metal lid",
+      },
+    ],
+    supplierName: "CandleMakingSupplies",
+    supplierId: null,
+    subtotalCost: "11.96",
+    shippingCost: "8",
+    notes:
+      "https://mail.google.com/mail/u/0/#search/general+wax/FMfcgxwJXpNbCtNZPjLkgXrwdWhMgmXs",
+    taxesAndFees: "0",
+    totalCost: "19.96",
+  },
+  {
+    openDate: "2023-08-17",
+    items: [
+      {
+        type: "jars",
+        name: "Paris Candle Vessel",
+        slug: "paris-candle-vessel",
+        productUrl:
+          "https://www.candlemakingsupplies.net/shop/vessel/paris-clear-candle-vessel",
+        msdsUrl: null,
+        infoUrl: null,
+        overflowVolumeOunces: 24,
+        waxToFillLineOunces: 16.5,
+        waxToOverflowOunces: 17,
+        notes:
+          "15 oz wax (or less\u0021?) to fit the wood cap. 16.5 can fit the metal lid",
+        referenceId: 27,
+        color: "frosted white",
+        diameterInches: "5",
+        count: "2",
+        remaining: "2",
+        price: "5.98",
+        shareOfShippingPercent: "100",
+      },
+    ],
+    supplierName: "CandleMakingSupplies",
+    supplierId: 34,
+    subtotalCost: "5.98",
+    shippingCost: "4",
+    taxesAndFees: "0",
+    totalCost: "9.98",
   },
 ];
