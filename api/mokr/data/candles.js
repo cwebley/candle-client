@@ -9516,13 +9516,12 @@ module.exports = [
     {
       name: "Fig Pom Berg Montreal 3/3",
       jarHashId: "187Z",
-      wickHashId: "N3VD",
+      wickHashId: "5EKQ",
       wickLayout: "line",
       wickCount: "2",
       wickStickerHashId: "BE9B",
     },
   ],
-
   [
     {
       name: "Paris Candle Testers 1",
@@ -9547,6 +9546,58 @@ module.exports = [
       wickHashId: "NLKV",
       wickCount: "3",
       wickLayout: "line",
+      wickStickerHashId: "BE9B",
+    },
+  ],
+  [
+    {
+      name: "QAPPDA Amber Jar Tester Ginger Honey Salt CDN-3",
+      jarHashId: "MR9R",
+      wickHashId: "NLKV",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BE9B",
+    },
+    {
+      name: "QAPPDA Amber Jar Tester Ginger Honey Salt CDN-4",
+      jarHashId: "MR9R",
+      wickHashId: "DX3Q",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BE9B",
+    },
+    {
+      name: "QAPPDA Pom Tester CDN-5",
+      jarHashId: "MR9R",
+      wickHashId: "5EKQ",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BE9B",
+    },
+    {
+      name: "QAPPDA Pom Tester CDN-6",
+      jarHashId: "MR9R",
+      wickHashId: "NKXJ",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BE9B",
+    },
+    {
+      name: "QAPPDA SSS Full Tester CDN-4",
+      jarHashId: "MR9R",
+      wickHashId: "DX3Q",
+      wickCount: "1",
+      wickLayout: "center",
+      wickStickerHashId: "BE9B",
+    },
+  ],
+  [
+    {
+      name: "Glassnow 8.5oz Heavy Jar SSS Tester",
+      jarHashId: "MOK9",
+      wickHashId: "5EKQ",
+      wickCount: "1",
+      wickLayout: "center",
       wickStickerHashId: "BE9B",
     },
   ],
