@@ -579,42 +579,161 @@
   },
   {
     "__comments": "7N5M Full CDN-5 Pom Fig Berg",
-    "completedCandleWeightOunces": "24",
+    "completedCandleWeightOunces": "31",
     "volumeOverflowPercent": "60",
     "colorDescription": "whiteish",
     "burns": []
   },
   {
     "__comments": "DE4J CDN-5 Pom Fig Berg 2 week cure",
-    "completedCandleWeightOunces": "24",
+    "completedCandleWeightOunces": "31",
     "volumeOverflowPercent": "60",
     "colorDescription": "whiteish",
     "burns": []
   },
   {
     "__comments": "JGX8 CDN-5 Pom Fig Berg 2 week cure",
-    "completedCandleWeightOunces": "24",
+    "completedCandleWeightOunces": "31",
     "volumeOverflowPercent": "60",
     "colorDescription": "whiteish",
     "burns": []
   },
   {
     "__comments": "XG22 CDN-4 Honey Ginger Sel 2 week cure",
-    "completedCandleWeightOunces": "24",
+    "completedCandleWeightOunces": "31",
     "volumeOverflowPercent": "60",
     "colorDescription": "whiteish",
     "burns": []
   },
   {
     "__comments": "1ELZ CDN-4 Honey Ginger Sel 2 week cure",
+    "completedCandleWeightOunces": "31",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "NGLX Honey Ginger Sel 3/4 CDN-3 test",
     "completedCandleWeightOunces": "24",
     "volumeOverflowPercent": "60",
     "colorDescription": "whiteish",
     "burns": []
   },
   {
-    "__comments": "VQ45 CDN-4 Honey Ginger Sel 2 week cure",
+    "__comments": "ZP2J Honey Ginger Sel 3/4 CDN-4 test",
     "completedCandleWeightOunces": "24",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "49B2 Pom Fig Berg Holiday 2022 Amber",
+    "completedCandleWeightOunces": "31",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "OYLJ Pom Fig Berg Holiday 2022 Amber",
+    "completedCandleWeightOunces": "31",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "8JXY Pom Fig Berg Holiday 2022 Black",
+    "completedCandleWeightOunces": "31",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "9X1P Pom Fig Berg Holiday 2022 Black",
+    "completedCandleWeightOunces": "31",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "QVL7 Pom Fig Berg Holiday 2022 Black",
+    "completedCandleWeightOunces": "31",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "M7KL Pom Fig Berg Holiday 2022 Black",
+    "completedCandleWeightOunces": "31",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "7NJM Pom Fig Berg Holiday 2022 Black",
+    "completedCandleWeightOunces": "31",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "GYLM Pom Fig Berg Holiday 2022 Black",
+    "completedCandleWeightOunces": "31",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "5584 Ginger Honey Sel Holiday 2022 Olive",
+    "completedCandleWeightOunces": "31",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "B2L4 Ginger Honey Sel Holiday 2022 Olive",
+    "completedCandleWeightOunces": "31",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "6BQQ Ginger Honey Sel Holiday 2022 Olive",
+    "completedCandleWeightOunces": "31",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "DEO5 Ginger Honey Sel Holiday 2022 Olive",
+    "completedCandleWeightOunces": "31",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "JGPK Ginger Honey Sel Holiday 2022 Green",
+    "completedCandleWeightOunces": "31",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "XGMY Ginger Honey Sel Holiday 2022 Green",
+    "completedCandleWeightOunces": "31",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "1EZV Ginger Honey Sel Holiday 2022 Green",
+    "completedCandleWeightOunces": "31",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "VQ45 Ginger Honey Sel Holiday 2022 Green",
+    "completedCandleWeightOunces": "31",
     "volumeOverflowPercent": "60",
     "colorDescription": "whiteish",
     "burns": []
@@ -1755,16 +1874,1232 @@
   },
   {
     "__comments": "YMND QAPPDA SSS Full Tester CDN-4",
-    "completedCandleWeightOunces": "13.12",
+    "completedCandleWeightOunces": "13.90",
     "volumeOverflowPercent": "100",
     "colorDescription": "whiteish",
     "burns": []
   },
   {
     "__comments": "6BG8 Glassnow 8.5oz Heavy Jar SSS Tester",
-    "completedCandleWeightOunces": "19.12",
+    "completedCandleWeightOunces": "20.34",
     "volumeOverflowPercent": "100",
     "colorDescription": "whiteish",
     "burns": []
+  },
+  {
+    "__comments": "DEKK Whiskey + Birch + Almond Macaron Tin CDN-4",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "JGO4 Rose Petal + Smoked Oud + Vetiver Tin CDN-4",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-09-30 21:00:00",
+        "whenStopped": "2023-10-01 01:00:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "big bloom. need to try cdn-3. smells really nice. would love if it was even stronger though."
+      }
+    ]
+  },
+  {
+    "__comments": "XGEX Black Coral Moss + Lavender + Smoked Oud Tin CDN-4",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-09-30 21:00:00",
+        "whenStopped": "2023-10-01 01:00:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "perfect wick. a bit too much black coral moss. excited to test the update from the next batch with more lavender"
+      }
+    ]
+  },
+  {
+    "__comments": "1EGY Nag Champa + Fraser Fir + Black Coral Moss Tin CDN-4",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-09-30 21:00:00",
+        "whenStopped": "2023-10-01 01:00:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "perfect wick. the nag champa is way too much. smells too powdery. excited to try a different blend from the next batch, but shouldve reduced nag champa to only an accent--like 10%."
+      }
+    ]
+  },
+  {
+    "__comments": "VGVZ Vetiver + White Tea + Golden Santal Tin CDN-4",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-09-30 21:00:00",
+        "whenStopped": "2023-10-01 01:00:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick too small. need to try cdn-5? a bit too much white tea, not sure the vetiver is noticeable at all."
+      }
+    ]
+  },
+  {
+    "__comments": "KDOG Loeather + Black Amber Plum + Fig Tree Tin CDN-4",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "NGQG Lavender (50%) + Black Coral Moss (25%) + Oud (25%)",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "ZPEY Lavender (50%) + Black Coral Moss (30%) + Petrichor (20%)",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "L48M Lavender (30%) + Palo Santo (50%) + Patchouli (20%)",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "49PD Nag Champa (30%) + Rose Petals (40%) + Red Currant (40%) ",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "OYMX Santal Coco (60%) + Coffee Shop (30%)",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "8JP1 Palo Santo (33%) + Black Violet Saffron (33%) + Bergamot (33%)",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "QV5L Golden Santal (40%) + Vetiver (35%) + White Tea (25%) CDN-3",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-15 19:00:00",
+        "whenStopped": "2023-10-15 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "too small of a wick."
+      }
+    ]
+  },
+  {
+    "__comments": " M7YG Golden Santal (40%) + Vetiver (35%) + White Tea (25%) CDN-4",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-15 19:00:00",
+        "whenStopped": "2023-10-15 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "too small of a wick."
+      }
+    ]
+  },
+  {
+    "__comments": "7NPE Golden Santal (40%) + Vetiver (35%) + White Tea (25%) CDN-5",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-15 19:00:00",
+        "whenStopped": "2023-10-15 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick about right. maybe a bit small. smells great."
+      },
+      {
+        "whenStarted": "2023-10-16 12:00:00",
+        "whenStopped": "2023-10-16 21:44:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick a bit too small even after very long burn. need to try cdn-6"
+      },
+      {
+        "whenStarted": "2023-10-17 20:00:00",
+        "whenStopped": "2023-10-17 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick still too small. def need cdn-6"
+      }
+    ]
+  },
+  {
+    "__comments": "GYNX Lavender (50%) + Black Coral Moss (40%) + Petrichor (10%) CDN-3 ",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-15 19:00:00",
+        "whenStopped": "2023-10-15 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick too small"
+      }
+    ]
+  },
+  {
+    "__comments": "PO7V Lavender (50%) + Black Coral Moss (40%) + Petrichor (10%)  CDN-4",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-15 19:00:00",
+        "whenStopped": "2023-10-15 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick too small"
+      }
+    ]
+  },
+  {
+    "__comments": "2XPY Lavender (50%) + Black Coral Moss (40%) + Petrichor (10%) CDN-5",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-15 19:00:00",
+        "whenStopped": "2023-10-15 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "maybe a bit small of a wick. need to try cdn-6!. smells pretty great."
+      },
+      {
+        "whenStarted": "2023-10-16 12:00:00",
+        "whenStopped": "2023-10-16 21:44:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "pretty good, still very slightly too small of a wick. Would like to see cdn-6"
+      },
+      {
+        "whenStarted": "2023-10-17 20:00:00",
+        "whenStopped": "2023-10-17 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick a bit too small. need to try cdn-6. this is great though. really great."
+      }
+    ]
+  },
+  {
+    "__comments": "YMKD Palo Santo (50%) + Lavender (35%) + Patchouli (15%) CDN-3 ",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-16 12:00:00",
+        "whenStopped": "2023-10-16 21:44:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "pretty good wick. mushrooming but it was a very long burn."
+      },
+      {
+        "whenStarted": "2023-10-17 20:00:00",
+        "whenStopped": "2023-10-17 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick either perfect or a bit too cool. its between this and the cdn-4. honestly this is probably perfect. the 7% patchouli might be the best. or maybe even like 3% patchouli would be nice..."
+      },
+      {
+        "whenStarted": "2023-10-24 21:00:00",
+        "whenStopped": "2023-10-24 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "full shallow mp. flame m-. maybe a bit cool? but maybe pretty good. the 4 is nicer i think, but burns much quicker. given this was only a 3 hours burn, this might be totally fine. "
+      },
+      {
+        "whenStarted": "2023-10-24 20:00:00",
+        "whenStopped": "2023-10-24 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "near the very bottom here, wick looks good, flame m+--wick looks about the same as the cdn-4"
+      }
+    ]
+  },
+  {
+    "__comments": "55PE Palo Santo (50%) + Lavender (35%) + Patchouli (15%) CDN-4",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-16 12:00:00",
+        "whenStopped": "2023-10-16 21:44:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "pretty good wick, i think this is perfect. no mushrooming. only mushrooming on the 3."
+      },
+      {
+        "whenStarted": "2023-10-17 20:00:00",
+        "whenStopped": "2023-10-17 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick either perfect or a bit too hot. its between this and the cdn-3."
+      },
+      {
+        "whenStarted": "2023-10-24 21:00:00",
+        "whenStopped": "2023-10-24 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "looks great. full mp and down to the bottom at this point, but still a bit cloudier than the cdn-5. i THINK this is about perfect."
+      },
+      {
+        "whenStarted": "2023-10-24 20:00:00",
+        "whenStopped": "2023-10-24 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "near the very bottom here, wick looks good though on both this and the cdn-3"
+      }
+    ]
+  },
+  {
+    "__comments": "B2X7 Palo Santo (50%) + Lavender (35%) + Patchouli (15%) CDN-5",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-16 12:00:00",
+        "whenStopped": "2023-10-16 21:44:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "weirdly its a pretty great wick. "
+      },
+      {
+        "whenStarted": "2023-10-17 20:00:00",
+        "whenStopped": "2023-10-17 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick a bit too hot."
+      },
+      {
+        "whenStarted": "2023-10-24 21:00:00",
+        "whenStopped": "2023-10-24 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "full mp and clear to the bottom. its fine but its a bit hot. cdn-4 best."
+      }
+    ]
+  },
+  {
+    "__comments": "6BP8 Fig Tree (65%) + Black Amber Plum (20%) + Leather (15%) CDN-3   ",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-15 19:00:00",
+        "whenStopped": "2023-10-15 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "looks great, smells great. "
+      },
+      {
+        "whenStarted": "2023-10-16 12:00:00",
+        "whenStopped": "2023-10-16 21:44:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "this is pretty perfect still. maybe a tiny bit hotter would be best. but im sure this is fine. "
+      },
+      {
+        "whenStarted": "2023-10-17 20:00:00",
+        "whenStopped": "2023-10-17 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick pretty much perfect. potentially could be a touch hotter, but i think this is great."
+      }
+    ]
+  },
+  {
+    "__comments": "DEVK Fig Tree (65%) + Black Amber Plum (20%) + Leather (15%) CDN-4",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-15 19:00:00",
+        "whenStopped": "2023-10-15 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "Wick too big. CDN-3 looks about right"
+      }
+    ]
+  },
+  {
+    "__comments": "JG44 Fig Tree (65%) + Black Amber Plum (20%) + Leather (15%) CDN-5",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-15 19:00:00",
+        "whenStopped": "2023-10-15 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "Wick too big. CDN-3 looks about right"
+      }
+    ]
+  },
+  {
+    "__comments": "XGVX Rose (25%) + Oud (30%) + Vetiver (35%) CDN-3 ",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-15 19:00:00",
+        "whenStopped": "2023-10-15 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "Wick much too small. CDN-5 looks about right, but also a bit small"
+      }
+    ]
+  },
+  {
+    "__comments": "1EPY Rose (25%) + Oud (30%) + Vetiver (35%) CDN-4",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-15 19:00:00",
+        "whenStopped": "2023-10-15 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "Wick much too small. CDN-5 looks about right, but also a bit small"
+      }
+    ]
+  },
+  {
+    "__comments": "VQXZ Rose (25%) + Oud (30%) + Vetiver (35%) CDN-5",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-15 19:00:00",
+        "whenStopped": "2023-10-15 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "potentially the right wick. maybe a bit too small, but pretty good."
+      },
+      {
+        "whenStarted": "2023-10-16 12:00:00",
+        "whenStopped": "2023-10-16 21:44:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "this is pretty good. very tiny bit of mushrooming. could be very slightly hotter. would like to see a cdn-6, but this is good."
+      },
+      {
+        "whenStarted": "2023-10-17 20:00:00",
+        "whenStopped": "2023-10-17 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "full mp, this wick is totally fine if not a tiny bit too hot actually. i should re-try the cdn-4. its nice, but  a little medicinal smelling. i think its the oud. hmm."
+      }
+    ]
+  },
+  {
+    "__comments": "KD4G Palo Santo (57%) + Lavender (36%) + Patchouli (7%) CDN-4",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-17 20:00:00",
+        "whenStopped": "2023-10-17 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick too small. need to try cdn-5 probably. potentially cdn-6. smells wonderful. not sure if i like this or the 0% patchouli better..."
+      },
+      {
+        "whenStarted": "2023-10-24 20:00:00",
+        "whenStopped": "2023-10-24 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick a bit too small, but pretty nice. 5% next time!, cdn-4 and 5?"
+      }
+    ]
+  },
+  {
+    "__comments": "ENV2 Palo Santo (62%) + Lavender (38%) + Patchouli (0%) CDN-4",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-17 20:00:00",
+        "whenStopped": "2023-10-17 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick too small. not sure if i like this or the 7% better."
+      },
+      {
+        "whenStarted": "2023-10-24 20:00:00",
+        "whenStopped": "2023-10-24 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick too small. I like the 7% a little better. maybe 5% next time!"
+      }
+    ]
+  },
+  {
+    "__comments": "NG9G Golden Santal (48%) + Vetiver (40%) + White Tea (12%) CDN-4",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-17 20:00:00",
+        "whenStopped": "2023-10-17 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick much too small. need to try cdn-6 probably. its not obviously any better than the higher percentage of white tea. i think i like more white tea better."
+      }
+    ]
+  },
+  {
+    "__comments": "ZPVY Fig Tree (71%) + Black Amber Plum (22%) + Leather (7%) CDN-4",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-10-17 20:00:00",
+        "whenStopped": "2023-10-17 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "whoa this is really nice when burning. the wick may be a bit small. cdn-4 might be best. but this is also the first burn. not quite full mp and small flame but could be okay later"
+      }
+    ]
+  },
+  {
+    "__comments": "| 8J81    | Fig Tree (65%) + Black Amber Plum (20%) + Leather (15%) CDN-3          |",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "9X96    | Fig Tree (65%) + Black Amber Plum (20%) + Leather (15%) CDN-3",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "QV7L    | Fig Tree (65%) + Black Amber Plum (20%) + Leather (15%) CDN-3",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "M78G    | Fig Tree (65%) + Black Amber Plum (20%) + Leather (15%) CDN-3 ",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "2XVY    | Lavender (50%) + Black Coral Moss (40%) + Petrichor (10%) CDN-5",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-11-08 12:00:00",
+        "whenStopped": "2023-11-08 19:00:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "somehow the wick is too small."
+      }
+    ]
+  },
+  {
+    "__comments": "YM6D    | Lavender (50%) + Black Coral Moss (40%) + Petrichor (10%) CDN-6",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-11-08 12:00:00",
+        "whenStopped": "2023-11-08 19:00:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "somehow the wick is too small."
+      }
+    ]
+  },
+  {
+    "__comments": "55NE    | Lavender (50%) + Black Coral Moss (40%) + Petrichor (10%) CDN-7",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-11-08 12:00:00",
+        "whenStopped": "2023-11-08 19:00:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "somehow the wick is too small."
+      }
+    ]
+  },
+  {
+    "__comments": "B2B7    | Golden Santal (40%) + Vetiver (35%) + White Tea (25%) CDN-5",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-11-08 12:00:00",
+        "whenStopped": "2023-11-08 19:00:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "somehow the wick is too small."
+      }
+    ]
+  },
+  {
+    "__comments": "| 6BZ8    | Golden Santal (40%) + Vetiver (35%) + White Tea (25%) CDN-6            |",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-11-08 12:00:00",
+        "whenStopped": "2023-11-08 19:00:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "somehow the wick is too small."
+      }
+    ]
+  },
+  {
+    "__comments": "| DEDK    | Golden Santal (40%) + Vetiver (35%) + White Tea (25%) CDN-7",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-11-08 12:00:00",
+        "whenStopped": "2023-11-08 19:00:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "somehow the wick is too small."
+      }
+    ]
+  },
+  {
+    "__comments": "| 55NP    | Palo Santo (59%) + Lavender (36%) + Patchouli (5%) CDN-4               |",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-11-08 12:00:00",
+        "whenStopped": "2023-11-08 19:00:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "smells great. wick somehow too small."
+      }
+    ]
+  },
+  {
+    "__comments": "| B2BJ    | Palo Santo (59%) + Lavender (36%) + Patchouli (5%) CDN-5               |",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-11-08 12:00:00",
+        "whenStopped": "2023-11-08 19:00:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "smells great. wick somehow too small."
+      }
+    ]
+  },
+  {
+    "__comments": "| 6BZZ    | Palo Santo (59%) + Lavender (36%) + Patchouli (5%) CDN-6",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-11-08 12:00:00",
+        "whenStopped": "2023-11-08 19:00:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "smells great. wick somehow too small."
+      }
+    ]
+  },
+  {
+    "__comments": "| DEDP    | Coffee Shop + Cardamom Cream + Redwood Moss CDN-5",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-11-03 19:00:00",
+        "whenStopped": "2023-11-03 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "smells surprisingly nice, wick a bit cool. full mp but flame a bit small."
+      }
+    ]
+  },
+  {
+    "__comments": "| JGN9    | Coffee Shop + Cardamom Cream + Oud CDN-5       ",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-11-03 19:00:00",
+        "whenStopped": "2023-11-03 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "this one is pretty nice, as is the chestnut. wick is about perfect."
+      }
+    ]
+  },
+  {
+    "__comments": "| XG85    | Coffee Shop + Cardamom Cream + Vanilla Chestnut CDN-5 ",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-11-03 19:00:00",
+        "whenStopped": "2023-11-03 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "might be my favorite of the 3 coffees here. and perfect wick."
+      }
+    ]
+  },
+  {
+    "__comments": "| 1E1E    | Black Violet Oud Tobacco CDN-5                        ",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-11-02 19:00:00",
+        "whenStopped": "2023-11-02 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick is great, maybe a tiny bit too cool. but i love the color and size of the flame. not quite full mp, but im sure it will be perfect. smells kind of nice. too much tobacco though. need to do like 12%. maybe majority oud? idk"
+      }
+    ]
+  },
+  {
+    "__comments": "| VQZG    | Midnight Blackberry (45%) + Petrichor (10%) + Oud CDN-5 (45%)      ",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-11-05 19:00:00",
+        "whenStopped": "2023-11-05 10:30:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "wick is fine, almost full mp in 3.5 hour first burn. the blackberry is pretty potent and there's almost something a little gormand in there. can't decide if i like it."
+      }
+    ]
+  },
+  {
+    "__comments": "| KDLM    | Oud + Midnight Blackberry + Black Violet Saffron CDN-5 ",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-11-02 19:00:00",
+        "whenStopped": "2023-11-02 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "bit of a weird mix of fragrances. the violet and the citrusy blackberry scent is odd. wick a bit cool with a tiny bit of mushrooming. but the mp looks fine. not sure what to make of this."
+      }
+    ]
+  },
+  {
+    "__comments": "| EN5O    | Rose + Oud + Redwood CDN-5 ",
+    "completedCandleWeightOunces": "3.80",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-11-03 19:00:00",
+        "whenStopped": "2023-11-03 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "smells nice, not sure the redwood is doing that much. some mushrooming, but generally a bit too cool. could probably use a bit larger of a wick"
+      },
+      {
+        "whenStarted": "2023-11-05 19:00:00",
+        "whenStopped": "2023-11-05 10:30:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "smells nice, wick seems fine this time. bit of mushrooming again, so maybe try a different type to be thorough."
+      }
+    ]
+  },
+  {
+    "__comments": "start of november batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "5/24 batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "10/24 batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "15/24 batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "20/24 batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "24/24 end of november batch of 24 fig amber leather",
+    "completedCandleWeightOunces": "4.06",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "Golden Santal Vetiver White Tea CDN-8",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "Golden Santal Vetiver White Tea CD-8",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "Golden Santal Vetiver White Tea CD-7",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "Golden Santal Vetiver White Tea CD-6",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish",
+    "burns": []
+  },
+  {
+    "__comments": "8oz tin half tester FF CDN-2",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "a bit too hot. 1/2 inch mp."
+      },
+      {
+        "whenStarted": "2023-12-07 12:00:00",
+        "whenStopped": "2023-12-07 16:30:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "slightly too hot. full 1 inch mp. but this will have to do."
+      }
+    ]
+  },
+  {
+    "__comments": "8oz tin half tester FF CDN-3",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "too hot. 1/2 inch+ mp."
+      },
+      {
+        "whenStarted": "2023-12-07 12:00:00",
+        "whenStopped": "2023-12-07 16:30:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "too hot. full 1+ inch mp."
+      }
+    ]
+  },
+  {
+    "__comments": "8oz tin half tester FF CDN-4",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "8oz tin half tester FF CDN-5",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "8oz tin half tester TL CDN-2",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "too hot. 1/2+ inch mp."
+      },
+      {
+        "whenStarted": "2023-12-07 12:00:00",
+        "whenStopped": "2023-12-07 16:30:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "prob too hot. full 1+ inch mp. But this will have to do."
+      }
+    ]
+  },
+  {
+    "__comments": "8oz tin half tester TL CDN-3",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "too hot. 1 inch mp."
+      },
+      {
+        "whenStarted": "2023-12-07 12:00:00",
+        "whenStopped": "2023-12-07 16:30:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "prob too hot. full 1+ inch mp. But this will have to do."
+      }
+    ]
+  },
+  {
+    "__comments": "8oz tin half tester TL CDN-4",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "8oz tin half tester TL CDN-5",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
   }
 ]

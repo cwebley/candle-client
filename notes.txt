@@ -1,3 +1,9 @@
+cdn-3 
+cdn-4
+cdn-5
+cdn-6
+
+
 Experiments:
   in app? or maybe just better as a separate blog
 
@@ -1011,3 +1017,34 @@ Buy from Northstar
 edit-blend doesn't take into account remaining into the total calculation
 http://localhost:3002/new-blend
 
+Pre thanksgiving candles:
+
+Lavender (50%) + Black Coral Moss (40%) + Petrichor (10%)
+-CDN-5
+-CDN-6
+-CDN-7
+
+Golden Santal (40%) + Vetiver (35%) + White Tea (25%)
+-CDN-5
+-CDN-6
+-CDN-7
+
+Palo Santo (57%) + Lavender (36%) + Patchouli (7%)
+-CDN-4
+-CDN-5
+-CDN-6
+
+Coffee Shop + Cardamom Cream + Redwood Moss
+Coffee Shop + Cardamom Cream + Oud
+Coffee Shop + Cardamom Cream + Vanilla Chestnut
+
+Black Violet Oud Tobacco
+Midnight Blackberry + Petrichor + Oud
+
+Oud + Black Cardamom + Black Violet Saffron
+
+Rose + Oud + Redwood
+
+
+
+50 oz left

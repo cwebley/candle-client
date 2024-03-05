@@ -40,7 +40,7 @@ module.exports = function getCandle(req, res) {
           }
 
           layerData.forEach((l, i) => {
-            console.log("TOP OF LAYER MATH");
+            console.log("TOP OF LAYER MATH completedCandleWeightOunces: ", candleResult.completedCandleWeightOunces, "numb of layers; ", layerData.length);
             // find the weight of the next layer, or if this is the last layer,
             // find the weight of the finished candle if available
             const nextWeightOunces =
@@ -49,9 +49,11 @@ module.exports = function getCandle(req, res) {
               candleResult.completedCandleWeightOunces ||
               l.preppedContainerWeightOunces;
 
-            pourWeightOuncesDecimal =
+            const pourWeightOuncesDecimal =
               nextWeightOunces - l.preppedContainerWeightOunces;
             l.pourWeightOunces = pourWeightOuncesDecimal.toFixed(2);
+
+            console.log("FFFFFFFFFFF: ", pourWeightOuncesDecimal, ' NEXT : ', nextWeightOunces, " PREPPED: ", l.preppedContainerWeightOunces);
 
             // add this layer's weight to the candle's total pour weight
             candleResult.pourWeightOunces
