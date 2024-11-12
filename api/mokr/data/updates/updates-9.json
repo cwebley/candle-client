@@ -1607,7 +1607,7 @@
     "burns": []
   },
   {
-    "__comments": "LZ SSS",
+    "__comments": "",
     "completedCandleWeightOunces": "6",
     "volumeOverflowPercent": "85",
     "colorDescription": "whiteish",
@@ -3101,5 +3101,440 @@
         "notes": "way too hot. full mp."
       }
     ]
+  },
+  {
+    "__comments": "Cara 1",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 2",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 3",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 4",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 5",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 6",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 7",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 8",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 9",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 10",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 11",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 12",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 13",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 14",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 15",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 16",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 17",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 18",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 19",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 20",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 21",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Cara 22",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "burns": [
+      {
+        "whenStarted": "2023-12-06 21:00:00",
+        "whenStopped": "2023-12-06 11:59:00",
+        "stoppedWeightOunces": 3.5,
+        "notes": "way too hot. full mp."
+      }
+    ]
+  },
+  {
+    "__comments": "Rose Palo Oud tin",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Oud amber",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Oud violet tin",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Oud violet petrichor tin",
+    "completedCandleWeightOunces": "4.00",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish",
+    "notes": "too much petrichor"
+  },
+  {
+    "__comments": "Rose Palo Out amber jar cdn-4 test 1",
+    "completedCandleWeightOunces": "12.75",
+    "volumeOverflowPercent": "80",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Out amber jar cdn-4 test 2",
+    "completedCandleWeightOunces": "13.38",
+    "volumeOverflowPercent": "100",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Out amber jar cdn-3 test 1",
+    "completedCandleWeightOunces": "13.32",
+    "volumeOverflowPercent": "85",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Out amber jar cdn-3 test 2",
+    "completedCandleWeightOunces": "14.615",
+    "volumeOverflowPercent": "105",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Out Tealight eco 0.5",
+    "completedCandleWeightOunces": "0.67",
+    "volumeOverflowPercent": "60",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Out Tealight eco 0.5",
+    "completedCandleWeightOunces": "0.56",
+    "volumeOverflowPercent": "70",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Out Tealight eco 0.5 dipped",
+    "completedCandleWeightOunces": "0.58",
+    "volumeOverflowPercent": "70",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Out Tealight eco 0.5 dipped",
+    "completedCandleWeightOunces": "0.55",
+    "volumeOverflowPercent": "70",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Out Tealight eco 0.75",
+    "completedCandleWeightOunces": "0.56",
+    "volumeOverflowPercent": "70",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Out Tealight eco 0.75",
+    "completedCandleWeightOunces": "0.505",
+    "volumeOverflowPercent": "70",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Out Tealight lx-8",
+    "completedCandleWeightOunces": "0.674",
+    "volumeOverflowPercent": "70",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Out Tealight lx-8",
+    "completedCandleWeightOunces": "0.632",
+    "volumeOverflowPercent": "70",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Out Tealight htp-31",
+    "completedCandleWeightOunces": "0.63",
+    "volumeOverflowPercent": "70",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Out Tealight htp-31",
+    "completedCandleWeightOunces": "0.60",
+    "volumeOverflowPercent": "70",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Out Tealight eco 0.5 dipped (unused so far)",
+    "completedCandleWeightOunces": "0.40",
+    "volumeOverflowPercent": "70",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Out Tealight eco 0.5 dipped (unused so far)",
+    "completedCandleWeightOunces": "0.40",
+    "volumeOverflowPercent": "70",
+    "colorDescription": "whiteish"
+  },
+  {
+    "__comments": "Rose Palo Out Tealight eco 0.5 dipped (unused so far)",
+    "completedCandleWeightOunces": "0.40",
+    "volumeOverflowPercent": "70",
+    "colorDescription": "whiteish"
   }
 ]

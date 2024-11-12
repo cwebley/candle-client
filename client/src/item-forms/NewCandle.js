@@ -25,6 +25,7 @@ const styles = (theme) => ({
   },
 });
 
+
 function NewCandle({
   values,
   editCandleIndex,

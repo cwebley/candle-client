@@ -8,8 +8,8 @@ module.exports.consolidateData = function (
   cb
 ) {
   fs.readdir(dataPath, (err, files) => {
-    console.log("files ", files);
-    const filteredFiles = files.filter((f) => dataFileRegExp.test(f));
+    console.log("files ", files)
+                    const filteredFiles = files.filter((f) => dataFileRegExp.test(f));
     console.log('filtered files: ', filteredFiles);
 
     filteredFiles.sort((a, b) => {
