@@ -1,13 +1,17 @@
+require("dotenv").config();
 const fetchUpdatesData = require("../data/updates");
 const request = require("request");
 const async = require("neo-async");
 
+const API_PORT = process.env.PORT || 5000;
+
 module.exports.dependsOn = ["candles", "batches"];
 
-module.exports.up = function(state, dependencies, next) {
-  // console.log("STATE: ", state);
-  // console.log("DEPS: ", dependencies.candles.state.candles);
-  console.log("FLATTENED: ", dependencies.candles.state.candles.flat());
+module.exports.up = function(next) {
+  const self = this;
+  // console.log("STATE: ", self.state);
+  // console.log("DEPS: ", self.dependencies.candles.state.candles);
+  console.log("FLATTENED: ", self.dependencies.candles.state.candles.flat());
   // console.log("UPDATES DATA: ", updatesData);
   fetchUpdatesData((err, updatesData) => {
     if (err) {
@@ -19,7 +23,7 @@ module.exports.up = function(state, dependencies, next) {
       return request(
         {
           method: "PUT",
-          url: `http://localhost:5000/candles/${dependencies.candles.state.candles.flat()[i].hashId
+          url: `http://localhost:${API_PORT}/candles/${self.dependencies.candles.state.candles.flat()[i].hashId
             }`,
           json: true,
           body: update
@@ -38,12 +42,12 @@ module.exports.up = function(state, dependencies, next) {
 
     async.series(seriesFuncs, (err, batches) => {
       console.log("DONE SERIES FUNCS: ", err, batches);
-      state.batches = batches;
+      self.state.batches = batches;
       return next(err);
     });
   });
 };
 
-module.exports.down = function(state, dependencies, next) {
+module.exports.down = function(next) {
   next();
 };

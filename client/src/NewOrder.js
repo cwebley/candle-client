@@ -31,11 +31,11 @@ import MiscEquipmentForm from "./resource-types/MiscEquipmentForm";
 
 import { currentDate } from "./utils";
 import ItemTable from "./ItemTable";
-
 import { withStyles } from "@material-ui/core/styles";
 import { withSnackbar } from "notistack";
-
 import axios from "axios";
+
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3001";
 
 const styles = (theme) => ({
   root: {
@@ -116,7 +116,7 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
     e.preventDefault();
     try {
       const result = await axios.post(
-        "http://localhost:5000/supply-orders",
+        `${API_URL}/supply-orders`,
         values
       );
       enqueueSnackbar(
@@ -154,7 +154,7 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
   // fetch one time data from the server
   useEffect(() => {
     const fetchResourceTypes = async () => {
-      const result = await axios("http://localhost:5000/resource-types");
+      const result = await axios(`${API_URL}/resource-types`);
       if (result && result.data) {
         const filteredResults = result.data.filter((r) => r.scope === "order");
         setResourceTypes(filteredResults);
@@ -169,7 +169,7 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
     };
     const fetchFragranceOilCategories = async () => {
       const result = await axios(
-        "http://localhost:5000/fragrance-oil-categories"
+        `${API_URL}/fragrance-oil-categories`
       );
       if (result && result.data) {
         setFragranceOilCategories(result.data);
@@ -184,7 +184,7 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
       }
     };
     const fetchSuppliers = async () => {
-      const result = await axios("http://localhost:5000/suppliers");
+      const result = await axios(`${API_URL}/suppliers`);
       if (result && result.data) {
         setSuppliers(result.data);
         const recycledSupplier = result.data.filter(
@@ -208,7 +208,7 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
     const supplierFilterQuery = `?supplierId=${values.supplierId}`;
 
     const fetchFragrancesForSupplier = async () => {
-      let fragranceRefUrl = "http://localhost:5000/fragrance-reference";
+      let fragranceRefUrl = `${API_URL}/fragrance-reference`;
       if (values.supplierId !== recycledSupplierId) {
         fragranceRefUrl += supplierFilterQuery;
       }
@@ -219,7 +219,7 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
     };
 
     const fetchJarReferencesForSupplier = async () => {
-      let jarReferenceUrl = "http://localhost:5000/jar-reference";
+      let jarReferenceUrl = `${API_URL}/jar-reference`;
       if (values.supplierId !== recycledSupplierId) {
         jarReferenceUrl += supplierFilterQuery;
       }
@@ -230,7 +230,7 @@ function NewOrder({ history, location, enqueueSnackbar, classes }) {
     };
 
     const fetchWickReferencesForSupplier = async () => {
-      let wickReferenceUrl = "http://localhost:5000/wick-reference";
+      let wickReferenceUrl = `${API_URL}/wick-reference`;
       if (values.supplierId !== recycledSupplierId) {
         wickReferenceUrl += supplierFilterQuery;
       }

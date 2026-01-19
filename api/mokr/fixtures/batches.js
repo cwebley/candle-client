@@ -1,10 +1,14 @@
+require("dotenv").config();
 const batchesData = require("../data/batches");
 const request = require("request");
 const async = require("neo-async");
 
+const API_PORT = process.env.PORT || 5000;
+
 module.exports.dependsOn = ["candles"];
 
-module.exports.up = function (state, dependencies, next) {
+module.exports.up = function (next) {
+  const self = this;
   const seriesFuncs = batchesData.map((fixtureData) => (done) => {
     // this field is only required for these fixtures. blends and batches
     // need to be updated in sync
@@ -12,7 +16,7 @@ module.exports.up = function (state, dependencies, next) {
       return request(
         {
           method: "POST",
-          url: "http://localhost:5000/blend",
+          url: `http://localhost:${API_PORT}/blend`,
           json: true,
           body: fixtureData,
         },
@@ -37,7 +41,7 @@ module.exports.up = function (state, dependencies, next) {
       return request(
         {
           method: "PATCH",
-          url: `http://localhost:5000/blend/${fixtureData.blendId}`,
+          url: `http://localhost:${API_PORT}/blend/${fixtureData.blendId}`,
           json: true,
           body: fixtureData,
         },
@@ -61,7 +65,7 @@ module.exports.up = function (state, dependencies, next) {
     return request(
       {
         method: "POST",
-        url: "http://localhost:5000/batches",
+        url: `http://localhost:${API_PORT}/batches`,
         json: true,
         body: fixtureData,
       },
@@ -85,11 +89,11 @@ module.exports.up = function (state, dependencies, next) {
 
   async.series(seriesFuncs, (err, batches) => {
     console.log("DONE SERIES FUNCS: ", err, batches);
-    state.batches = batches;
+    self.state.batches = batches;
     return next(err);
   });
 };
 
-module.exports.down = function (state, dependencies, next) {
+module.exports.down = function (next) {
   next();
 };

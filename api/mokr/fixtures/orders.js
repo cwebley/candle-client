@@ -1,14 +1,17 @@
+require("dotenv").config();
 const ordersData = require("../data/orders");
 const request = require("request");
 const async = require("neo-async");
 
-module.exports.up = function(state, dependencies, next) {
-  console.log("TCL: module.exports.up -> state, dependencies, next", state, dependencies, next)
+const API_PORT = process.env.PORT || 5000;
+
+module.exports.up = function(next) {
+  const self = this;
   const seriesFuncs = ordersData.map(o => done =>
     request(
       {
         method: "POST",
-        url: "http://localhost:5000/supply-orders",
+        url: `http://localhost:${API_PORT}/supply-orders`,
         json: true,
         body: o
       },
@@ -18,7 +21,7 @@ module.exports.up = function(state, dependencies, next) {
             `Non 200 response: ${resp.statusCode}. body: ${body}`
           );
         }
-        console.log("SAVING BODY TO STATE ", this, body);
+        console.log("SAVING BODY TO STATE ", self, body);
         return done(err, body);
       }
     )
@@ -26,11 +29,11 @@ module.exports.up = function(state, dependencies, next) {
 
   async.series(seriesFuncs, (err, orders) => {
     console.log("DONE SERIES FUNCS: ", err, orders);
-    state.orders = orders;
+    self.state.orders = orders;
     return next(err);
   });
 };
 
-module.exports.down = function(state, dependencies, next) {
+module.exports.down = function(next) {
   next();
 };

@@ -9,6 +9,8 @@ import CircularProgress from "@material-ui/core/CircularProgress";
 
 import ItemTable from "./ItemTable";
 
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3001";
+
 const styles = theme => ({
   root: {
     ...theme.mixins.gutters(),
@@ -36,7 +38,7 @@ function Order({ match, classes }) {
     () => {
       const fetchSupplyOrder = async () => {
         const result = await axios(
-          `http://localhost:5000/supply-orders/${match.params.id}`
+          `${API_URL}/supply-orders/${match.params.id}`
         );
         console.log("RESULTS: ", result && result.data);
         if (result && result.data) {

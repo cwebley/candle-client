@@ -13,6 +13,8 @@ import CandleTable from "../CandleTable";
 import NewCandleDialog from "../item-forms/NewCandle";
 import api from "../api.js";
 
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3001";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     ...theme.mixins.gutters(),
@@ -47,7 +49,7 @@ function NewCandles({ enqueueSnackbar }) {
   // fetch autocomplete options from server on page load
   useEffect(() => {
     const fetchJarOptions = async () => {
-      let jarOptionUrl = "http://localhost:5000/jars";
+      let jarOptionUrl = `${API_URL}/jars`;
       const result = await axios(jarOptionUrl);
       if (result && result.data) {
         setJarOptions(result.data);
@@ -55,7 +57,7 @@ function NewCandles({ enqueueSnackbar }) {
     };
 
     const fetchWickOptions = async () => {
-      let wickOptionUrl = "http://localhost:5000/wicks";
+      let wickOptionUrl = `${API_URL}/wicks`;
       const result = await axios(wickOptionUrl);
       if (result && result.data) {
         setWickOptions(result.data);
@@ -63,7 +65,7 @@ function NewCandles({ enqueueSnackbar }) {
     };
 
     const fetchWickStickerOptions = async () => {
-      let wickStickerOptionUrl = "http://localhost:5000/wick-stickers";
+      let wickStickerOptionUrl = `${API_URL}/wick-stickers`;
       const result = await axios(wickStickerOptionUrl);
       if (result && result.data) {
         setWickStickerOptions(result.data);

@@ -13,6 +13,8 @@ import CandleResource from "../display-items/CandleResource";
 import BatchLayer from "../display-items/BatchLayer";
 import { processAllBatchData } from "../utils";
 
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3001";
+
 const styles = theme => ({
   root: {
     ...theme.mixins.gutters(),
@@ -41,7 +43,7 @@ function Batch({ match, classes }) {
   useEffect(() => {
     const fetchBatch = async () => {
       const result = await axios(
-        `http://localhost:5000/batches/${match.params.id}`
+        `${API_URL}/batches/${match.params.id}`
       );
       console.log("RESULTS: ", result && result.data);
       if (result && result.data) {

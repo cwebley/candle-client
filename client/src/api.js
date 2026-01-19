@@ -1,22 +1,24 @@
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3001";
+
 const api = {
-  newCandlesUrl: "http://localhost:5000/candles",
-  resourceTypesUrl: "http://localhost:5000/resource-types",
-  waxToFillUrl: "http://localhost:5000/candles/wax-to-fill",
-  newBatchUrl: "http://localhost:5000/batches",
-  newBlendUrl: "http://localhost:5000/blend",
+  newCandlesUrl: `${API_URL}/candles`,
+  resourceTypesUrl: `${API_URL}/resource-types`,
+  waxToFillUrl: `${API_URL}/candles/wax-to-fill`,
+  newBatchUrl: `${API_URL}/batches`,
+  newBlendUrl: `${API_URL}/blend`,
   getCandleUrl: (candleHashId) =>
-    `http://localhost:5000/candles/${candleHashId}`,
-  getBlendUrl: (blendId) => `http://localhost:5000/blend/${blendId}`,
+    `${API_URL}/candles/${candleHashId}`,
+  getBlendUrl: (blendId) => `${API_URL}/blend/${blendId}`,
   getUpdateCandleUrl: (candleHashId) =>
-    `http://localhost:5000/candles/${candleHashId}`,
-  waxesUrl: "http://localhost:5000/waxes?availableOnly=true",
-  additivesUrl: "http://localhost:5000/additives?availableOnly=true",
-  fragranceOilsUrl: "http://localhost:5000/fragrance-oils",
-  dyesUrl: "http://localhost:5000/dyes",
-  blendsUrl: "http://localhost:5000/blends?availableOnly=true",
-  candlesUrl: "http://localhost:5000/candles",
+    `${API_URL}/candles/${candleHashId}`,
+  waxesUrl: `${API_URL}/waxes?availableOnly=true`,
+  additivesUrl: `${API_URL}/additives?availableOnly=true`,
+  fragranceOilsUrl: `${API_URL}/fragrance-oils`,
+  dyesUrl: `${API_URL}/dyes`,
+  blendsUrl: `${API_URL}/blends?availableOnly=true`,
+  candlesUrl: `${API_URL}/candles`,
   // getCandleListUrl: (hashIds) =>
-  // `http://localhost:5000/candle-list?candle=${hashIds.split(",")}`,
-  // candleListUrl: "http://localhost:5000/candles",
+  // `${API_URL}/candle-list?candle=${hashIds.split(",")}`,
+  // candleListUrl: `${API_URL}/candles`,
 };
 export default api;

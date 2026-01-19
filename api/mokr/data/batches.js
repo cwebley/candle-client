@@ -26354,5 +26354,4 @@ module.exports = [
       },
     ],
   },
-  TODO: Wedding tealights
 ];

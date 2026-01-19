@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
@@ -204,5 +205,7 @@ app.route("/candles/:id").put(updateCandle);
 
 app.get("/status", (req, res) => res.send("Working!"));
 
-app.set("port", process.env.PORT || 5000);
-app.listen(5000);
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`API server listening on port ${PORT}`);
+});

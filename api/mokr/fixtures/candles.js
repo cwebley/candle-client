@@ -1,15 +1,19 @@
+require("dotenv").config();
 const candlesData = require("../data/candles");
 const request = require("request");
 const async = require("neo-async");
 
+const API_PORT = process.env.PORT || 5000;
+
 module.exports.dependsOn = ["orders"];
 
-module.exports.up = function (state, dependencies, next) {
+module.exports.up = function (next) {
+  const self = this;
   const seriesFuncs = candlesData.map((candleGroup) => (done) =>
     request(
       {
         method: "POST",
-        url: "http://localhost:5000/candles",
+        url: `http://localhost:${API_PORT}/candles`,
         json: true,
         body: candleGroup,
       },
@@ -23,18 +27,18 @@ module.exports.up = function (state, dependencies, next) {
             )}`
           );
         }
-        console.log("SAVING BODY TO STATE ", this, body);
+        console.log("SAVING BODY TO STATE ", self, body);
         return done(err, body);
       }
     )
   );
 
   async.series(seriesFuncs, (err, candles) => {
-    state.candles = candles;
+    self.state.candles = candles;
     return next(err);
   });
 };
 
-module.exports.down = function (state, dependencies, next) {
+module.exports.down = function (next) {
   next();
 };
